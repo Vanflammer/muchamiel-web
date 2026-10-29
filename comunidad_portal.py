@@ -17,7 +17,7 @@ E = html.escape
 SITE = 'https://muchamielwow.github.io/'  # desde el 14-10; antes wow-forever-guia.pages.dev (bloqueos de LaLiga a Cloudflare)
 TWITCH, KICK, YT = 'https://www.twitch.tv/muchamiel', 'https://kick.com/muchamiel', 'https://www.youtube.com/@muchamiel'
 YT_SUB = YT + '?sub_confirmation=1'
-DISCORD = 'https://discord.gg/eu3e3zm4fq'
+DISCORD = 'https://discord.gg/U8VkN5yXJ8'
 AVATAR = 'https://static-cdn.jtvnw.net/jtv_user_pictures/193d41e2-6ed4-4f43-b1a7-ba2b0f8f297c-profile_image-300x300.png'
 TFO_RULES = 'https://raider.io/events/the-forever-open/rules-regulations-code-of-conduct'
 FECHA_DATOS = '9 de octubre de 2026'
