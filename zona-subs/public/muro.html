@@ -1,0 +1,21 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Muro · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main>
+<h1>💛 Muro de agradecimiento</h1>
+<p class="lead">Gracias a quienes apoyan el canal. Solo sale quien quiere, con su nombre de Discord.</p>
+<p><button class="btn" id="boton">…</button></p>
+<div class="muro" id="muro"></div>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const pinta = d => {
+  document.getElementById('muro').innerHTML = d.nombres.map(n => `<span>${n.replace(/[<>&]/g, '')}</span>`).join('') || '<p class="mut">Todavía no hay nadie. ¡Sé el primero!</p>';
+  const b = document.getElementById('boton');
+  b.textContent = d.estoy ? 'Quitar mi nombre' : 'Poner mi nombre';
+  b.className = 'btn' + (d.estoy ? ' gris' : '');
+  b.onclick = async () => pinta(await fetch('/api/muro', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({apuntar: !d.estoy})}).then(r => r.json()));
+};
+fetch('/api/muro').then(r => r.json()).then(pinta);
+</script></body></html>

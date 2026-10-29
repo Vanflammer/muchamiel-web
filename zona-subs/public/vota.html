@@ -1,0 +1,25 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Vota · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main>
+<h1>🗳️ Vota</h1><p class="lead" id="pregunta">Cargando…</p>
+<div id="ops"></div><p class="mut">Un voto por persona; puedes cambiarlo cuando quieras.</p>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const pinta = d => {
+  document.getElementById('pregunta').textContent = d.pregunta;
+  const total = d.cuenta.reduce((a, b) => a + b, 0) || 1;
+  const c = document.getElementById('ops'); c.innerHTML = '';
+  d.opciones.forEach((o, i) => {
+    const b = document.createElement('button');
+    b.className = 'op' + (d.mio === i ? ' mia' : '');
+    const pct = d.mio === null ? 0 : Math.round(d.cuenta[i] * 100 / total);
+    b.innerHTML = `<div class="barra" style="width:${pct}%"></div><span>${d.mio === i ? '✔ ' : ''}${o.replace(/[<>&]/g, '')}${d.mio === null ? '' : ` · ${pct} % (${d.cuenta[i]})`}</span>`;
+    b.onclick = async () => pinta({...d, ...(await fetch('/api/votar', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({opcion: i})}).then(r => r.json()))});
+    c.append(b);
+  });
+};
+fetch('/api/votar').then(r => r.json()).then(pinta);
+</script></body></html>

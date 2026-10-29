@@ -1,0 +1,19 @@
+:root{--bg:#0b0f16;--card:#121926;--line:#273247;--gold:#f4d27a;--gold2:#c99a3c;--txt:#e6ebf2;--mut:#9aa6b8;--ok:#5fd38a;--ko:#e06a5f;--dc:#5865f2}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:#7fb2ff}a:hover{color:var(--gold)}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line);background:#080b11}
+header b{color:var(--gold)}header .yo{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--mut)}header img{width:28px;height:28px;border-radius:50%}
+main{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+h1{color:var(--gold);font-size:clamp(24px,4vw,34px);margin:.2em 0 .3em}h2{font-size:20px;margin:1.6em 0 .5em}
+.lead{color:#cfd7e3;font-size:17px}.mut{color:var(--mut);font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px 0}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--txt)}
+.card b{display:block;color:var(--gold);margin-bottom:4px}.card small{color:var(--mut)}.card.pronto{opacity:.6}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}.box.ok{border-left:4px solid var(--ok)}.box.ko{border-left:4px solid var(--ko)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--dc);color:#fff;border:0;border-radius:10px;padding:13px 20px;font-size:16px;font-weight:600;cursor:pointer;text-decoration:none}
+.btn:hover{filter:brightness(1.1);color:#fff}.btn.gris{background:#253247}
+.op{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer;font-size:15px;position:relative;overflow:hidden}
+.op .barra{position:absolute;inset:0 auto 0 0;background:#c99a3c33;z-index:0}.op span{position:relative;z-index:1}.op.mia{border-color:var(--gold2)}
+.muro{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.muro span{background:#1b2333;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px}
+.centro{text-align:center;padding-top:8vh}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
