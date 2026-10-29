@@ -7,6 +7,7 @@ G=github-pages
 # 29-10: primero se guarda el generador en github.com/Vanflammer/muchamiel-web (lo usa la tarea diaria en la nube y,
 # cada 30 min, la tarea «Publicar la web» del GitHub de Muchamiel copia de ahí web/dist). Si no se guardara, esa tarea
 # devolvería la web a la versión anterior.
+[ -d ../MuchamielLockPvP ] && cp -r ../MuchamielLockPvP/. MuchamielLockPvP/  # la copia del addon para la nube, al día
 git add -A && { git diff --cached --quiet || git commit -q -m "${1:-Actualización de la web}
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"; }

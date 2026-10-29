@@ -269,9 +269,9 @@ def install(dist):
             file.write_text(s, encoding='utf-8')
     downloads = dist / 'downloads'
     downloads.mkdir(exist_ok=True)
-    source = Path(__file__).resolve().parent / 'MuchamielLockPvP'  # 29-10: copia dentro de la carpeta, para generar en la nube
-    if not source.exists():
-        source = Path(__file__).resolve().parent.parent / 'MuchamielLockPvP'
+    source = Path(__file__).resolve().parent.parent / 'MuchamielLockPvP'  # el original, en el PC de Van
+    if not source.exists():  # en la nube: la copia del repo (subir-github.sh la mantiene al día)
+        source = Path(__file__).resolve().parent / 'MuchamielLockPvP'
     # Assemble a clean ZIP from the actual alpha, keeping the correct folder depth.
     with zipfile.ZipFile(downloads / 'MuchamielLockPvP-alpha.zip', 'w', zipfile.ZIP_DEFLATED) as z:
         for p in sorted(source.iterdir()):
