@@ -13,3 +13,4 @@ twitch-paneles/
 __pycache__/
 *.pyc
 gen.log
+.wrangler/
