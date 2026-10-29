@@ -1671,6 +1671,8 @@ def run():
     shutil.copyfile(Path(__file__).with_name('cuadra.js'), dist / 'assets' / 'cuadra.js')
     shutil.copyfile(Path(__file__).with_name('avisos.js'), dist / 'assets' / 'avisos.js')  # Van 16-10: avisos de Blizzard
     shutil.copyfile(Path(__file__).with_name('carrusel.js'), dist / 'assets' / 'carrusel.js')  # Van 16-10: carrusel de la portada
+    shutil.copyfile(Path(__file__).with_name('idioma_macros.js'), dist / 'assets' / 'idioma-macros.js')  # 30-10: macros en el idioma del cliente
+    shutil.copyfile(Path(__file__).with_name('hechizos_idiomas.json'), dist / 'assets' / 'hechizos-idiomas.json')  # nombres oficiales de Forever (wago.tools, build 1.60.1.70685)
     import avisos_blizzard
     avisos_blizzard.run(dist)
     import youtube_directo  # Van 16-10: ¿en directo en YouTube? (lo actualiza la tarea de GitHub)
@@ -1685,6 +1687,8 @@ def run():
         if file == dist / '404.html':
             s = re.sub(r'<header\b.*?</header>', of.header('/', ''), s, count=1, flags=re.S)
             s = s.replace('href="../', 'href="/').replace('src="../', 'src="/').replace('href="./', 'href="/').replace('src="./', 'src="/').replace('url("./', 'url("/')
+        if 'class="macro"' in s and 'idioma-macros.js' not in s and (dist / 'en') not in file.parents:  # 30-10: selector de idioma de las macros
+            s = s.replace('</body>', '<script src="/assets/idioma-macros.js" defer></script></body>', 1)
         if file == dist / 'index.html':
             s = home(s)
         if file == dist / 'calculadora' / 'index.html':  # Van 15-10: fuera el párrafo de instrucciones de la calculadora
