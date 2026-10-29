@@ -1,0 +1,304 @@
+Arreglos de errores
+Se ha corregido la niebla demasiado brillante con los ajustes de sombras bajos.
+Se ha corregido un error que permitía a los jugadores de la Horda ganar reputación con el Kirin Tor.
+Las criaturas ahora regeneran salud correctamente fuera de combate.
+Se ha corregido un error por el que varios personajes de la Horda sostenían la Night Watchman's Torch.
+Se ha corregido un error en las descripciones de varias bebidas que no mostraban la cantidad correcta de regeneración total de maná.
+Cambios y novedades
+Se ha añadido una nueva experiencia de tutorial para jugadores nuevos.
+Se ha mejorado el control de la «intensidad del resplandor» de la iluminación en las opciones: ahora es un deslizador y se ha movido al apartado de gráficos «Avanzado».
+Se ha añadido el ajuste «Auto Attack/Auto Shot». Si está activado, los cazadores cambiarán automáticamente entre ataque automático y disparo automático. Ahora también funciona con mando.
+Se han actualizado las habilidades raciales.
+Tauren
+Endurance: ahora otorga un 2 % más de daño y sanación críticos (antes, un 1 % de probabilidad de golpe).
+Plainsrunning: también otorga un 3 % más de velocidad de movimiento en montura. Este aumento se acumula con otros aumentos de velocidad en montura.
+Plainsrunning ahora exige que el tauren recorra una distancia mínima por segundo para mantener el efecto.
+Nota de los desarrolladores: dar pasitos cortos ya no basta para mantener el efecto. Este mínimo tiene cierto margen para las penalizaciones de velocidad de movimiento.
+Cultivation: reutilización reducida a 15 min (antes, 60 min).
+War Stomp: reutilización reducida a 90 s (antes, 2 min).
+Enano
+Mace Specialization: sustituida por Earth Fury: un 2 % más de daño y sanación críticos.
+Find Treasure: ahora también da la posibilidad de encontrar objetos adicionales en la mayoría de los cofres.
+Célicos
+Wind Blessed: bonificación de celeridad aumentada al 3 % (antes, 1 %).
+Skysight: ahora se puede lanzar en movimiento.
+Read Leyline: ahora se puede lanzar en movimiento. Duración mínima aumentada a 30 s (antes, 20 s).
+Walk on Air: reutilización reducida a 90 s (antes, 2 min).
+Se ha aumentado el número de puntos de aparición de las Elemental Convergences y las Leylines en la mayoría de las zonas de los Reinos del Este y Kalimdor.
+Humano
+Sword Specialization: sustituida por Ruthless: un 2 % más de probabilidad de crítico.
+Orco
+Axe Specialization: sustituida por Savage: un 1 % más de probabilidad de crítico.
+Blood Fury: reutilización aumentada a 3 min (antes, 2 min).
+Shatter Curse: ahora disipa maldiciones y perdiciones (antes otorgaba inmunidad). Daño mágico recibido reducido un 5 % (antes, 15 %).
+No-muerto
+Touch of the Grave: se han ajustado la probabilidad de activarse y la reutilización para que el beneficio sea más constante. Se han mejorado los efectos visuales.
+Los no-muertos ya no tendrán disponible Will of the Forsaken mientras estén bajo los efectos de Scatter Shot.
+Touch of the Dead ahora tiene un 30 % de probabilidad de activarse para lanzadores de hechizos y un 20 % para paladines, pícaros y guerreros, además de una reutilización interna de 25 s.
+Touch of the Dead ya no aumenta con las mejoras de Sombra del objetivo ni del lanzador.
+Touch of the Dead ya no sufre un multiplicador reducido cuando se usa un rango inferior del hechizo.
+Nota de los desarrolladores: esto no debería haber estado así, porque es una habilidad racial, no un hechizo o habilidad de clase.
+Gnomo
+Eureka!: ahora es un beneficio de 8 s sin cargas. Mismo efecto sobre el daño y el coste de las habilidades. Ahora también beneficia a Power Word: Shield.
+Corregido: Eureka no se podía usar bien en sigilo ni con invisibilidad; ahora funciona.
+Elfo de la noche
+Quickness: el aumento de velocidad de movimiento ahora se acumula con otros aumentos de velocidad de movimiento.
+Los elfos de la noche ya no muestran el escudo en Wisp Form.
+Trol
+Regeneration: bonificaciones de regeneración de salud aumentadas al 20 % (antes, 10 %).
+Clases
+Las varitas ahora exigen estar quieto 0,5 s antes de disparar, como en las primeras versiones de World of Warcraft.
+Druida
+Se ha corregido un error por el que los rangos altos de Rejuvenation impedían que otros druidas aplicaran Rejuvenation al objetivo.
+Omen of Clarity: se ha corregido un error por el que Faerie Fire podía activarlo en Cat Form, Bear Form o Dire Bear Form. Como Faerie Fire no cuesta recursos en esas formas, no puede activar Omen of Clarity.
+Faerie Fire: ahora genera amenaza en Bear Form o Dire Bear Form (en vez de solo iniciar el combate con 0 de amenaza).
+Se ha corregido un error que permitía tener activos varios perjuicios de Faerie Fire en un mismo objetivo.
+Shred (rango 1) ahora se aprende a nivel 20 (antes, 22). Se podía conseguir Shredding Attacks antes de conocer Shred o Lacerate.
+Se ha corregido un error por el que Heart of the Wild, Feral Swiftness, Thick Hide y Leader of the Pack no se aplicaban correctamente a los personajes al conectarse.
+Equilibrio
+Varias aplicaciones de Insect Swarm ya no siguen reduciendo la probabilidad de golpe del objetivo.
+Moonkin Aura ahora solo aumenta la probabilidad de crítico con hechizos y se aplica a toda la banda.
+Feral
+Leader of the Pack ahora solo aumenta la probabilidad de crítico cuerpo a cuerpo y a distancia, y se aplica a toda la banda.
+El daño fijo de la descripción de Shred ahora aumenta correctamente con el % de daño adicional del talento Savage Fury.
+Nota de los desarrolladores: era solo un error visual. El daño no cambia.
+Furor ahora permite conservar la energía que se tenía la última vez en Cat Form aunque se pase a Bear Form o Dire Bear Form.
+Nota de los desarrolladores: Bear Form y Dire Bear Form siguen impidiendo la regeneración de energía.
+Cazador
+Auto Shot ahora exige estar quieto 0,5 s antes de disparar, como en las primeras versiones de World of Warcraft.
+Nota de los desarrolladores: tu personaje seguirá disparando Auto Shot mientras lanza hechizos como Aimed Shot o Sniper Shot.
+Ahora se ven las flechas cuando un personaje tiene el arco tensado.
+Las mascotas ahora se benefician correctamente de la pericia.
+Las trampas de fuego del cazador ahora aumentan correctamente con el poder de ataque.
+El cazador ahora puede tener correctamente 1 trampa de fuego y 1 trampa de hielo activas (antes, 1 trampa entre todos los tipos).
+Mascotas
+Se ha corregido un error por el que las mascotas solo heredaban la probabilidad de crítico cuerpo a cuerpo del jugador en vez de la más alta entre cuerpo a cuerpo y a distancia.
+Dismember (Crocolisk)
+Reducción de sanación rebajada al 25 % (antes, 50 %).
+Duración reducida a 6 s (antes, 10 s).
+Reutilización aumentada a 15 s (antes, 6 s).
+Sonic Blast (Bat)
+Reducción de la velocidad de lanzamiento rebajada al 30 % (antes, 60 %).
+Duración reducida a 20 s (antes, 30 s).
+Reutilización aumentada a 60 s (antes, 30 s).
+Mine! (Bird of Prey)
+Duración reducida a 3 s (antes, 4 s).
+Reutilización aumentada a 90 s (antes, 60 s).
+Bestias
+Summon Hawk ahora hace aparecer correctamente al halcón sobre el objetivo en el que se lanzó el hechizo.
+Summon Hawk ahora mantiene a tu halcón pegado al objetivo sobre el que se invocó.
+Se ha corregido un error por el que el talento Improved Mend Pet aumentaba el coste de maná de Mend Pet en vez de reducirlo.
+Puntería
+Trueshot Aura ahora se aplica a toda la banda.
+Se ha corregido un error por el que Sniper Shot no se beneficiaba de algunos talentos de Puntería.
+Supervivencia
+Strider Kick ahora se puede usar estando desarmado o sin arma en la mano principal.
+Resourcefulness ahora reduce correctamente el coste de maná de Strider Kick.
+Resourcefulness ahora se activa correctamente al asestar un crítico, pero se ha cambiado para que solo se active con críticos de habilidades cuerpo a cuerpo y a distancia, para evitar abusos.
+Nota de los desarrolladores: las trampas no lo activan.
+Se ha actualizado la descripción de Predator's Edge para dejar más claro que solo aumenta el daño crítico de tus habilidades.
+Mago
+Frost Blast: este nuevo hechizo se aprende a nivel 24. Inflige daño y reduce un 40 % la velocidad de movimiento del objetivo. Tiene 1,5 s de tiempo de lanzamiento y le afectan todos los talentos que afectan a Frostbolt.
+Nota de los desarrolladores: este hechizo sirve para ofrecer lo que antes daba Frostbolt de rango 1 pese a la penalización por usar rangos bajos. Cuesta más maná y también inflige algo más de daño.
+Arcano
+Se ha corregido un error por el que Presence of Mind no se consumía al lanzar hechizos.
+Se ha corregido un error por el que Missile Barrage podía reducir el coste y la duración de un segundo lanzamiento de Arcane Missiles.
+Missile Barrage: este talento pasa a la primera fila y ahora es de 2 puntos. Ahora también da la posibilidad de que los impactos de Arcane Missiles activen Missile Barrage.
+Arcane Blast: rediseñado. Ahora tiene 1,5 s de tiempo de lanzamiento y cada vez que se lanza otorga al mago un 15 % de su intelecto como daño con hechizos adicional. Este efecto también aumenta el coste de Arcane Blast como antes y sigue acumulándose hasta 4 veces. Sin embargo, ahora dura 15 s desde que se aplica por primera vez, en vez de solo hasta el siguiente hechizo. El coste de maná no cambia, pero el daño infligido y los coeficientes de daño con hechizos se reducen un 40 %.
+Arcane Wrath: nuevo talento de medalla de oro de 16 puntos. Este nuevo hechizo inflige un daño base parecido al de Fireball, con 3,5 s de tiempo de lanzamiento, pero además inflige daño como si el mago tuviera poder con hechizos adicional igual al 5 % de su maná máximo. Reutilización de 6 s.
+Fuego
+Heating Up ya no se consume si el mago también tenía Presence of Mind activo al lanzar Pyroblast. Además, Heating Up siempre gana una carga adicional cada vez que el mago lanza Fire Blast. Esto significa que los críticos de Fire Blast generan 2 cargas.
+Wake of Fire: el talento vuelve a ser Improved Fire Blast y ya no otorga bonificación cuando el mago mata a un objetivo. Ahora también aumenta el alcance de Fire Blast en 8/15 m.
+Critical Mass: los magos ahora pueden gastar hasta 5 puntos en este talento, para un 10 % más de crítico en total.
+Fire Power: rediseñado. Ahora solo tiene 3 puntos. Aumenta el daño de los hechizos de Fuego un 1/2/3 % por cada efecto de Fuego del mago sobre el objetivo, hasta un máximo del 12 %. Los hechizos que mezclan varias escuelas de magia no otorgan esta bonificación.
+Nota de los desarrolladores: en concreto, los efectos que pueden dar el aumento de daño de Fuego de este talento son Ignite, Improved Scorch, Fireball, Pyroblast e Impact. Frostfire Bolt no otorga el aumento de daño, pero sí puede beneficiarse de él.
+Frost Channeling ahora reduce correctamente la amenaza del mago.
+Se ha corregido un error por el que Ice Block era demasiado transparente.
+Se han corregido varios errores de Clearcasting. Clearcasting ya no tira probabilidad por cada objetivo alcanzado por un hechizo. Clearcasting ya no puede activarse con Dampen Magic ni Amplify Magic. Clearcasting ya no puede activarse con habilidades lanzadas fuera de combate.
+Escarcha
+Se ha corregido un error que impedía que Frostbite y Fingers of Frost se activaran con tus hechizos Ice Armor y Frost Armor.
+El daño de Ice Lance contra objetivos congelados pasa a un aumento del 200 % (antes, 300 %).
+Cone of Cold: la velocidad de movimiento de los 4 primeros objetivos alcanzados se reduce un 10 % adicional y la ralentización dura 3 s más en esos objetivos.
+Nota de los desarrolladores: la capacidad de este hechizo para controlar gran cantidad de objetivos fue el motivo principal por el que antes se redujo su eficacia y duración. Parece razonable dejar que conserve este nivel de poder cuando se usa contra 4 objetivos o menos.
+Winter's Chill: rediseñado. Ya no aumenta la probabilidad de crítico. En su lugar, hace que Cone of Cold inflija un 40 % más de daño por cada acumulación de Winter's Chill en el objetivo, y se consume con el siguiente Cone of Cold.
+Se ha cambiado ligeramente la posición del efecto visual de Cone of Cold.
+Nuevo hechizo Frost Blast. 1,5 s de tiempo de lanzamiento. Inflige poco daño de Escarcha. Ralentiza/hiela. Se beneficia de los talentos que benefician a Frostbolt.
+Winter's Chill pasa a: da a tus Frostbolt, Frost Blast e Ice Lance potenciados por Fingers of Frost un 20/40/60/80/100 % de probabilidad de aplicar Winter's Chill, que aumenta un 5 % el daño que recibe el objetivo de tu siguiente Cone of Cold y le añade un 7 % adicional de tu daño con hechizos; se acumula hasta 5 veces.
+Paladín
+Power Word: Shield ya no sobrescribe Seal of Fury.
+Blessing of Salvation y Greater Blessing of Salvation se han sustituido por Salvation y Mass Salvation. Se aplican igual que las bendiciones, pero no son excluyentes con ellas.
+Los paladines ahora también aprenden Revoke al aprender Salvation. Revoke quita Salvation o Mass Salvation al miembro del grupo o de la banda elegido.
+Nota de los desarrolladores: así se recupera la posibilidad de que el paladín tenga más precisión y control sobre quién tiene Salvation activo y quién no.
+Judgement of Righteousness y Judgement of Fury ahora tienen los coeficientes de poder con hechizos correctos para hechizos instantáneos.
+Se ha corregido un error por el que Seal of Righteousness obtenía casi el doble de beneficio del daño con hechizos de lo previsto.
+Se ha corregido un error por el que Judgement of Righteousness tenía un coeficiente de daño con hechizos incorrecto.
+El coeficiente de poder con hechizos por tick de Consecration pasa a 0,042 (antes, 0,095).
+La generación de amenaza del daño Sagrado de Righteous Fury aumenta al 90 % (antes, 60 %).
+Seal of Fury rango 3 ahora se puede entrenar correctamente a nivel 26 (antes, por error, a nivel 25).
+Sagrado
+Se ha corregido un error por el que lanzar Light's Vigil con una macro de foco no lo aplicaba al objetivo correcto.
+Se ha corregido un error por el que Infusion of Light otorgaba a Holy Shock un 50 % más de daño contra enemigos.
+Protección
+El maná que devuelve Shield Specialization al paladín se reduce al 4 %, con una reutilización interna de 3 s (antes, 6 % con una reutilización interna de 3 s).
+Reckoning: se ha ajustado este talento para que ganes una carga de Reckoning cada vez que se active. Tu siguiente golpe cuerpo a cuerpo (ataque automático) gastará todas las cargas acumuladas, con 1 ataque extra por cada una. Puedes tener un máximo de 4 cargas.
+Así se recupera el funcionamiento de Classic Era de guardar hasta 4 cargas y se retrasan todas las activaciones hasta tu siguiente golpe, para que los ataques instantáneos no reinicien el temporizador del ataque automático.
+Reprensión
+Champion of the Light ahora aumenta tu daño con hechizos un 10/20/30 % de tu intelecto (antes, 20/40/60 %).
+El efecto de devolver maná de Sanctified Judgement ya no genera amenaza.
+Sacerdote
+Se ha corregido un error por el que los rangos altos de Renew impedían que otros sacerdotes aplicaran Renew al objetivo.
+Se ha corregido un error por el que el daño periódico de Holy Fire rango 5 era mayor que el del rango 6.
+Power Word: Shield ahora avisa correctamente al jugador de que no puede sustituir un Power Word: Shield en un objetivo si el que ya tiene es más fuerte.
+Se ha corregido un error por el que lanzar Power Word: Shield mostraba SHIELDED dos veces en el texto de combate.
+Reutilización de Devouring Plague reducida a 24 s (antes, 1 min).
+Reutilización de Shadow Word: Death aumentada a 18 s (antes, 12 s).
+Se ha corregido un error por el que lanzar Mind Vision hacía que el objetivo se levantara e interrumpiera la bebida.
+Disciplina
+Inner Focus ahora se gasta correctamente en un solo hechizo, aunque pongas otro hechizo en cola durante la canalización de Penance.
+Se ha añadido a la descripción de Divine Aegis que se activa con sanaciones críticas no periódicas.
+Se ha añadido a la descripción de Divine Aegis el valor máximo del escudo.
+Power in Light ahora potencia Smite y Penance si el objetivo está afectado por Holy Fire o Shadow Word: Pain.
+La reducción de amenaza de Silence Resolve ahora se aplica a todos los hechizos.
+Mental Strength pasa de la fila 4 a la fila 2 y ahora aumenta tu intelecto un 2/4/6/8/10 %.
+Improved Power Word: Shield pasa de la fila 2 a la fila 3.
+Twin Disciplines ahora beneficia correctamente a Shadow Word: Death, Mind Flay, Starshards y Penance.
+Sombra
+Se ha corregido un error por el que Shadow Word: Death no se beneficiaba del aumento de daño crítico de Shadowform.
+Se ha corregido un error por el que Devouring Contagion hacía que el Devouring Plague rebotado costara maná, mostrara animación de lanzamiento y volviera a poner en reutilización completa el Devouring Plague del lanzador.
+Vampiric Embrace se ha cambiado para que no se pueda resistir.
+Reutilización de Vampiric Embrace reducida a 30 s (antes, 1 min).
+Se ha eliminado Improved Fade.
+Se ha eliminado Shadow Infinity.
+Improved Mind Blast pasa de la fila 3 a la fila 2.
+Nuevo talento (fila 4): Dark Inspiration. Tu Mind Blast y tu Mind Flay canalizado por completo activan Dark Inspiration, que aumenta tu espíritu y el de tu grupo un 3/6/9/12/15 % durante 10 s.
+Improved Mind Flay pasa a: cada golpe de daño de Mind Flay inflige un 10/20 % más de daño que el anterior.
+Devouring Contagion ahora se propaga a 2 objetivos.
+Se ha corregido la descripción de Shadow Weaving. Ahora indica correctamente que hace que el objetivo reciba más daño de tu parte.
+Pícaro
+Los venenos de pícaro ya no se activan por error contra objetivos que les atacan.
+Sap ya no puede activar efectos de armas.
+Se ha corregido un error por el que los pícaros podían cambiar de especialización para mantener la energía llena.
+Asesinato
+Cold Blood ahora se consume correctamente cuando Mutilate asesta un crítico.
+Chamán
+Se ha corregido un error por el que Totemic Recall costaba 70 de plata en el instructor en vez de 22 de plata, como estaba previsto.
+Grounding Totem ahora se destruye correctamente tras redirigir un hechizo.
+Los ataques de Windfury Weapon ahora aparecen como golpes blancos en el texto de combate.
+Grace of Air Totem ya no es excluyente con Windfury Totem ni con Flametongue Totem.
+Windfury Totem y Flametongue Totem siguen siendo excluyentes entre sí.
+Grace of Air Totem, Strength of Earth Totem, Windfury Totem y Flametongue Totem ahora se aplican a toda la banda.
+Chain Lightning: coste de maná reducido aproximadamente un 35 % en los cuatro rangos.
+El coeficiente de poder con hechizos de Fire Nova pasa a 0,143 (antes, 0,214).
+El daño base de Fire Nova se ha reducido bastante.
+El coste de maná de Fire Nova se ha reducido bastante.
+Flametongue Totem y Windfury Totem ahora solo afectan correctamente a los jugadores.
+Se ha añadido un poco de verde al efecto visual de Chain Heal sin tapar el efecto original.
+Elemental
+El Clearcasting del talento Elemental Focus ya no se puede gastar en el mismo Fire Nova que lo activa.
+Elemental Mastery: este talento vuelve como el nuevo talento de medalla de oro de 31 puntos. Reduce 0,5 s el tiempo de lanzamiento de Lightning Bolt y Lava Burst y quita la reutilización de Chain Lightning durante 15 s. Reutilización de 3 min. Requiere Lava Burst.
+Lava Burst: pasa de la 7.ª fila a la 5.ª como talento de medalla de oro de 21 puntos. Se añade un nuevo rango 4 y se reparten de nuevo los rangos. Ya no tiene requisitos previos.
+Elemental Fury: ahora requiere Lightning Overload.
+Lightning Overload: ahora requiere Elemental Alacrity.
+Elemental Alacrity: pasa de la 3.ª fila a la 2.ª.
+Elemental Warding: pasa de la 2.ª fila a la 3.ª.
+Call of Thunder: talento eliminado.
+Earthbound: pasa a la 4.ª fila como talento de medalla de oro de 16 puntos.
+Elemental Reach: ahora también reduce la reutilización de Totemic Projection en 10/20 s.
+Call of Flame: ahora también alarga la duración de Flame Shock en 3/6/9 s.
+Orden de columnas: muchos talentos se han movido para dejar sitio a otros talentos y sus conexiones.
+Las activaciones de Lightning Overload ya no consumen Clearcasting.
+La descripción de Fire Nova ahora aumenta correctamente al poner puntos en Trial By Fire (el talento antes llamado Improved Fire Nova).
+Mejora
+Tu perjuicio de Stormstrike ya no se consume si tu hechizo no impacta.
+Se ha corregido un error por el que otros jugadores o mascotas que no eran el chamán que lo lanzó podían consumir Stormstrike.
+El coste de Stormstrike pasa a un 8 % del maná base (antes, 125 de maná en todo momento del juego).
+Restauración
+Se ha añadido un rango más de Mana Tide Totem que se aprende a nivel 38, así que ahora hay rangos a nivel 25, 38, 48 y 58 (antes, a nivel 25, 48 y 58).
+El talento Restorative Totems ahora aumenta correctamente el efecto completo de Healing Stream Totem (antes, el valor base).
+Tidal Focus y Totemic Focus se han intercambiado de sitio. Tidal Focus está ahora en la 1.ª fila y Totemic Focus en la 2.ª.
+Water Shield: ahora puede activarse con cualquier hechizo crítico del chamán (antes, solo con sanaciones críticas).
+Brujo
+Se ha corregido un error por el que se podía invocar Summon Incubus sin gastar Soul Shard con la ventaja de legado Reagent Economy.
+Se ha corregido un error que permitía tener activos varios perjuicios de Cure of Recklessness en un mismo objetivo.
+Aflicción
+Malediction se sustituye por Grim Reach, que aumenta el alcance de tus hechizos de Aflicción un 10/20 %.
+Shadow Mastery pasa a aumentar el daño de tus hechizos de Sombra un 2/4/6/8/10 % (antes, 1/2/3/4/5 %).
+Demonología
+Se ha corregido un error por el que no se podía lanzar Soul Link sobre tu mascota.
+Destrucción
+Destructive Reach pasa a: aumenta el alcance de tus hechizos de Destrucción un 10/20 %.
+Guerrero
+Battle Shout ahora se aplica a toda la banda.
+Slam ya no sufre retroceso de lanzamiento.
+Se ha corregido un error por el que Overpower no podía activarse contra enemigos de nivel bastante más bajo.
+Armas
+Se ha corregido un error por el que Sword Specialization de Weaponmaster podía activarse con Shield Bash y Shield Slam.
+Furia
+Lingering Rage ya no detiene la regeneración de salud del jugador tras el combate.
+Se ha corregido un error por el que Improved Berserker Rage no quitaba los efectos que reducen el movimiento.
+Mando
+Se ha añadido un temporizador de golpe a la retícula central.
+Se han añadido asignaciones para activar y desactivar la transcripción de canales de voz desde el menú de canales de chat.
+Tu propio corcho de pesca ahora siempre se puede seleccionar.
+Se ha corregido el uso de objetos que se colocan en el suelo. Al usarlos por segunda vez se confirma la colocación.
+Se ha corregido un error por el que la barra de acción del mando se volvía invisible al reconectar tras crear y elegir un diseño personalizado del modo edición.
+Se ha corregido un error por el que la barra de lanzamiento no se podía personalizar bien con el modo edición.
+Se ha corregido un error que dificultaba activar acciones desde los menús desplegables propios de cada clase.
+Se ha corregido un error en la elección de recompensas de misión que impedía completar ciertas misiones.
+Se ha corregido un error por el que las misiones ofrecidas por objetos interactivos u otros que no son personajes no se podían entregar con mando.
+El ajuste «Mantener pulsado para lanzar» ahora funciona con mando.
+Se ha actualizado la ventana de confirmación de comercio para poder usarla con mando.
+Se han actualizado las ventanas de hermandad y comunidades para poder usarlas con mando.
+Se ha actualizado el menú de canales de chat para poder usarlo con mando.
+Se ha actualizado la ventana de transfiguración para poder usarla con mando.
+Objetos
+Mystic Mushroom ahora aumenta correctamente el espíritu.
+El encantamiento Insight ahora aumenta correctamente el espíritu.
+Morbent's Bane ya no hace que otros jugadores cercanos reproduzcan efectos visuales.
+Los pergaminos ahora activan la reutilización global al usarlos.
+Se ha reducido el precio de venta al vendedor de muchos objetos creados con profesiones.
+Draught of Predatory Senses ahora es una poción, comparte la reutilización de las pociones de combate y se ha reducido su duración para encajar en este diseño.
+Legado
+Se ha corregido un error por el que Bartering hacía descuento en el entrenamiento y las reparaciones.
+Las ventajas Master Chef y Luremaster se han movido visualmente 1 fila a la izquierda.
+Nota de los desarrolladores: ya estaban disponibles con solo 5 puntos invertidos, así que es solo un cambio visual.
+The Quick and the Dead ahora debería afectar a más hechizos de sacerdote.
+Misiones
+General
+Se han corregido varios objetos de misión que caían para varios jugadores y no debían.
+Vallefresno
+Hay más Bloodtooth Guards disponibles durante la misión «Raene's Cleansing».
+Dalaran
+Los miembros de la Horda ya no son bienvenidos en Dalaran bajo ninguna circunstancia y serán atacados nada más verlos. Esto no afecta al acceso a la mazmorra City of Dalaran, pero la cadena de misiones de la Horda para conseguir la Dalaran Sewer Key ya no da acceso libre a la ciudad en el mundo abierto.
+Costa Oscura
+Se ha corregido un error por el que muchos de los campamentos de los fúrbolg no contaban para la misión «How Big a Threat?».
+La misión «For Love Eternal» ahora se puede entregar a Cerellian Whiteclaw en cualquier momento.
+«Body and Heart»: el Cenarion Moondust ya no se gasta al esparcirlo sobre la piedra, así que si necesitas volver a intentarlo puedes regresar más tarde y usarlo de nuevo para volver a invocar a Lunaclaw.
+Mulgore
+Los Novice Warriors ya no marcan a los jugadores para JcJ durante la misión «Sparring Match».
+Ventormenta
+«The Attack!» ya no es una misión de escolta y ahora se puede compartir, incluso con el evento en curso. Habla con Tyrion para empezar el evento si no está activo.
+Teldrassil
+Lord Melenas ya no se escapa con poca salud durante la misión «Twisted Hatred».
+Los Humedales
+Se ha aumentado e igualado la velocidad de reaparición en varias zonas, como la de los orcos Dragonmaw, los gnolls y el Incendicite Ore.
+Isla de Zephras
+Se ha corregido un error que podía impedir usar Halaan's Gift para escrutar las anclas de Zephras y avanzar en la misión «The Anchors of Zephras».
+JcJ
+Las Marks of Honor de campo de batalla ahora se acumulan hasta 30 (antes, 20).
+Interfaz
+Se ha actualizado la visualización de los marcos de unidad.
+Se ha actualizado la visualización de la cabecera del minimapa.
+Los hechizos con varios rangos ahora aparecen como una sola entrada en el gestor de reutilizaciones.
+La casa de subastas ahora muestra una columna con el nivel para equipar.
+La casa de subastas ahora muestra bien las estadísticas del equipo con sufijo (por ejemplo, «_ of the Monkey»).
+Se han añadido opciones detalladas del texto de combate en Opciones > Juego > Combate > Texto de combate propio > Texto sobre mí / Texto sobre el objetivo.
+Al buscar «Threat» ahora aparece la opción de indicador de amenaza.
+Para reducir el exceso de placas de nombre, se ha ajustado la distancia de visibilidad de las placas de nombre de enemigos y PNJ que están por encima y por debajo del jugador. La placa de nombre de tu objetivo actual no se ve afectada.
+Se han recuperado los mensajes de subida de nivel que muestran el aumento de estadísticas y los puntos de talento ganados.
+Se han actualizado los tutoriales del juego.
+Si los miembros del grupo tienen niveles distintos, la interfaz de búsqueda de grupo ahora actualiza bien la disponibilidad de la lista de mazmorras.
+La casilla «Mostrar todos los rangos de nivel» del buscador de grupo ahora actualiza bien la lista de mazmorras.
+Se ha corregido un error por el que los elementos gráficos se descontrolaban en el panel de profesiones.
+La búsqueda de la lista /who ahora admite subzonas (por ejemplo, los personajes en Northshire Valley aparecerán tanto con «/who northshire» como con «/who elwynn»).
+Los jugadores ya no pueden aceptar el aviso de «refrescar el mundo» en combate.

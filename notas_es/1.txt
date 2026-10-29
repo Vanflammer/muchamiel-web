@@ -1,0 +1,191 @@
+Arreglos de errores
+Corregido un error por el que los lanzadores de hechizos no reproducían su animación previa al lanzamiento y a veces se quedaban de pie mientras lanzaban.
+Cambiado el efecto de sonido al saltar en el agua para que suene más agradable.
+Ajustados los sonidos de muerte de los humanos.
+Corregido un problema por el que intentar fabricar objetos o lanzar hechizos hacía que los jugadores se levantaran mientras esperaban a obtener el beneficio de Campfire.
+Ahora los jugadores pueden darse beneficios entre sí, lanzar hechizos y fabricar mientras esperan sus beneficios de Campfire.
+Ahora los jugadores pueden obtener un beneficio de Campfire si están sentados, sentados en una silla, durmiendo, tumbados o usando el gesto de arrodillarse.
+Resuelto un problema por el que las piernas de Huey Sunnydale no se mostraban correctamente.
+Corregido un problema que hacía visible una habilidad de runa de Season of Discovery.
+Corregido un problema por el que la felicidad de la mascota no bajaba cuando tu mascota tenía la lealtad al máximo.
+Corregido un problema que hacía que el limo del canal de Undercity brillara mucho más de lo previsto.
+Eliminado un ajuste que podía desactivar la niebla de forma no prevista.
+Resuelto un problema de visualización del agua y corregidos otros defectos gráficos en Mac.
+Corregida una fuga de memoria que degradaba poco a poco el rendimiento de algunos jugadores.
+Corregido un problema por el que el correo del juego podía ignorar los apellidos.
+Clases
+Si no has cambiado de talentos recientemente, reasignarlos cuesta ahora 1 de plata. Es temporal, solo para la beta. Tras el primer reinicio de talentos, el siguiente costará mucho más, pero volverá a bajar a 1 de plata cuando pase 1 hora.
+Druida
+Corregido un problema: ahora Rejuvenation puede hacer críticos.
+Corregido un problema: ahora Tranquility puede hacer críticos.
+Daño base de Wrath aumentado ~50 %.
+Thorns ahora actualiza sus valores de forma dinámica según el poder con hechizos del lanzador.
+Si no se encuentra al lanzador o está demasiado lejos, Thorns vuelve a sus valores base.
+Feral
+Mangle pasa a llamarse Primal Bite. Se ha quitado su perjuicio característico, así que el nombre anterior ya no describía bien la habilidad.
+Todos los talentos que hacían referencia a Mangle ahora hacen referencia a Primal Bite.
+El talento Primal Fury cambia de nombre e icono: recupera el nombre y el icono originales de Blood Frenzy.
+Corregido un error por el que Feral Charge (Cat) se podía lanzar sobre aliados.
+Restauración
+Corregido un problema: ahora Wild Growth puede hacer críticos.
+Cazador
+Mascotas
+Bonificación de poder de ataque de Furious Howl reducida un 40 %.
+La habilidad Sonic Blast ya está disponible correctamente para las mascotas murciélago.
+Tame Beast ya no funciona con bestias de nivel superior al del cazador.
+Puntería
+Quitar los puntos de Lone Wolf ya no hará que el cazador tenga un -4 % de daño mientras su mascota esté activa.
+Supervivencia
+Corregido un problema: ahora Lacerating Strikes puede hacer críticos.
+Strider Kick ahora aumenta la velocidad de movimiento un 30 % durante 3 s.
+Mago
+Arcane Missiles ya no comprueba la línea de visión en cada misil, solo una vez al inicio de la canalización. Así, aunque los objetivos salgan de la línea de visión durante la canalización, los misiles no se cortarán.
+Fuego
+La duración del beneficio de Wake of Fire aumenta a 30 s (antes 20 s).
+Nota de los desarrolladores: Wake of Fire era difícil de aprovechar bien mientras se subía de nivel, porque el mago necesita recuperar maná entre combates. La mayor duración debería hacer la experiencia más fluida.
+La duración del beneficio de Hot Streak aumenta a 20 s (antes 15 s).
+Ignite ya no se beneficia dos veces de los modificadores de aumento de daño en %.
+Paladín
+Retribution Aura ahora actualiza sus valores de forma dinámica según el poder con hechizos del lanzador.
+Corregido un error por el que la animación de lanzamiento de Flash of Light no se reproducía al final del lanzamiento.
+Corregidos varios problemas con Consecration.
+Corregido un problema por el que Consecration no aplicaba su efecto de daño aumentado a algunos objetivos.
+Corregido un problema por el que el eje Z de Consecration no funcionaba de forma constante.
+Corregido un problema por el que Consecration podía atraer objetivos situados en vertical por encima o por debajo del lanzador.
+El % de daño de arma por rango de Holy Strike pasa a 25 %/29 %/32 %/36 %/39 %/43 %/46 %/50 % (antes 25 %/25 %/30 %/30 %/35 %/35 %/40 %/40 %).
+Nota de los desarrolladores: Esto aumenta el daño de Holy Strike en todo momento mientras se sube de nivel y lo que aporta a tu rotación. Los primeros rangos de Holy Strike no siempre parecían una mejora al comprar un rango nuevo, y queríamos ajustarlo.
+Corregido un error de Echo of Justice que le daba más probabilidad de activarse de la prevista.
+Righteous Fury: el aumento de amenaza sagrada pasa a ser del 60 % (antes 90 %).
+Sagrado
+Reutilización de Holy Strike reducida a 10 s (antes 12 s).
+Improved Holy Strike se ha quitado del árbol de talentos.
+Nota de los desarrolladores: Aunque a veces hay talentos que parecen «obligatorios» para algunas clases, como Relentless Strikes para los pícaros, tener uno que reduce la reutilización de una habilidad básica tan pronto en un árbol de sanación lo convertía en un talento obligatorio. Así que lo hemos quitado y su efecto pasa a ser de base.
+Se ha reorganizado la descripción emergente de Light's Vigil para dejar más claro que solo la versión de daño devuelve parte del coste de maná.
+Holy Power ahora aumenta un 15 % la probabilidad de crítico de Holy Strike y mantiene todos sus efectos anteriores.
+Reprensión
+Vengeance ahora se activa con críticos no periódicos.
+Acumulaciones máximas de Vengeance reducidas a 3 (antes 5).
+Aumento de daño de Two-Handed Weapon Specialization reducido a 2/4/6 % (antes 3/6/9 %).
+Sacred Arbiter ahora aumenta el daño de Holy Strike un 20 % (antes 10 %).
+Twist of Light ahora además reduce un 20 % el coste de maná de tus hechizos de Seal.
+Sacerdote
+Corregido un problema: ahora Renew puede hacer críticos.
+Power Word: Shield ahora siempre puede sobrescribir un Power Word: Shield existente en un objetivo que no tenga Weakened Soul.
+Gnomo
+Corregido un problema: ahora Contingency Plan puede hacer críticos.
+Confounding Flash ahora tiene efecto visual de lanzamiento. El efecto es ahora más sagrado que arcano y los sonidos se han actualizado a juego.
+Elfo de la noche
+Starshards ahora obtiene correctamente la resistencia al retroceso de hechizos del talento Twilight Focus.
+No-muerto
+Dark Sacrifice ya no rompe los efectos de control de masas que se rompen con el daño.
+La descripción emergente de Dark Sacrifice ahora muestra correctamente que el maná obtenido escala con el espíritu.
+Pícaro
+Sap ahora activa correctamente el JcJ del pícaro cuando se usa sobre un objetivo con JcJ activado.
+Chamán
+Lightning Bolt: aumentado el daño de los rangos 3 y 4 para que siempre mejoren a los rangos anteriores (pese al cambio en los tiempos de lanzamiento).
+Windfury Totem: el beneficio de este hechizo ahora aparece como "Windfury Totem" en lugar de "Windfury Totem Passive".
+Flametongue Totem: el beneficio de este hechizo ahora aparece como "Flametongue Totem" en lugar de "Flametongue Totem Effect".
+Flametongue Totem ya no tiene duración y se sustituye al momento al colocar otro tótem.
+Flametongue Totem ya no se puede acumular lanzándolo repetidamente.
+Flametongue Totem ya no se acumula con Flametongue Weapon.
+Flametongue Totem ya no se acumula con Windfury Totem.
+Tranquil Air Totem, Windfury Totem y Grace of Air Totem ya no se acumulan entre sí aunque los usen chamanes distintos del mismo grupo.
+Elemental
+Intercambiadas las posiciones de los talentos Elemental Fury (fila 3) y Elemental Alacrity (fila 6).
+Nota de los desarrolladores: Los aumentos de daño crítico al principio de los árboles son emocionantes para otras especializaciones, pero no tanto para la especialización principal mientras sube de nivel, porque no tiene suficiente probabilidad de crítico para notarlo. Por eso adelantamos en el árbol uno de los mejores talentos para el funcionamiento del chamán elemental, para que sienta que alcanza momentos importantes de progresión (algo que le faltaba al Elemental en los primeros niveles). Sabemos que esto afecta al daño crítico con hechizos del chamán de mejora, pero usaremos el hueco que queda para añadirle más cosas en el futuro.
+Daño de los rangos 1 y 2 de Lava Burst aumentado para que tenga alrededor de un 10 % más de daño base que el rango de Lightning Bolt que se aprende hacia el mismo nivel.
+Mejora
+Rage of the Far Seer (fila 7) ya no aumenta la velocidad de lanzamiento de hechizos del chamán.
+Nota de los desarrolladores: La velocidad de lanzamiento de Rage of the Far Seer no era necesaria para el funcionamiento principal de esta habilidad, así que la hemos quitado.
+Restauración
+Corregido un problema: ahora Riptide puede hacer críticos.
+Brujo
+La descripción emergente de Life Tap se ha actualizado para mostrar correctamente la cantidad de vida convertida, y solo indica que escala con el espíritu.
+Voidwalker Sacrifice ahora escala correctamente con el 10 % de la sanación con hechizos del brujo.
+Guerrero
+Sunder Armor: corregidos los valores de amenaza de todos los rangos, con un pequeño aumento de la amenaza generada por el poder de ataque.
+Protección
+Intercambiadas las posiciones de los talentos Bastion (fila 5) y Focused Rage (fila 6).
+Nota de los desarrolladores: Queríamos dar Focused Rage antes a los jugadores para suavizar la progresión, en lugar de más daño con Bastion. Esto debería mejorar la sensación al subir de nivel como Protección antes de conseguir Shield Slam.
+Armas
+Probabilidad de activación de Bloodthrill aumentada a 4/8/12/16/20 % (antes 2/4/6/8/10 %).
+Bloodthrill solo se activa con ataques cuerpo a cuerpo de la mano principal. Esto incluye Cleave y Heroic Strike.
+La reutilización de Slam aumenta a 18 s (antes 15 s).
+Improved Slam ahora reduce la reutilización de Slam en 1,5/3 s.
+Razas
+Gnomo
+Eureka pasa a ser, para todas las clases, un descuento del 10 % en las habilidades de maná, ira o energía.
+Humano
+El efecto visual de Will to Survive ahora coincide con el de Dispel Magic en lugar del de Will of the Forsaken.
+Tauren
+Cultivation ahora exige un nivel de personaje para cada hierba. El nivel necesario es el nivel de habilidad requerido para recoger la hierba dividido entre 5. Las hierbas que requieren más de 300 de herboristería se pueden cultivar a nivel 60.
+Touch of the Grave ya no rompe el control de masas ni se activa con hechizos y habilidades que no hagan daño.
+Nota de los desarrolladores: Esto significa que Shadow Word: Pain lo activa al lanzarse, pero no con el daño periódico. Distract no lo activará, así que no podrás sacar de Stealth a pícaros y druidas con Distract activándolo, y tampoco lo activarás al usar Pickpocket. Hechizos como Polymorph ya no se rompían con Touch of the Grave, pero ahora Polymorph tampoco podrá activarlo.
+Gestor de reutilizaciones
+El gestor de reutilizaciones (Cooldown Manager) de World of Warcraft: Forever busca mejorar la jugabilidad sacando información clave de la barra de beneficios o de la barra de acción y colocándola en un lugar totalmente personalizable. Viene desactivado por defecto y se puede activar en Opciones, en los ajustes de Gameplay Enhancement.
+Druida, Mago, Sacerdote, Guerrero y Brujo están disponibles para probar el gestor de reutilizaciones.
+Otras clases se podrán probar en próximas actualizaciones.
+Lo que más nos interesa saber ahora sobre esta función: qué hechizos te gustaría que se siguieran por defecto.
+El gestor de reutilizaciones aún no admite rangos de hechizos. Se resolverá en una próxima actualización de la beta.
+Compatibilidad con mando
+Se han añadido desplegables específicos de clase a la barra de acción de algunas clases.
+Desplegable de formas para druidas.
+Desplegables de control de mascota y de hechizos de mascota para cazadores y brujos.
+Desplegable de auras para paladines.
+Desplegable de actitudes para guerreros.
+La barra de mascota ya no sustituye a la barra de acción inferior del mando para cazadores y brujos.
+Se han añadido opciones nuevas en la sección Gamepad (Alpha) de las opciones del juego.
+Use Compact Action Bar: sustituye la distribución normal de la barra de acción del mando por una que solo muestra la barra de acción activa en cada momento.
+Fixed Party Targeting: en un grupo que no sea de banda, en vez de usar la cruceta como direcciones en la interfaz de grupo, cada botón de la cruceta se asigna a un miembro concreto del grupo.
+Swap Target Modifier Sides: intercambia los lados de los modificadores de selección de objetivo amistoso y hostil; el amistoso pasa a la derecha y el hostil a la izquierda.
+Swap Friendly Target Action Sides: intercambia las acciones de la cruceta y de los botones frontales al usar el modificador de objetivo amistoso.
+Swap Hostile Target Action Sides: intercambia las acciones de la cruceta y de los botones frontales al usar el modificador de objetivo hostil.
+Corregido un problema que impedía aplicar las distribuciones del modo edición con la interfaz de mando activada.
+Actualizadas las asignaciones del mapa y del registro de misiones.
+Nueva función al pasar por encima de los marcadores de puntos de interés.
+Actualizada la compatibilidad con Compact Raid Frame Manager y los marcos de Role Poll.
+Objetos
+Unas cuantas armas de fuego y arcos no consumían ni usaban munición correctamente. Ya está corregido.
+Se han actualizado las recompensas de varias misiones para que tengan el nivel de objeto correcto.
+Se han ajustado unas pocas recompensas tempranas para lanzadores de hechizos.
+Wizard Oil: Minor Wizard Oil vuelve al valor de Classic Era de 8 de poder con hechizos, Lesser Wizard Oil a 16 y Wizard Oil a 24. Brilliant Wizard Oil no cambia.
+Varitas: las varitas ya no obtienen daño adicional del daño con hechizos de quien las usa.
+Misiones
+Resuelto un problema por el que varias misiones de mazmorra se podían compartir, lo que daba un objeto de misión al jugador que la recibía.
+Dalaran: ajustes de facción. Ahora hay apariciones en la zona justo fuera de la entrada de la ciudad.
+Dun Morogh: Snow Leopard Prowler reaparece mucho más rápido.
+Dun Morogh: resuelto un problema por el que algunos jugadores no podían saquear el rifle de "Treacherous Cold".
+Durotar: reducido el tiempo de reaparición del PNJ de escolta de "Lost in the Shadows".
+Elwynn Forest: la misión "Book Return" ahora quita correctamente la Book Bag sobrante del inventario al completarla.
+Elwynn Forest: aumentada la cantidad de cajas para la misión "Stolen Enchanting Supplies".
+Elwynn Forest: los campamentos múrloc alrededor de Crystal Lake deberían reaparecer más rápido. Mrrglrlrlrmgrr!
+Elwynn Forest: Mother Fang reaparece algo más despacio y no siempre suelta un objeto verde.
+Elwynn Forest: Shinyfinder Narf reaparece más rápido. Ahora todos los miembros del grupo pueden saquear el objeto de misión.
+Elwynn Forest: Nimsy ahora reaparece más rápido.
+Elwynn Forest: ahora puedes aprender desuello con Helene Peltskinner aunque tengas una misión con ella.
+Elwynn Forest: aumentada la cantidad de suministros que aparecen para "Stolen Enchanting Supplies".
+Elwynn Forest: Jasperlode Mine y Fargodeep Mine son algo más mortíferas de lo previsto para jugadores en solitario, así que les quitamos las velas. No esperamos consecuencias por este robo.
+Mulgore: las Water Pitchers ahora reaparecen más rápido para la misión "A Humble Task".
+Silthus: la llegada de Khonsu se ha quitado de la fase beta y en el futuro volverá a Azeroth.
+Silverpine Forest: los huargos de Pyrewood Village reaparecen más rápido.
+Teldrassil: el número de objetivos de la misión "Bounty: Gnarlpine Furbolg" se reduce a 15 (antes 20).
+Undercity: la misión de los célicos "Exploring the Horde" ahora completa el objetivo de hablar con Lady Sylvanas Windrunner. Que la Dama Oscura vele por ti.
+Westfall: aumentado el ritmo de aparición de Defias Messenger.
+Zephras Isle: se ha rediseñado la misión de los célicos de la High Order "Catching Wind" y se han ajustado las apariciones en Overlook Standing Stones, en Shen'dar Highlands.
+Zephras Isle: los druidas de Nightclaw Cavern ahora cuentan correctamente para "Wounds of Betrayal" al curarlos.
+Zephras Isle: "A Firm Response" ahora da correctamente el progreso a los jugadores.
+Interfaz de usuario
+Actualizada la visualización de selección de las placas de nombre.
+Actualizadas las texturas de Personal Resource Display.
+Novedades de esta versión: problemas conocidos
+Los Banes y Curses no se siguen correctamente si sueltas el objetivo y vuelves a seleccionar uno que ya tiene un bane o una maldición.
+No se puede seguir la reutilización de Healthstone.
+El sacerdote sigue todos los hechizos por defecto.
+Arcane Blast no se puede seguir.
+Para que Mana gem empiece a seguir bien su reutilización, el mago tiene que lanzar otro hechizo.
+Crear o cambiar la composición del grupo puede llevar a los jugadores a otra instancia del mundo. Estamos trabajando en mejoras y daremos novedades pronto.
+No se pueden seguir las reutilizaciones de las mascotas.
+No se pueden seguir las mejoras de objetos (como Windfury o los venenos de pícaro).
+El minimapa de Stormwind tiene problemas de visualización y se corregirá en una versión posterior.
+Personal Resource Display no muestra los puntos de combo.
+Aquí tienes nuestra publicación completa de problemas conocidos.

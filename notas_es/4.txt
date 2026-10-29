@@ -1,0 +1,222 @@
+Arreglos de errores
+Se ha mejorado la visibilidad de la lluvia.
+Se ha quitado la opción «Ray Traced Shadows». Este ajuste volverá al juego en una actualización futura, cuando se arregle su funcionamiento.
+Se ha arreglado un problema por el que Night Watchman's Torch causaba cierto retraso no deseado en algunas situaciones y no se podía cancelar.
+Se ha ajustado en todas las razas el tamaño visual de las armas en la mano y envainadas a la espalda para que sea más uniforme.
+Cambios y novedades
+Los jugadores ya pueden subir hasta el nivel 30.
+Nueva mazmorra: Excavation Site: Wetlands (26-31).
+Los jugadores ya tienen acceso a Razorfen Downs (25+) y Uldaman (30+), además de las siguientes mazmorras, que ya estaban disponibles:
+Ragefire Chasm
+Hall of Thanes
+Ruins of Lordaeron
+Wailing Caverns
+The Deadmines
+Shadowfang Keep
+The Stockade
+Blackfathom Deeps
+Gnomeregan
+Razorfen Kraul
+Scarlet Monastery
+Ahora hay barberías en Darnassus y Thunder Bluff, todas las barberías tienen barberos trabajando en ellas y los guardias de las ciudades indican cómo llegar a las barberías.
+Acampada
+El perjuicio Boosted Rest que provoca esta función de campamento tiene ahora otro icono para que el efecto quede más claro, y se ha reescrito su descripción para que sea más clara.
+Se ha ajustado la redacción de las funciones de campamento para usar el término «mutuamente excluyentes» en lugar de solo «excluyentes» y reducir la confusión sobre su funcionamiento.
+Las hogueras ya no hacen daño a los jugadores de nivel inferior a 5 y hacen menos daño a los jugadores con menos del 90 % de salud.
+Objetos
+Savory Whimsyfin Delight usa ahora un equivalente orco de los atuendos de ninja y pirata de Savory Deviate Delight.
+Nota de los desarrolladores: las transformaciones anteriores eran provisionales, ¡pero puede que volvamos a añadir otras parecidas en el futuro!
+Al vender a un vendedor un objeto BoE con una apariencia que no has coleccionado, el objeto pasará a estar ligado al alma (antes quedaba ligado a la cuenta).
+Clases
+Druida
+Bear Form y Dire Bear Form generan ahora un 75 % más de ira al asestar un crítico.
+Se ha arreglado un error por el que Swipe no escalaba con el poder de ataque. Ahora gana correctamente el 3 % del poder de ataque del druida.
+Nota de los desarrolladores: la descripción no se mostrará correctamente hasta una actualización futura.
+Se ha eliminado Tiger's Fury.
+Todas las formas de cambio de forma son ahora INMUNES a los efectos de desarme.
+Nota de los desarrolladores: es un ajuste de jugabilidad para que se sienta como en el WoW original. Si a un druida lo desarman antes de entrar en una forma, la forma no le quitará el desarme y además hará menos daño mientras dure el efecto, así que desarmar a un druida antes de que cambie de forma hará que haga menos daño.
+Faerie Fire ya no reinicia el temporizador de golpe al usarlo.
+Feral
+Primal Bite: la amenaza que genera esta habilidad se ha duplicado aproximadamente.
+Se ha eliminado el talento King of the Jungle.
+Se ha eliminado Tiger's Fury.
+Hay un talento nuevo conectado a Shredding Attacks en la 4.ª fila: Shifting Power.
+Solo en Cat Form. 16 s de reutilización. Cuesta el 55 % del maná base.
+Convierte al instante el 55 % del maná base en 40 de energía. El coste de Shifting Power se reduce con los efectos que reducen el coste de cambiar de forma.
+Shifting Power cuesta la misma cantidad de maná que Cat Form.
+Hay un talento nuevo conectado a Shifting Power en la 5.ª fila: Improved Shifting Power.
+Reduce en 4/8 s la reutilización de tu hechizo Shifting Power.
+Cazador
+Puntería
+El icono de Improved Stings se ha cambiado para que tenga un aire más Vanilla.
+El talento 31, Sniper Shot, tiene ahora un alcance de 45 m y aumenta en 10 m el alcance de tus 3 siguientes disparos realizados en 10 s.
+Supervivencia
+El icono de Predator's Edge se ha cambiado para que tenga un aire más Vanilla.
+El aumento de parada de Deflection pasa a ser del 1/2/3/4/5 % (antes 2/4/6/8/10 %).
+Mascotas
+Vuelve el modo agresivo (Aggressive Mode), que se encuentra en la pestaña de mascota de tu libro de hechizos.
+Nota de los desarrolladores: había algunas bestias domesticables con rangos de habilidades de mascota de nivel demasiado alto para esa criatura. Se han arreglado todas. Esto podía provocar un error por el que tu mascota «olvidaba» la habilidad, algo que no debería pasar tras este arreglo.
+Mago
+Todos los pergaminos de mago de Comprehension han recibido otra pasada de equilibrio y ya no se pueden lanzar en movimiento.
+Fuego
+Hot Streak pasa a llamarse Heating Up, ya que ya no depende de encadenar una «racha».
+Las cargas de Combustion vuelven a ser 3 (antes 4).
+El Fire Vulnerability de Improved Scorch ya no tira una segunda vez para ver si se resiste.
+Escarcha
+La aplicación de Winter's Chill no tira para ver si se resiste, ya que el hechizo original tenía que acertar.
+Paladín
+Protección
+La probabilidad de bloqueo de Redoubt pasa a ser del 4/8/12/16/20 % (antes 6/12/18/24/30 %).
+La probabilidad de bloqueo de Holy Shield pasa a ser del 30 % (antes 20 %).
+Reprensión
+La proporción de intelecto a daño con hechizos de Champion of the Light pasa a ser del 20/40/60 % (antes 33/66/100 %).
+Nota de los desarrolladores: la descripción de Champion of the Light decía por error que aumentaba la sanación; no lo hacía. Se ha quitado esa descripción.
+Sacerdote
+Devouring Plague ya puede hacer crítico correctamente.
+Se ha arreglado un problema por el que Shadow Word: Death siempre se beneficiaba del talento Early Demise, fuera cual fuera el % de salud del objetivo.
+Disciplina
+Inner Focus ya no aplica su aumento de crítico a los efectos periódicos.
+Sombra
+Shadow Weaving ya no puede fallar al aplicarse.
+Pícaro
+Se ha arreglado un problema por el que fallar Expose Armor te hacía perder todos los puntos de combo.
+Sutileza
+Setup ahora solo añade puntos de combo a tu objetivo actual si es aquel cuyo ataque has esquivado o cuyo hechizo has resistido.
+Chamán
+Ghost Wolf debería verse mejor en zonas bien iluminadas.
+Se ha arreglado un problema por el que Disease Cleansing Totem no duraba 5 min.
+Se ha arreglado un problema por el que Totemic Recall no devolvía maná.
+Brujo
+Drain Soul ahora se interrumpe correctamente si el brujo empieza a lanzar otro hechizo.
+El modelo de la mascota Incubus se ha sustituido por uno de menor resolución.
+Hellfire ya puede hacer crítico.
+Aflicción
+Soul Harvesting pasa a llamarse Soul Harvest. Ahora otorga correctamente su aumento del 50/100 % a la regeneración de maná.
+Mascotas
+Vuelve el modo agresivo (Aggressive Mode), que se encuentra en la pestaña de mascota de tu libro de hechizos.
+Guerrero
+Los jugadores generan ahora un 75 % más de ira al asestar un crítico con un ataque básico.
+Rend y Sunder Armor ahora marcan al instante a los enemigos como presa del guerrero.
+Poner en cola Heroic Strike ya no aumenta la probabilidad de golpe con la mano izquierda.
+La ira adicional generada al asestar críticos aumenta a un 100 % más de ira (antes 75 %).
+Se ha arreglado un error por el que Dual Wield Specialization otorgaba su aumento de probabilidad de golpe a ambas armas.
+Nota de los desarrolladores: debido a ese error, nuestras pruebas necesitaban algunas correcciones, así que hemos hecho otra pasada al guerrero Furia.
+Armas
+Spearing Strike ya no requiere un arma de dos manos. Spearing Strike requiere Battle Stance.
+Furia
+Dual Wield Specialization ya no da un aumento del 20/40/60/80/100 % a la generación de ira del arma de mano izquierda.
+Se ha arreglado un problema por el que Unbridled Rage tenía menos probabilidad de activarse de lo previsto.
+Nota de los desarrolladores: nuestro objetivo es dar a Furia más acceso a utilidad y a decisiones con peso al principio del árbol para subir de nivel, y liberar puntos más adelante para tener más opciones en vez de verse obligado a poner puntos en Enrage para llegar a Flurry.
+Booming Voice es ahora un aumento del 10/20/30/40/50 % del área de efecto de tus gritos y una reducción del 5/10/15/20/25 % de su coste de ira.
+Unbridled Wrath ya no otorga el doble de ira con armas de dos manos.
+Nuevo talento Lingering Rage en la fila 2 de Furia. Lingering Rage aumenta en 2/4/6/8/10 s el tiempo que tarda tu ira en empezar a disminuir al salir de combate.
+Blood Craze ya no se activa con los lanzamientos de Bloodthirst.
+Se ha eliminado el talento Improved Cleave.
+Se ha eliminado el talento Boundless Rage.
+Nuevo talento Furious Precision en la fila 3 de Furia. Furious Precision aumenta un 4/7/10 % tu probabilidad de golpe con los ataques de mano izquierda.
+Raging Blows reduce ahora en 3 el coste de ira de tus habilidades Cleave y Whirlwind.
+Raging Blows ya no hace que Whirlwind golpee con la mano izquierda. Whirlwind golpeará ahora siempre con ambas armas sin necesidad de ningún punto de talento.
+Dual Wield Specialization ya no otorga probabilidad de golpe a tus ataques con la mano izquierda.
+Ya no hace falta Enrage para llegar al talento Flurry.
+Ahora hace falta Death Wish para llegar al talento Flurry.
+Nuevo talento Gore Drinker en la fila 6 de Furia; requiere el talento Enrage. Tus habilidades Enrage, Berserker Rage, Bloodrage, Death Wish y Bloodthirst hacen que tus 3 siguientes ataques cuerpo a cuerpo restauren un 0,5/1 % de tu salud máxima.
+Improved Berserker Rage pasa a la fila 5 de Furia (antes fila 6).
+Berserker Rage está ahora disponible a nivel 30 (antes 32).
+La proporción de poder de ataque de Bloodthirst aumenta al 45 % (antes 35 %).
+Protección
+Nota de los desarrolladores: nuestro objetivo es dar a quienes no usan escudo un camino claro hasta la mitad del árbol, donde Protección podría servir como especialización secundaria técnica para JcJ, con más acceso a Improved Bloodrage, Iron Will, Improved Disarm, Last Stand e Improved Shield Bash.
+Iron Will pasa a la fila 1 de Protección (antes fila 2 de Furia).
+Anticipation pasa a la fila 2 (antes fila 1).
+Se ha eliminado Toughness.
+Improved Bloodrage pasa a la fila 1 (antes fila 2).
+Improved Revenge pasa a la fila 2 (antes fila 3).
+Improved Disarm pasa a la fila 3 (antes fila 4).
+Improved Shield Bash pasa a la fila 4 (antes fila 5).
+Gestor de reutilizaciones (Cooldown Manager)
+Ya se admiten las habilidades raciales.
+Ya se admite el pícaro.
+Ya no deberían aparecer entradas duplicadas por cada rango de hechizo en las clases que ya se admitían.
+Compatibilidad con mando
+La interfaz del establo de mascotas se ha actualizado para ser compatible con mando.
+Las asignaciones de la interfaz de mando son ahora fijas, y cualquier reasignación del mando solo afecta a la interfaz de teclado y ratón.
+Los marcos compactos del gestor de banda y de grupo se han actualizado para ser compatibles con mando.
+Se ha arreglado un problema que impedía mover las macros colocadas en una barra de acción del mando.
+Jugador contra jugador
+Se han ajustado los costes de honor del equipo JcJ y de las fichas de mejora: la mayoría de los objetos cuestan aproximadamente un 50 % más, para ajustarse mejor a los objetivos de obtención de equipo.
+El tope de honor sube de 15.000 a 25.000 para adaptarse mejor a los nuevos costes.
+Profesiones
+Shenthul, en Orgrimmar, ahora entrenará a los Célicos Windshaper.
+Ya están disponibles varias recetas de Herrería y Peletería pensadas como botín aleatorio en mazmorras.
+Encantamiento
+Todas las varitas fabricadas de calidad común y poco común se venden ahora a los vendedores por 1 de cobre.
+Minería
+Se ha reducido la cantidad de nodos de Poor Copper Vein en las zonas iniciales.
+Desuello
+Las criaturas vuelven a poder desollarse una sola vez antes de desaparecer.
+Misiones
+Nota de los desarrolladores: agradecemos vuestros comentarios sobre la velocidad de subida de nivel mientras seguimos debatiendo sobre la beta. Como parte de esas conversaciones, hemos decidido reducir en esta versión la experiencia que dan las misiones de mazmorra. También se han recalibrado algunas recompensas de misión.
+Las misiones de mazmorra dan ahora un 50 % menos de experiencia extra por encima de lo normal de una misión.
+Se ha resuelto un problema por el que los jugadores no podían empezar misiones de escolta si su registro de misiones tenía 25 misiones o más.
+Se ha resuelto un problema por el que algunos objetos de misión podían caer varias veces.
+Se ha resuelto un problema por el que algunas misiones que dan objetos al empezar se podían compartir.
+Se ha resuelto un problema por el que algunas misiones que se obtienen de objetos se podían compartir.
+Se ha aumentado la velocidad de reaparición de muchas criaturas y objetos en Hillsbrad Foothills, Ashenvale, Wetlands, Duskwood y Thousand Needles.
+Nota de los desarrolladores: Redridge Mountains y Stonetalon Mountains se ajustaron en una compilación anterior. Seguid enviándonos las zonas donde os cueste completar misiones y seguiremos haciendo ajustes.
+Darkshore
+Se ha resuelto un problema con el objeto Tharnariun's Hope durante la misión «Plagued Lands».
+Deadmines
+«Destruction in Deadmines» se ordena ahora correctamente en el registro de misiones dentro de la mazmorra.
+Druida
+Se ha arreglado un problema por el que los jugadores no recibían el botín de forma fiable durante las misiones «The Great Cat Spirit» y «The Great Windborne Cat Spirit».
+Los Célicos High Order ya pueden hacer la misión «Power Over Poison» para aprender el hechizo Cure Poison.
+Dun Morogh
+Los trols de Shimmer Ridge reaparecerán de forma más uniforme, y más rápido en las zonas donde iban lentos. Será el frío, colega.
+Loch Modan
+Los troggs del lago reaparecen ahora un poco más despacio para la misión «In Defense of the King's Lands».
+Mulgore
+Se ha añadido la misión «Kyle's Gone Missing!».
+Orgrimmar
+Smooth Boulder debería ser mucho más abundante y fácil de recoger para la misión «Rocks to Rests».
+Redridge Mountains
+Se ha actualizado la misión «Blackrock Blockade». También se ha ajustado la velocidad de aparición.
+Ruins of Lordaeron
+«A Frightened Request» se ordena ahora correctamente en el registro de misiones bajo la mazmorra.
+Se ha resuelto un problema por el que los jugadores podían recibir varias copias del objeto de misión Bloodied Insignia.
+Wailing Caverns
+Las Serpentbloom Snakes desaparecen ahora al cabo de un par de minutos. ¿Por qué tenían que ser serpientes?
+Westfall
+Se ha reducido notablemente la velocidad de reaparición del reloj de bolsillo en Furlbrow's Wardrobe para la misión «The Forgotten Heirloom».
+Se ha aumentado la velocidad de reaparición de los no-muertos para la misión «Collecting Memories» y de Foreman Thistlenettle para la misión «Oh Brother...».
+Razas
+Gnomo
+Eureka! ya no beneficia en absoluto a los efectos periódicos. Los hechizos canalizados no cuentan como periódicos.
+No-muerto
+Cannibalize no se puede usar si el lanzador es inmune al daño físico.
+Interfaz de usuario
+En la hoja de personaje, al pasar el ratón por Spell Damage y Spell Healing, ahora se explica que los hechizos lanzados con rangos muy por debajo de tu nivel actual se benefician menos de tu daño y sanación con hechizos y tienen menos probabilidad de activar tus habilidades de clase y talentos (ejemplos: Frostbite y Omen of Clarity).
+Nota de los desarrolladores: otro ejemplo de esta reducción de la probabilidad de activación: usar Frostbolt de rango 1 a nivel 60 da un 0 % de probabilidad de que se active Frostbite. Así que ahora decides entre aplicar una ralentización rápido o usar un hechizo que puede activar Frostbite, en lugar de conseguir las dos cosas.
+La creación de personaje mostrará iconos a juego cuando se activen los modelos de definición estándar.
+Se ha actualizado el arte del marco de los establos.
+Los puntos de combo del marco de objetivo y de Personal Resource Display tienen arte nuevo.
+Se ha arreglado que las tiradas de botín en el chat no mostraban el nombre completo del jugador.
+La casa de subastas muestra ahora correctamente los sufijos de los objetos.
+Mundo
+Se han hecho ajustes en las instancias del mundo.
+Ya no debería transferirse el liderazgo del grupo al crear o actualizar la composición del grupo.
+Nota de los desarrolladores: mientras seguimos iterando en las funciones que afectan a la población de jugadores y a la formación de grupos, esperamos vuestros comentarios e informes de errores.
+Problemas conocidos: nuevos en esta compilación
+Al encadenar hechizos, los efectos y sonidos de prelanzamiento del siguiente no se reproducen hasta que termina el primero.
+Por ejemplo: si lanzas Fireball y justo después otra Fireball, terminas tu primera Fireball, tus manos no brillan ni hacen el crepitar de la nueva Fireball que estás lanzando, y cuando la mano baja tras la primera Fireball, empiezas la animación de prelanzamiento de la siguiente.
+Los enemigos pueden parar y bloquear por la espalda si el jugador está muy cerca. Hasta que se arregle, se puede evitar no acercándose demasiado a los objetivos.
+El tamaño total de la instalación de WoW: Forever es mayor de lo previsto. Estamos trabajando para reducirlo en una futura actualización de la beta.
+Cambiar al modo de interfaz de mando o salir de él restablece el diseño activo del modo de edición al predeterminado.
+Scroll of Liminal Passage no funciona correctamente.
+Los personajes enanos no tienen actualizados los sonidos de chapoteo en el agua. Está arreglado en una compilación posterior.
+Eureka no afecta a todos los hechizos de daño o de sanación de algunas clases. Está arreglado en una compilación posterior.
+Varios perjuicios, como Faerie Fire y Demoralizing Shout, no generan amenaza.
+A los magos que aprenden Research se les puede impedir el acceso a ello.
+Dual Wield Specialization del guerrero otorga a la mano derecha y a la izquierda un 2/4/6/8/10 % de probabilidad de golpe. Solo debería aplicarse a la mano izquierda.
+Retribution Aura usa el poder con hechizos del objetivo en lugar del del paladín.
+Los Taillasher Eggs de la misión «Break A Few Eggs» no reaparecen tan rápido como se pretendía. Se arreglará en una compilación posterior.
+Anduin Wrynn (y muchos otros niños) llevan sombrero sin querer. Estamos quitándoselos, pero no paran de reírse y salir corriendo, así que nos llevará un rato.
+Nuestra publicación completa de problemas conocidos está aquí.

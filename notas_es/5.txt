@@ -1,0 +1,211 @@
+Arreglos de errores
+Esta versión recupera el comportamiento de despojo de Classic: se puede seguir interactuando con las criaturas que no han soltado botín.
+Arreglado el parpadeo de los efectos visuales en criaturas grandes.
+Arreglado un comportamiento de las criaturas que podía provocar pulls involuntarios a larga distancia.
+Cambios y actualizaciones
+Ya se puede probar la nueva mazmorra de la Ciudad de Dalaran.
+Los jugadores vuelven a poder cambiar varias armas dentro del mismo GCD, por ejemplo con una macro para pasar de un arma a dos manos a espada y escudo.
+La experiencia obtenida al matar criaturas en mazmorras ha aumentado aproximadamente un 20 %.
+Arreglado un error que reducía la experiencia de los jugadores que estaban en grupo con jugadores de nivel superior matando enemigos de nivel inferior.
+Nota de los desarrolladores: hasta ahora en WoW: Forever, la experiencia por matar enemigos de nivel inferior en grupo se penalizaba según el miembro de mayor nivel del grupo. En Classic Era, ese ajuste se hacía de forma individual para cada miembro del grupo, sin tener en cuenta al de mayor nivel. Hemos vuelto al cálculo de Classic Era, en el que solo importa el nivel de cada jugador. Creemos que la combinación de estos dos cambios aumentará muchísimo la experiencia obtenida en mazmorras para la mayoría de los jugadores.
+Nota de los desarrolladores: como antes, si un miembro del grupo tiene un nivel muy superior al del enemigo que se mata, ningún jugador del grupo recibirá experiencia, tal como está previsto.
+Gestor de reutilizaciones
+Ahora son compatibles todas las clases, las habilidades raciales y los abalorios.
+Nota de los desarrolladores: el soporte para consumibles llegará en un parche posterior.
+Soporte para mando
+Actualizado el indicador de entrada de las acciones que exigen mantener pulsado un botón en lugar de pulsarlo.
+Arreglado un problema que podía impedir que las entradas funcionaran como debían después de despojar.
+Al abrir el mapa, el foco empieza ahora en el registro de misiones. Así los jugadores pueden seguir corriendo salvo que estén usando el cursor del mapa.
+Actualizaciones en la navegación por los marcos de banda.
+La barra de acción del mando ahora es compatible con el modo de edición.
+Las distribuciones del modo de edición se guardan y cargan ahora por tipo de interfaz.
+Los ajustes de la barra de acción del mando, como la barra de acción compacta, se han pasado del menú de opciones al modo de edición.
+Los usuarios tendrán que entrar en el modo de edición, hacer clic en la barra de acción del mando y configurar las opciones que quieran, ya que no se trasladarán desde las opciones anteriores del menú.
+Sistema de legado
+Todos los jugadores de la beta tienen completado el desafío de legado. Esto otorga 16 puntos de legado para probar el sistema a fondo.
+El cambio de puntos de talento de legado más barato cuesta ahora 1 de plata, y el coste del cambio se reduce en un cambio por hora.
+Nota de los desarrolladores: funciona de forma parecida al coste de cambio de los talentos de clase y solo se aplica durante la beta.
+Clases
+Nota de los desarrolladores: había varios errores en el cálculo de la ira obtenida al recibir daño, y quedan arreglados en esta versión. Un guerrero o druida normal debería obtener más ira al recibir daño.
+Arreglado un error por el que el cálculo de la ira usaba la salud del jugador para determinar la ira obtenida, en lugar de la salud esperada de una criatura. Esto hacía que se obtuviera menos ira al llevar más equipo de aguante.
+Arreglado un error por el que el cálculo de la ira no tenía bien en cuenta el aumento del daño recibido por multiplicadores de combate, en especial al recibir críticos o golpes aplastantes.
+Arreglado un error por el que los cálculos de ira con absorciones de daño no se gestionaban bien. Ahora las absorciones de daño se ignoran correctamente al calcular la ira recibida por los ataques (como si el guerrero o druida no tuviera ninguna absorción activa).
+Nota de los desarrolladores: antes equilibrábamos la ira obtenida suponiendo que los guerreros tenían un 50 % de armadura. Eso era adecuado para un tanque, pero no para guerreros haciendo misiones. Hemos reequilibrado la obtención de ira con valores adecuados para cada nivel, entre el 20 % y el 40 % según el nivel.
+Druida
+Arreglado un error por el que los druidas no podían usar pociones de maná en forma de oso, oso temible o felina.
+La ira adicional generada al asestar críticos aumenta al 100 % (antes, 75 %).
+El daño base de Thorns vuelve a los valores de Vanilla WoW y el coeficiente de poder con hechizos se reduce al 6 % (antes, 13,3 %).
+Arreglado un problema por el que la forma felina reducía la salud máxima.
+Bear Form y Dire Bear Form: la bonificación de amenaza aumenta al 50 % (antes, 30 %).
+Los efectos que anulan el cambio de forma se parecen ahora más a los de WoW Classic.
+Nota de los desarrolladores: la forma del druida es una información clave en combate y es importante que los jugadores puedan ver en qué forma está. Entendemos que los jugadores de druida quieran seguir transformándose, así que hay efectos que seguirán funcionando, pero ahora es mucho más limitado y depende sobre todo de si la transformación tiene otras ventajas (por ejemplo, Noggenfogger Elixir te seguirá transformando porque te permite respirar bajo el agua).
+Demoralizing Roar: arreglado un problema por el que no generaba amenaza. Ahora genera algo de amenaza en todos los objetivos afectados.
+Wrath: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 5 de este hechizo para que el crecimiento de los rangos 1 a 6 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Feral
+Predatory Instincts: este talento pasa a llamarse «Natural Instinct» y ahora también aumenta la sanación con hechizos en un 12/25 % del intelecto.
+Shifting Power ya no se puede usar con la energía al máximo.
+Thick Hide: este talento está ahora bien implementado en el código y no mediante script, lo que resuelve algunos errores por los que equiparse objetos con la forma cambiada no lo activaba.
+Cazador
+Disengage: la reducción de amenaza debía duplicarse, pero se pasó por alto. Ya está implementado.
+Arreglado un error que hacía que las mascotas de cazador ganaran salud repetidamente con la salud baja.
+Bestias
+Unleashed Fury ahora aumenta correctamente el daño de tu mascota.
+Puntería
+Improved Concussive Shot tiene ahora la probabilidad correcta de activarse.
+Supervivencia
+Improved Wing Clip tiene ahora la probabilidad correcta de activarse, y menos probabilidad si se usan rangos muy por debajo de tu nivel actual.
+Expose Prey dura ahora 10 s (antes, 5).
+Entrapment tiene ahora correctamente rendimientos decrecientes.
+Entrapment ahora solo se activa correctamente con la activación inicial de Frost Trap, no de forma periódica.
+Mago
+Arreglado un problema por el que Impact podía activarse con el daño periódico de Flamestrike.
+Frostbolt: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 5 de este hechizo para que el crecimiento de los rangos 1 a 6 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Fireball: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 5 de este hechizo para que el crecimiento de los rangos 1 a 6 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Arcane Missiles: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 3 de este hechizo para que el crecimiento de los rangos 1 a 4 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Paladín
+Arreglado un problema de Retribution Aura que hacía que usara el poder con hechizos del objetivo golpeado en lugar del poder con hechizos del paladín que la lanza.
+El daño base de Retribution Aura vuelve a los valores de Vanilla WoW (una reducción de un 33 % aproximadamente) y el coeficiente de poder con hechizos se reduce al 6 % (antes, 13,3 %).
+Protección
+Reckoning: ahora tiene una reutilización de 1,5 s en la frecuencia con la que se puede activar.
+Arreglado un problema por el que Seal of Fury devolvía maná al paladín aunque el talento Improved Seal of Fury no estuviera activo.
+Improved Seal of Fury y Shield Specialization ya no generan amenaza al restaurar maná.
+Nota de los desarrolladores: los paladines que restauraban suficiente maná para aguantar el combate como tanque generaban más amenaza de la prevista.
+Sacerdote
+Smite: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 4 de este hechizo para que el crecimiento de los rangos 1 a 5 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Lesser Heal y Heal: se han ajustado los puntos base de los rangos 1 a 3 de Lesser Heal y de los rangos 1 a 2 de Heal para que el crecimiento de esta familia de hechizos hasta Heal rango 3 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Disciplina
+Nota de los desarrolladores: Penance ha recibido varias actualizaciones para ajustarlo más a los hechizos potentes con reutilización.
+Reducidos el daño y la sanación de Penance para resolver un error por el que se trataba como una canalización de 3 s en lugar de 2 s.
+Ajustado el coste de maná de Penance para que tenga una ventaja constante en eficiencia de maná sobre la familia de hechizos Heal/Greater Heal. El coste de maná del rango 1 aumenta un 50 %.
+La sanación de Penance aumenta en los rangos 2 y 4.
+Chamán
+Flametongue Totem usará ahora correctamente la velocidad de ataque del objetivo si tiene la forma cambiada, en lugar de la velocidad del arma que lleva equipada.
+Lightning Bolt: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 5 de este hechizo para que el crecimiento de los rangos 1 a 6 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Elemental
+Elemental Focus ya no se activa y se consume al instante al usar Fire Nova.
+Restauración
+Water Shield muestra ahora con precisión el maná restaurado en la descripción del beneficio.
+Water Shield ya no indica que tiene una reutilización de 15 s (no la tenía).
+Mana Tide Totem vuelve a mostrar su efecto visual en cada pulso.
+Brujo
+La mascota actual de un brujo quedará ahora aturdida mientras invoca una nueva.
+Shadow Bolt: se han ajustado los puntos base y los puntos por nivel de los rangos 1 a 4 de este hechizo para que el crecimiento de los rangos 1 a 5 sea más uniforme y los rangos nuevos siempre sean una mejora.
+Demonología
+El daño adicional de mascota de Demonic Brand ahora solo genera amenaza alta cuando inflige daño de las Sombras.
+Guerrero
+Demoralizing Shout: arreglado un problema por el que no generaba amenaza. Ahora genera algo de amenaza en todos los objetivos afectados.
+Armas
+Deep Wounds vuelve a ser un talento necesario para llegar a Impale.
+Arreglado un error por el que Deep Wounds escalaba con el poder de ataque del arma de la mano izquierda.
+Nota de los desarrolladores: Deep Wounds no escala con el poder de ataque, pero es un daño periódico acumulativo en comparación con Classic/Vanilla.
+Protección
+Arreglado un problema por el que Last Stand no daba al jugador la cantidad de salud correcta al activarse.
+Objetos
+Reducido el tamaño visual de las hombreras de los nuevos conjuntos de armadura a su tamaño correcto.
+El efecto de Wolfshead Helm pasa a otorgar 5 de energía adicional al usar Shifting Power. La parte de ira del efecto del yelmo no cambia.
+Varias recompensas de misiones de mazmorra bajan de rareza de raro a poco común. Sus estadísticas se han actualizado de acuerdo con el cambio de rareza.
+The Truthseeker's Bow de la misión Greater Friend of the Library tiene ahora el requisito de nivel correcto, nivel 40. Las otras dos recompensas de esta cadena de misiones exigían nivel 40 para equiparse, así que se ha cambiado para que coincida con ellas.
+Transformative Cocoon es ahora correctamente un perjuicio.
+El beneficio del encantamiento Revelation ya no se elimina cuando el lanzador cambia a Ghost Wolf o a formas de druida.
+La receta de Peace Tea se vende ahora a los vendedores por 10 de cobre.
+Se ha ajustado el precio de venta de varios objetos de Encantamiento de la siguiente forma:
+Minor Wizard Oil se vende ahora por 1 de plata.
+Novice's Practice Wand se vende ahora por 5 de cobre.
+Lesser Magic Wand se vende ahora por 1 de plata y 10 de cobre.
+Greater Magic Wand se vende ahora por 2 de plata.
+Lesser Mystic Wand se vende ahora por 4 de plata y 50 de cobre.
+Greater Mystic Wand se vende ahora por 6 de plata.
+Twisted Nether Wand se vende ahora por 10 de plata.
+Dreambough Wand se vende ahora por 15 de plata.
+Lesser Eternal Wand se vende ahora por 20 de plata.
+Greater Eternal Wand se vende ahora por 25 de plata.
+Booty Bay Bruiser's Buckshot ya no tiene efecto de derribo hacia atrás.
+Las siguientes recompensas de las nuevas misiones de Gelkis y Magram en Desolace han recibido ajustes. En una próxima corrección en caliente pasarán a requerir nivel 35 para equiparse, igual que los ajustes de las misiones.
+Abandoned Ferocity
+Blade of the Magram Clan
+Bludgeon of Betrayed Virtues
+Centaur Spear
+Ceremonial Centaur Blanket
+Desert Crawler's Claw
+Desperate Barrier
+Greatstaff of the Necrokhans
+Kolkar Hunter's Belt
+Kolkar Marauder Chain
+Scavenged Magram Armament
+Soulsplatter Mace
+Staff of Revelations
+Thrice-Damned Effigy
+Traitor's Finger
+Wanderer's Broadsword
+Nota de los desarrolladores: a la mayoría de los objetos anteriores solo se les ha ajustado el nivel de poder al valor esperado para la misión, pero algunos han recibido cambios de estadísticas.
+El daño de Discolored Healing Potion ya no rompe los efectos de control de masas.
+Jugador contra jugador
+Los críticos en JcJ ya no tienen eficacia reducida.
+Arreglado un problema por el que el punto de captura de Shipwreck Cove aparecía en un lugar incorrecto.
+Profesiones
+Los kits de armadura que otorgan poder de ataque ya no otorgan por error el doble de poder de ataque a distancia.
+Arreglado un problema por el que Enchant Weapon - Recovery no funcionaba para los druidas con la forma cambiada.
+Razas
+No-muerto
+Arreglado un problema por el que Will of the Forsaken a veces no se podía usar estando dormido o hechizado.
+Misiones
+Arreglado un problema por el que los jugadores podían quedarse sin poder empezar «Blood Tithe» tras completar ciertas misiones.
+The Night Watchman's Torch ya no muestra un aura visible en los jugadores a los que ilumina, solo en quien lleva la antorcha.
+Los barberos de las capitales han sido despedidos y sustituidos por barberos locales. No prevemos represalias por parte de los cárteles goblin.
+Barrens
+The Horn of Echeyakee ya no se consume al usarlo durante la misión «Echeyakee».
+Ahora hay un marcador de mapa para la misión «The Principal Source».
+Desolace
+Las nuevas misiones de Gelkis y Magram que empiezan con «Valley of Bones» exigen ahora un nivel mínimo de 35 (antes, 30).
+Se ha ajustado el poder de estas recompensas. Más detalles en la sección Objetos.
+Dun Morogh
+Moverse y girar ya no cancela Far Sight durante la misión «Farsen's Watch». Se puede seguir cancelando con clic derecho en cualquier momento.
+Durotar
+Los Taillasher Eggs de la misión «Break A Few Eggs» reaparecen ahora más rápido y hay más huevos disponibles.
+Los Lazy Peons son ahora más vagos en la misión «Lazy Peons», y el marcador de mapa incluye ahora a los peones supersecretos del norte.
+Duskwood
+Stitches vuelve a ser hostil cuando entra en el confiado pueblo de Darkshire. ¡¡DARKSHIRE... TENGO HAMBRE!!
+Excavation Site: Wetlands
+El objeto Titan Relic de la misión «Elder Knowledge» o «Lost Relic Carry» se devuelve a los jugadores para las continuaciones «Earthen Echo» o «Prehistoric Prism», para que no tengas que conseguir otra reliquia.
+Hillsbrad Foothills
+Durante la misión «Elixir of Pain», Stanley ya no da experiencia, y ahora es la misión la que da la experiencia que antes daba él.
+Loch Modan
+Reducida la frecuencia de los Dark Iron Ambushers en el campamento de Miran durante la misión «Resupplying the Excavation».
+Mulgore
+Se ha corregido la posición del marcador de entrega de «Grim Tidings».
+Las criaturas de Gloomrise reaparecen ahora de forma más uniforme y las Gloomrise Hatchlings dan la experiencia adecuada a su dificultad.
+Orgrimmar
+Neeru Fireblade tiene ahora marcador de mapa y descripción al pasar el ratón durante la misión «Hidden Enemies». Qué ironía.
+Redridge Mountains
+Aumentada la velocidad de reaparición de los Weapon Racks, Stolen Weapons y Blackrock Supplies de la misión «Blackrock Blockade».
+Pícaro
+Añadidos marcadores de mapa para la misión «Plundering the Plunderers».
+Chamán
+Las distintas criaturas necesarias para la misión «Storm, Earth, and Fire» reaparecen más rápido y sueltan sus tótems retorcidos más a menudo; los Maraudine Scouts sueltan ahora Twisted Air Totems, Ongeku puede soltar un Twisted Earth Totem y Murdaloc puede soltar un Twisted Fire Totem. El Twisted Fire Totem también se puede conseguir ahora de los ogros Dustbelcher de las Badlands. Los campamentos más grandes, como Dustbelch Grotto, reaparecerán más rápido, pero los pequeños no.
+The Eye of the Tempest de «Heed My Call» se puede despojar ahora para varios jugadores.
+Stonetalon Mountains
+Jin'Zil permite ahora entregarle misiones después de que alguien complete la misión «Jin'Zil's Forest Magic».
+Teldrassil
+Durante la misión «Destiny Calls», Sethir the Ancient genera ahora más Minions of Sethir tras reiniciarse, y su tiempo de reaparición se ha reducido.
+La centinela Lynessa Duskblossom se mueve ahora más despacio durante la misión «Escaping Ban'ethil».
+Tirisfal Glades
+Aumentado el nivel de las misiones y criaturas de Shadowvale y Bandarion Keep.
+Nota de los desarrolladores: tenían menos nivel que el contenido anterior, así que no había la progresión que queríamos y las misiones podían estar ya en verde cuando llegabas a ellas.
+Guerrero
+Arreglado un problema por el que el Mausoleum Trigger de la misión «Ulag the Cleaver» tardaba mucho en reactivarse.
+Interfaz de usuario
+El chat de voz se puede configurar ahora para usar Discord Voice en los ajustes de audio, y se aplica a todo el grupo según el ajuste del líder.
+Ahora se puede elegir un modo de voz en el juego para los anuncios del buscador de grupos, de modo que los miembros del grupo reciben una invitación para unirse al chat de voz elegido.
+Se ha actualizado la ventana de inspeccionar jugador.
+Se han actualizado los puntos de combo en el marco del objetivo y en la visualización de recursos personales.
+Los tipos de misión se muestran ahora como texto en el registro de misiones, el seguimiento de misiones y el diálogo de misión.
+Los requisitos de nivel de las misiones se muestran ahora en el seguimiento de misiones.
+Arreglado un problema por el que las estadísticas con beneficios no aparecían resaltadas en el panel de información del personaje.
+Arreglado un problema por el que las macros específicas mostraban las macros generales.
+Al hacer clic en un desafío de legado conseguido se abrirá ahora la ventana del desafío de legado.
+Ver talentos es ahora una opción debajo de Inspeccionar en el menú contextual del marco del objetivo.
+El nivel y la clase del personaje se muestran ahora en el marco izquierdo del panel de información del personaje.
+Problemas conocidos (nuevos en esta versión)
+Aunque ya se han actualizado las texturas de la forma de oso y de viaje del druida célico, las de su forma felina, varias criaturas de Zephras Isle y algunas monturas, mascotas y otras criaturas llegarán en una versión futura.
+Los cazadores que han elegido el talento Ferocity no verán aumentar la probabilidad de crítico de su mascota en la hoja de personaje. Es solo un error visual.
+Algunos iconos de la ventana de profesiones se ven rotos.

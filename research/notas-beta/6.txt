@@ -1,0 +1,338 @@
+**Today, we're updating the WoW Forever Beta with a new build that includes the following.**
+
+ 
+
+**CHANGE LOG**
+
+**Bug Fixes**
+
+* Resolved an issue with extra bright fog at lower shadow settings.
+* Fixed an issue allowing Horde players to gain Kirin Tor reputation.
+* Creatures will now properly regenerate health when out of combat.
+* Fixed an issue with various Horde characters holding the Night Watchman's Torch.
+* Fixed an issue with various drink tooltips that were not displaying the correct amount of total Mana regeneration.
+
+**Changes and Updates**
+
+* Added a new tutorial experience for new players.
+* Improved control over Lighting ‘Bloom Intensity’ in options to be a slider that has moved to the ‘Advanced’ graphics section.
+* Added ‘Auto Attack/Auto Shot’ setting. If enabled, Hunters will automatically switch between auto attack and auto shot. This is now also supported for gamepad.
+
+
+* Racial abilities have been updated.
+  * Tauren
+    * Endurance: Now grants 2% increased critical damage and healing (was 1% hit chance).
+    * Plainsrunning: Also grants 3% increased mounted movement speed. This increase stacks with other mounted movement speed increases.
+
+
+* * * §Plainsrunning now requires the Tauren to move a minimum distance per second to keep the effect.
+      * *Developers’ notes: Stutter-stepping is no longer sufficient to maintain the effect. This minimum does make some allowance for movement speed penalties.*
+    * §Cultivation: Cooldown reduced to 15 minutes (was 60 minutes).
+    * §War Stomp: Cooldown reduced to 90 seconds (was 2 minutes).
+
+
+* *  Dwarf
+    * Mace Specialization: Replaced with Earth Fury: 2% increased critical damage and healing.
+    * Find Treasure: Now also grants a chance to find additional items in most chests.
+  *  Skyborne
+    * Wind Blessed: Haste bonus increased to 3% (was 1%).
+    * Skysight: Now castable while moving.
+    * Read Leyline: Now castable while moving. Minimum duration increased to 30 seconds (was 20 seconds).
+    * Walk on Air: Cooldown reduced to 90 seconds (was 2 minutes).
+    * Increased the number of spawn locations of Elemental Convergences and Leylines in most Eastern Kingdoms and Kalimdor zones.
+  * Human
+    * Sword Specialization: Replaced with Ruthless: 2% increased critical strike chance.
+  * Orc
+    * Axe Specialization: Replaced with Savage: 1% increased critical strike chance.
+    * Blood Fury: Cooldown increased to 3 minutes (was 2 minutes).
+    * Shatter Curse: Now dispels Curses and Banes (was granting immunity). Magic damage taken reduced by 5% (was 15%).
+  *  Undead
+    * Touch of the Grave: Proc chance and cooldown adjusted to make benefit more consistent. Improvements made to visuals.
+    * Undead will no longer have Will of the Forsaken available to them while under the effects of Scatter Shot.
+    * Touch of the Dead now has a 30% chance to activate for casters and a 20% chance to activate for Paladins/Rogues/Warriors, as well as a 25 second internal cooldown.
+    * Touch of the Dead no longer scales with Shadow increases on the target or the caster.
+    * Touch of the Dead no longer suffers from a decreased multiplier when a lower ranked spell is used.
+      * *Developers’ notes: This shouldn't have been in place because it's a racial, not a Class spell or ability.*
+  * Gnome
+    * Eureka!: Now an 8 second buff with no charges. Same effect on damage and ability costs. Now also benefits Power Word: Shield.
+
+§  Eureka cannot correctly be used while in stealth or invisibility.
+
+* * Night Elf
+    * Quickness: Movement speed increase now stacks with other movement speed increases.
+
+§  Night Elves no longer display their shields while in Wisp Form.
+
+* * Troll
+    * Regeneration: Health regeneration bonuses increased to 20% (was 10%).
+
+**Classes**
+
+·         Wands now require you to stand still for 0.5 seconds before shooting, matching early versions of World of Warcraft.
+
+* **Druid**
+  * Fixed an issue where high ranks of Rejuvenation were preventing other Druids from applying Rejuvenation to the target.
+  * Omen of Clarity: Fixed a bug where this could be triggered by Faerie Fire while in Cat Form, Bear Form, or Dire Bear Form. Since Faerie Fire costs no resources in those forms, it cannot trigger Omen of Clarity.
+  * Faerie Fire: Now generates threat while in Bear Form or Dire Bear Form (instead of just initiating combat at 0 threat).
+  * Fixed an issue allowing multiple Faerie Fire debuffs to be active on a target.
+  * Shred (Rank 1) is now learned at level 20 (was 22). It was possible to get Shredding Attacks before knowing Shred or Lacerate
+  * Fixed an issue where Heart of the Wild, Feral Swiftness, Thick Hide, and Leader of the Pack were not applying correctly to characters when they logged in.
+  * **Balance**
+    * Multiple instances of Insect Swarm will no longer continue to reduce the target's hit chance.
+    * Moonkin Aura now only increases Spell Critical Strike chance, and is Raid wide.
+  * **Feral**
+    * Leader of the Pack now only increases Melee and Ranged Critical Strike chance, and is Raid wide.
+    * The flat damage on Shred's tooltip will now correctly scale with the % damage increase of the Savage Fury talent.
+      * *Developers’ notes: This was just a visual bug. The damage is unchanged.*
+    * Furor now allows the player to retain the Energy they had when they were last in Cat Form even if they go into Bear or Dire Bear Form.
+      * *Developers’ notes: Bear and Dire Bear Form still prevent Energy regeneration.*
+* **Hunter**
+  * Auto Shot now requires you to stand still for 0.5 seconds before shooting, matching early versions of World of Warcraft.
+    * *Developers’ notes: Your character will still fire Auto Shot while casting spells like Aimed Shot or Sniper Shot.*
+  * Arrows should now be visible when a character has their bow drawn back.
+  * Pets now correctly benefit from Expertise.
+  * The Hunter's Fire traps now correctly scale with Attack Power.
+  * The Hunter may now correctly have 1 active Fire Trap and 1 active Ice Trap (was 1 Trap among all types).
+  * **Pets**
+    * Fixed an issue where pets were only ever inheriting the player's Melee Critical Strike chance instead of whichever is higher, melee or ranged. 
+    * Dismember (Crocolisk)
+      * Healing reduction reduced to 25% (was 50%).
+      * Duration reduced to 6 seconds (was 10 seconds).
+      * Cooldown increased to 15 seconds (was 6 seconds).
+    * Sonic Blast (Bat)
+      * Cast speed reduction reduced to 30% (was 60%).
+      * Duration reduced to 20 seconds (was 30 seconds).
+      * Cooldown increased to 60 seconds (was 30 seconds).
+    * Mine! (Bird of Prey)
+      * Duration reduced to 3 seconds (was 4 seconds).
+      * Cooldown increased to 90 seconds (was 60 seconds).
+  * **Beast Mastery**
+    * Summon Hawk will now correctly cause the Hawk to spawn at the target the spell was cast on.
+    * Summon Hawk will now stick your Hawk to the target that it was summoned on.
+    * Fixed an issue causing the Improved Mend Pet talent to increase the Mana cost of Mend Pet instead of decrease.
+  * **Marksmanship**
+    * Trueshot Aura is now Raid wide.
+    * Fixed an issue where Sniper Shot was not benefitting from a few Marksmanship talents.
+  * **Survival**
+    * Strider Kick can now be used while disarmed or while no weapon is equipped in your Main Hand.
+    * Resourcefulness now correctly reduces the Mana cost of Strider Kick.
+    * Resourcefulness now correctly activates when landing a critical strike, but it has been changed to only activating on melee and ranged ability critical strikes to prevent spamming.
+      * *Developers’ notes: Is not activated by Traps.*
+    * Updated the tooltip for Predator's Edge changed to better convey that it only increases the critical strike damage of your abilities.
+* **Mage**
+  * Frost Blast: This new spell is learned at level 24. It deals damage and slows the target's movement by 40%. It has a 1.5 second cast time, and is affected by all talents that affect Frostbolt.
+    * *Developers’ notes: The purpose of this spell is to provide the functionality formerly granted by Rank 1 Frostbolt despite the penalization of "down-ranking". It does have a higher Mana cost and deals a little more damage as well.*
+  * **Arcane**
+    * Fixed an issue where Presence of Mind would not be consumed by spell casts.
+    * Fixed an issue where Missile Barrage could reduce the cost and duration of a second Arcane Missiles cast.
+    * Missile Barrage: This talent has moved to the first row and become a 2-point talent. It now also grants a chance for Arcane Missiles hits to trigger Missile Barrage.
+    * Arcane Blast: Redesigned. This spell is now a 1.5 second cast, and each time it is cast it grants the casting Mage 15% of their Intellect as additional Spell Damage. This effect also increases the cost of Arcane Blast as before and still stacks to 4 times. However, the effect now lasts 15 seconds from when it is first applied, instead of just until the next spell cast. Mana cost unchanged, but damage done and Spell Damage coefficients both reduced 40%.
+    * Arcane Wrath: New 16-point gold medal talent. This new spell deals base damage similar to Fireball, with a 3.5 second cast, but also deals damage as if the Mage had additional Spell Power equal to 5% of the Mage's maximum Mana. 6 second cooldown.
+  * Fire
+    * Heating Up is no longer consumed if the Mage also had Presence of Mind active for the Pyroblast cast. Heating up also always gains an additional charge each time the Mage casts Fire Blast. This does mean Fire Blast critical strikes generate 2 charges.
+    * Wake of Fire: Talent reverted back to Improved Fire Blast and no longer grants a bonus when the Mage kills a target. It also now increases the range of Fireblast by 8/15 yards.
+    * Critical Mass: Mages can now spend up to 5 points in this talent for 10% total critical strike increase.
+    * Fire Power: Redesigned. Now only 3 talent points. Increases damage done by Fire spells by 1/2/3% per the Mage's Fire effects on the target, up to a maximum increase of 12%. Spells that mix multiple schools of magic do not grant this bonus.
+      * *Developers’ notes: Specifically, the effects which can grant increased Fire damage from this talent are Ignite, Improved Scorch, Fireball, and Pyroblast, and Impact. Frostfire Bolt does not grant the damage increase but can benefit from it.*
+    * Frost Channeling now correctly reduces the Mage's threat.
+    * Fixed an issue where Ice Block was too transparent.
+    * Fixed various issues around Clearcasting. Clearingcast now correctly does not roll for every target struck by a spell. Clearcasting no longer has a chance to activate off of Dampen Magic and Amplify Magic. Clearcasting no longer has a chance to be activated by abilities cast when not in combat.
+  * **Frost**
+    * Fixed an issue preventing Frostbite and Fingers of Frost from activating from your Ice Armor and Frost Armor spells.
+    * Ice Lance damage against Frozen targets changed to a 200% increase (Was 300%).
+    * Cone of Cold: Movement speed of the first 4 targets hit is decreased by an additional 10% and the slow lasts an additional 3 seconds on those targets.
+      * *Developers’ notes: The ability of this spell to control massive number of targets was the primary reason it was previously reduced in effectiveness and duration. It feels reasonable to let it retain this level of power when used against 4 or fewer targets.*
+    * Winter's Chill: Redesigned. No longer increases critical strike chance. Instead, it causes Cone of Cold to deal 40% increase damage per stack of Winter's Chill on the target, consumed by next Cone of Cold.
+    * Slightly changed the positioning of the spell visual for Cone of Cold.
+    * New spell Frost Blast. 1.5 second cast. Deals low frost damage. Slows/chills. Benefits from talents that benefit Frostbolt.
+    * Winter's Chill change to: Gives your Frostbolt, Frost Blast, and Fingers of Frost empowered Ice Lance spells a 20/40/60/80/100% chance to apply Winter's Chill, increasing the target's damage taken from your next Cone of Cold by 5% and it gains an additional 7% of your spell damage, stacking up to 5 times.
+* **Paladin**
+  * Seal of Fury is no longer overwritten by Power Word: Shield.
+  * Blessing of Salvation and Greater Blessing of Salvation have been replaced with Salvation and Mass Salvation. These are applied in the same manner as the blessings were, but are not exclusive with blessings.
+  * Paladins now also learn Revoke when Salvation is learned. Revoke removes target party or raid member's Salvation or Mass Salvation.
+    * *Developers’ notes: This is to restore the functionality of giving the Paladin more finesse and control over who has Salvation active and who doesn't.*
+  * Judgement of Righteousness and Judgement of Fury now have the correct spell power coefficients for instant cast spells.
+  * Fixed an issue causing Seal of Righteousness to gain almost twice as much benefit from Spell Damage than intended.
+  * Fixed an issue where Judgement of Righteousness had an incorrect Spell Damage coefficient.
+  * Consecration's Spell Power Coefficient per tick has been changed to 0.042 (was 0.095).
+  * Righteous Fury's Holy damage threat generation increased to 90% (was 60%).
+  * Seal of Fury Rank 3 is now correctly available for training at level 26 (was incorrectly level 25).
+  * **Holy**
+    * Fixed an issue where using a focus macro to cast Light's Vigil was causing it to not go onto the appropriate target.
+    * Fixed an issue causing Infusion of Light to grant Holy Shock 50% increased damage against enemies.
+  * **Protection**
+    * Shield Specialization Mana restored to the Paladin lowered to 4% with a 3 second internal cooldown (was 6% with a 3 second internal cooldown).
+    * Reckoning: This talent has been adjusted so you gain a charge of Reckoning each time it triggers. Your next melee swing (auto attack) will trigger all accumulated charges for 1 extra attack each. You may have a maximum of 4 charges.
+      * This restores the Classic Era functionality of storing up to 4 charges and delays all the triggers until your next swing so that it does not cause the auto attack timer to be reset by instant attacks.
+  * Retribution
+    * Champion of the Light now increases your spell damage by 10/20/30% of your Intellect (was 20/40/60%).
+    * Sanctified Judgement's Mana restore effect no longer generates threat.
+* **Priest**
+  * Fixed an issue where high ranks of Renew were preventing other Priests from applying Renew to the target.
+  * Fixed an issue causing Holy Fire Rank 5 periodic damage to be higher than Rank 6. 
+  * Power Word: Shield will now correctly tell the player they can't replace a Power Word: Shield on a target if the Power Word: Shield they have is stronger.
+  * Fixed an issue where casting Power Word: Shield would say SHIELDED twice in your scrolling combat text.
+  * Devouring Plague cooldown reduced to 24 seconds (was 1 minute).
+  * Shadow Word: Death cooldown increased to 18 seconds (was 12 seconds).
+  * Fixed an issue where casting Mind Vision would cause the target to stand up and interrupt drinks.
+  * **Discipline**
+    * Inner Focus will now correctly only be used on a single spell, even if you spell queue another spell into Penance's channel.
+    * Added to the tooltip for Divine Aegis explicitly that it is activated by Non-Periodic critical heals.
+    * Added to the tooltip for Divine Aegis what the maximum value for the shield is.
+    * Power in Light now increases Smite and Penance if the target is afflicted by Holy Fire or Shadow Word Pain.
+    * Silence Resolve threat reduction now applies to all spells.
+    * Mental Strength moved to Row 2 from Row 4 and changed to increase your intellect by 2/4/6/8/10%.
+    * Improved Power Word: Shield moved to Row 3 from Row 2.
+    * Twin Disciplines now correctly benefits Shadow Word: Death, Mind Flay, Starshards and Penance.
+  * **Shadow**
+    * Fixed an issue where Shadow Word: Death was not benefitting from Shadowform's increase to critical strike damage.
+    * Fixed an issue where Devouring Contagion was causing the bounced Devouring Plague to cost Mana, perform a cast animation, and put the caster's Devouring Plague back on full cooldown.
+    * Changed Vampiric Embrace so that it can't be resisted.
+    * Vampiric Embrace cooldown reduced to 30 seconds (was 1 minute).
+    * Improved Fade removed.
+    * Shadow Infinity removed.
+    * Improved Mind Blast moved from Row 3 to Row 2.
+    * New talent (Row 4): Dark Inspiration – Your Mind Blast and fully channeled Mind Flay causes Dark Inspiration, increasing yours and your party's Spirit by 3/6/9/12/15% for 10 seconds.
+    * Improved Mind Flay changes to: Each instance of damage of Mind Flay deals 10/20% more damage than its previous instance of damage.
+    * Devouring Contagion now spreads to 2 targets.
+    * Fixed an issue with Shadow Weaving's Tooltip. It now correctly states that it causes the target to take increased damage from you.
+* **Rogue**
+  * Rogue Poisons will no longer incorrectly activate against targets that are attacking them.
+  * Sap no longer has a chance to activate weapon procs.
+  * Fixed an issue where Rogues could swap specializations to keep their energy full.
+  * **Assassination**
+    * Cold Blood is now correctly consumed when Mutilate lands a critical strike.
+* **Shaman**
+  * Fixed an issue where Totemic Recall cost 70 silver on the trainer instead of 22 silver, as intended.
+  * Grounding Totem is now correctly destroyed after redirecting a spell.
+  * Windfury Weapon's attacks now appear as White hits in the scrolling combat text.
+  * Grace of Air Totem is no longer exclusive with Windfury Totem and Flametongue Totem.
+    * Windfury Totem and Flametongue Totem retain their exclusivity.
+  * Grace of Air Totem, Strength of Earth Totem, Windfury Totem, and Flametongue Totem are now Raid wide.
+  * Chain Lightning: Mana cost reduced by approximately 35% on all four ranks.
+  * Fire Nova's Spell Power Coefficient has been changed to 0.143 (was 0.214).
+  * Fire Nova's base damage has been significantly reduced.
+  * Fire Nova's mana cost has been significantly reduced.
+  * Flametongue Totem and Windfury Totem now correctly only affect players.
+  * Added a little green to the visual of Chain Heal without overpowering the original effect.
+  * **Elemental**
+    * Your Clearcasting from the Elemental Focus talent will no longer have a way to be spent on the same Fire Nova that activates it.
+    * Elemental Mastery: This talent has returned as the new 31-point gold medal talent. Reduces the cast time of Lightning Bolt and Lava Burst by 0.5 seconds and removes the cooldown from Chain Lightning for 15 seconds. 3-minute CD. Lava Burst is pre-requisite.
+    * Lava Burst: Moved from the 7th row to the 5th row as the 21-point gold medal talent. New rank 4 added and ranks reflowed. No longer has any pre-requisite.
+    * Elemental Fury: Now has Lightning Overload as pre-requisite.
+    * Lightning Overload: Now has Elemental Alacrity as pre-requisite.
+    * Elemental Alacrity: Moved from 3rd row to 2nd row.
+    * Elemental Warding: Moved from 2nd row to 3rd row.
+    * Call of Thunder: Talent removed.
+    * Earthbound: Moved to 4th row as the 16-point gold medal talent.
+    * Elemental Reach: Now also reduces the cooldown on Totemic Projection by 10/20 seconds.
+    * Call of Flame: Now also extends duration of Flame Shock by 3/6/9 seconds.
+    * Column Arrangement: Many talents moved to make room for other talents and their connections.
+    * Clearcasting will no longer be consumed by Lightning Overload activations.
+    * Fire Nova's tooltip now correctly increases when placing talents into Trial By Fire (the talent formerly known as Improved Fire Nova).
+  * **Enhancement**
+    * Your Stormstrike debuff is no longer consumed if your spell does not land.
+    * Fixed an issue where Stormstrike could be consumed by other players or pets that weren't the casting Shaman.
+    * Stormstrike's cost changed to 8% of Base Mana (was 125 Mana at all points in the game).
+  * **Restoration**
+    * Added an additional Rank of Mana Tide Totem that is learned at level 38, so now you have ranks at level 25, 38, 48, 58 (was levels 25, 48, 58).
+    * The Restorative Totems talent now correctly increases the effect of the entirety of Healing Stream totem (was the base value).
+    * Tidal Focus and Totemic Focus have swapped locations. Tidal Focus is now in the 1st row, and Totemic Focus is now in the 2nd row.
+    * Water Shield: Can now trigger from any critical spell cast by the Shaman (was only critical heals).
+* **Warlock**
+  * Fixed an issue where Summon Incubus was available to summon at no Soul Shard cost with the Reagent Economy Legacy Perk.
+  * Fixed an issue allowing multiple Cure of Recklessness debuffs to be active on a target.
+  * **Affliction**
+    * Malediction replaced with Grim Reach, which increases the range of your Affliction spells by 10/20%.
+    * Shadow Mastery changed to increasing your Shadow spell damage by 2/4/6/8/10% (Was 1/2/3/4/5%).
+  * **Demonology**
+    * Fixed an issue where you couldn't cast Soul Link on your pet.
+  * **Destruction**
+    * Destructive Reach changed to Increases the range of your Destruction spells by 10/20%.
+* **Warrior**
+  * Battle Shout is now Raid wide.
+  * Slam is no longer subject to spell pushback.
+  * Fixed an issue where Overpower was not able to activate vs. significantly lower level enemies.
+  * **Arms**
+    * Fixed an issue where Weaponmaster's Sword Specialization could be activated by Shield Bash and Shield Slam.
+  * **Fury**
+    * Lingering Rage no longer stops the player's Health Regeneration after combat.
+    * Fixed an issue where Improved Berserker Rage was not removing Movement Impairing Effects.
+
+**Gamepad Support**
+
+* Added a swing timer to the center reticle.
+* Added bindings to enable and disable Voice Channel Transcription via the Chat Channels menu.
+* Ensured your own fishing bobber is always targetable.
+* Fixed using ground-targeted items. Using them a second time will now confirm the placement.
+* Fixed an issue causing the gamepad action bar to be invisible upon relogging after creating and selecting a custom Edit Mode layout.
+* Fixed an issue causing the cast bar to not be properly customizable with Edit Mode.
+* Fixed an issue making it difficult to activate actions using the class-specific flyouts.
+* Fixed an issue with quest reward selection that prevented completion of certain quests.
+* Fixed an issue where quests offered by interactive objects or other non-character quest givers could not be turned in with a gamepad.
+* Made the "Press and Hold Casting" setting compatible with gamepad.
+* Updated the Trade confirmation dialog to be usable with a gamepad.
+* Updated the Guild & Communities dialogs to be usable with a gamepad.
+* Updated the Chat Channels menu to be usable with a gamepad.
+* Updated the Transmog frame to be useable with a gamepad.
+
+**Items**
+
+* Mystic Mushroom now correctly increases Spirit.
+* The Insight enchant now correctly increases Spirit.
+* Morbent's Bane no longer causes other nearby players to play visual effects.
+* Scrolls now incur a global cooldown when used.
+* Many items created by professions have had their vendor sell price reduced.
+* Draught of Predatory Senses is now a Potion, on the Combat Potion cooldown, and had its duration reduced to fit within this design space.
+
+**Legacy System**
+
+* Fixed an issue where Bartering was discounting training and repairing.
+* Visually moved the Master Chef and Luremaster perks 1 row to the left.
+  * *Developers’ notes: They were already available with only 5 points committed, so this is only a visual change.*
+* The Quick and the Dead should now affect more Priest spells.
+
+**Quests**
+
+* General
+  * Fixed several quest items that were multi-drop and should not be.
+*  Ashenvale
+  * There are more Bloodtooth Guards available during the quest "Raene's Cleansing"
+* Dalaran
+  * Members of the Horde are no longer welcome in Dalaran under any circumstances and will be attacked on sight. This does not affect access to the City of Dalaran dungeon, but the Horde questline to obtain the Dalaran Sewer Key no longer grants unrestricted access to the city in the open world.
+* Darkshore
+  * Fixed an issue where many of the furbolg camps would not grant credit for the quest "How Big a Threat?"
+  * The quest "For Love Eternal" can now be turned in to Cerellian Whiteclaw at all times.
+  * "Body and Heart": Cenarion Moondust is no longer used up when you sprinkle it on the stone, so if you need to try again, you can come back later and use it again to re-summon Lunaclaw.
+* Mulgore
+  * The Novice Warriors will no longer flag players for PvP during the quest "Sparring Match".
+*  Stormwind
+  * "The Attack!" is no longer an escort quest and is now shareable, even while the event is active. Speak to Tyrion to begin the event if it is not active. 
+* Teldrassil
+  * Lord Melenas no longer evades at low health during the quest "Twisted Hatred".
+* Wetlands
+  * Several areas have had their respawn rates increased and evened out, including Dragonmaw Orcs, Gnolls, and Incendicite Ore.
+* Zephras Isle
+  * Addressed an issue that could prevent players from using Halaan's Gift to scry on the anchors of Zephras and progress the quest "The Anchors of Zephras."
+
+**Player versus Player**
+
+* Battleground Marks of Honor now stack up to 30 (was 20).
+
+**User Interface**
+
+* Unit Frames display has been updated.
+* Minimap header display has been updated.
+* Spells with different rankings now behaves as a single entry in the Cooldown Manager.
+* Auction House now displays a column for equippable level.
+* Auction House will now properly display equipment stats from items with suffixes (example: "\__\_ of the Monkey").
+* Added detailed Scrolling Combat Text options under Options > Gameplay > Combat > Scrolling Combat Text for Self > Text on Me/Text on Target.
+* Searching for "Threat" will now pull up the Aggro Display option.
+* To reduce Nameplate clutter, the distance visibility for Nameplates for enemies and NPCs above and below the player have been adjusted. Your current target's nameplate is not affected.
+* Restored level-up messages showing stat increases and talent points gained.
+* In-game Tutorials have been updated.
+* If party members are different character levels, the Looking For Group UI will now properly update the eligibility statuses of the dungeon list.
+* Group Finder checkbox "Show All Level Ranges" will properly update the dungeon list.
+* Fixed an issue where art assets were running amok on the Professions UI panel.
+* Who List search now supports subzones (example: characters in Northshire Valley will show up in both queries "/who northshire" and "/who elwynn").
+* Players can no longer accept the 'refresh world' prompt while in combat.

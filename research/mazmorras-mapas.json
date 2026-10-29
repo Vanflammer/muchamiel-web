@@ -1,0 +1,254 @@
+[
+ {
+  "slug": "salon-de-los-feudales",
+  "zona_en": "Ironforge",
+  "area_id": 1537,
+  "x": 43.5,
+  "y": 52,
+  "nota": "Paso con telarañas a la izquierda al entrar en la Sede Real (Vieja Forjaz); el portal está abajo, al fondo. Coordenada del acceso en el mapa de Forjaz.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/hall-of-thanes/"
+ },
+ {
+  "slug": "sima-ignea",
+  "zona_en": "Orgrimmar",
+  "area_id": 1637,
+  "x": 51.6,
+  "y": 49.8,
+  "nota": "Cleft of Shadow. Warcraft Tavern da 52.8, 49.6 (diferencia mínima).",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "ruinas-de-lordaeron",
+  "zona_en": "Undercity",
+  "area_id": 1497,
+  "x": 72.4,
+  "y": 11.6,
+  "nota": "Warcraft Tavern da 72.4, 11.6 sin decir el mapa: corresponde al de Entrañas (Undercity), que dibuja las Ruinas de Lordaeron arriba; el punto cae en el lado este de las ruinas, coherente con «mirar a la izquierda al cruzar la puerta». El addon HandyNotes_DungeonLocations (versión Forever) la pone en 72.5, 11.4 del mismo mapa.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/the-ruins-of-lordaeron/"
+ },
+ {
+  "slug": "minas-de-la-muerte",
+  "zona_en": "Westfall",
+  "area_id": 40,
+  "x": 42.6,
+  "y": 71.7,
+  "nota": "Defias Hideout, Moonbrook.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "cuevas-de-los-lamentos",
+  "zona_en": "The Barrens",
+  "area_id": 17,
+  "x": 46,
+  "y": 36.3,
+  "nota": "Boca de la cueva (la calavera), no el portal, que está dentro.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "castillo-de-colmillo-oscuro",
+  "zona_en": "Silverpine Forest",
+  "area_id": 130,
+  "x": 44.8,
+  "y": 67.8,
+  "nota": "warcraft.wiki.gg da 45, 68.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "excavacion-de-whelgar",
+  "zona_en": "Wetlands",
+  "area_id": 11,
+  "x": null,
+  "y": null,
+  "nota": "Sin coordenadas publicadas en fuentes válidas: Icy Veins dice camino al sur de la cueva de Roca Thelgen, hacia la Excavación de Whelgar, al norte del paso de Dun Algaz.",
+  "fuente": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-guide"
+ },
+ {
+  "slug": "cavernas-de-brazanegra",
+  "zona_en": "Ashenvale",
+  "area_id": 331,
+  "x": 14,
+  "y": 13.1,
+  "nota": "Ruinas en The Zoram Strand; el portal está bajo el agua, más adentro (el addon avisa: no está en el portal).",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "las-mazmorras",
+  "zona_en": "Stormwind City",
+  "area_id": 1519,
+  "x": 40.3,
+  "y": 55.2,
+  "nota": "Canales junto al Barrio de los Magos.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "ciudad-de-dalaran",
+  "zona_en": "Alterac Mountains",
+  "area_id": 36,
+  "x": null,
+  "y": null,
+  "nota": "Sin coordenada exacta en fuentes válidas: entrada por las cloacas, fuera de la ciudad por el noroeste (Dalaran está al oeste de la zona).",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "horado-rajacieno",
+  "zona_en": "The Barrens",
+  "area_id": 17,
+  "x": 41.9,
+  "y": 89.5,
+  "nota": "",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "gnomeregan",
+  "zona_en": "Dun Morogh",
+  "area_id": 1,
+  "x": 24.5,
+  "y": 39.8,
+  "nota": "Entrada exterior (ascensor). warcraft.wiki.gg: 24, 40.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "monasterio-escarlata",
+  "zona_en": "Tirisfal Glades",
+  "area_id": 85,
+  "x": 85.3,
+  "y": 32.2,
+  "nota": "Patio del monasterio; las cuatro alas salen de ahí.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "ciudad-sumergida",
+  "zona_en": "Stranglethorn Vale",
+  "area_id": 33,
+  "x": null,
+  "y": null,
+  "nota": "Frente a la costa; ninguna fuente válida da la entrada.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "zahurda-rajacieno",
+  "zona_en": "The Barrens",
+  "area_id": 17,
+  "x": 49.1,
+  "y": 93.5,
+  "nota": "En Classic está en el mapa de Los Baldíos, en el límite con Las Mil Agujas.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "bastion-kroldok",
+  "zona_en": "Riverglades",
+  "area_id": null,
+  "x": null,
+  "y": null,
+  "nota": "Zona nueva de Forever: no existe en Classic, sin mapa en Wowhead Classic ni coordenadas publicadas.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "uldaman",
+  "zona_en": "Badlands",
+  "area_id": 3,
+  "x": 44.5,
+  "y": 12.1,
+  "nota": "Entrada principal (túneles de la excavación). Puerta trasera en 65.1, 43.4.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "zulfarrak",
+  "zona_en": "Tanaris",
+  "area_id": 440,
+  "x": 38.7,
+  "y": 20,
+  "nota": "",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "prision-de-alcaz",
+  "zona_en": "Dustwallow Marsh",
+  "area_id": 15,
+  "x": null,
+  "y": null,
+  "nota": "Isla de Alcaz, al noreste de la zona; sin coordenadas publicadas.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "maraudon",
+  "zona_en": "Desolace",
+  "area_id": 405,
+  "x": 29.1,
+  "y": 62.5,
+  "nota": "Puerta al principio de las cuevas exteriores del Valle de las Lanzas; los portales están dentro.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "templo-de-atalhakkar",
+  "zona_en": "Swamp of Sorrows",
+  "area_id": 8,
+  "x": 69.5,
+  "y": 52.5,
+  "nota": "Pool of Tears; entrada inundada, el portal está bajando por el templo.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "profundidades-de-roca-negra",
+  "zona_en": "Searing Gorge",
+  "area_id": 51,
+  "x": 34.7,
+  "y": 86,
+  "nota": "Entrada a la Montaña Roca Negra (las mazmorras están dentro). En el mapa de Estepas Ardientes (area_id 46): 29.9, 47.8.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "la-masacre",
+  "zona_en": "Feralas",
+  "area_id": 357,
+  "x": 59.1,
+  "y": 43.3,
+  "nota": "Entrada al recinto de Dire Maul; el ala Oeste/Norte también. Puerta del ala Este por Lariss Pavilion: 77.1, 37.0.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "bastion-faucenegra",
+  "zona_en": "Azshara",
+  "area_id": 16,
+  "x": null,
+  "y": null,
+  "nota": "Detrás de la gran puerta furbolg del norte de Azshara; sin coordenadas publicadas.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "cumbre-de-roca-negra-inferior",
+  "zona_en": "Searing Gorge",
+  "area_id": 51,
+  "x": 34.7,
+  "y": 86,
+  "nota": "Misma entrada a la Montaña Roca Negra que Profundidades. En Estepas Ardientes (46): 29.9, 47.8.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "bancal-del-creador",
+  "zona_en": "Un'Goro Crater",
+  "area_id": 490,
+  "x": null,
+  "y": null,
+  "nota": "En las colinas del cráter; sin coordenadas publicadas.",
+  "fuente": "https://www.warcrafttavern.com/forever/guides/dungeons/"
+ },
+ {
+  "slug": "scholomance",
+  "zona_en": "Western Plaguelands",
+  "area_id": 28,
+  "x": 69,
+  "y": 72.9,
+  "nota": "Caer Darrow.",
+  "fuente": "https://github.com/callie-g/HandyNotes_DungeonLocations-classic/blob/main/classic.lua"
+ },
+ {
+  "slug": "stratholme",
+  "zona_en": "Eastern Plaguelands",
+  "area_id": 139,
+  "x": 27,
+  "y": 12,
+  "nota": "Puerta principal (ala Escarlata/viva). warcraft.wiki.gg 27, 12; el addon la pone en 30.9, 17.0.",
+  "fuente": "https://warcraft.wiki.gg/wiki/Stratholme"
+ }
+]

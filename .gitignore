@@ -1,0 +1,15 @@
+# Fuera del repo público (Van, 29-10-2026): notas internas, copias y cosas privadas de Muchamiel
+github-pages/
+entrega-web/
+*.zip
+ESTADO-WEB.md
+MEMORIA-GEPETO-WEB-MUCHAMIEL.md
+PERSONAJES-VAN-FOREVER.md
+VIDEOS-AUTOMATICOS.md
+web/PARA-PEDRO.txt
+cloudflare-redirige/
+redirigir-viejo/
+twitch-paneles/
+__pycache__/
+*.pyc
+gen.log

@@ -1,0 +1,15 @@
+from pathlib import Path
+root=Path(__file__).resolve().parent
+p=root/'brujo-30-builds-y-macros.md';s=p.read_text(encoding='utf-8')
+new=(root/'duelos_por_clase.md').read_text(encoding='utf-8')
+s=s.replace('## BGs y PvP en mundo abierto',new+'\n\n## BGs y PvP en mundo abierto')
+p.write_text(s,encoding='utf-8')
+p=root/'crear_web.py';s=p.read_text(encoding='utf-8')
+s=s.replace("'Demonio según rival','BGs", "'Demonio según rival','Duelos por clase','BGs")
+s=s.replace("'demonios','pvp'", "'demonios','duelos','pvp'")
+s=s.replace("'Control y supervivencia','Builds", "'Control y supervivencia','Nueve rivales: build, demonio y plan','Builds")
+s=s.replace('11 · Fuentes','12 · Fuentes')
+s=s.replace('([BCDATSR]\\d+)', '([BCDATSR]\\d+|DU\\d+)')
+p.write_text(s,encoding='utf-8')
+p=root/'web'/'PARA-PEDRO.txt';s=p.read_text(encoding='utf-8').replace('duelos, BGs, mundo abierto','estrategias contra las nueve clases, duelos, BGs, mundo abierto');p.write_text(s,encoding='utf-8')
+print('Añadidos nueve apartados de duelos con enlaces a talentos y macros.')

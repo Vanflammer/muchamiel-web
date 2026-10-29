@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Muchamiel Lock PvP
+## Notes: Modular Warlock HUD for Forever. Alpha: requires in-game validation.
+## Author: Van
+## Version: 0.2.0-alpha
+## SavedVariables: MuchamielLockPvPDB
+EnemyPvP.lua
+Core.lua
