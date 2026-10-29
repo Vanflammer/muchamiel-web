@@ -8,6 +8,8 @@ def install(dist):
     shutil.copyfile(ROOT / 'youtube/videos.js', dist / 'assets/videos.js')
     shutil.copyfile(ROOT / 'youtube/worker.mjs', dist / '_worker.js')
     shutil.copyfile(ROOT / 'research/muchamiel-feed.xml', dist / 'assets/youtube-fallback.xml')
+    (dist / 'datos').mkdir(exist_ok=True)  # 29-10: la tarea de GitHub la renueva cada 20 min
+    shutil.copyfile(ROOT / 'research/muchamiel-feed.xml', dist / 'datos/youtube-feed.xml')
     (dist / '_routes.json').write_text(json.dumps({
         'version': 1, 'include': ['/api/youtube-feed'], 'exclude': []
     }), encoding='utf-8')
