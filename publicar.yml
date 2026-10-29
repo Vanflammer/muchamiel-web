@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          git clone -q --depth 1 https://github.com/Vanflammer/muchamiel-web.git /tmp/fuente
+          git clone -q --depth 1 https://github.com/Vanflammer/muchamiel-web.git /tmp/fuente || { echo "No se pudo leer la fuente: no se toca nada"; exit 0; }
           test -f /tmp/fuente/web/dist/index.html || { echo "La fuente no tiene web/dist: no se toca nada"; exit 0; }
           rsync -a --delete --exclude .git --exclude .github --exclude marcas --exclude .nojekyll \
             --exclude datos/avisos-blizzard.json --exclude datos/directo.json /tmp/fuente/web/dist/ ./
