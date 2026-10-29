@@ -20,7 +20,7 @@ de ese repositorio copia `web/dist` de aquí cada 30 minutos. Tu trabajo termina
 - Todo con palabras propias: nada copiado literal. No cites ni nombres a youtubers o creadores; como fuente se enlaza a Blizzard o a webs (Wowhead, Icy Veins…).
 - Horas en hora de España; si es un evento, añade México y Chile/Argentina con (*). Castellano neutro (evita «coger»).
 - Si no hay nada nuevo que merezca la pena, no cambies nada y no hagas commit.
-- No toques `MuchamielLockPvP/`, `web/base-gpt/` (salvo que haga falta para una página), `radar_fuentes.json` ni `publicar.yml`. No borres páginas.
+- No toques `MuchamielLockPvP/`, `zona-subs/` (se publica aparte), `web/base-gpt/` (salvo que haga falta para una página), `radar_fuentes.json` ni `publicar.yml`. No borres páginas.
 
 ## Fuentes
 - Radar (cada hora): https://raw.githubusercontent.com/muchamielwow/muchamielwow.github.io/main/.github/radar/RADAR.md

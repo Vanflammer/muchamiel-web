@@ -1,7 +1,7 @@
 import {leerSesion} from './_lib.js';
 
 // Todo está cerrado salvo la puerta (entrar), el inicio de sesión y los estilos.
-const ABIERTO = [/^\/entrar(\.html)?$/, /^\/auth\//, /^\/assets\//, /^\/favicon/, /^\/robots\.txt$/];
+const ABIERTO = [/^\/entrar(\.html)?$/, /^\/auth\//, /^\/api\/publicas$/, /^\/assets\//, /^\/favicon/, /^\/robots\.txt$/];
 
 export async function onRequest(context) {
   const {request, env, next, data} = context;

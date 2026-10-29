@@ -1,0 +1,84 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Administrar · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css">
+<style>label{display:block;margin:10px 0 4px;color:var(--mut);font-size:14px}input,textarea{width:100%;background:#0d1219;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:9px;font:inherit}.fila{display:flex;gap:10px}.fila>*{flex:1}</style></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main id="main">
+<h1>⚙️ Administrar</h1>
+<p class="lead">Solo para Muchamiel y quien él autorice. Aquí se suben las guías y se crean los eventos.</p>
+
+<h2>Guía nueva o editar</h2>
+<div class="box">
+<input type="hidden" id="g_id">
+<label>Título</label><input id="g_titulo" maxlength="120">
+<label>Resumen (una línea)</label><input id="g_resumen" maxlength="300">
+<label>Contenido (markdown: # Título, **negrita**, - listas, [texto](https://enlace))</label><textarea id="g_contenido" rows="14"></textarea>
+<label>Pasa a la web pública el día</label><input id="g_publica" type="date">
+<p><button class="btn" id="g_guardar">Guardar guía</button> <button class="btn gris" id="g_nueva">Vaciar</button></p>
+</div>
+<div id="g_lista"></div>
+
+<h2>Evento nuevo o editar</h2>
+<div class="box">
+<input type="hidden" id="e_id">
+<label>Título</label><input id="e_titulo" maxlength="100" placeholder="Ej.: Onyxia con la comunidad">
+<label>Día y hora (de España)</label><input id="e_cuando" type="datetime-local">
+<label>Descripción</label><textarea id="e_desc" rows="3" maxlength="600"></textarea>
+<div class="fila"><div><label>Plazas tanque</label><input id="e_T" type="number" min="0" max="40" value="2"></div>
+<div><label>Plazas sanador</label><input id="e_H" type="number" min="0" max="40" value="3"></div>
+<div><label>Plazas daño</label><input id="e_D" type="number" min="0" max="40" value="5"></div></div>
+<p><button class="btn" id="e_guardar">Guardar evento</button> <button class="btn gris" id="e_nueva">Vaciar</button></p>
+</div>
+<div id="e_lista"></div>
+<p class="mut">Las preguntas del mes se marcan como respondidas desde <a href="/preguntas">Preguntas</a>.</p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const e = s => String(s || '').replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const post = (url, b) => fetch(url, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(b)}).then(r => r.json());
+let guias = [], eventos = [];
+
+async function cargaGuias() {
+  guias = await fetch('/api/guias').then(r => r.json());
+  $('g_lista').innerHTML = guias.map(g => `<div class="box"><b>${e(g.titulo)}</b> <span class="mut">· pública el ${e(g.publica)}</span><br>
+    <button class="btn gris" onclick="editaGuia('${g.id}')">Editar</button> <button class="btn gris" onclick="borraGuia('${g.id}')">Borrar</button></div>`).join('');
+}
+async function editaGuia(id) {
+  const g = await fetch('/api/guias?id=' + id).then(r => r.json());
+  $('g_id').value = g.id; $('g_titulo').value = g.titulo; $('g_resumen').value = g.resumen; $('g_contenido').value = g.contenido; $('g_publica').value = g.publica;
+  scrollTo(0, 0);
+}
+async function borraGuia(id) { if (confirm('¿Borrar esta guía?')) { await post('/api/guias', {id, borrar: true}); cargaGuias(); } }
+$('g_nueva').onclick = () => ['g_id', 'g_titulo', 'g_resumen', 'g_contenido', 'g_publica'].forEach(i => $(i).value = '');
+$('g_guardar').onclick = async () => {
+  const d = await post('/api/guias', {id: $('g_id').value, titulo: $('g_titulo').value, resumen: $('g_resumen').value, contenido: $('g_contenido').value, publica: $('g_publica').value});
+  if (d.error) return alert(d.error);
+  $('g_nueva').onclick(); cargaGuias(); alert('Guía guardada');
+};
+
+async function cargaEventos() {
+  eventos = (await fetch('/api/eventos').then(r => r.json())).eventos;
+  $('e_lista').innerHTML = eventos.map(ev => `<div class="box"><b>${e(ev.titulo)}</b> <span class="mut">· ${new Date(ev.cuando).toLocaleString('es-ES', {timeZone: 'Europe/Madrid'})} · ${ev.apuntados.length} apuntados</span><br>
+    <button class="btn gris" onclick="editaEvento('${ev.id}')">Editar</button> <button class="btn gris" onclick="borraEvento('${ev.id}')">Borrar</button></div>`).join('');
+}
+function editaEvento(id) {
+  const ev = eventos.find(x => x.id === id); if (!ev) return;
+  const d = new Date(ev.cuando); const l = new Date(d - d.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+  $('e_id').value = ev.id; $('e_titulo').value = ev.titulo; $('e_cuando').value = l; $('e_desc').value = ev.descripcion;
+  $('e_T').value = ev.plazas.T; $('e_H').value = ev.plazas.H; $('e_D').value = ev.plazas.D;
+}
+async function borraEvento(id) { if (confirm('¿Borrar este evento?')) { await post('/api/eventos', {admin: true, id, borrar: true}); cargaEventos(); } }
+$('e_nueva').onclick = () => ['e_id', 'e_titulo', 'e_cuando', 'e_desc'].forEach(i => $(i).value = '');
+$('e_guardar').onclick = async () => {
+  if (!$('e_cuando').value) return alert('Pon día y hora');
+  const d = await post('/api/eventos', {admin: true, id: $('e_id').value, titulo: $('e_titulo').value, descripcion: $('e_desc').value,
+    cuando: new Date($('e_cuando').value).toISOString(), plazas: {T: $('e_T').value, H: $('e_H').value, D: $('e_D').value}});
+  if (d.error) return alert(d.error);
+  $('e_nueva').onclick(); cargaEventos(); alert('Evento guardado');
+};
+
+fetch('/api/yo').then(r => r.json()).then(yo => {
+  if (!yo.admin) { $('main').innerHTML = '<h1>Solo para administradores</h1><p><a href="/">← Volver</a></p>'; return; }
+  cargaGuias(); cargaEventos();
+});
+</script></body></html>

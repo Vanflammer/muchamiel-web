@@ -1,0 +1,146 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Creador de macros · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css">
+<style>
+label{display:block;margin:12px 0 4px;color:var(--mut);font-size:14px}select,input[type=text]{width:100%;background:#0d1219;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:9px;font:inherit}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.check{display:flex;gap:10px;align-items:flex-start;margin:8px 0;cursor:pointer}.check input{margin-top:4px}.check small{display:block;color:var(--mut)}
+.tipos{display:flex;flex-wrap:wrap;gap:8px}.tipos label{margin:0;display:inline-flex;gap:6px;align-items:center;background:#1b2333;border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--txt);cursor:pointer}
+pre#salida{background:#070b12;border:1px solid var(--gold2);border-radius:10px;padding:14px;font:15px/1.6 Consolas,monospace;white-space:pre-wrap;min-height:60px}
+.cuenta{font-size:14px}.cuenta.mal{color:var(--ko)}.exp li{margin:4px 0;font-size:14px;color:#cfd7e3}
+@media(max-width:640px){.dos{grid-template-columns:1fr}}
+</style></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main>
+<h1>🪄 Creador de macros</h1>
+<p class="lead">Elige clase y hechizo, marca lo que quieres y copia la macro. En el juego: <code>/macro</code> → Nueva → pega.</p>
+
+<div class="box">
+<div class="dos">
+<div><label>Clase</label><select id="clase"></select></div>
+<div><label>Hechizo</label><select id="hechizo"></select></div>
+</div>
+<label>O escribe el nombre tal como sale en TU juego (si juegas en castellano, en castellano; tiene que coincidir letra a letra)</label>
+<input type="text" id="propio" placeholder="Ej.: Descarga de las Sombras">
+
+<label>¿Sobre quién?</label>
+<div class="tipos">
+<label><input type="radio" name="tipo" value="harm" checked> ⚔️ Enemigo</label>
+<label><input type="radio" name="tipo" value="help"> 💚 Aliado</label>
+<label><input type="radio" name="tipo" value="self"> 🙋 Yo mismo</label>
+<label><input type="radio" name="tipo" value="cursor"> 🎯 Al suelo (donde apunta el ratón)</label>
+<label><input type="radio" name="tipo" value="none"> Sin objetivo</label>
+</div>
+
+<label>Opciones</label>
+<div id="opciones"></div>
+
+<label>Modificador para el foco</label>
+<select id="modfoco"><option value="shift">Shift</option><option value="ctrl">Ctrl</option><option value="alt">Alt</option><option value="">Sin modificador: el foco va primero</option></select>
+</div>
+
+<h2>Tu macro</h2>
+<pre id="salida"></pre>
+<p><button class="btn" id="copiar">📋 Copiar</button> <button class="btn gris" id="guardar">⭐ Guardar en mis macros</button> <span class="cuenta" id="cuenta"></span></p>
+<div class="box"><b>Qué hace cada parte</b><ul class="exp" id="exp"></ul></div>
+
+<h2>Mis macros</h2>
+<p class="mut">Se guardan en este navegador.</p>
+<div id="mias"></div>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const CLASES = {Warrior: 'Guerrero', Paladin: 'Paladín', Hunter: 'Cazador', Rogue: 'Pícaro', Priest: 'Sacerdote', Shaman: 'Chamán', Mage: 'Mago', Warlock: 'Brujo', Druid: 'Druida'};
+// Cada opción: id, texto, ayuda, para qué tipos tiene sentido, y si es solo de algunas clases.
+const OPCIONES = [
+  {id: 'tooltip', t: 'Mostrar el icono del hechizo', a: '#showtooltip: el botón enseña el icono y el tiempo de reutilización.', on: true},
+  {id: 'mouseover', t: 'Sobre el ratón (mouseover)', a: 'Lo lanza sobre quien tengas bajo el ratón, sin cambiar de objetivo. Ideal con marcos de grupo o placas de nombre.', tipos: ['harm', 'help'], on: true},
+  {id: 'foco', t: 'Al foco (con el modificador de abajo)', a: 'Lo lanza sobre tu foco (/focus) aunque tengas otro objetivo. Perfecto para interrumpir o controlar.', tipos: ['harm', 'help']},
+  {id: 'yoalt', t: 'Alt para lanzármelo a mí', a: 'Con Alt pulsado te lo lanzas a ti mismo.', tipos: ['help']},
+  {id: 'nodead', t: 'Que no se gaste en objetivos muertos', a: 'Añade nodead: ignora a los muertos y pasa al siguiente.', tipos: ['harm', 'help'], on: true},
+  {id: 'objetivo', t: 'Si no hay nada bajo el ratón, a mi objetivo', a: 'Si el ratón no está sobre nadie válido, usa tu objetivo actual.', tipos: ['harm', 'help'], on: true},
+  {id: 'yomismo', t: 'Si no hay aliado válido, a mí', a: 'Último recurso: si no hay aliado, te lo lanzas a ti.', tipos: ['help']},
+  {id: 'stop', t: 'Cortar lo que estoy lanzando (/stopcasting)', a: 'Para lo que estés lanzando para que esto salga ya. Útil en interrupciones y en controles.'},
+  {id: 'ataque', t: 'Empezar a atacar (/startattack)', a: 'Empieza el ataque automático sobre el objetivo. Para clases cuerpo a cuerpo.', tipos: ['harm']},
+  {id: 'mascota', t: 'Que la mascota ataque también (/petattack)', a: 'Tu mascota ataca al mismo objetivo.', tipos: ['harm'], clases: ['Hunter', 'Warlock']},
+  {id: 'forma', t: 'Salir de la forma primero (/cancelform)', a: 'Sale de la forma de oso, gato o viaje antes de lanzar.', clases: ['Druid']},
+  {id: 'abalorio1', t: 'Usar el abalorio de arriba (/use 13)', a: 'Activa el abalorio de la ranura 13 a la vez.'},
+  {id: 'abalorio2', t: 'Usar el abalorio de abajo (/use 14)', a: 'Activa el abalorio de la ranura 14 a la vez.'},
+  {id: 'aviso', t: 'Avisar al grupo (/g)', a: 'Escribe en el chat de grupo sobre quién lo has lanzado, con %t (tu objetivo).'},
+  {id: 'arena', t: 'Ctrl/Alt para jugadores 1 y 2 del grupo', a: 'Ctrl lo lanza sobre el compañero 1 y Alt sobre el 2 (party1 / party2), sin tener que pulsar su marco.', tipos: ['help']}
+];
+let hechizos = {};
+
+function opcionesVisibles() {
+  const tipo = document.querySelector('[name=tipo]:checked').value, clase = $('clase').value;
+  return OPCIONES.filter(o => (!o.tipos || o.tipos.includes(tipo)) && (!o.clases || o.clases.includes(clase)));
+}
+function pintaOpciones() {
+  const marcadas = new Set([...document.querySelectorAll('#opciones input:checked')].map(i => i.value));
+  const primera = !$('opciones').children.length;
+  $('opciones').innerHTML = opcionesVisibles().map(o =>
+    `<label class="check"><input type="checkbox" value="${o.id}" ${(primera ? o.on : marcadas.has(o.id)) ? 'checked' : ''}><span>${o.t}<small>${o.a}</small></span></label>`).join('');
+  $('opciones').querySelectorAll('input').forEach(i => i.onchange = genera);
+  genera();
+}
+function genera() {
+  const tipo = document.querySelector('[name=tipo]:checked').value;
+  const sel = new Set([...document.querySelectorAll('#opciones input:checked')].map(i => i.value));
+  const h = $('propio').value.trim() || $('hechizo').value;
+  const mod = $('modfoco').value;
+  const exp = [];
+  const lineas = [];
+  if (sel.has('tooltip')) { lineas.push(`#showtooltip ${h}`); exp.push('<b>#showtooltip</b>: el botón muestra el icono y su reutilización.'); }
+  if (sel.has('forma')) { lineas.push('/cancelform'); exp.push('<b>/cancelform</b>: sales de la forma de druida.'); }
+  if (sel.has('stop')) { lineas.push('/stopcasting'); exp.push('<b>/stopcasting</b>: cortas lo que estabas lanzando.'); }
+  if (sel.has('abalorio1')) { lineas.push('/use 13'); exp.push('<b>/use 13</b>: abalorio de arriba.'); }
+  if (sel.has('abalorio2')) { lineas.push('/use 14'); exp.push('<b>/use 14</b>: abalorio de abajo.'); }
+  const dead = sel.has('nodead') ? ',nodead' : '';
+  const cond = [];
+  if (tipo === 'self') { cond.push('[@player]'); exp.push('<b>[@player]</b>: siempre sobre ti.'); }
+  else if (tipo === 'cursor') { cond.push('[@cursor]'); exp.push('<b>[@cursor]</b>: cae donde apunta el ratón, sin el círculo de selección.'); }
+  else if (tipo === 'harm' || tipo === 'help') {
+    const rel = tipo;
+    if (sel.has('yoalt')) { cond.push('[mod:alt,@player]'); exp.push('<b>Alt</b>: sobre ti.'); }
+    if (sel.has('arena')) { cond.push('[mod:ctrl,@party1,help' + dead + ']', '[mod:alt,@party2,help' + dead + ']'); exp.push('<b>Ctrl / Alt</b>: compañero 1 / compañero 2 del grupo.'); }
+    if (sel.has('foco')) {
+      cond.push(mod ? `[mod:${mod},@focus,${rel}${dead}]` : `[@focus,${rel}${dead}]`);
+      exp.push(mod ? `<b>${mod[0].toUpperCase() + mod.slice(1)}</b>: sobre tu foco, sin cambiar de objetivo.` : '<b>Foco primero</b>: si tienes foco válido, va a él.');
+    }
+    const sinmod = (sel.has('foco') && mod) || sel.has('yoalt') || sel.has('arena') ? 'nomod,' : '';
+    if (sel.has('mouseover')) { cond.push(`[${sinmod}@mouseover,${rel}${dead}]`); exp.push('<b>@mouseover</b>: sobre quien tengas bajo el ratón.'); }
+    if (sel.has('objetivo')) { cond.push(`[${sinmod}${rel}${dead}]`); exp.push('<b>Tu objetivo</b>: si no hay nadie válido bajo el ratón.'); }
+    if (sel.has('yomismo')) { cond.push('[@player]'); exp.push('<b>[@player]</b>: si no hay aliado válido, a ti.'); }
+    if (dead) exp.push('<b>nodead</b>: nunca se gasta en un objetivo muerto.');
+  }
+  lineas.push(`/cast ${cond.join('')} ${h}`.replace('/cast  ', '/cast '));
+  if (sel.has('ataque')) { lineas.push('/startattack'); exp.push('<b>/startattack</b>: empiezas a atacar.'); }
+  if (sel.has('mascota')) { lineas.push('/petattack'); exp.push('<b>/petattack</b>: tu mascota ataca.'); }
+  if (sel.has('aviso')) { lineas.push(`/g ${h} en %t`); exp.push('<b>/g … %t</b>: avisa al grupo con el nombre de tu objetivo.'); }
+  const texto = lineas.join('\n');
+  $('salida').textContent = texto;
+  const n = [...texto].length;
+  $('cuenta').textContent = `${n}/255 caracteres` + (n > 255 ? ' · demasiado larga: quita alguna opción' : '');
+  $('cuenta').className = 'cuenta' + (n > 255 ? ' mal' : '');
+  $('exp').innerHTML = exp.map(x => `<li>${x}</li>`).join('') + (!$('propio').value.trim() ? '<li>⚠️ El nombre está en inglés: si juegas en castellano, escríbelo arriba tal como sale en tu libro de hechizos.</li>' : '');
+}
+function pintaHechizos() {
+  $('hechizo').innerHTML = (hechizos[$('clase').value] || []).map(h => `<option>${h}</option>`).join('');
+  pintaOpciones();
+}
+function mias() {
+  let l = []; try { l = JSON.parse(localStorage.getItem('mz_macros') || '[]'); } catch {}
+  $('mias').innerHTML = l.length ? l.map((m, i) => `<div class="box"><pre style="margin:0;white-space:pre-wrap;font:14px Consolas,monospace">${m.replace(/[<>&]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;'}[c]))}</pre>
+    <p style="margin:8px 0 0"><button class="btn gris" onclick="navigator.clipboard.writeText(JSON.parse(localStorage.getItem('mz_macros'))[${i}])">Copiar</button> <button class="btn gris" onclick="borra(${i})">Borrar</button></p></div>`).join('') : '<p class="mut">Aún no has guardado ninguna.</p>';
+}
+function borra(i) { try { const l = JSON.parse(localStorage.getItem('mz_macros') || '[]'); l.splice(i, 1); localStorage.setItem('mz_macros', JSON.stringify(l)); } catch {} mias(); }
+$('copiar').onclick = async () => { await navigator.clipboard.writeText($('salida').textContent); $('copiar').textContent = '✔ Copiada'; setTimeout(() => $('copiar').textContent = '📋 Copiar', 1500); };
+$('guardar').onclick = () => { try { const l = JSON.parse(localStorage.getItem('mz_macros') || '[]'); l.unshift($('salida').textContent); localStorage.setItem('mz_macros', JSON.stringify(l.slice(0, 50))); } catch {} mias(); };
+$('clase').onchange = pintaHechizos; $('hechizo').onchange = genera; $('propio').oninput = genera; $('modfoco').onchange = genera;
+document.querySelectorAll('[name=tipo]').forEach(r => r.onchange = pintaOpciones);
+fetch('/assets/hechizos.json').then(r => r.json()).then(d => {
+  hechizos = d;
+  $('clase').innerHTML = Object.keys(CLASES).map(c => `<option value="${c}">${CLASES[c]}</option>`).join('');
+  pintaHechizos(); mias();
+});
+</script></body></html>

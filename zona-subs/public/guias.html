@@ -1,0 +1,29 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Guías · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main id="main">
+<h1>📘 Guías antes que nadie</h1>
+<p class="lead">Las guías nuevas salen aquí primero. Unos días después pasan a la web pública para todos.</p>
+<div id="lista" class="cards"></div>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script><script src="/assets/md.js"></script>
+<script>
+const e = s => String(s || '').replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const fecha = d => new Date(d + 'T12:00:00').toLocaleDateString('es-ES', {day: 'numeric', month: 'long'});
+const hoy = new Date().toISOString().slice(0, 10);
+const id = new URLSearchParams(location.search).get('id');
+if (id) {
+  fetch('/api/guias?id=' + encodeURIComponent(id)).then(r => r.json()).then(g => {
+    document.getElementById('main').innerHTML = g.error ? '<p>Esa guía no existe.</p><p><a href="/guias">← Guías</a></p>' :
+      `<p class="mut">${g.publica > hoy ? '⭐ Exclusiva hasta el ' + fecha(g.publica) : 'Ya pública en la web'}</p><h1>${e(g.titulo)}</h1>` +
+      `<div class="guia">${md(g.contenido)}</div><p><a href="/guias">← Todas las guías</a></p>`;
+  });
+} else {
+  fetch('/api/guias').then(r => r.json()).then(gs => {
+    document.getElementById('lista').outerHTML = gs.length ? '<div class="cards">' + gs.map(g =>
+      `<a class="card" href="/guias?id=${encodeURIComponent(g.id)}"><b>${e(g.titulo)}</b><small>${e(g.resumen)}</small><br><small>${g.publica > hoy ? '⭐ Exclusiva hasta el ' + fecha(g.publica) : 'Ya pública'}</small></a>`).join('') + '</div>'
+      : '<div class="box">Todavía no hay guías aquí. La primera será la que ganéis en <a href="/vota">la votación</a>.</div>';
+  });
+}
+</script></body></html>

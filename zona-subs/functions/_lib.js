@@ -49,3 +49,16 @@ export function json(datos, status = 200, extra = {}) {
 }
 
 export const lista = v => (v || '').split(',').map(x => x.trim()).filter(Boolean);
+
+// Administradores (Muchamiel y quien él quiera): ids de Discord en ADMIN_IDS. Pueden subir guías, crear eventos y cerrar preguntas.
+export const esAdmin = (env, sesion) => !!sesion && lista(env.ADMIN_IDS).includes(sesion.id);
+
+// Lee y guarda una lista JSON en KV.
+export async function leerKV(env, clave) {
+  return JSON.parse((await env.SUBS_KV.get(clave)) || '[]');
+}
+export async function guardarKV(env, clave, valor) {
+  await env.SUBS_KV.put(clave, JSON.stringify(valor));
+}
+export const nuevoId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+export const limpio = (s, n) => String(s || '').replace(/[\u0000-\u0008\u000b-\u001f]/g, '').trim().slice(0, n);

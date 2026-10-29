@@ -1,0 +1,35 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Eventos · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main>
+<h1>📅 Eventos con Muchamiel</h1>
+<p class="lead">Bandas, mazmorras y JcJ con la comunidad. Apúntate con tu rol mientras queden plazas.</p>
+<div id="eventos"></div>
+<p class="mut">Horas de España. México: 7 horas menos; Chile y Argentina: 4 horas menos.</p>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const e = s => String(s || '').replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const NOMBRE = {T: '🛡️ Tanque', H: '💚 Sanador', D: '⚔️ Daño'};
+const cuando = s => new Date(s).toLocaleString('es-ES', {weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid'});
+async function apuntar(id, rol) {
+  const r = await fetch('/api/eventos', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({id, rol})});
+  const d = await r.json();
+  if (d.error) alert(d.error);
+  carga();
+}
+function pinta(d) {
+  const c = document.getElementById('eventos');
+  if (!d.eventos.length) { c.innerHTML = '<div class="box">No hay eventos ahora mismo. Se anuncian aquí y en el Discord.</div>'; return; }
+  c.innerHTML = d.eventos.map(ev => {
+    const roles = ['T', 'H', 'D'].filter(r => ev.plazas[r] > 0).map(r =>
+      `<button class="btn${ev.mio === r ? '' : ' gris'}" ${ev.cuenta[r] >= ev.plazas[r] && ev.mio !== r ? 'disabled' : ''} onclick="apuntar('${ev.id}', ${ev.mio === r ? 'null' : `'${r}'`})">${NOMBRE[r]} ${ev.cuenta[r]}/${ev.plazas[r]}${ev.mio === r ? ' ✔' : ''}</button>`).join(' ');
+    const lista = ['T', 'H', 'D'].map(r => ev.apuntados.filter(a => a.rol === r).map(a => `<span>${NOMBRE[r].split(' ')[0]} ${e(a.nombre)}</span>`).join('')).join('');
+    return `<div class="box"><h2 style="margin-top:0">${e(ev.titulo)}</h2><p class="mut">${cuando(ev.cuando)}</p><p>${e(ev.descripcion)}</p>
+      <p>${roles}</p>${ev.mio ? '<p class="mut">Estás apuntado. Pulsa tu rol otra vez para quitarte.</p>' : ''}<div class="muro">${lista}</div></div>`;
+  }).join('');
+}
+const carga = () => fetch('/api/eventos').then(r => r.json()).then(pinta);
+carga();
+</script></body></html>

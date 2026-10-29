@@ -17,3 +17,5 @@ h1{color:var(--gold);font-size:clamp(24px,4vw,34px);margin:.2em 0 .3em}h2{font-s
 .muro{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.muro span{background:#1b2333;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px}
 .centro{text-align:center;padding-top:8vh}
 @media(max-width:640px){.cards{grid-template-columns:1fr}}
+.guia h2,.guia h3,.guia h4{color:var(--gold)}.guia blockquote{border-left:3px solid var(--gold2);margin:10px 0;padding:4px 12px;color:#cfd7e3}.guia code{background:#1b2333;padding:1px 5px;border-radius:5px}
+button.btn[disabled]{opacity:.4;cursor:not-allowed}

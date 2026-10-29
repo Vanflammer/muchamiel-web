@@ -1,0 +1,28 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Preguntas · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<main>
+<h1>🎙️ Preguntas del mes</h1>
+<p class="lead">Pregunta lo que quieras y vota las que más te interesen. Muchamiel contesta las más votadas en directo a final de mes.</p>
+<div class="box"><textarea id="texto" maxlength="280" rows="3" style="width:100%;background:#0d1219;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit" placeholder="Tu pregunta (máximo 280 caracteres)"></textarea>
+<p><button class="btn" id="enviar">Enviar pregunta</button> <span class="mut">Hasta 3 por persona al mes.</span></p></div>
+<div id="lista"></div>
+<p><a href="/">← Volver</a></p>
+</main>
+<script src="/assets/zona.js"></script>
+<script>
+const e = s => String(s || '').replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const manda = async cuerpo => {
+  const r = await fetch('/api/preguntas', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(cuerpo)});
+  const d = await r.json(); if (d.error) alert(d.error); else pinta(d);
+};
+function pinta(d) {
+  document.getElementById('lista').innerHTML = d.preguntas.length ? d.preguntas.map(p =>
+    `<div class="box${p.respondida ? ' ok' : ''}"><p style="margin-top:0">${e(p.texto)}</p><p class="mut">— ${e(p.autor)}${p.respondida ? ' · ✔ Respondida' : ''}</p>
+     <button class="btn${p.mio ? '' : ' gris'}" onclick="manda({voto:'${p.id}'})">👍 ${p.votos}</button>
+     ${d.admin ? `<button class="btn gris" onclick="manda({respondida:'${p.id}'})">${p.respondida ? 'Marcar sin responder' : 'Marcar respondida'}</button> <button class="btn gris" onclick="if(confirm('¿Borrar?'))manda({borrar:'${p.id}'})">Borrar</button>` : ''}</div>`).join('')
+    : '<p class="mut">Aún no hay preguntas este mes. ¡Haz la primera!</p>';
+}
+document.getElementById('enviar').onclick = () => { const t = document.getElementById('texto'); if (t.value.trim()) { manda({texto: t.value}); t.value = ''; } };
+fetch('/api/preguntas').then(r => r.json()).then(pinta);
+</script></body></html>
