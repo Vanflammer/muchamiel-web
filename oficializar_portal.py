@@ -145,7 +145,7 @@ def submenus(base):
 
 
 # Van 17-10: modos Forever y Retail. Las compartidas toman el último elegido (localStorage «modo»); las demás lo fijan al visitarlas.
-MODO_COMPARTIDO = {'muchamiel', 'sorteos', 'colaboraciones'}  # Van 24-10: Noticias ya no es compartida: Retail tiene las suyas
+MODO_COMPARTIDO = {'muchamiel', 'sorteos', 'colaboraciones', 'zona-subs'}  # Van 24-10: Noticias ya no es compartida: Retail tiene las suyas
 RETAIL_NOMBRES = {'clases': 'Clases', 'mazmorras': 'Mazmorras M+', 'banda': 'Banda', 'subir-nivel': 'Subir de nivel', 'profesiones': 'Profesiones',
                   'addons': 'Addons', 'notas': 'Notas del parche', 'calendario': 'Calendario', 'noticias': 'Noticias'}
 MODO_JS = ("<script id=\"modo-js\">(function(){var h=document.documentElement,m=h.getAttribute('data-modo');"
@@ -165,7 +165,7 @@ def header(base, current, calc_query=''):
     items = [('cambios', base + 'cambios/', 'Notas del parche'),
              ('torneo', base + 'torneo/', 'Torneo 100.000 $'), ('noticias', base + 'noticias/', 'Noticias')]
     # Para que quepa todo, lo de Muchamiel va en su desplegable (Van pidió «Patrocinadores» en lugar de «Marcas»).
-    mucha = [('muchamiel', base + 'muchamiel/', 'Quién es Muchamiel'), ('sorteos', base + 'sorteos/', 'Sorteos'),
+    mucha = [('muchamiel', base + 'muchamiel/', 'Quién es Muchamiel'), ('sorteos', base + 'sorteos/', 'Sorteos'), ('zona-subs', base + 'zona-subs/', '⭐ Zona de subs'),
              ('colaboraciones', base + 'colaboraciones/', 'Patrocinadores')]
     # 15-10: el juego completo (4-11, nivel 60) tiene su desplegable; lo de la beta (nivel 30) queda como estaba en «WoW Forever Beta».
     # Van 16-10: orden de Van; Lanzamiento va en la portada y la Calculadora es apartado propio («Calculadora de talentos»).
@@ -420,7 +420,7 @@ def run():
         base = depth_prefix(file)
         section = rel[0] if len(rel) > 1 else ''
         current, calc_q = {'': 'inicio', 'calculadora': 'calculadora', 'razas': 'razas', 'comunes': 'comunes', 'macros': 'comunes', 'noticias': 'noticias',
-                           'sorteos': 'sorteos', 'muchamiel': 'muchamiel', 'torneo': 'torneo', 'colaboraciones': 'colaboraciones', 'addons': 'addons', 'beta-gratis': 'noticias', 'reserva-nombres': 'noticias', 'mazmorras-nuevas': 'noticias', 'bandas-forever': 'noticias', 'fin-beta': 'noticias', 'a-medias': 'noticias', 'raciales-forever': 'noticias', 'dia-1': 'noticias', 'novedades-29-octubre': 'noticias', 'calendario': 'calendario',**{k: k for k, _ in FOREVER_PAGES},
+                           'sorteos': 'sorteos', 'zona-subs': 'muchamiel', 'muchamiel': 'muchamiel', 'torneo': 'torneo', 'colaboraciones': 'colaboraciones', 'addons': 'addons', 'beta-gratis': 'noticias', 'reserva-nombres': 'noticias', 'mazmorras-nuevas': 'noticias', 'bandas-forever': 'noticias', 'fin-beta': 'noticias', 'a-medias': 'noticias', 'raciales-forever': 'noticias', 'dia-1': 'noticias', 'novedades-29-octubre': 'noticias', 'calendario': 'calendario',**{k: k for k, _ in FOREVER_PAGES},
                            'clases': 'clases'}.get(section, 'clases'), ''
         if section in NAMES:
             calc_q = '?class=' + section

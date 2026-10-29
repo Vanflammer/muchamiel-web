@@ -1093,6 +1093,34 @@ def novedades29_page():
          'Lo que contó Blizzard el 29 de octubre: parches cada 4 meses, temporadas JcJ de 4 meses, a dónde puede ir Forever y cómo funcionarán los servidores.', body)
 
 
+# Van 30-10: página pública de la zona de subs. El botón no lleva a ningún sitio hasta que Muchamiel active las integraciones
+# de Discord (los roles de sub) y lo confirme: entonces se pone SUBS_ABIERTA = True y se vuelve a generar.
+SUBS_ABIERTA = False
+SUBS_URL = 'https://muchamiel-subs.pages.dev'
+
+
+def zona_subs_page():
+    boton = (f'<a class="btn gold" href="{SUBS_URL}" rel="noopener">Entrar con Discord</a>' if SUBS_ABIERTA else
+             '<span class="btn ghost" aria-disabled="true" style="opacity:.6;cursor:not-allowed">Muy pronto</span>')
+    body = ('<p class="eyebrow">COMUNIDAD · PARA QUIEN APOYA EL CANAL</p><h1>⭐ Zona de subs</h1>'
+            '<p class="lead">Una parte de la web solo para subs de Twitch, miembros de YouTube y mecenas de Patreon. Las guías, macros y la calculadora siguen <strong>gratis para todos</strong>; aquí va lo de antes, lo extra y lo de la comunidad.</p>'
+            f'<p>{boton}</p>'
+            + ('' if SUBS_ABIERTA else '<p class="fine">La estamos terminando: se abre en cuanto el Discord tenga los roles de sub.</p>')
+            + '<div class="tiles">'
+            '<div class="tile"><strong>📘 Guías antes que nadie</strong><span>Lo nuevo sale ahí unos días antes que en la web.</span></div>'
+            '<div class="tile"><strong>🪄 Creador de macros</strong><span>Elige clase y hechizo, marca opciones (ratón, foco, modificadores…) y copia, en el idioma de tu juego.</span></div>'
+            '<div class="tile"><strong>📅 Eventos con Muchamiel</strong><span>Bandas, mazmorras y JcJ con la comunidad: apúntate con tu rol.</span></div>'
+            '<div class="tile"><strong>🗳️ Votaciones y preguntas</strong><span>Decide la próxima guía y pregunta lo que quieras: lo más votado se contesta en directo.</span></div>'
+            '<div class="tile"><strong>💛 Muro de agradecimiento</strong><span>Si quieres, tu nombre en la web.</span></div>'
+            '<div class="tile"><strong>⭐ Canal #subs</strong><span>Charla privada en el Discord y avisos antes que nadie.</span></div></div>'
+            '<div class="divider"><h2>Cómo se entra</h2></div><ol>'
+            '<li>Sé sub en <a href="https://www.twitch.tv/muchamiel" target="_blank" rel="noopener noreferrer">Twitch</a> (con Prime Gaming es gratis cada mes), miembro en YouTube o mecenas en Patreon.</li>'
+            '<li>Únete al <a href="https://discord.gg/U8VkN5yXJ8" target="_blank" rel="noopener noreferrer">Discord de Muchamiel</a> y conecta tu Twitch o tu YouTube en Discord (Ajustes de usuario → Conexiones): te da el rol solo.</li>'
+            '<li>Pulsa «Entrar con Discord». Sin contraseñas: Discord solo nos dice tu nombre y si tienes el rol.</li></ol>')
+    page('zona-subs', 'Zona de subs de Muchamiel: guías antes, creador de macros y eventos',
+         'La zona de Muchamiel para subs de Twitch, miembros de YouTube y Patreon: guías antes que nadie, creador de macros, eventos con la comunidad y votaciones.', body)
+
+
 # Calendario (Van, 16-10-2026): todas las fechas clave de WoW Forever en orden, solo con datos que ya están en la web.
 # Origen de cada fecha: torneo (carrusel y página /torneo/), prueba de estrés (carrusel, /beta-gratis/ y research/prueba-estres-hora.md),
 # fin de beta y reserva, lanzamiento y bandas (FECHAS de forever_portal y research/forever-lanzamiento.md).
@@ -1136,6 +1164,7 @@ def build_pages():
     raciales26_page()
     dia1_page()
     novedades29_page()
+    zona_subs_page()
     calendario_page()
     import forever_portal
     forever_portal.build(page)  # juego completo (4-11, nivel 60): desplegable «WoW Forever»
