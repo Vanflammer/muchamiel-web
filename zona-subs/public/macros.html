@@ -1,16 +1,44 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Creador de macros · Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css">
+<meta name="robots" content="noindex"><title>Creador de macros · Zona de subs · Muchamiel</title><link rel="icon" href="/assets/sello.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cinzel+Decorative:wght@700;900&display=swap"><link rel="stylesheet" href="/assets/estilo.css">
 <style>
-label{display:block;margin:12px 0 4px;color:var(--mut);font-size:14px}select,input[type=text]{width:100%;background:#0d1219;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:9px;font:inherit}
-.dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.check{display:flex;gap:10px;align-items:flex-start;margin:8px 0;cursor:pointer}.check input{margin-top:4px}.check small{display:block;color:var(--mut)}
-.tipos{display:flex;flex-wrap:wrap;gap:8px}.tipos label{margin:0;display:inline-flex;gap:6px;align-items:center;background:#1b2333;border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--txt);cursor:pointer}
-pre#salida{background:#070b12;border:1px solid var(--gold2);border-radius:10px;padding:14px;font:15px/1.6 Consolas,monospace;white-space:pre-wrap;min-height:60px}
-.cuenta{font-size:14px}.cuenta.mal{color:var(--ko)}.exp li{margin:4px 0;font-size:14px;color:#cfd7e3}
+label{display:block;margin:14px 0 6px;color:#e8cf93;font-weight:600;font-size:14.5px}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.check{display:flex;gap:12px;align-items:flex-start;margin:6px 0;cursor:pointer;font:400 15px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;letter-spacing:0;color:var(--txt);
+  padding:10px 12px;border:1px solid rgba(138,100,40,.35);border-radius:6px;background:rgba(0,0,0,.22);transition:border-color .2s,background .2s}
+.check:hover{border-color:var(--gold2);background:rgba(255,181,46,.06)}
+.check:has(input:checked){border-color:rgba(255,200,90,.6);background:rgba(255,181,46,.09)}
+.check input{margin-top:4px;width:17px;height:17px;flex:none}.check small{display:block;color:var(--mut);font-size:13.5px;margin-top:2px}
+#opciones{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
+.tipos{display:flex;flex-wrap:wrap;gap:8px}
+.tipos label{margin:0;display:inline-flex;gap:8px;align-items:center;background:linear-gradient(180deg,#3a2912,#20160a);border:1px solid #8a6428;border-radius:999px;
+  padding:8px 14px;color:#f3e2bb;cursor:pointer;font:600 14px system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;letter-spacing:0;transition:box-shadow .2s,border-color .2s}
+.tipos label:hover{border-color:var(--gold2)}
+.tipos label:has(input:checked){color:#2a1604;background:linear-gradient(180deg,#ffe28f,#f0b543 55%,#c07a1c);border-color:#ffe9a8;box-shadow:0 0 16px rgba(255,170,40,.4)}
+pre#salida{position:relative;background:linear-gradient(180deg,#0b0805,#140d06);color:#fff3d0;border:2px solid #b0812e;border-radius:6px;padding:18px 16px 16px;
+  font:15px/1.65 Consolas,'Courier New',monospace;white-space:pre-wrap;overflow-wrap:anywhere;min-height:70px;margin:12px 0;
+  box-shadow:0 0 0 1px #000,0 0 0 4px rgba(13,9,5,.9),0 0 0 5px rgba(226,173,75,.4),0 0 30px rgba(255,170,40,.18),inset 0 0 30px rgba(0,0,0,.8)}
+.cuenta{font-size:14px;color:var(--mut)}.cuenta.mal{color:var(--ko);font-weight:700}.exp li{margin:5px 0;font-size:14.5px;color:#e9dcc0}.exp b{color:var(--gold)}
+#mias pre{color:#fff3d0}
+@media(max-width:760px){#opciones{grid-template-columns:1fr}}
 @media(max-width:640px){.dos{grid-template-columns:1fr}}
 </style></head>
-<body><header><b><a href="/" style="color:inherit;text-decoration:none">Muchamiel · Zona de subs</a></b><div class="yo"></div></header>
+<body><header class="cab"><div class="cab-fila">
+<a class="logo" href="/"><img src="/assets/sello.svg" alt=""><span>Muchamiel<small>Zona de subs</small></span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><i></i>Menú</button>
+<div class="yo"></div></div>
+<nav class="menu" id="menu" aria-label="Zona de subs">
+<a href="/"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_rune_01.jpg" alt="" width="24" height="24">Inicio</a>
+<a href="/guias"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_book_09.jpg" alt="" width="24" height="24">Guías</a>
+<a href="/macros" aria-current="page"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_inscription_scroll.jpg" alt="" width="24" height="24">Macros</a>
+<a href="/eventos"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_head_dragon_01.jpg" alt="" width="24" height="24">Eventos</a>
+<a href="/vota"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_letter_15.jpg" alt="" width="24" height="24">Votar</a>
+<a href="/preguntas"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_questionmark.jpg" alt="" width="24" height="24">Preguntas</a>
+<a href="/sorteos"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_holiday_christmas_present_01.jpg" alt="" width="24" height="24">Sorteos</a>
+<a href="/muro"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_valentinescard01.jpg" alt="" width="24" height="24">Muro</a>
+</nav></header>
 <main>
-<h1>🪄 Creador de macros</h1>
+<div class="titulo"><img class="ico" src="https://wow.zamimg.com/images/wow/icons/large/inv_inscription_scroll.jpg" alt=""><h1>Creador de macros</h1></div>
 <p class="lead">Elige clase y hechizo, marca lo que quieres y copia la macro. En el juego: <code>/macro</code> → Nueva → pega.</p>
 
 <div class="box">
@@ -47,6 +75,7 @@ pre#salida{background:#070b12;border:1px solid var(--gold2);border-radius:10px;p
 <div id="mias"></div>
 <p><a href="/">← Volver</a></p>
 </main>
+<footer class="pie"><b>Muchamiel · Zona de subs</b><br>Gracias por apoyar el canal · <a href="https://muchamielwow.github.io/">Web pública</a> · <a href="https://discord.gg/U8VkN5yXJ8" target="_blank" rel="noopener">Discord</a></footer>
 <script src="/assets/zona.js"></script>
 <script>
 const $ = id => document.getElementById(id);

@@ -1,22 +1,39 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Zona de subs · Muchamiel</title><link rel="stylesheet" href="/assets/estilo.css"></head>
-<body><main class="centro">
-<h1>Zona de subs de Muchamiel</h1>
+<meta name="robots" content="noindex"><title>Zona de subs · Muchamiel</title>
+<link rel="icon" href="/assets/sello.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cinzel+Decorative:wght@700;900&display=swap"><link rel="stylesheet" href="/assets/estilo.css"></head>
+<body><main class="puerta">
+<div class="portal">
+<img class="sello" src="/assets/sello.svg" alt="" width="110" height="110">
+<p class="antetitulo">Muchamiel · WoW</p>
+<h1>Zona de subs</h1>
 <p class="lead">Solo para quien apoya el canal: subs de Twitch, miembros de YouTube y mecenas de Patreon.</p>
-<p><a class="btn" id="entrar" href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.4C.6 9 -.3 13.6.2 18.1a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14 14 0 0 0 12 0l.5.4a12.8 12.8 0 0 1-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.2-.9-9.7-3.5-13.7ZM8.5 15.3c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4Zm7 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4Z"/></svg>Entrar con Discord</a></p>
-<div class="box" style="text-align:left;max-width:560px;margin:24px auto">
+<p><a class="btn discord" id="entrar" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18 18 0 0 0-5.6 0L8.6 3a19.6 19.6 0 0 0-4.9 1.4C.6 9 -.3 13.6.2 18.1a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14 14 0 0 0 12 0l.5.4a12.8 12.8 0 0 1-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.2-.9-9.7-3.5-13.7ZM8.5 15.3c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4Zm7 0c-1.2 0-2.1-1.1-2.1-2.4s.9-2.4 2.1-2.4 2.2 1.1 2.1 2.4c0 1.3-.9 2.4-2.1 2.4Z"/></svg>Entrar con Discord</a></p>
+<div id="aviso"></div>
+
+<p class="separa">Qué hay dentro</p>
+<div class="ventajas">
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_book_09.jpg" alt="">Guías antes que nadie</div>
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_inscription_scroll.jpg" alt="">Creador de macros</div>
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_head_dragon_01.jpg" alt="">Eventos con Muchamiel</div>
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_letter_15.jpg" alt="">Vota la próxima guía</div>
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_questionmark.jpg" alt="">Preguntas en directo</div>
+<div><img class="ico" src="https://wow.zamimg.com/images/wow/icons/medium/inv_holiday_christmas_present_01.jpg" alt="">Sorteos para subs</div>
+</div>
+
+<div class="box">
 <b>Cómo funciona</b>
-<ol class="mut" style="margin:.5em 0 0;padding-left:20px">
+<ol class="mut">
 <li>Únete al <a href="https://discord.gg/U8VkN5yXJ8" target="_blank" rel="noopener">Discord de Muchamiel</a>.</li>
 <li>En Discord, Ajustes de usuario → Conexiones: conecta tu Twitch o tu YouTube. Discord te da el rol de sub solo.</li>
 <li>Pulsa «Entrar con Discord». No hay contraseñas: Discord solo nos dice tu nombre y si tienes el rol.</li></ol></div>
-<div id="aviso"></div>
 <p class="mut"><a href="https://muchamielwow.github.io/">Volver a la web</a></p>
+</div>
 </main>
 <script>
 (async () => {
   const motivos = {
-    'no-servidor': 'No estás en el Discord de Muchamiel. Únete con el enlace de arriba y vuelve a intentarlo.',
+    'no-servidor': 'No estás en el Discord de Muchamiel. Únete con el enlace de abajo y vuelve a intentarlo.',
     'no-sub': 'Estás en el Discord, pero todavía sin rol de sub. Conecta tu Twitch o tu YouTube en Discord (Ajustes de usuario → Conexiones), espera unos minutos y vuelve a entrar.',
     'discord': 'Discord no ha respondido. Prueba otra vez en un momento.'
   };

@@ -1,0 +1,233 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Sorteo · Muchamiel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cinzel+Decorative:wght@700;900&display=swap">
+<style>
+:root{--oro:#f4d27a;--oro2:#c99a3c;--fondo:#07090e;--txt:#e9e3d2;--mut:#a59b85;--t1:#1eff00;--t2:#0070dd;--t3:#a335ee;--leg:#ff8000;--gratis:#c8c8c8}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;color:var(--txt);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+background:radial-gradient(ellipse at 50% -10%,#3a2a12 0%,#120d07 45%,#07090e 80%) fixed,var(--fondo)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:url("https://muchamielwow.github.io/assets/horde.png") center 30%/cover no-repeat;opacity:.08;filter:sepia(.6)}
+main{position:relative;max-width:1100px;margin:0 auto;padding:22px 16px 60px}
+h1{font-family:"Cinzel Decorative",Cinzel,serif;color:var(--oro);text-align:center;font-size:clamp(28px,5vw,52px);margin:.2em 0 0;text-shadow:0 0 24px #c99a3c66,0 2px 0 #000}
+.sub{text-align:center;color:var(--mut);margin:0 0 18px;font-family:Cinzel,serif;letter-spacing:.08em}
+.marco{position:relative;background:linear-gradient(180deg,#1a140c,#0e0b07);border:2px solid #6b5426;border-radius:14px;padding:18px;box-shadow:inset 0 0 0 1px #000,0 0 0 1px #2a2010,0 10px 40px #0009}
+.marco::before{content:"";position:absolute;inset:6px;border:1px solid #c99a3c33;border-radius:10px;pointer-events:none}
+.marco h2{font-family:Cinzel,serif;color:var(--oro);margin:0 0 10px;font-size:20px}
+.rejilla{display:grid;grid-template-columns:1.3fr 1fr;gap:16px}
+textarea,input[type=number]{width:100%;background:#0a0806;color:var(--txt);border:1px solid #4a3a1c;border-radius:8px;padding:10px;font:14px/1.4 Consolas,monospace}
+textarea{min-height:170px;resize:vertical}label{display:block;color:var(--mut);font-size:14px;margin:10px 0 4px}
+.pesos{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.pesos div{text-align:center}.pesos b{display:block;font-family:Cinzel,serif;font-size:13px}
+.q1{color:var(--t1)}.q2{color:var(--t2)}.q3{color:var(--t3)}.qg{color:var(--gratis)}.ql{color:var(--leg)}
+.check{display:flex;gap:8px;align-items:center;margin:8px 0;color:var(--txt);font-size:14px;cursor:pointer}
+.resumen{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}.resumen div{background:#0a0806;border:1px solid #4a3a1c;border-radius:10px;padding:10px;text-align:center}
+.resumen b{display:block;font:700 24px Cinzel,serif}.resumen small{color:var(--mut)}
+.btn{font-family:Cinzel,serif;font-weight:700;letter-spacing:.05em;cursor:pointer;border:0;border-radius:10px;padding:14px 26px;font-size:18px;color:#1a1206;
+background:linear-gradient(180deg,#ffe9a8,#e0ad4a 55%,#a8701d);box-shadow:0 0 0 2px #5a3f12,0 0 22px #e0ad4a55,inset 0 1px 0 #fff8;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}.btn:disabled{filter:grayscale(1) brightness(.6);cursor:not-allowed;transform:none}
+.btn.gris{background:linear-gradient(180deg,#3a3a42,#22222a);color:var(--txt);box-shadow:0 0 0 2px #111;font-size:14px;padding:9px 14px}
+.acciones{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:16px 0}
+/* Escenario de la tirada */
+.escenario{position:relative;margin:18px 0;padding:26px 0;overflow:hidden;border-radius:14px;border:2px solid #6b5426;background:linear-gradient(180deg,#0d0a06,#17110a 50%,#0d0a06)}
+.cinta{display:flex;gap:12px;will-change:transform;padding:0 50%}
+.carta{flex:none;width:170px;height:96px;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+background:linear-gradient(180deg,#1d1710,#0f0c08);border:2px solid currentColor;box-shadow:inset 0 0 18px #0008;font-weight:700;padding:6px;text-align:center}
+.carta span{color:var(--txt);font-size:15px;word-break:break-word;line-height:1.15}.carta small{font-size:11px;letter-spacing:.08em;font-family:Cinzel,serif}
+.aguja{position:absolute;left:50%;top:6px;bottom:6px;width:4px;margin-left:-2px;background:linear-gradient(180deg,transparent,var(--oro),transparent);box-shadow:0 0 16px var(--oro);z-index:2}
+.aguja::before,.aguja::after{content:"";position:absolute;left:50%;transform:translateX(-50%);border:10px solid transparent}
+.aguja::before{top:-6px;border-top-color:var(--oro)}.aguja::after{bottom:-6px;border-bottom-color:var(--oro)}
+.escenario::before,.escenario::after{content:"";position:absolute;top:0;bottom:0;width:22%;z-index:1;pointer-events:none}
+.escenario::before{left:0;background:linear-gradient(90deg,#0d0a06,transparent)}.escenario::after{right:0;background:linear-gradient(-90deg,#0d0a06,transparent)}
+.vacio{text-align:center;color:var(--mut);font-family:Cinzel,serif;padding:20px}
+/* Ganador */
+.ganador{display:none;text-align:center;margin:10px auto;max-width:640px;padding:22px;border-radius:14px;border:3px solid var(--leg);
+background:radial-gradient(circle at 50% 0%,#5a2a00,#1a0f05 70%);box-shadow:0 0 40px #ff800088,inset 0 0 30px #000a;animation:aparece .6s cubic-bezier(.2,1.4,.4,1)}
+.ganador.ver{display:block}.ganador img{width:72px;height:72px;border-radius:10px;border:2px solid var(--leg);box-shadow:0 0 20px var(--leg)}
+.ganador .nombre{font:900 clamp(30px,6vw,56px) "Cinzel Decorative",Cinzel,serif;color:var(--leg);text-shadow:0 0 18px #ff8000aa,0 2px 0 #000;word-break:break-word}
+.ganador p{margin:6px 0}
+@keyframes aparece{from{transform:scale(.4);opacity:0}to{transform:scale(1);opacity:1}}
+canvas#monedas{position:fixed;inset:0;pointer-events:none;z-index:50}
+.historial{list-style:none;padding:0;margin:0}.historial li{display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border-bottom:1px solid #2a2010}
+.aviso{font-size:13px;color:var(--mut);border-left:3px solid var(--oro2);padding:6px 10px;margin:12px 0}
+body.directo .config{display:none}body.directo main{max-width:1400px}
+@media(max-width:760px){.rejilla{grid-template-columns:1fr}.resumen{grid-template-columns:repeat(2,1fr)}.carta{width:130px}.pesos{grid-template-columns:repeat(2,1fr)}}
+</style></head>
+<body>
+<canvas id="monedas"></canvas>
+<main>
+<h1>Sorteo de Muchamiel</h1>
+<p class="sub">⚔️ Tirada de botín ⚔️</p>
+
+<div class="rejilla config">
+<section class="marco">
+<h2>1 · Pega la lista de subs</h2>
+<p class="aviso">Twitch → Panel del creador → Comunidad → Suscriptores → Descargar lista (CSV). Pega aquí el contenido tal cual. También vale una lista simple: <code>nombre, 3</code> (el número es el tier) o solo el nombre (cuenta como Tier 1).</p>
+<textarea id="lista" placeholder="Username,Subscribe Date,Current Tier,...&#10;o bien:&#10;Pepito, 3&#10;Juanita, 1"></textarea>
+<label>Entradas gratis (opcional): quien escribió !sorteo en el chat, uno por línea. Reciben las papeletas de «Gratis».</label>
+<textarea id="gratis" style="min-height:80px" placeholder="nombre1&#10;nombre2"></textarea>
+</section>
+<section class="marco">
+<h2>2 · Papeletas</h2>
+<div class="pesos">
+<div><b class="q1">Tier 1 / Prime</b><input type="number" id="p1" min="0" max="100" value="1"></div>
+<div><b class="q2">Tier 2</b><input type="number" id="p2" min="0" max="100" value="2"></div>
+<div><b class="q3">Tier 3</b><input type="number" id="p3" min="0" max="100" value="6"></div>
+<div><b class="qg">Gratis</b><input type="number" id="pg" min="0" max="100" value="1"></div>
+</div>
+<label class="check"><input type="checkbox" id="quitar" checked> Quien gana, sale del bombo (no repite)</label>
+<label class="check"><input type="checkbox" id="sonido" checked> Sonido de botín</label>
+<label>Ganadores de golpe</label><input type="number" id="cuantos" min="1" max="20" value="1">
+<p class="aviso">Nada de esto se guarda en ningún sitio: todo pasa en tu navegador. El azar usa el generador criptográfico del navegador.</p>
+</section>
+</div>
+
+<div class="resumen" id="resumen"></div>
+<div class="acciones">
+<button class="btn" id="sortear" disabled>🎲 ¡Sortear!</button>
+<button class="btn gris" id="directo">📺 Modo directo</button>
+<button class="btn gris" id="pantalla">⛶ Pantalla completa</button>
+</div>
+
+<div class="escenario"><div class="aguja"></div><div class="cinta" id="cinta"></div><div class="vacio" id="vacio">Pega la lista para empezar</div></div>
+<div class="ganador" id="ganador"></div>
+
+<section class="marco config" style="margin-top:16px">
+<h2>🏆 Ganadores</h2>
+<ul class="historial" id="historial"><li style="color:var(--mut)">Todavía no hay ganadores.</li></ul>
+<div class="acciones"><button class="btn gris" id="copiar">📋 Copiar ganadores</button><button class="btn gris" id="reiniciar">↺ Volver a meter a todos</button></div>
+</section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const TIER = {1: {n: 'Tier 1', c: 'var(--t1)', i: 'inv_misc_coin_19'}, 2: {n: 'Tier 2', c: 'var(--t2)', i: 'inv_misc_coin_18'}, 3: {n: 'Tier 3', c: 'var(--t3)', i: 'inv_misc_coin_17'}, g: {n: 'Gratis', c: 'var(--gratis)', i: 'inv_misc_ticket_tarot_01'}};
+let ganadores = [], girando = false;
+
+// --- Leer la lista (CSV de Twitch o lista simple) ---
+function partir(linea) {
+  const out = []; let cur = '', q = false;
+  for (const ch of linea) { if (ch === '"') q = !q; else if ((ch === ',' || ch === ';' || ch === '\t') && !q) { out.push(cur.trim()); cur = ''; } else cur += ch; }
+  out.push(cur.trim()); return out;
+}
+function tierDe(v) { const s = String(v || '').toLowerCase(); if (s.includes('3') || s.includes('3000')) return 3; if (s.includes('2') || s.includes('2000')) return 2; return 1; }
+function leer() {
+  const lineas = $('lista').value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  const gente = new Map();
+  if (!lineas.length) return gente;
+  const cab = partir(lineas[0]).map(x => x.toLowerCase());
+  const iN = cab.findIndex(x => /user|usuario|nombre|name/.test(x));
+  const iT = cab.findIndex(x => /tier|nivel/.test(x));
+  const esCSV = iN >= 0;
+  for (const l of (esCSV ? lineas.slice(1) : lineas)) {
+    const p = partir(l);
+    const nombre = (esCSV ? p[iN] : p[0] || '').replace(/^@/, '').trim();
+    if (!nombre) continue;
+    const t = esCSV ? (iT >= 0 ? tierDe(p[iT]) : 1) : (p[1] ? tierDe(p[1]) : 1);
+    const k = nombre.toLowerCase();
+    if (!gente.has(k) || gente.get(k).t < t) gente.set(k, {nombre, t});
+  }
+  for (const n of $('gratis').value.split(/\r?\n/).map(x => x.replace(/^@/, '').trim()).filter(Boolean)) {
+    const k = n.toLowerCase(); if (!gente.has(k)) gente.set(k, {nombre: n, t: 'g'});
+  }
+  return gente;
+}
+const peso = t => Math.max(0, parseInt($(t === 'g' ? 'pg' : 'p' + t).value) || 0);
+function bombo() {
+  const fuera = new Set($('quitar').checked ? ganadores.map(g => g.nombre.toLowerCase()) : []);
+  return [...leer().values()].filter(p => !fuera.has(p.nombre.toLowerCase()) && peso(p.t) > 0).map(p => ({...p, papeletas: peso(p.t)}));
+}
+function resumen() {
+  const b = bombo();
+  const cuenta = k => b.filter(p => p.t === k).length;
+  const total = b.reduce((s, p) => s + p.papeletas, 0);
+  $('resumen').innerHTML = [['Participantes', b.length, ''], ['Tier 3', cuenta(3), 'q3'], ['Tier 2', cuenta(2), 'q2'], ['Tier 1 / Prime', cuenta(1), 'q1'], ['Papeletas', total, 'ql']]
+    .map(([t, n, c]) => `<div><b class="${c}">${n}</b><small>${t}</small></div>`).join('');
+  $('sortear').disabled = !b.length || girando;
+  $('vacio').style.display = b.length ? 'none' : 'block';
+  return b;
+}
+function azar(max) { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] / 2 ** 32 * max; }
+function elegir(b) {
+  const total = b.reduce((s, p) => s + p.papeletas, 0);
+  let r = azar(total);
+  for (const p of b) { if ((r -= p.papeletas) < 0) return p; }
+  return b[b.length - 1];
+}
+const esc = s => String(s).replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const carta = p => `<div class="carta" style="color:${TIER[p.t].c}"><span>${esc(p.nombre)}</span><small>${TIER[p.t].n} · ${p.papeletas}🎟️</small></div>`;
+
+// --- Sonido de botín (sin archivos: se genera con el navegador) ---
+let ctx;
+function tono(f, t0, dur, tipo = 'triangle', vol = .12) {
+  ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+  const o = ctx.createOscillator(), g = ctx.createGain(); o.type = tipo; o.frequency.value = f;
+  g.gain.setValueAtTime(0, ctx.currentTime + t0); g.gain.linearRampToValueAtTime(vol, ctx.currentTime + t0 + .02); g.gain.exponentialRampToValueAtTime(.0001, ctx.currentTime + t0 + dur);
+  o.connect(g).connect(ctx.destination); o.start(ctx.currentTime + t0); o.stop(ctx.currentTime + t0 + dur + .05);
+}
+const tic = () => $('sonido').checked && tono(1200, 0, .05, 'square', .03);
+const fanfarria = () => $('sonido').checked && [523, 659, 784, 1047, 1319].forEach((f, i) => tono(f, i * .11, .6 + i * .05));
+
+// --- Monedas de oro ---
+function monedas() {
+  const c = $('monedas'), x = c.getContext('2d'); c.width = innerWidth; c.height = innerHeight;
+  const ps = Array.from({length: 160}, () => ({x: innerWidth / 2 + (Math.random() - .5) * 200, y: innerHeight / 2.2, vx: (Math.random() - .5) * 14, vy: -Math.random() * 16 - 4, r: 5 + Math.random() * 6, g: Math.random() * 6}));
+  let f = 0;
+  (function paso() {
+    x.clearRect(0, 0, c.width, c.height);
+    for (const p of ps) {
+      p.vy += .45; p.x += p.vx; p.y += p.vy; p.g += .2;
+      const w = Math.abs(Math.cos(p.g)) * p.r;
+      const gr = x.createRadialGradient(p.x - w / 3, p.y - p.r / 3, 1, p.x, p.y, p.r);
+      gr.addColorStop(0, '#fff6c9'); gr.addColorStop(.5, '#f4c24a'); gr.addColorStop(1, '#8a5a12');
+      x.fillStyle = gr; x.beginPath(); x.ellipse(p.x, p.y, Math.max(w, 1), p.r, 0, 0, Math.PI * 2); x.fill();
+    }
+    if (++f < 170) requestAnimationFrame(paso); else x.clearRect(0, 0, c.width, c.height);
+  })();
+}
+
+// --- La tirada ---
+async function tirada() {
+  const b = resumen(); if (!b.length || girando) return;
+  girando = true; $('sortear').disabled = true; $('ganador').classList.remove('ver');
+  const premio = elegir(b);
+  // Cinta: 60 cartas al azar (ponderadas) con el ganador en la posición 50
+  const cartas = Array.from({length: 60}, (_, i) => i === 50 ? premio : elegir(b));
+  const cinta = $('cinta'); cinta.style.transition = 'none'; cinta.style.transform = 'translateX(0)';
+  cinta.innerHTML = cartas.map(carta).join('');
+  await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+  const ancho = cinta.children[0].getBoundingClientRect().width + 12;
+  const destino = 50 * ancho + ancho / 2 + (azar(ancho * .5) - ancho * .25);
+  const dur = 6500;
+  cinta.style.transition = `transform ${dur}ms cubic-bezier(.08,.6,.12,1)`;
+  cinta.style.transform = `translateX(-${destino}px)`;
+  // tic-tac mientras pasan las cartas
+  let ultimo = -1; const t0 = performance.now();
+  (function oye() {
+    const m = new DOMMatrix(getComputedStyle(cinta).transform).m41; const idx = Math.floor(-m / ancho);
+    if (idx !== ultimo) { ultimo = idx; tic(); }
+    if (performance.now() - t0 < dur) requestAnimationFrame(oye);
+  })();
+  await new Promise(r => setTimeout(r, dur + 200));
+  cinta.children[50].style.boxShadow = '0 0 30px var(--leg), inset 0 0 18px #0008'; cinta.children[50].style.color = 'var(--leg)';
+  fanfarria(); monedas();
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_10_red.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">¡BOTÍN LEGENDARIO!</p>
+    <div class="nombre">${esc(premio.nombre)}</div><p>${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${b.reduce((s, p) => s + p.papeletas, 0)}</p>`;
+  $('ganador').classList.add('ver');
+  pintaHistorial(); girando = false; resumen();
+}
+async function sortear() {
+  const n = Math.max(1, Math.min(20, parseInt($('cuantos').value) || 1));
+  for (let i = 0; i < n; i++) { if (!bombo().length) break; await tirada(); if (i < n - 1) await new Promise(r => setTimeout(r, 2500)); }
+}
+function pintaHistorial() {
+  $('historial').innerHTML = ganadores.length ? ganadores.map((g, i) => `<li><span>${i + 1}. <b class="ql">${esc(g.nombre)}</b></span><span style="color:${TIER[g.t].c}">${TIER[g.t].n} · ${g.papeletas}🎟️</span></li>`).join('')
+    : '<li style="color:var(--mut)">Todavía no hay ganadores.</li>';
+}
+['lista', 'gratis', 'p1', 'p2', 'p3', 'pg', 'quitar'].forEach(id => $(id).addEventListener('input', resumen));
+$('quitar').addEventListener('change', resumen);
+$('sortear').onclick = sortear;
+$('directo').onclick = () => { document.body.classList.toggle('directo'); $('directo').textContent = document.body.classList.contains('directo') ? '⚙️ Mostrar ajustes' : '📺 Modo directo'; };
+$('pantalla').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+$('copiar').onclick = () => navigator.clipboard.writeText(ganadores.map((g, i) => `${i + 1}. ${g.nombre} (${TIER[g.t].n})`).join('\n'));
+$('reiniciar').onclick = () => { if (confirm('¿Volver a meter a todos los ganadores en el bombo?')) { ganadores = []; pintaHistorial(); resumen(); } };
+resumen();
+</script></body></html>
