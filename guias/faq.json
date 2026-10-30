@@ -54,6 +54,17 @@
             "en": "On December 9: Barrow Deeps (10 players), Hyjal Summit (20) and Onyxia's Lair (40)."
           },
           "url": "../bandas-forever/"
+        },
+        {
+          "p": {
+            "es": "¿Funciona en mi tarjeta gráfica?",
+            "en": "Will it run on my graphics card?"
+          },
+          "r": {
+            "es": "Blizzard pide como mínimo una tarjeta AMD GCN 1 (de 2012), NVIDIA Maxwell (de 2014) o Intel Skylake (de 2015), o más nueva. Para saber cuál tienes en Windows: Configuración › Sistema › Pantalla › Pantalla avanzada.",
+            "en": "Blizzard's minimum is an AMD GCN 1 (2012), NVIDIA Maxwell (2014) or Intel Skylake (2015) graphics card, or newer. To check yours on Windows: Settings › System › Display › Advanced display."
+          },
+          "url": "../lanzamiento/"
         }
       ]
     },
@@ -93,6 +104,17 @@
           "r": {
             "es": "La suscripción de 6 o 12 meses es la más barata a la larga; para probar sin atarte, una tarjeta de 60 días.",
             "en": "The 6 or 12 month subscription is the cheapest in the long run; to try it without commitment, a 60-day card."
+          },
+          "url": "../pagar-menos/"
+        },
+        {
+          "p": {
+            "es": "¿Cómo funciona Invita a un amigo?",
+            "en": "How does Recruit-a-Friend work?"
+          },
+          "r": {
+            "es": "El pack Heroico trae 1 código de invitación; el Épico y la Colección, 3. Llegan por correo desde el 20 de octubre. Tu amigo juega gratis del 4 al 11 de noviembre (hora del Pacífico). Los códigos no sirven para regalar el juego.",
+            "en": "The Heroic pack comes with 1 invite code; the Epic pack and the Collection, 3. They arrive by email from October 20. Your friend plays free from November 4 to 11 (Pacific time). The codes can't be used to gift the game."
           },
           "url": "../pagar-menos/"
         }
@@ -147,6 +169,27 @@
             "en": "On PvP rules you can be attacked in the open world; on Normal, only if you choose to. There are also RP and RP-PvP rules."
           },
           "url": "../jcj/"
+        },
+        {
+          "p": {
+            "es": "¿Puedo ocultar mi apellido?",
+            "en": "Can I hide my last name?"
+          },
+          "r": {
+            "es": "Sí: Opciones › Placas de nombre (Nameplates) › <b>My Secondary Name</b>. Se oculta encima del personaje, pero en el chat se sigue viendo. Varios personajes pueden llevar el mismo apellido.",
+            "en": "Yes: Options › Nameplates › <b>My Secondary Name</b>. It hides it above your character, but it still shows in chat. Several characters can share the same last name."
+          },
+          "url": "../reserva-nombres/"
+        },
+        {
+          "p": {
+            "es": "¿Se puede desactivar la transfiguración?",
+            "en": "Can I turn transmog off?"
+          },
+          "r": {
+            "es": "Sí. En el transfigurador puedes apagarla del todo y verás a los demás con su equipo real. El «Classic Mode» la apaga solo, pero sigues coleccionando apariencias. Las colecciones están ocultas hasta que vas encontrando lo que contienen.",
+            "en": "Yes. At the transmogrifier you can switch it off completely and see everyone in their real gear. Classic Mode turns it off for you, but you keep collecting appearances. Collections stay hidden until you find what is in them."
+          }
         }
       ]
     },
@@ -199,6 +242,16 @@
             "en": "At level 40: 100 gold for riding and about 20 for the mount (at 60, 1,000 and about 200; it is not yet clear whether the first mount is included). Honored with your faction takes 10% off. Warlocks and paladins get theirs with a quest."
           },
           "url": "../monturas/"
+        },
+        {
+          "p": {
+            "es": "¿Cuánto pierdo si resucito con el sanador espiritual?",
+            "en": "What do I lose if I resurrect at the spirit healer?"
+          },
+          "r": {
+            "es": "En la beta, un 25 % de durabilidad en todo el equipo (en Classic era un 50 %). La enfermedad de resurrección (Resurrection Sickness) sigue igual que siempre. Si tu cadáver está cerca, sigue saliendo más barato ir a buscarlo.",
+            "en": "In the beta, 25% durability on all your gear (it was 50% in Classic). Resurrection Sickness works the same as always. If your corpse is close, running back to it is still cheaper."
+          }
         }
       ]
     },
@@ -251,6 +304,28 @@
             "en": "Account-wide perks you earn with achievements and share across all your characters: faster leveling, cheaper flights, more honor…"
           },
           "url": "../legacy/"
+        },
+        {
+          "p": {
+            "es": "¿Qué recompensas da el Legado?",
+            "en": "What rewards does Legacy give?"
+          },
+          "r": {
+            "es": "Además de las ventajas, hay premios por los puntos que ganas en la cuenta, los gastes o no: con 15, el juguete Replica Ironforge Air Rifle; con 25, la mascota Spectral Bear Cub; con 40, el Spectral Bear Tabard; y con 55, la montura épica <b>Reins of the Spectral Bear</b>. Se recogen con el posadero Wiley en Trinquete (Ratchet). Sin los 12 retos de JcJ solo se llega a 53, así que la montura pide algo de JcJ. Visto en la beta y en guías: Blizzard no ha publicado la lista.",
+            "en": "On top of the perks, there are prizes for the points your account earns, spent or not: 15 gets the Replica Ironforge Air Rifle toy, 25 the Spectral Bear Cub pet, 40 the Spectral Bear Tabard and 55 the epic mount <b>Reins of the Spectral Bear</b>. You collect them from Wiley the innkeeper in Ratchet. Without the 12 PvP challenges you top out at 53, so the mount needs some PvP. Seen in the beta and in guides: Blizzard hasn't published the list."
+          },
+          "url": "../legacy/"
+        },
+        {
+          "p": {
+            "es": "¿Puedo cambiar dónde gasto los puntos de Legado?",
+            "en": "Can I respec my Legacy points?"
+          },
+          "r": {
+            "es": "Sí. Los puntos se ganan para toda la cuenta, pero cada personaje los reparte a su manera, y se pueden reiniciar. En la beta reiniciar costaba 10 de oro (sin confirmar para el lanzamiento). Una idea que funciona: mientras subes, todo en Profesiones para ganar oro y subir oficios; al 60, reinicias y pasas a lo que vayas a hacer (más honor o más reputación). Ojo con <b>Dedicated Study</b> (+1 a tu profesión más baja): en la beta solo se podía usar una vez cada 24 horas.",
+            "en": "Yes. Points are earned account-wide, but each character spends them its own way, and they can be reset. In the beta a reset cost 10 gold (not confirmed for launch). A plan that works: while leveling, put everything into Professions to make gold and level your crafts; at 60, reset and switch to what you'll actually do (more honor or more reputation). Note that <b>Dedicated Study</b> (+1 to your lowest profession) could only be used once every 24 hours in the beta."
+          },
+          "url": "../legacy/"
         }
       ]
     },
@@ -292,6 +367,16 @@
             "en": "Fast riding, level 60 dungeons, reputations and getting ready for the December 9 raids. It's all in order."
           },
           "url": "../nivel-60/"
+        },
+        {
+          "p": {
+            "es": "¿Qué webs me ayudan a jugar?",
+            "en": "Which websites help while playing?"
+          },
+          "r": {
+            "es": "Para una segunda pantalla: <b>Travelcraft</b> (wow-travelcraft.com), mapa con rutas de barcos, zepelines y vuelos de Forever que te calcula el camino más rápido y cuánto tardas; <b>ForeverChanges</b> (foreverchanges.pro), cambios de talentos y hechizos frente a Classic, calculadora de talentos, Legado, profesiones, mazmorras y objetos; <b>Wowhead</b> (wowhead.com/forever), noticias y base de datos; <b>WoW-Professions</b> (wow-professions.com), guías de profesiones de toda la vida, con apartado de Forever; y el <b>Raid Buff Planner</b> de Everloot (everloot.app/tools/raid), para repartir beneficios en bandas de 10, 20 y 40. Las simulaciones de daño (como MythicSim) aún están en beta para Forever: no elijas clase por ellas.",
+            "en": "For a second screen: <b>Travelcraft</b> (wow-travelcraft.com), a map with Forever's boat, zeppelin and flight routes that works out the fastest path and how long it takes; <b>ForeverChanges</b> (foreverchanges.pro), talent and spell changes versus Classic, a talent calculator, Legacy, professions, dungeons and items; <b>Wowhead</b> (wowhead.com/forever), news and database; <b>WoW-Professions</b> (wow-professions.com), long-standing profession guides with a Forever section; and Everloot's <b>Raid Buff Planner</b> (everloot.app/tools/raid), to sort buffs for 10, 20 and 40-player raids. Damage sims (such as MythicSim) are still in beta for Forever: don't pick a class based on them."
+          }
         }
       ]
     },
@@ -322,6 +407,16 @@
             "en": "The guides stay free for everyone. Subs get their own area: new stuff first, voting on the next guide, giveaways and events. You log in with Discord."
           },
           "url": "../zona-subs/"
+        },
+        {
+          "p": {
+            "es": "¿Hay Discord oficial de Blizzard?",
+            "en": "Is there an official Blizzard Discord?"
+          },
+          "r": {
+            "es": "Sí: se llama «WoW Portal Room». El de la comunidad de Muchamiel es otro (mira la pregunta de arriba).",
+            "en": "Yes: it's called \"WoW Portal Room\". The Muchamiel community one is a different server (see the question above)."
+          }
         }
       ]
     }

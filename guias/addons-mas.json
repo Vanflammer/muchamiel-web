@@ -81,6 +81,15 @@
             "en": "Built for Forever on top of Auctionator prices: it ranks your recipes by profit (after the auction house cut), builds a craft queue and sends the shopping list to Auctionator. A leveling mode shows the cheapest recipes per skill point. Requires Auctionator."
           },
           "url": "https://www.curseforge.com/wow/addons/foreverprofit"
+        },
+        {
+          "nombre": "CraftProfit Forever",
+          "forever": "beta",
+          "que_hace": {
+            "es": "La alternativa sin ventanas extra: pone el coste y la ganancia de cada receta dentro de la ventana de profesiones de siempre. Saca los precios de su propio escaneo de la subasta (Auctionator es opcional y aún sin probar), y si escaneas con un personaje del banco ves esos precios en tus fabricantes. Se abre con /cf. Elige este o ForeverProfit, no los dos.",
+            "en": "The no-extra-windows option: it shows each recipe's cost and profit right inside the regular profession window. Prices come from its own auction house scan (Auctionator is optional and still untested), and if you scan on a bank character you see those prices on your crafters. Open it with /cf. Pick this or ForeverProfit, not both."
+          },
+          "url": "https://www.curseforge.com/wow/addons/craftprofit-forever"
         }
       ]
     },
@@ -143,6 +152,15 @@
             "en": "For players who miss the 2004 look: it brings back Classic-style player, target and party frames, the round minimap and cast bars, module by module (/fcui). Still in alpha, so expect some visual glitches."
           },
           "url": "https://www.curseforge.com/wow/addons/classic-ui-forever"
+        },
+        {
+          "nombre": "OpenMap",
+          "forever": "beta",
+          "que_hace": {
+            "es": "Convierte el mapa del mundo en uno solo y continuo, con el dibujo original: acercas y alejas con la rueda del ratón y te mueves arrastrando, sin saltar de zona en zona. Marca rutas de barcos y zepelines, maestros de vuelo (aprendidos en color) con tiempo de viaje entre dos, entradas de mazmorra con sus niveles y a tu grupo. Funciona con Questie. Se abre con /openmap. Quita antes otros addons de mapa (Leatrix Maps, Mapster, Magnify). Primera versión: puede tener fallos.",
+            "en": "Turns the world map into one seamless map with the original art: zoom with the mouse wheel and drag to move, no more hopping zone by zone. It shows boat and zeppelin routes, flight masters (learned ones in color) with travel time between two, dungeon entrances with their levels, and your group. Works with Questie. Open it with /openmap. Disable other map add-ons first (Leatrix Maps, Mapster, Magnify). First release, so expect rough edges."
+          },
+          "url": "https://www.curseforge.com/wow/addons/openmap"
         }
       ]
     },
@@ -187,6 +205,15 @@
             "en": "An Omen-style threat meter made for Forever: live group or raid threat, tank detection, a warning before you pull aggro, and your focus can be the threat source. It includes Spanish text. It's the most downloaded of the ones made for Forever. According to the authors of add-ons like this, the game hides the numbers on some enemies (bosses); when that happens the meter can only sort the group. Use just one: this or ThreatClassic2."
           },
           "url": "https://www.curseforge.com/wow/addons/foreverthreat-threat-meter-for-wow-forever"
+        },
+        {
+          "nombre": "ProcDoc",
+          "forever": "si",
+          "que_hace": {
+            "es": "Avisos grandes en el centro de la pantalla, con sonido y cuenta atrás, cuando salta algo a lo que hay que reaccionar: Overpower o Revenge del guerrero, Riposte del pícaro, Clearcasting, Shadow Trance… Funciona sin configurar nada; con /pd lo mueves, cambias el tamaño o la imagen y añades tus propias ventajas o avisos de beneficio que falta (por ejemplo, Slice and Dice). En combate lee el Cooldown Manager de Blizzard, porque Forever esconde a los addons los beneficios en combate.",
+            "en": "Big alerts in the middle of the screen, with sound and a countdown, whenever something you should react to procs: Warrior Overpower or Revenge, Rogue Riposte, Clearcasting, Shadow Trance… It works out of the box; with /pd you move it, resize it, change the art and add your own procs or missing-buff reminders (Slice and Dice, for example). In combat it reads Blizzard's Cooldown Manager, because Forever hides buff details from add-ons during combat."
+          },
+          "url": "https://www.curseforge.com/wow/addons/procdoc"
         }
       ]
     },
@@ -239,6 +266,15 @@
             "en": "A loot browser built for Forever, new dungeons included: what each boss drops, quest and reputation rewards, wishlists that alert you when you enter the dungeon and a profession planner using auction prices. Very new; the data is still filling in."
           },
           "url": "https://www.curseforge.com/wow/addons/lootwise"
+        },
+        {
+          "nombre": "ItemRack TBC Classic & Forever",
+          "forever": "si",
+          "que_hace": {
+            "es": "Cambia de equipo con un clic: guarda conjuntos (JcJ, tanque, pesca…) y pone botones junto a tu personaje para cambiar abalorios, botas u otras piezas sin abrir la ventana del personaje. En combate solo se pueden cambiar las armas: lo demás lo deja en cola y lo cambia en cuanto sales de combate. Muy útil en JcJ para alternar abalorios de uso o las botas de ingeniería. Ajustes con /itemrack opt.",
+            "en": "Swap gear in one click: save sets (PvP, tank, fishing…) and get buttons next to your frame to swap trinkets, boots or other pieces without opening the character window. In combat only weapons can be swapped: anything else is queued and swapped the moment you leave combat. Great in PvP for rotating on-use trinkets or engineering boots. Settings with /itemrack opt."
+          },
+          "url": "https://www.curseforge.com/wow/addons/itemrack-forever"
         }
       ]
     }

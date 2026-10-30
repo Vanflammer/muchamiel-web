@@ -7,8 +7,8 @@
   "tipo": "secundaria",
   "actualizado": "2026-10-30",
   "resumen": {
-    "es": "Cocinas carne, pescado y huevos para hacer comida con estadísticas. En Forever pesa más que nunca: casi toda la comida da un pequeño extra de experiencia y la Cocina es la base de la acampada, porque monta la hoguera. No ocupa hueco: súbela con cualquier personaje.",
-    "en": "You cook meat, fish and eggs into food with stats. In Forever it matters more than ever: most food gives a small XP bonus, and Cooking is the core of camping, since it builds the campfire. It takes no slot: level it on every character."
+    "es": "Cocinas carne, pescado y huevos para hacer comida con estadísticas. En Forever pesa más que nunca: casi toda la comida da un 5 % más de experiencia por cada enemigo que matas (visto en la beta) y la Cocina es la base de la acampada, porque monta la hoguera. No ocupa hueco: súbela con cualquier personaje.",
+    "en": "You cook meat, fish and eggs into food with stats. In Forever it matters more than ever: most food gives 5% extra XP per kill (seen in the beta), and Cooking is the core of camping, since it builds the campfire. It takes no slot: level it on every character."
   },
   "pareja": {
     "es": "Con Fishing: casi la mejor comida sale del pescado. Y con Skinning, porque las mismas bestias dan carne.",
@@ -16,12 +16,12 @@
   },
   "forever": [
     {
-      "es": "Casi toda la comida cocinada da un pequeño extra de experiencia además de sus estadísticas.",
-      "en": "Most cooked food gives a small XP bonus on top of its stats."
+      "es": "Casi toda la comida cocinada da, además de sus estadísticas, un 5 % más de experiencia por cada enemigo que matas mientras dura (visto en la beta).",
+      "en": "On top of its stats, most cooked food gives 5% extra XP per kill while it lasts (seen in the beta)."
     },
     {
-      "es": "Hogueras: <b>Basic Campfire</b> (20, caben 3 objetos de campamento), <b>Journeyman Campfire</b> (90, caben 5) y <b>Expert Campfire</b> (200, caben 10). Se hacen con Simple Wood y Flint and Tinder.",
-      "en": "Campfires: <b>Basic Campfire</b> (20, holds 3 camp objects), <b>Journeyman Campfire</b> (90, holds 5) and <b>Expert Campfire</b> (200, holds 10). Made from Simple Wood and Flint and Tinder."
+      "es": "Hogueras: <b>Basic Campfire</b> (se aprende con 1 de habilidad, caben 3 objetos de campamento), <b>Journeyman Campfire</b> (90, caben 5) y <b>Expert Campfire</b> (200, caben 10). Se hacen con Simple Wood y Flint and Tinder.",
+      "en": "Campfires: <b>Basic Campfire</b> (learned at skill 1, holds 3 camp objects), <b>Journeyman Campfire</b> (90, holds 5) and <b>Expert Campfire</b> (200, holds 10). Made from Simple Wood and Flint and Tinder."
     },
     {
       "es": "44 recetas nuevas: platos, tés y batidos. Por ejemplo Peace Tea (25), Breakfast Omelette (75), Savory Whimsyfin Delight (85, te convierte en múrloc u ogro), Plain Ol' Paletusk (185), Plated Armorfish (225) y una tanda de platos a 275.",

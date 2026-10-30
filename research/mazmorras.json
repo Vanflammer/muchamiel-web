@@ -310,7 +310,7 @@
   "nueva": true,
   "cambios_forever": "Mazmorra nueva de WoW Forever. Icy Veins y Warcraft Tavern: 15-20; Wowhead recomienda 16-22. Tiene 6 jefes y un raro solo para la Horda (Lordaeron Captain), y el botín de la beta pide entre nivel 15 y 19.",
   "resumen": "Sobre Entrañas, la vieja capital de Lordaeron sigue llena de Plaga: arañas, abominaciones, esqueletos y nigromantes que los Renegados quieren expulsar para recuperar su ciudad. Es una mazmorra amplia y abierta, con callejones, un cementerio y casas en ruinas, y dos jefes que solo aparecen al activar un evento. Tiene misiones para las dos facciones, aunque la Horda la tiene a la puerta de casa.",
-  "acceso": "Horda: portal en las Ruinas de Lordaeron (la parte no instanciada, encima de Entrañas), a la izquierda de la entrada a esa zona; se llega desde los Claros de Tirisfal, al sur de Rémol. Alianza: viaje largo (barco a Auberdine, a Menethil, a Costasur; rodear Dalaran y cruzar a nado el lago Lordamere hasta Tirisfal); los Skyborne de la Alianza tienen portal de Ventormenta a Dalaran. Sin llave.",
+  "acceso": "Horda: portal en las Ruinas de Lordaeron (la parte no instanciada, encima de Entrañas), a la izquierda de la entrada a esa zona; se llega desde los Claros de Tirisfal, al sur de Rémol. Alianza: viaje largo (barco a Auberdine, a Menethil, a Costasur; rodear Dalaran y cruzar a nado el lago Lordamere hasta Tirisfal); los Skyborne de la Alianza tenían portal de Ventormenta a Dalaran, pero en la última build de la beta parece que lo han quitado (sin confirmar). Sin llave.",
   "jefes": [
    {
     "nombre": "Witherfang",
@@ -1073,7 +1073,7 @@
   "nueva": true,
   "cambios_forever": "Mazmorra nueva de WoW Forever. Nivel según la fuente: notas de la beta de Blizzard 26-31; Icy Veins (beta) 26-33; Wowhead recomienda 26-32 (el jefe final es de nivel 31, las misiones se cogen desde el 24). Wowhead y Warcraft Tavern la listan como 24-29. Las notas de la beta corrigieron que la Reliquia titánica de «Elder Knowledge»/«Lost Relic Carry» se devuelva para las continuaciones «Earthen Echo»/«Prehistoric Prism».",
   "resumen": "Por encima de la Excavación de Whelgar, en Los Humedales, han aparecido luces extrañas, niebla y constructos titánicos que se han vuelto locos. El grupo sube por una colina de matorrales llenos de raptores al acecho y una cala de cocodrilos hasta un archivo titánico custodiado por un guardián que despierta al tocar su panel. Es corta, de tres jefes, pero con zonas de hierba alta muy traicioneras.",
-  "acceso": "Los Humedales: camino nuevo que sale justo al sur de la cueva de Roca Thelgen y sube hasta lo alto de la colina de la Excavación de Whelgar. Sin llave. Alianza: desde Puerto de Menethil (barco desde Ventormenta vía Auberdine) o a pie por Loch Modan. Horda: a pie por Trabalomas y Arathi (coger los vuelos de Molino Tarren y Sentencia).",
+  "acceso": "Los Humedales: camino nuevo que sale justo al sur de la cueva de Roca Thelgen y sube hasta lo alto de la colina de la Excavación de Whelgar. Sin llave. Alianza: desde Puerto de Menethil (barco desde Ventormenta vía Auberdine) o a pie por Loch Modan. Horda: a pie por Trabalomas y Arathi (tomar los vuelos de Molino Tarren y Sentencia).",
   "jefes": [
    {
     "nombre": "Saltspine",
@@ -1226,7 +1226,7 @@
    "research/notas-beta/5.txt (notas de la beta de Blizzard: Titan Relic)",
    "https://nether.wowhead.com/forever/tooltip/item/273030"
   ],
-  "huecos": "nivel_min: no hay nivel mínimo de entrada publicado (las misiones se pueden coger a nivel 24; el botín pide 26-28). Sin coordenadas exactas de la entrada. Dudas entre fuentes: para Dorin Songblade Wowhead da 25.6 46.6 e Icy Veins 30.8 46.6; el requisito de «Highland Hides» es «Young Crocolisk Skins» según Icy Veins y «Daily Delivery» según Wowhead. Las URL de notas-beta son ficheros locales (posts de Blizzard en us.forums.blizzard.com). Datos de la beta: pueden cambiar."
+  "huecos": "nivel_min: no hay nivel mínimo de entrada publicado (las misiones se pueden aceptar a nivel 24; el botín pide 26-28). Sin coordenadas exactas de la entrada. Dudas entre fuentes: para Dorin Songblade Wowhead da 25.6 46.6 e Icy Veins 30.8 46.6; el requisito de «Highland Hides» es «Young Crocolisk Skins» según Icy Veins y «Daily Delivery» según Wowhead. Las URL de notas-beta son ficheros locales (posts de Blizzard en us.forums.blizzard.com). Datos de la beta: pueden cambiar."
  },
  {
   "slug": "cavernas-de-brazanegra",
@@ -1258,7 +1258,7 @@
    },
    {
     "nombre": "Baron Aquanis",
-    "nota": "Opcional de la Horda: aparece al coger el Fathom Core bajo el agua; suelta el objeto que empieza su misión."
+    "nota": "Opcional de la Horda: aparece al recoger el Fathom Core bajo el agua; suelta el objeto que empieza su misión."
    },
    {
     "nombre": "Old Serra'kis",
@@ -1617,7 +1617,7 @@
   "nivel": "28-33",
   "nivel_min": null,
   "nueva": true,
-  "cambios_forever": "Mazmorra nueva de WoW Forever (entró en la beta en la build del 8-10: «Now available for testing: the new City of Dalaran dungeon»). En Classic Dalaran estaba cerrada bajo una cúpula violeta. Wowhead recomienda 28-34; Warcraft Tavern la lista 28-33. Notas de la beta: la Horda ya no es bienvenida en el Dalaran del mundo abierto y la atacan a la vista, pero eso no afecta al acceso a la mazmorra; se añadieron enemigos fuera de la entrada.",
+  "cambios_forever": "Mazmorra nueva de WoW Forever (entró en la beta en la build del 8-10: «Now available for testing: the new City of Dalaran dungeon»). En Classic Dalaran estaba cerrada bajo una cúpula violeta. Wowhead recomienda 28-34; Warcraft Tavern la lista 28-33. Notas de la beta: la Horda ya no es bienvenida en el Dalaran del mundo abierto y la atacan a la vista, pero eso no afecta al acceso a la mazmorra; se añadieron enemigos fuera de la entrada. En la última build, el Dalaran del mundo abierto tiene Arcane Sentries élite de nivel 55, guardias del Kirin Tor que te indican la posada, los instructores y el transfigurador, y maestros de batalla en el Underbelly (dato de la beta, puede cambiar).",
   "resumen": "La barrera que cubría Dalaran ha caído y la ciudad de los magos, reconstruida tras la Tercera Guerra, está fuera de control: encantamientos averiados, constructos sueltos, elementales de maná y hasta actividad demoníaca. El grupo entra por las cloacas y sale a las calles de la ciudad, hasta el Bastión Violeta y la sala donde espera la sombra de un archimago. Es grande, con ocho jefes (uno secreto) y casi todo inmune al daño arcano.",
   "acceso": "Montañas de Alterac, al oeste de la zona. Alianza: hace falta una cadena de acceso que empieza con «An Alarming Request», del Emisario Jacques en Costa Sur (Blizzard, 20-10); se entra por las cloacas de Dalaran y la primera vez hay que ir a pie desde Laderas de Trabalomas, y la Image of Archmage Modera ofrece teletransporte. Horda: túnel especial junto a la Image of Archmage Modera; hace falta que al menos un miembro del grupo tenga la Dalaran Sewer Key (cadena desde Molino Tarren con Magus Wordeen Voidglare: «Prison Break In», «Key to the City», «Dalaran Patrols», «Blood in the Streets» y «Heart of Disruption»). Atajo: nadar desde el Bosque de Argénteos (El Sepulcro).",
   "jefes": [
@@ -1984,7 +1984,7 @@
    }
   ],
   "consejos": [
-   "Antes de entrar, coge «Blueleaf Tubers» en Trinquete: se hace dentro con la caja y el bastón que hay en la propia mazmorra.",
+   "Antes de entrar, acepta «Blueleaf Tubers» en Trinquete: se hace dentro con la caja y el bastón que hay en la propia mazmorra.",
    "Contra Charlga, separaos unos de otros para que la Chain Bolt no salte entre el grupo, y no gastéis efectos mágicos en ella: Purity los borra.",
    "Si lleváis la escolta de Willix, dejadla para el final y despejad la ruta de salida antes de hablar con él."
   ],

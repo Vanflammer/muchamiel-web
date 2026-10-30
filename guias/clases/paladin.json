@@ -16,7 +16,8 @@
     {"es": "Poca movilidad: sin cargas ni saltos. Solo Blessing of Freedom y el talento Pursuit of Justice.", "en": "Low mobility: no charges or leaps. Only Blessing of Freedom and the Pursuit of Justice talent."},
     {"es": "El maná se acaba si encadenas peleas o abusas de Consecration.", "en": "Mana runs dry if you chain fights or spam Consecration."},
     {"es": "Muchas habilidades escalan con poder con hechizos, que cuesta encontrar en equipo de placas.", "en": "Many abilities scale with spell power, which is hard to find on plate gear."},
-    {"es": "En la Horda solo puede ser no-muerto.", "en": "On the Horde side it can only be Undead."}
+    {"es": "En la Horda solo puede ser no-muerto.", "en": "On the Horde side it can only be Undead."},
+    {"es": "Una sola rama por papel: si quieres hacer daño, solo tienes Retribution. Si un parche la deja floja, no hay otra rama de daño a la que cambiar.", "en": "One tree per role: if you want to deal damage, Retribution is your only option. If a patch leaves it weak, there's no other damage tree to switch to."}
   ],
   "ramas": [
     {"nombre": "Retribution", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
@@ -27,7 +28,7 @@
      "texto": {"es": "Escudo, Seal of Fury y Consecration. Su Judgement provoca al enemigo y los bloqueos devuelven maná. Templar's Bulwark (escudo del 100 % de tu vida) y Holy Shield son sus defensas grandes.", "en": "Shield, Seal of Fury and Consecration. Its Judgement taunts and blocks give mana back. Templar's Bulwark (a shield worth 100% of your health) and Holy Shield are its big defensives."}},
     {"nombre": "Holy", "rol": {"es": "Sanador", "en": "Healer"},
      "mejor_para": {"es": "Curar en grupo y banda", "en": "Healing groups and raids"},
-     "texto": {"es": "Holy Light y Flash of Light con mucha eficiencia de maná. Holy Shock baja a 10 s de recarga y Light's Vigil da por fin una cura de grupo. También permite una variante híbrida de daño con Holy Shock.", "en": "Holy Light and Flash of Light with great mana efficiency. Holy Shock drops to a 10 s cooldown and Light's Vigil finally gives a group heal. It also allows a hybrid Holy Shock damage build."}}
+     "texto": {"es": "Holy Light y Flash of Light con mucha eficiencia de maná. Holy Shock baja a 10 s de recarga y Light's Vigil da por fin una cura de grupo. Su punto fuerte sigue siendo curar mucho a un solo objetivo, normalmente el tanque. También permite una variante híbrida de daño con Holy Shock.", "en": "Holy Light and Flash of Light with great mana efficiency. Holy Shock drops to a 10 s cooldown and Light's Vigil finally gives a group heal. Its strength is still heavy healing on a single target, usually the tank. It also allows a hybrid Holy Shock damage build."}}
   ],
   "razas": [
     {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza",
@@ -425,7 +426,7 @@
          {"es": "Seal of Wisdom y su Judgement sobre el jefe para recuperar maná.", "en": "Seal of Wisdom and its Judgement on the boss for mana."},
          {"es": "Holy Light ante golpes fuertes (empieza a lanzarla antes) o con Infusion of Light activo.", "en": "Holy Light for big hits (start casting early) or with Infusion of Light up."},
          {"es": "Flash of Light para el daño ligero; Holy Shock si alguien puede morir ya o si te mueves.", "en": "Flash of Light for light damage; Holy Shock if someone may die now or while moving."},
-         {"es": "Light's Vigil es tu única cura de grupo y es cara: guárdala para cuando el grupo entero recibe daño.", "en": "Light's Vigil is your only group heal and it is expensive: save it for when the whole party takes damage."},
+         {"es": "Light's Vigil es tu única cura de grupo y es cara: marca a un aliado durante 30 s y tu siguiente Holy Shock sobre él no gasta su recarga y cura a todo su grupo. Solo puede haber una activa por grupo: guárdala para cuando el grupo entero recibe daño.", "en": "Light's Vigil is your only group heal and it is expensive: it marks an ally for 30 sec, and your next Holy Shock on them doesn't trigger its cooldown and heals their whole party. Only one can be active per party: save it for when the whole party takes damage."},
          {"es": "Divine Favor para un crítico seguro en una emergencia.", "en": "Divine Favor for a guaranteed crit in an emergency."}
        ],
        "consumibles": [
@@ -615,7 +616,8 @@
     {"es": "Equipo de banda y mejores piezas de Forever: sin datos hasta el 9-12.", "en": "Forever raid gear and best-in-slot: no data until December 9."},
     {"es": "Estadísticas a 60 y valor real de Twist of Light: la beta llegaba al nivel 30, así que nadie ha medido aún el nivel 60.", "en": "Stats at 60 and the real value of Twist of Light: the beta capped at 30, so nobody has measured level 60 yet."},
     {"es": "Misiones de clase de los paladines no-muertos (entrenadores en Deathknell, Brill y Bandarion Keep) y la misión de Summon Charger a nivel 60.", "en": "Undead paladin class quests (trainers at Deathknell, Brill and Bandarion Keep) and the level 60 Summon Charger quest."},
-    {"es": "Si las pociones y elixires de Classic siguen igual: Forever añade más de 600 recetas nuevas.", "en": "Whether Classic potions and elixirs remain the same: Forever adds over 600 new recipes."}
+    {"es": "Si las pociones y elixires de Classic siguen igual: Forever añade más de 600 recetas nuevas.", "en": "Whether Classic potions and elixirs remain the same: Forever adds over 600 new recipes."},
+    {"es": "Malla y placas con poder con hechizos mientras subes: en la base de datos casi no aparecen piezas así de misiones ni de mazmorras, así que lo seguro es Herrería o la casa de subastas. Sin confirmar hasta ver el botín real.", "en": "Mail and plate with spell power while leveling: the database shows almost none from quests or dungeons, so the safe bet is Blacksmithing or the Auction House. Unconfirmed until we see the real loot."}
   ],
   "fuentes": [
     {"nombre": "Blizzard: análisis a fondo del paladín en Forever", "url": "https://news.blizzard.com/en-us/article/24302099"},

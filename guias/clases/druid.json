@@ -47,6 +47,10 @@
     {
       "es": "El equipo de nivel 60 de Forever aún no se conoce, así que las prioridades finales pueden cambiar.",
       "en": "Forever's level 60 gear is still unknown, so the final stat priorities may change."
+    },
+    {
+      "es": "Tiene cuatro papeles, pero la doble especialización solo guarda dos. Elige cuáles: para el tercero tendrás que pagar el cambio de talentos en el entrenador.",
+      "en": "It has four roles, but dual spec only holds two. Pick which ones: for the third you'll have to pay for a talent reset at the trainer."
     }
   ],
   "ramas": [
@@ -112,8 +116,8 @@
         "en": "Healing dungeons and raids"
       },
       "texto": {
-        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever Swiftmend ya no gasta el efecto en el tiempo, los efectos de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo.",
-        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever Swiftmend no longer eats the heal-over-time effect, effects from several druids stack and can crit, and Wild Growth heals the whole party."
+        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever Swiftmend ya no gasta el efecto en el tiempo, los efectos de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo. Regrowth cuesta alrededor de un 40 % menos de maná que en Classic.",
+        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever Swiftmend no longer eats the heal-over-time effect, effects from several druids stack and can crit, and Wild Growth heals the whole party. Regrowth costs about 40% less mana than in Classic."
       }
     }
   ],
@@ -273,8 +277,8 @@
         "nombre": "Wrath",
         "nuevo": false,
         "texto": {
-          "es": "Tu ataque principal hasta el 10. En Forever pega bastante más que en Classic.",
-          "en": "Your main attack until 10. It hits much harder in Forever than in Classic."
+          "es": "Tu ataque principal hasta el 10. En Forever cuesta bastante menos maná. Según el cliente de la beta, los rangos altos traen menos daño base que en Classic (los bajos crecen más con el poder con hechizos), así que a nivel alto no cuentes con matar solo con Wrath.",
+          "en": "Your main attack until 10. In Forever it costs much less mana. Per the beta client, higher ranks have less base damage than in Classic (low ranks scale more with spell power), so at high level don't count on killing with Wrath alone."
         }
       },
       {
@@ -1080,8 +1084,8 @@
           "en": "Turtling in bear form"
         },
         "texto": {
-          "es": "Cuando te concentran varios, pasar a oso es tu defensa: mucha más armadura y vida. <b>Frenzied Regeneration</b> convierte la ira en vida y <b>Barkskin</b> quita un 20 % del daño físico durante 15 s. <b>Berserk</b> (talento final de Feral) te quita el miedo y te protege de él durante 15 s: guárdalo para brujos y sacerdotes en vez de gastarlo nada más empezar. Si eres tauren, <b>War Stomp</b> funciona en forma y aturde a todos los que tengas cerca.",
-          "en": "When several players focus you, bear form is your defense: much more armor and health. <b>Frenzied Regeneration</b> turns rage into health and <b>Barkskin</b> cuts physical damage by 20% for 15 sec. <b>Berserk</b> (Feral's final talent) removes fear and makes you immune to it for 15 sec: save it for warlocks and priests instead of using it on the opener. As a tauren, <b>War Stomp</b> works in forms and stuns everyone close to you."
+          "es": "Cuando te concentran varios, pasar a oso es tu defensa: mucha más armadura y vida. <b>Frenzied Regeneration</b> (nivel 36, 3 min de recarga) convierte hasta 10 de ira por segundo en vida durante 10 s; en Forever cada punto de ira vale un 1 % de tu vida máxima, así que con la barra llena puedes recuperar la vida entera, y <b>Barkskin</b> quita un 20 % del daño físico durante 15 s. <b>Berserk</b> (talento final de Feral) te quita el miedo y te protege de él durante 15 s: guárdalo para brujos y sacerdotes en vez de gastarlo nada más empezar. Si eres tauren, <b>War Stomp</b> funciona en forma y aturde a todos los que tengas cerca.",
+          "en": "When several players focus you, bear form is your defense: much more armor and health. <b>Frenzied Regeneration</b> (level 36, 3 min cooldown) turns up to 10 rage per second into health for 10 sec; in Forever each rage point is worth 1% of your max health, so a full rage bar can heal you to full, and <b>Barkskin</b> cuts physical damage by 20% for 15 sec. <b>Berserk</b> (Feral's final talent) removes fear and makes you immune to it for 15 sec: save it for warlocks and priests instead of using it on the opener. As a tauren, <b>War Stomp</b> works in forms and stuns everyone close to you."
         }
       }
     ],
@@ -1228,6 +1232,10 @@
     {
       "es": "La lista de consumibles de nivel 60 propia de Forever (hay recetas nuevas).",
       "en": "Forever's own level 60 consumable list (there are new recipes)."
+    },
+    {
+      "es": "Si en forma se podrán abrir puertas, usar objetos del mundo y todas las facultades raciales sin volver a la forma normal: se ha comentado, pero no aparece en las notas de Blizzard.",
+      "en": "Whether forms will be able to open doors, use world objects and every racial ability without shifting back: it has been mentioned, but it isn't in Blizzard's notes."
     }
   ],
   "fuentes": [

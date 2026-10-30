@@ -36,8 +36,8 @@
       "en": "Seeds in four tiers (Commonplace, Uncommon, Unusual and Scarce). They drop while picking and you plant them in your greenhouse."
     },
     {
-      "es": "Campamento: <b>Incense Candle</b> (20, intelecto, no se suma a Arcane Intellect), <b>Greenhouse</b> (140, hace crecer hierbas de semillas; el plano lo suelta Shadetooth en la Excavación de los Humedales) y <b>Seed Hybridizer</b> (300, combina semillas en una calidad mejor).",
-      "en": "Camp: <b>Incense Candle</b> (20, Intellect, doesn't stack with Arcane Intellect), <b>Greenhouse</b> (140, grows herbs from seeds; Shadetooth at the Wetlands Excavation Site drops the blueprint) and <b>Seed Hybridizer</b> (300, combines seeds into a better tier)."
+      "es": "Campamento: <b>Incense Candle</b> (20, de 2 a 25 de intelecto según tu nivel, no se suma a Arcane Intellect), <b>Greenhouse</b> (140, hace crecer hierbas de semillas; el plano lo suelta Shadetooth en la Excavación de los Humedales) y <b>Seed Hybridizer</b> (300, combina semillas en una calidad mejor).",
+      "en": "Camp: <b>Incense Candle</b> (20, 2 to 25 Intellect depending on your level, doesn't stack with Arcane Intellect), <b>Greenhouse</b> (140, grows herbs from seeds; Shadetooth at the Wetlands Excavation Site drops the blueprint) and <b>Seed Hybridizer</b> (300, combines seeds into a better tier)."
     },
     {
       "es": "Rastreo: Find Herbs ya se puede llevar a la vez que el rastreo de cazador o Find Treasure, pero <b>no</b> junto a Find Minerals.",

@@ -427,6 +427,9 @@ def registrar_en():
     import idiomas
     import macros_limpieza
     nuevos = dict(TEXTOS_SUELTOS, **macros_limpieza.EN)
+    sueltos = Path(__file__).parent / 'traducciones' / 'en-sueltos.json'  # Van 30-10: inglés de textos sueltos del código
+    if sueltos.exists():
+        nuevos.update(json.loads(sueltos.read_text(encoding='utf-8')))
     for es, en in PARES:
         ue, un = [], []
         for arbol_, out in ((idiomas.arbol(es), ue), (idiomas.arbol(en), un)):

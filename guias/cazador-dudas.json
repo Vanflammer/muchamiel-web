@@ -782,19 +782,6 @@
     },
     {
       "nivel": "30",
-      "nombre": "Truthseeker's Bow",
-      "tipo": {
-        "es": "Arco",
-        "en": "Bow"
-      },
-      "como": {
-        "es": "Misión «Greater Friend of the Library»: se abre a nivel 30 tras entregar 25 libros de la cadena de la biblioteca. Facción sin confirmar.",
-        "en": "Quest «Greater Friend of the Library»: it opens at level 30 after donating 25 books in the library chain. Faction unconfirmed."
-      },
-      "estado": "beta"
-    },
-    {
-      "nivel": "30",
       "nombre": "Shrapnel Blaster",
       "tipo": {
         "es": "Fusil (arma de fuego)",
@@ -818,6 +805,19 @@
         "en": "Quest «Big Game Hunter» in Stranglethorn Vale. Both factions."
       },
       "estado": "classic"
+    },
+    {
+      "nivel": "40",
+      "nombre": "Truthseeker's Bow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Greater Friend of the Library»: ahora pide nivel 40 (antes se abría a nivel 30) y entregar 25 libros de la cadena de la biblioteca. Facción sin confirmar.",
+        "en": "Quest «Greater Friend of the Library»: it now requires level 40 (it used to open at 30) and donating 25 books in the library chain. Faction unconfirmed."
+      },
+      "estado": "beta"
     },
     {
       "nivel": "50",

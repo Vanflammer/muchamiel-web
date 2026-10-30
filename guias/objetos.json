@@ -1,8 +1,8 @@
 {
   "actualizado": "2026-10-30",
   "intro": {
-    "es": "Abalorios y objetos que vale la pena buscar mientras subes y al llegar a 60. En Forever, Blizzard oculta las estadísticas de los objetos hasta que alguien del reino los consigue, así que el equipo de 60 aún es en gran parte un misterio. Cada objeto lleva su estado: <b>beta</b> = se pudo conseguir en la beta (hasta nivel 30); <b>forever</b> = aparece en los datos de Forever con estas estadísticas, pero nadie lo ha conseguido todavía y puede cambiar; <b>classic</b> = así era en WoW Classic, y en Forever está oculto y sin confirmar.",
-    "en": "Trinkets and items worth chasing while you level and once you hit 60. In Forever, Blizzard hides item stats until someone on your realm loots the item, so level 60 gear is still mostly a mystery. Every item is tagged: <b>beta</b> = obtainable in the beta (up to level 30); <b>forever</b> = present in Forever's data with these stats, but nobody has looted it yet and it may change; <b>classic</b> = how it worked in WoW Classic, hidden and unconfirmed in Forever."
+    "es": "Abalorios y objetos que vale la pena buscar mientras subes y al llegar a 60. En Forever, Blizzard oculta las estadísticas de los objetos hasta que alguien del reino los consigue, así que el equipo de 60 aún es en gran parte un misterio. Cada objeto lleva su estado: <b>beta</b> = se pudo conseguir en la beta (hasta nivel 30); <b>forever</b> = aparece en los datos de Forever con estas estadísticas, pero nadie lo ha conseguido todavía y puede cambiar; <b>classic</b> = así era en WoW Classic, y en Forever está oculto y sin confirmar. Lo que sí ha contado Blizzard: las épicas de mundo mejoran, hay cientos de objetos nuevos que sueltan las criaturas raras, los objetos únicos de jefe de mazmorra pasan a ser azules, los conjuntos tienen mejores bonificaciones y algunas piezas reducen la probabilidad de que el enemigo pare o esquive tus golpes.",
+    "en": "Trinkets and items worth chasing while you level and once you hit 60. In Forever, Blizzard hides item stats until someone on your realm loots the item, so level 60 gear is still mostly a mystery. Every item is tagged: <b>beta</b> = obtainable in the beta (up to level 30); <b>forever</b> = present in Forever's data with these stats, but nobody has looted it yet and it may change; <b>classic</b> = how it worked in WoW Classic, hidden and unconfirmed in Forever. What Blizzard has said: world epics are better, there are hundreds of new drops from rare creatures, unique dungeon boss items become blue, sets get better bonuses, and some pieces lower the chance that enemies parry or dodge your attacks."
   },
   "abalorios": [
     {
@@ -253,6 +253,13 @@
         {"nombre": "Runemender's Seal", "ranura": {"es": "Anillo", "en": "Ring"}, "nivel": "Requiere 27", "como": {"es": "Ciudad de Dalaran, jefe Arcane Anomaly.", "en": "Dalaran City, dropped by the Arcane Anomaly."}, "estado": "beta"},
         {"nombre": "Dormant Heart of the Mountain", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 50", "como": {"es": "Se fabrica; receta por confirmar.", "en": "Crafted; recipe source unconfirmed."}, "estado": "forever"},
         {"nombre": "Second Wind", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 54", "como": {"es": "Profundidades de Roca Negra, Golem Lord Argelmach (en Classic).", "en": "Blackrock Depths, Golem Lord Argelmach (in Classic)."}, "estado": "classic"}
+      ]
+    },
+    {
+      "rol": {"es": "Recompensas de misión nuevas", "en": "New quest rewards"},
+      "items": [
+        {"nombre": "Ladimore Heirloom Ring", "ranura": {"es": "Anillo", "en": "Ring"}, "nivel": "Misión", "como": {"es": "Recompensa de la misión de Mor'ladim en el Bosque del Ocaso (Duskwood). Pensado para lanzadores de hechizos.", "en": "Reward from the Mor'ladim quest in Duskwood. Made for spellcasters."}, "estado": "forever"},
+        {"nombre": "Master Hunter's Spellsword", "ranura": {"es": "Arma", "en": "Weapon"}, "nivel": "Misión", "como": {"es": "Recompensa de las misiones de caza de Hemet Nesingwary en la Vega de Tuercespina (Stranglethorn Vale), que Forever ha renovado.", "en": "Reward from Hemet Nesingwary's hunting quests in Stranglethorn Vale, which Forever has reworked."}, "estado": "forever"}
       ]
     }
   ],

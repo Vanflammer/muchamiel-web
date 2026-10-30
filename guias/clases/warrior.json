@@ -49,6 +49,14 @@
       "en": "Little crowd control and no escapes: Mages and Hunters kite it easily in PvP."
     },
     {
+      "es": "En duelos uno contra uno suele perder ante un rival de su nivel. Con un sanador al lado que le quite ralentizaciones cambia por completo: en pareja o en grupo es de los más fuertes.",
+      "en": "In one-on-one duels it usually loses to an equally skilled opponent. With a healer at its side removing slows it is a different class: in a pair or a group it is among the strongest."
+    },
+    {
+      "es": "No es la clase más fácil para empezar: muchas habilidades solo funcionan en una actitud concreta y se juega mejor con macros que cambian de actitud y lanzan la habilidad en una sola tecla.",
+      "en": "Not the easiest class to start with: many abilities only work in a specific stance, and it plays best with macros that switch stance and cast the ability on a single key."
+    },
+    {
       "es": "En Forever la ira llega de forma más pareja pero, según las guías de la beta, en menor cantidad que en Classic.",
       "en": "In Forever Rage comes in more evenly but, according to beta guides, in smaller amounts than in Classic."
     }
@@ -631,8 +639,8 @@
           "en": "You can use every weapon except wands. Polearms can be learned from 20."
         },
         {
-          "es": "En Forever la ira de tus golpes depende de la velocidad del arma, no del daño: dos armas igual de rápidas dan la misma ira.",
-          "en": "In Forever, swing Rage depends on weapon speed, not damage: two weapons of the same speed give the same Rage."
+          "es": "En Forever la ira de tus golpes depende de la velocidad del arma, no del daño: dos armas igual de rápidas dan la misma ira. Además, cada crítico de tu golpe automático da el doble de ira, así que el crítico también es ira.",
+          "en": "In Forever, swing Rage depends on weapon speed, not damage: two weapons of the same speed give the same Rage. On top of that, every critical auto attack gives double Rage, so crit is Rage too."
         },
         {
           "es": "Misiones de clase: la del 10 (actitud defensiva) da un arma a elegir, la del 20 una cota y la del 30 abre la misión del arma de Whirlwind en Alterac, difícil en solitario.",
@@ -1340,6 +1348,22 @@
       {
         "es": "Macro de salto: <i>/cast [nocombat] Charge; Intercept</i> en una sola tecla. Si juegas con mando, Forever muestra el swing timer en la retícula central: úsalo para el pegar y salir.",
         "en": "Gap closer macro: <i>/cast [nocombat] Charge; Intercept</i> on one key. If you play on a gamepad, Forever shows a swing timer on the center reticle: use it for hit and step out."
+      },
+      {
+        "es": "<b>Macro de actitud + habilidad</b> (cada bloque en cursiva es una línea): <i>#showtooltip Hamstring</i> · <i>/startattack</i> · <i>/cast [nostance:1/3] Battle Stance</i> · <i>/cast Hamstring</i>. Si no estás en Battle (1) ni en Berserker (3), te pasa a Battle y lanza la habilidad; si hace falta, pulsa dos veces. Copia el mismo modelo cambiando la habilidad y la actitud (1 Battle, 2 Defensive, 3 Berserker) para Rend, Charge, Disarm, Taunt, Retaliation, Intercept, Mocking Blow o Shield Wall. <i>/startattack</i> evita que dejes de pegar al cambiar de objetivo.",
+        "en": "<b>Stance + ability macro</b> (each italic block is one line): <i>#showtooltip Hamstring</i> · <i>/startattack</i> · <i>/cast [nostance:1/3] Battle Stance</i> · <i>/cast Hamstring</i>. If you are in neither Battle (1) nor Berserker (3), it moves you to Battle and casts the ability; press twice if needed. Reuse the same template with another ability and stance (1 Battle, 2 Defensive, 3 Berserker) for Rend, Charge, Disarm, Taunt, Retaliation, Intercept, Mocking Blow or Shield Wall. <i>/startattack</i> keeps you swinging when you change targets."
+      },
+      {
+        "es": "<b>Macro de ratón encima (mouseover)</b>: <i>#showtooltip Taunt</i> · <i>/cast [@mouseover,harm,nodead][] Taunt</i>. Lanza la habilidad al enemigo que tengas bajo el ratón sin cambiar de objetivo; si no hay ninguno, va a tu objetivo. Muy útil con <b>Taunt</b> para recuperar a un enemigo suelto, y con <b>Rend</b> o <b>Sunder Armor</b> para repartirlos en un grupo sin dejar de pegar al principal.",
+        "en": "<b>Mouseover macro</b>: <i>#showtooltip Taunt</i> · <i>/cast [@mouseover,harm,nodead][] Taunt</i>. Casts on the enemy under your mouse without changing target; if there is none, it goes to your target. Great with <b>Taunt</b> to pick up a loose enemy, and with <b>Rend</b> or <b>Sunder Armor</b> to spread them over a pack while you keep hitting the main one."
+      },
+      {
+        "es": "<b>Una tecla por actitud que además ataca</b>. Arms: <i>#showtooltip</i> · <i>/startattack</i> · <i>/cast [nostance:1] Battle Stance</i> · <i>/cast Overpower</i> · <i>/cast Charge</i>. Nunca estás a la vez a distancia de Charge y de Overpower, así que la misma tecla carga desde lejos y pega Overpower cuando se ilumina. Protection: <i>#showtooltip</i> · <i>/cast [nostance:2] Defensive Stance</i> · <i>/cast Revenge</i>. Ojo: con Vanguard ya cargas en Defensive, así que a un Protection no le conviene la primera.",
+        "en": "<b>One key per stance that also attacks</b>. Arms: <i>#showtooltip</i> · <i>/startattack</i> · <i>/cast [nostance:1] Battle Stance</i> · <i>/cast Overpower</i> · <i>/cast Charge</i>. You are never in Charge range and Overpower range at once, so the same key charges from afar and fires Overpower when it lights up. Protection: <i>#showtooltip</i> · <i>/cast [nostance:2] Defensive Stance</i> · <i>/cast Revenge</i>. Note: with Vanguard you already charge in Defensive, so a Protection warrior should skip the first one."
+      },
+      {
+        "es": "<b>Escudo, actitud y bloqueo en una tecla</b>: <i>#showtooltip Shield Block</i> · <i>/equipslot [noequipped:Shields] 16 Nombre de tu arma</i> · <i>/equipslot [noequipped:Shields] 17 Nombre de tu escudo</i> · <i>/cast [nostance:2] Defensive Stance</i> · <i>/cast Shield Block</i>. Pon los nombres exactos de tus objetos y pulsa hasta que salga el bloqueo. Truco para no reescribir macros: arrastra el arma a un hueco de una barra de acción con tecla asignada; al pulsarla te la equipas, y cuando cambies de arma solo tienes que arrastrar la nueva a ese hueco.",
+        "en": "<b>Shield, stance and block on one key</b>: <i>#showtooltip Shield Block</i> · <i>/equipslot [noequipped:Shields] 16 Your weapon name</i> · <i>/equipslot [noequipped:Shields] 17 Your shield name</i> · <i>/cast [nostance:2] Defensive Stance</i> · <i>/cast Shield Block</i>. Use your items' exact names and keep pressing until the block goes off. A trick to avoid rewriting macros: drag the weapon onto an action bar slot with a keybind; pressing it equips the weapon, and when you upgrade you just drag the new one onto that slot."
       }
     ]
   },

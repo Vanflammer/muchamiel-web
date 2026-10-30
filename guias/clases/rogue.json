@@ -43,6 +43,10 @@
     {
       "es": "Si te atrapan varios enemigos sin tus defensas listas, caes rápido.",
       "en": "If several enemies catch you with your defences on cooldown, you go down fast."
+    },
+    {
+      "es": "Cuesta aprenderlo: a la vez llevas energía, puntos de combo (se pierden si cambias de objetivo) y muchos controles con su momento justo. No es la clase más fácil para empezar.",
+      "en": "Hard to learn: you juggle energy, combo points (lost when you switch targets) and many crowd controls that need the right timing. Not the easiest class to start with."
     }
   ],
   "ramas": [
@@ -87,8 +91,8 @@
         "en": "PvP and duels"
       },
       "texto": {
-        "es": "Sigilo mejorado, Premeditation, Preparation y trucos baratos (Sap y Blind cuestan la mitad con Dirty Tricks). Tiene dos caminos nuevos: sangrado con Hemorrhage, Rupture y Thousand Cuts, o Ambush con Cutthroat. Es la más usada en las builds de 60, pero sobre todo para JcJ.",
-        "en": "Better stealth, Premeditation, Preparation and cheap tricks (Sap and Blind cost half with Dirty Tricks). It has two new paths: bleeds with Hemorrhage, Rupture and Thousand Cuts, or Ambush with Cutthroat. It is the most planned tree at 60, mostly for PvP."
+        "es": "Sigilo mejorado, Premeditation, Preparation y trucos baratos (Sap y Blind cuestan la mitad con Dirty Tricks). Tiene dos caminos nuevos: sangrado con Hemorrhage, Rupture y Thousand Cuts, o Ambush con Cutthroat (cada Backstab tiene hasta un 15 % de probabilidad de que tu siguiente Ambush, en 10 s, no necesite sigilo). Es la más usada en las builds de 60, pero sobre todo para JcJ.",
+        "en": "Better stealth, Premeditation, Preparation and cheap tricks (Sap and Blind cost half with Dirty Tricks). It has two new paths: bleeds with Hemorrhage, Rupture and Thousand Cuts, or Ambush with Cutthroat (each Backstab has up to a 15% chance to let your next Ambush, within 10 sec, skip the stealth requirement). It is the most planned tree at 60, mostly for PvP."
       }
     }
   ],
@@ -434,8 +438,8 @@
         "nombre": "Feint",
         "nuevo": false,
         "texto": {
-          "es": "Baja tu amenaza en grupo para que el enemigo no se gire hacia ti.",
-          "en": "Lowers your threat in groups so the enemy does not turn on you."
+          "es": "Baja tu amenaza en grupo para que el enemigo no se gire hacia ti. En Forever quita unas cinco veces más amenaza que en Classic.",
+          "en": "Lowers your threat in groups so the enemy does not turn on you. In Forever it drops about five times as much threat as in Classic."
         }
       },
       {
@@ -663,6 +667,10 @@
       {
         "es": "<b>Armas que puedes aprender</b>: dagas, armas de puño, mazas y espadas de una mano y, nuevo en Forever, hachas de una mano; a distancia, arcos, ballestas, armas de fuego y arrojadizas. Tu raza ya trae algunas; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Aprende pronto espadas, mazas y hachas de una mano para poder llevar cualquier arma lenta que caiga en la mano principal, y dagas si vas a jugar con Backstab o Ambush. Un arma a distancia te sirve para atraer enemigos uno a uno.",
         "en": "<b>Weapons you can learn</b>: daggers, fist weapons, one-handed maces and swords and, new in Forever, one-handed axes; at range, bows, crossbows, guns and thrown. Your race already knows some; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Learn one-handed swords, maces and axes early so you can put any slow drop in your main hand, and daggers if you plan to play around Backstab or Ambush. A ranged weapon lets you pull enemies one at a time."
+      },
+      {
+        "es": "<b>Legacy: Reagent Economy</b> (árbol Resourcefulness) hace que tus habilidades de clase ya no pidan componentes que se compran en un vendedor, como el Flash Powder de Vanish. Al pícaro le ahorra mucho oro y viajes a recargar.",
+        "en": "<b>Legacy: Reagent Economy</b> (Resourcefulness tree) means your class abilities no longer need vendor-bought reagents, such as Vanish's Flash Powder. For a rogue it saves a lot of gold and restocking trips."
       }
     ],
     "hitos": [

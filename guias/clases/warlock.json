@@ -445,8 +445,8 @@
         "nombre": "Ritual of Summoning",
         "nuevo": false,
         "texto": {
-          "es": "Trae a un compañero de grupo con la ayuda de otros dos. Gasta un fragmento.",
-          "en": "Brings a party member to you with help from two others. Costs a shard."
+          "es": "Trae a un compañero de grupo con la ayuda de otros dos. Dato de prelanzamiento (cambio de mediados de octubre, por confirmar el 4-11): cuesta 5 fragmentos y todo tu maná base, y tiene 1 hora de recarga. En la beta gastaba 1 fragmento y poco maná.",
+          "en": "Brings a party member to you with help from two others. Pre-launch data (mid-October change, to be confirmed on 4 Nov): it costs 5 shards and all of your base mana, with a 1-hour cooldown. In the beta it took 1 shard and little mana."
         }
       },
       {
@@ -454,8 +454,8 @@
         "nombre": "Curse of the Elements",
         "nuevo": true,
         "texto": {
-          "es": "Nuevo rango bajo en Forever (en Classic empezaba en el 32). Aumenta el daño mágico que recibe el objetivo.",
-          "en": "A new low rank in Forever (Classic started it at 32). Raises the magic damage the target takes."
+          "es": "Nuevo rango bajo en Forever (en Classic empezaba en el 32). Aumenta el daño de todas las escuelas mágicas que recibe el objetivo, no solo fuego y escarcha como en Classic.",
+          "en": "A new low rank in Forever (Classic started it at 32). Raises the damage the target takes from every magic school, not just Fire and Frost as in Classic."
         }
       },
       {
@@ -626,12 +626,12 @@
           "en": "<b>Soul Shards</b>: Drain Soul gives them (in Forever, a chance on each tick and a sure one if the enemy dies while drained; it must be an enemy that gives experience). Shadowburn also does if the enemy dies within 8 s. They are spent on: Voidwalker, Succubus, Incubus, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn and Soul Fire. The soul bag goes in the reagent bag slot."
         },
         {
-          "es": "<b>Piedras</b>: Healthstone (nivel 10) cura al instante; Soulstone (nivel 18) permite resucitar a quien la tenga; Firestone (28) y Spellstone (36) ahora son encantamientos temporales de arma. Los objetos conjurados desaparecen si estás desconectado más de 15 minutos.",
-          "en": "<b>Stones</b>: Healthstone (level 10) heals instantly; Soulstone (level 18) lets whoever holds it resurrect; Firestone (28) and Spellstone (36) are now temporary weapon enchants. Conjured items vanish if you stay logged out for more than 15 minutes."
+          "es": "<b>Piedras</b>: Healthstone (nivel 10) cura al instante; Soulstone (nivel 18) permite resucitar a quien la tenga; Firestone (28) y Spellstone (36) ahora son encantamientos temporales de arma: Firestone da un 1-2 % de crítico con hechizos y más daño de fuego; Spellstone, un 1-2 % de celeridad y más daño de sombra. Los objetos conjurados desaparecen si estás desconectado más de 15 minutos.",
+          "en": "<b>Stones</b>: Healthstone (level 10) heals instantly; Soulstone (level 18) lets whoever holds it resurrect; Firestone (28) and Spellstone (36) are now temporary weapon enchants: Firestone gives 1-2% spell crit and more Fire damage; Spellstone, 1-2% spell haste and more Shadow damage. Conjured items vanish if you stay logged out for more than 15 minutes."
         },
         {
-          "es": "<b>Invocación</b>: Ritual of Summoning (nivel 20) trae a un miembro del grupo. Necesitas a otros dos que hagan clic en el portal sin moverse y fuera de combate, más un fragmento. Como el buscador de Forever no teletransporta, guarda siempre un par de fragmentos para esto.",
-          "en": "<b>Summoning</b>: Ritual of Summoning (level 20) brings a party member to you. You need two others to click the portal, stay still and be out of combat, plus a shard. Since the Forever group finder does not teleport you, always keep a couple of shards for it."
+          "es": "<b>Invocación</b>: Ritual of Summoning (nivel 20) trae a un miembro del grupo. Necesitas a otros dos que hagan clic en el portal sin moverse y fuera de combate. En la beta costaba 1 fragmento; con el cambio de prelanzamiento pasa a 5 fragmentos, todo tu maná base y 1 hora de recarga (por confirmar en el lanzamiento). Como el buscador de Forever no teletransporta, guarda fragmentos de sobra y no la gastes en lo que se pueda hacer andando.",
+          "en": "<b>Summoning</b>: Ritual of Summoning (level 20) brings a party member to you. You need two others to click the portal, stay still and be out of combat. In the beta it cost 1 shard; the pre-launch change makes it 5 shards, all of your base mana and a 1-hour cooldown (to be confirmed at launch). Since the Forever group finder does not teleport you, keep spare shards and don't waste it on trips people can walk."
         }
       ]
     },
@@ -1170,6 +1170,10 @@
     {
       "es": "Equipo de bandas para brujo y qué consumibles de Classic siguen igual (las bandas abren el 9-12-2026).",
       "en": "Warlock raid gear and which Classic consumables stay the same (raids open on 9 Dec 2026)."
+    },
+    {
+      "es": "El coste final de Ritual of Summoning en el lanzamiento (5 fragmentos y 1 hora de recarga según los datos de prelanzamiento).",
+      "en": "The final cost of Ritual of Summoning at launch (5 shards and a 1-hour cooldown per the pre-launch data)."
     }
   ],
   "fuentes": [

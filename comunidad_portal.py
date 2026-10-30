@@ -824,6 +824,10 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
     ('confirmado', 'inv_sword_39', 'La misión legendaria de primavera',
      'Confirmada para la primavera de 2027, junto a dos bandas nuevas (10 y 20) y dos mazmorras. Blizzard no ha dicho qué arma será ni para qué clase.',
      'Blizzard: hoja de ruta'),
+    ('confirmado', 'inv_misc_map_01', 'Riverglades por dentro',
+     'En Riverglades (35-45), la Alianza tiene de su lado a la <strong>Brotherhood of the Horse</strong>, con base en <strong>Farholde Keep</strong>, y la Horda al clan ogro <strong>Boulderrock</strong>, que antes servía al Martillo Crepuscular. '
+     'Hay un ring de peleas de ogros y el <strong>Bloodmasters Ring</strong>, una arena de desafíos parecida al Ring of Blood de Nagrand, a partir del nivel 36 más o menos.',
+     'Vídeo de Blizzard, vía <a href="https://www.wowhead.com/news=383498" target="_blank" rel="noopener noreferrer">Wowhead</a>'),
     ('pista', 'inv_misc_key_03', 'Mansiones y portales escondidos',
      'En el pódcast, Blizzard adelantó que hay <strong>mansiones</strong> y <strong>portales de instancias</strong> escondidos por el mundo que serán contenido «en el futuro», sin decir cuándo ni qué. '
      'Icy Veins los ha buscado en la beta: una mansión enorme nueva en la <strong>Mansión Mistmantle</strong> (Bosque del Ocaso); portales de mazmorra en <strong>Bael Modan</strong> (Los Baldíos), en la <strong>Excavación Rustmaul</strong> (Las Mil Agujas), '

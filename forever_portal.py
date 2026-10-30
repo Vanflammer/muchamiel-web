@@ -79,7 +79,7 @@ def lanzamiento():
             '<a class="tile" href="../subir-nivel/"><strong>Subir de nivel</strong><span>Zonas, consejos y monturas del 1 al 60.</span></a>'
             '<a class="tile" href="../clases/"><strong>Builds nivel 60</strong><span>Las más populares de cada clase.</span></a>'
             '<a class="tile" href="../mazmorras/"><strong>Mazmorras</strong><span>Todas, con niveles. Nueve son nuevas.</span></a>'
-            '<a class="tile" href="../profesiones/"><strong>Profesiones</strong><span>Qué cambia y cuáles coger.</span></a></div>'
+            '<a class="tile" href="../profesiones/"><strong>Profesiones</strong><span>Qué cambia y cuáles elegir.</span></a></div>'
             + fuentes(('Blizzard: lo que trae Forever', BLIZZ_LANZ), ('Blizzard: ediciones', BLIZZ_PACKS), ('Blizzard: cielonatos', BLIZZ_CELICOS),
                       ('Warcraft Tavern', 'https://www.warcrafttavern.com/forever/news/world-of-warcraft-forever-roadmap-beta-launch-date-raids/')))
 
@@ -315,7 +315,7 @@ def mazmorras():
 POR_QUE = [
     ('inv_misc_coin_01', 'Dinero de verdad', 'En Forever lo caro es la equitación: 100 de oro a nivel 40 y 1.000 a nivel 60. Recolectar mientras subes y vender en la subasta es la forma más directa de pagarla sin farmear.'),
     ('trade_alchemy', 'Bandas y PvP', 'Las primeras bandas abren el 9 de diciembre. Frascos, pociones, encantamientos, bombas y comida marcan la diferencia, y quien los fabrica no depende de nadie.'),
-    ('spell_fire_fire', 'La acampada', 'Cada profesión tiene tres objetos de campamento: el primero se aprende con 20 de habilidad y los mejores salen de planos que sueltan los jefes de mazmorra. Junto a la hoguera dan beneficios de una hora.'),
+    ('spell_fire_fire', 'La acampada', 'Cada profesión tiene tres objetos de campamento: el primero se aprende con 20 de habilidad (la hoguera básica de Cocina, con 1) y los mejores salen de planos que sueltan los jefes de mazmorra. Junto a la hoguera dan beneficios de una hora.'),
     ('inv_misc_book_09', 'Legacy', '18 de los 65 puntos de Legacy salen de las profesiones (150, 225 y 300 en las seis de fabricación), y tienen un árbol entero de ventajas para toda la cuenta.'),
     ('inv_misc_bag_10', 'Recompensas propias', 'Vuelven los Waylaid Supplies: cajas de encargo que dan experiencia, dinero y premios. Y al llegar a 300 te llevas un título para toda la cuenta.'),
     ('inv_misc_food_15', 'Ir sobrado', 'Vendas para no parar a comer, comida que da experiencia, tus propios consumibles… Subir con profesiones es más rápido y más cómodo.'),
@@ -335,7 +335,7 @@ FABRICACION = [
     ('trade_tailoring', 'Sastrería', 'Tailoring', 'Armadura de tela y, sobre todo, bolsas: todo el mundo las compra. La tela sale de los enemigos humanoides. En la acampada planta un estandarte de facción que da espíritu.', 'Encantamiento', 'Magos, brujos y sacerdotes.'),
 ]
 SECUNDARIAS = [
-    ('inv_misc_food_15', 'Cocina', 'Cooking', 'En Forever la comida da un pequeño extra de experiencia además de estadísticas. Y la Cocina es la base de la acampada: su lumbre pasa a ser la hoguera básica, y los cocineros fabrican hogueras mejoradas en las que caben de 5 a 10 objetos.', 'Todo el mundo, desde el nivel 5.'),
+    ('inv_misc_food_15', 'Cocina', 'Cooking', 'En Forever casi toda la comida da un 5 % más de experiencia por enemigo, además de estadísticas (visto en la beta). Y la Cocina es la base de la acampada: su lumbre pasa a ser la hoguera básica, y los cocineros fabrican hogueras mejoradas en las que caben de 5 a 10 objetos.', 'Todo el mundo, desde el nivel 5.'),
     ('spell_holy_sealofsacrifice', 'Primeros auxilios', 'First Aid', 'La gran novedad: en Forever fabrica las pociones de sanación, que ya no son de Alquimia. Además de vendas, hace cataplasmas contra enfermedades, torniquetes contra sangrados y antídotos. Mira su sección más abajo.', 'Todo el mundo, y más que nunca las clases sin curación propia (guerreros y pícaros).'),
     ('trade_fishing', 'Pesca', 'Fishing', 'Mira la sección siguiente: da para mucho.', 'Todo el mundo, en los ratos muertos.'),
 ]
@@ -426,7 +426,7 @@ def profesiones():
             'en zonas de nivel alto, con poca habilidad, se te escapan los peces. Los señuelos suben tu habilidad durante un rato.</p></div></div>'
             '<div class="divider"><h2>Qué pone cada profesión en la acampada</h2></div>'
             '<p class="sub">Hacia el nivel 5 unas misiones te enseñan la acampada. Con Cocina montas la hoguera; los demás añadís un objeto cada uno. Siéntate (o fabrica) un minuto junto al fuego y te llevas los beneficios durante una hora. '
-            'Cada objeto tiene tres rangos: el primero se aprende con 20 de habilidad y cada rango incluye lo del anterior. Busca el campamento que te convenga: con un personaje de fuerza, el del herrero.</p>'
+            'Cada objeto tiene tres rangos: el primero se aprende con 20 de habilidad (la hoguera básica de Cocina, con 1) y cada rango incluye lo del anterior. Busca el campamento que te convenga: con un personaje de fuerza, el del herrero.</p>'
             '<p class="sub"><strong>Datos oficiales de Blizzard (21 de octubre), rango 1 a nivel 60:</strong> botiquín, hasta +56 de aguante; pozo de maná, hasta 29 de maná cada 5 s; rueda de afilar, hasta +34 de fuerza; laúd encantado, hasta +260 de armadura, +13 a todas las estadísticas y +22 a todas las resistencias; vela de incienso, hasta +25 de intelecto; estandarte de facción, hasta +32 de espíritu (solo para tu facción). Los objetos de 140 de habilidad o más salen de mazmorras y bandas. <strong>Ojo en los reinos JcJ:</strong> los enemigos pueden encontrar tu campamento y estropeártelo, así que elige bien dónde montarlo.</p>'
             '<table class="keys camp"><tr><th>Profesión</th><td><strong>Rango 1</strong></td><td><strong>Rango 2</strong></td><td><strong>Rango 3</strong></td></tr>' + ''.join(f'<tr><th>{E(p)}</th><td>{E(a)}</td><td>{E(b)}</td><td>{E(c)}</td></tr>' for p, a, b, c in CAMPAMENTO) + '</table>'
             '<div class="divider"><h2>El Favor del Mercader</h2></div><div class="pesca merc">'
@@ -441,7 +441,7 @@ def profesiones():
             '<tr><th>+600 recetas</th><td>Útiles mientras subes, no solo a nivel 60.</td></tr>'
             '<tr><th>Acampada</th><td>Cada profesión tiene tres objetos de campamento: el primero se aprende con 20 de habilidad (con los instructores o con los PNJ que presentan la acampada) y los avanzados con planos que sueltan jefes de mazmorra. '
             'En una hoguera básica caben tres objetos, uno por jugador, con una hora de reutilización compartida; las hogueras mejoradas de los cocineros admiten de 5 a 10. Para recibir los beneficios hay que sentarse junto al fuego; son variantes de los de clase y no se suman a ellos.</td></tr>'
-            '<tr><th>Comida</th><td>Los platos dan ahora un pequeño extra de experiencia además de estadísticas.</td></tr>'
+            '<tr><th>Comida</th><td>Casi todos los platos dan ahora un 5 % más de experiencia por enemigo, además de estadísticas (visto en la beta).</td></tr>'
             '<tr><th>Ventana nueva</th><td>Buscador de recetas y un hueco propio para una bolsa de componentes.</td></tr>'
             '<tr><th>Waylaid Supplies</th><td>Vuelven las cajas de encargo de Season of Discovery: entregas materiales y te llevas experiencia, dinero y recompensas.</td></tr>'
             '<tr><th>Manuales</th><td>Manuales de recolección en las zonas de inicio para empezar desde el primer día.</td></tr>'
@@ -479,7 +479,7 @@ ARBOLES = [  # nombres del cliente en castellano (AlterTime) y valores con la ve
     ('Profesiones', ['Horas extra (Working Overtime): +20 % de probabilidad de subir habilidad (4 % por punto).',
                      'Cosecha abundante (Bountiful Harvest): más materiales escasos con Minería, Herboristería y Desuello.',
                      'Regateo (Bartering): −10 % en los vendedores.', 'Maestro cocinero y Maestro del cebo: platos y peces extra.',
-                     'Estudio dedicado (Dedicated Study): +1 a tu profesión más baja.',
+                     'Estudio dedicado (Dedicated Study): +1 a tu profesión más baja (en la beta, una vez cada 24 horas).',
                      'Bonificaciones de rendimiento (Performance Bonus): a veces, el doble de Favor del Mercader al entregar cajones.']),
 ]
 
@@ -499,7 +499,8 @@ def legacy():
             '<tr><th>Mazmorras (3)</th><td>Completar todas las mazmorras de nivel 15-25, todas las de 26-45 y todas las de 46-60.</td></tr>'
             '<tr><th>Bandas (3)</th><td>Matar a Onyxia, a los 13 jefes de Cima Hyjal y a los 8 de las Cavernas del Túmulo.</td></tr>'
             '<tr><th>Aventura (2)</th><td>Completar el mapa del mundo y la cadena de Lord Valthalak.</td></tr></table>'
-            '<p class="fine">Son 65 puntos al salir (12 más cuando llegue Hardcore). Un solo personaje puede ganar 29, pero solo puedes gastar 16 por personaje, así que elige. Las profesiones de recolección y la Cocina no dan puntos. Los puntos se pueden reiniciar.</p>'
+            '<p class="fine">Son 65 puntos al salir (12 más cuando llegue Hardcore). Un solo personaje puede ganar 29, pero solo puedes gastar 16 por personaje, así que elige. Las profesiones de recolección y la Cocina no dan puntos. Los puntos se pueden reiniciar (en la beta costaba 10 de oro; sin confirmar para el lanzamiento).</p>'
+            '<p class="fine">Recompensas por los puntos que ganas, los gastes o no: con 15, el juguete Replica Ironforge Air Rifle; con 25, la mascota Spectral Bear Cub; con 40, el Spectral Bear Tabard; con 55, la montura épica Reins of the Spectral Bear. Se recogen con el posadero Wiley en Trinquete. Sin los 12 retos de JcJ te quedas en 53, sin la montura. Visto en la beta: Blizzard no ha publicado la lista.</p>'
             '<div class="divider"><h2>Los tres árboles</h2></div><div class="facts tres">' + arboles + '</div>'
             '<div class="prepare" style="margin-top:22px"><h3>Por dónde empezar</h3><p>Con tu primer personaje, <strong>Horas extra</strong>: subes antes las profesiones, que además dan más puntos. '
             'Con los siguientes, <strong>Con talento</strong> y <strong>Buen descanso</strong> son las que más se notan al subir. Para JcJ, <strong>Cuestión de honor</strong>; si farmeas, <strong>Cosecha abundante</strong>.</p>'

@@ -36,8 +36,8 @@
       "en": "<b>Dense Runecloth Bandage</b> at 300: heals 3,400 over 8 seconds, made from two Heavy Runecloth Bandages."
     },
     {
-      "es": "Campamento: <b>First Aid Kit</b> (20, aguante; no se suma a Power Word: Fortitude), <b>Toxin Study</b> (140, pociones y antídotos) y <b>Plague Doctor's Laboratory</b> (300, pociones y cataplasmas).",
-      "en": "Camp: <b>First Aid Kit</b> (20, Stamina; doesn't stack with Power Word: Fortitude), <b>Toxin Study</b> (140, potions and anti-venoms) and <b>Plague Doctor's Laboratory</b> (300, potions and poultices)."
+      "es": "Campamento: <b>First Aid Kit</b> (20, de 3 a 56 de aguante según tu nivel; no se suma a Power Word: Fortitude), <b>Toxin Study</b> (140, pociones y antídotos) y <b>Plague Doctor's Laboratory</b> (300, pociones y cataplasmas).",
+      "en": "Camp: <b>First Aid Kit</b> (20, 3 to 56 Stamina depending on your level; doesn't stack with Power Word: Fortitude), <b>Toxin Study</b> (140, potions and anti-venoms) and <b>Plague Doctor's Laboratory</b> (300, potions and poultices)."
     },
     {
       "es": "17 recetas nuevas en total. Legacy: Working Overtime, Dedicated Study y Field Medicine.",
