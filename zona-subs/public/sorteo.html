@@ -92,10 +92,21 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 
 <div class="rejilla config">
 <section class="marco">
-<h2>1 · Pega la lista de subs</h2>
-<p class="aviso">Twitch → Panel del creador → Comunidad → Suscriptores → Descargar lista (CSV). Pega aquí el contenido tal cual. También vale una lista simple: <code>nombre, 3</code> (el número es el tier) o solo el nombre (cuenta como Tier 1).</p>
-<textarea id="lista" placeholder="Username,Subscribe Date,Current Tier,...&#10;o bien:&#10;Pepito, 3&#10;Juanita, 1"></textarea>
-<label>Entradas gratis (opcional): quien escribió !sorteo en el chat, uno por línea. Reciben las papeletas de «Gratis».</label>
+<h2>1 · Mete la lista de participantes</h2>
+<p class="aviso">Vale cualquiera de estas formas, y se pueden mezclar (deja una línea en blanco entre una lista y otra):<br>
+• <b>Subir archivo</b> o arrastrarlo aquí: el CSV de suscriptores de Twitch (Panel del creador → Comunidad → Suscriptores → Descargar), el de miembros de YouTube Studio, el de Patreon, o un .txt. Si es un Excel, guárdalo antes como CSV.<br>
+• <b>Pegar</b> tal cual: el CSV, unas columnas copiadas de Excel o Google Sheets, o un trozo del chat copiado (se queda con quien escribió la palabra de abajo).<br>
+• <b>A mano</b>: un nombre por línea, <code>nombre, 3</code> o <code>nombre tier 2</code> (el número es el tier; sin número cuenta como Tier 1), o todos seguidos: <code>Pepito, Juanita, @Pedrito</code>.<br>
+Los repetidos cuentan una vez (con su tier más alto) y los bots (Nightbot, StreamElements…) se quitan solos.</p>
+<div class="acciones" style="justify-content:flex-start;margin:6px 0">
+<label class="btn gris" style="margin:0;cursor:pointer">📂 Subir archivo(s)<input type="file" id="archivo" accept=".csv,.txt,.tsv,text/csv,text/plain" multiple hidden></label>
+<button class="btn gris" type="button" id="vaciar">🧹 Vaciar</button>
+</div>
+<textarea id="lista" placeholder="Username,Subscribe Date,Current Tier,...&#10;o bien:&#10;Pepito, 3&#10;Juanita&#10;o un trozo del chat:&#10;21:03 Pepito: !sorteo"></textarea>
+<div class="aviso" id="lectura" style="margin-top:6px"></div>
+<label>Palabra del chat (si pegas un trozo del chat, solo entra quien la escribió; vacío = todos los que hablaron)</label>
+<input type="text" id="palabra" value="!sorteo" style="width:100%;background:#0a0806;color:var(--txt);border:1px solid #4a3a1c;border-radius:8px;padding:8px 10px;font:14px Consolas,monospace">
+<label>Entradas gratis (opcional): quien no es sub pero se apuntó (nombres, lista o trozo del chat). Reciben las papeletas de «Gratis».</label>
 <textarea id="gratis" style="min-height:80px" placeholder="nombre1&#10;nombre2"></textarea>
 </section>
 <section class="marco">
@@ -107,7 +118,7 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <div><b class="qg">Gratis</b><input type="number" id="pg" min="0" max="100" value="1"></div>
 </div>
 <label>Cómo se sortea</label>
-<div class="modos"><label><input type="radio" name="modo" value="batalla" checked> ⚔️ Batalla animada</label><label><input type="radio" name="modo" value="jefe"> 🐉 Jefe de banda</label><label><input type="radio" name="modo" value="ruleta"> 🎰 Ruleta de botín</label></div>
+<div class="modos"><label><input type="radio" name="modo" value="batalla" checked> ⚔️ Jefe PvE animado</label><label><input type="radio" name="modo" value="gurubashi"> 🏟️ Arena Gurubashi (todos contra todos)</label><label><input type="radio" name="modo" value="jefe"> 🐉 Jefe de banda</label><label><input type="radio" name="modo" value="ruleta"> 🎰 Ruleta de botín</label></div>
 <label>Jefe</label><select id="jefe"><option value="onyxia">Onyxia</option><option value="ragnaros">Ragnaros</option><option value="hogger">Hogger</option></select>
 <label class="check"><input type="checkbox" id="quitar" checked> Quien gana, sale del bombo (no repite)</label>
 <label class="check"><input type="checkbox" id="sonido" checked> Sonido de botín</label>
@@ -122,6 +133,7 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <button class="btn" id="sortear" disabled>🎲 ¡Sortear!</button>
 <button class="btn gris" id="directo">📺 Modo directo</button>
 <button class="btn gris" id="pantalla">⛶ Pantalla completa</button>
+<button class="btn gris" id="prueba" title="Rellena la lista con 300 subs inventados para ensayar">🧪 Prueba (300)</button>
 </div>
 
 <section class="banda" id="banda">
@@ -152,27 +164,87 @@ function partir(linea) {
   for (const ch of linea) { if (ch === '"') q = !q; else if ((ch === ',' || ch === ';' || ch === '\t') && !q) { out.push(cur.trim()); cur = ''; } else cur += ch; }
   out.push(cur.trim()); return out;
 }
-function tierDe(v) { const s = String(v || '').toLowerCase(); if (s.includes('3') || s.includes('3000')) return 3; if (s.includes('2') || s.includes('2000')) return 2; return 1; }
+// Tier de un texto: «Tier 2», «2000» (API de Twitch), «Nivel 3», «3», «Prime» (= 1), «Gratis». Lo que no se entienda = Tier 1.
+function tierDe(v) {
+  const s = String(v || '').toLowerCase().trim();
+  if (/^(gratis|free)$/.test(s)) return 'g';
+  const m = s.match(/(?:tier|nivel|level|t)\s*([123])\b/) || s.match(/\b([123])000\b/) || s.match(/^([123])$/);
+  return m ? +m[1] : 1;
+}
+const esTier = v => /^((tier|nivel|level|t)\s*)?[123](000)?$|^(prime|gratis|free)$|^tier\s*[123]\b/i.test(String(v || '').trim());
+const BOTS = /^(nightbot|streamelements|streamlabs|moobot|fossabot|wizebot|soundalerts|sery_bot|botrixoficial|kofistreambot|commanderroot)$/i;
+const CHAT = /^\s*(?:\[?\d{1,2}:\d{2}(?::\d{2})?\s*(?:[ap]\.?\s?m\.?)?\]?\s*)?(?:[^\p{L}\p{N}_@\s]+\s*)*@?([\p{L}\p{N}_][\p{L}\p{N}_.\-]{0,24})\s*:\s+(.*)$/u;
+const limpio = s => String(s || '').replace(/^﻿/, '').replace(/^@/, '').replace(/^["']+|["']+$/g, '').trim();
+// Lee un bloque de texto (CSV con cabecera, chat copiado o lista a mano). Devuelve [{nombre, t}] y lo que no entendió.
+function leerBloque(txt) {
+  const lineas = txt.split(/\r?\n/).map(l => l.trim()).filter(Boolean), out = [], malas = [];
+  if (!lineas.length) return {out, malas, formato: ''};
+  const cab = partir(lineas[0]).map(x => limpio(x).toLowerCase());
+  const busca = re => cab.findIndex(x => re.test(x));
+  let iN = busca(/^(username|user ?name|user|login|usuario|nombre de usuario)$/);
+  if (iN < 0) iN = busca(/^(name|nombre|display ?name|member|miembro|channel|canal|full name|nombre completo|supporter|patron)$/);
+  if (iN < 0) iN = busca(/user|usuario|member|miembro|nombre|name/);
+  if (cab.length >= 2 && iN >= 0) {   // CSV con cabecera (Twitch, YouTube, Patreon, Ko-fi, Excel…)
+    const iT = busca(/tier|nivel|level|plan|reward|recompensa/), iS = busca(/status|estado/);
+    for (const l of lineas.slice(1)) {
+      const p = partir(l), nombre = limpio(p[iN]);
+      if (iS >= 0 && /former|declined|antigu|cancel|rechaz|expir/i.test(p[iS] || '')) { malas.push(l + '  (ya no es miembro)'); continue; }
+      if (!nombre) { malas.push(l); continue; }
+      out.push({nombre, t: iT >= 0 ? tierDe(p[iT]) : 1});
+    }
+    return {out, malas, formato: 'tabla con cabecera'};
+  }
+  const chat = lineas.filter(l => CHAT.test(l)).length;
+  if (chat >= Math.max(1, lineas.length * .5)) {   // trozo del chat copiado
+    const pal = $('palabra').value.trim().toLowerCase();
+    for (const l of lineas) {
+      const m = l.match(CHAT); if (!m) { malas.push(l); continue; }
+      if (pal && !m[2].toLowerCase().includes(pal)) continue;
+      out.push({nombre: m[1], t: 1});
+    }
+    return {out, malas, formato: 'chat' + (pal ? ` (solo quien escribió «${pal}»)` : '')};
+  }
+  for (const l of lineas) {   // lista a mano
+    const p = partir(l).map(limpio).filter(Boolean);
+    if (!p.length) continue;
+    if (p.length >= 2 && p.length <= 3 && esTier(p[1])) { out.push({nombre: p[0], t: tierDe(p[1])}); continue; }
+    if (p.length === 1) {
+      const w = p[0].split(/\s+/);
+      const tt = w.length >= 2 && esTier(w.slice(-1)[0]) ? (w.length >= 3 && /^(tier|nivel|level)$/i.test(w[w.length - 2]) ? 2 : 1) : 0;
+      if (tt) { out.push({nombre: w.slice(0, -tt).join(' '), t: tierDe(w.slice(-tt).join(' '))}); continue; }
+      if (/(^|\s)@/.test(l)) { w.forEach(x => limpio(x) && out.push({nombre: limpio(x), t: 1})); continue; }   // «@a @b @c»
+      out.push({nombre: p[0], t: 1}); continue;
+    }
+    p.forEach(x => out.push({nombre: x, t: 1}));   // «a, b, c» en una línea
+  }
+  return {out, malas, formato: 'lista'};
+}
+function leerTexto(txt) {
+  const r = {out: [], malas: [], formatos: []};
+  for (const b of txt.split(/\r?\n\s*\r?\n/)) { const x = leerBloque(b); r.out.push(...x.out); r.malas.push(...x.malas); if (x.formato) r.formatos.push(x.formato); }
+  r.out = r.out.filter(p => p.nombre.length <= 40 && !BOTS.test(p.nombre));
+  return r;
+}
 function leer() {
-  const lineas = $('lista').value.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
-  const gente = new Map();
-  if (!lineas.length) return gente;
-  const cab = partir(lineas[0]).map(x => x.toLowerCase());
-  const iN = cab.findIndex(x => /user|usuario|nombre|name/.test(x));
-  const iT = cab.findIndex(x => /tier|nivel/.test(x));
-  const esCSV = iN >= 0;
-  for (const l of (esCSV ? lineas.slice(1) : lineas)) {
-    const p = partir(l);
-    const nombre = (esCSV ? p[iN] : p[0] || '').replace(/^@/, '').trim();
-    if (!nombre) continue;
-    const t = esCSV ? (iT >= 0 ? tierDe(p[iT]) : 1) : (p[1] ? tierDe(p[1]) : 1);
-    const k = nombre.toLowerCase();
-    if (!gente.has(k) || gente.get(k).t < t) gente.set(k, {nombre, t});
-  }
-  for (const n of $('gratis').value.split(/\r?\n/).map(x => x.replace(/^@/, '').trim()).filter(Boolean)) {
-    const k = n.toLowerCase(); if (!gente.has(k)) gente.set(k, {nombre: n, t: 'g'});
-  }
+  const gente = new Map(), A = leerTexto($('lista').value), G = leerTexto($('gratis').value);
+  const nivel = t => t === 'g' ? 0 : t;
+  for (const {nombre, t} of A.out) { const k = nombre.toLowerCase(); if (!gente.has(k) || nivel(gente.get(k).t) < nivel(t)) gente.set(k, {nombre, t}); }
+  for (const {nombre} of G.out) { const k = nombre.toLowerCase(); if (!gente.has(k)) gente.set(k, {nombre, t: 'g'}); }
+  const fmt = [...new Set([...A.formatos, ...G.formatos])].join(' + ');
+  const malas = [...A.malas, ...G.malas];
+  $('lectura').innerHTML = !gente.size ? '' : `✔ Leídos <b>${gente.size}</b> participantes distintos${fmt ? ` (${esc(fmt)})` : ''}.` +
+    (malas.length ? ` <span style="color:#ffb37a">No he entendido ${malas.length} línea${malas.length > 1 ? 's' : ''}: ${malas.slice(0, 3).map(m => `<code>${esc(m.slice(0, 60))}</code>`).join(' ')}${malas.length > 3 ? '…' : ''}</span>` : '');
   return gente;
+}
+// Subir archivos (botón o arrastrar): se añaden a la lista, separados por una línea en blanco
+async function textoDeArchivo(f) {
+  if (/\.(xlsx?|ods|numbers)$/i.test(f.name)) { alert(`«${f.name}» es una hoja de cálculo: ábrela y guárdala como CSV (o copia las columnas y pégalas aquí).`); return ''; }
+  const buf = await f.arrayBuffer();
+  try { return new TextDecoder('utf-8', {fatal: true}).decode(buf); } catch (e) { return new TextDecoder('windows-1252').decode(buf); }   // CSV guardado con Excel en Windows
+}
+async function anadirArchivos(files) {
+  for (const f of files) { const t = (await textoDeArchivo(f)).replace(/^﻿/, '').trim(); if (t) $('lista').value = ($('lista').value.trim() ? $('lista').value.trim() + '\n\n' : '') + t; }
+  $('lista').dispatchEvent(new Event('input'));
 }
 const peso = t => Math.max(0, parseInt($(t === 'g' ? 'pg' : 'p' + t).value) || 0);
 function bombo() {
@@ -269,6 +341,10 @@ function pintaHistorial() {
 }
 ['lista', 'gratis', 'p1', 'p2', 'p3', 'pg', 'quitar'].forEach(id => $(id).addEventListener('input', resumen));
 $('quitar').addEventListener('change', resumen);
+$('palabra').addEventListener('input', () => $('lista').dispatchEvent(new Event('input')));
+$('archivo').addEventListener('change', e => { anadirArchivos([...e.target.files]); e.target.value = ''; });
+$('vaciar').onclick = () => { if (!$('lista').value.trim() && !$('gratis').value.trim()) return; if (confirm('¿Vaciar la lista y las entradas gratis?')) { $('lista').value = ''; $('gratis').value = ''; $('lista').dispatchEvent(new Event('input')); } };
+['dragover', 'drop'].forEach(ev => document.addEventListener(ev, e => { if (!e.dataTransfer || ![...e.dataTransfer.types].includes('Files')) return; e.preventDefault(); if (ev === 'drop') anadirArchivos([...e.dataTransfer.files]); }));
 $('sortear').onclick = sortear;
 $('directo').onclick = () => { document.body.classList.toggle('directo'); $('directo').textContent = document.body.classList.contains('directo') ? '⚙️ Mostrar ajustes' : '📺 Modo directo'; };
 $('pantalla').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
@@ -291,8 +367,8 @@ function modo() { return document.querySelector('[name=modo]:checked').value; }
 function vistaModo() {
   const m = modo(), j = m === 'jefe';
   $('banda').classList.toggle('ver', j); $('escenarioRuleta').style.display = m === 'ruleta' ? '' : 'none';
-  $('arena').classList.toggle('ver', m === 'batalla');
-  if (m === 'batalla' && !girando && typeof arenaReposo === 'function') arenaReposo();
+  $('arena').classList.toggle('ver', m === 'batalla' || m === 'gurubashi');
+  if ((m === 'batalla' || m === 'gurubashi') && !girando && typeof arenaReposo === 'function') arenaReposo();
   const J = JEFES[$('jefe').value];
   $('jefeImg').src = `https://wow.zamimg.com/images/wow/icons/large/${J.i}.jpg`; $('jefeNombre').textContent = J.n;
   if (j && !girando) pintaBanda(bombo());
@@ -360,12 +436,325 @@ $('sortear').onclick = async () => {
   for (let i = 0; i < n; i++) {
     if (!bombo().length) break;
     const m = modo();
-    await (m === 'jefe' ? tiradaJefe() : m === 'batalla' ? tiradaBatalla() : tirada());
+    await (m === 'jefe' ? tiradaJefe() : m === 'batalla' ? tiradaBatalla() : m === 'gurubashi' ? tiradaGurubashi() : tirada());
     if (i < n - 1) await pausa(3000);
   }
 };
 document.querySelectorAll('[name=modo]').forEach(r => r.addEventListener('change', vistaModo));
 $('jefe').addEventListener('change', vistaModo);
 ['lista', 'gratis', 'p1', 'p2', 'p3', 'pg'].forEach(id => $(id).addEventListener('input', () => { if (modo() === 'jefe' && !girando) pintaBanda(bombo()); }));
+vistaModo();
+</script>
+<script>
+// ---- Batalla animada (canvas): «Jefe PvE» y «Arena Gurubashi». El ganador se elige ANTES, por papeletas (igual que en los otros modos);
+//      la animación solo enseña cómo cae el resto. Orden de caída también por papeletas: quien tiene más, aguanta más de media. ----
+const L = $('lienzo'), X = L.getContext('2d'), W = 1280, H = 720;
+const CLASES = [['Guerrero', '#C69B6D'], ['Paladín', '#F48CBA'], ['Cazador', '#AAD372'], ['Pícaro', '#FFF468'], ['Sacerdote', '#FFFFFF'], ['Chamán', '#0070DD'], ['Mago', '#3FC7EB'], ['Brujo', '#8788EE'], ['Druida', '#FF7C0A']];
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const colorTier = t => css(t === 'g' ? '--gratis' : '--t' + t) || '#bbb';
+const FONDO_JEFE = {onyxia: ['#2a0d05', '#ff6a2a'], ragnaros: ['#2b0600', '#ff3b00'], hogger: ['#0f1a0a', '#7fa64a']};
+const imgs = {};
+function icono(n) {
+  if (!imgs[n]) { const im = new Image(); im.crossOrigin = 'anonymous'; im.onerror = () => im.malo = true; im.src = `https://wow.zamimg.com/images/wow/icons/large/${n}.jpg`; imgs[n] = im; }
+  const im = imgs[n]; return im.complete && im.naturalWidth && !im.malo ? im : null;
+}
+let E = null;   // la escena que se dibuja
+const ahora = () => performance.now();
+const entre = (a, b) => a + azar(b - a);
+function hashClase(nombre) { let h = 0; for (const c of nombre.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0; return CLASES[h % CLASES.length]; }
+
+function montar(tipo, b) {
+  const n = b.length, J = JEFES[$('jefe').value];
+  const r = Math.max(5, Math.min(26, Math.sqrt((tipo === 'jefe' ? 1280 * 300 : 1280 * 520) / Math.max(1, n)) * .32));
+  const fichas = b.map((p, k) => {
+    const [clase, col] = hashClase(p.nombre);
+    return {p, clase, col, aro: colorTier(p.t), r, vivo: true, muerte: 0, flash: 0, x: 0, y: 0, tx: 0, ty: 0, vel: entre(.6, 1.4), k};
+  });
+  if (tipo === 'jefe') {   // la banda, en filas bajo el jefe
+    const cols = Math.max(1, Math.min(n, Math.floor(1180 / (r * 2.6)))), filas = Math.ceil(n / cols), alto = Math.min(r * 2.9 * (n <= 40 ? 1.35 : 1), 300 / Math.max(1, filas - 1 || 1));
+    fichas.forEach((f, k) => { const c = k % cols, fi = Math.floor(k / cols), enFila = Math.min(cols, n - fi * cols);
+      f.x = f.tx = 640 + (c - (enFila - 1) / 2) * r * 2.6; f.y = f.ty = 400 + fi * alto + (filas === 1 ? 120 : 0); });
+  } else {                 // repartidos por la arena
+    fichas.forEach(f => { const p = puntoArena(); f.x = f.tx = p[0]; f.y = f.ty = p[1]; });
+  }
+  E = {tipo, J, fichas, efectos: [], feed: [], banner: null, nombres: n <= 40,
+    jefe: {x: 640, y: 175, r: 92, vida: 1, golpe: 0, muerto: 0}, cofre: null, t0: ahora()};
+}
+function puntoArena() { const a = azar(Math.PI * 2), d = Math.sqrt(azar(1)); return [640 + Math.cos(a) * 470 * d, 410 + Math.sin(a) * 235 * d]; }
+
+// --- efectos ---
+const fx = o => E.efectos.push({t0: ahora(), ...o});
+function proyectil(x1, y1, x2, y2, col, dur = 500, grande = 4) { fx({tipo: 'p', x1, y1, x2, y2, col, dur, g: grande}); }
+function texto(x, y, txt, col, dur = 900, tam = 18) { fx({tipo: 't', x, y, txt, col, dur, tam}); }
+function estallido(x, y, col, dur = 700, rad = 60) { fx({tipo: 'e', x, y, col, dur, rad}); }
+function banner(txt, sub = '', col = '#ffd36b') { E.banner = {txt, sub, col, t0: ahora()}; }
+function alFeed(html) { E.feed.unshift({txt: html, t0: ahora()}); E.feed.length = Math.min(E.feed.length, 7); }
+
+// --- dibujo ---
+function fondo() {
+  if (!E || E.tipo === 'jefe') {
+    const [a, b] = FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia;
+    const g = X.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#050307'); g.addColorStop(.55, a); g.addColorStop(1, '#000'); X.fillStyle = g; X.fillRect(0, 0, W, H);
+    const l = X.createRadialGradient(640, 760, 40, 640, 760, 700); l.addColorStop(0, b + '55'); l.addColorStop(1, '#0000'); X.fillStyle = l; X.fillRect(0, 0, W, H);
+    for (let i = 0; i < 26; i++) { const t = ahora() / 1000 + i * 7.3, x = (i * 151 + Math.sin(t * .3) * 40) % W, y = H - ((t * 30 + i * 53) % H);
+      X.fillStyle = b + '88'; X.beginPath(); X.arc(x, y, 1.5 + (i % 3), 0, 7); X.fill(); }
+  } else {
+    X.fillStyle = '#1b130a'; X.fillRect(0, 0, W, H);
+    X.save(); X.translate(640, 410);
+    X.fillStyle = '#3a2a18'; X.beginPath(); X.ellipse(0, 0, 540, 290, 0, 0, 7); X.fill();           // grada
+    X.strokeStyle = '#6b5426'; X.lineWidth = 10; X.stroke();
+    const s = X.createRadialGradient(0, -40, 30, 0, 0, 520); s.addColorStop(0, '#e2c58c'); s.addColorStop(1, '#a07a45');
+    X.fillStyle = s; X.beginPath(); X.ellipse(0, 0, 505, 262, 0, 0, 7); X.fill();                    // arena
+    X.strokeStyle = '#5b4426'; X.lineWidth = 6; X.stroke();
+    X.strokeStyle = '#8a6a3a55'; X.lineWidth = 3; X.beginPath(); X.ellipse(0, 0, 120, 62, 0, 0, 7); X.stroke();
+    for (let i = 0; i < 6; i++) { const a = i / 6 * Math.PI * 2 + .5, px = Math.cos(a) * 525, py = Math.sin(a) * 276;   // pilares
+      X.fillStyle = '#4a3b2a'; X.fillRect(px - 14, py - 46, 28, 52); X.fillStyle = '#6e5a40'; X.fillRect(px - 18, py - 52, 36, 9); }
+    X.restore();
+    X.fillStyle = '#ffd36b'; X.font = '700 30px Cinzel, Georgia, serif'; X.textAlign = 'center'; X.fillText('ARENA GURUBASHI', 640, 52);
+    X.fillStyle = '#e8d5a8aa'; X.font = '15px Georgia, serif'; X.fillText('Vega de Tuercespina · todos contra todos', 640, 76);
+  }
+}
+function dibujaJefe() {
+  const j = E.jefe, im = icono(E.J.i), t = ahora();
+  if (j.muerto && t - j.muerto > 1600) return;
+  const sac = t - j.golpe < 300 ? (Math.random() - .5) * 14 : 0, a = j.muerto ? Math.max(0, 1 - (t - j.muerto) / 1600) : 1;
+  X.save(); X.globalAlpha = a; X.translate(j.x + sac, j.y + Math.sin(t / 600) * 5);
+  X.shadowColor = (FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia)[1]; X.shadowBlur = 40;
+  X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.fillStyle = '#000'; X.fill(); X.shadowBlur = 0;
+  X.save(); X.beginPath(); X.arc(0, 0, j.r - 5, 0, 7); X.clip(); if (im) X.drawImage(im, -j.r, -j.r, j.r * 2, j.r * 2); X.restore();
+  X.lineWidth = 6; X.strokeStyle = '#c8a24a'; X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.stroke();
+  X.restore();
+  // barra de vida
+  const bw = 420, bx = 640 - bw / 2, by = 22;
+  X.fillStyle = '#000a'; X.fillRect(bx - 4, by - 4, bw + 8, 30); X.fillStyle = '#3a0a0a'; X.fillRect(bx, by, bw, 22);
+  const vg = X.createLinearGradient(bx, 0, bx + bw, 0); vg.addColorStop(0, '#b3121b'); vg.addColorStop(1, '#ff4a3a'); X.fillStyle = vg; X.fillRect(bx, by, bw * j.vida, 22);
+  X.fillStyle = '#fff'; X.font = '700 15px Georgia, serif'; X.textAlign = 'center'; X.fillText(`${E.J.n} · ${Math.round(j.vida * 100)} %`, 640, by + 16);
+}
+function dibujaFicha(f, t) {
+  if (!f.vivo && t - f.muerte > 1400) {   // cadáver: calavera pequeña
+    X.globalAlpha = .35; X.fillStyle = '#ddd'; X.font = `${Math.max(8, f.r)}px serif`; X.textAlign = 'center'; X.fillText('☠', f.x, f.y + f.r * .35); X.globalAlpha = 1; return;
+  }
+  const muriendo = !f.vivo ? (t - f.muerte) / 1400 : 0;
+  X.save(); X.translate(f.x, f.y + muriendo * 10); X.globalAlpha = 1 - muriendo * .7;
+  if (f.gana) { X.shadowColor = '#ffd36b'; X.shadowBlur = 30 + Math.sin(t / 150) * 10; }
+  const g = X.createRadialGradient(-f.r / 3, -f.r / 3, 1, 0, 0, f.r); g.addColorStop(0, f.col); g.addColorStop(1, '#111');
+  X.fillStyle = t - f.flash < 200 ? '#fff' : g; X.beginPath(); X.arc(0, 0, f.r, 0, 7); X.fill(); X.shadowBlur = 0;
+  X.lineWidth = Math.max(1.5, f.r / 6); X.strokeStyle = f.gana ? '#ffd36b' : f.aro; X.stroke();
+  if (f.r >= 13) { X.fillStyle = '#000c'; X.font = `700 ${Math.round(f.r * .9)}px Georgia, serif`; X.textAlign = 'center'; X.fillText(f.p.nombre[0].toUpperCase(), 0, f.r * .33); }
+  if (E.nombres || f.gana) { X.fillStyle = f.gana ? '#ffd36b' : '#f3ead6'; X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center';
+    X.lineWidth = 3; X.strokeStyle = '#000'; X.strokeText(f.p.nombre.slice(0, 16), 0, f.r + 14); X.fillText(f.p.nombre.slice(0, 16), 0, f.r + 14); }
+  X.restore();
+}
+function dibujaEfectos(t) {
+  E.efectos = E.efectos.filter(e => t - e.t0 < e.dur);
+  for (const e of E.efectos) {
+    const k = (t - e.t0) / e.dur;
+    if (e.tipo === 'p') {
+      const x = e.x1 + (e.x2 - e.x1) * k, y = e.y1 + (e.y2 - e.y1) * k;
+      X.strokeStyle = e.col + '66'; X.lineWidth = e.g; X.beginPath(); X.moveTo(e.x1 + (e.x2 - e.x1) * Math.max(0, k - .25), e.y1 + (e.y2 - e.y1) * Math.max(0, k - .25)); X.lineTo(x, y); X.stroke();
+      X.fillStyle = e.col; X.shadowColor = e.col; X.shadowBlur = 16; X.beginPath(); X.arc(x, y, e.g * 1.4, 0, 7); X.fill(); X.shadowBlur = 0;
+    } else if (e.tipo === 'e') {
+      X.globalAlpha = 1 - k; X.strokeStyle = e.col; X.lineWidth = 6 * (1 - k) + 1; X.beginPath(); X.arc(e.x, e.y, e.rad * k, 0, 7); X.stroke(); X.globalAlpha = 1;
+    } else if (e.tipo === 't') {
+      X.globalAlpha = 1 - k * k; X.fillStyle = e.col; X.font = `700 ${e.tam}px Georgia, serif`; X.textAlign = 'center';
+      X.lineWidth = 3; X.strokeStyle = '#000'; X.strokeText(e.txt, e.x, e.y - k * 40); X.fillText(e.txt, e.x, e.y - k * 40); X.globalAlpha = 1;
+    }
+  }
+}
+function dibujaCofre(t) {
+  const c = E.cofre; if (!c) return;
+  const s = Math.min(1, (t - c.t0) / 500), ab = c.abierto ? Math.min(1, (t - c.abierto) / 400) : 0;
+  X.save(); X.translate(c.x, c.y); X.scale(s, s);
+  if (ab) { X.fillStyle = `rgba(255,211,107,${.35 * ab})`; X.beginPath(); X.arc(0, -20, 90 + Math.sin(t / 120) * 8, 0, 7); X.fill(); }
+  X.fillStyle = '#6b3d14'; X.fillRect(-38, -24, 76, 44); X.strokeStyle = '#d9a640'; X.lineWidth = 4; X.strokeRect(-38, -24, 76, 44);
+  X.save(); X.translate(0, -24); X.rotate(-ab * .9); X.fillStyle = '#7d4a1a'; X.fillRect(-38, -20, 76, 20); X.strokeRect(-38, -20, 76, 20); X.restore();
+  X.fillStyle = '#ffd36b'; X.fillRect(-6, -10, 12, 12);
+  X.restore();
+}
+function dibujaTextos(t) {
+  // registro de muertes (arriba a la izquierda)
+  X.textAlign = 'left'; X.font = '15px Georgia, serif';
+  E.feed.forEach((l, i) => { const a = Math.max(0, 1 - (t - l.t0) / 9000) * (1 - i * .12); if (a <= 0) return;
+    X.globalAlpha = a; X.fillStyle = '#000a'; const w = X.measureText(l.txt).width; X.fillRect(14, 96 + i * 26, w + 16, 22);
+    X.fillStyle = '#f3ead6'; X.fillText(l.txt, 22, 112 + i * 26); X.globalAlpha = 1; });
+  // quedan
+  const vivos = E.fichas.filter(f => f.vivo).length;
+  X.textAlign = 'right'; X.font = '700 17px Georgia, serif'; X.fillStyle = '#000a'; X.fillRect(W - 190, 96, 176, 28);
+  X.fillStyle = '#ffd36b'; X.fillText(`En pie: ${vivos} / ${E.fichas.length}`, W - 24, 116);
+  // cartel grande
+  const b = E.banner; if (!b) return;
+  const k = (t - b.t0) / 2600; if (b.fijo ? false : k > 1) { E.banner = null; return; }
+  const a = b.fijo ? Math.min(1, (t - b.t0) / 300) : (k < .15 ? k / .15 : k > .8 ? (1 - k) / .2 : 1);
+  X.globalAlpha = a; X.textAlign = 'center';
+  X.font = '700 46px Cinzel, Georgia, serif'; X.lineWidth = 7; X.strokeStyle = '#000'; X.strokeText(b.txt, 640, b.fijo ? 610 : 330); X.fillStyle = b.col; X.fillText(b.txt, 640, b.fijo ? 610 : 330);
+  if (b.sub) { X.font = '22px Georgia, serif'; X.lineWidth = 5; X.strokeText(b.sub, 640, b.fijo ? 648 : 368); X.fillStyle = '#f3ead6'; X.fillText(b.sub, 640, b.fijo ? 648 : 368); }
+  X.globalAlpha = 1;
+}
+function mover() {
+  for (const f of E.fichas) {
+    if (!f.vivo) continue;
+    if (E.tipo === 'gurubashi' && !f.quieto && Math.hypot(f.tx - f.x, f.ty - f.y) < 4) { const p = puntoArena(); f.tx = p[0]; f.ty = p[1]; }
+    const dx = f.tx - f.x, dy = f.ty - f.y, d = Math.hypot(dx, dy), v = (f.prisa || (E.tipo === 'gurubashi' ? 1.1 : 3)) * f.vel;
+    if (d > v) { f.x += dx / d * v; f.y += dy / d * v; } else { f.x = f.tx; f.y = f.ty; }
+  }
+}
+function cuadro() {
+  const t = ahora();
+  if ($('arena').classList.contains('ver') || (rec && rec.state === 'recording')) {
+    fondo();
+    if (E) {
+      mover();
+      if (E.tipo === 'jefe') dibujaJefe();
+      dibujaCofre(t);
+      E.fichas.filter(f => !f.vivo).forEach(f => dibujaFicha(f, t));
+      E.fichas.filter(f => f.vivo && !f.gana).forEach(f => dibujaFicha(f, t));
+      E.fichas.filter(f => f.gana).forEach(f => dibujaFicha(f, t));
+      dibujaEfectos(t); dibujaTextos(t);
+      if (E.reposo) { X.fillStyle = '#000a'; X.fillRect(390, 300, 500, 70); X.fillStyle = '#ffd36b'; X.font = '700 26px Cinzel, Georgia, serif'; X.textAlign = 'center';
+        X.fillText(E.fichas.length ? 'Pulsa «¡Sortear!» para empezar' : 'Pega la lista de subs', 640, 345); }
+    }
+  }
+  requestAnimationFrame(cuadro);
+}
+function arenaReposo() { montar(modo() === 'gurubashi' ? 'gurubashi' : 'jefe', bombo()); E.reposo = true; }
+requestAnimationFrame(cuadro);
+
+// --- grabar vídeo de la batalla (.webm, con sonido) ---
+let rec = null, trozos = [];
+function grabarEmpieza() {
+  if (!$('grabar').checked || !L.captureStream || !window.MediaRecorder) return;
+  try {
+    ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+    ctx.resume(); window.grabSonido = ctx.createMediaStreamDestination();
+    // pista de silencio continua: sin ella, si no suena nada, el grabador se queda esperando el audio y el vídeo sale vacío
+    const o = ctx.createConstantSource(), g0 = ctx.createGain(); g0.gain.value = 0; o.connect(g0).connect(window.grabSonido); o.start(); window.grabSilencio = o;
+    const st = new MediaStream([...L.captureStream(30).getVideoTracks(), ...window.grabSonido.stream.getAudioTracks()]);
+    const tipo = ['video/webm;codecs=vp9,opus', 'video/webm;codecs=vp8,opus', 'video/webm'].find(x => MediaRecorder.isTypeSupported(x));
+    trozos = []; rec = new MediaRecorder(st, {mimeType: tipo, videoBitsPerSecond: 6e6});
+    rec.ondataavailable = e => e.data.size && trozos.push(e.data); rec.start(500);
+    aviso('● Grabando');
+  } catch (e) { rec = null; window.grabSonido = null; aviso('No se pudo grabar: ' + e.message); }
+}
+function grabarAcaba(nombre) {
+  if (!rec) return Promise.resolve();
+  return new Promise(r => { rec.onstop = () => {
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(trozos, {type: 'video/webm'}));
+    a.download = `sorteo-${String(nombre).replace(/[^\w-]+/g, '_')}.webm`; a.click();
+    try { window.grabSilencio.stop(); } catch (e) {}
+    rec = null; window.grabSonido = null; aviso(''); r(); };
+    rec.stop(); });
+}
+function aviso(txt) { $('arenaAviso').textContent = txt; $('arenaAviso').style.display = txt ? 'block' : 'none'; }
+
+// --- orden de caída (justo: ganador por papeletas, y quien tiene más papeletas aguanta más de media) ---
+function ordenCaida(b) {
+  const premio = elegir(b); let resto = b.filter(p => p !== premio); const sup = [];
+  while (resto.length) { const x = elegir(resto); sup.push(x); resto = resto.filter(p => p !== x); }
+  return {premio, muertes: sup.reverse()};
+}
+function empieza() {
+  const b = resumen(); if (!b.length || girando) return null;
+  girando = true; $('sortear').disabled = true; $('ganador').classList.remove('ver');
+  $('arena').scrollIntoView({block: 'center', behavior: 'smooth'});
+  return b;
+}
+function morir(f, col) { f.vivo = false; f.muerte = ahora(); f.flash = ahora(); estallido(f.x, f.y, col, 600, f.r * 3); }
+async function remate(b, premio, titulo, icono) {
+  fanfarria(); monedas();
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  const total = b.reduce((s, p) => s + p.papeletas, 0);
+  $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/${icono}.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">${titulo}</p>
+    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${total}</p>`;
+  $('ganador').classList.add('ver');
+  await pausa(3500); await grabarAcaba(premio.nombre);
+  pintaHistorial(); girando = false; resumen();
+}
+
+// --- JEFE PvE: la banda pega al jefe, el jefe va tumbando a la banda y el último en pie lo remata ---
+async function tiradaBatalla() {
+  const b = empieza(); if (!b) return;
+  montar('jefe', b); const J = E.J, j = E.jefe, col = (FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia)[1];
+  const {premio, muertes} = ordenCaida(b); const ficha = p => E.fichas[b.indexOf(p)];
+  grabarEmpieza();
+  banner(`¡${J.n} entra en combate!`, `${b.length} valientes contra el jefe`); if ($('sonido').checked) tono(90, 0, 1.2, 'sawtooth', .09);
+  await pausa(2200);
+  const pasos = Math.min(14, Math.max(1, muertes.length));
+  for (let s = 0; s < pasos && muertes.length; s++) {
+    // la banda ataca
+    const vivos = E.fichas.filter(f => f.vivo);
+    for (let i = 0; i < Math.min(18, vivos.length); i++) { const f = vivos[Math.floor(azar(vivos.length))];
+      setTimeout(() => { proyectil(f.x, f.y - f.r, j.x + entre(-40, 40), j.y + entre(-30, 30), f.col, 450, 3); }, i * 40); }
+    await pausa(500);
+    j.golpe = ahora(); j.vida = Math.max(.06, 1 - (s + 1) / pasos * .9);
+    texto(j.x + entre(-60, 60), j.y - 40, '-' + Math.floor(entre(20000, 90000)).toLocaleString('es-ES'), '#ffe27a', 900, 22);
+    if ($('sonido').checked) tono(300 + azar(200), 0, .12, 'square', .04);
+    await pausa(350);
+    // el jefe responde
+    const n = Math.max(1, Math.ceil(muertes.length / (pasos - s))), caen = muertes.splice(0, n);
+    const [hab, verbo] = J.h[Math.floor(azar(J.h.length))];
+    banner(hab + '!', '', col); if ($('sonido').checked) tono(140 + azar(60), 0, .35, 'sawtooth', .07);
+    caen.forEach((p, i) => { const f = ficha(p); setTimeout(() => proyectil(j.x, j.y + j.r * .6, f.x, f.y, col, 550, 6), Math.min(i, 30) * 25); });
+    await pausa(650);
+    caen.forEach(p => { const f = ficha(p); morir(f, col); if (caen.length <= 6) texto(f.x, f.y - f.r - 6, '-' + Math.floor(entre(1500, 9000)).toLocaleString('es-ES'), '#ff5a4a', 900, 15); });
+    alFeed(caen.length > 2 ? `${hab}: caen ${caen.length} jugadores` : caen.map(p => `${hab} ${verbo} a ${p.nombre}`).join(' · '));
+    await pausa(Math.max(650, 1500 - b.length * 3));
+  }
+  // el último en pie
+  const fg = ficha(premio); fg.gana = true;
+  banner(`¡${premio.nombre} sigue en pie!`, 'Solo queda un héroe…'); await pausa(2000);
+  fg.prisa = 6; fg.tx = j.x; fg.ty = j.y + j.r + fg.r + 8; await pausa(900);
+  for (let i = 0; i < 3; i++) { j.golpe = ahora(); estallido(j.x, j.y, '#ffd36b', 500, 140); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(90000, 250000)).toLocaleString('es-ES'), '#ffd36b', 1000, 26);
+    if ($('sonido').checked) tono(500 + i * 150, 0, .2, 'square', .06); await pausa(420); }
+  j.vida = 0; j.muerto = ahora(); estallido(j.x, j.y, col, 1400, 320); alFeed(`${premio.nombre} derrota a ${J.n}`);
+  E.cofre = {x: 640, y: 200, t0: ahora()}; await pausa(700); E.cofre.abierto = ahora();
+  fg.tx = 640; fg.ty = 290;
+  E.banner = {txt: `¡${J.n.toUpperCase()} HA CAÍDO!`, sub: `${premio.nombre} se lleva el botín`, col: '#ffd36b', t0: ahora(), fijo: true};
+  await remate(b, premio, `¡${J.n.toUpperCase()} HA CAÍDO!`, J.i);
+}
+
+// --- ARENA GURUBASHI: todos contra todos; el último en pie abre el cofre de la arena ---
+async function tiradaGurubashi() {
+  const b = empieza(); if (!b) return;
+  montar('gurubashi', b);
+  const {premio, muertes} = ordenCaida(b); const ficha = p => E.fichas[b.indexOf(p)];
+  grabarEmpieza();
+  banner('¡Empieza la Arena Gurubashi!', `${b.length} luchadores · solo uno se lleva el cofre`); if ($('sonido').checked) [196, 147].forEach((f, i) => tono(f, i * .5, 1.4, 'sine', .14));
+  await pausa(2400);
+  const pasos = Math.min(16, Math.max(1, muertes.length)), golpes = ['Golpe mortal', 'Bola de Fuego', 'Eviscerar', 'Disparo apuntado', 'Descarga de las Sombras', 'Choque de tierra', 'Martillo de cólera', 'Fuego estelar', 'Tortura mental'];
+  for (let s = 0; s < pasos && muertes.length; s++) {
+    const n = Math.max(1, Math.ceil(muertes.length / (pasos - s))), caen = muertes.splice(0, n), caenF = new Set(caen.map(ficha));
+    const atacantes = E.fichas.filter(f => f.vivo && !caenF.has(f));
+    const duelos = caen.map(p => [atacantes[Math.floor(azar(atacantes.length))], ficha(p)]);
+    duelos.slice(0, 40).forEach(([a, v]) => { a.prisa = 4; a.quieto = true; const ang = Math.atan2(a.y - v.y, a.x - v.x); a.tx = v.x + Math.cos(ang) * (v.r * 3); a.ty = v.y + Math.sin(ang) * (v.r * 3); v.quieto = true; v.tx = v.x; v.ty = v.y; });
+    await pausa(700);
+    duelos.forEach(([a, v], i) => setTimeout(() => proyectil(a.x, a.y, v.x, v.y, a.col, 300, Math.max(2, a.r / 4)), Math.min(i, 40) * 20));
+    if ($('sonido').checked) tono(220 + azar(200), 0, .15, 'square', .05);
+    await pausa(380);
+    duelos.forEach(([a, v]) => { morir(v, a.col); a.prisa = 0; a.quieto = false; });
+    if (duelos.length <= 3) duelos.forEach(([a, v]) => { alFeed(`${a.p.nombre} → ${golpes[Math.floor(azar(golpes.length))]} → ${v.p.nombre}`); texto(v.x, v.y - v.r - 6, '¡K.O.!', '#ff5a4a', 900, 15); });
+    else alFeed(`Caen ${duelos.length} luchadores · quedan ${E.fichas.filter(f => f.vivo).length}`);
+    await pausa(Math.max(700, 1500 - b.length * 3));
+  }
+  const fg = ficha(premio); fg.gana = true; fg.quieto = true; fg.tx = fg.x; fg.ty = fg.y;
+  banner(`¡${premio.nombre} es el último en pie!`, 'El público de Tuercespina enloquece'); if ($('sonido').checked) tono(392, 0, .6, 'triangle', .1);
+  await pausa(1800);
+  E.cofre = {x: 640, y: 400, t0: ahora()}; texto(640, 350, 'Cofre de la Arena', '#ffd36b', 1500, 24);
+  await pausa(900);
+  fg.prisa = 6; fg.tx = 640; fg.ty = 400 - 55; await pausa(2000);
+  E.cofre.abierto = ahora(); estallido(640, 400, '#ffd36b', 1200, 260);
+  E.banner = {txt: '¡CAMPEÓN DE GURUBASHI!', sub: `${premio.nombre} abre el cofre de la arena`, col: '#ffd36b', t0: ahora(), fijo: true};
+  await remate(b, premio, '¡CAMPEÓN DE LA ARENA GURUBASHI!', 'inv_box_02');
+}
+
+// --- botones ---
+$('arenaPantalla').onclick = () => document.fullscreenElement ? document.exitFullscreen() : $('arena').requestFullscreen();
+$('prueba').onclick = () => {
+  if ($('lista').value.trim() && !confirm('Esto sustituye la lista por 300 subs de prueba. ¿Seguro?')) return;
+  const sil = ['Thra', 'Kal', 'Mor', 'Zul', 'Vex', 'Gor', 'Ely', 'Syl', 'Dra', 'Fen', 'Ner', 'Bal', 'Ash', 'Kor', 'Lyn', 'Ur'], fin = ['gor', 'dris', 'thar', 'iel', 'nok', 'wyn', 'mak', 'ra', 'zug', 'lith', 'dan', 'sha'];
+  const tier = () => { const r = azar(100); return r < 8 ? 3 : r < 25 ? 2 : 1; };
+  $('lista').value = Array.from({length: 300}, (_, i) => `${sil[Math.floor(azar(sil.length))]}${fin[Math.floor(azar(fin.length))]}${i + 1},${tier()}`).join('\n');
+  resumen(); vistaModo();
+};
+['lista', 'gratis', 'p1', 'p2', 'p3', 'pg', 'quitar'].forEach(id => $(id).addEventListener('input', () => { if (!girando && $('arena').classList.contains('ver')) arenaReposo(); }));
 vistaModo();
 </script></body></html>
