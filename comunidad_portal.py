@@ -827,6 +827,12 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
     ('confirmado', 'inv_sword_39', 'La misión legendaria de primavera',
      'Confirmada para la primavera de 2027, junto a dos bandas nuevas (10 y 20) y dos mazmorras. Blizzard no ha dicho qué arma será ni para qué clase.',
      'Blizzard: hoja de ruta'),
+    ('confirmado', 'achievement_level_60', 'Más de 8 millones de personajes en la beta',
+     'Durante la beta de WoW Forever se crearon <strong>más de 8 millones de personajes</strong>. Da una idea de la gente que llegará el día 4: colas largas el primer día y zonas de inicio llenas.',
+     'Datos de Blizzard, vía <a href="https://www.wowhead.com/news=383669" target="_blank" rel="noopener noreferrer">Wowhead</a> (30-10)'),
+    ('juego', 'ability_mount_ridinghorse', 'Un camino nuevo del Pantano de las Penas al norte',
+     'En el mapa original no había forma de pasar del Pantano de las Penas hacia Crestagrana y lo que queda al norte. En Forever hay un <strong>camino nuevo</strong> en la parte norte del pantano que lleva a Crestagrana y a <strong>Riverglades</strong>, la zona nueva: atajo para viajar por esa parte de los Reinos del Este. En los reinos JcJ, ojo con las emboscadas.',
+     'Visto en la beta y contado por AlterTime (30-10). Sin nota de Blizzard.'),
     ('confirmado', 'inv_misc_map_01', 'Riverglades por dentro',
      'En Riverglades (35-45), la Alianza tiene de su lado a la <strong>Brotherhood of the Horse</strong>, con base en <strong>Farholde Keep</strong>, y la Horda al clan ogro <strong>Boulderrock</strong>, que antes servía al Martillo Crepuscular. '
      'Hay un ring de peleas de ogros y el <strong>Bloodmasters Ring</strong>, una arena de desafíos parecida al Ring of Blood de Nagrand, a partir del nivel 36 más o menos.',
