@@ -91,6 +91,8 @@ def build():
                 '<a class="btn ghost" href="../../comunes/#crear">Cómo crear una macro</a></div></div>')
         # Enlaces a otras partes de la guía (builds, otras secciones): a la guía de la clase.
         body = re.sub(r'href="#([^"]+)"', lambda m: m[0] if m[1] in ids else f'href="../../{slug}/#{m[1]}"', body)
+        import macros_limpieza  # Van 30-10: sin builds de la beta ni nivel 30 en las notas
+        body = macros_limpieza.aplicar(body)
         h = re.sub(r'<title>.*?</title>', f'<title>Macros de {E(name)} para WoW Forever: copiar y pegar | Muchamiel</title>', head, count=1, flags=re.S)
         h = h.replace('</style>', BUSCADOR_CSS + '</style>', 1)
         h = re.sub(r'<meta name="description" content="[^"]*">',

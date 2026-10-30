@@ -347,7 +347,12 @@ def build(page, dist):
         page('profesiones/' + slug, titulo[0], desc[0], es)
 
 
-TEXTOS_SUELTOS = {}
+TEXTOS_SUELTOS = {  # Van 30-10: textos sueltos fuera de las guías (404, calendario sin el torneo)
+    'La página que buscas no existe. Vuelve a la guía de WoW Forever de la comunidad de Muchamiel.':
+        "The page you're looking for doesn't exist. Head back to the Muchamiel community's WoW Forever guide.",
+    'Todas las fechas de WoW Forever en orden: la prueba de estrés gratis y el fin de la beta (21), la reserva de nombres (27 de octubre al 3 de noviembre) y el lanzamiento (4 de noviembre).':
+        'Every WoW Forever date in order: the free stress test and the end of the beta (21st), name reservation (October 27 to November 3) and launch (November 4).',
+}
 
 
 def tarjetas_prof(lang='es'):
@@ -420,7 +425,8 @@ def insertar_subir(s):
 def registrar_en():
     """Guarda en traducciones/en.json los pares castellano → inglés de las guías (misma estructura en los dos idiomas)."""
     import idiomas
-    nuevos = dict(TEXTOS_SUELTOS)
+    import macros_limpieza
+    nuevos = dict(TEXTOS_SUELTOS, **macros_limpieza.EN)
     for es, en in PARES:
         ue, un = [], []
         for arbol_, out in ((idiomas.arbol(es), ue), (idiomas.arbol(en), un)):

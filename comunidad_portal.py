@@ -1127,7 +1127,6 @@ def zona_subs_page():
 # fin de beta y reserva, lanzamiento y bandas (FECHAS de forever_portal y research/forever-lanzamiento.md).
 # Las del lanzamiento no se copian: salen de forever_portal.FECHAS, así una fecha se cambia en un solo sitio.
 CALENDARIO_BETA = [
-    ('17 y 18 oct', 'The Forever Open, el torneo 1v1 de duelos a nivel 30 (100.000 $ en premios). <a href="../torneo/">Todo sobre el torneo</a>.'),
     ('22 y 23 oct', 'Fiesta de despedida de la beta: 24 horas de evento en las zonas de inicio, hasta el viernes 23 a las 19:00. <a href="../fin-beta/">Qué hay</a>.'),
     ('21 oct, 19:00', 'Prueba de estrés gratis (Blizzard la pasó del 19 al 21): WoW Forever se abre a todo el mundo unas horas, sin suscripción, en los servidores del lanzamiento. <a href="../beta-gratis/">Cómo entrar</a>.'),
 ]
@@ -1150,7 +1149,7 @@ def calendario_page():
             '<p class="fine">Hora peninsular. Prueba de estrés del 21: en México a las 15:00; en Chile y Argentina a las 18:00. Fin de la beta, el 23 a las 19:00: en México a las 11:00; en Chile y Argentina a las 14:00. ''Lanzamiento: en la península, las 00:00 del 5; en México, el 4 a las 17:00; en Chile y Argentina, el 4 a las 20:00. '
             'Blizzard puede cambiar las fechas.</p>')
     page('calendario', 'Calendario de WoW Forever: todas las fechas clave | Muchamiel',
-         'Todas las fechas de WoW Forever en orden: el torneo The Forever Open (17 y 18 de octubre), la prueba de estrés gratis y el fin de la beta (21), '
+         'Todas las fechas de WoW Forever en orden: la prueba de estrés gratis y el fin de la beta (21), '
          'la reserva de nombres (27 de octubre al 3 de noviembre) y el lanzamiento (4 de noviembre).', body)
 
 
@@ -1359,6 +1358,7 @@ def build_pages():
     tpl = (dist / 'comunes' / 'index.html').read_text(encoding='utf-8')
     head = re.sub(r'<title>.*?</title>', '<title>Página no encontrada · WoW Forever</title>', tpl[:tpl.index('<body')], count=1, flags=re.S)
     head = head.replace('<meta name="description"', '<meta name="robots" content="noindex"><meta name="description"', 1)
+    head = re.sub(r'(<meta name="description" content=")[^"]*', r'\1La página que buscas no existe. Vuelve a la guía de WoW Forever de la comunidad de Muchamiel.', head, count=1)  # Van 30-10: sin nivel 30
     (dist / '404.html').write_text(head.replace('href="../', 'href="/').replace('src="../', 'src="/') +
                                    '<body><header></header><main><section class="hero"><p class="eyebrow">ERROR 404</p><h1>Te has perdido en Azeroth</h1>'
                                    '<p class="lead">Esta página no existe (o se la ha llevado un pícaro en sigilo).</p><div class="actions"><a class="btn gold" href="/">Volver al inicio</a></div></section></main></body></html>',
