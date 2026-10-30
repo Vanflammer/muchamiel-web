@@ -1,0 +1,166 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "El JcJ de WoW Forever mezcla lo clásico con ideas nuevas: vuelven los rangos del 1 al 14 y los campos de batalla de siempre, pero ahora hay temporadas, dos monedas (honor y Puntos de rango) y un campo de batalla nuevo de 15 contra 15, las Islas Lanza Negra (Darkspear Islands). Aquí tienes lo que está confirmado, lo que se vio en la beta y lo que de momento solo sabemos por Classic. Cada apartado lleva su etiqueta para que sepas cuánto fiarte.",
+    "en": "PvP in WoW Forever blends the classic formula with new ideas: Ranks 1 to 14 and the old battlegrounds are back, but now there are seasons, two currencies (Honor and Rank Points) and a brand-new 15v15 battleground, Darkspear Islands. This page covers what is confirmed, what we saw in the beta and what we only know from Classic so far. Every section is tagged so you know how much to trust it."
+  },
+  "basico": [
+    {
+      "titulo": {"es": "Tipos de reino: Normal, JcJ, Rol y Rol-JcJ", "en": "Ruleset types: Normal, PvP, RP and RP-PvP"},
+      "texto": {
+        "es": "En Forever no eliges un reino concreto, sino un conjunto de reglas: Normal (el JcJ en el mundo es voluntario), JcJ (en las zonas en disputa te pueden atacar siempre), Rol y Rol-JcJ, que Blizzard añadió al final de la beta. Hardcore llegará más adelante. En las reglas JcJ solo puedes tener personajes de una facción por cuenta, y la facción de una hermandad JcJ es para siempre. Durante la reserva de nombres Blizzard frenó a ratos la creación de personajes de la Horda en JcJ porque había muchos más que de la Alianza.",
+        "en": "In Forever you don't pick a specific realm, you pick a ruleset: Normal (world PvP is opt-in), PvP (in contested zones anyone can attack you at any time), RP, and RP-PvP, which Blizzard added at the end of the beta. Hardcore comes later. On the PvP ruleset each account can only have characters on one faction, and a PvP guild's faction is permanent. During name reservation Blizzard temporarily throttled new Horde characters on PvP because they heavily outnumbered the Alliance."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Honor y Puntos de rango: dos cosas distintas", "en": "Honor and Rank Points: two separate things"},
+      "texto": {
+        "es": "El honor es la moneda: con él compras el equipo y las recompensas de JcJ. Se gana matando jugadores enemigos, terminando campos de batalla y haciendo misiones de JcJ. Los Puntos de rango son los que te hacen subir de rango y salen de los campos de batalla y las misiones de JcJ (las muertes en el mundo no aparecen en la lista oficial). Los dos dan más en el campo de batalla destacado de la semana festiva. En la beta el tope de honor subió de 15.000 a 25.000 y las Marks of Honor de campo de batalla se acumulan hasta 30. El perk de Legacy For Great Honor da un 10 % más de honor.",
+        "en": "Honor is the currency: you spend it on PvP gear and rewards. You earn it by killing enemy players, finishing battlegrounds and doing PvP quests. Rank Points are what move you up the ranks, and they come from battlegrounds and PvP quests (world kills aren't on Blizzard's list). Both get a boost in the featured holiday-week battleground. During the beta the Honor cap went up from 15,000 to 25,000, and battleground Marks of Honor now stack to 30. The Legacy perk For Great Honor gives 10% more Honor."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Rangos del 1 al 14 y temporadas", "en": "Ranks 1 to 14 and seasons"},
+      "texto": {
+        "es": "Vuelven los 14 rangos con sus títulos de siempre, hasta High Warlord en la Horda y Grand Marshal en la Alianza. La gran diferencia: el rango ya no se pierde cada semana. Cada temporada empiezas en el rango 1 y subes con Puntos de rango, que tienen un tope semanal (Blizzard no ha dicho la cifra). Las temporadas duran unos 4 meses, como los parches grandes. Cada temporada trae un recorrido de tareas semanales (Field of Honor Journey) que dan honor y Puntos de rango; tres de ellas dan además un punto de Legacy. Tu rango y tus puntos se ven en la ventana de personaje (tecla C), pestaña de JcJ.",
+        "en": "All 14 ranks are back with their classic titles, up to High Warlord for the Horde and Grand Marshal for the Alliance. The big difference: there is no more weekly decay. Each season you start at Rank 1 and climb with Rank Points, which have a weekly cap (Blizzard hasn't given the number). Seasons last about 4 months, matching the big patches. Each season has a journey of weekly tasks (the Field of Honor Journey) that award Honor and Rank Points; three of them also grant a Legacy point. You can check your rank and points in the character window (C key), on the PvP tab."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Recompensas por rango", "en": "Rank rewards"},
+      "texto": {
+        "es": "Cada rango desbloquea algo: <b>1</b> tabardo, <b>2</b> abalorio de JcJ, <b>3</b> capas, <b>4</b> collar, <b>5</b> pociones de combate, <b>6</b> otro tabardo, <b>7</b> estandarte de batalla, <b>8</b> fichas de brazales y cinturón épicos, <b>9</b> botas, <b>10</b> guantes, <b>11</b> monturas, <b>12</b> piernas y hombros, <b>13</b> pecho y casco, <b>14</b> armas épicas. Llegar a los rangos 3, 7, 10, 13 y 14 también da puntos de Legacy.",
+        "en": "Every rank unlocks something: <b>1</b> tabard, <b>2</b> PvP trinket, <b>3</b> cloaks, <b>4</b> necklace, <b>5</b> combat potions, <b>6</b> another tabard, <b>7</b> battle standard, <b>8</b> epic bracer and belt tokens, <b>9</b> boots, <b>10</b> gloves, <b>11</b> mounts, <b>12</b> legs and shoulders, <b>13</b> chest and helm, <b>14</b> epic weapons. Reaching Ranks 3, 7, 10, 13 and 14 also gives Legacy points."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Equipo de JcJ: azul y épico", "en": "PvP gear: blue and epic"},
+      "texto": {
+        "es": "Con honor compras dos conjuntos: uno azul y otro épico. Para tener la pieza épica necesitas la azul más un Emboldened Seal, y ese sello pide un rango mínimo. Además, cada ranura épica se abre con una ficha de mejora en el rango que le toca (mira la lista de arriba). En la beta subieron los precios en honor del equipo y de las fichas, la mayoría un 50 %. Hay conjuntos nuevos para especializaciones que antes no tenían, como el chamán, que tiene uno de sanador, otro cuerpo a cuerpo y otro de hechizos. Los campos de batalla también tienen intendentes de reputación con abalorios, anillos, capas, armas y armadura.",
+        "en": "Honor buys two sets: a blue one and an epic one. To get an epic piece you need the blue piece plus an Emboldened Seal, and that seal requires a minimum rank. Each epic slot also unlocks with an upgrade token at its rank (see the list above). During the beta the Honor prices of gear and tokens went up, most of them by 50%. There are new sets for specs that used to have nothing, like the Shaman, who gets a healer, a melee and a caster set. Battlegrounds also have reputation quartermasters with trinkets, rings, cloaks, weapons and armor."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Colas y tramos de nivel", "en": "Queues and level brackets"},
+      "texto": {
+        "es": "Te apuntas hablando con un maestro de batalla en cualquier capital (las Islas Lanza Negra también tienen portal en tu base de Los Baldíos). Los tramos van de 10 en 10: Warsong Gulch desde el nivel 10, Arathi Basin desde el 20, Islas Lanza Negra desde el 30 y Alterac Valley del 51 al 60 en un solo tramo. En los campos de batalla puedes coincidir con jugadores de otras reglas (Normal, JcJ, Rol), pero nunca con Hardcore, y las facciones siguen separadas. Blizzard ha dicho que los grupos hechos se enfrentarán a grupos hechos, así que si vas solo o con pocos amigos no deberías caer contra uno.",
+        "en": "You queue by talking to a battlemaster in any capital city (Darkspear Islands also has a portal at your faction's base in The Barrens). Brackets go in steps of ten: Warsong Gulch from level 10, Arathi Basin from 20, Darkspear Islands from 30, and Alterac Valley as a single 51-60 bracket. You can be matched with players from other rulesets (Normal, PvP, RP) but never Hardcore, and factions stay separate. Blizzard has said premades will face premades, so solo players and small groups shouldn't run into one."
+      },
+      "estado": "beta"
+    }
+  ],
+  "campos": [
+    {
+      "nombre": {"es": "Islas Lanza Negra (Darkspear Islands)", "en": "Darkspear Islands"},
+      "jugadores": "15 vs 15",
+      "niveles": "30-39, 40-49, 50-59, 60",
+      "nuevo": true,
+      "objetivo": {
+        "es": "Unas islas frente a la costa del Marjal Revolcafango. La Horda va con los Darkspear Raiders (base en Merchant Coast, Los Baldíos) y la Alianza con la Theramore Expeditionary Force (base en Northwatch, Los Baldíos). Hay cuatro puntos que capturar: cuantos más tengas, más rápido sumas. En el centro aparece una bandera; si la llevas a un punto que controle tu equipo, sumas más. Gana el primero que llega a 2.000 puntos. Se parece al Eye of the Storm de The Burning Crusade.",
+        "en": "A set of islands off the coast of Dustwallow Marsh. The Horde fights as the Darkspear Raiders (based at Merchant Coast in The Barrens) and the Alliance as the Theramore Expeditionary Force (based at Northwatch in The Barrens). There are four capture points: the more you hold, the faster you score. A flag spawns in the middle; carry it to a point your team controls for extra points. First team to 2,000 points wins. It plays a lot like Eye of the Storm from The Burning Crusade."
+      },
+      "consejos": [
+        {"es": "Tener dos puntos y defenderlos bien vale más que tener cuatro un minuto y perderlos todos. Dejad siempre a alguien vigilando.", "en": "Holding two points properly beats owning four for a minute and losing them all. Always leave someone on guard."},
+        {"es": "La bandera solo puntúa en un punto vuestro: antes de recogerla, mirad el mapa y decidid a cuál vais a llevarla.", "en": "The flag only scores at a point you own: before you pick it up, check the map and agree where you'll take it."},
+        {"es": "Proteged al que lleva la bandera con sanación y control; un portador solo es una presa fácil.", "en": "Escort the flag carrier with heals and crowd control; a lone carrier is an easy kill."},
+        {"es": "Entregad las Marks of Honor en vuestra base de Los Baldíos: dan reputación, y en Exalted hay una cadena corta con el tabardo de la facción. Ahora se acumulan hasta 30.", "en": "Turn in your Marks of Honor at your Barrens base: they give reputation, and at Exalted there's a short quest chain for the faction tabard. They now stack to 30."},
+        {"es": "Haced las misiones de campo de batalla de vuestra base: suman reputación con el intendente, que vende abalorios, anillos, capas y armas.", "en": "Pick up the battleground quests at your base: they add reputation with the quartermaster, who sells trinkets, rings, cloaks and weapons."}
+      ],
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Garganta Grito de Guerra (Warsong Gulch)", "en": "Warsong Gulch"},
+      "jugadores": "10 vs 10",
+      "niveles": "10-19, 20-29, 30-39, 40-49, 50-59, 60",
+      "nuevo": false,
+      "objetivo": {
+        "es": "Captura la bandera. Hay que entrar en la base enemiga, robar su bandera y llevarla a la tuya mientras tu bandera sigue en su sitio. Gana el primer equipo que hace tres capturas.",
+        "en": "Capture the flag. Get into the enemy base, take their flag and bring it back to yours while your own flag is still at home. First team to three captures wins."
+      },
+      "consejos": [
+        {"es": "Repartid el equipo: unos atacan, otros defienden la bandera y alguien controla el centro. Si todos van a por la bandera, os roban la vuestra.", "en": "Split the team: some attack, some guard your flag and someone holds the middle. If everyone goes for the enemy flag, yours gets stolen."},
+        {"es": "El portador ideal aguanta y se mueve rápido: druida en Travel Form, guerrero con mucha armadura o cualquiera con sanador al lado.", "en": "The best carrier is tough and fast: a Druid in Travel Form, a well-armored Warrior or anyone with a healer at their side."},
+        {"es": "Si las dos banderas están fuera, nadie puede capturar: hay que matar al portador rival para recuperar la vuestra.", "en": "If both flags are out, nobody can score: you have to kill the enemy carrier to return yours."},
+        {"es": "Avisad por el chat dónde va el portador (túnel, rampa, cementerio): ahorra muchas muertes.", "en": "Call out where the carrier is going (tunnel, ramp, graveyard) in chat: it saves a lot of deaths."}
+      ],
+      "estado": "beta"
+    },
+    {
+      "nombre": {"es": "Cuenca de Arathi (Arathi Basin)", "en": "Arathi Basin"},
+      "jugadores": "15 vs 15",
+      "niveles": "20-29, 30-39, 40-49, 50-59, 60",
+      "nuevo": false,
+      "objetivo": {
+        "es": "Control de recursos. Hay cinco bases: Stables, Blacksmith, Lumber Mill, Gold Mine y Farm. Cada base que controlas suma recursos poco a poco, y cuantas más tengas, más rápido. En Classic ganaba el primero que llegaba a 2.000 recursos (falta confirmar la cifra en Forever). En la beta se podía entrar desde el nivel 20 y las misiones de la zona daban 200 de reputación con The League of Arathor o The Defilers.",
+        "en": "Resource control. There are five bases: Stables, Blacksmith, Lumber Mill, Gold Mine and Farm. Every base you hold builds resources over time, and the more bases you hold, the faster they come. In Classic the first team to 2,000 resources won (the Forever number isn't confirmed yet). In the beta you could enter from level 20, and the zone quests gave 200 reputation with The League of Arathor or The Defilers."
+      },
+      "consejos": [
+        {"es": "Con tres bases bien defendidas se gana. No persigáis la cuarta si eso deja vacía una de las vuestras.", "en": "Three well-defended bases wins the game. Don't chase a fourth if it leaves one of yours empty."},
+        {"es": "Una bandera tarda un rato en pasar a vuestro control: si alguien la toca, se reinicia. Interrumpid siempre al que la está capturando.", "en": "A flag takes a while to turn: any hit resets it. Always interrupt whoever is capping."},
+        {"es": "Al empezar, el Blacksmith del centro decide mucho: quien lo tiene llega antes a todas partes.", "en": "At the start, the Blacksmith in the middle matters a lot: whoever holds it reaches everything faster."},
+        {"es": "No dejéis a una sola persona en una base contra un pícaro o un druida: mejor dos y avisar en cuanto aparezca alguien.", "en": "Never leave one person alone on a base against a Rogue or Druid: put two there and call out as soon as someone shows up."}
+      ],
+      "estado": "beta"
+    },
+    {
+      "nombre": {"es": "Valle de Alterac (Alterac Valley)", "en": "Alterac Valley"},
+      "jugadores": "40 vs 40",
+      "niveles": "51-60",
+      "nuevo": false,
+      "objetivo": {
+        "es": "La gran batalla de 40 contra 40. Cada bando tiene refuerzos que bajan cuando muere un jugador y cuando pierde torres, búnkeres o capitanes. Se gana matando al general enemigo (Drek'Thar o Vanndar Stormpike) o dejando al rival sin refuerzos. Estas reglas son las de Classic: en la beta no se pudo probar porque el tope era el nivel 30.",
+        "en": "The big 40v40 battle. Each side has reinforcements that drop when a player dies and when they lose towers, bunkers or captains. You win by killing the enemy general (Drek'Thar or Vanndar Stormpike) or by draining the other side's reinforcements. These are the Classic rules: it couldn't be tested in the beta because the level cap was 30."
+      },
+      "consejos": [
+        {"es": "En Forever no compensa quedarse solo en Alterac: Blizzard ha repartido el honor para que los demás campos den tanto o más. Rotad entre todos.", "en": "In Forever it doesn't pay to only play Alterac: Blizzard has rebalanced Honor so the other battlegrounds give as much or more. Rotate between them."},
+        {"es": "Las torres y búnkeres restan muchos refuerzos al rival: destruirlas suele valer más que pelear en medio del camino.", "en": "Towers and bunkers take a big chunk of the enemy's reinforcements: burning them is usually worth more than brawling mid-road."},
+        {"es": "Defended vuestros cementerios cercanos al general: si los perdéis, reaparecéis muy lejos y el rival llega antes.", "en": "Defend the graveyards near your general: lose them and you respawn far away while the enemy gets there first."},
+        {"es": "Antes de ir a por el general, matad o desactivad a sus guardias y capitanes; si no, el combate se alarga y se pierde.", "en": "Before pulling the general, deal with his guards and captains; otherwise the fight drags on and you lose it."}
+      ],
+      "estado": "classic"
+    }
+  ],
+  "mundo": [
+    {"es": "En las reglas JcJ te pueden atacar en cualquier zona en disputa sin avisar. En Normal solo luchas si activas el JcJ tú mismo (o si atacas a alguien que lo tiene activado).", "en": "On the PvP ruleset anyone can attack you in contested zones without warning. On Normal you only fight if you turn PvP on yourself (or attack someone who has it on)."},
+    {"es": "Blizzard no va a proteger a los personajes de nivel bajo de los de nivel 60 en los reinos JcJ: solo intervendrá si hay trampas. Si eliges JcJ, cuenta con encuentros duros mientras subes.", "en": "Blizzard won't protect low-level characters from level 60s on PvP rulesets: they'll only step in for cheating. If you pick PvP, expect some rough encounters while leveling."},
+    {"es": "Matar jugadores enemigos da honor, pero en la lista oficial los Puntos de rango solo salen de campos de batalla y misiones de JcJ. Para subir de rango, el mundo abierto no basta.", "en": "Killing enemy players gives Honor, but according to Blizzard Rank Points only come from battlegrounds and PvP quests. To climb ranks, world PvP alone won't do it."},
+    {"es": "Las capas reparten a la gente por grupos y el juego intenta ponerte con tu hermandad y tus amigos. Tras las batallas masivas de la beta (Orgrimmar, Vallefresno), Blizzard estudia que el servidor detecte esas peleas y les dé más capacidad.", "en": "Layering splits players into groups, and the game tries to keep you with your guild and friends. After the huge fights in the beta (Orgrimmar, Ashenvale), Blizzard is looking at letting the servers detect those battles and give them more capacity."},
+    {"es": "Cuidado con lo que activa el JcJ: en la beta se arregló que Sap marcara al pícaro para JcJ al usarlo sobre un objetivo marcado. En Dalaran (Alterac) los guardias atacan a la Horda nada más verla, aunque la mazmorra sigue abierta para todos.", "en": "Watch what flags you: in the beta Sap was fixed to flag the Rogue when used on a flagged target. In Dalaran (Alterac) the guards attack the Horde on sight, though the dungeon is still open to both factions."},
+    {"es": "Hay una arena de duelos en un cráter del monte Hyjal (se usó en el torneo), pero Blizzard dice que aún no está lista. Los duelos normales funcionan en cualquier sitio.", "en": "There's a duel arena in a crater on Mount Hyjal (it was used for the tournament), but Blizzard says it isn't ready yet. Regular duels work anywhere."}
+  ],
+  "cambios": [
+    {"es": "El rango ya no cae cada semana ni depende de competir con el resto del servidor: subes con Puntos de rango, con un tope semanal, y vuelves a empezar cada temporada.", "en": "Rank no longer decays every week or depends on competing with the rest of the server: you climb with Rank Points, up to a weekly cap, and start over each season."},
+    {"es": "El honor ya no es lo que te sube de rango: es una moneda para comprar equipo, con tope (25.000 en la beta).", "en": "Honor no longer climbs your rank: it's a currency to buy gear, with a cap (25,000 in the beta)."},
+    {"es": "Temporadas de unos 4 meses con tareas semanales, y puntos de Legacy por rango, reputaciones de campo de batalla y semanas de temporada (12 desafíos de JcJ en total, que no cuentan en Hardcore).", "en": "Seasons of about 4 months with weekly tasks, plus Legacy points for ranks, battleground reputations and season weeks (12 PvP challenges in total, which don't count on Hardcore)."},
+    {"es": "Equipo en dos pasos: conjunto azul con honor y versión épica con Emboldened Seal y fichas por rango. Hay conjuntos nuevos para especializaciones que no tenían.", "en": "Two-step gear: a blue set for Honor and an epic version through Emboldened Seals and rank tokens. There are new sets for specs that had none."},
+    {"es": "Nuevo campo de batalla de 15 contra 15, las Islas Lanza Negra (30-60), con puntos y bandera.", "en": "New 15v15 battleground, Darkspear Islands (30-60), with capture points and a flag."},
+    {"es": "El honor está repartido para que Alterac Valley no sea la única opción que compensa.", "en": "Honor is rebalanced so Alterac Valley isn't the only option worth playing."},
+    {"es": "Grupos hechos contra grupos hechos, y campos de batalla con jugadores de distintas reglas (sin Hardcore).", "en": "Premades face premades, and battlegrounds mix players from different rulesets (but not Hardcore)."},
+    {"es": "Los críticos ya no pierden fuerza en JcJ (cambio de la beta).", "en": "Critical strikes no longer have reduced effect in PvP (beta change)."},
+    {"es": "Sin arenas: Blizzard prefiere peleas de 10 contra 10 y 15 contra 15, aunque no lo descarta del todo.", "en": "No arenas: Blizzard prefers 10v10 and 15v15 fights, though it hasn't ruled them out entirely."}
+  ],
+  "pendiente": [
+    {"es": "Cuántos Puntos de rango pide cada rango y de cuánto es el tope semanal. Una guía calcula 24.750 puntos para el rango 14, sin confirmar por Blizzard.", "en": "How many Rank Points each rank needs and the size of the weekly cap. One guide estimates 24,750 points for Rank 14; Blizzard hasn't confirmed it."},
+    {"es": "Cuánto honor da cada victoria, muerte o misión, y los precios finales del equipo y de los sellos.", "en": "How much Honor each win, kill or quest gives, and the final prices of gear and seals."},
+    {"es": "Fecha de inicio de la primera temporada y qué campo de batalla abre cada semana festiva.", "en": "Start date of the first season and which battleground gets each holiday week."},
+    {"es": "Si Arathi Basin y Alterac Valley mantienen las cifras de Classic (recursos para ganar, refuerzos) o cambian.", "en": "Whether Arathi Basin and Alterac Valley keep their Classic numbers (resources to win, reinforcements) or change."},
+    {"es": "Los desafíos de grupo contra grupo en campos de batalla (sin honor) y la arena de duelos de Hyjal: Blizzard los ha anunciado para después del lanzamiento, sin fecha.", "en": "Group-vs-group battleground challenges (no Honor) and the Hyjal duel arena: Blizzard has mentioned them for after launch, with no date."}
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de Blizzard (resumen traducido)", "url": "https://muchamielwow.github.io/cambios/"},
+    {"nombre": "Blizzard: WoW Forever llega el 4 de noviembre (es-es)", "url": "https://news.blizzard.com/es-es/article/24303862/"},
+    {"nombre": "Blizzard: el Legado de WoW Forever", "url": "https://news.blizzard.com/en-us/article/24307383/"},
+    {"nombre": "Novedades del 29 de octubre (entrevista y pódcast oficial)", "url": "https://muchamielwow.github.io/novedades-29-octubre/"},
+    {"nombre": "Warcraft Tavern: PvP Progression in WoW Forever", "url": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"},
+    {"nombre": "Icy Veins: WoW Forever PvP Overview", "url": "https://www.icy-veins.com/wow-forever/pvp-overview"},
+    {"nombre": "Method: New PvP Ranking System Explained", "url": "https://www.method.gg/wow-forever/new-pvp-ranking-system-explained-in-world-of-warcraft-forever"},
+    {"nombre": "AccountShark: PvP progression y Darkspear Islands", "url": "https://accountshark.net/blog/wow-forever-pvp-progression-honor-rank-rewards-darkspear-islands-guide"},
+    {"nombre": "Guild Order: PvP ranks, battlegrounds and the Field of Honor", "url": "https://guildorder.com/games/wow_forever/wiki/pvp-ranks-battlegrounds-and-the-field-of-honor"},
+    {"nombre": "Kami Labs: Arathi Basin en el cliente de la beta", "url": "https://kami-labs.fr/en/bassin-d-arathi-wow-forever/"}
+  ]
+}

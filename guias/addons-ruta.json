@@ -1,0 +1,162 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Un addon de ruta te dice qué misión aceptar, dónde entregarla y a qué zona ir después, paso a paso y con una flecha. No es lo mismo que Questie, que solo marca las misiones en el mapa. Forever cambió muchas misiones y añadió zonas nuevas, así que las rutas de Classic ya no sirven tal cual. A 30 de octubre ninguna guía tiene comprobado el tramo 30-60 de Forever, porque la beta solo llegaba al nivel 30. Esta lista dice qué funciona hoy y qué falta.",
+    "en": "A route addon tells you which quest to pick up, where to turn it in and which zone to head to next, step by step with an arrow. That's different from Questie, which only marks quests on the map. Forever changed a lot of quests and added new zones, so Classic routes don't work as they are. As of October 30, no guide has a tested 30-60 Forever route, because the beta stopped at level 30. Here's what works today and what's still missing."
+  },
+  "addons": [
+    {
+      "nombre": "Questie",
+      "forever": "si",
+      "que_hace": {
+        "es": "Marca en el mapa y el minimapa dónde están las misiones, a quién entregarlas y dónde están los objetivos. No te dice el orden ni la ruta.",
+        "en": "Shows on the map and minimap where quests are, who to turn them in to and where the objectives are. It doesn't give you an order or a route."
+      },
+      "precio": {
+        "es": "Gratis.",
+        "en": "Free."
+      },
+      "nota": {
+        "es": "Funciona en el cliente de Forever desde finales de septiembre y se actualiza casi cada semana: ya trae datos de Forever, arreglos de la Isla de Zephras y las mazmorras nuevas en su diario. Aun así, algunas misiones nuevas de Forever todavía faltan o están mal colocadas. Muchos addons de ruta lo usan como base, así que conviene tenerlo siempre.",
+        "en": "It has worked on the Forever client since late September and gets updates almost every week: it already has Forever data, Zephras Isle fixes and the new dungeons in its journal. Even so, some new Forever quests are still missing or misplaced. Many route addons rely on it, so it's worth keeping installed."
+      },
+      "url": "https://www.curseforge.com/wow/addons/questie"
+    },
+    {
+      "nombre": "Polestar Guides",
+      "forever": "beta",
+      "que_hace": {
+        "es": "Addon de guías hecho solo para Forever: rutas del 1 al 60 para cada raza y facción, flecha que sigue caminos reales, planificador de viajes, guías de misiones de clase, profesiones del 1 al 300, reputaciones y diario de mazmorras. Se puede leer en castellano.",
+        "en": "A guide addon built just for Forever: 1-60 routes for every race and faction, an arrow that follows real paths, a travel planner, class quest guides, professions 1-300, reputations and a dungeon journal. Available in Spanish."
+      },
+      "precio": {
+        "es": "Gratis y de código abierto.",
+        "en": "Free and open source."
+      },
+      "nota": {
+        "es": "Incluye la Isla de Zephras (inicio de los Skyborne). Sus propios autores avisan de que está en beta y de que las rutas se han probado en un simulador, no jugando en Forever. El contenido nuevo del 30 al 60 (Riverglades, Shen'dralas, Monte Hyjal) aún no está en sus datos; dicen que lo añadirán tras el lanzamiento.",
+        "en": "Covers Zephras Isle (the Skyborne starting zone). Its own authors say it's in beta and that routes were tested in a simulator, not played on Forever. The new 30-60 content (Riverglades, Shen'dralas, Mount Hyjal) isn't in its data yet; they plan to add it after launch."
+      },
+      "url": "https://www.curseforge.com/wow/addons/polestar-guides"
+    },
+    {
+      "nombre": "RestedXP Guides",
+      "forever": "si",
+      "que_hace": {
+        "es": "Guía paso a paso muy pulida, pensada para subir rápido: flecha, pasos que se completan solos, rutas con o sin mazmorras y avisos de entrenador y piedra de hogar.",
+        "en": "A polished step-by-step guide built for fast leveling: arrow, steps that complete on their own, routes with or without dungeons, and reminders for trainers and hearthstone."
+      },
+      "precio": {
+        "es": "El addon es gratis y trae gratis las rutas de inicio (más o menos hasta el nivel 20-22, Isla de Zephras incluida). La guía completa de Forever es de pago: unos 30 $ por facción o 45 $ las dos, según webs que la venden con enlace de afiliado. Confirma el precio en su tienda.",
+        "en": "The addon is free and includes the starter routes for free (roughly up to level 20-22, Zephras Isle included). The full Forever guide is paid: about $30 per faction or $45 for both, according to affiliate sites. Check the price in their store."
+      },
+      "nota": {
+        "es": "Es la que más avanzada está en Forever: rutas propias hasta el nivel 35 más o menos y guía de mazmorras. Del 35 al 60 usa por ahora las rutas de Classic, que no pasan por las zonas nuevas; las rutas de Forever para ese tramo llegan después del lanzamiento, sin fecha. Se actualiza casi a diario.",
+        "en": "It's the furthest along on Forever: its own routes up to about level 35 plus a dungeon guide. From 35 to 60 it uses Classic routes for now, which skip the new zones; Forever routes for that range come after launch, with no date. Updated almost daily."
+      },
+      "url": "https://www.restedxp.com/"
+    },
+    {
+      "nombre": "Zygor Guides",
+      "forever": "beta",
+      "que_hace": {
+        "es": "Guía completa dentro del juego: ruta del 1 al 60, flecha, mazmorras, profesiones y viajes. La más conocida de las de pago.",
+        "en": "A full in-game guide: 1-60 route, arrow, dungeons, professions and travel. The best known of the paid ones."
+      },
+      "precio": {
+        "es": "De pago, con la suscripción Elite: 15 $ al mes o 40 $ cada tres meses (precios de su web).",
+        "en": "Paid, through the Elite subscription: $15 a month or $40 every three months (prices from their site)."
+      },
+      "nota": {
+        "es": "Las guías de Forever salen el día del lanzamiento, no durante la beta. Anuncian rutas por las zonas nuevas (Isla de Zephras, Riverglades, Shen'dralas, Monte Hyjal, Dalaran) y nueve mazmorras nuevas, pero avisan de que al principio el 1-60 puede estar incompleto por los límites de nivel de la beta.",
+        "en": "The Forever guides arrive on launch day, not during the beta. They promise routes through the new zones (Zephras Isle, Riverglades, Shen'dralas, Mount Hyjal, Dalaran) and nine new dungeons, but warn that the 1-60 may be incomplete at first because of the beta's level cap."
+      },
+      "url": "https://www.zygorguides.com/forever"
+    },
+    {
+      "nombre": "Guidelime",
+      "forever": "beta",
+      "que_hace": {
+        "es": "Lector de guías: muestra la lista de pasos, los marca en el mapa y pone una flecha. Las rutas no vienen dentro: se instalan aparte como paquetes de guías de la comunidad. Trae un editor para hacer tu propia guía.",
+        "en": "A guide reader: it shows the list of steps, marks them on the map and adds an arrow. Routes aren't included: you install community guide packs separately. It also comes with an editor to write your own guide."
+      },
+      "precio": {
+        "es": "Gratis (el addon y los paquetes de la comunidad).",
+        "en": "Free (both the addon and the community packs)."
+      },
+      "nota": {
+        "es": "Tiene soporte para Forever desde la versión 6.000 (24 de septiembre) y su web dice que lo tendrá completo. Lo que cubras depende del paquete que instales: hay alguno con las zonas de inicio y el tramo hasta el 30 escrito en la beta, y del 30 al 60 queda pendiente. Conviene instalarlo junto con Questie.",
+        "en": "It has supported Forever since version 6.000 (September 24) and its page says full support is coming. Coverage depends on the pack you install: some cover the starting zones and up to level 30, written during the beta, with 30-60 still to come. Best used together with Questie."
+      },
+      "url": "https://www.curseforge.com/wow/addons/guidelime"
+    },
+    {
+      "nombre": "WoW-Pro Guides",
+      "forever": "beta",
+      "que_hace": {
+        "es": "Guías paso a paso hechas por voluntarios, con flecha y pasos que se marcan solos. Incluye rutas de subida y de mazmorras.",
+        "en": "Step-by-step guides made by volunteers, with an arrow and steps that tick off on their own. Includes leveling and dungeon routes."
+      },
+      "precio": {
+        "es": "Gratis.",
+        "en": "Free."
+      },
+      "nota": {
+        "es": "Tiene versión para Forever y guías nuevas de la Isla de Zephras (1-12, para las dos facciones). El resto de rutas del 12 al 60 son las de Classic adaptadas y no pasan por Riverglades, Shen'dralas ni Monte Hyjal, así que más adelante pueden fallar.",
+        "en": "It has a Forever version and new Zephras Isle guides (1-12, both factions). The rest of the 12-60 routes are adapted Classic ones and don't go through Riverglades, Shen'dralas or Mount Hyjal, so they may break further along."
+      },
+      "url": "https://www.curseforge.com/wow/addons/wow-pro"
+    },
+    {
+      "nombre": "Joana's Guides",
+      "forever": "si",
+      "que_hace": {
+        "es": "Guía de subida dentro del juego con pasos que avanzan solos y flecha en el minimapa.",
+        "en": "An in-game leveling guide with steps that advance on their own and a minimap arrow."
+      },
+      "precio": {
+        "es": "Desconocido: la descarga en CurseForge no muestra precio.",
+        "en": "Unknown: the CurseForge download doesn't list a price."
+      },
+      "nota": {
+        "es": "Tiene un archivo para Forever (9 de octubre), pero solo cubre las zonas de inicio, del 1 al 12. No consta si incluye la Isla de Zephras ni nada más allá del nivel 12.",
+        "en": "It has a Forever file (October 9), but it only covers the starting zones, levels 1-12. It's unclear whether it includes Zephras Isle or anything past level 12."
+      },
+      "url": "https://www.curseforge.com/wow/addons/joanasguides"
+    },
+    {
+      "nombre": "TourGuide",
+      "forever": "desconocido",
+      "que_hace": {
+        "es": "Addon de guías de subida clásico, de los primeros que hubo en WoW.",
+        "en": "A classic leveling guide addon, one of the first ever made for WoW."
+      },
+      "precio": {
+        "es": "Desconocido.",
+        "en": "Unknown."
+      },
+      "nota": {
+        "es": "No hemos encontrado ninguna versión para Forever ni actualizaciones recientes. Mejor no contar con él.",
+        "en": "We couldn't find a Forever version or any recent updates. Better not to count on it."
+      },
+      "url": "https://www.curseforge.com/wow/addons/search?search=tourguide"
+    }
+  ],
+  "consejo": {
+    "es": "Hoy recomendaríamos Questie siempre, más una guía de ruta. Si no quieres pagar, RestedXP gratis para los primeros niveles (es la ruta más probada en la beta) y Polestar para seguir, que además está en castellano. Si quieres una guía de pago, RestedXP es la que más tramo de Forever tiene escrito hoy; Zygor no se puede valorar hasta que salga el 4 de noviembre. Del 35 al 60 ninguna está lista todavía: en las zonas nuevas, guíate por Questie y por el mapa del juego hasta que se actualicen.",
+    "en": "Our pick today: always Questie, plus a route guide. If you don't want to pay, use RestedXP's free starter routes for the first levels (the most tested route from the beta) and Polestar after that, which is also available in Spanish. If you want a paid guide, RestedXP has the most Forever-specific route written right now; Zygor can't be judged until it comes out on November 4. None of them is ready for 35-60 yet: in the new zones, rely on Questie and the in-game map until they catch up."
+  },
+  "fuentes": [
+    {"nombre": "Questie: notas de versión (GitHub)", "url": "https://github.com/Questie/Questie/releases"},
+    {"nombre": "Polestar (GitHub)", "url": "https://github.com/fitzforge/polestar"},
+    {"nombre": "Polestar Guides (CurseForge)", "url": "https://www.curseforge.com/wow/addons/polestar-guides"},
+    {"nombre": "RestedXP Guides: código y notas de versión (GitHub)", "url": "https://github.com/RestedXP/RXPGuides"},
+    {"nombre": "Zygor: guías de Forever", "url": "https://www.zygorguides.com/forever"},
+    {"nombre": "Zygor: suscripción Elite", "url": "https://www.zygorguides.com/join"},
+    {"nombre": "Guidelime (GitHub)", "url": "https://github.com/max-ri/Guidelime"},
+    {"nombre": "WoW-Pro Guides (GitHub)", "url": "https://github.com/Ludovicus-Maior/WoW-Pro-Guides"},
+    {"nombre": "Joana's Guides (CurseForge)", "url": "https://www.curseforge.com/wow/addons/joanasguides"},
+    {"nombre": "Kami Labs: addons de subida en Forever", "url": "https://kami-labs.fr/en/wow-forever/addons-leveling-wow-forever/"},
+    {"nombre": "Kami Labs: actualización de RestedXP en Forever", "url": "https://kami-labs.fr/en/wow-forever/mise-a-jour-restedxp-wow-forever/"}
+  ]
+}

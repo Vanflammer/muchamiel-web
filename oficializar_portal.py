@@ -112,7 +112,7 @@ BRAND = '<img class="brand-face" src="https://static-cdn.jtvnw.net/jtv_user_pict
 BRAND_TXT = '<span><b>WoW Muchamiel</b></span>'
 
 # Páginas del juego completo (las genera comunidad_portal.forever_pages); (carpeta, texto del menú).
-FOREVER_PAGES = [('lanzamiento', 'Lanzamiento'), ('subir-nivel', 'Subir de nivel'), ('tecnicas', 'Técnicas de juego'), ('objetos', 'Abalorios y BiS'), ('builds-60', 'Builds nivel 60'),
+FOREVER_PAGES = [('lanzamiento', 'Lanzamiento'), ('subir-nivel', 'Subir de nivel'), ('elegir-clase', 'Qué clase elegir'), ('tecnicas', 'Técnicas de juego'), ('jcj', 'JcJ y campos de batalla'), ('nivel-60', 'Ya soy 60'), ('faq', 'Preguntas frecuentes'), ('objetos', 'Abalorios y BiS'), ('oro', 'Ganar oro'), ('mascotas', 'Mascotas de cazador'), ('monturas', 'Monturas de clase'), ('builds-60', 'Builds nivel 60'),
                  ('mazmorras', 'Mazmorras'), ('profesiones', 'Profesiones'), ('legacy', 'Legacy'), ('pagar-menos', 'Cuánto cuesta jugar'), ('cambios', 'Notas del parche'), ('auras', 'Auras')]
 
 

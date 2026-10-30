@@ -1,0 +1,329 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Las preguntas que más se repiten en el chat, con una respuesta corta y el enlace donde está todo. En el chat de Muchamiel, <code>!faq</code> trae aquí.",
+    "en": "The questions that come up most in chat, with a short answer and the link where you'll find everything. In Muchamiel's chat, <code>!faq</code> brings you here."
+  },
+  "grupos": [
+    {
+      "titulo": {
+        "es": "El lanzamiento",
+        "en": "Launch"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Cuándo sale WoW Forever?",
+            "en": "When does WoW Forever come out?"
+          },
+          "r": {
+            "es": "El jueves 5 de noviembre a las 00:00 (hora peninsular). En México es el miércoles 4 a las 17:00 y en Chile y Argentina, el 4 a las 20:00.",
+            "en": "Thursday November 5 at 00:00 Spanish time (Wednesday November 4, 15:00 PST). In Mexico it's Wednesday the 4th at 17:00, and in Chile and Argentina the 4th at 20:00."
+          },
+          "url": "../lanzamiento/"
+        },
+        {
+          "p": {
+            "es": "¿Se empieza a nivel 60?",
+            "en": "Do you start at level 60?"
+          },
+          "r": {
+            "es": "No: todos empiezan en nivel 1. El tope de nivel es 60 desde el primer día.",
+            "en": "No: everyone starts at level 1. The level cap is 60 from day one."
+          },
+          "url": "../subir-nivel/"
+        },
+        {
+          "p": {
+            "es": "¿Se pasa algo de la beta?",
+            "en": "Does anything carry over from the beta?"
+          },
+          "r": {
+            "es": "No. Lo que subiste en la beta no pasa al juego: todos empiezan de cero.",
+            "en": "No. Whatever you leveled in the beta doesn't carry over: everyone starts from scratch."
+          },
+          "url": "../lanzamiento/"
+        },
+        {
+          "p": {
+            "es": "¿Cuándo salen las bandas?",
+            "en": "When do raids open?"
+          },
+          "r": {
+            "es": "El 9 de diciembre: Cavernas del Túmulo (10 jugadores), Cima Hyjal (20) y la Guarida de Onyxia (40).",
+            "en": "On December 9: Barrow Deeps (10 players), Hyjal Summit (20) and Onyxia's Lair (40)."
+          },
+          "url": "../bandas-forever/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Precio y packs",
+        "en": "Price and packs"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Cuánto cuesta jugar?",
+            "en": "How much does it cost to play?"
+          },
+          "r": {
+            "es": "Solo hace falta suscripción o tiempo de juego: desde 12,99 € al mes (10,99 € al mes pagando 6 o 12 meses). Los packs son opcionales.",
+            "en": "You only need a subscription or game time: from €12.99 a month (€10.99 a month paying 6 or 12 months). The packs are optional."
+          },
+          "url": "../pagar-menos/"
+        },
+        {
+          "p": {
+            "es": "¿Necesito comprar un pack?",
+            "en": "Do I need to buy a pack?"
+          },
+          "r": {
+            "es": "No. El pack Heroico (29,99 €) solo hace falta para jugar con la raza nueva (cielonatos) y para reservar nombre; el Épico añade 30 días de juego.",
+            "en": "No. The Heroic pack (€29.99) is only needed to play the new race (Skyborne) and to reserve names; the Epic pack adds 30 days of game time."
+          },
+          "url": "../pagar-menos/"
+        },
+        {
+          "p": {
+            "es": "¿Cómo pago menos?",
+            "en": "How do I pay less?"
+          },
+          "r": {
+            "es": "La suscripción de 6 o 12 meses es la más barata a la larga; para probar sin atarte, una tarjeta de 60 días.",
+            "en": "The 6 or 12 month subscription is the cheapest in the long run; to try it without commitment, a 60-day card."
+          },
+          "url": "../pagar-menos/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Personaje y servidores",
+        "en": "Character and servers"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué clase hago?",
+            "en": "Which class should I play?"
+          },
+          "r": {
+            "es": "Depende de lo que te guste: comparamos las nueve (dificultad, cómo suben, grupo y JcJ) para que elijas en dos minutos.",
+            "en": "It depends on what you enjoy: we compare all nine (difficulty, leveling, groups and PvP) so you can pick in two minutes."
+          },
+          "url": "../elegir-clase/"
+        },
+        {
+          "p": {
+            "es": "¿Qué raza elijo?",
+            "en": "Which race should I pick?"
+          },
+          "r": {
+            "es": "Cada guía de clase trae sus razas recomendadas, y la página de razas tiene todas las raciales de Forever.",
+            "en": "Each class guide lists its recommended races, and the races page has every Forever racial."
+          },
+          "url": "../razas/"
+        },
+        {
+          "p": {
+            "es": "¿Cómo funcionan los nombres?",
+            "en": "How do names work?"
+          },
+          "r": {
+            "es": "No hay reinos: cada personaje lleva nombre y apellido, y la combinación tiene que ser única en toda la región. Los nombres valen para todas las reglas.",
+            "en": "There are no realms: each character has a first and last name, and the combination must be unique across the region. Names count across all rulesets."
+          },
+          "url": "../reserva-nombres/"
+        },
+        {
+          "p": {
+            "es": "¿JcJ, Normal o Rol?",
+            "en": "PvP, Normal or RP?"
+          },
+          "r": {
+            "es": "En JcJ te pueden atacar en el mundo abierto; en Normal, solo si quieres. También hay Rol y Rol-JcJ.",
+            "en": "On PvP rules you can be attacked in the open world; on Normal, only if you choose to. There are also RP and RP-PvP rules."
+          },
+          "url": "../jcj/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Subir de nivel",
+        "en": "Leveling"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Cómo subo más rápido?",
+            "en": "How do I level faster?"
+          },
+          "r": {
+            "es": "Misiones de mazmorra, comida Well Fed, el Cozy Sleeping Bag, desconectar en posada y el Legado Well Rested. Están los cinco explicados.",
+            "en": "Dungeon quests, Well Fed food, the Cozy Sleeping Bag, logging out in an inn and the Well Rested Legacy perk. All five are explained."
+          },
+          "url": "../subir-nivel/#extras-xp"
+        },
+        {
+          "p": {
+            "es": "¿Hay algún addon que me diga qué misión hacer?",
+            "en": "Is there an addon that tells me which quest to do?"
+          },
+          "r": {
+            "es": "Sí: Questie marca las misiones en el mapa, y RestedXP o Polestar te llevan paso a paso. Miramos cuáles funcionan ya en Forever.",
+            "en": "Yes: Questie marks quests on the map, and RestedXP or Polestar guide you step by step. We checked which ones already work in Forever."
+          },
+          "url": "../subir-nivel/#addons-ruta"
+        },
+        {
+          "p": {
+            "es": "¿Qué talentos pongo?",
+            "en": "Which talents should I take?"
+          },
+          "r": {
+            "es": "Cada guía de clase trae el orden de talentos punto a punto del 10 al 60, comprobado con el árbol de Forever.",
+            "en": "Each class guide has the point-by-point talent order from 10 to 60, checked against the Forever tree."
+          },
+          "url": "../clases/"
+        },
+        {
+          "p": {
+            "es": "¿Cuándo tengo montura y cuánto cuesta?",
+            "en": "When do I get a mount and how much is it?"
+          },
+          "r": {
+            "es": "A nivel 40: 100 de oro la equitación y unos 20 la montura (a 60, 1.000 y unos 200; aún no está claro si la primera montura viene incluida). Con reputación Honorable con tu facción, un 10 % menos. Brujos y paladines tienen la suya con misión.",
+            "en": "At level 40: 100 gold for riding and about 20 for the mount (at 60, 1,000 and about 200; it is not yet clear whether the first mount is included). Honored with your faction takes 10% off. Warlocks and paladins get theirs with a quest."
+          },
+          "url": "../monturas/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Oro, profesiones y equipo",
+        "en": "Gold, professions and gear"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué profesiones elijo?",
+            "en": "Which professions should I pick?"
+          },
+          "r": {
+            "es": "Para subir, dos de recolección (dan oro para la montura); después, la de fabricación que quieras. Tienes la guía de 1 a 300 de las doce.",
+            "en": "While leveling, two gathering ones (they pay for your mount); later, any crafting one you like. There's a 1 to 300 guide for all twelve."
+          },
+          "url": "../profesiones/"
+        },
+        {
+          "p": {
+            "es": "¿Cómo gano oro?",
+            "en": "How do I make gold?"
+          },
+          "r": {
+            "es": "Recolectar y vender en la subasta es lo más seguro. Ojo: Forever ha recortado trucos de Classic, como vender varitas al vendedor.",
+            "en": "Gathering and selling on the auction house is the safest. Note: Forever has nerfed Classic tricks, like vendoring wands."
+          },
+          "url": "../oro/"
+        },
+        {
+          "p": {
+            "es": "¿Hay listas de equipo BiS?",
+            "en": "Are there BiS gear lists?"
+          },
+          "r": {
+            "es": "Todavía no fiables: Blizzard oculta el botín hasta que alguien lo consigue. Te decimos qué abalorios y objetos clave sí se conocen.",
+            "en": "Not reliable ones yet: Blizzard hides loot until someone gets it. We list the trinkets and key items that are known."
+          },
+          "url": "../objetos/"
+        },
+        {
+          "p": {
+            "es": "¿Qué es el Legado?",
+            "en": "What is the Legacy system?"
+          },
+          "r": {
+            "es": "Ventajas de cuenta que ganas con retos y que comparten todos tus personajes: subir más rápido, vuelos más baratos, más honor…",
+            "en": "Account-wide perks you earn with achievements and share across all your characters: faster leveling, cheaper flights, more honor…"
+          },
+          "url": "../legacy/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Jugar mejor",
+        "en": "Playing better"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué addons necesito?",
+            "en": "Which addons do I need?"
+          },
+          "r": {
+            "es": "Los básicos que funcionan en Forever (Questie, Auctionator, bolsas…) y los de JcJ y Forever que recomendamos.",
+            "en": "The basics that work in Forever (Questie, Auctionator, bags…) plus the PvP and Forever addons we recommend."
+          },
+          "url": "../addons/"
+        },
+        {
+          "p": {
+            "es": "¿Qué es el kiting, el strafe o el jump-turn?",
+            "en": "What are kiting, strafing and jump-turns?"
+          },
+          "r": {
+            "es": "Técnicas de los jugadores expertos para moverse y pegar a la vez. Las explicamos todas, con sus teclas.",
+            "en": "Techniques expert players use to move and fight at the same time. We explain them all, with keybinds."
+          },
+          "url": "../tecnicas/"
+        },
+        {
+          "p": {
+            "es": "¿Qué hago al llegar a 60?",
+            "en": "What do I do at level 60?"
+          },
+          "r": {
+            "es": "Equitación rápida, mazmorras de 60, reputaciones y prepararte para las bandas del 9 de diciembre. Va todo en orden.",
+            "en": "Fast riding, level 60 dungeons, reputations and getting ready for the December 9 raids. It's all in order."
+          },
+          "url": "../nivel-60/"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "La comunidad",
+        "en": "The community"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Dónde está el Discord?",
+            "en": "Where's the Discord?"
+          },
+          "r": {
+            "es": "En el chat, <code>!discord</code>. Allí se organizan grupos, la hermandad y los avisos de directo.",
+            "en": "In chat, <code>!discord</code>. That's where groups, the guild and stream alerts are organized."
+          },
+          "url": "https://discord.gg/U8VkN5yXJ8"
+        },
+        {
+          "p": {
+            "es": "¿Qué tienen los subs?",
+            "en": "What do subs get?"
+          },
+          "r": {
+            "es": "Las guías siguen gratis para todos. Los subs tienen su zona: lo nuevo antes que nadie, votar la próxima guía, sorteos y eventos. Se entra con Discord.",
+            "en": "The guides stay free for everyone. Subs get their own area: new stuff first, voting on the next guide, giveaways and events. You log in with Discord."
+          },
+          "url": "../zona-subs/"
+        }
+      ]
+    }
+  ]
+}

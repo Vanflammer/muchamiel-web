@@ -675,6 +675,10 @@
       {
         "es": "Saca a los enemigos que atacan a distancia doblando una esquina para que vengan hacia ti y no se junten con su grupo.",
         "en": "Pull ranged enemies around a corner so they walk to you and away from their pack."
+      },
+      {
+        "es": "<b>Armas que puedes aprender</b>: dagas, espadas de una mano y bastones; la varita viene de serie y no se entrena. Tu raza ya trae alguna; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Aprende pronto las tres para poder equipar cualquier arma con Intelecto, Aguante o poder con hechizos que caiga: el arma te da estadísticas y la varita remata mientras tus efectos de daño hacen el resto.",
+        "en": "<b>Weapons you can learn</b>: daggers, one-handed swords and staves; wands are built in and need no training. Your race already knows one; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Learn all three early so you can equip any Intellect, Stamina or spell power weapon that drops: the weapon gives stats and the wand finishes enemies while your damage over time does the rest."
       }
     ],
     "hitos": [

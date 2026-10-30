@@ -1746,6 +1746,9 @@ def run():
             s = guias_portal.insertar_clase(s, file.parent.name)[0]
         if file == dist / 'profesiones' / 'index.html':
             s = guias_portal.insertar_prof_index(s)
+        if file == dist / 'addons' / 'index.html':
+            import guias_extra2  # Van 30-10: más addons y addons de ruta de subida
+            s = guias_extra2.insertar_addons(s)
         if file == dist / 'subir-nivel' / 'index.html':
             s = guias_portal.insertar_subir(s)
         file.write_text(s, encoding='utf-8')

@@ -1,0 +1,477 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "La mascota es la mitad del cazador. En WoW Forever el sistema se parece mucho al de Classic: domas una bestia, la alimentas, gana lealtad y le enseñas habilidades que antes has aprendido domando a otras bestias. Lo nuevo está en las familias: casi todas tienen ahora un truco propio, hay una familia nueva (el zorro) y la mascota crece con tu equipo. Cada dato lleva su estado: <b>forever</b> (confirmado por Blizzard), <b>beta</b> (visto en la beta, que llegaba al nivel 30, y puede cambiar el 4 de noviembre) o <b>classic</b> (dato de WoW Classic que Forever aún no ha confirmado).",
+    "en": "Your pet is half of the hunter. WoW Forever keeps a system very close to Classic: you tame a beast, feed it, build its loyalty and teach it abilities you first learned by taming other beasts. What's new is in the families: almost all of them now have their own signature trick, there's a brand-new family (the fox) and pets scale with your gear. Every fact carries a status: <b>forever</b> (confirmed by Blizzard), <b>beta</b> (seen in the beta, which was capped at level 30, and may change on November 4) or <b>classic</b> (WoW Classic data that Forever hasn't confirmed yet)."
+  },
+  "basico": [
+    {
+      "titulo": {"es": "La primera mascota (nivel 10)", "en": "Your first pet (level 10)"},
+      "texto": {
+        "es": "A nivel 10 el instructor de cazadores te da una cadena de misiones (el nombre cambia según la raza). Domas tres bestias de la zona y así aprendes <b>Tame Beast</b>; al cerrar la cadena llegan <b>Beast Training</b>, <b>Feed Pet</b> y <b>Revive Pet</b>. Con <b>Call Pet</b> la llamas y con <b>Dismiss Pet</b> la despides.",
+        "en": "At level 10 your hunter trainer starts a quest chain (the name depends on your race). You tame three local beasts, which teaches you <b>Tame Beast</b>; finishing the chain unlocks <b>Beast Training</b>, <b>Feed Pet</b> and <b>Revive Pet</b>. <b>Call Pet</b> brings it out and <b>Dismiss Pet</b> sends it away."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Cómo domar sin fallar", "en": "How to tame without failing"},
+      "texto": {
+        "es": "<b>Tame Beast</b> es una canalización de 20 segundos a 30 metros que gasta el 60 % de tu maná base y te deja <b>sin armadura</b> mientras dura. Falla si la bestia deja de atacarte o si recibe daño. Solo puedes domar bestias de tu nivel o menos (cambio de Forever), y no puedes domar con una mascota fuera, aunque esté despedida, ni con una mascota muerta en el establo: revívela antes. Pon <b>Aspect of the Monkey</b> para esquivar más durante la canalización y empieza con la vida llena.",
+        "en": "<b>Tame Beast</b> is a 20-second channel from 30 yards that costs 60% of your base mana and drops your <b>armor to zero</b> while it lasts. It fails if the beast stops attacking you or takes damage. You can only tame beasts at or below your level (a Forever change), and you can't tame while you have a pet out or dismissed, or with a dead pet in the stable: revive it first. Use <b>Aspect of the Monkey</b> to dodge more during the channel and start at full health."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Felicidad", "en": "Happiness"},
+      "texto": {
+        "es": "Una mascota feliz hace un 125 % de su daño; contenta, un 100 %; descontenta, un 75 %. La felicidad baja poco a poco con el tiempo, baja mucho si la mascota muere y baja 50 puntos cada vez que usas <b>Dismiss Pet</b>. Recién domada está muy descontenta: dale de comer en cuanto la tengas. En la beta había un fallo y la felicidad solo bajaba al morir; falta ver cómo queda en el lanzamiento.",
+        "en": "A happy pet deals 125% of its damage, a content one 100% and an unhappy one 75%. Happiness drains slowly over time, drops sharply when the pet dies and loses 50 points every time you use <b>Dismiss Pet</b>. A freshly tamed pet is very unhappy, so feed it straight away. In the beta a bug made happiness drop only on death; we still have to see how it behaves at launch."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Comida", "en": "Food"},
+      "texto": {
+        "es": "<b>Feed Pet</b> solo funciona fuera de combate, así que alimenta antes de cada tirón largo. La comida debe ser de la dieta de su familia, y cuanto más cerca esté del nivel de la mascota, más felicidad da. <b>Beast Lore</b> (nivel 24) te enseña qué come cualquier bestia antes de domarla, y al pasar el ratón por el icono de felicidad ves la dieta de la tuya. Lleva siempre una pila de comida de su nivel en la bolsa.",
+        "en": "<b>Feed Pet</b> only works out of combat, so feed before every long pull. The food must belong to its family's diet, and the closer it is to the pet's level, the more happiness it gives. <b>Beast Lore</b> (level 24) shows what any beast eats before you tame it, and hovering over the happiness icon shows your pet's diet. Always carry a stack of food at its level."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Lealtad y puntos de entrenamiento", "en": "Loyalty and training points"},
+      "texto": {
+        "es": "La lealtad sigue existiendo en Forever. Tiene seis rangos: Rebellious, Unruly, Submissive, Dependable, Faithful y Best Friend. Toda mascota nueva empieza en Rebellious y sube al darle de comer y matar enemigos con ella. Cuanta más lealtad, más <b>puntos de entrenamiento</b> (TP) para comprar habilidades: una mascota de nivel 60 en Best Friend tiene 300. Si domas una bestia alta, puede empezar con puntos en negativo; se recuperan solos con comida y combates.",
+        "en": "Loyalty is still in Forever. It has six ranks: Rebellious, Unruly, Submissive, Dependable, Faithful and Best Friend. Every new pet starts at Rebellious and climbs as you feed it and kill things together. More loyalty means more <b>training points</b> (TP) to buy abilities: a level 60 Best Friend pet has 300. A high-level beast you've just tamed can start with negative points; they come back on their own through feeding and fighting."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Enseñar habilidades: sí, hay que domar para aprender", "en": "Teaching abilities: yes, you still tame to learn"},
+      "texto": {
+        "es": "Como en Classic, tú aprendes las habilidades de otras mascotas. Guarda la tuya en el establo, doma una bestia que tenga la habilidad y el rango que buscas, úsala en combate hasta que el chat te diga que la has aprendido, y luego recupera tu mascota y enséñasela con <b>Beast Training</b> gastando sus puntos. Cada mascota puede tener hasta 4 habilidades activas. Si no puede aprenderla, no verás coste en puntos. Blizzard ha corregido bestias que enseñaban rangos demasiado altos para su nivel, así que algunas fuentes de rangos de Classic pueden haber cambiado.",
+        "en": "As in Classic, you learn abilities from other pets yourself. Stable your pet, tame a beast that has the ability and rank you want, use it in combat until chat says you've learned it, then bring your pet back and teach it through <b>Beast Training</b> using its points. Each pet can have up to 4 active abilities. If it can't learn one, no TP cost shows up. Blizzard fixed beasts that taught ranks too high for their level, so some Classic rank sources may have changed."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Lo que todas comparten", "en": "What every family shares"},
+      "texto": {
+        "es": "Todas las familias aprenden <b>Bite</b> o <b>Claw</b> (algunas, las dos) y <b>Dash</b> o <b>Dive</b> para correr. Casi todas tienen <b>Cower</b> para quitarse amenaza. El instructor de mascotas de las capitales enseña <b>Growl</b> (amenaza; un rango nuevo cada 10 niveles desde el 10), <b>Great Stamina</b>, <b>Natural Armor</b> y las resistencias. Visítalo al subir de nivel. También puede borrar habilidades y devolver los puntos por un pago pequeño; en la beta, borrarlo todo quitaba también la velocidad de ataque, así que borra solo lo que necesites.",
+        "en": "Every family learns <b>Bite</b> or <b>Claw</b> (some get both) and <b>Dash</b> or <b>Dive</b> to move fast. Almost all have <b>Cower</b> to shed threat. The pet trainer in the capitals teaches <b>Growl</b> (threat; a new rank every 10 levels from 10), <b>Great Stamina</b>, <b>Natural Armor</b> and the resistances. Visit after leveling up. The trainer can also wipe abilities and refund points for a small fee; in the beta a full wipe also removed attack speed, so only unlearn what you need."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Cómo crece la mascota", "en": "How your pet grows"},
+      "texto": {
+        "es": "La mascota tiene su propia barra de experiencia: recibe el 25 % de la que ganas tú por enemigos de nivel verde o más, sin descanso ni experiencia de misiones, y se para al llegar a tu nivel. Novedad de Forever: hereda parte de tu equipo (un 10 % de tu poder de ataque y tu probabilidad de crítico, la mayor entre cuerpo a cuerpo y distancia) y la pericia, pero ya no recibe los beneficios de estadísticas de otros jugadores. Su foco se recupera de forma continua.",
+        "en": "Your pet has its own experience bar: it gets 25% of what you earn from green or higher enemies, no rested or quest XP, and it stops at your level. New in Forever: it inherits part of your gear (10% of your attack power and your crit chance, whichever is higher between melee and ranged) plus expertise, but it no longer receives stat buffs from other players. Its focus now regenerates continuously."
+      },
+      "estado": "forever"
+    },
+    {
+      "titulo": {"es": "Curar, revivir y controlar", "en": "Healing, reviving and control"},
+      "texto": {
+        "es": "<b>Mend Pet</b> (nivel 12, nuevo rango cada 8 niveles) la cura mientras canalizas. <b>Revive Pet</b> la devuelve con el 15 % de vida, y muerta pierde felicidad. <b>Eyes of the Beast</b> (14) te deja manejarla 2 minutos y <b>Scare Beast</b> (14) asusta a una bestia. El modo agresivo vuelve a estar en la pestaña de mascota del libro de hechizos.",
+        "en": "<b>Mend Pet</b> (level 12, a new rank every 8 levels) heals it while you channel. <b>Revive Pet</b> brings it back at 15% health, and a dead pet loses happiness. <b>Eyes of the Beast</b> (14) lets you steer it for 2 minutes and <b>Scare Beast</b> (14) fears a beast. Aggressive mode is back under the pet tab of your spellbook."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Establo", "en": "Stable"},
+      "texto": {
+        "es": "Puedes tener tres mascotas: una contigo y dos guardadas, comprando los dos huecos extra al maestro de establos (en cualquier establo amigo). Úsalo para tener una mascota de daño y otra de aguante, o para guardar la tuya mientras domas otra para aprender una habilidad. El precio de los huecos en Forever aún no se ha publicado.",
+        "en": "You can own three pets: one with you and two stabled, by buying the two extra slots from any friendly stable master. Use them to keep a damage pet and a tanky one, or to park yours while you tame another to learn an ability. Forever's slot prices haven't been published yet."
+      },
+      "estado": "beta"
+    },
+    {
+      "titulo": {"es": "Velocidad de ataque", "en": "Attack speed"},
+      "texto": {
+        "es": "Dentro de una familia el daño está igualado: una mascota rápida pega más veces pero más flojo, así que en mazmorras da igual. La velocidad importa en JcJ: muchos golpes seguidos retrasan más los lanzamientos del enemigo. Por eso los cazadores buscan bestias de ataque rápido (1,0 o 1,2 segundos, frente a los 2,0 normales).",
+        "en": "Damage is evened out within a family: a fast pet hits more often but softer, so it makes no difference in dungeons. Speed matters in PvP: lots of quick hits push back enemy casts more. That's why hunters hunt for fast-attacking beasts (1.0 or 1.2 seconds instead of the usual 2.0)."
+      },
+      "estado": "beta"
+    }
+  ],
+  "familias": [
+    {
+      "familia": {"es": "Felino", "en": "Cat"},
+      "truco": "Prowl",
+      "para": {
+        "es": "Ofensiva. Sigilo y un golpe fuerte al salir de él. La mejor para subir rápido y la más segura en mazmorras y bandas por daño. Aguanta poco contra enemigos de más nivel.",
+        "en": "Offensive. Stealth plus a big opening hit. Best for fast leveling and the safe damage pick for dungeons and raids. Fragile against higher-level enemies."
+      },
+      "dieta": {"es": "Carne y pescado", "en": "Meat and fish"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Lobo", "en": "Wolf"},
+      "truco": "Furious Howl",
+      "para": {
+        "es": "Equilibrada. Da poder de ataque cuerpo a cuerpo a ti y al grupo cercano (no se suma a Battle Shout; en Forever es un 40 % más flojo que en Classic). Buena en mazmorras y bandas si no hay guerrero.",
+        "en": "Balanced. Grants melee attack power to you and nearby party members (doesn't stack with Battle Shout; 40% weaker than in Classic). Good in dungeons and raids when there's no warrior."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Jabalí", "en": "Boar"},
+      "truco": "Charge",
+      "para": {
+        "es": "Defensiva. Carga, inmoviliza y su siguiente golpe pega más. Llega antes que tú al enemigo y aguanta mucho: gran mascota para subir y para jugar solo. Solo carga sola si está en Assist y tú atacas primero.",
+        "en": "Defensive. Charges, roots and gains attack power for its next hit. Reaches the enemy first and soaks a lot: a great leveling and solo pet. It only auto-charges when set to Assist and you attack first."
+      },
+      "dieta": {"es": "Casi todo: pan, queso, pescado, fruta, hongos y carne", "en": "Almost anything: bread, cheese, fish, fruit, fungus and meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Oso", "en": "Bear"},
+      "truco": "Swipe",
+      "para": {
+        "es": "Defensiva. Golpea a 3 enemigos a la vez (solo lo lanza sola con 2 o más cerca). Ideal para subir tirando de varios enemigos y fácil de alimentar.",
+        "en": "Defensive. Hits up to 3 enemies (only auto-casts with 2 or more nearby). Ideal for leveling with multi-pulls and easy to feed."
+      },
+      "dieta": {"es": "De todo", "en": "Everything"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Ave rapaz (antes búho)", "en": "Bird of Prey (formerly Owl)"},
+      "truco": "Mine!",
+      "para": {
+        "es": "Ofensiva. Daño y desarme. Muy útil en JcJ contra guerreros, pícaros y paladines.",
+        "en": "Offensive. Damage plus a disarm. Very handy in PvP against warriors, rogues and paladins."
+      },
+      "dieta": {"es": "Carne y pescado", "en": "Meat and fish"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Murciélago", "en": "Bat"},
+      "truco": "Sonic Blast",
+      "para": {
+        "es": "Ofensiva. Daño y lanzamientos más lentos para el objetivo (no se suma a Curse of Tongues ni a Mind-numbing Poison). Para JcJ contra lanzadores.",
+        "en": "Offensive. Damage and slower casting on the target (doesn't stack with Curse of Tongues or Mind-numbing Poison). A PvP pick against casters."
+      },
+      "dieta": {"es": "Fruta y hongos", "en": "Fruit and fungus"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Cocodrilo", "en": "Crocolisk"},
+      "truco": "Dismember",
+      "para": {
+        "es": "Defensiva. Reduce la curación que recibe el objetivo (no se suma a Mortal Strike). En las últimas notas de la beta bajó al 25 % durante 6 segundos. Muy buena en JcJ contra sanadores.",
+        "en": "Defensive. Reduces healing taken by the target (doesn't stack with Mortal Strike). The latest beta notes cut it to 25% for 6 seconds. Very good in PvP against healers."
+      },
+      "dieta": {"es": "Carne y pescado", "en": "Meat and fish"},
+      "estado": "beta"
+    },
+    {
+      "familia": {"es": "Serpiente alada", "en": "Wind Serpent"},
+      "truco": "Lightning Breath",
+      "para": {
+        "es": "Ofensiva. Ataque de naturaleza a 20 metros que ignora la armadura: buena contra guerreros y paladines en JcJ y para mantener a alguien en combate.",
+        "en": "Offensive. A 20-yard nature attack that ignores armor: good against warriors and paladins in PvP and for keeping someone in combat."
+      },
+      "dieta": {"es": "Pan, queso y pescado", "en": "Bread, cheese and fish"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Araña", "en": "Spider"},
+      "truco": "Web",
+      "para": {
+        "es": "Ofensiva. Enraíza al objetivo y le hace daño en el tiempo. Útil en JcJ para que no te alcancen.",
+        "en": "Offensive. Roots the target and deals damage over time. Useful in PvP to keep melee off you."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Raptor", "en": "Raptor"},
+      "truco": "Savage Rend",
+      "para": {
+        "es": "Ofensiva. Sangrado. Buen daño para subir.",
+        "en": "Offensive. A bleed. Solid damage for leveling."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Hiena", "en": "Hyena"},
+      "truco": "Tendon Rip",
+      "para": {
+        "es": "Equilibrada. Frena al objetivo y lo hace sangrar. Buena en JcJ para perseguir.",
+        "en": "Balanced. Slows the target and makes it bleed. Good in PvP for chasing."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Zorro (familia nueva)", "en": "Fox (new family)"},
+      "truco": "Trickster's Dance",
+      "para": {
+        "es": "Ofensiva. Desde el nivel 20 de la mascota, más esquiva y más velocidad de ataque durante 12 segundos. Para subir y para JcJ. Dónde domarlo aún no está confirmado.",
+        "en": "Offensive. From pet level 20, more dodge and faster attacks for 12 seconds. For leveling and PvP. Where to tame one isn't confirmed yet."
+      },
+      "dieta": {"es": "Carne y fruta", "en": "Meat and fruit"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Cangrejo", "en": "Crab"},
+      "truco": "Pinch",
+      "para": {
+        "es": "Defensiva. Daño y ralentización. Aguanta mucho: buena para subir con calma.",
+        "en": "Defensive. Damage plus a slow. Very sturdy: a calm leveling pet."
+      },
+      "dieta": {"es": "Pan, pescado, fruta y hongos", "en": "Bread, fish, fruit and fungus"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Tortuga", "en": "Turtle"},
+      "truco": "Shell Shield",
+      "para": {
+        "es": "Defensiva. Durante 12 segundos recibe menos daño a cambio de atacar más despacio. La que más aguanta cuando tiene que hacer de tanque.",
+        "en": "Defensive. For 12 seconds it takes less damage but attacks slower. The toughest pick when it has to tank."
+      },
+      "dieta": {"es": "Pan, pescado, fruta y hongos", "en": "Bread, fish, fruit and fungus"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Gorila", "en": "Gorilla"},
+      "truco": "Thunderstomp",
+      "para": {
+        "es": "Defensiva. Daño en área alrededor: sujeta varios enemigos al subir.",
+        "en": "Defensive. Area damage around it: holds several enemies while leveling."
+      },
+      "dieta": {"es": "Pan, fruta y hongos", "en": "Bread, fruit and fungus"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Zancudo", "en": "Tallstrider"},
+      "truco": "Dust Cloud",
+      "para": {
+        "es": "Defensiva. Baja la armadura del objetivo (no se suma a Faerie Fire). Aguanta y ayuda al daño físico del grupo.",
+        "en": "Defensive. Lowers the target's armor (doesn't stack with Faerie Fire). Sturdy and helps the group's physical damage."
+      },
+      "dieta": {"es": "Pan, queso, fruta y hongos", "en": "Bread, cheese, fruit and fungus"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Escórpido", "en": "Scorpid"},
+      "truco": "Scorpid Poison",
+      "para": {
+        "es": "Defensiva. Veneno que se acumula. Aguanta bien para subir.",
+        "en": "Defensive. A stacking poison. Holds up well for leveling."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Carroñero", "en": "Carrion Bird"},
+      "truco": "Demoralizing Screech",
+      "para": {
+        "es": "Equilibrada. Daño a los enemigos cercanos y menos poder de ataque para ellos (no se suma a Demoralizing Roar). Buena cuando la mascota tanquea.",
+        "en": "Balanced. Damages nearby enemies and lowers their attack power (doesn't stack with Demoralizing Roar). Good when your pet is tanking."
+      },
+      "dieta": {"es": "Carne y pescado", "en": "Meat and fish"},
+      "estado": "forever"
+    },
+    {
+      "familia": {"es": "Can del Núcleo", "en": "Core Hound"},
+      "truco": "Lava Breath",
+      "para": {
+        "es": "Ofensiva. Aparece en las listas de familias de Forever, pero no se ha dicho dónde se puede domar.",
+        "en": "Offensive. It shows up in Forever's family lists, but nobody has said where one can be tamed."
+      },
+      "dieta": {"es": "Carne", "en": "Meat"},
+      "estado": "beta"
+    }
+  ],
+  "especiales": [
+    {
+      "nombre": "Fernfeather",
+      "familia": {"es": "Zancudo (galestrider)", "en": "Tallstrider (galestrider)"},
+      "nivel": "10",
+      "donde": {
+        "es": "Isla de Zephras (Zephras Isle), en Gustberry Lowlands y Windfield Orchard: 48.6 86, 51.4 82.4 y 53.8 78.8. Es raro.",
+        "en": "Zephras Isle, in Gustberry Lowlands and Windfield Orchard: 48.6 86, 51.4 82.4 and 53.8 78.8. Rare spawn."
+      },
+      "por_que": {
+        "es": "Bestia exclusiva de Forever y de nivel 10: el primer animal raro que puede domar un cazador Skyborne nada más aprender Tame Beast.",
+        "en": "A Forever-only beast at level 10: the first rare a Skyborne hunter can tame right after learning Tame Beast."
+      },
+      "estado": "beta"
+    },
+    {
+      "nombre": "The Rake",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "10",
+      "donde": {"es": "Mulgore (raro).", "en": "Mulgore (rare spawn)."},
+      "por_que": {
+        "es": "Ataque de 1,2 segundos a nivel 10: opción rápida para un cazador tauren desde el primer día.",
+        "en": "A 1.2-second attack at level 10: a fast option for a Tauren hunter from day one."
+      },
+      "estado": "classic"
+    },
+    {
+      "nombre": "Bjarn",
+      "familia": {"es": "Oso", "en": "Bear"},
+      "nivel": "12",
+      "donde": {"es": "Dun Morogh.", "en": "Dun Morogh."},
+      "por_que": {
+        "es": "Oso raro de nivel 12 que ya trae Claw rango 2: una primera mascota resistente para enanos y gnomos.",
+        "en": "A level 12 rare bear that already knows Claw rank 2: a sturdy first pet for Dwarves and Gnomes."
+      },
+      "estado": "classic"
+    },
+    {
+      "nombre": "Echeyakee",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "16",
+      "donde": {
+        "es": "Los Baldíos (The Barrens), al noreste, junto a unos huesos de kodo. Solo aparece cuando alguien de la Horda hace la misión Echeyakee.",
+        "en": "The Barrens, northeast, by some kodo bones. It only spawns when a Horde player does the quest Echeyakee."
+      },
+      "por_que": {"es": "Aspecto único que pocos cazadores tienen.", "en": "A unique look few hunters have."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Slavering Worg",
+      "familia": {"es": "Lobo", "en": "Wolf"},
+      "nivel": "18-19",
+      "donde": {"es": "Castillo de Colmillo Oscuro (Shadowfang Keep), dentro de la mazmorra.", "en": "Inside the Shadowfang Keep dungeon."},
+      "por_que": {"es": "Lobo con ataque de 1,2 segundos, domable a nivel bajo.", "en": "A wolf with a 1.2-second attack, tameable at low level."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Humar the Pridelord",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "23",
+      "donde": {"es": "Los Baldíos (The Barrens), raro.", "en": "The Barrens, rare spawn."},
+      "por_que": {"es": "León raro con ataque rápido (1,3 s). Bonito y útil en JcJ.", "en": "A rare lion with a fast attack (1.3 s). Good-looking and useful in PvP."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Lupos",
+      "familia": {"es": "Lobo", "en": "Wolf"},
+      "nivel": "23",
+      "donde": {"es": "Bosque del Ocaso (Duskwood), raro que recorre la zona.", "en": "Duskwood, a roaming rare."},
+      "por_que": {
+        "es": "Lobo de aspecto espectral. Antes pegaba con daño de sombra, pero eso se quitó en el parche 1.9 de Classic: hoy se doma por el aspecto.",
+        "en": "A spectral-looking wolf. It used to hit for shadow damage, but Classic patch 1.9 removed that: today it's tamed for the look."
+      },
+      "estado": "classic"
+    },
+    {
+      "nombre": "Starving / Feral Mountain Lion",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "23-28",
+      "donde": {"es": "Laderas de Trabalomas (Hillsbrad Foothills). Bestias normales, sin esperar a un raro.", "en": "Hillsbrad Foothills. Regular mobs, no rare camping."},
+      "por_que": {"es": "Ataque de 1,2 segundos sin competir por un raro.", "en": "A 1.2-second attack without fighting over a rare."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Needles Cougar",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "27-28",
+      "donde": {"es": "Las Mil Agujas (Thousand Needles).", "en": "Thousand Needles."},
+      "por_que": {"es": "Otra opción de 1,2 segundos, cómoda para la Horda.", "en": "Another 1.2-second option, handy for the Horde."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Swamp Jaguar",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "36-37",
+      "donde": {"es": "Pantano de las Penas (Swamp of Sorrows).", "en": "Swamp of Sorrows."},
+      "por_que": {"es": "Ataque de 1,2 segundos en una bestia normal: el sustituto fácil de Broken Tooth.", "en": "A 1.2-second attack on a regular mob: the easy Broken Tooth substitute."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Broken Tooth",
+      "familia": {"es": "Felino", "en": "Cat"},
+      "nivel": "37",
+      "donde": {"es": "Tierras Inhóspitas (Badlands). Raro que tarda unas 7-8 horas en volver a salir.", "en": "Badlands. Rare with a roughly 7-8 hour respawn."},
+      "por_que": {
+        "es": "Ataque de 1,0 segundos, el más rápido: no pega más en mazmorras, pero en JcJ retrasa sin parar los lanzamientos del enemigo. Habrá cola para domarlo.",
+        "en": "A 1.0-second attack, the fastest there is: no extra damage in dungeons, but in PvP it constantly pushes back enemy casts. Expect a queue to tame it."
+      },
+      "estado": "classic"
+    },
+    {
+      "nombre": "Ravage",
+      "familia": {"es": "Hiena", "en": "Hyena"},
+      "nivel": "51",
+      "donde": {"es": "Las Tierras Devastadas (Blasted Lands).", "en": "Blasted Lands."},
+      "por_que": {"es": "Hiena de 1,3 segundos: junta ataque rápido y el Tendon Rip nuevo de Forever, buena para JcJ.", "en": "A 1.3-second hyena: fast attacks plus Forever's new Tendon Rip, good for PvP."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Spiteflayer",
+      "familia": {"es": "Carroñero", "en": "Carrion Bird"},
+      "nivel": "52",
+      "donde": {"es": "Las Tierras Devastadas (Blasted Lands).", "en": "Blasted Lands."},
+      "por_que": {"es": "Carroñero de 1,2 segundos, el más rápido de su familia.", "en": "A 1.2-second carrion bird, the fastest of its family."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Deathmaw",
+      "familia": {"es": "Lobo", "en": "Wolf"},
+      "nivel": "53",
+      "donde": {"es": "Las Estepas Ardientes (Burning Steppes), raro.", "en": "Burning Steppes, rare spawn."},
+      "por_que": {"es": "Lobo de 1,2 segundos con Furious Howl: rápido para JcJ y útil en grupo.", "en": "A 1.2-second wolf with Furious Howl: quick for PvP and useful in groups."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Bloodseeker Bat",
+      "familia": {"es": "Murciélago", "en": "Bat"},
+      "nivel": "60",
+      "donde": {"es": "Zul'Gurub (banda), si está en Forever.", "en": "Zul'Gurub (raid), if it's in Forever."},
+      "por_que": {"es": "Murciélago de 1,0 segundos con Sonic Blast: la pareja ideal para frenar lanzadores en JcJ.", "en": "A 1.0-second bat with Sonic Blast: the ideal combo for shutting down casters in PvP."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Snapjaw",
+      "familia": {"es": "Tortuga", "en": "Turtle"},
+      "nivel": "?",
+      "donde": {"es": "Laderas de Trabalomas (Hillsbrad Foothills).", "en": "Hillsbrad Foothills."},
+      "por_que": {"es": "Enseñaba el primer rango de Shell Shield (para mascotas de nivel 20).", "en": "It taught Shell Shield rank 1 (for pets level 20+)."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Elder Shardtooth",
+      "familia": {"es": "Oso", "en": "Bear"},
+      "nivel": "?",
+      "donde": {"es": "Cuna del Invierno (Winterspring).", "en": "Winterspring."},
+      "por_que": {"es": "Enseñaba Claw rango 8, el más alto, para mascotas de nivel 56.", "en": "It taught Claw rank 8, the top rank, for level 56 pets."},
+      "estado": "classic"
+    },
+    {
+      "nombre": "Plagued Swine / Bloodaxe Worg",
+      "familia": {"es": "Jabalí / Lobo", "en": "Boar / Wolf"},
+      "nivel": "?",
+      "donde": {"es": "Tierras de la Peste del Este (Plagued Swine) y Cumbre de Roca Negra Inferior (Bloodaxe Worg).", "en": "Eastern Plaguelands (Plagued Swine) and Lower Blackrock Spire (Bloodaxe Worg)."},
+      "por_que": {"es": "Rangos altos: Charge 6 (jabalí, nivel 60) y Dash 3 y Furious Howl 4 (lobo).", "en": "Top ranks: Charge 6 (boar, level 60) and Dash 3 plus Furious Howl 4 (wolf)."},
+      "estado": "classic"
+    }
+  ],
+  "pendiente": [
+    {"es": "Dónde domar un zorro y a qué nivel: aún no hay ningún sitio confirmado.", "en": "Where to tame a fox and at what level: no confirmed spot yet."},
+    {"es": "Si los raros de Classic (Broken Tooth, Humar, Deathmaw…) siguen en el mismo sitio, nivel y velocidad en Forever: la beta solo llegaba al nivel 30.", "en": "Whether Classic rares (Broken Tooth, Humar, Deathmaw…) keep their spot, level and speed in Forever: the beta stopped at level 30."},
+    {"es": "Qué bestias enseñan cada rango de Bite, Claw y las habilidades nuevas: Blizzard corrigió rangos durante la beta.", "en": "Which beasts teach each rank of Bite, Claw and the new abilities: Blizzard adjusted ranks during the beta."},
+    {"es": "Cómo baja la felicidad en el lanzamiento (en la beta solo bajaba al morir) y el precio de los huecos del establo.", "en": "How happiness drains at launch (in the beta it only dropped on death) and the price of stable slots."},
+    {"es": "Dónde se doma el Can del Núcleo (Core Hound) y si Zul'Gurub estará en Forever.", "en": "Where the Core Hound can be tamed and whether Zul'Gurub will be in Forever."}
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de Blizzard (foro oficial)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
+    {"nombre": "Blizzard: análisis a fondo del cazador y el druida en Forever", "url": "https://worldofwarcraft.blizzard.com/news/24301515"},
+    {"nombre": "Talents Forever: hechizos del cazador del cliente de la beta (CC BY 4.0)", "url": "https://talentsforever.com/hunter/changes"},
+    {"nombre": "Warcraft Tavern: mascotas en Forever", "url": "https://www.warcrafttavern.com/forever/guides/hunter-pets/"},
+    {"nombre": "Warcraft Tavern: familias, habilidades y dietas en Forever", "url": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"},
+    {"nombre": "Warcraft Tavern: lealtad y entrenamiento en Forever", "url": "https://www.warcrafttavern.com/forever/guides/hunter-pet-abilities/"},
+    {"nombre": "Warcraft Tavern: mejores mascotas en Forever", "url": "https://www.warcrafttavern.com/forever/guides/best-hunter-pets/"},
+    {"nombre": "Seemeta: familias de Forever (zorro)", "url": "https://seemeta.com/en/wow-forever/pets"},
+    {"nombre": "Warcraft Wiki: Fernfeather", "url": "https://warcraft.wiki.gg/wiki/Fernfeather"},
+    {"nombre": "Petopia: velocidad de ataque de mascotas (WoW Classic)", "url": "https://www.wow-petopia.com/classic/attackspeed.php"},
+    {"nombre": "Warcraft Tavern: guía de mascotas (WoW Classic)", "url": "https://www.warcrafttavern.com/wow-classic/guides/hunter-pets/"},
+    {"nombre": "Warcraft Wiki: mascotas raras", "url": "https://warcraft.wiki.gg/wiki/Rare_pet"}
+  ]
+}

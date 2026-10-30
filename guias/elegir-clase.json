@@ -1,0 +1,432 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "¿No sabes qué clase elegir para el 4 de noviembre? Aquí tienes las 9 clases de WoW Forever comparadas para alguien que empieza: lo difícil que es, lo rápido que sube, qué hace en grupo y qué tal va en JcJ. Debajo, una clasificación por niveles de cada rama. Un aviso antes de nada: la beta terminó en el nivel 30, así que <b>nadie ha jugado todavía el nivel 60 de Forever</b>. Elige la clase que te divierta: la diferencia entre ramas se nota en las bandas de élite, no en tus primeras semanas.",
+    "en": "Not sure which class to roll on November 4? Here are all 9 WoW Forever classes compared for a new player: how hard they are, how fast they level, what they do in a group and how they fare in PvP. Below that you'll find a tier list for every spec. One warning up front: the beta stopped at level 30, so <b>nobody has played Forever at level 60 yet</b>. Pick the class you enjoy: the gap between specs matters in top-end raiding, not in your first few weeks."
+  },
+  "clases": [
+    {
+      "slug": "warrior",
+      "dificultad": 3,
+      "subir": 2,
+      "grupo": {
+        "es": "Tanque (Protection) o daño cuerpo a cuerpo (Fury y Arms).",
+        "en": "Tank (Protection) or melee damage (Fury and Arms)."
+      },
+      "jcj": {
+        "es": "Muy fuerte con buen equipo y un sanador al lado. Mortal Strike corta las curas, pero sin escapes los magos y cazadores lo frenan con facilidad.",
+        "en": "Very strong with good gear and a healer behind it. Mortal Strike cuts healing, but with no escapes it gets kited easily by mages and hunters."
+      },
+      "resumen": {
+        "es": "El tanque de referencia y una de las ramas de daño que más prometen en bandas. Sube despacio porque casi no se cura y depende mucho del arma, aunque Victory Rush y Protection lo hacen más llevadero que en Classic. Mejora muchísimo con cada pieza de equipo.",
+        "en": "The go-to tank and one of the most promising raid damage specs. It levels slowly because it barely heals itself and leans hard on its weapon, though Victory Rush and Protection make it easier than in Classic. Every gear upgrade makes a big difference."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta estar en primera línea, tanquear o pegar fuerte y no te importa sufrir un poco al subir.",
+        "en": "If you like being on the front line, tanking or hitting hard, and don't mind a rough leveling ride."
+      }
+    },
+    {
+      "slug": "paladin",
+      "dificultad": 1,
+      "subir": 3,
+      "grupo": {
+        "es": "Las tres cosas: tanque (Protection con Seal of Fury), sanador (Holy) y daño cuerpo a cuerpo (Retribution).",
+        "en": "All three: tank (Protection with Seal of Fury), healer (Holy) and melee damage (Retribution)."
+      },
+      "jcj": {
+        "es": "Muy difícil de matar gracias a Divine Shield y sus curas, pero lento: sin Blessing of Freedom le cuesta llegar al cuerpo a cuerpo.",
+        "en": "Very hard to kill thanks to Divine Shield and self-heals, but slow: without Blessing of Freedom it struggles to reach melee range."
+      },
+      "resumen": {
+        "es": "La clase más fácil de llevar: placas, curas propias y una rotación corta. Sube a ritmo medio pero casi nunca muere. En Forever puede tanquear de verdad y sus bendiciones son bienvenidas en cualquier grupo.",
+        "en": "The easiest class to play: plate armor, self-heals and a short rotation. It levels at a medium pace but almost never dies. In Forever it can genuinely tank, and its blessings are welcome in any group."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta aguantar lo que sea y quieres poder tanquear, curar o pegar con el mismo personaje.",
+        "en": "If you like being nearly unkillable and want one character that can tank, heal or deal damage."
+      }
+    },
+    {
+      "slug": "hunter",
+      "dificultad": 1,
+      "subir": 5,
+      "grupo": {
+        "es": "Daño a distancia (Beast Mastery y Marksmanship) o cuerpo a cuerpo (Survival). Aporta Tranquilizing Shot y trampas.",
+        "en": "Ranged damage (Beast Mastery and Marksmanship) or melee (Survival). Brings Tranquilizing Shot and traps."
+      },
+      "jcj": {
+        "es": "Bueno, sobre todo en campos de batalla: mucho control y daño desde lejos. Sufre si un rival se mete en su zona muerta de 8 metros.",
+        "en": "Good, especially in battlegrounds: lots of control and damage from range. It suffers when an enemy gets inside its 8-yard dead zone."
+      },
+      "resumen": {
+        "es": "La clase que todas las guías ponen como la más rápida y segura para subir: la mascota recibe los golpes mientras tú disparas. Es muy fácil para empezar y, según las primeras simulaciones de la beta, sus ramas están entre las que más daño hacen. Hay que cuidar de la mascota y llevar munición.",
+        "en": "Every guide rates it the fastest and safest class to level: your pet takes the hits while you shoot. It is very beginner-friendly and, according to early beta simulations, its specs are among the top damage dealers. You do have to look after your pet and carry ammo."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta jugar a distancia, ir con un compañero animal y subir de nivel sin apuros.",
+        "en": "If you like fighting from range with an animal companion and leveling without stress."
+      }
+    },
+    {
+      "slug": "rogue",
+      "dificultad": 2,
+      "subir": 3,
+      "grupo": {
+        "es": "Solo daño cuerpo a cuerpo (Combat, Assassination o Subtlety).",
+        "en": "Melee damage only (Combat, Assassination or Subtlety)."
+      },
+      "jcj": {
+        "es": "De lo mejor: el sigilo le deja elegir cuándo empieza la pelea y encadena aturdimientos con Cheap Shot y Kidney Shot.",
+        "en": "Among the best: stealth lets it choose when a fight starts, and it chains stuns with Cheap Shot and Kidney Shot."
+      },
+      "resumen": {
+        "es": "Mucho daño a un solo objetivo, sigilo y muchas salidas (Vanish, Evasion, Sprint, Blind). No se cura solo, así que vive de vendas y pociones. Combat promete mucho en bandas y Subtlety es la rama favorita para JcJ.",
+        "en": "Huge single-target damage, stealth and plenty of escapes (Vanish, Evasion, Sprint, Blind). It has no self-healing, so it lives on bandages and potions. Combat looks great for raids and Subtlety is the favorite PvP spec."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta moverte sin que te vean, elegir tus peleas y rematar rápido.",
+        "en": "If you like moving unseen, picking your fights and finishing targets fast."
+      }
+    },
+    {
+      "slug": "priest",
+      "dificultad": 2,
+      "subir": 2,
+      "grupo": {
+        "es": "Sanador (Holy y Discipline) o daño a distancia (Shadow). Siempre hay sitio para él.",
+        "en": "Healer (Holy and Discipline) or ranged damage (Shadow). There's always a spot for one."
+      },
+      "jcj": {
+        "es": "Fuerte: Shadow tiene Psychic Scream, Silence y Mana Burn, y un Discipline con escudos y Penance es muy difícil de matar. Sufre contra cuerpo a cuerpo que lo persiguen.",
+        "en": "Strong: Shadow has Psychic Scream, Silence and Mana Burn, and a Discipline priest with shields and Penance is very hard to kill. It struggles against melee that stick to it."
+      },
+      "resumen": {
+        "es": "El sanador más buscado y con los mejores beneficios para el grupo. Arranca lento hasta tener varita buena y Mind Flay, pero Power Word: Shield y Spirit Tap lo hacen muy aguantador. En Forever todos los sacerdotes reciben Fear Ward y Divine Spirit.",
+        "en": "The most sought-after healer with the best group buffs. It starts slowly until it has a good wand and Mind Flay, but Power Word: Shield and Spirit Tap make it very durable. In Forever every priest gets Fear Ward and Divine Spirit."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta mantener vivo al grupo o hacer daño a base de sombras y control.",
+        "en": "If you like keeping your group alive, or dealing shadow damage with plenty of control."
+      }
+    },
+    {
+      "slug": "shaman",
+      "dificultad": 2,
+      "subir": 3,
+      "grupo": {
+        "es": "Sanador (Restoration), daño a distancia (Elemental) o cuerpo a cuerpo (Enhancement). Sus tótems mejoran a todo el grupo.",
+        "en": "Healer (Restoration), ranged damage (Elemental) or melee (Enhancement). Its totems buff the whole group."
+      },
+      "jcj": {
+        "es": "Bueno por utilidad: Earth Shock corta hechizos, Purge quita escudos y Grounding Totem se traga un control. Le falta control fuerte para cerrar duelos.",
+        "en": "Good for utility: Earth Shock interrupts, Purge strips shields and Grounding Totem eats a crowd-control spell. It lacks hard control to close out duels."
+      },
+      "resumen": {
+        "es": "Tres papeles reales y tótems que ahora duran 5 minutos. Enhancement es la forma cómoda de subir y Restoration figura entre los mejores sanadores en las primeras listas. Va justo de maná y las misiones de tótems son largas.",
+        "en": "Three real roles, and totems now last 5 minutes. Enhancement is the comfortable way to level, and Restoration ranks among the best healers on early lists. Mana is tight and the totem quests are long."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta ayudar a todo el grupo a la vez y tener siempre una herramienta para cada situación.",
+        "en": "If you like helping the whole group at once and having a tool for every situation."
+      }
+    },
+    {
+      "slug": "mage",
+      "dificultad": 2,
+      "subir": 4,
+      "grupo": {
+        "es": "Solo daño a distancia (Frost, Fire o Arcane), con mucho daño en área. Reparte comida, agua y portales.",
+        "en": "Ranged damage only (Frost, Fire or Arcane), with strong area damage. Hands out food, water and portals."
+      },
+      "jcj": {
+        "es": "Muy fuerte con Frost: congela, ralentiza, corta hechizos con Counterspell y escapa con Blink e Ice Block. Muere rápido si lo alcanzan.",
+        "en": "Very strong as Frost: it freezes, slows, interrupts with Counterspell and escapes with Blink and Ice Block. It dies fast if caught."
+      },
+      "resumen": {
+        "es": "Control, daño en área y viajes gratis con teletransportes y portales. Sube rápido y casi no gasta en comida, aunque es frágil y en Forever el truco de matar grupos enormes está recortado. Fire es la rama que más promete en bandas.",
+        "en": "Control, area damage and free travel with teleports and portals. It levels fast and spends almost nothing on food, though it's fragile and Forever trimmed the huge-pull AoE trick. Fire looks like the best raid spec."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta controlar el combate desde lejos y no te importa ir en tela.",
+        "en": "If you like controlling a fight from range and don't mind wearing cloth."
+      }
+    },
+    {
+      "slug": "warlock",
+      "dificultad": 2,
+      "subir": 4,
+      "grupo": {
+        "es": "Solo daño a distancia (Affliction, Demonology o Destruction). Aporta Healthstone, Soulstone y Ritual of Summoning.",
+        "en": "Ranged damage only (Affliction, Demonology or Destruction). Brings Healthstones, Soulstones and Ritual of Summoning."
+      },
+      "jcj": {
+        "es": "Fuerte: Fear, Death Coil y el Felhunter que corta hechizos. Demonology con Soul Link aguanta muchísimo.",
+        "en": "Strong: Fear, Death Coil and a Felhunter that interrupts spells. Demonology with Soul Link is extremely tanky."
+      },
+      "resumen": {
+        "es": "Sube solo con mucha seguridad: el demonio recibe los golpes y Life Tap y Drain Life le ahorran descansos. Hay que vigilar muchas cosas a la vez (demonio, efectos de daño, vida, maná y fragmentos). Las ramas de daño en el tiempo prometen en bandas.",
+        "en": "A very safe solo leveler: the demon tanks while Life Tap and Drain Life save you from resting. You juggle a lot at once (demon, damage over time, health, mana and shards). Its damage-over-time specs look promising for raids."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta llevar un demonio a tu servicio y ver caer al enemigo poco a poco.",
+        "en": "If you like having a demon at your command and watching enemies wither away."
+      }
+    },
+    {
+      "slug": "druid",
+      "dificultad": 3,
+      "subir": 3,
+      "grupo": {
+        "es": "Las cuatro cosas: tanque (oso), daño cuerpo a cuerpo (gato), daño a distancia (Balance) y sanador (Restoration).",
+        "en": "All four: tank (bear), melee damage (cat), ranged damage (Balance) and healer (Restoration)."
+      },
+      "jcj": {
+        "es": "Muy bueno moviéndose: cambiar de forma lo libra de Polymorph y raíces, y es el mejor llevando la bandera. Cuesta dominarlo.",
+        "en": "Great at moving: shapeshifting frees it from Polymorph and roots, and it's the best flag carrier. It takes a while to master."
+      },
+      "resumen": {
+        "es": "La clase que cambia de forma y la que más recibe en Forever (Berserk, Wild Growth, Revive…). Sube despacio hasta la forma de gato del 20 y luego va bien. Es la más versátil, pero hay que manejar maná, ira y energía y saber cuándo cambiar.",
+        "en": "The shapeshifter, and the class Forever changed the most (Berserk, Wild Growth, Revive…). It's slow until Cat Form at 20, then it moves along nicely. It's the most versatile class, but you juggle mana, rage and energy and must know when to shift."
+      },
+      "para_ti_si": {
+        "es": "Si te gusta hacer de todo con un solo personaje y no te asustan muchos botones.",
+        "en": "If you want one character that does everything and a busy action bar doesn't scare you."
+      }
+    }
+  ],
+  "tier": {
+    "nota": {
+      "es": "<b>Léelo antes de mirar las letras.</b> La beta solo llegó al nivel 30, las bandas abren el 9 de diciembre y todavía no hay registros de combate de nivel 60. Estas listas son una <b>media nuestra</b> de las clasificaciones provisionales publicadas antes del lanzamiento: las de Seemeta (28-10) y RankedBoost (JcJ, octubre), las listas por papel de Noobtoboss (19-10) y una simulación de daño de la beta del 21-10. Todas se basan en los talentos del cliente de la beta y en lo que cada rama aporta, no en partidas reales. Cada rama se compara con las de su papel (tanques con tanques, sanadores con sanadores, daño con daño). Cuando las fuentes no coincidían, hicimos la media. Tómalo como una primera idea: cambiará en cuanto haya datos reales, y lo actualizaremos. Ojo: Icy Veins, una de las webs de referencia, aún no ha clasificado ninguna rama de Forever (todas «por decidir» a 26 de octubre). Lo actualizaremos cuando haya datos de nivel 60.",
+      "en": "<b>Read this before looking at the letters.</b> The beta only went to level 30, raids open on December 9 and there are no level 60 combat logs yet. These lists are <b>our average</b> of the provisional rankings published before launch: Seemeta (Oct 28) and RankedBoost (PvP, October), Noobtoboss's role lists (Oct 19) and a beta damage simulation from Oct 21. All of them are based on the beta client's talents and what each spec brings, not on real play. Each spec is compared within its role (tanks with tanks, healers with healers, damage with damage). Where sources disagreed, we averaged them. Treat it as a first impression: it will change once real data arrives, and we'll update it. Note: Icy Veins, one of the reference sites, has not ranked any Forever spec yet (all «TBD» as of October 26). We will update this once there is level 60 data."
+    },
+    "pve": [
+      {
+        "tier": "S",
+        "ramas": [
+          "Fury Warrior",
+          "Combat Rogue",
+          "Marksmanship Hunter",
+          "Protection Warrior",
+          "Protection Paladin",
+          "Holy Priest",
+          "Restoration Shaman"
+        ]
+      },
+      {
+        "tier": "A",
+        "ramas": [
+          "Survival Hunter",
+          "Beast Mastery Hunter",
+          "Fire Mage",
+          "Affliction Warlock",
+          "Demonology Warlock",
+          "Enhancement Shaman",
+          "Assassination Rogue",
+          "Discipline Priest",
+          "Restoration Druid"
+        ]
+      },
+      {
+        "tier": "B",
+        "ramas": [
+          "Arms Warrior",
+          "Arcane Mage",
+          "Destruction Warlock",
+          "Shadow Priest",
+          "Elemental Shaman",
+          "Subtlety Rogue",
+          "Holy Paladin",
+          "Feral Druid (bear)"
+        ]
+      },
+      {
+        "tier": "C",
+        "ramas": [
+          "Retribution Paladin",
+          "Frost Mage",
+          "Feral Druid (cat)",
+          "Balance Druid"
+        ]
+      }
+    ],
+    "pvp": [
+      {
+        "tier": "S",
+        "ramas": [
+          "Subtlety Rogue",
+          "Assassination Rogue",
+          "Frost Mage",
+          "Arcane Mage",
+          "Shadow Priest",
+          "Discipline Priest",
+          "Feral Druid (cat)"
+        ]
+      },
+      {
+        "tier": "A",
+        "ramas": [
+          "Combat Rogue",
+          "Demonology Warlock",
+          "Affliction Warlock",
+          "Destruction Warlock",
+          "Arms Warrior",
+          "Fury Warrior",
+          "Marksmanship Hunter",
+          "Beast Mastery Hunter",
+          "Survival Hunter",
+          "Elemental Shaman",
+          "Fire Mage",
+          "Retribution Paladin",
+          "Balance Druid",
+          "Holy Paladin",
+          "Restoration Shaman",
+          "Restoration Druid"
+        ]
+      },
+      {
+        "tier": "B",
+        "ramas": [
+          "Enhancement Shaman",
+          "Protection Paladin"
+        ]
+      },
+      {
+        "tier": "C",
+        "ramas": [
+          "Holy Priest",
+          "Protection Warrior",
+          "Feral Druid (bear)"
+        ]
+      }
+    ]
+  },
+  "preguntas": [
+    {
+      "pregunta": {
+        "es": "¿Cuál es la clase más fácil para empezar?",
+        "en": "What's the easiest class to start with?"
+      },
+      "respuesta": {
+        "es": "El cazador y el paladín. El cazador tiene una mascota que recibe los golpes y dispara desde lejos; el paladín lleva placas, se cura solo y tiene una rotación muy corta. Los dos perdonan los errores.",
+        "en": "Hunter and paladin. The hunter has a pet that takes the hits while it shoots from range; the paladin wears plate, heals itself and has a very short rotation. Both are forgiving of mistakes."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Qué clase sube de nivel más rápido?",
+        "en": "Which class levels the fastest?"
+      },
+      "respuesta": {
+        "es": "El cazador (Beast Mastery), en todas las listas. Detrás van el brujo y el mago. El guerrero y el sacerdote son los más lentos en solitario, pero suben mucho más rápido en grupo. La diferencia entre clases es de unos días de juego, no de llegar o no al 60.",
+        "en": "The hunter (Beast Mastery), on every list. Warlock and mage come next. Warrior and priest are the slowest solo, but they speed up a lot in a group. The gap between classes is a few days of playtime, not whether you reach 60."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Cuál es la mejor clase para JcJ?",
+        "en": "What's the best class for PvP?"
+      },
+      "respuesta": {
+        "es": "No hay una sola. Las listas provisionales coinciden en el pícaro (sobre todo Subtlety), el mago de Frost y el sacerdote (Shadow y Discipline). Para campos de batalla, el druida lleva la bandera como nadie y el cazador controla desde lejos. Ojo: aún no se ha jugado JcJ a nivel 60 en Forever.",
+        "en": "There isn't just one. Provisional lists agree on rogue (especially Subtlety), Frost mage and priest (Shadow and Discipline). In battlegrounds, druids are unmatched flag carriers and hunters control from range. Keep in mind nobody has played level 60 PvP in Forever yet."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Qué hace falta en las bandas?",
+        "en": "What do raids need?"
+      },
+      "respuesta": {
+        "es": "Siempre faltan tanques y sanadores, así que si tanqueas (guerrero, paladín, druida) o curas (sacerdote, chamán, paladín, druida) encontrarás grupo antes. Daño hay de sobra. Las bandas de Forever abren el 9 de diciembre.",
+        "en": "Tanks and healers are always in short supply, so if you tank (warrior, paladin, druid) or heal (priest, shaman, paladin, druid) you'll find a group faster. Damage dealers are plentiful. Forever raids open on December 9."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Puedo cambiar de rama después?",
+        "en": "Can I switch specs later?"
+      },
+      "respuesta": {
+        "es": "Sí. Puedes reiniciar los talentos en el entrenador, y desde el nivel 40 hay doble especialización: guardas dos repartos y cambias entre ellos. Por eso no pasa nada si subes con una rama y en el 60 juegas otra.",
+        "en": "Yes. You can reset talents at your trainer, and from level 40 there's dual spec: you save two builds and swap between them. So it's fine to level with one spec and play another at 60."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Debo elegir la rama que está arriba en la lista?",
+        "en": "Should I pick the spec at the top of the list?"
+      },
+      "respuesta": {
+        "es": "No hace falta. Las listas son teoría hasta que haya registros de nivel 60, y en mazmorras y en tus primeras bandas cualquier rama sirve si la juegas bien. Elige lo que te divierta: es lo que harás durante cientos de horas.",
+        "en": "You don't need to. The lists are theory until there are level 60 logs, and any spec works in dungeons and early raids if you play it well. Pick what you enjoy: you'll be doing it for hundreds of hours."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Qué clase es mejor si juego poco tiempo?",
+        "en": "Which class is best if I don't have much time?"
+      },
+      "respuesta": {
+        "es": "Una que suba sola sin descansos: cazador o brujo, por la mascota, o paladín, que casi nunca muere. Te dejan aprovechar ratos cortos sin buscar grupo.",
+        "en": "One that levels solo without downtime: hunter or warlock thanks to their pets, or paladin, which almost never dies. They let you make the most of short sessions without looking for a group."
+      }
+    },
+    {
+      "pregunta": {
+        "es": "¿Qué clase es más versátil?",
+        "en": "Which class is the most versatile?"
+      },
+      "respuesta": {
+        "es": "El druida, que puede tanquear, curar y hacer daño cuerpo a cuerpo o a distancia. Después, el paladín y el chamán, con tres papeles cada uno.",
+        "en": "The druid, which can tank, heal and deal both melee and ranged damage. After that come paladin and shaman, with three roles each."
+      }
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Seemeta: tier list de JcE de WoW Forever (28-10-2026)",
+      "url": "https://seemeta.com/es/wow-forever/tier-list"
+    },
+    {
+      "nombre": "Seemeta: tier list de JcJ de WoW Forever (28-10-2026)",
+      "url": "https://seemeta.com/en/wow-forever/pvp-tier-list"
+    },
+    {
+      "nombre": "Seemeta: tier list para subir de nivel (28-10-2026)",
+      "url": "https://seemeta.com/en/wow-forever/leveling-tier-list"
+    },
+    {
+      "nombre": "RankedBoost: tier list de JcJ de WoW Forever",
+      "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/pvp/"
+    },
+    {
+      "nombre": "Noobtoboss: tier list de clases y papeles (19-10-2026)",
+      "url": "https://noobtoboss.com/wowforever-tierlist/"
+    },
+    {
+      "nombre": "Conquest Capped: mejor clase para subir de nivel (22-10-2026)",
+      "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-best-leveling-class/"
+    },
+    {
+      "nombre": "Kami Labs: qué clase elegir y simulación de daño de la beta (21-10-2026)",
+      "url": "https://kami-labs.fr/en/wow-forever/quelle-classe-choisir-wow-forever/"
+    },
+    {
+      "nombre": "Talents Forever: talentos del cliente de la beta y builds más planificadas (CC BY 4.0)",
+      "url": "https://talentsforever.com/"
+    },
+    {
+      "nombre": "Blizzard: calendario de Forever (bandas y mazmorras)",
+      "url": "https://news.blizzard.com/es-es/article/24303862/"
+    },
+    {
+      "nombre": "Nuestras guías de clase de WoW Forever",
+      "url": "https://muchamielwow.github.io"
+    },
+    {
+      "nombre": "Icy Veins: clasificaciones de Forever (aún por decidir)",
+      "url": "https://www.icy-veins.com/wow-forever/tier-list-hub"
+    }
+  ]
+}

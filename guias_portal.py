@@ -129,6 +129,10 @@ def guia_clase(d, lang, builds60=''):
         h += f'<h3>{t(s["extra"].get("titulo"), lang)}</h3>' + lista(s['extra']['items'], lang)
     if s.get('consejos'):
         h += f'<h3>{l("consejos", lang)}</h3>' + lista(s['consejos'], lang)
+    if d['slug'] == 'hunter':
+        h += '<p class="guia-centro">' + ('Todo sobre las mascotas (familias, trucos y dónde domar las mejores): <a href="../mascotas/">Mascotas del cazador</a>.' if lang == 'es' else 'Everything about pets (families, abilities and where to tame the best ones): <a href="../mascotas/">Hunter pets</a>.') + '</p>'
+    if d['slug'] in ('warlock', 'paladin'):
+        h += '<p class="guia-centro">' + ('Tu montura de clase, paso a paso: <a href="../monturas/">Monturas de clase</a>.' if lang == 'es' else 'Your class mount, step by step: <a href="../monturas/">Class mounts</a>.') + '</p>'
     h += ('<p class="guia-centro">' + ('Sube más rápido con <a href="../subir-nivel/#extras-xp">los 5 extras de experiencia</a> (comida, saco de dormir, tienda, posada y Legado).' if lang == 'es' else 'Level faster with <a href="../subir-nivel/#extras-xp">the 5 experience boosts</a> (food, sleeping bag, tent, inn and Legacy).') + '</p>')
     if s.get('hitos'):
         h += f'<h3>{l("hitos", lang)}</h3><table class="keys guia-t">' + ''.join(
@@ -315,6 +319,8 @@ def build(page, dist):
     """Una página por profesión en /profesiones/<slug>/ y el glosario /tecnicas/ (las de clase se meten en insertar_clase)."""
     build_tecnicas(page)
     build_objetos(page)
+    import guias_extra  # oro, mascotas del cazador y monturas de clase
+    guias_extra.build(page)
     for slug, d in profesiones():
         es_n, en_n = t(d.get('nombre'), 'es'), t(d.get('nombre'), 'en')
         titulo = (f'Guía de {es_n} en WoW Forever: de 1 a 300 paso a paso | Muchamiel', f'WoW Forever {en_n} guide: 1 to 300 step by step | Muchamiel')
@@ -388,6 +394,10 @@ def xp_extras(lang):
 def insertar_subir(s):
     if 'id="extras-xp"' in s:
         return s
+    import guias_extra
+    s = guias_extra.insertar_trucos(s)
+    import guias_extra2
+    s = guias_extra2.insertar_ruta_subir(s)
     es, en = xp_extras('es'), xp_extras('en')
     PARES.append((es, en))
     ancla = '<div class="divider"><h2>Monturas y viajes</h2></div>'

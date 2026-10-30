@@ -1,0 +1,394 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "En WoW Forever el oro cuesta más que en Classic. Blizzard ha cerrado en la beta los atajos de siempre: lo fabricado se vende al vendedor por muy poco, cada criatura se desuella una sola vez y hay un vendedor que pone techo al precio de los materiales más caros. Lo que sigue funcionando es lo de toda la vida: recolectar mientras subes, vender en la subasta lo que otros necesitan y no gastar de más. Aquí tienes qué hacer en cada tramo de nivel, qué profesiones dan dinero y qué ya no sirve.",
+    "en": "Gold is harder to come by in WoW Forever than in Classic. During the beta Blizzard shut down the usual shortcuts: crafted goods sell to vendors for next to nothing, each creature can only be skinned once, and a vendor now caps the price of the most expensive materials. What still works is the classic approach: gather while you level, sell what other players need on the auction house, and don't overspend. Here's what to do at each level range, which professions pay, and what no longer works."
+  },
+  "reglas": [
+    {
+      "es": "<b>La subasta cobra.</b> En Classic la casa de subastas de tu facción se queda un 5 % de cada venta, y el depósito se pierde si el objeto no se vende; la neutral (Booty Bay, Gadgetzan, Everlook) cobra bastante más. Forever no ha anunciado cambios. Pon subastas cortas, rebaja poco al de al lado y no subastes lo que vale menos que el depósito.",
+      "en": "<b>The auction house takes a cut.</b> In Classic your faction's auction house keeps 5% of every sale, and you lose the deposit if the item doesn't sell; the neutral one (Booty Bay, Gadgetzan, Everlook) charges a lot more. Forever hasn't announced any changes. Use short auctions, undercut by a little, and don't list anything worth less than the deposit."
+    },
+    {
+      "es": "<b>Mira el precio antes de vender al vendedor.</b> Materiales, tela, cajones de encargo y objetos verdes ligados al equiparse valen casi siempre más en la subasta. Y lo fabricado, en Forever, apenas da nada al vendedor.",
+      "en": "<b>Check the price before vendoring anything.</b> Materials, cloth, supply crates and bind-on-equip greens are almost always worth more on the auction house. And in Forever, crafted goods barely sell for anything at a vendor."
+    },
+    {
+      "es": "<b>Gasta poco mientras subes.</b> Paga los rangos de hechizo que de verdad usas y no compres equipo en la subasta que vas a cambiar en dos niveles: las misiones y las mazmorras te equipan.",
+      "en": "<b>Spend little while leveling.</b> Only buy the spell ranks you actually use, and don't buy auction house gear you'll replace in two levels: quests and dungeons will gear you."
+    },
+    {
+      "es": "<b>Guarda para la montura.</b> A nivel 40 la equitación cuesta 100 de oro y la montura del vendedor 20 más; a nivel 60, 1.000 y 200. Con reputación Honorable con tu facción, un 10 % menos. Paladines y brujos la consiguen con misiones de clase.",
+      "en": "<b>Save for your mount.</b> At level 40 riding costs 100 gold, plus 20 for a mount from the vendor; at level 60 it's 1,000 and 200. Honored with your home faction gives 10% off. Paladins and Warlocks get theirs through class quests."
+    },
+    {
+      "es": "<b>Dos de recolección para empezar.</b> No cuestan dinero, lo dan. Cuando llegues a 60 y tengas oro, cambia una por la fabricación que vaya con la otra.",
+      "en": "<b>Start with two gathering professions.</b> They don't cost money, they make it. Once you're 60 and have some gold, swap one for the crafting profession that pairs with the other."
+    },
+    {
+      "es": "<b>No compres oro.</b> Blizzard ya cerró miles de cuentas en la beta por comprar o vender oro y promete castigos duros. En Forever no hay ficha de WoW ni se permiten las bandas GDKP.",
+      "en": "<b>Don't buy gold.</b> Blizzard already closed thousands of beta accounts for buying or selling gold and promises harsh penalties. Forever has no WoW Token and GDKP raids aren't allowed."
+    }
+  ],
+  "por_nivel": [
+    {
+      "niveles": "1-20",
+      "metodos": [
+        {
+          "titulo": {"es": "Recolectar desde el nivel 1", "en": "Gather from level 1"},
+          "texto": {
+            "es": "Una misión del primer día te deja elegir un manual (<b>Wild Harvest</b>, <b>Mining for Dummies</b> o <b>Pelt Collecting for Beginners</b>) que enseña la profesión y da +2 de habilidad. Cada zona de inicio tiene un instructor júnior hasta 75 y vetas <b>Poor Copper Vein</b>, aunque Blizzard redujo cuántas hay. Recoge todo lo que veas de camino a las misiones.",
+            "en": "A day-one quest lets you pick a manual (<b>Wild Harvest</b>, <b>Mining for Dummies</b> or <b>Pelt Collecting for Beginners</b>) that teaches the profession and gives +2 skill. Every starting zone has a junior trainer up to 75 and <b>Poor Copper Vein</b> nodes, though Blizzard reduced how many there are. Pick up everything you pass on the way to your quests."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Mineral en montones de 20", "en": "Ore in stacks of 20"},
+          "texto": {
+            "es": "En Forever el mineral se apila de 20 en 20 (antes, de 10), así que ocupa la mitad de bolsa. Las vetas reaparecen antes cuantos más jugadores hay cerca. En la beta la <b>Copper Bar</b> se vendía a menudo por menos que su mineral: vende el mineral sin fundir salvo que el lingote valga más.",
+            "en": "In Forever ore stacks to 20 (it used to be 10), so it takes half the bag space. Nodes respawn faster the more players are nearby. During the beta a <b>Copper Bar</b> often sold for less than its ore: sell the raw ore unless the bar is clearly worth more."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Desuello: una vez por criatura", "en": "Skinning: once per creature"},
+          "texto": {
+            "es": "Cada bestia se desuella una sola vez y luego desaparece, así que no te quedes esperando a desollar después de otro. Puedes desollar lo que otros matan cuando lo hayan despojado. Además del cuero normal salen materiales escasos nuevos, como <b>Pristine Leather</b>, que en la beta se pagaban muy por encima del <b>Light Leather</b>.",
+            "en": "Each beast can only be skinned once, then it despawns, so there's no point waiting to skin after someone else. You can skin other players' kills once they've looted them. Besides regular leather you get new scarce materials like <b>Pristine Leather</b>, which sold for far more than <b>Light Leather</b> during the beta."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Tela y objetos grises", "en": "Cloth and grey items"},
+          "texto": {
+            "es": "Los humanoides sueltan <b>Linen Cloth</b> y <b>Wool Cloth</b>: los sastres la necesitan para subir y para las bolsas de componentes nuevas. Véndela en montones en la subasta. Los objetos grises, al vendedor: el recorte de Forever es para lo fabricado, no para la basura.",
+            "en": "Humanoids drop <b>Linen Cloth</b> and <b>Wool Cloth</b>: tailors need it to level and for the new reagent bags. Sell it in stacks on the auction house. Grey items go to the vendor: Forever's price cut targets crafted goods, not junk."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Cajones de encargo (Waylaid Crates)", "en": "Waylaid Crates"},
+          "texto": {
+            "es": "Vuelven los cajones de Season of Discovery: caen al azar en el mundo y piden un lote de materiales. Lleno, se liga a ti y lo entregas por <b>Favor del Mercader</b> y algo de plata (Dokimi junto al Cruce para la Horda, Marcy Baker en Redridge para la Alianza). Vacío, se puede vender en la subasta a quien busca Favor. Compara las dos cosas antes de decidir.",
+            "en": "The supply crates from Season of Discovery are back: they drop randomly in the world and ask for a bundle of materials. Once filled it binds to you, and you turn it in for <b>Merchant's Favor</b> and a bit of silver (Dokimi outside the Crossroads for Horde, Marcy Baker in Redridge for Alliance). Empty, it can be sold on the auction house to players chasing Favor. Compare both before you decide."
+          },
+          "estado": "forever"
+        }
+      ]
+    },
+    {
+      "niveles": "20-40",
+      "metodos": [
+        {
+          "titulo": {"es": "Hierbas de pociones de sanación", "en": "Healing potion herbs"},
+          "texto": {
+            "es": "En Forever las pociones de sanación pasan a First Aid, una profesión que sube casi todo el mundo. Eso dispara la demanda de <b>Peacebloom</b>, <b>Briarthorn</b> y <b>Bruiseweed</b>, que antes solo compraban los alquimistas. Con Herbalism, vende estas hierbas en lugar de usarlas tú si no las necesitas.",
+            "en": "In Forever healing potions move to First Aid, a profession almost everyone levels. That pushes up demand for <b>Peacebloom</b>, <b>Briarthorn</b> and <b>Bruiseweed</b>, which used to sell only to alchemists. With Herbalism, sell these herbs rather than sitting on them if you don't need them."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Hierro, mitril y minerales de propina", "en": "Iron, mithril and bonus ores"},
+          "texto": {
+            "es": "<b>Tin Ore</b>, <b>Silver Ore</b>, <b>Iron Ore</b> y <b>Mithril Ore</b> los gastan herreros e ingenieros sin parar. En Forever salen de propina minerales nuevos (<b>Pyrite</b> del cobre, estaño y hierro; <b>Bauxite</b> del mitril) que piden recetas nuevas. Guárdalos para la subasta: el vendedor paga muy poco por ellos.",
+            "en": "<b>Tin Ore</b>, <b>Silver Ore</b>, <b>Iron Ore</b> and <b>Mithril Ore</b> are in constant demand from blacksmiths and engineers. In Forever, new bonus ores also drop (<b>Pyrite</b> from copper, tin and iron; <b>Bauxite</b> from mithril) for new recipes. Keep them for the auction house: vendors pay very little for them."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Materiales olvidados que vuelven a venderse", "en": "Forgotten materials selling again"},
+          "texto": {
+            "es": "Las recetas de Favor y los cajones de encargo piden materiales de Classic que antes no quería nadie. Antes de vender algo al vendedor por cobres, mira si alguien lo compra en la subasta: es la forma más fácil de ganar sin hacer nada distinto.",
+            "en": "Favor recipes and supply crates call for Classic materials nobody used to want. Before vendoring something for copper, check whether it sells on the auction house: it's the easiest money you'll make without changing anything you do."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Pesca con señuelo", "en": "Fishing with lures"},
+          "texto": {
+            "es": "La pesca no ocupa hueco de profesión principal. Los peces de nivel medio se venden a quien sube Cocina, y además salen cofres y objetos raros. En Classic, <b>Oily Blackmouth</b> y <b>Firefin Snapper</b> eran buen negocio para los alquimistas; en Forever hay además peces nuevos poco comunes y raros.",
+            "en": "Fishing doesn't use a main profession slot. Mid-level fish sell to players leveling Cooking, and you also fish up chests and rare items. In Classic, <b>Oily Blackmouth</b> and <b>Firefin Snapper</b> were good money from alchemists; Forever adds new uncommon and rare fish on top."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Verdes de mazmorra: subasta o desencantar", "en": "Dungeon greens: auction or disenchant"},
+          "texto": {
+            "es": "Los objetos verdes ligados al equiparse se venden a otros jugadores o se desencantan; al vendedor dan poco. Si eres encantador, compra en la subasta verdes que cuesten menos que lo que sacarías al desencantarlos.",
+            "en": "Bind-on-equip greens sell to other players or get disenchanted; vendors pay little for them. If you're an enchanter, buy greens on the auction house that cost less than what you'd get from disenchanting them."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Abrir cajas (pícaros)", "en": "Opening lockboxes (Rogues)"},
+          "texto": {
+            "es": "En Classic el pícaro roba cajas (junkboxes) a los humanoides con <b>Pick Pocket</b>, las abre con <b>Pick Lock</b> y vende lo que salga; también abre cajas a otros jugadores a cambio de una propina. Es dinero tranquilo, no grande. El bucle de cofres del Monasterio Escarlata de la beta ya no funciona.",
+            "en": "In Classic, Rogues lift junkboxes off humanoids with <b>Pick Pocket</b>, open them with <b>Pick Lock</b> and sell the contents; they also open boxes for other players for a tip. It's steady money, not big money. The Scarlet Monastery chest loop from the beta no longer works."
+          },
+          "estado": "classic"
+        }
+      ]
+    },
+    {
+      "niveles": "40-60",
+      "metodos": [
+        {
+          "titulo": {"es": "Primero, la montura", "en": "First, your mount"},
+          "texto": {
+            "es": "Llega al 40 con unos 120 de oro (100 de la equitación y 20 de la montura) o 108 si eres Honorable. Montado subes y recolectas mucho más rápido, así que es el mejor gasto del juego. Después, a ahorrar para los 1.200 del 60.",
+            "en": "Hit 40 with about 120 gold (100 for riding and 20 for the mount), or 108 if you're Honored. Riding makes leveling and gathering much faster, so it's the best purchase in the game. After that, start saving for the 1,200 at level 60."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Tela de nivel alto", "en": "High-level cloth"},
+          "texto": {
+            "es": "<b>Mageweave Cloth</b> y <b>Runecloth</b> salen de los humanoides de 40 a 60 y siempre tienen salida: vendas, bolsas y la reputación. En Forever los sastres además hacen <b>Mageweave Reagent Bag</b> y <b>Runecloth Reagent Bag</b> con Favor.",
+            "en": "<b>Mageweave Cloth</b> and <b>Runecloth</b> drop from humanoids from 40 to 60 and always sell: bandages, bags and reputation turn-ins. In Forever tailors can also make <b>Mageweave Reagent Bag</b> and <b>Runecloth Reagent Bag</b> with Favor."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Elementales y esencias", "en": "Elementals and essences"},
+          "texto": {
+            "es": "En Classic los elementales de fuego de Burning Steppes sueltan <b>Essence of Fire</b> y <b>Heart of Fire</b>, que piden herreros, alquimistas y encantadores para recetas de nivel 60. Es de los farmeos clásicos que mejor se pagan. Falta ver si las recetas nuevas de Forever cambian su precio.",
+            "en": "In Classic, the fire elementals in Burning Steppes drop <b>Essence of Fire</b> and <b>Heart of Fire</b>, wanted by blacksmiths, alchemists and enchanters for level 60 recipes. It's one of the best-paying classic farms. It remains to be seen whether Forever's new recipes shift their price."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Cuero grueso y dinosaurios", "en": "Thick leather and devilsaurs"},
+          "texto": {
+            "es": "<b>Thick Leather</b> y <b>Rugged Leather</b> los gasta la Peletería sin parar. En Un'Goro, los devilsaurios dan <b>Devilsaur Leather</b>, uno de los cueros más caros de Classic. En Forever salen además <b>Pristine Hide</b> y otros materiales escasos de las bestias.",
+            "en": "Leatherworkers burn through <b>Thick Leather</b> and <b>Rugged Leather</b>. In Un'Goro, devilsaurs give <b>Devilsaur Leather</b>, one of Classic's priciest leathers. In Forever beasts also drop <b>Pristine Hide</b> and other scarce materials."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Cajones de nivel alto", "en": "Higher-tier crates"},
+          "texto": {
+            "es": "Los cajones Expert (nivel 20) y Artisan (nivel 35) dan más Favor. Llénalos con lo que recoges y canjea el Favor por recetas que se venden bien (encantamientos de collar, kits de armadura, bolsas). Así conviertes materiales baratos en algo que la gente compra.",
+            "en": "Expert (level 20) and Artisan (level 35) crates give more Favor. Fill them with what you gather and spend the Favor on recipes that sell (necklace enchants, armor kits, bags). That's how you turn cheap materials into things people actually buy."
+          },
+          "estado": "forever"
+        }
+      ]
+    },
+    {
+      "niveles": "60",
+      "metodos": [
+        {
+          "titulo": {"es": "Consumibles para bandas", "en": "Raid consumables"},
+          "texto": {
+            "es": "Las primeras bandas abren el 9 de diciembre y ahí se disparan los precios de frascos, elixires, pociones de maná, aceites (<b>Wizard Oil</b>, <b>Mana Oil</b>), piedras de afilar y comida. Prepara materiales antes de esa fecha: es el dinero más seguro del 60.",
+            "en": "The first raids open on 9 December, and that's when flasks, elixirs, mana potions, oils (<b>Wizard Oil</b>, <b>Mana Oil</b>), sharpening stones and food spike in price. Stock up on materials before then: it's the safest money at 60."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Materiales escasos con techo de precio", "en": "Scarce materials with a price cap"},
+          "texto": {
+            "es": "En la beta, Mister Graphed (Powderfuse Port, Riverglades) vende sin límite y a precio fijo 14 materiales: entre ellos <b>Black Lotus</b>, <b>Arcane Crystal</b> y <b>Death Lotus</b> a 50 de oro, y <b>Pristine Leather</b>, <b>Frilled Lichen</b> y <b>Pyrite</b> a 5. Nadie paga más en la subasta, pero vender un poco por debajo de ese precio sigue siendo buen negocio. El talento de Legacy <b>Bountiful Harvest</b> da más de estos materiales.",
+            "en": "During the beta, Mister Graphed (Powderfuse Port, Riverglades) sold 14 materials at fixed prices with no limit: among them <b>Black Lotus</b>, <b>Arcane Crystal</b> and <b>Death Lotus</b> at 50 gold, and <b>Pristine Leather</b>, <b>Frilled Lichen</b> and <b>Pyrite</b> at 5. Nobody pays more on the auction house, but selling a little under that price is still good money. The <b>Bountiful Harvest</b> Legacy perk gets you more of these materials."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Encantar por encargo", "en": "Enchanting for tips"},
+          "texto": {
+            "es": "Los encantamientos nuevos de Forever (<b>Enchant Weapon - Revelation</b>, <b>Insight</b>, los <b>Enchant Necklace</b>) solo los tienen encantadores con el Favor suficiente. Se ponen en persona: anúnciate en el canal de comercio y cobra la mano de obra.",
+            "en": "Forever's new enchants (<b>Enchant Weapon - Revelation</b>, <b>Insight</b>, the <b>Enchant Necklace</b> line) are only available to enchanters with enough Favor. They're applied in person: advertise in trade chat and charge for your work."
+          },
+          "estado": "forever"
+        },
+        {
+          "titulo": {"es": "Mazmorras de nivel 60", "en": "Level 60 dungeons"},
+          "texto": {
+            "es": "En Classic, Dire Maul, Stratholme y Scholomance dan objetos ligados al equiparse, recetas, materiales y mucho gris. Para granjear en solitario, Dire Maul Este con una clase que esquive bien a los enemigos era de lo mejor. Forever añade mazmorras nuevas de 55-60 (Blackmaw Hold, Shaper's Terrace) que aún no se han probado para esto.",
+            "en": "In Classic, Dire Maul, Stratholme and Scholomance give bind-on-equip items, recipes, materials and plenty of greys. For solo farming, Dire Maul East on a class that can slip past enemies was among the best. Forever adds new 55-60 dungeons (Blackmaw Hold, Shaper's Terrace) that nobody has tested for this yet."
+          },
+          "estado": "classic"
+        },
+        {
+          "titulo": {"es": "Pesca de nivel 60", "en": "Level 60 fishing"},
+          "texto": {
+            "es": "<b>Raw Nightfin Snapper</b> y <b>Raw Sunscale Salmon</b> se venden para comida de banda, y <b>Stonescale Eel</b> para los aceites de los frascos. El talento <b>Luremaster</b> da hasta un 50 % de probabilidad de un pez extra con señuelo. El torneo de pesca de Stranglethorn ahora tiene varios ganadores.",
+            "en": "<b>Raw Nightfin Snapper</b> and <b>Raw Sunscale Salmon</b> sell for raid food, and <b>Stonescale Eel</b> for the oils used in flasks. The <b>Luremaster</b> perk gives up to a 50% chance of an extra fish when using a lure. The Stranglethorn fishing tournament now has several winners."
+          },
+          "estado": "forever"
+        }
+      ]
+    }
+  ],
+  "profesiones": [
+    {
+      "nombre": {"es": "Herboristería (Herbalism)", "en": "Herbalism"},
+      "texto": {
+        "es": "La que más vende en Forever: las pociones de sanación pasan a First Aid y todo el mundo busca sus hierbas. Además da hierbas escasas nuevas (<b>Frilled Lichen</b>, <b>Rosecap</b>) y semillas. A 60, <b>Dreamfoil</b>, <b>Mountain Silversage</b>, <b>Plaguebloom</b> y <b>Black Lotus</b> para frascos.",
+        "en": "The best seller in Forever: healing potions move to First Aid and everyone wants the herbs. It also gives new scarce herbs (<b>Frilled Lichen</b>, <b>Rosecap</b>) and seeds. At 60, <b>Dreamfoil</b>, <b>Mountain Silversage</b>, <b>Plaguebloom</b> and <b>Black Lotus</b> for flasks."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Minería (Mining)", "en": "Mining"},
+      "texto": {
+        "es": "Mineral en montones de 20 y minerales de propina nuevos (<b>Pyrite</b>, <b>Bauxite</b>, <b>Pitchblende</b>). A 60, <b>Thorium</b> y <b>Arcane Crystal</b> los piden todas las fabricaciones. Vende el mineral, no el lingote, salvo que el lingote valga más.",
+        "en": "Ore stacks to 20 and there are new bonus ores (<b>Pyrite</b>, <b>Bauxite</b>, <b>Pitchblende</b>). At 60, every crafting profession wants <b>Thorium</b> and <b>Arcane Crystal</b>. Sell ore, not bars, unless the bar is worth more."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Desuello (Skinning)", "en": "Skinning"},
+      "texto": {
+        "es": "Va perfecta con cualquier clase que mate bestias al subir. Una vez por criatura, pero con materiales escasos nuevos (<b>Pristine Leather</b>, <b>Pristine Hide</b>, <b>Pristine Scale</b>) que se pagan bien. A 60, <b>Rugged Leather</b> y <b>Devilsaur Leather</b>.",
+        "en": "A perfect fit for any class that kills beasts while leveling. Once per creature, but with new scarce materials (<b>Pristine Leather</b>, <b>Pristine Hide</b>, <b>Pristine Scale</b>) that sell well. At 60, <b>Rugged Leather</b> and <b>Devilsaur Leather</b>."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Encantamiento (Enchanting)", "en": "Enchanting"},
+      "texto": {
+        "es": "Ya no sirve para hacer varitas y venderlas al vendedor. Gana con otras cosas: desencantar verdes (valen más en polvos y esencias), encantamientos nuevos de Favor que solo tú puedes poner y aceites para bandas.",
+        "en": "It no longer works for crafting wands to vendor. It earns in other ways: disenchanting greens (worth more as dust and essences), new Favor enchants only you can apply, and raid oils."
+      },
+      "estado": "nerfeado"
+    },
+    {
+      "nombre": {"es": "Alquimia (Alchemy)", "en": "Alchemy"},
+      "texto": {
+        "es": "Pierde las pociones de sanación (ahora son de First Aid; solo le queda la <b>Discolored Healing Potion</b>), pero conserva lo que más vale a 60: pociones de maná, elixires y frascos de banda, pociones de protección y transmutaciones. Con Favor, <b>Elixir of the Grizzly</b> y <b>Major Frenzy Potion</b>.",
+        "en": "It loses healing potions (they're First Aid now; only the <b>Discolored Healing Potion</b> remains), but keeps what's worth most at 60: mana potions, raid elixirs and flasks, protection potions and transmutes. With Favor, <b>Elixir of the Grizzly</b> and <b>Major Frenzy Potion</b>."
+      },
+      "estado": "nerfeado"
+    },
+    {
+      "nombre": {"es": "Sastrería (Tailoring)", "en": "Tailoring"},
+      "texto": {
+        "es": "Bolsas siempre, y en Forever además bolsas de componentes con su propio hueco (<b>Linen Reagent Bag</b> hasta <b>Runecloth Reagent Bag</b>). Usa la tela que recoges al subir, sin necesitar recolección.",
+        "en": "Bags always sell, and Forever adds reagent bags with their own slot (<b>Linen Reagent Bag</b> up to <b>Runecloth Reagent Bag</b>). It uses the cloth you collect while leveling, no gathering profession needed."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Peletería y Herrería (Leatherworking, Blacksmithing)", "en": "Leatherworking and Blacksmithing"},
+      "texto": {
+        "es": "Venden consumibles que se gastan: kits de armadura (el nuevo <b>Mystic Rugged Armor Kit</b>), piedras de afilar y contrapesos, que en Forever se suman a venenos y a Windfury. Las armaduras fabricadas valen poco al vendedor: véndelas a jugadores o no las hagas de más.",
+        "en": "They sell consumables people burn through: armor kits (the new <b>Mystic Rugged Armor Kit</b>), sharpening stones and weightstones, which stack with poisons and Windfury in Forever. Crafted armor is worth little at a vendor: sell it to players or don't overproduce."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Primeros auxilios, Cocina y Pesca", "en": "First Aid, Cooking and Fishing"},
+      "texto": {
+        "es": "No ocupan hueco principal. First Aid te ahorra comprar pociones de sanación; Pesca y Cocina venden pescado y comida de banda. Con los talentos de Legacy <b>Master Chef</b> y <b>Luremaster</b> sacas raciones y peces extra.",
+        "en": "They don't take a main slot. First Aid saves you buying healing potions; Fishing and Cooking sell fish and raid food. The <b>Master Chef</b> and <b>Luremaster</b> Legacy perks give you extra food and fish."
+      },
+      "estado": "forever"
+    },
+    {
+      "nombre": {"es": "Legacy: los talentos que ahorran o dan oro", "en": "Legacy: perks that save or earn gold"},
+      "texto": {
+        "es": "<b>Bountiful Harvest</b> (más materiales escasos con Mining, Herbalism y Skinning), <b>Performance Bonus</b> (a veces el doble de Favor al entregar cajones), <b>Bartering</b> (−10 % al comprar en vendedores; desde la beta 6 ya no rebaja entrenamientos ni reparaciones), <b>Frequent Flier</b> (vuelos a mitad de precio) y <b>Working Overtime</b> (+20 % de probabilidad de subir habilidad).",
+        "en": "<b>Bountiful Harvest</b> (more scarce materials from Mining, Herbalism and Skinning), <b>Performance Bonus</b> (sometimes double Favor on crate turn-ins), <b>Bartering</b> (10% off vendor purchases; since beta 6 it no longer discounts training or repairs), <b>Frequent Flier</b> (half-price flights) and <b>Working Overtime</b> (+20% chance of a skill-up)."
+      },
+      "estado": "forever"
+    }
+  ],
+  "nerfeado": [
+    {
+      "titulo": {"es": "Fabricar varitas para el vendedor", "en": "Crafting wands to vendor"},
+      "texto": {
+        "es": "En Classic los encantadores fabricaban varitas y las vendían al vendedor con ganancia. En la beta 4 Blizzard dejó todas las varitas fabricadas comunes y poco comunes a 1 cobre, y en la beta 5 les puso un precio fijo muy bajo: <b>Lesser Magic Wand</b> 1s 10c (en Classic, 5s 8c), <b>Greater Magic Wand</b> 2s (15s 35c), <b>Lesser Mystic Wand</b> 4s 50c (35s 81c), <b>Greater Mystic Wand</b> 6s (52s 63c). Ya no compensa. Las varitas se venden a otros jugadores en la subasta, si alguien las quiere.",
+        "en": "In Classic, enchanters crafted wands and vendored them at a profit. In beta 4 Blizzard set every common and uncommon crafted wand to 1 copper, then in beta 5 gave them fixed, very low prices: <b>Lesser Magic Wand</b> 1s 10c (5s 8c in Classic), <b>Greater Magic Wand</b> 2s (15s 35c), <b>Lesser Mystic Wand</b> 4s 50c (35s 81c), <b>Greater Mystic Wand</b> 6s (52s 63c). It's no longer worth it. Wands can still go to other players on the auction house if anyone wants them."
+      }
+    },
+    {
+      "titulo": {"es": "El truco del aceite de mago", "en": "The wizard oil trick"},
+      "texto": {
+        "es": "<b>Minor Wizard Oil</b> se vendía en Classic por 5s al vendedor, más que sus materiales (<b>Strange Dust</b> y poco más). En Forever se vende por 1s: ya no sale a cuenta.",
+        "en": "<b>Minor Wizard Oil</b> sold to vendors for 5s in Classic, more than its materials (<b>Strange Dust</b> and not much else). In Forever it sells for 1s: no longer profitable."
+      }
+    },
+    {
+      "titulo": {"es": "Vender lo fabricado al vendedor", "en": "Vendoring crafted goods"},
+      "texto": {
+        "es": "En la beta 6 Blizzard bajó el precio de venta al vendedor de muchos objetos de profesión (armas, armaduras, lingotes). La idea es que no se cree oro «de la nada»: lo que fabricas vale lo que otro jugador pague por ello. Sube la profesión con lo que te sirve o con lo que se vende en la subasta, no para el vendedor.",
+        "en": "In beta 6 Blizzard cut the vendor price of many profession items (weapons, armor, bars). The point is to stop gold being created out of thin air: what you craft is worth what another player will pay. Level your profession with things you'll use or that sell on the auction house, not for the vendor."
+      }
+    },
+    {
+      "titulo": {"es": "Desollar dos veces", "en": "Double skinning"},
+      "texto": {
+        "es": "En una versión de la beta varios jugadores podían desollar la misma criatura. Desde la beta 4 vuelve a ser como en el original: una vez y desaparece.",
+        "en": "In one beta build several players could skin the same creature. Since beta 4 it's back to the original rule: one skin, then it's gone."
+      }
+    },
+    {
+      "titulo": {"es": "Farmeo en masa con mago", "en": "Mass mage AoE farming"},
+      "texto": {
+        "es": "En Classic el mago agrupaba muchos enemigos y los mataba con Blizzard gracias a las ralentizaciones de escarcha. En la beta Blizzard recortó esas ralentizaciones (<b>Improved Blizzard</b>, <b>Permafrost</b>). Con grupos pequeños y <b>Cone of Cold</b> sigue funcionando, pero las tiradas enormes de Classic ya no.",
+        "en": "In Classic, Mages gathered huge packs and killed them with Blizzard, thanks to Frost slows. During the beta Blizzard trimmed those slows (<b>Improved Blizzard</b>, <b>Permafrost</b>). Small pulls with <b>Cone of Cold</b> still work, but the huge Classic pulls don't."
+      }
+    },
+    {
+      "titulo": {"es": "Bucles de la beta", "en": "Beta loops"},
+      "texto": {
+        "es": "El bucle de cofres del Monasterio Escarlata con pícaro se cerró con una corrección de la beta. Y el talento <b>Bartering</b> rebajaba por error entrenamientos y reparaciones: ya solo rebaja compras en vendedores.",
+        "en": "The Rogue chest loop in Scarlet Monastery was closed by a beta hotfix. And the <b>Bartering</b> perk was wrongly discounting training and repairs: it now only discounts vendor purchases."
+      }
+    },
+    {
+      "titulo": {"es": "Black Lotus y Arcane Crystal a precio de oro", "en": "Black Lotus and Arcane Crystal at sky-high prices"},
+      "texto": {
+        "es": "En Classic eran de lo más caro de la subasta. En la beta de Forever un vendedor los vende sin límite a 50 de oro, así que ese es su techo. Siguen dando dinero, pero no lo que daban en Classic.",
+        "en": "In Classic they were among the most expensive things on the auction house. In the Forever beta a vendor sells them without limit at 50 gold, so that's their ceiling. They still make money, just not Classic money."
+      }
+    },
+    {
+      "titulo": {"es": "Bandas GDKP", "en": "GDKP raids"},
+      "texto": {
+        "es": "Las bandas en las que el botín se subasta por oro están prohibidas en Forever. Ese oro no existe: no ahorres pensando en comprar equipo de banda.",
+        "en": "Raids where loot is auctioned for gold are banned in Forever. That gold doesn't exist: don't save up expecting to buy raid gear."
+      }
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "La comisión y el depósito de la subasta en Forever, y si el mercado es uno por conjunto de reglas y región (Blizzard no lo ha detallado).",
+      "en": "The auction house cut and deposit in Forever, and whether there's one market per ruleset and region (Blizzard hasn't spelled it out)."
+    },
+    {
+      "es": "Los precios reales del primer día: la beta tenía tope de nivel 30 y de 30 a 60 no hay datos de nadie.",
+      "en": "Real prices on day one: the beta was capped at level 30 and nobody has data from 30 to 60."
+    },
+    {
+      "es": "Si Mister Graphed y sus precios siguen igual al salir el juego.",
+      "en": "Whether Mister Graphed and his prices stay the same at launch."
+    },
+    {
+      "es": "Cuánto Favor dan los cajones Artisan y qué se compra con él a 300.",
+      "en": "How much Favor Artisan crates give and what it buys at 300."
+    },
+    {
+      "es": "Cuánto se gana farmeando en Riverglades (35-45) y en las mazmorras nuevas de nivel 60.",
+      "en": "How much farming pays in Riverglades (35-45) and the new level 60 dungeons."
+    },
+    {
+      "es": "Blizzard ha dicho que a nivel 60 se ganará más oro con las actividades normales, pero no ha dado detalles.",
+      "en": "Blizzard has said regular activities at level 60 will pay more gold, but hasn't given details."
+    }
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de WoW Forever (Blizzard, builds 4, 5 y 6)", "url": "https://us.forums.blizzard.com/en/wow/"},
+    {"nombre": "Warcraft Tavern: equitación en Forever", "url": "https://www.warcrafttavern.com/forever/guides/riding/"},
+    {"nombre": "Warcraft Tavern: acampada en Forever", "url": "https://www.warcrafttavern.com/forever/guides/camping/"},
+    {"nombre": "Warcraft Tavern: Blizzard contra la compra de oro", "url": "https://www.warcrafttavern.com/forever/news/blizzard-plans-a-more-aggressive-stance-on-gold-buying-in-wow-forever/"},
+    {"nombre": "Icy Veins: sin GDKP en Forever", "url": "https://www.icy-veins.com/wow-forever/news/blizzard-just-confirmed-gdkp-runs-wont-be-allowed-in-wow-forever/"},
+    {"nombre": "Wow-Professions: Favor del Mercader y cajones", "url": "https://www.wow-professions.com/forever/merchants-favor-durotar-supply-azeroth-commerce"},
+    {"nombre": "ConquestCapped: oro en WoW Forever", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-gold-making/"},
+    {"nombre": "ConquestCapped: mercado negro de Forever", "url": "https://conquestcapped.com/guides/de/wow-forever/wow-forever-black-market-auction-house/"},
+    {"nombre": "Kami Labs: el farmeo AoE de mago en Forever", "url": "https://kami-labs.fr/en/wow-forever/wow-forever-farming-aoe-mage-nerfs/"},
+    {"nombre": "Wowhead Classic: precios de venta de varitas", "url": "https://www.wowhead.com/classic/item=11288/greater-magic-wand"},
+    {"nombre": "Massively OP: cuentas cerradas por compraventa de oro en la beta", "url": "https://massivelyop.com/2026/10/09/world-of-warcraft-forever-beta-continues-to-adjust-dungeon-xp-and-bans-over-4k-accounts-for-rmt/"}
+  ]
+}

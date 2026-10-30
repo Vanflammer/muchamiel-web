@@ -637,6 +637,18 @@
       {
         "es": "Nature's Grasp antes de pelear te salva cuando aparece un enemigo de más: lo enraíza al primer golpe.",
         "en": "Nature's Grasp before a fight saves you when an extra enemy shows up: it roots them on the first hit."
+      },
+      {
+        "es": "<b>Variante hasta el 30 con Shifting Power pronto</b> (reparto visto en la beta, con tope 30): 5/5 Ferocity, 2/2 Feral Swiftness, 3/3 Feral Instinct, 2/2 Sharpened Claws, 3/3 Shredding Attacks, Shifting Power (25), 2/2 Blood Frenzy, 2/2 Savage Fury y Leader of the Pack al 30. Te deja un gato un 30 % más rápido, con Shifting Power, un 9 % más de crítico y críticos que dan un punto de combo extra. Shifting Power cambia maná por 40 de energía: úsalo cuando bajes de 50 de energía, nunca por encima, o desperdicias la que sobra. El reparto del 30 al 60 de arriba sigue sirviendo, solo cambia el orden.",
+        "en": "<b>Variant to 30 with early Shifting Power</b> (a build seen in the beta, level cap 30): 5/5 Ferocity, 2/2 Feral Swiftness, 3/3 Feral Instinct, 2/2 Sharpened Claws, 3/3 Shredding Attacks, Shifting Power (25), 2/2 Blood Frenzy, 2/2 Savage Fury and Leader of the Pack at 30. You end up with a cat that is 30% faster, has Shifting Power, 9% more crit and crits that grant an extra combo point. Shifting Power trades mana for 40 Energy: use it when you drop below 50 Energy, never above, or the extra is wasted. The 30-60 plan above still works; only the order changes."
+      },
+      {
+        "es": "<b>Como oso (10-19)</b>: Maul sustituye tu siguiente golpe automático y Swipe no, así que Swipe y Demoralizing Roar son la base y Maul solo va cuando te sobra ira. Enrage (12) te da ira a cambio de armadura para abrir. Si vas justo de vida, Nature's Grasp: el enemigo queda enraizado al golpearte, te alejas unos pasos y te curas con Regrowth.",
+        "en": "<b>As a bear (10-19)</b>: Maul replaces your next auto-attack and Swipe does not, so Swipe and Demoralizing Roar are your core and Maul only goes out when you have Rage to spare. Enrage (12) trades armor for Rage to open a fight. If you are low, Nature's Grasp: the enemy gets rooted when it hits you, you step back and heal with Regrowth."
+      },
+      {
+        "es": "<b>Armas que puedes aprender</b>: dagas, armas de puño, mazas de una y dos manos, bastones y, nuevo en Forever, armas de asta (polearms) desde el nivel 20. Nada de espadas, hachas ni armas a distancia. Tu raza ya trae alguna; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Como en Forever el arma suma daño en forma de oso y de gato, aprende pronto mazas de dos manos y, al 20, armas de asta: tendrás más armas lentas con Fuerza o Agilidad entre las que elegir.",
+        "en": "<b>Weapons you can learn</b>: daggers, fist weapons, one- and two-handed maces, staves and, new in Forever, polearms from level 20. No swords, axes or ranged weapons. Your race already knows some; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Since in Forever your weapon adds damage in Bear and Cat Form, learn two-handed maces early and polearms at 20: you get more slow Strength or Agility weapons to choose from."
       }
     ],
     "hitos": [

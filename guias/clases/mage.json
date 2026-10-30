@@ -662,6 +662,14 @@
       {
         "es": "A nivel 40 llega la doble especialización: puedes subir en Escarcha y tener Fuego listo para mazmorras.",
         "en": "Dual specialization arrives at level 40: you can level as Frost and keep Fire ready for dungeons."
+      },
+      {
+        "es": "<b>Variante hasta el 30 con Missile Barrage</b> (reparto visto en la beta, con tope 30): 5/5 Improved Frostbolt (10-14), 3/3 Frostbite (15-17), 2/5 Ice Shards (18-19), Ice Lance (20), 2/2 <b>Missile Barrage</b> en Arcano (21-22), Ice Shards hasta 5/5 (23-25), 1/3 Frost Channeling (26), 3/3 Shatter (27-29) e <b>Ice Block</b> al 30. Missile Barrage da a cada Frostbolt un 20 % de probabilidad de que tus siguientes Arcane Missiles no gasten maná, duren la mitad y disparen cada medio segundo. Si salta, lánzalos; si al enemigo le queda muy poca vida, remátalo con la varita y guarda el efecto para el siguiente. A cambio, Fingers of Frost llega más tarde.",
+        "en": "<b>Missile Barrage variant to 30</b> (a build seen in the beta, level cap 30): 5/5 Improved Frostbolt (10-14), 3/3 Frostbite (15-17), 2/5 Ice Shards (18-19), Ice Lance (20), 2/2 <b>Missile Barrage</b> in Arcane (21-22), Ice Shards up to 5/5 (23-25), 1/3 Frost Channeling (26), 3/3 Shatter (27-29) and <b>Ice Block</b> at 30. Missile Barrage gives every Frostbolt a 20% chance to make your next Arcane Missiles free, half as long and firing every half second. When it procs, cast them; if the enemy is almost dead, finish it with your wand and save the proc for the next pull. The trade-off: Fingers of Frost comes later."
+      },
+      {
+        "es": "<b>Armas que puedes aprender</b>: dagas, espadas de una mano y bastones; la varita viene de serie y no se entrena. Tu raza ya trae alguna; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Aprende pronto las tres para poder equipar cualquier arma con Intelecto o poder con hechizos que caiga: en un mago el arma da estadísticas, no daño, y para rematar está la varita.",
+        "en": "<b>Weapons you can learn</b>: daggers, one-handed swords and staves; wands are built in and need no training. Your race already knows one; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Learn all three early so you can equip any Intellect or spell power weapon that drops: on a mage the weapon is for stats, not damage, and the wand finishes enemies off."
       }
     ],
     "hitos": [

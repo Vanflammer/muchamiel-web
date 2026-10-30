@@ -1,0 +1,197 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "En WoW Forever lo caro no es la montura, es aprender a montar: 100 de oro a nivel 40 y 1.000 a nivel 60. Por eso las monturas de clase del brujo y del paladín valen tanto. Aquí tienes cómo se consiguen, qué ha confirmado Blizzard y qué sigue siendo el camino de Classic, y cómo ahorrar con la reputación. Cada entrada lleva su estado: <b>forever</b> (confirmado por Blizzard), <b>beta</b> (visto en la beta o en guías de Forever, puede cambiar) o <b>classic</b> (así era en WoW Classic; Forever aún no lo ha confirmado).",
+    "en": "In WoW Forever the expensive part isn't the mount, it's learning to ride: 100 gold at level 40 and 1,000 at level 60. That's why the warlock and paladin class mounts matter so much. Here's how to get them, what Blizzard has confirmed and what is still the Classic route, and how to save gold with reputation. Each entry has a status: <b>forever</b> (confirmed by Blizzard), <b>beta</b> (seen in the beta or in Forever guides, may change) or <b>classic</b> (how it worked in WoW Classic; Forever hasn't confirmed it yet)."
+  },
+  "monturas": [
+    {
+      "clase": "warlock",
+      "titulo": {"es": "Felsteed (nivel 40)", "en": "Felsteed (level 40)"},
+      "nivel": "40",
+      "estado": "classic",
+      "requisitos": {
+        "es": "Nivel 40. En Forever el hechizo Summon Felsteed sigue existiendo y las guías de Forever dicen que el brujo consigue la montura y aprende a montar con su misión de clase, pero Blizzard no ha publicado los pasos: estos son los de Classic.",
+        "en": "Level 40. Summon Felsteed is still in Forever, and Forever guides say warlocks get their mount and riding through their class quest, but Blizzard hasn't published the steps: these are the Classic ones."
+      },
+      "pasos": [
+        {"es": "Habla con tu instructor de brujos a nivel 40: Demisette Cloyce (Ventormenta) o Briarthorn (Forjaz) en la Alianza; Zevrost (Orgrimmar) o Kaal Soulreaper (Entrañas) en la Horda. Te da la misión Summon Felsteed.", "en": "Talk to your warlock trainer at level 40: Demisette Cloyce (Stormwind) or Briarthorn (Ironforge) for the Alliance; Zevrost (Orgrimmar) or Kaal Soulreaper (Undercity) for the Horde. They give you Summon Felsteed."},
+        {"es": "Viaja a Trinquete (Ratchet), en la costa de Los Baldíos, y busca a Strahad Farsan.", "en": "Travel to Ratchet on the coast of The Barrens and find Strahad Farsan."},
+        {"es": "Entrega la misión y sigue su cadena hasta aprender Summon Felsteed. En Classic esto también te enseñaba a montar (Apprentice Riding).", "en": "Turn it in and follow his chain until you learn Summon Felsteed. In Classic this also taught you Apprentice Riding."}
+      ],
+      "coste": {
+        "es": "En Classic, gratis: ni montura ni equitación. En Forever, si se mantiene así, te ahorras los 100 de oro del aprendizaje y los 20 de la montura.",
+        "en": "In Classic, free: no mount or riding cost. In Forever, if it stays that way, you save the 100 gold for riding and the 20 for the mount."
+      }
+    },
+    {
+      "clase": "warlock",
+      "titulo": {"es": "Dreadsteed (nivel 60)", "en": "Dreadsteed (level 60)"},
+      "nivel": "60",
+      "estado": "classic",
+      "requisitos": {
+        "es": "Nivel 60 y grupo. Forever no ha dicho nada de esta misión: es la de Classic. Necesitas entrar en Scholomance y en La Masacre Oeste (Dire Maul West), las dos en Forever, con un pícaro o con las llaves.",
+        "en": "Level 60 and a group. Forever hasn't said anything about this quest: this is the Classic version. You need to get into Scholomance and Dire Maul West, both in Forever, with a rogue or the keys."
+      },
+      "pasos": [
+        {"es": "Tu instructor te manda a Mor'zul Bloodbringer, junto al Altar de las Tormentas (Altar of Storms), al noroeste de Las Estepas Ardientes.", "en": "Your trainer sends you to Mor'zul Bloodbringer, by the Altar of Storms in northwest Burning Steppes."},
+        {"es": "Recoge 30 Raging Beast's Blood de los lechúcicos de Cuna del Invierno y entrégaselos. Te manda a Gorzeeki Wildeyes.", "en": "Collect 30 Raging Beast's Blood from Winterspring owlbeasts and hand them in. He sends you to Gorzeeki Wildeyes."},
+        {"es": "Gorzeeki pide materiales: 35 Black Dragonscale, 10 Elixir of Shadow Power, 6 Large Brilliant Shard, 25 Dark Iron Ore y 3 Arcanite Bar (hay quien cuenta cifras distintas: lee la misión antes de comprar).", "en": "Gorzeeki asks for materials: 35 Black Dragonscale, 10 Elixir of Shadow Power, 6 Large Brilliant Shard, 25 Dark Iron Ore and 3 Arcanite Bar (some players report different numbers: read the quest before buying)."},
+        {"es": "En Jaedenar (Frondavil), con las Shadowy Potion, entra en Shadow Hold, mata a Ulathek the Traitor para Lord Banehollow y compra Xorothian Stardust a Ur'dan.", "en": "In Jaedenar (Felwood), using the Shadowy Potions, enter Shadow Hold, kill Ulathek the Traitor for Lord Banehollow and buy Xorothian Stardust from Ur'dan."},
+        {"es": "En Scholomance, mata a Rattlegore para la llave y libera al diablillo J'eevee en el laboratorio con el Imp in a Jar.", "en": "In Scholomance, kill Rattlegore for the key and free the imp J'eevee in the laboratory with the Imp in a Jar."},
+        {"es": "En La Masacre Oeste, apaga los cinco pilones, mata a Tendris Warpwood e Immol'thar y haz el ritual: arregla los objetos con la Black Lodestone (un fragmento de alma por arreglo; lleva 10-15) mientras el grupo aguanta unos 5 minutos de diablillos y guardias viles.", "en": "In Dire Maul West, shut down the five pylons, kill Tendris Warpwood and Immol'thar and run the ritual: fix the artifacts with the Black Lodestone (one Soul Shard per fix; bring 10-15) while the group holds about 5 minutes of imps and felguards."},
+        {"es": "Mata al Xorothian Dreadsteed y a Lord Hel'nurath y entrega la misión al espíritu del corcel: aprendes Summon Dreadsteed y, en Classic, Journeyman Riding.", "en": "Kill the Xorothian Dreadsteed and Lord Hel'nurath and turn in to the steed's spirit: you learn Summon Dreadsteed and, in Classic, Journeyman Riding."}
+      ],
+      "coste": {
+        "es": "En Classic, 418 de oro en vendedores (168 si otro brujo ya tiene el tarro, la piedra y los glifos) más los materiales: unos 700 de oro en total. Aun así, menos que los 1.000 + 200 de la montura rápida normal de Forever, si la misión sigue enseñando a montar.",
+        "en": "In Classic, 418 gold at vendors (168 if another warlock already has the jar, lodestone and glyphs) plus materials: around 700 gold in total. Still cheaper than Forever's regular 1,000 + 200 epic mount, if the quest still teaches riding."
+      }
+    },
+    {
+      "clase": "paladin",
+      "titulo": {"es": "Warhorse (nivel 40)", "en": "Warhorse (level 40)"},
+      "nivel": "40",
+      "estado": "classic",
+      "requisitos": {
+        "es": "Nivel 40. En Forever la montura de clase del paladín (Summon Warhorse) se consigue por misión, pero los pasos publicados son los de Classic para la Alianza. Los paladines no-muertos tienen su propia versión (ver más abajo).",
+        "en": "Level 40. In Forever the paladin class mount (Summon Warhorse) comes from a quest, but the published steps are Classic's Alliance version. Undead paladins get their own version (see below)."
+      },
+      "pasos": [
+        {"es": "Habla con tu instructor de paladines: Arthur the Faithful (Catedral de la Luz, Ventormenta) o Brandur Ironhammer (Sala de los Misterios, Forjaz). Te da The Tome of Nobility.", "en": "Talk to your paladin trainer: Arthur the Faithful (Cathedral of Light, Stormwind) or Brandur Ironhammer (Hall of Mysteries, Ironforge). They give you The Tome of Nobility."},
+        {"es": "Busca a Duthorian Rall en Ventormenta, entrega la misión y sigue la siguiente parte.", "en": "Find Duthorian Rall in Stormwind, hand it in and follow the next step."},
+        {"es": "Al terminar aprendes Summon Warhorse; en Classic también te enseñaba a montar.", "en": "When you finish you learn Summon Warhorse; in Classic it also taught you to ride."}
+      ],
+      "coste": {
+        "es": "En Classic, gratis. En Forever, si se mantiene, ahorras los 100 de oro del aprendizaje y los 20 de la montura.",
+        "en": "In Classic, free. In Forever, if it stays that way, you save the 100 gold for riding and the 20 for the mount."
+      }
+    },
+    {
+      "clase": "paladin",
+      "titulo": {"es": "Charger (nivel 60, Alianza)", "en": "Charger (level 60, Alliance)"},
+      "nivel": "60",
+      "estado": "classic",
+      "requisitos": {
+        "es": "Nivel 60 y grupo para Scholomance, La Masacre Oeste y Stratholme. Blizzard ha confirmado que la misión del Charger existe en Forever (la de la Alianza, «en nombre de la Redención») y, según una guía que cita a Blizzard, sigue haciendo falta la habilidad de montar. Los pasos son los de Classic. Necesitas reputación Amistoso con el Alba Argenta (Argent Dawn).",
+        "en": "Level 60 and a group for Scholomance, Dire Maul West and Stratholme. Blizzard confirmed the Charger quest exists in Forever (the Alliance one, \"in the name of Redemption\") and, per a guide quoting Blizzard, you still need the riding skill. The steps are Classic's. You need Friendly with the Argent Dawn."
+      },
+      "pasos": [
+        {"es": "Duthorian Rall (Ventormenta) te manda a Lord Grayson Shadowbreaker en la Catedral de la Luz. Haz Emphasis on Sacrifice y To Show Due Judgment.", "en": "Duthorian Rall (Stormwind) sends you to Lord Grayson Shadowbreaker in the Cathedral of Light. Do Emphasis on Sacrifice and To Show Due Judgment."},
+        {"es": "En Forjaz, paga 150 de oro al sumo sacerdote Rohan por el Rohan's Exorcism Censer y úsalo en Terrordale (Tierras de la Peste del Este, al noroeste de la entrada de Stratholme) para matar 25 espíritus. Se puede hacer solo.", "en": "In Ironforge, pay High Priest Rohan 150 gold for Rohan's Exorcism Censer and use it in Terrordale (Eastern Plaguelands, northwest of the Stratholme entrance) to kill 25 spirits. Soloable."},
+        {"es": "Grimand Elmore (Ventormenta) pide 150 de oro, 6 Arcanite Bar, 10 Arthas' Tears, 40 Runecloth y 5 Stratholme Holy Water.", "en": "Grimand Elmore (Stormwind) wants 150 gold, 6 Arcanite Bar, 10 Arthas' Tears, 40 Runecloth and 5 Stratholme Holy Water."},
+        {"es": "En Costasur (Southshore), Merideth Carlson te vende el pienso por 50 de oro y 20 Enriched Manna Biscuits (de la capilla de la Esperanza de la Luz).", "en": "In Southshore, Merideth Carlson sells you the feed for 50 gold and 20 Enriched Manna Biscuits (from Light's Hope Chapel)."},
+        {"es": "En La Masacre Oeste, mata a Tendris Warpwood para que aparezca el espíritu del caballo; luego recoge los diamantes del banco.", "en": "In Dire Maul West, kill Tendris Warpwood to make the horse spirit appear; then pick up the diamonds from the bank."},
+        {"es": "En Scholomance, tras Rattlegore, usa el Divination Scryer: cuatro oleadas que se vencen con el sello y el Judgement adecuados, y al final el caballero de la muerte Darkreaver. Usa su alma con el caballo caído y entrega: aprendes Summon Charger.", "en": "In Scholomance, after Rattlegore, use the Divination Scryer: four waves you beat with the right seal and Judgement, and finally the death knight Darkreaver. Use his soul on the fallen horse and turn in: you learn Summon Charger."}
+      ],
+      "coste": {
+        "es": "En Classic, 350 de oro en pagos (150 + 150 + 50) más materiales: entre 400 y 500 de oro según el servidor. Si en Forever hace falta además aprender a montar a nivel 60, súmale 1.000 de oro.",
+        "en": "In Classic, 350 gold in payments (150 + 150 + 50) plus materials: 400 to 500 gold depending on the server. If Forever also requires level 60 riding, add 1,000 gold."
+      }
+    },
+    {
+      "clase": "paladin",
+      "titulo": {"es": "Paladín no-muerto: Warhorse y Charger propios", "en": "Undead paladin: their own Warhorse and Charger"},
+      "nivel": "40 y 60",
+      "estado": "forever",
+      "requisitos": {
+        "es": "Novedad de Forever: los paladines renegados tienen sus propias misiones de montura a 40 y a 60, con monturas de aspecto no-muerto. La de 60 se hace en Bandarion Keep (Whispering Wood, Claros de Tirisfal) y va «en nombre de la Retribución».",
+        "en": "New in Forever: Forsaken paladins get their own mount quests at 40 and 60, with undead-looking mounts. The level 60 one runs out of Bandarion Keep (Whispering Wood, Tirisfal Glades), \"in the name of Retribution\"."
+      },
+      "pasos": [
+        {"es": "Blizzard no ha publicado los pasos. Habla con tu instructor a nivel 40 y a nivel 60 y sigue la cadena; la actualizaremos cuando salga.", "en": "Blizzard hasn't published the steps. Talk to your trainer at 40 and 60 and follow the chain; we'll update this once it's live."}
+      ],
+      "coste": {
+        "es": "Sin confirmar. Según una guía que cita a Blizzard, sigue haciendo falta la habilidad de montar.",
+        "en": "Unconfirmed. Per a guide quoting Blizzard, you still need the riding skill."
+      }
+    },
+    {
+      "clase": "druid",
+      "titulo": {"es": "Travel Form (nivel 30) y Aquatic Form (16)", "en": "Travel Form (level 30) and Aquatic Form (16)"},
+      "nivel": "30",
+      "estado": "beta",
+      "requisitos": {
+        "es": "Travel Form se aprende en el instructor a nivel 30: +40 % de velocidad, solo al aire libre, y te libra de Polymorph y ralentizaciones al cambiar de forma. Aquatic Form llega a nivel 16 por misión: +50 % al nadar y respiras bajo el agua. No hay forma de vuelo: Forever no tiene monturas voladoras.",
+        "en": "Travel Form is learned from the trainer at level 30: +40% speed, outdoors only, and shifting frees you from Polymorph and slows. Aquatic Form comes at 16 via a quest: +50% swim speed and underwater breathing. No flight form: Forever has no flying mounts."
+      },
+      "pasos": [
+        {"es": "Usa Travel Form como montura del 30 al 40. Desde el 40 aprendes a montar como cualquier otra clase.", "en": "Use Travel Form as your mount from 30 to 40. From 40 you learn riding like any other class."},
+        {"es": "Feral Swiftness (talento) acelera la forma felina y en Forever también funciona en interiores.", "en": "Feral Swiftness (talent) speeds up Cat Form and in Forever it also works indoors."}
+      ],
+      "coste": {
+        "es": "Solo el precio del entrenamiento. La montura de verdad la pagas como todos.",
+        "en": "Just the training cost. You pay for a real mount like everyone else."
+      }
+    },
+    {
+      "clase": "shaman",
+      "titulo": {"es": "Ghost Wolf (nivel 20)", "en": "Ghost Wolf (level 20)"},
+      "nivel": "20",
+      "estado": "beta",
+      "requisitos": {
+        "es": "Se aprende a nivel 20: +40 % de velocidad, solo al aire libre. Con el talento Improved Ghost Wolf (2/2) se lanza al instante y también en interiores.",
+        "en": "Learned at level 20: +40% speed, outdoors only. With the Improved Ghost Wolf talent (2/2) it becomes instant and works indoors too."
+      },
+      "pasos": [
+        {"es": "Úsalo para viajar hasta tener montura. Desde el 40, montura normal.", "en": "Use it to travel until you have a mount. From 40, a regular mount."}
+      ],
+      "coste": {
+        "es": "Solo el entrenamiento.",
+        "en": "Just the training cost."
+      }
+    },
+    {
+      "clase": "hunter",
+      "titulo": {"es": "Aspect of the Cheetah (20) y of the Pack (40)", "en": "Aspect of the Cheetah (20) and of the Pack (40)"},
+      "nivel": "20",
+      "estado": "beta",
+      "requisitos": {
+        "es": "Aspect of the Cheetah: +30 % de velocidad desde el nivel 20, pero si te golpean quedas aturdido 4 segundos. Aspect of the Pack (40) lo da a todo el grupo cercano. El talento Pathfinding le suma hasta un 6 %.",
+        "en": "Aspect of the Cheetah: +30% speed from level 20, but you get dazed for 4 seconds if hit. Aspect of the Pack (40) gives it to your nearby group. The Pathfinding talent adds up to 6%."
+      },
+      "pasos": [
+        {"es": "Ponlo solo para viajar y quítalo antes de entrar en zona de enemigos.", "en": "Only use it for traveling and drop it before entering enemy areas."}
+      ],
+      "coste": {"es": "Solo el entrenamiento.", "en": "Just the training cost."}
+    }
+  ],
+  "general": [
+    {"es": "<b>Nivel 40, Apprentice Riding</b>: 100 de oro por aprender a montar y unos 20 por la montura, con un 60 % más de velocidad. Junta unos 120 de oro antes del 40.", "en": "<b>Level 40, Apprentice Riding</b>: 100 gold to learn riding plus about 20 for the mount, for 60% extra speed. Save around 120 gold before 40."},
+    {"es": "<b>Nivel 60, Journeyman Riding</b>: 1.000 de oro por aprender y unos 200 por la montura rápida, con un 100 % más de velocidad.", "en": "<b>Level 60, Journeyman Riding</b>: 1,000 gold to learn plus about 200 for the fast mount, for 100% extra speed."},
+    {"es": "La habilidad de montar es una sola para todos y se aprende con el instructor de tu raza (la mayoría está en su capital o zona de inicio). Los humanos tienen otro vendedor de monturas en Puerto de Menethil, y los Skyborne aprenden y compran con Genn Fairweather en la Isla de Zephras.", "en": "Riding is a single shared skill learned from your race's trainer (most are in their capital or starting area). Humans have a second mount vendor in Menethil Harbor, and Skyborne train and buy from Genn Fairweather on Zephras Isle."},
+    {"es": "Para montar las monturas de otra raza de tu facción necesitas reputación Exaltado con ella (como en Classic).", "en": "To ride another race's mounts from your faction you need Exalted with that race (as in Classic)."},
+    {"es": "Las monturas de los packs de Forever (por ejemplo, el Cerulean Prideclaw del pack Skyborne) quedan en tu colección, pero solo las puedes usar cuando hayas aprendido a montar en el juego.", "en": "Mounts from Forever's packs (for example the Cerulean Prideclaw in the Skyborne pack) sit in your collection, but you can only use them once you've learned riding in game."},
+    {"es": "No hay monturas voladoras ni escalado de nivel. Hay una montura de JcJ a rango 11 de 14 y otra (Reins of the Spectral Bear) en el camino de recompensas Legacy.", "en": "No flying mounts and no level scaling. There's a PvP mount at rank 11 of 14 and another (Reins of the Spectral Bear) on the Legacy reward track."},
+    {"es": "El talento Pursuit of Justice del paladín (+15 %) y la racial Plainsrunning del tauren (+3 % en montura, en Forever) se suman a la velocidad de la montura.", "en": "The paladin talent Pursuit of Justice (+15%) and the Tauren racial Plainsrunning (+3% mounted, in Forever) stack with mount speed."}
+  ],
+  "reputacion": [
+    {"es": "<b>Forever</b>: con reputación Honorable con la facción de tu raza tienes un 10 % de descuento en la montura <b>y</b> en el aprendizaje de montar. A nivel 40 son unos 12 de oro; a nivel 60, unos 120. (Dato de Warcraft Tavern para Forever.)", "en": "<b>Forever</b>: Honored with your race's faction gives a 10% discount on the mount <b>and</b> on riding training. That's about 12 gold at 40 and about 120 at 60. (Warcraft Tavern's Forever data.)"},
+    {"es": "<b>¿Más descuento con Reverenciado y Exaltado?</b> En el Classic original (1.12) no: era un 10 % fijo desde Honorable. La escala de 5 % (Amistoso), 10 % (Honorable), 15 % (Reverenciado) y 20 % (Exaltado) llegó con el parche 2.3 de The Burning Crusade. Forever no ha dicho cuál usa; si siguiera la de Classic, Reverenciado y Exaltado no rebajan nada más.", "en": "<b>More discount at Revered and Exalted?</b> Not in original Classic (1.12): it was a flat 10% from Honored. The 5% (Friendly), 10% (Honored), 15% (Revered) and 20% (Exalted) scale arrived with The Burning Crusade patch 2.3. Forever hasn't said which one it uses; if it follows Classic, Revered and Exalted give nothing extra."},
+    {"es": "<b>Qué reputación cuenta</b>: la de la facción del vendedor y del instructor, que son de tu raza. Un humano necesita Ventormenta; un orco, Orgrimmar; un no-muerto, Entrañas. La reputación con otra ciudad no rebaja tu montura.", "en": "<b>Which reputation counts</b>: the faction of the vendor and trainer, who are your own race. A Human needs Stormwind; an Orc, Orgrimmar; an Undead, Undercity. Reputation with another city doesn't lower your mount's price."},
+    {"es": "<b>Rango de JcJ (Classic)</b>: en Classic, desde el rango 3 de JcJ los vendedores de tu facción hacían otro 10 % que se sumaba al de Honorable. Forever tiene rangos de JcJ, pero no ha confirmado este descuento.", "en": "<b>PvP rank (Classic)</b>: in Classic, PvP rank 3 gave another 10% off at your faction's vendors, on top of Honored. Forever has PvP ranks but hasn't confirmed this discount."},
+    {"es": "<b>Llegar a Honorable antes del 40</b>: haz todas las misiones de tu zona de inicio y de la zona de al lado de tu capital; dan reputación con tu ciudad y, en la práctica, muchos jugadores llegan a Honorable antes del 40 solo subiendo. Forever añade misiones nuevas en todas las zonas de inicio, así que debería ser aún más fácil.", "en": "<b>Reaching Honored before 40</b>: do every quest in your starting zone and in the zone next to your capital; they give reputation with your city, and in practice many players hit Honored before 40 just by leveling. Forever adds new quests to every starting zone, so it should be even easier."},
+    {"es": "<b>Entregas de tela (Classic)</b>: en tu capital hay una entrega única por tipo de tela. La de lana (A Donation of Wool, desde nivel 12) pide 60 Wool Cloth y da 350 de reputación; hay otras iguales para seda, tejido mágico y paño rúnico. Si te falta poco para Honorable, la de lana y la de seda son el empujón más rápido. Forever no ha confirmado si siguen igual.", "en": "<b>Cloth donations (Classic)</b>: your capital takes a one-time donation per cloth type. Wool (A Donation of Wool, from level 12) asks for 60 Wool Cloth and gives 350 reputation; there are matching ones for silk, mageweave and runecloth. If you're close to Honored, the wool and silk ones are the quickest push. Forever hasn't confirmed they're unchanged."},
+    {"es": "<b>Para el nivel 60</b>: la entrega repetible de paño rúnico (Additional Runecloth, 20 Runecloth por 75 de reputación desde el nivel 50, en Classic) es la forma clásica de subir a Honorable o más antes de pagar los 1.000 de oro.", "en": "<b>For level 60</b>: the repeatable runecloth turn-in (Additional Runecloth, 20 Runecloth for 75 reputation from level 50, in Classic) is the classic way to reach Honored or higher before paying the 1,000 gold."}
+  ],
+  "pendiente": [
+    {"es": "Los pasos de las misiones de montura del brujo y del paladín en Forever, y si siguen enseñando a montar gratis (a 40 y a 60) o hay que pagar la equitación aparte.", "en": "The steps of the warlock and paladin mount quests in Forever, and whether they still teach riding for free (at 40 and 60) or riding must be paid separately."},
+    {"es": "Si la primera montura viene incluida al pagar la equitación (lo dijo Blizzard en BlizzCon, según una guía) o cuesta unos 20 de oro aparte (según Warcraft Tavern).", "en": "Whether the first mount comes included when you pay for riding (Blizzard said so at BlizzCon, per one guide) or costs about 20 gold extra (per Warcraft Tavern)."},
+    {"es": "La misión de Warhorse y Charger de los paladines no-muertos: nombres, pasos y coste.", "en": "The Undead paladin Warhorse and Charger quests: names, steps and cost."},
+    {"es": "La escala de descuentos por reputación de Forever (10 % fijo como en Classic o escalonada como en TBC) y si siguen las entregas de tela y el descuento por rango de JcJ.", "en": "Forever's reputation discount scale (flat 10% like Classic or tiered like TBC) and whether cloth turn-ins and the PvP rank discount remain."}
+  ],
+  "fuentes": [
+    {"nombre": "Warcraft Tavern: equitación en Forever", "url": "https://www.warcrafttavern.com/forever/guides/riding/"},
+    {"nombre": "LFCarry: monturas en Forever (resume lo dicho por Blizzard)", "url": "https://lfcarry.com/guides/wow-forever-mounts"},
+    {"nombre": "Warcraft Wiki: monturas de Forever", "url": "https://warcraft.wiki.gg/wiki/Forever_mounts"},
+    {"nombre": "Warcraft Wiki: Summon Felsteed (sigue en Classic y Forever)", "url": "https://warcraft.wiki.gg/wiki/Summon_Felsteed"},
+    {"nombre": "Talents Forever: hechizos y talentos del cliente de la beta (CC BY 4.0)", "url": "https://talentsforever.com/"},
+    {"nombre": "Notas de la beta de Blizzard (foro oficial)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
+    {"nombre": "Blizzard: análisis a fondo del cazador y el druida en Forever", "url": "https://worldofwarcraft.blizzard.com/news/24301515"},
+    {"nombre": "Warcraft Tavern: montura épica del brujo (WoW Classic)", "url": "https://warcrafttavern.com/wow-classic/guides/warlock-epic-mount-quest"},
+    {"nombre": "Warcraft Tavern: montura épica del paladín (WoW Classic)", "url": "https://www.warcrafttavern.com/wow-classic/guides/paladin-epic-mount/"},
+    {"nombre": "Warcraft Wiki: reputación y descuentos (parche 2.3)", "url": "https://warcraft.wiki.gg/wiki/Reputation"},
+    {"nombre": "Warcraft Wiki: A Donation of Wool", "url": "https://warcraft.wiki.gg/wiki/A_Donation_of_Wool"},
+    {"nombre": "Wowpedia: Additional Runecloth", "url": "https://wowpedia.fandom.com/wiki/Additional_Runecloth"},
+    {"nombre": "Warcraft Tavern: monturas (WoW Classic)", "url": "https://www.warcrafttavern.com/wow-classic/guides/mounts/"}
+  ]
+}

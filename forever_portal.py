@@ -25,7 +25,7 @@ def fuentes(*items):
 
 
 def nav_forever(actual):
-    paginas = [('lanzamiento', 'Lanzamiento'), ('pagar-menos', 'Cuánto cuesta'), ('subir-nivel', 'Subir de nivel'), ('tecnicas', 'Técnicas'),
+    paginas = [('lanzamiento', 'Lanzamiento'), ('pagar-menos', 'Cuánto cuesta'), ('subir-nivel', 'Subir de nivel'), ('tecnicas', 'Técnicas'), ('oro', 'Ganar oro'),
                ('mazmorras', 'Mazmorras'), ('profesiones', 'Profesiones'), ('legacy', 'Legacy'), ('cambios', 'Notas del parche')]
     return '<div class="quick fnav">' + ''.join(
         f'<a href="../{k}/"' + (' aria-current="page"' if k == actual else '') + f'>{t}</a>' for k, t in paginas) + '</div>'

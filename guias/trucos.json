@@ -1,0 +1,201 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Trucos para todas las clases que ahorran tiempo y oro desde el primer día: dónde aprender cada arma, cómo funcionan las habilidades de arma y cómo tener bolsas pronto. Lo que viene de la beta (tope de nivel 30) lo indicamos.",
+    "en": "Tips for every class that save time and gold from day one: where to learn each weapon, how weapon skills work and how to get bags early. Anything that comes from the beta (level cap 30) is marked as such."
+  },
+  "trucos": [
+    {
+      "titulo": {
+        "es": "Cómo funcionan las habilidades de arma",
+        "en": "How weapon skills work"
+      },
+      "texto": {
+        "es": "Cada tipo de arma es una habilidad aparte. Tu raza y tu clase ya traen algunas; las demás se aprenden con un <b>maestro de armas</b> (Weapon Master) de una capital: 10 de plata cada una desde el nivel 1, y las armas de asta (polearms) 1 de oro desde el nivel 20. Las varitas no se entrenan: vienen de serie en mago, sacerdote y brujo. Mira cuáles tienes en la ventana del personaje, pestaña de habilidades (Skills): ahí sale cada arma con su valor. Una habilidad recién aprendida empieza en 1 y sube sola al pegar con esa arma, hasta un máximo de 5 por nivel (5 a nivel 1, 300 a nivel 60). Con el valor bajo fallas más y haces menos daño, así que, antes de ponerte un arma nueva para una mazmorra, súbela un rato contra enemigos fáciles. En Forever ninguna raza sube la habilidad de arma: las de orco (hachas) y humano (espadas) dan crítico.",
+        "en": "Each weapon type is a separate skill. Your race and class already know some; the rest are taught by a capital-city <b>Weapon Master</b>: 10 silver each from level 1, and polearms 1 gold from level 20. Wands need no training: mages, priests and warlocks have them built in. Check what you know in the character window's Skills tab, which lists every weapon with its value. A newly learned skill starts at 1 and rises on its own as you hit things with that weapon, up to 5 per level (5 at level 1, 300 at 60). With a low value you miss more and deal less damage, so before taking a new weapon into a dungeon, level it up a bit on easy enemies. In Forever no race raises weapon skill: the Orc (axes) and Human (swords) racials give crit instead."
+      },
+      "icono": "inv_sword_04",
+      "clases": []
+    },
+    {
+      "titulo": {
+        "es": "Qué armas puede aprender cada clase",
+        "en": "Which weapons each class can learn"
+      },
+      "texto": {
+        "es": "<b>Guerrero</b>: todas menos varitas. <b>Paladín</b>: hachas, mazas y espadas de una y dos manos y armas de asta. <b>Cazador</b>: arcos, ballestas, armas de fuego, arrojadizas, dagas, armas de puño, hachas y espadas de una y dos manos, bastones y armas de asta (sin mazas). <b>Pícaro</b>: dagas, armas de puño, mazas, espadas y hachas de una mano (las hachas, nuevas en Forever) y todas las de distancia. <b>Chamán</b>: dagas, armas de puño, hachas y mazas de una y dos manos y bastones. <b>Druida</b>: dagas, armas de puño, mazas de una y dos manos, bastones y armas de asta (nuevas en Forever). <b>Sacerdote</b>: dagas, mazas de una mano, bastones y varita. <b>Mago y brujo</b>: dagas, espadas de una mano, bastones y varita. En la guía de cada clase te decimos cuáles conviene aprender primero.",
+        "en": "<b>Warrior</b>: everything but wands. <b>Paladin</b>: one- and two-handed axes, maces and swords, plus polearms. <b>Hunter</b>: bows, crossbows, guns, thrown, daggers, fist weapons, one- and two-handed axes and swords, staves and polearms (no maces). <b>Rogue</b>: daggers, fist weapons, one-handed maces, swords and axes (axes are new in Forever) and every ranged type. <b>Shaman</b>: daggers, fist weapons, one- and two-handed axes and maces, and staves. <b>Druid</b>: daggers, fist weapons, one- and two-handed maces, staves and polearms (new in Forever). <b>Priest</b>: daggers, one-handed maces, staves and wands. <b>Mage and Warlock</b>: daggers, one-handed swords, staves and wands. Each class guide tells you which ones to learn first."
+      },
+      "icono": "inv_axe_04",
+      "clases": []
+    },
+    {
+      "titulo": {
+        "es": "Bolsas desde el nivel 1 con Sastrería",
+        "en": "Bags from level 1 with Tailoring"
+      },
+      "texto": {
+        "es": "Aprende Sastrería (Tailoring) con el instructor de tu ciudad: el rango de aprendiz cuesta 10 de cobre. En la beta el patrón de <b>Linen Bag</b> (bolsa de 6 huecos) costaba 1 de plata y pedía solo 5 puntos de Sastrería. Cada bolsa lleva 3 <b>Bolt of Linen Cloth</b> (2 <b>Linen Cloth</b> por rollo, es decir, 6 telas) y 3 <b>Coarse Thread</b>, que se compra en el vendedor de oficios. La tela de lino cae de los humanoides de las primeras zonas, así que en pocos niveles puedes llenar tus cuatro huecos de bolsa. Si luego no quieres la profesión, la puedes olvidar.",
+        "en": "Learn Tailoring from your city's trainer: the apprentice rank costs 10 copper. In the beta the <b>Linen Bag</b> pattern (a 6-slot bag) cost 1 silver and needed only 5 Tailoring. Each bag takes 3 <b>Bolt of Linen Cloth</b> (2 <b>Linen Cloth</b> per bolt, so 6 cloth) and 3 <b>Coarse Thread</b>, sold by the trade goods vendor. Linen drops from humanoids in the starting zones, so within a few levels you can fill all four bag slots. If you don't want the profession later, you can unlearn it."
+      },
+      "icono": "inv_misc_bag_10",
+      "clases": []
+    },
+    {
+      "titulo": {
+        "es": "Bolsas en el vendedor de bolsas",
+        "en": "Bags from the bag vendor"
+      },
+      "texto": {
+        "es": "Si no quieres fabricarlas, las capitales tienen un vendedor de bolsas (Bag Vendor). En la beta, en Orgrimmar: <b>Small Brown Pouch</b> (6 huecos) por 5 de plata, <b>Brown Leather Satchel</b> por 25 de plata, <b>Heavy Brown Bag</b> por 2 de oro y <b>Huge Brown Sack</b> por 10 de oro; cuanto más cara, más huecos. Al empezar, la de 5 de plata ya compensa: vende lo que no uses y compra una en tu primera visita a la ciudad.",
+        "en": "If you'd rather not craft them, capital cities have a Bag Vendor. In the beta, in Orgrimmar: <b>Small Brown Pouch</b> (6 slots) for 5 silver, <b>Brown Leather Satchel</b> for 25 silver, <b>Heavy Brown Bag</b> for 2 gold and <b>Huge Brown Sack</b> for 10 gold; the pricier, the more slots. Early on the 5-silver pouch is already worth it: sell what you don't need and buy one on your first trip to town."
+      },
+      "icono": "inv_misc_bag_09",
+      "clases": []
+    }
+  ],
+  "maestros_armas": [
+    {
+      "ciudad": {
+        "es": "Stormwind",
+        "en": "Stormwind"
+      },
+      "faccion": "Alianza",
+      "npc": "Woo Ping",
+      "donde": {
+        "es": "Distrito de comercio (Trade District), en la tienda de armas Weller's Arsenal.",
+        "en": "Trade District, inside the Weller's Arsenal weapon shop."
+      },
+      "armas": {
+        "es": "Ballestas, dagas, espadas de una y dos manos, bastones y armas de asta (desde el 20).",
+        "en": "Crossbows, daggers, one- and two-handed swords, staves and polearms (from 20)."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Ironforge",
+        "en": "Ironforge"
+      },
+      "faccion": "Alianza",
+      "npc": "Buliwyf Stonehand",
+      "donde": {
+        "es": "Barrio militar (Military Ward), en la misma tienda que Bixi Wobblebonk.",
+        "en": "Military Ward, in the same shop as Bixi Wobblebonk."
+      },
+      "armas": {
+        "es": "Armas de fuego, armas de puño, hachas y mazas de una y dos manos.",
+        "en": "Guns, fist weapons, one- and two-handed axes and maces."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Ironforge",
+        "en": "Ironforge"
+      },
+      "faccion": "Alianza",
+      "npc": "Bixi Wobblebonk",
+      "donde": {
+        "es": "Barrio militar (Military Ward), en la tienda Timberline Arms, al lado de Buliwyf.",
+        "en": "Military Ward, in the Timberline Arms shop, next to Buliwyf."
+      },
+      "armas": {
+        "es": "Ballestas, dagas y arrojadizas.",
+        "en": "Crossbows, daggers and thrown."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Darnassus",
+        "en": "Darnassus"
+      },
+      "faccion": "Alianza",
+      "npc": "Ilyenia Moonfire",
+      "donde": {
+        "es": "Terraza de los guerreros (Warrior's Terrace).",
+        "en": "Warrior's Terrace."
+      },
+      "armas": {
+        "es": "Arcos, dagas, armas de puño, bastones y arrojadizas.",
+        "en": "Bows, daggers, fist weapons, staves and thrown."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Orgrimmar",
+        "en": "Orgrimmar"
+      },
+      "faccion": "Horda",
+      "npc": "Sayoc",
+      "donde": {
+        "es": "Valle del Honor (Valley of Honor), en la tienda Arms of Legend, junto a Hanashi.",
+        "en": "Valley of Honor, in the Arms of Legend shop, next to Hanashi."
+      },
+      "armas": {
+        "es": "Arcos, dagas, armas de puño, hachas de una y dos manos y arrojadizas (algunas fuentes añaden bastones).",
+        "en": "Bows, daggers, fist weapons, one- and two-handed axes and thrown (some sources add staves)."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Orgrimmar",
+        "en": "Orgrimmar"
+      },
+      "faccion": "Horda",
+      "npc": "Hanashi",
+      "donde": {
+        "es": "Valle del Honor (Valley of Honor), en la misma tienda que Sayoc.",
+        "en": "Valley of Honor, in the same shop as Sayoc."
+      },
+      "armas": {
+        "es": "Arcos, bastones, hachas de una y dos manos y arrojadizas.",
+        "en": "Bows, staves, one- and two-handed axes and thrown."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Thunder Bluff",
+        "en": "Thunder Bluff"
+      },
+      "faccion": "Horda",
+      "npc": "Ansekhwa",
+      "donde": {
+        "es": "Meseta baja (Lower Rise).",
+        "en": "Lower Rise."
+      },
+      "armas": {
+        "es": "Armas de fuego, bastones y mazas de una y dos manos.",
+        "en": "Guns, staves and one- and two-handed maces."
+      }
+    },
+    {
+      "ciudad": {
+        "es": "Undercity",
+        "en": "Undercity"
+      },
+      "faccion": "Horda",
+      "npc": "Archibald",
+      "donde": {
+        "es": "Barrio de la guerra (War Quarter), en el anillo interior.",
+        "en": "War Quarter, on the inner ring."
+      },
+      "armas": {
+        "es": "Ballestas, dagas, espadas de una y dos manos y armas de asta (desde el 20).",
+        "en": "Crossbows, daggers, one- and two-handed swords and polearms (from 20)."
+      }
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: maestros de armas y armas por clase en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/weapon-trainers/"
+    },
+    {
+      "nombre": "Warcraft Tavern: habilidades de arma en Forever",
+      "url": "https://www.warcrafttavern.com/forever/news/weapon-skills-in-world-of-warcraft-forever/"
+    },
+    {
+      "nombre": "Warcraft Wiki: maestros de armas",
+      "url": "https://warcraft.wiki.gg/wiki/Weapon_master"
+    }
+  ]
+}

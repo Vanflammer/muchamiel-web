@@ -1,0 +1,241 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Más addons para WoW Forever, además de los de arriba: los básicos de siempre que ya tienen versión para Forever y algunos nuevos hechos para este cliente. Hemos comprobado en su página de descarga que cada uno tiene un archivo marcado «Forever» (a 30 de octubre de 2026). Los que salen como beta funcionan, pero todavía cambian a menudo. Instala siempre el archivo de Forever, no el de Classic ni el de Retail.",
+    "en": "More add-ons for WoW Forever on top of the ones above: the usual essentials that already have a Forever build, plus a few new ones made for this client. We checked each download page for a file tagged \"Forever\" (as of 30 October 2026). The ones marked beta work, but they still change often. Always install the Forever file, not the Classic or Retail one."
+  },
+  "grupos": [
+    {
+      "titulo": {
+        "es": "Imprescindibles",
+        "en": "Must-haves"
+      },
+      "addons": [
+        {
+          "nombre": "CurseForge (app)",
+          "forever": "si",
+          "que_hace": {
+            "es": "No es un addon, es el programa para instalarlos y tenerlos al día. Elige <b>WoW Forever</b> en la lista de juegos y los deja en la carpeta correcta (forever\\Interface\\AddOns). Si los pones en la carpeta de Retail o de Classic, no aparecen en el juego.",
+            "en": "Not an add-on but the app that installs them and keeps them updated. Pick <b>WoW Forever</b> in the game list and it puts everything in the right folder (forever\\Interface\\AddOns). Add-ons dropped into the Retail or Classic folder won't show up in game."
+          },
+          "url": "https://www.curseforge.com/download/app"
+        },
+        {
+          "nombre": "Questie",
+          "forever": "si",
+          "que_hace": {
+            "es": "El ayudante de misiones de siempre: marca en el mapa dónde empieza cada misión, dónde se entrega y dónde están sus objetivos, con seguimiento de misiones y el progreso del grupo en las descripciones. El cliente ya trae objetivos en el mapa, pero Questie te enseña también las misiones que todavía no tienes. Para quien sube de nivel.",
+            "en": "The classic quest helper: it shows on the map where each quest starts, where it's turned in and where the objectives are, plus a tracker and your party's progress in tooltips. The client already shows objectives on the map, but Questie also points you to quests you haven't picked up yet. For anyone leveling."
+          },
+          "url": "https://www.curseforge.com/wow/addons/questie"
+        },
+        {
+          "nombre": "Details!",
+          "forever": "desconocido",
+          "que_hace": {
+            "es": "El medidor de daño y sanación más usado: cuánto hace cada uno del grupo, quién recibe más golpes y muchas vistas para mirar después de cada pelea. El cliente ya trae un medidor sencillo; Details! es para quien quiere más detalle o comparar en mazmorras y bandas. Tiene versión para Forever, pero hay avisos de que Forever limita el registro de combate a los addons: compruébalo en el juego.",
+            "en": "The most popular damage and healing meter: how much everyone in the group does, who takes the most hits and plenty of views to dig into after each fight. The client has a simple built-in meter; Details! is for players who want more depth or to compare in dungeons and raids. It has a Forever version, but there are reports that Forever limits the combat log for addons: check it in game."
+          },
+          "url": "https://www.curseforge.com/wow/addons/details"
+        },
+        {
+          "nombre": "Leatrix Plus",
+          "forever": "si",
+          "que_hace": {
+            "es": "Un montón de pequeñas comodidades para la interfaz de Blizzard en un solo addon: vender la chatarra y reparar solo, ver más lejos con la cámara, ocultar cosas que molestan, mejoras del mapa y del chat. Cada opción se activa por separado (/ltp). Para todo el mundo.",
+            "en": "Dozens of small quality-of-life tweaks for the Blizzard UI in one add-on: auto-sell junk and auto-repair, a farther camera, hiding clutter, map and chat improvements. Every option is a separate toggle (/ltp). Good for everyone."
+          },
+          "url": "https://www.curseforge.com/wow/addons/leatrix-plus"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Subasta y oro",
+        "en": "Auction house and gold"
+      },
+      "addons": [
+        {
+          "nombre": "Auctionator",
+          "forever": "si",
+          "que_hace": {
+            "es": "Hace la casa de subastas mucho más cómoda: precios en la descripción de cada objeto, un escaneo completo para tenerlos al día, listas de la compra y aviso si vas a poner algo demasiado barato. Si vendes o compras en la subasta, es el primero que tienes que instalar.",
+            "en": "Makes the auction house far easier: prices in every item tooltip, a full scan to keep them current, shopping lists and a warning before you post something too cheap. If you buy or sell at the AH, install this first."
+          },
+          "url": "https://www.curseforge.com/wow/addons/auctionator"
+        },
+        {
+          "nombre": "ForeverProfit",
+          "forever": "si",
+          "que_hace": {
+            "es": "Hecho para Forever y apoyado en los precios de Auctionator: ordena tus recetas por lo que ganas con cada una (ya descontado lo que se queda la subasta), monta la cola de fabricación y manda la lista de la compra a Auctionator. Tiene un modo para subir la profesión gastando lo mínimo por punto. Necesita Auctionator.",
+            "en": "Built for Forever on top of Auctionator prices: it ranks your recipes by profit (after the auction house cut), builds a craft queue and sends the shopping list to Auctionator. A leveling mode shows the cheapest recipes per skill point. Requires Auctionator."
+          },
+          "url": "https://www.curseforge.com/wow/addons/foreverprofit"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Interfaz, bolsas y marcos",
+        "en": "UI, bags and frames"
+      },
+      "addons": [
+        {
+          "nombre": "Baganator",
+          "forever": "si",
+          "que_hace": {
+            "es": "Todas las bolsas en una sola ventana, en lista o separadas por categorías (armas, consumibles, misiones…). Busca objetos en las bolsas y el banco de todos tus personajes. La opción moderna para ordenar el inventario.",
+            "en": "All your bags in one window, either as a single list or split into categories (weapons, consumables, quest items…). Search items across the bags and bank of all your characters. The modern pick for a tidy inventory."
+          },
+          "url": "https://www.curseforge.com/wow/addons/baganator"
+        },
+        {
+          "nombre": "Bagnon",
+          "forever": "si",
+          "que_hace": {
+            "es": "La bolsa única de toda la vida: junta todas las bolsas en una ventana y te deja ver el banco y el inventario de tus otros personajes desde cualquier sitio. Elige Bagnon o Baganator, no los dos.",
+            "en": "The long-standing one-bag add-on: it merges every bag into one window and lets you check the bank and your alts' inventory from anywhere. Pick Bagnon or Baganator, not both."
+          },
+          "url": "https://www.curseforge.com/wow/addons/bagnon"
+        },
+        {
+          "nombre": "MiniCE (Minimalist Cooldown Edge)",
+          "forever": "si",
+          "que_hace": {
+            "es": "Pone los segundos que faltan encima de cada habilidad y objeto en enfriamiento, con letra, colores y bordes a tu gusto. OmniCC todavía no tiene versión para Forever; este es el recambio que sí la tiene. Para todos, sobre todo en JcJ.",
+            "en": "Shows the seconds left on every ability and item cooldown, with your choice of font, colors and edges. OmniCC has no Forever build yet; this replacement does. Useful for everyone, especially in PvP."
+          },
+          "url": "https://www.curseforge.com/wow/addons/minimalistcooldownedge"
+        },
+        {
+          "nombre": "tullaCTC",
+          "forever": "si",
+          "que_hace": {
+            "es": "Otra opción para ver números en los enfriamientos, del mismo autor que OmniCC: tipo de letra, colores, décimas en los últimos segundos y formato minutos:segundos (/tullaCTC). Instala este o MiniCE, no los dos.",
+            "en": "Another cooldown-text option from the author of OmniCC: font, colors, tenths of a second near the end and MM:SS format (/tullaCTC). Install this or MiniCE, not both."
+          },
+          "url": "https://www.curseforge.com/wow/addons/tullactc"
+        },
+        {
+          "nombre": "Plater",
+          "forever": "si",
+          "que_hace": {
+            "es": "Placas de nombre muy configurables: color según la amenaza, tus debilitaciones encima de cada enemigo, barras de lanzamiento y perfiles listos para importar. Para tanques y para quien quiere controlar varios enemigos a la vez. Usa un solo addon de placas.",
+            "en": "Highly customizable nameplates: threat coloring, your debuffs on each enemy, cast bars and ready-made profiles to import. Great for tanks and anyone juggling several enemies. Run only one nameplate add-on."
+          },
+          "url": "https://www.curseforge.com/wow/addons/plater-nameplates"
+        },
+        {
+          "nombre": "ClassicUI Forever",
+          "forever": "beta",
+          "que_hace": {
+            "es": "Para quien echa de menos el aspecto de 2004: devuelve los marcos de jugador, objetivo y grupo, el minimapa redondo y las barras de lanzamiento al estilo Classic, por módulos (/fcui). Está en alfa: puede tener fallos visuales.",
+            "en": "For players who miss the 2004 look: it brings back Classic-style player, target and party frames, the round minimap and cast bars, module by module (/fcui). Still in alpha, so expect some visual glitches."
+          },
+          "url": "https://www.curseforge.com/wow/addons/classic-ui-forever"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Combate",
+        "en": "Combat"
+      },
+      "addons": [
+        {
+          "nombre": "Does It Die (DoesItDie)",
+          "forever": "si",
+          "que_hace": {
+            "es": "El de la calavera: marca en la barra de vida del objetivo (y en su placa de nombre) cuánto daño les queda por hacer a tus DoTs, y cuando con eso basta para matarlo sale una <b>calavera</b>. Así dejas de gastar maná en ese enemigo y pasas al siguiente. Hecho para Forever; funciona con Plater, EllesmereUI y otras placas. Ajustes con /did. No cuenta los efectos que saltan solos (Deep Wounds, Ignite, venenos) ni las curas que reciba el enemigo. Ideal para brujo, sacerdote de las sombras, druida y cazador.",
+            "en": "The skull one: it marks on your target's health bar (and nameplate) how much damage your DoTs still have left, and when that's enough to kill it a <b>skull</b> appears. Stop spending mana on that enemy and move on. Made for Forever; works with Plater, EllesmereUI and other nameplates. Settings with /did. It doesn't count proc DoTs (Deep Wounds, Ignite, poisons) or healing on the target. Great for Warlocks, Shadow Priests, Druids and Hunters."
+          },
+          "url": "https://www.curseforge.com/wow/addons/does-it-die"
+        },
+        {
+          "nombre": "Dot Ledger",
+          "forever": "beta",
+          "que_hace": {
+            "es": "Una barrita con cuenta atrás por cada DoT, sangrado, veneno o control que tengas puesto en cada enemigo visible, para saber cuándo renovarlo. Detecta tus hechizos desde el libro de hechizos, sirve para todas las clases y se pone en rojo en los últimos cinco segundos. Solo Forever, en beta.",
+            "en": "A small countdown bar for every DoT, bleed, poison or crowd control you have on each visible enemy, so you know when to refresh it. It reads your spells from the spellbook, works for every class and turns red in the last five seconds. Forever only, in beta."
+          },
+          "url": "https://www.curseforge.com/wow/addons/dot-ledger"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Subir de nivel",
+        "en": "Leveling"
+      },
+      "addons": [
+        {
+          "nombre": "RestedXP Guide",
+          "forever": "si",
+          "que_hace": {
+            "es": "Guía paso a paso dentro del juego: qué misión hacer, por dónde ir y en qué orden, con flecha y aceptación automática de misiones. El addon es gratis y trae los primeros niveles; la ruta completa es de pago y la parte alta de Forever todavía la están escribiendo. Para quien quiere subir rápido sin pensar la ruta.",
+            "en": "Step-by-step in-game guide: which quest to do, where to go and in what order, with an arrow and auto-accept. The add-on is free and covers the first levels; the full route is paid, and the higher Forever levels are still being written. For players who want to level fast without planning a route."
+          },
+          "url": "https://www.curseforge.com/wow/addons/restedxp-guide"
+        },
+        {
+          "nombre": "Wayfinder Forever",
+          "forever": "beta",
+          "que_hace": {
+            "es": "Guía de subida gratis y hecha para Forever: pasos de las zonas iniciales (también Zephras Isle) y de los primeros 20 niveles, un paso cada vez. Puedes escribir tus propias guías, compartirlas como texto o grabar tu ruta mientras juegas (/wf options). Muy nueva, de momento solo cubre el principio.",
+            "en": "A free leveling guide made for Forever: steps for the starting zones (Zephras Isle included) and the first 20 levels, one step at a time. You can write your own guides, share them as text or record your route as you play (/wf options). Very new, so it only covers the early levels for now."
+          },
+          "url": "https://www.curseforge.com/wow/addons/wayfinder-forever"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Botín y equipo",
+        "en": "Loot and gear"
+      },
+      "addons": [
+        {
+          "nombre": "AtlasLoot Classic Forever",
+          "forever": "si",
+          "que_hace": {
+            "es": "Las tablas de botín de cada jefe de mazmorra y banda, botín del mundo y listas de mejor equipo (BiS) por clase, rama y fase de Forever, también en la descripción de los objetos. Se abre con /al. Para planear qué mazmorra repetir.",
+            "en": "Loot tables for every dungeon and raid boss, world drops and best-in-slot lists by class, spec and Forever phase, also shown in item tooltips. Open it with /al. Handy for deciding which dungeon to farm."
+          },
+          "url": "https://www.curseforge.com/wow/addons/atlasloot-forever"
+        },
+        {
+          "nombre": "Lootwise",
+          "forever": "beta",
+          "que_hace": {
+            "es": "Navegador de botín hecho para Forever, con sus mazmorras nuevas: qué suelta cada jefe, recompensas de misiones y de reputación, listas de deseos con aviso al entrar en la mazmorra y un planificador de profesiones con los precios de la subasta. Muy nuevo; los datos se van completando.",
+            "en": "A loot browser built for Forever, new dungeons included: what each boss drops, quest and reputation rewards, wishlists that alert you when you enter the dungeon and a profession planner using auction prices. Very new; the data is still filling in."
+          },
+          "url": "https://www.curseforge.com/wow/addons/lootwise"
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "CurseForge: Does It Die",
+      "url": "https://www.curseforge.com/wow/addons/does-it-die"
+    },
+    {
+      "nombre": "GitHub: DoesItDie (código y registro de cambios)",
+      "url": "https://github.com/swirllyman/DoesItDie"
+    },
+    {
+      "nombre": "CurseForge: addons de WoW Forever",
+      "url": "https://www.curseforge.com/wow/addons"
+    },
+    {
+      "nombre": "Mobalytics: cómo instalar addons en WoW Forever",
+      "url": "https://mobalytics.gg/wow-forever/profile/broog/guides/how-to-install-addons-wow-forever"
+    },
+    {
+      "nombre": "Mein-MMO: addons más importantes de WoW Forever",
+      "url": "https://mein-mmo.de/en/wow-forever-the-10-most-important-addons-and-how-to-install-them,1593699/"
+    }
+  ]
+}

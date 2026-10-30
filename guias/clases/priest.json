@@ -619,6 +619,10 @@
       {
         "es": "Come para tener <b>Well Fed</b>: en Forever da un 5 % más de experiencia por muerte durante 15 min.",
         "en": "Eat for <b>Well Fed</b>: in Forever it gives 5% more experience per kill for 15 min."
+      },
+      {
+        "es": "<b>Armas que puedes aprender</b>: dagas, mazas de una mano y bastones; la varita viene de serie y no se entrena. Nada de espadas. Tu raza ya trae alguna; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Aprende pronto bastones (y dagas) para poder ponerte cualquier arma con Intelecto o poder con hechizos que caiga: el arma te da estadísticas y la varita, el daño.",
+        "en": "<b>Weapons you can learn</b>: daggers, one-handed maces and staves; wands are built in and need no training. No swords. Your race already knows some; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Learn staves (and daggers) early so you can wear any Intellect or spell power weapon that drops: the weapon gives stats and the wand does the damage."
       }
     ],
     "hitos": [
