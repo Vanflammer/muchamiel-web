@@ -26,6 +26,8 @@ cp MANUAL-WEB-github.md $G/.github/README.md  # 29-10: manual de la web, se ve e
 cp radar.py $G/.github/radar.py  # 29-10: radar de novedades para la IA de Muchamiel
 cp radar.yml $G/.github/workflows/radar.yml
 cp publicar.yml $G/.github/workflows/publicar.yml
+cp momentos.py $G/.github/momentos.py  # 30-10: mejores momentos de cada directo (chat de Twitch)
+cp momentos.yml $G/.github/workflows/momentos.yml
 mkdir -p $G/.github/radar
 [ -f $G/.github/radar/fuentes.json ] || cp radar_fuentes.json $G/.github/radar/fuentes.json  # las fuentes son de Muchamiel: solo la primera vez
 git -C $G add -A
