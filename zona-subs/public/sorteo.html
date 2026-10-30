@@ -276,10 +276,13 @@ function elegir(b) {
 const CL_ICO = [['Guerrero', 'warrior'], ['Paladín', 'paladin'], ['Cazador', 'hunter'], ['Pícaro', 'rogue'], ['Sacerdote', 'priest'], ['Chamán', 'shaman'], ['Mago', 'mage'], ['Brujo', 'warlock'], ['Druida', 'druid']];
 const RA_ICO = [['Humano', 'human'], ['Enano', 'dwarf'], ['Gnomo', 'gnome'], ['Elfo de la noche', 'nightelf'], ['Orco', 'orc'], ['No-muerto', 'scourge'], ['Tauren', 'tauren'], ['Trol', 'troll']];
 function hashN(n) { let h = 0; for (const c of n.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
-function iconos(nombre, tam = 28) { const h = hashN(nombre), c = CL_ICO[h % 9], r = RA_ICO[(h >>> 5) % 8], sx = (h >>> 9) & 1 ? 'female' : 'male', z = 'https://wow.zamimg.com/images/wow/icons/large/';
+// Combinaciones de raza y clase que existen en el juego (índices de RA_ICO por clase)
+const RAZA_OK = [[0, 1, 3, 4, 5, 6], [0, 1], [1, 3, 6, 7], [0, 1, 3, 4, 5], [0, 1, 3, 5, 7], [4, 6, 7], [0, 2, 5, 7], [0, 2, 4, 5], [3, 6]];   // solo las que tienen modelo
+const razaIdx = nombre => { const h = hashN(nombre), ok = RAZA_OK[h % 9]; return ok[(h >>> 5) % ok.length]; };
+function iconos(nombre, tam = 28) { const h = hashN(nombre), c = CL_ICO[h % 9], r = RA_ICO[razaIdx(nombre)], sx = (h >>> 9) & 1 ? 'female' : 'male', z = 'https://wow.zamimg.com/images/wow/icons/large/';
   const st = `width:${tam}px;height:${tam}px;border-radius:5px;border:1px solid #c8a24a;vertical-align:middle;margin:0 2px`;
   return `<img src="${z}race_${r[1]}_${sx}.jpg" alt="${r[0]}" title="${r[0]}" style="${st}"><img src="${z}classicon_${c[1]}.jpg" alt="${c[0]}" title="${c[0]}" style="${st}">`; }
-const claseRaza = nombre => { const h = hashN(nombre); return `${RA_ICO[(h >>> 5) % 8][0]} · ${CL_ICO[h % 9][0]}`; };
+const claseRaza = nombre => { const h = hashN(nombre); return `${RA_ICO[razaIdx(nombre)][0]} · ${CL_ICO[h % 9][0]}`; };
 const pctDe = (p, b) => (p.papeletas / b.reduce((s, x) => s + x.papeletas, 0) * 100).toLocaleString('es-ES', {maximumFractionDigits: 2}) + ' %';
 const infoGanador = (p, b) => `${iconos(p.nombre)} ${claseRaza(p.nombre)}<br>${TIER[p.t].n} · tenía un ${pctDe(p, b)} de posibilidades`;
 const esc = s => String(s).replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
@@ -475,8 +478,15 @@ const CLASES = [
   {n: 'Brujo', col: '#8788EE', arm: '#4a2a6e', arma: 'baston', orbe: '#6dff5a', cabeza: 'cuernos', capa: '#2e1a48', rango: 1, fx: '#7dff5a', golpes: ['Descarga de las Sombras', 'Corrupción', 'Fuego de alma']},
   {n: 'Druida', col: '#FF7C0A', arm: '#6b4a24', arma: 'baston', orbe: '#c38cff', cabeza: 'hojas', capa: '#4a3418', rango: 1, fx: '#d9a0ff', golpes: ['Fuego estelar', 'Fuego lunar', 'Cólera']}
 ];
-const RAZAS = [{n: 'Humano', piel: '#f1c9a5', i: 'human'}, {n: 'Enano', piel: '#d9a77e', i: 'dwarf'}, {n: 'Gnomo', piel: '#f0c8a0', i: 'gnome'}, {n: 'Elfo de la noche', piel: '#9b8fd1', i: 'nightelf'},
-  {n: 'Orco', piel: '#6fae5a', i: 'orc'}, {n: 'No-muerto', piel: '#b9c6c9', i: 'scourge'}, {n: 'Tauren', piel: '#8d5a3b', i: 'tauren'}, {n: 'Trol', piel: '#7aa0b8', i: 'troll'}];
+const RAZAS = [   // mismo orden que RA_ICO
+  {n: 'Humano', alto: 1, ancho: 1, cab: 1, piel: '#e9bf9a', pelo: '#5a3a1e'},
+  {n: 'Enano', alto: .78, ancho: 1.3, cab: 1.05, piel: '#e0a985', pelo: '#b5562a', barba: 1},
+  {n: 'Gnomo', alto: .62, ancho: .9, cab: 1.3, piel: '#f2caa2', pelo: '#ff6ad5', orejas: .6},
+  {n: 'Elfo de la noche', alto: 1.13, ancho: .9, cab: .95, piel: '#a093d8', pelo: '#3fd6c6', orejas: 1.6},
+  {n: 'Orco', alto: 1.03, ancho: 1.28, cab: 1.05, piel: '#5f9a45', pelo: '#1c1c1c', colm: 1},
+  {n: 'No-muerto', alto: .98, ancho: .85, cab: .95, piel: '#a3b3a5', pelo: '#3a3a2a', zombi: 1, encorv: .18},
+  {n: 'Tauren', alto: 1.22, ancho: 1.45, cab: 1.15, piel: '#7a5232', pelo: '#3a2614', toro: 1},
+  {n: 'Trol', alto: 1.15, ancho: .95, cab: 1, piel: '#5f8fb0', pelo: '#e0452a', colm: 2, orejas: 1.1, encorv: .12, cresta: 1}];
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const colorTier = t => css(t === 'g' ? '--gratis' : '--t' + t) || '#bbb';
 const FONDO_JEFE = {onyxia: ['#2a0d05', '#ff6a2a'], ragnaros: ['#2b0600', '#ff3b00'], hogger: ['#0f1a0a', '#7fa64a']};
@@ -493,12 +503,18 @@ const hashClase = nombre => CLASES[hashNombre(nombre) % CLASES.length];
 const fondos = {};
 function fondoImg(k) { if (!fondos[k]) { const im = new Image(); im.src = `/assets/escenas/${k}.jpg`; fondos[k] = im; } const im = fondos[k]; return im.complete && im.naturalWidth ? im : null; }
 
+// arma, forma de druida y si ataca a distancia, según clase y raza
+function extras(c, R, h) {
+  const forma = c.n === 'Druida' ? ['oso', 'felino', 'lechucico', 'normal'][(h >>> 11) % 4] : '';
+  const armaT = c.n === 'Guerrero' ? (['Orco', 'Tauren', 'Enano'].includes(R.n) ? 'hacha' : 'espada') : c.arma === 'dagas' ? 'daga' : c.arma;
+  return {forma, armaT, veneno: (h >>> 13) & 1, rango: forma === 'oso' || forma === 'felino' ? 0 : c.rango};
+}
 function montar(tipo, b) {
   const n = b.length, J = JEFES[$('jefe').value];
   const r = Math.max(5, Math.min(26, Math.sqrt((tipo === 'jefe' ? 1280 * 300 : 1280 * 520) / Math.max(1, n)) * .32));
   const fichas = b.map((p, k) => {
     const c = hashClase(p.nombre), h = hashNombre(p.nombre);
-    return {p, c, col: c.col, raza: RAZAS[(h >>> 5) % RAZAS.length], piel: RAZAS[(h >>> 5) % RAZAS.length].piel, aro: colorTier(p.t), r, vivo: true, muerte: 0, flash: 0, atk: 0, dir: (h & 1) ? 1 : -1, fase: azar(6),
+    return {p, c, col: c.col, raza: RAZAS[razaIdx(p.nombre)], ...extras(c, RAZAS[razaIdx(p.nombre)], h), aro: colorTier(p.t), r, vivo: true, muerte: 0, flash: 0, atk: 0, dir: (h & 1) ? 1 : -1, fase: azar(6),
       x: 0, y: 0, tx: 0, ty: 0, vel: entre(.6, 1.4), k};
   });
   if (tipo === 'jefe') {   // la banda, en filas bajo el jefe
@@ -553,10 +569,16 @@ function dibujaJefe() {
   if (j.muerto && t - j.muerto > 1600) return;
   const sac = t - j.golpe < 300 ? (Math.random() - .5) * 14 : 0, a = j.muerto ? Math.max(0, 1 - (t - j.muerto) / 1600) : 1;
   X.save(); X.globalAlpha = a; X.translate(j.x + sac, j.y + Math.sin(t / 600) * 5);
-  X.shadowColor = (FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia)[1]; X.shadowBlur = 40;
-  X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.fillStyle = '#000'; X.fill(); X.shadowBlur = 0;
-  X.save(); X.beginPath(); X.arc(0, 0, j.r - 5, 0, 7); X.clip(); if (im) X.drawImage(im, -j.r, -j.r, j.r * 2, j.r * 2); X.restore();
-  X.lineWidth = 6; X.strokeStyle = '#c8a24a'; X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.stroke();
+  const mj = modelo($('jefe').value);   // el modelo real del jefe; si no carga, su icono redondo
+  if (mj) { const hj = 250, wj = Math.min(560, hj * mj.naturalWidth / mj.naturalHeight), hh = wj * mj.naturalHeight / mj.naturalWidth;
+    X.fillStyle = '#0008'; X.beginPath(); X.ellipse(0, 118, wj * .4, 14, 0, 0, 7); X.fill();
+    X.shadowColor = (FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia)[1]; X.shadowBlur = 30;
+    if (t - j.golpe < 120) X.filter = 'brightness(1.8)';
+    X.drawImage(mj, -wj / 2, 125 - hh, wj, hh); X.filter = 'none'; X.shadowBlur = 0; }
+  else {
+    X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.fillStyle = '#000'; X.fill();
+    X.save(); X.beginPath(); X.arc(0, 0, j.r - 5, 0, 7); X.clip(); if (im) X.drawImage(im, -j.r, -j.r, j.r * 2, j.r * 2); X.restore();
+    X.lineWidth = 6; X.strokeStyle = '#c8a24a'; X.beginPath(); X.arc(0, 0, j.r, 0, 7); X.stroke(); }
   X.restore();
   // barra de vida
   const bw = 420, bx = 640 - bw / 2, by = 22;
@@ -564,77 +586,55 @@ function dibujaJefe() {
   const vg = X.createLinearGradient(bx, 0, bx + bw, 0); vg.addColorStop(0, '#b3121b'); vg.addColorStop(1, '#ff4a3a'); X.fillStyle = vg; X.fillRect(bx, by, bw * j.vida, 22);
   X.fillStyle = '#fff'; X.font = '700 15px Georgia, serif'; X.textAlign = 'center'; X.fillText(`${E.J.n} · ${Math.round(j.vida * 100)} %`, 640, by + 16);
 }
-// --- Personaje dibujado: pies en (0,0), mira a la derecha (dir 1) o a la izquierda (-1). u = tamaño de unidad ---
-function rr(x, y, w, h, r) { X.beginPath(); X.roundRect ? X.roundRect(x, y, w, h, r) : X.rect(x, y, w, h); }
-function arma(c, u, t, atacando, k) {
-  X.lineCap = 'round';
-  if (c.arma === 'espada') { X.strokeStyle = '#5a3a1a'; X.lineWidth = 2 * u; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, -3 * u); X.stroke();
-    X.strokeStyle = '#d9d9d9'; X.lineWidth = 2.2 * u; X.beginPath(); X.moveTo(0, -3 * u); X.lineTo(0, -16 * u); X.stroke();
-    X.strokeStyle = '#c9a53c'; X.lineWidth = 1.5 * u; X.beginPath(); X.moveTo(-3 * u, -3 * u); X.lineTo(3 * u, -3 * u); X.stroke(); }
-  else if (c.arma === 'maza') { X.strokeStyle = '#6b4a24'; X.lineWidth = 1.8 * u; X.beginPath(); X.moveTo(0, 1 * u); X.lineTo(0, -11 * u); X.stroke();
-    X.fillStyle = c.n === 'Paladín' ? '#e8c75a' : '#9aa3ad'; X.beginPath(); X.arc(0, -12.5 * u, 3.2 * u, 0, 7); X.fill(); }
-  else if (c.arma === 'dagas') { X.strokeStyle = '#cfd6dc'; X.lineWidth = 1.6 * u; X.beginPath(); X.moveTo(0, -1 * u); X.lineTo(0, -8 * u); X.stroke(); }
-  else if (c.arma === 'arco') { X.strokeStyle = '#7a5428'; X.lineWidth = 1.6 * u; X.beginPath(); X.arc(1 * u, -4 * u, 9 * u, -1.3, 1.3); X.stroke();
-    const tir = atacando ? Math.sin(Math.min(1, k * 2) * Math.PI) * 4 * u : 0;
-    X.strokeStyle = '#e8e0c8'; X.lineWidth = .6 * u; X.beginPath(); X.moveTo(1 * u + Math.cos(-1.3) * 9 * u, -4 * u + Math.sin(-1.3) * 9 * u); X.lineTo(-tir, -4 * u); X.lineTo(1 * u + Math.cos(1.3) * 9 * u, -4 * u + Math.sin(1.3) * 9 * u); X.stroke(); }
-  else { X.strokeStyle = c.n === 'Druida' ? '#7a5a2a' : '#4a3424'; X.lineWidth = 1.6 * u; X.beginPath(); X.moveTo(0, 6 * u); X.lineTo(0, -15 * u); X.stroke();   // bastón con orbe
-    X.fillStyle = c.orbe; X.shadowColor = c.orbe; X.shadowBlur = (atacando ? 18 : 8) * Math.min(1, u); X.beginPath(); X.arc(0, -16.5 * u, (atacando ? 3.2 : 2.3) * u, 0, 7); X.fill(); X.shadowBlur = 0; }
+// --- Personajes: modelos reales del juego (renders de Wowhead de instructores de clase, formas de druida y jefes) ---
+//     Cada uno se balancea al andar, se lanza al atacar, cae al morir; el pícaro va en sigilo (medio transparente)
+const MODELOS = {};
+function modelo(k) { if (!MODELOS[k]) { const im = new Image(); im.src = `/assets/modelos/${k}.webp`; MODELOS[k] = im; } const im = MODELOS[k]; return im.complete && im.naturalWidth ? im : null; }
+const ALTO_RAZA = {'Humano': 1, 'Enano': .8, 'Gnomo': .64, 'Elfo de la noche': 1.12, 'Orco': 1.05, 'No-muerto': .98, 'Tauren': 1.22, 'Trol': 1.12};
+function claveModelo(f) {
+  if (f.c.n === 'Druida' && f.forma !== 'normal') return `${f.forma}-${f.raza.n === 'Tauren' ? 'T' : 'E'}`;
+  return `${RAZAS.indexOf(f.raza)}-${CLASES.indexOf(f.c)}`;
 }
 function personaje(f, t) {
-  const c = f.c, u = f.r / 10, muerto = !f.vivo, km = muerto ? Math.min(1, (t - f.muerte) / 350) : 0;
-  const ka = t - f.atk < 420 ? (t - f.atk) / 420 : 0, atacando = ka > 0;
-  const paso = f.andando ? Math.sin(t / 90 + f.fase) : 0, bote = f.andando ? Math.abs(Math.cos(t / 90 + f.fase)) * 1.4 * u : Math.sin(t / 500 + f.fase) * .5 * u;
+  const u = f.r / 10, muerto = !f.vivo, km = muerto ? Math.min(1, (t - f.muerte) / 400) : 0;
+  const ka = t - f.atk < 420 ? (t - f.atk) / 420 : 0, flash = t - f.flash < 140, fase = t / 110 + f.fase;
+  const forma = f.c.n === 'Druida' && f.forma !== 'normal';
+  const im = modelo(f.mod || (f.mod = claveModelo(f)));
+  const alto = 40 * u * (forma ? (f.forma === 'lechucico' ? 1.08 : .66) : (ALTO_RAZA[f.raza.n] || 1));
+  const ancho = im ? alto * im.naturalWidth / im.naturalHeight : alto * .45;
+  const bote = f.andando ? Math.abs(Math.sin(fase)) * 2 * u : 0, respira = f.andando ? 1 : 1 + Math.sin(t / 650 + f.fase) * .012;
+  const victoria = f.gana && E.cofre && E.cofre.abierto, sigilo = f.c.n === 'Pícaro' && !ka && !f.gana && !muerto;
   X.save(); X.translate(f.x, f.y);
-  X.fillStyle = '#0007'; X.beginPath(); X.ellipse(0, 0, 7 * u, 2.2 * u, 0, 0, 7); X.fill();   // sombra
-  X.strokeStyle = f.gana ? '#ffd36b' : f.aro; X.globalAlpha = muerto ? .25 : .9; X.lineWidth = Math.max(1, u * .9); X.beginPath(); X.ellipse(0, 0, 7.5 * u, 2.6 * u, 0, 0, 7); X.stroke(); X.globalAlpha = 1;   // aro del tier
-  if (muerto) { X.globalAlpha = t - f.muerte > 1400 ? .38 : 1 - km * .3; X.rotate(-f.dir * km * Math.PI / 2); }
-  if (f.enrage) {   // cólera: aura roja que late y el personaje teñido de rojo
-    const late = 1 + Math.sin(t / 90) * .15;
-    const g = X.createRadialGradient(0, -18 * u, 2 * u, 0, -18 * u, 26 * u * late); g.addColorStop(0, '#ff3b2a88'); g.addColorStop(1, '#ff3b2a00');
-    X.fillStyle = g; X.beginPath(); X.arc(0, -18 * u, 26 * u * late, 0, 7); X.fill();
-    X.filter = 'sepia(1) saturate(7) hue-rotate(-45deg) brightness(1.05)'; X.shadowColor = '#ff2a1a'; X.shadowBlur = 30 * late;
-  } else if (f.gana) { X.shadowColor = '#ffd36b'; X.shadowBlur = 24 + Math.sin(t / 150) * 8; }
-  X.scale(f.dir, 1); X.translate(0, -bote);
-  const flash = t - f.flash < 160;
-  // piernas
-  X.strokeStyle = flash ? '#fff' : '#2a2018'; X.lineWidth = 3 * u; X.lineCap = 'round';
-  X.beginPath(); X.moveTo(-1.8 * u, -11 * u); X.lineTo(-1.8 * u + paso * 3 * u, -1 * u); X.stroke();
-  X.beginPath(); X.moveTo(1.8 * u, -11 * u); X.lineTo(1.8 * u - paso * 3 * u, -1 * u); X.stroke();
-  // capa
-  if (c.capa) { X.fillStyle = flash ? '#fff' : c.capa; X.beginPath(); X.moveTo(-4 * u, -24 * u); X.quadraticCurveTo(-8 * u - paso * u, -12 * u, -6 * u, -6 * u); X.lineTo(2 * u, -8 * u); X.lineTo(2 * u, -24 * u); X.fill(); }
-  // escudo a la espalda del brazo de atrás
-  if (c.escudo) { X.fillStyle = flash ? '#fff' : c.escudo; X.strokeStyle = '#c9a53c'; X.lineWidth = .8 * u; X.beginPath(); X.moveTo(-6.5 * u, -21 * u); X.lineTo(-1 * u, -21 * u); X.lineTo(-1.5 * u, -14 * u); X.quadraticCurveTo(-3.8 * u, -10 * u, -3.8 * u, -10 * u); X.quadraticCurveTo(-6 * u, -13 * u, -6.5 * u, -21 * u); X.fill(); X.stroke(); }
-  // cuerpo
-  rr(-4.5 * u, -25 * u, 9 * u, 15 * u, 2.5 * u); X.fillStyle = flash ? '#fff' : c.arm; X.fill();
-  X.fillStyle = c.col; X.fillRect(-4.5 * u, -14 * u, 9 * u, 1.6 * u);   // cinturón con el color de la clase
-  if (f.c.arma === 'baston' || f.c.n === 'Sacerdote') { X.fillStyle = flash ? '#fff' : c.arm; X.beginPath(); X.moveTo(-4.5 * u, -13 * u); X.lineTo(4.5 * u, -13 * u); X.lineTo(5.5 * u, -6 * u); X.lineTo(-5.5 * u, -6 * u); X.fill(); }   // túnica
-  X.shadowBlur = 0;
-  // cabeza
-  X.fillStyle = flash ? '#fff' : f.piel; X.beginPath(); X.arc(.5 * u, -29.5 * u, 4.6 * u, 0, 7); X.fill();
-  X.fillStyle = '#111'; X.fillRect(2.4 * u, -30.5 * u, 1.1 * u, 1.3 * u);   // ojo
-  const cab = c.cabeza;
-  if (cab === 'sombrero') { X.fillStyle = c.capa; X.beginPath(); X.moveTo(-5.5 * u, -32 * u); X.lineTo(6.5 * u, -32 * u); X.lineTo(-1 * u, -44 * u); X.fill(); X.fillStyle = c.col; X.fillRect(-5.5 * u, -33 * u, 12 * u, 1.4 * u); }
-  else if (cab === 'capucha') { X.fillStyle = c.capa; X.beginPath(); X.arc(.2 * u, -30 * u, 5.4 * u, Math.PI * .9, Math.PI * 2.15); X.lineTo(-5 * u, -25 * u); X.fill(); if (c.n === 'Pícaro') { X.fillStyle = '#111'; X.fillRect(.5 * u, -28.5 * u, 4.5 * u, 2.6 * u); } }
-  else if (cab === 'yelmo') { X.fillStyle = '#e0c25a'; X.beginPath(); X.arc(.5 * u, -30.5 * u, 5 * u, Math.PI, 0); X.fill(); X.fillRect(-4.5 * u, -31 * u, 2 * u, 5 * u); }
-  else if (cab === 'cuernos') { X.fillStyle = c.n === 'Brujo' ? c.capa : '#7d7d7d'; X.beginPath(); X.arc(.5 * u, -30.5 * u, 4.9 * u, Math.PI, 0); X.fill();
-    X.fillStyle = '#e8dcc0'; X.beginPath(); X.moveTo(-3.5 * u, -33 * u); X.quadraticCurveTo(-7 * u, -36 * u, -6 * u, -40 * u); X.lineTo(-2 * u, -34.5 * u); X.fill();
-    X.beginPath(); X.moveTo(4.5 * u, -33 * u); X.quadraticCurveTo(8 * u, -36 * u, 7 * u, -40 * u); X.lineTo(3 * u, -34.5 * u); X.fill(); }
-  else if (cab === 'hojas') { X.fillStyle = '#4f8a2e'; for (let i = -2; i <= 2; i++) { X.beginPath(); X.ellipse(.5 * u + i * 2.2 * u, -34 * u, 1.3 * u, 2.6 * u, i * .35, 0, 7); X.fill(); } }
-  // brazo delantero con el arma (gira al atacar)
-  let ang = .25 + paso * .2;
-  if (atacando) ang = c.rango ? -1.1 + Math.sin(ka * Math.PI) * .2 : -1.8 + ka * 3.2;
-  X.save(); X.translate(1.5 * u, -22.5 * u); X.rotate(ang);
-  X.strokeStyle = flash ? '#fff' : c.arm; X.lineWidth = 2.6 * u; X.lineCap = 'round'; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, 7 * u); X.stroke();
-  X.fillStyle = f.piel; X.beginPath(); X.arc(0, 7.5 * u, 1.4 * u, 0, 7); X.fill();
-  X.translate(0, 7.5 * u); X.rotate(Math.PI / 2 - (c.arma === 'arco' ? Math.PI / 2 : 0)); arma(c, u, t, atacando, ka);
+  // sombra y aro con el color del tier
+  X.fillStyle = '#0009'; X.beginPath(); X.ellipse(0, 0, Math.max(ancho * .4, 5 * u), 2.4 * u, 0, 0, 7); X.fill();
+  X.strokeStyle = f.gana ? '#ffd36b' : f.aro; X.globalAlpha = muerto ? .25 : .9; X.lineWidth = Math.max(1.2, u * .8);
+  X.beginPath(); X.ellipse(0, 0, Math.max(ancho * .46, 6 * u), 2.8 * u, 0, 0, 7); X.stroke(); X.globalAlpha = 1;
+  if (f.enrage || f.gana) {   // aura: roja en cólera, dorada al ganar
+    const col = f.enrage ? '255,59,42' : '255,211,107', late = 1 + Math.sin(t / (f.enrage ? 90 : 200)) * .12;
+    const g = X.createRadialGradient(0, -alto * .5, 2, 0, -alto * .5, alto * .75 * late); g.addColorStop(0, `rgba(${col},.55)`); g.addColorStop(1, `rgba(${col},0)`);
+    X.fillStyle = g; X.beginPath(); X.arc(0, -alto * .5, alto * .75 * late, 0, 7); X.fill();
+  }
+  if (muerto) { X.globalAlpha = t - f.muerte > 1400 ? .22 : 1 - km * .5; X.rotate(-f.dir * km * Math.PI / 2); }
+  if (sigilo) X.globalAlpha *= .45;
+  const emb = ka ? Math.sin(ka * Math.PI) : 0;   // embestida al atacar
+  X.translate(f.dir * emb * (f.rango ? 2 : 7) * u, -bote - (victoria ? Math.abs(Math.sin(t / 220)) * 7 * u : 0));
+  X.rotate(f.dir * (emb * (f.rango ? -.05 : .2) + (f.andando ? Math.sin(fase) * .05 : 0)));
+  X.scale(f.dir, respira);
+  if (f.enrage) X.filter = 'sepia(1) saturate(6) hue-rotate(-45deg) brightness(1.1)'; else if (flash) X.filter = 'brightness(2.6)';
+  if (im) X.drawImage(im, -ancho / 2, -alto, ancho, alto);
+  else { X.fillStyle = f.col; X.beginPath(); X.ellipse(0, -alto * .5, ancho * .5, alto * .5, 0, 0, 7); X.fill(); }
+  X.filter = 'none';
+  if (emb && f.rango) {   // hechizo o disparo saliendo de la mano
+    X.shadowColor = f.c.fx; X.shadowBlur = 16 * u; X.fillStyle = f.c.fx; X.beginPath(); X.arc(ancho * .45, -alto * .58, (2 + emb * 2.5) * u, 0, 7); X.fill(); X.shadowBlur = 0;
+  } else if (ka && !f.rango) {   // tajo o zarpazo
+    X.strokeStyle = `rgba(255,255,255,${.8 * (1 - ka)})`; X.lineWidth = 2 * u; X.beginPath(); X.arc(ancho * .2, -alto * .55, alto * .45, -1.5 + ka * .5, .4 + ka * .8); X.stroke();
+  }
   X.restore();
-  if (c.arma === 'dagas') { X.save(); X.translate(-2 * u, -22 * u); X.rotate(atacando ? 1.6 - ka * 3 : .4 - paso * .2); X.strokeStyle = c.arm; X.lineWidth = 2.4 * u; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, 6.5 * u); X.stroke(); X.translate(0, 7 * u); X.rotate(Math.PI / 2); arma(c, u, t, atacando, ka); X.restore(); }
-  // tajo cuerpo a cuerpo
-  if (atacando && !c.rango) { X.strokeStyle = `rgba(255,255,255,${.7 * (1 - ka)})`; X.lineWidth = 2 * u; X.beginPath(); X.arc(4 * u, -20 * u, 13 * u, -1.6 + ka * .5, .3 + ka * .9); X.stroke(); }
-  X.restore();
-  // nombre
-  if ((E.nombres && !muerto) || f.gana) { X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center'; X.lineWidth = 3; X.strokeStyle = '#000';
-    const y = f.y - 46 * u - bote - 4; X.fillStyle = f.gana ? '#ffd36b' : c.col; X.strokeText(f.p.nombre.slice(0, 16), f.x, y); X.fillText(f.p.nombre.slice(0, 16), f.x, y); }
+  f.altoPx = alto;
+  if ((E.nombres && !muerto) || f.gana) {
+    X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center'; X.lineWidth = 3; X.strokeStyle = '#000';
+    const y = f.y - alto - bote - 6; X.fillStyle = f.gana ? '#ffd36b' : f.c.col; X.strokeText(f.p.nombre.slice(0, 16), f.x, y); X.fillText(f.p.nombre.slice(0, 16), f.x, y);
+  }
 }
 const dibujaFicha = personaje;
 function dibujaEfectos(t) {
@@ -779,8 +779,8 @@ async function tiradaBatalla() {
     // la banda ataca
     const vivos = E.fichas.filter(f => f.vivo);
     for (let i = 0; i < Math.min(18, vivos.length); i++) { const f = vivos[Math.floor(azar(vivos.length))];
-      setTimeout(() => { f.atk = ahora(); if (f.c.rango) proyectil(f.x + f.dir * f.r * .3, f.y - f.r * 3.4, j.x + entre(-40, 40), j.y + entre(-30, 30), f.c.fx, 450, Math.max(2.5, f.r / 4)); }, i * 40); }
-    vivos.forEach(f => { if (!f.c.rango && azar(1) < .5) setTimeout(() => f.atk = ahora(), azar(400)); });   // los de cuerpo a cuerpo también pegan
+      setTimeout(() => { f.atk = ahora(); if (f.rango) proyectil(f.x + f.dir * f.r * .3, f.y - f.r * 3.4, j.x + entre(-40, 40), j.y + entre(-30, 30), f.c.fx, 450, Math.max(2.5, f.r / 4)); }, i * 40); }
+    vivos.forEach(f => { if (!f.rango && azar(1) < .5) setTimeout(() => f.atk = ahora(), azar(400)); });   // los de cuerpo a cuerpo también pegan
     await pausa(500);
     j.golpe = ahora(); j.vida = Math.max(.06, 1 - (s + 1) / pasos * .9);
     texto(j.x + entre(-60, 60), j.y - 40, '-' + Math.floor(entre(20000, 90000)).toLocaleString('es-ES'), '#ffe27a', 900, 22);
@@ -806,7 +806,7 @@ async function tiradaBatalla() {
   for (let i = 1; i <= 20; i++) { fg.r = r0 + (r1 - r0) * i / 20; await pausa(45); }
   await pausa(900);
   fg.prisa = 5; fg.tx = j.x - fg.r * 2.2; fg.ty = j.y + j.r + fg.r * 3.4; await pausa(1000);
-  for (let i = 0; i < 4; i++) { fg.atk = ahora(); if (fg.c.rango) proyectil(fg.x, fg.y - fg.r * 3.4, j.x, j.y, '#ff3b2a', 300, 9); j.golpe = ahora(); estallido(j.x, j.y, '#ff3b2a', 500, 160); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(150000, 400000)).toLocaleString('es-ES'), '#ff5a3a', 1000, 30);
+  for (let i = 0; i < 4; i++) { fg.atk = ahora(); if (fg.rango) proyectil(fg.x, fg.y - fg.r * 3.4, j.x, j.y, '#ff3b2a', 300, 9); j.golpe = ahora(); estallido(j.x, j.y, '#ff3b2a', 500, 160); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(150000, 400000)).toLocaleString('es-ES'), '#ff5a3a', 1000, 30);
     j.vida = Math.max(0, j.vida - .04); if ($('sonido').checked) tono(400 + i * 150, 0, .2, 'square', .07); await pausa(420); }
   j.vida = 0; j.muerto = ahora(); estallido(j.x, j.y, col, 1400, 320); alFeed(`${premio.nombre} derrota a ${J.n}`);
   E.cofre = {x: 720, y: 330, t0: ahora()}; await pausa(700); E.cofre.abierto = ahora();
@@ -829,11 +829,11 @@ async function tiradaGurubashi() {
     const atacantes = E.fichas.filter(f => f.vivo && !caenF.has(f));
     const duelos = caen.map(p => [atacantes[Math.floor(azar(atacantes.length))], ficha(p)]);
     duelos.slice(0, 40).forEach(([a, v]) => { a.quieto = true; a.mira = v; v.quieto = true; v.tx = v.x; v.ty = v.y; v.mira = a;
-      if (a.c.rango) { a.tx = a.x; a.ty = a.y; return; }   // a distancia: dispara desde donde está
+      if (a.rango) { a.tx = a.x; a.ty = a.y; return; }   // a distancia: dispara desde donde está
       a.prisa = 4; const lado = Math.sign(a.x - v.x) || 1; a.tx = v.x + lado * v.r * 1.3; a.ty = v.y; });
     await pausa(750);
     duelos.forEach(([a, v], i) => setTimeout(() => { a.atk = ahora();
-      if (a.c.rango) proyectil(a.x + a.dir * a.r * .3, a.y - a.r * 3.4, v.x, v.y - v.r * 2, a.c.fx, 300, Math.max(2, a.r / 4)); }, Math.min(i, 40) * 20));
+      if (a.rango) proyectil(a.x + a.dir * a.r * .3, a.y - a.r * 3.4, v.x, v.y - v.r * 2, a.c.fx, 300, Math.max(2, a.r / 4)); }, Math.min(i, 40) * 20));
     if ($('sonido').checked) tono(220 + azar(200), 0, .15, 'square', .05);
     await pausa(380);
     duelos.forEach(([a, v]) => { morir(v, a.c.fx); a.prisa = 0; a.quieto = false; a.mira = null; });
