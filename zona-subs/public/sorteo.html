@@ -106,11 +106,12 @@ Los repetidos cuentan una vez (con su tier más alto) y los bots (Nightbot, Stre
 <div class="aviso" id="lectura" style="margin-top:6px"></div>
 <label>Palabra del chat (si pegas un trozo del chat, solo entra quien la escribió; vacío = todos los que hablaron)</label>
 <input type="text" id="palabra" value="!sorteo" style="width:100%;background:#0a0806;color:var(--txt);border:1px solid #4a3a1c;border-radius:8px;padding:8px 10px;font:14px Consolas,monospace">
-<label>Entradas gratis (opcional): quien no es sub pero se apuntó (nombres, lista o trozo del chat). Reciben las papeletas de «Gratis».</label>
+<label>Entradas gratis (opcional): quien no es sub pero se apuntó (nombres, lista o trozo del chat). Tienen las posibilidades de «Gratis».</label>
 <textarea id="gratis" style="min-height:80px" placeholder="nombre1&#10;nombre2"></textarea>
 </section>
 <section class="marco">
-<h2>2 · Papeletas</h2>
+<h2>2 · Posibilidades de ganar</h2>
+<p class="aviso">Cuanto más alto el tier, más posibilidades de ganar. El número es cuántas veces cuenta cada uno: con Tier 1 = 1 y Tier 3 = 6, un Tier 3 tiene 6 veces más posibilidades que un Tier 1. Pon el mismo número en todos para que sea igual para todos.</p>
 <div class="pesos">
 <div><b class="q1">Tier 1 / Prime</b><input type="number" id="p1" min="0" max="100" value="1"></div>
 <div><b class="q2">Tier 2</b><input type="number" id="p2" min="0" max="100" value="2"></div>
@@ -129,6 +130,7 @@ Los repetidos cuentan una vez (con su tier más alto) y los bots (Nightbot, Stre
 </div>
 
 <div class="resumen" id="resumen"></div>
+<p class="aviso" id="probs" style="text-align:center"></p>
 <div class="acciones">
 <button class="btn" id="sortear" disabled>🎲 ¡Sortear!</button>
 <button class="btn gris" id="directo">📺 Modo directo</button>
@@ -255,8 +257,10 @@ function resumen() {
   const b = bombo();
   const cuenta = k => b.filter(p => p.t === k).length;
   const total = b.reduce((s, p) => s + p.papeletas, 0);
-  $('resumen').innerHTML = [['Participantes', b.length, ''], ['Tier 3', cuenta(3), 'q3'], ['Tier 2', cuenta(2), 'q2'], ['Tier 1 / Prime', cuenta(1), 'q1'], ['Papeletas', total, 'ql']]
+  $('resumen').innerHTML = [['Participantes', b.length, ''], ['Tier 3', cuenta(3), 'q3'], ['Tier 2', cuenta(2), 'q2'], ['Tier 1 / Prime', cuenta(1), 'q1'], ['Opciones en juego', total, 'ql']]
     .map(([t, n, c]) => `<div><b class="${c}">${n}</b><small>${t}</small></div>`).join('');
+  const pc = t => total ? (peso(t) / total * 100).toLocaleString('es-ES', {maximumFractionDigits: 2}) + ' %' : '–';
+  $('probs').innerHTML = b.length ? `Ahora mismo, cada persona tiene: <b class="q3">Tier 3 ${pc(3)}</b> · <b class="q2">Tier 2 ${pc(2)}</b> · <b class="q1">Tier 1 / Prime ${pc(1)}</b> · <b class="qg">Gratis ${pc('g')}</b> de ganar.` : '';
   $('sortear').disabled = !b.length || girando;
   $('vacio').style.display = b.length ? 'none' : 'block';
   return b;
@@ -268,8 +272,18 @@ function elegir(b) {
   for (const p of b) { if ((r -= p.papeletas) < 0) return p; }
   return b[b.length - 1];
 }
+// Clase y raza «de rol» para cada participante: al azar, pero siempre la misma para el mismo nombre
+const CL_ICO = [['Guerrero', 'warrior'], ['Paladín', 'paladin'], ['Cazador', 'hunter'], ['Pícaro', 'rogue'], ['Sacerdote', 'priest'], ['Chamán', 'shaman'], ['Mago', 'mage'], ['Brujo', 'warlock'], ['Druida', 'druid']];
+const RA_ICO = [['Humano', 'human'], ['Enano', 'dwarf'], ['Gnomo', 'gnome'], ['Elfo de la noche', 'nightelf'], ['Orco', 'orc'], ['No-muerto', 'scourge'], ['Tauren', 'tauren'], ['Trol', 'troll']];
+function hashN(n) { let h = 0; for (const c of n.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
+function iconos(nombre, tam = 28) { const h = hashN(nombre), c = CL_ICO[h % 9], r = RA_ICO[(h >>> 5) % 8], sx = (h >>> 9) & 1 ? 'female' : 'male', z = 'https://wow.zamimg.com/images/wow/icons/large/';
+  const st = `width:${tam}px;height:${tam}px;border-radius:5px;border:1px solid #c8a24a;vertical-align:middle;margin:0 2px`;
+  return `<img src="${z}race_${r[1]}_${sx}.jpg" alt="${r[0]}" title="${r[0]}" style="${st}"><img src="${z}classicon_${c[1]}.jpg" alt="${c[0]}" title="${c[0]}" style="${st}">`; }
+const claseRaza = nombre => { const h = hashN(nombre); return `${RA_ICO[(h >>> 5) % 8][0]} · ${CL_ICO[h % 9][0]}`; };
+const pctDe = (p, b) => (p.papeletas / b.reduce((s, x) => s + x.papeletas, 0) * 100).toLocaleString('es-ES', {maximumFractionDigits: 2}) + ' %';
+const infoGanador = (p, b) => `${iconos(p.nombre)} ${claseRaza(p.nombre)}<br>${TIER[p.t].n} · tenía un ${pctDe(p, b)} de posibilidades`;
 const esc = s => String(s).replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
-const carta = p => `<div class="carta" style="color:${TIER[p.t].c}"><span>${esc(p.nombre)}</span><small>${TIER[p.t].n} · ${p.papeletas}🎟️</small></div>`;
+const carta = p => `<div class="carta" style="color:${TIER[p.t].c}"><span>${esc(p.nombre)}</span><small>${TIER[p.t].n}</small></div>`;
 
 // --- Sonido de botín (sin archivos: se genera con el navegador) ---
 let ctx;
@@ -325,9 +339,9 @@ async function tirada() {
   await new Promise(r => setTimeout(r, dur + 200));
   cinta.children[50].style.boxShadow = '0 0 30px var(--leg), inset 0 0 18px #0008'; cinta.children[50].style.color = 'var(--leg)';
   fanfarria(); monedas();
-  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas, pct: pctDe(premio, b)});
   $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_10_red.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">¡BOTÍN LEGENDARIO!</p>
-    <div class="nombre">${esc(premio.nombre)}</div><p>${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${b.reduce((s, p) => s + p.papeletas, 0)}</p>`;
+    <div class="nombre">${esc(premio.nombre)}</div><p>${infoGanador(premio, b)}</p>`;
   $('ganador').classList.add('ver');
   pintaHistorial(); girando = false; resumen();
 }
@@ -336,7 +350,7 @@ async function sortear() {
   for (let i = 0; i < n; i++) { if (!bombo().length) break; await tirada(); if (i < n - 1) await new Promise(r => setTimeout(r, 2500)); }
 }
 function pintaHistorial() {
-  $('historial').innerHTML = ganadores.length ? ganadores.map((g, i) => `<li><span>${i + 1}. <b class="ql">${esc(g.nombre)}</b></span><span style="color:${TIER[g.t].c}">${TIER[g.t].n} · ${g.papeletas}🎟️</span></li>`).join('')
+  $('historial').innerHTML = ganadores.length ? ganadores.map((g, i) => `<li><span>${i + 1}. <b class="ql">${esc(g.nombre)}</b></span><span style="color:${TIER[g.t].c}">${iconos(g.nombre, 18)} ${TIER[g.t].n} · ${g.pct || ''}</span></li>`).join('')
     : '<li style="color:var(--mut)">Todavía no hay ganadores.</li>';
 }
 ['lista', 'gratis', 'p1', 'p2', 'p3', 'pg', 'quitar'].forEach(id => $(id).addEventListener('input', resumen));
@@ -424,10 +438,10 @@ async function tiradaJefe() {
   $('jefeVida').style.width = '0%'; $('jefePct').textContent = '0 %'; document.querySelector('.jefe').classList.add('muerto');
   log(`<span class="g">${esc(premio.nombre)} derrota a ${J.n}.</span>`);
   fanfarria(); monedas();
-  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas, pct: pctDe(premio, b)});
   const total = b.reduce((s2, p) => s2 + p.papeletas, 0);
   $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/${J.i}.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">¡${J.n.toUpperCase()} HA CAÍDO!</p>
-    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${total}</p>`;
+    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${infoGanador(premio, b)}</p>`;
   $('ganador').classList.add('ver'); $('ganador').scrollIntoView({block: 'center', behavior: 'smooth'});
   pintaHistorial(); girando = false; resumen();
 }
@@ -449,7 +463,20 @@ vistaModo();
 // ---- Batalla animada (canvas): «Jefe PvE» y «Arena Gurubashi». El ganador se elige ANTES, por papeletas (igual que en los otros modos);
 //      la animación solo enseña cómo cae el resto. Orden de caída también por papeletas: quien tiene más, aguanta más de media. ----
 const L = $('lienzo'), X = L.getContext('2d'), W = 1280, H = 720;
-const CLASES = [['Guerrero', '#C69B6D'], ['Paladín', '#F48CBA'], ['Cazador', '#AAD372'], ['Pícaro', '#FFF468'], ['Sacerdote', '#FFFFFF'], ['Chamán', '#0070DD'], ['Mago', '#3FC7EB'], ['Brujo', '#8788EE'], ['Druida', '#FF7C0A']];
+// Clases: color oficial, armadura, arma, escudo, gorro/casco, a distancia o cuerpo a cuerpo, color del ataque y nombres de golpes
+const CLASES = [
+  {n: 'Guerrero', col: '#C69B6D', arm: '#6d6a6a', arma: 'espada', escudo: '#7a2a1a', cabeza: 'cuernos', rango: 0, fx: '#ffffff', golpes: ['Golpe mortal', 'Ejecutar', 'Torbellino']},
+  {n: 'Paladín', col: '#F48CBA', arm: '#c9a53c', arma: 'maza', escudo: '#d8b84a', cabeza: 'yelmo', rango: 0, fx: '#ffe27a', golpes: ['Martillo de cólera', 'Sentencia', 'Cruzado']},
+  {n: 'Cazador', col: '#AAD372', arm: '#5a6b2e', arma: 'arco', cabeza: 'capucha', capa: '#3d4f22', rango: 1, fx: '#e8d9a0', golpes: ['Disparo apuntado', 'Disparo arcano', 'Multidisparo']},
+  {n: 'Pícaro', col: '#FFF468', arm: '#2b2b2b', arma: 'dagas', cabeza: 'capucha', capa: '#1a1a1a', rango: 0, fx: '#cfe86a', golpes: ['Eviscerar', 'Puñalada', 'Golpe siniestro']},
+  {n: 'Sacerdote', col: '#FFFFFF', arm: '#e8e4d8', arma: 'baston', orbe: '#fff6b0', cabeza: 'capucha', capa: '#d8d2c0', rango: 1, fx: '#fff3a0', golpes: ['Castigo', 'Palabra de las Sombras: dolor', 'Fuego Santo']},
+  {n: 'Chamán', col: '#0070DD', arm: '#3c5d8a', arma: 'maza', escudo: '#5b4630', cabeza: 'cuernos', rango: 1, fx: '#7fd4ff', golpes: ['Descarga de relámpagos', 'Choque de tierra', 'Cadena de relámpagos']},
+  {n: 'Mago', col: '#3FC7EB', arm: '#2e5f9e', arma: 'baston', orbe: '#7fe3ff', cabeza: 'sombrero', capa: '#24487a', rango: 1, fx: '#9fe8ff', golpes: ['Bola de Fuego', 'Descarga de Escarcha', 'Proyectiles Arcanos']},
+  {n: 'Brujo', col: '#8788EE', arm: '#4a2a6e', arma: 'baston', orbe: '#6dff5a', cabeza: 'cuernos', capa: '#2e1a48', rango: 1, fx: '#7dff5a', golpes: ['Descarga de las Sombras', 'Corrupción', 'Fuego de alma']},
+  {n: 'Druida', col: '#FF7C0A', arm: '#6b4a24', arma: 'baston', orbe: '#c38cff', cabeza: 'hojas', capa: '#4a3418', rango: 1, fx: '#d9a0ff', golpes: ['Fuego estelar', 'Fuego lunar', 'Cólera']}
+];
+const RAZAS = [{n: 'Humano', piel: '#f1c9a5', i: 'human'}, {n: 'Enano', piel: '#d9a77e', i: 'dwarf'}, {n: 'Gnomo', piel: '#f0c8a0', i: 'gnome'}, {n: 'Elfo de la noche', piel: '#9b8fd1', i: 'nightelf'},
+  {n: 'Orco', piel: '#6fae5a', i: 'orc'}, {n: 'No-muerto', piel: '#b9c6c9', i: 'scourge'}, {n: 'Tauren', piel: '#8d5a3b', i: 'tauren'}, {n: 'Trol', piel: '#7aa0b8', i: 'troll'}];
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const colorTier = t => css(t === 'g' ? '--gratis' : '--t' + t) || '#bbb';
 const FONDO_JEFE = {onyxia: ['#2a0d05', '#ff6a2a'], ragnaros: ['#2b0600', '#ff3b00'], hogger: ['#0f1a0a', '#7fa64a']};
@@ -461,14 +488,18 @@ function icono(n) {
 let E = null;   // la escena que se dibuja
 const ahora = () => performance.now();
 const entre = (a, b) => a + azar(b - a);
-function hashClase(nombre) { let h = 0; for (const c of nombre.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0; return CLASES[h % CLASES.length]; }
+function hashNombre(nombre) { let h = 0; for (const c of nombre.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
+const hashClase = nombre => CLASES[hashNombre(nombre) % CLASES.length];
+const fondos = {};
+function fondoImg(k) { if (!fondos[k]) { const im = new Image(); im.src = `/assets/escenas/${k}.jpg`; fondos[k] = im; } const im = fondos[k]; return im.complete && im.naturalWidth ? im : null; }
 
 function montar(tipo, b) {
   const n = b.length, J = JEFES[$('jefe').value];
   const r = Math.max(5, Math.min(26, Math.sqrt((tipo === 'jefe' ? 1280 * 300 : 1280 * 520) / Math.max(1, n)) * .32));
   const fichas = b.map((p, k) => {
-    const [clase, col] = hashClase(p.nombre);
-    return {p, clase, col, aro: colorTier(p.t), r, vivo: true, muerte: 0, flash: 0, x: 0, y: 0, tx: 0, ty: 0, vel: entre(.6, 1.4), k};
+    const c = hashClase(p.nombre), h = hashNombre(p.nombre);
+    return {p, c, col: c.col, raza: RAZAS[(h >>> 5) % RAZAS.length], piel: RAZAS[(h >>> 5) % RAZAS.length].piel, aro: colorTier(p.t), r, vivo: true, muerte: 0, flash: 0, atk: 0, dir: (h & 1) ? 1 : -1, fase: azar(6),
+      x: 0, y: 0, tx: 0, ty: 0, vel: entre(.6, 1.4), k};
   });
   if (tipo === 'jefe') {   // la banda, en filas bajo el jefe
     const cols = Math.max(1, Math.min(n, Math.floor(1180 / (r * 2.6)))), filas = Math.ceil(n / cols), alto = Math.min(r * 2.9 * (n <= 40 ? 1.35 : 1), 300 / Math.max(1, filas - 1 || 1));
@@ -495,6 +526,9 @@ function fondo() {
   if (!E || E.tipo === 'jefe') {
     const [a, b] = FONDO_JEFE[$('jefe').value] || FONDO_JEFE.onyxia;
     const g = X.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#050307'); g.addColorStop(.55, a); g.addColorStop(1, '#000'); X.fillStyle = g; X.fillRect(0, 0, W, H);
+    const im = fondoImg($('jefe').value);   // arte oficial de Blizzard, oscurecido abajo para que se lea la banda
+    if (im) { const z = 1.04 + Math.sin(ahora() / 4000) * .02; X.drawImage(im, (W - W * z) / 2, (H - H * z) / 2, W * z, H * z);
+      const v = X.createLinearGradient(0, 0, 0, H); v.addColorStop(0, '#000a'); v.addColorStop(.3, '#0005'); v.addColorStop(.55, '#000a'); v.addColorStop(1, '#000e'); X.fillStyle = v; X.fillRect(0, 0, W, H); }
     const l = X.createRadialGradient(640, 760, 40, 640, 760, 700); l.addColorStop(0, b + '55'); l.addColorStop(1, '#0000'); X.fillStyle = l; X.fillRect(0, 0, W, H);
     for (let i = 0; i < 26; i++) { const t = ahora() / 1000 + i * 7.3, x = (i * 151 + Math.sin(t * .3) * 40) % W, y = H - ((t * 30 + i * 53) % H);
       X.fillStyle = b + '88'; X.beginPath(); X.arc(x, y, 1.5 + (i % 3), 0, 7); X.fill(); }
@@ -530,21 +564,79 @@ function dibujaJefe() {
   const vg = X.createLinearGradient(bx, 0, bx + bw, 0); vg.addColorStop(0, '#b3121b'); vg.addColorStop(1, '#ff4a3a'); X.fillStyle = vg; X.fillRect(bx, by, bw * j.vida, 22);
   X.fillStyle = '#fff'; X.font = '700 15px Georgia, serif'; X.textAlign = 'center'; X.fillText(`${E.J.n} · ${Math.round(j.vida * 100)} %`, 640, by + 16);
 }
-function dibujaFicha(f, t) {
-  if (!f.vivo && t - f.muerte > 1400) {   // cadáver: calavera pequeña
-    X.globalAlpha = .35; X.fillStyle = '#ddd'; X.font = `${Math.max(8, f.r)}px serif`; X.textAlign = 'center'; X.fillText('☠', f.x, f.y + f.r * .35); X.globalAlpha = 1; return;
-  }
-  const muriendo = !f.vivo ? (t - f.muerte) / 1400 : 0;
-  X.save(); X.translate(f.x, f.y + muriendo * 10); X.globalAlpha = 1 - muriendo * .7;
-  if (f.gana) { X.shadowColor = '#ffd36b'; X.shadowBlur = 30 + Math.sin(t / 150) * 10; }
-  const g = X.createRadialGradient(-f.r / 3, -f.r / 3, 1, 0, 0, f.r); g.addColorStop(0, f.col); g.addColorStop(1, '#111');
-  X.fillStyle = t - f.flash < 200 ? '#fff' : g; X.beginPath(); X.arc(0, 0, f.r, 0, 7); X.fill(); X.shadowBlur = 0;
-  X.lineWidth = Math.max(1.5, f.r / 6); X.strokeStyle = f.gana ? '#ffd36b' : f.aro; X.stroke();
-  if (f.r >= 13) { X.fillStyle = '#000c'; X.font = `700 ${Math.round(f.r * .9)}px Georgia, serif`; X.textAlign = 'center'; X.fillText(f.p.nombre[0].toUpperCase(), 0, f.r * .33); }
-  if (E.nombres || f.gana) { X.fillStyle = f.gana ? '#ffd36b' : '#f3ead6'; X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center';
-    X.lineWidth = 3; X.strokeStyle = '#000'; X.strokeText(f.p.nombre.slice(0, 16), 0, f.r + 14); X.fillText(f.p.nombre.slice(0, 16), 0, f.r + 14); }
-  X.restore();
+// --- Personaje dibujado: pies en (0,0), mira a la derecha (dir 1) o a la izquierda (-1). u = tamaño de unidad ---
+function rr(x, y, w, h, r) { X.beginPath(); X.roundRect ? X.roundRect(x, y, w, h, r) : X.rect(x, y, w, h); }
+function arma(c, u, t, atacando, k) {
+  X.lineCap = 'round';
+  if (c.arma === 'espada') { X.strokeStyle = '#5a3a1a'; X.lineWidth = 2 * u; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, -3 * u); X.stroke();
+    X.strokeStyle = '#d9d9d9'; X.lineWidth = 2.2 * u; X.beginPath(); X.moveTo(0, -3 * u); X.lineTo(0, -16 * u); X.stroke();
+    X.strokeStyle = '#c9a53c'; X.lineWidth = 1.5 * u; X.beginPath(); X.moveTo(-3 * u, -3 * u); X.lineTo(3 * u, -3 * u); X.stroke(); }
+  else if (c.arma === 'maza') { X.strokeStyle = '#6b4a24'; X.lineWidth = 1.8 * u; X.beginPath(); X.moveTo(0, 1 * u); X.lineTo(0, -11 * u); X.stroke();
+    X.fillStyle = c.n === 'Paladín' ? '#e8c75a' : '#9aa3ad'; X.beginPath(); X.arc(0, -12.5 * u, 3.2 * u, 0, 7); X.fill(); }
+  else if (c.arma === 'dagas') { X.strokeStyle = '#cfd6dc'; X.lineWidth = 1.6 * u; X.beginPath(); X.moveTo(0, -1 * u); X.lineTo(0, -8 * u); X.stroke(); }
+  else if (c.arma === 'arco') { X.strokeStyle = '#7a5428'; X.lineWidth = 1.6 * u; X.beginPath(); X.arc(1 * u, -4 * u, 9 * u, -1.3, 1.3); X.stroke();
+    const tir = atacando ? Math.sin(Math.min(1, k * 2) * Math.PI) * 4 * u : 0;
+    X.strokeStyle = '#e8e0c8'; X.lineWidth = .6 * u; X.beginPath(); X.moveTo(1 * u + Math.cos(-1.3) * 9 * u, -4 * u + Math.sin(-1.3) * 9 * u); X.lineTo(-tir, -4 * u); X.lineTo(1 * u + Math.cos(1.3) * 9 * u, -4 * u + Math.sin(1.3) * 9 * u); X.stroke(); }
+  else { X.strokeStyle = c.n === 'Druida' ? '#7a5a2a' : '#4a3424'; X.lineWidth = 1.6 * u; X.beginPath(); X.moveTo(0, 6 * u); X.lineTo(0, -15 * u); X.stroke();   // bastón con orbe
+    X.fillStyle = c.orbe; X.shadowColor = c.orbe; X.shadowBlur = (atacando ? 18 : 8) * Math.min(1, u); X.beginPath(); X.arc(0, -16.5 * u, (atacando ? 3.2 : 2.3) * u, 0, 7); X.fill(); X.shadowBlur = 0; }
 }
+function personaje(f, t) {
+  const c = f.c, u = f.r / 10, muerto = !f.vivo, km = muerto ? Math.min(1, (t - f.muerte) / 350) : 0;
+  const ka = t - f.atk < 420 ? (t - f.atk) / 420 : 0, atacando = ka > 0;
+  const paso = f.andando ? Math.sin(t / 90 + f.fase) : 0, bote = f.andando ? Math.abs(Math.cos(t / 90 + f.fase)) * 1.4 * u : Math.sin(t / 500 + f.fase) * .5 * u;
+  X.save(); X.translate(f.x, f.y);
+  X.fillStyle = '#0007'; X.beginPath(); X.ellipse(0, 0, 7 * u, 2.2 * u, 0, 0, 7); X.fill();   // sombra
+  X.strokeStyle = f.gana ? '#ffd36b' : f.aro; X.globalAlpha = muerto ? .25 : .9; X.lineWidth = Math.max(1, u * .9); X.beginPath(); X.ellipse(0, 0, 7.5 * u, 2.6 * u, 0, 0, 7); X.stroke(); X.globalAlpha = 1;   // aro del tier
+  if (muerto) { X.globalAlpha = t - f.muerte > 1400 ? .38 : 1 - km * .3; X.rotate(-f.dir * km * Math.PI / 2); }
+  if (f.enrage) {   // cólera: aura roja que late y el personaje teñido de rojo
+    const late = 1 + Math.sin(t / 90) * .15;
+    const g = X.createRadialGradient(0, -18 * u, 2 * u, 0, -18 * u, 26 * u * late); g.addColorStop(0, '#ff3b2a88'); g.addColorStop(1, '#ff3b2a00');
+    X.fillStyle = g; X.beginPath(); X.arc(0, -18 * u, 26 * u * late, 0, 7); X.fill();
+    X.filter = 'sepia(1) saturate(7) hue-rotate(-45deg) brightness(1.05)'; X.shadowColor = '#ff2a1a'; X.shadowBlur = 30 * late;
+  } else if (f.gana) { X.shadowColor = '#ffd36b'; X.shadowBlur = 24 + Math.sin(t / 150) * 8; }
+  X.scale(f.dir, 1); X.translate(0, -bote);
+  const flash = t - f.flash < 160;
+  // piernas
+  X.strokeStyle = flash ? '#fff' : '#2a2018'; X.lineWidth = 3 * u; X.lineCap = 'round';
+  X.beginPath(); X.moveTo(-1.8 * u, -11 * u); X.lineTo(-1.8 * u + paso * 3 * u, -1 * u); X.stroke();
+  X.beginPath(); X.moveTo(1.8 * u, -11 * u); X.lineTo(1.8 * u - paso * 3 * u, -1 * u); X.stroke();
+  // capa
+  if (c.capa) { X.fillStyle = flash ? '#fff' : c.capa; X.beginPath(); X.moveTo(-4 * u, -24 * u); X.quadraticCurveTo(-8 * u - paso * u, -12 * u, -6 * u, -6 * u); X.lineTo(2 * u, -8 * u); X.lineTo(2 * u, -24 * u); X.fill(); }
+  // escudo a la espalda del brazo de atrás
+  if (c.escudo) { X.fillStyle = flash ? '#fff' : c.escudo; X.strokeStyle = '#c9a53c'; X.lineWidth = .8 * u; X.beginPath(); X.moveTo(-6.5 * u, -21 * u); X.lineTo(-1 * u, -21 * u); X.lineTo(-1.5 * u, -14 * u); X.quadraticCurveTo(-3.8 * u, -10 * u, -3.8 * u, -10 * u); X.quadraticCurveTo(-6 * u, -13 * u, -6.5 * u, -21 * u); X.fill(); X.stroke(); }
+  // cuerpo
+  rr(-4.5 * u, -25 * u, 9 * u, 15 * u, 2.5 * u); X.fillStyle = flash ? '#fff' : c.arm; X.fill();
+  X.fillStyle = c.col; X.fillRect(-4.5 * u, -14 * u, 9 * u, 1.6 * u);   // cinturón con el color de la clase
+  if (f.c.arma === 'baston' || f.c.n === 'Sacerdote') { X.fillStyle = flash ? '#fff' : c.arm; X.beginPath(); X.moveTo(-4.5 * u, -13 * u); X.lineTo(4.5 * u, -13 * u); X.lineTo(5.5 * u, -6 * u); X.lineTo(-5.5 * u, -6 * u); X.fill(); }   // túnica
+  X.shadowBlur = 0;
+  // cabeza
+  X.fillStyle = flash ? '#fff' : f.piel; X.beginPath(); X.arc(.5 * u, -29.5 * u, 4.6 * u, 0, 7); X.fill();
+  X.fillStyle = '#111'; X.fillRect(2.4 * u, -30.5 * u, 1.1 * u, 1.3 * u);   // ojo
+  const cab = c.cabeza;
+  if (cab === 'sombrero') { X.fillStyle = c.capa; X.beginPath(); X.moveTo(-5.5 * u, -32 * u); X.lineTo(6.5 * u, -32 * u); X.lineTo(-1 * u, -44 * u); X.fill(); X.fillStyle = c.col; X.fillRect(-5.5 * u, -33 * u, 12 * u, 1.4 * u); }
+  else if (cab === 'capucha') { X.fillStyle = c.capa; X.beginPath(); X.arc(.2 * u, -30 * u, 5.4 * u, Math.PI * .9, Math.PI * 2.15); X.lineTo(-5 * u, -25 * u); X.fill(); if (c.n === 'Pícaro') { X.fillStyle = '#111'; X.fillRect(.5 * u, -28.5 * u, 4.5 * u, 2.6 * u); } }
+  else if (cab === 'yelmo') { X.fillStyle = '#e0c25a'; X.beginPath(); X.arc(.5 * u, -30.5 * u, 5 * u, Math.PI, 0); X.fill(); X.fillRect(-4.5 * u, -31 * u, 2 * u, 5 * u); }
+  else if (cab === 'cuernos') { X.fillStyle = c.n === 'Brujo' ? c.capa : '#7d7d7d'; X.beginPath(); X.arc(.5 * u, -30.5 * u, 4.9 * u, Math.PI, 0); X.fill();
+    X.fillStyle = '#e8dcc0'; X.beginPath(); X.moveTo(-3.5 * u, -33 * u); X.quadraticCurveTo(-7 * u, -36 * u, -6 * u, -40 * u); X.lineTo(-2 * u, -34.5 * u); X.fill();
+    X.beginPath(); X.moveTo(4.5 * u, -33 * u); X.quadraticCurveTo(8 * u, -36 * u, 7 * u, -40 * u); X.lineTo(3 * u, -34.5 * u); X.fill(); }
+  else if (cab === 'hojas') { X.fillStyle = '#4f8a2e'; for (let i = -2; i <= 2; i++) { X.beginPath(); X.ellipse(.5 * u + i * 2.2 * u, -34 * u, 1.3 * u, 2.6 * u, i * .35, 0, 7); X.fill(); } }
+  // brazo delantero con el arma (gira al atacar)
+  let ang = .25 + paso * .2;
+  if (atacando) ang = c.rango ? -1.1 + Math.sin(ka * Math.PI) * .2 : -1.8 + ka * 3.2;
+  X.save(); X.translate(1.5 * u, -22.5 * u); X.rotate(ang);
+  X.strokeStyle = flash ? '#fff' : c.arm; X.lineWidth = 2.6 * u; X.lineCap = 'round'; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, 7 * u); X.stroke();
+  X.fillStyle = f.piel; X.beginPath(); X.arc(0, 7.5 * u, 1.4 * u, 0, 7); X.fill();
+  X.translate(0, 7.5 * u); X.rotate(Math.PI / 2 - (c.arma === 'arco' ? Math.PI / 2 : 0)); arma(c, u, t, atacando, ka);
+  X.restore();
+  if (c.arma === 'dagas') { X.save(); X.translate(-2 * u, -22 * u); X.rotate(atacando ? 1.6 - ka * 3 : .4 - paso * .2); X.strokeStyle = c.arm; X.lineWidth = 2.4 * u; X.beginPath(); X.moveTo(0, 0); X.lineTo(0, 6.5 * u); X.stroke(); X.translate(0, 7 * u); X.rotate(Math.PI / 2); arma(c, u, t, atacando, ka); X.restore(); }
+  // tajo cuerpo a cuerpo
+  if (atacando && !c.rango) { X.strokeStyle = `rgba(255,255,255,${.7 * (1 - ka)})`; X.lineWidth = 2 * u; X.beginPath(); X.arc(4 * u, -20 * u, 13 * u, -1.6 + ka * .5, .3 + ka * .9); X.stroke(); }
+  X.restore();
+  // nombre
+  if ((E.nombres && !muerto) || f.gana) { X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center'; X.lineWidth = 3; X.strokeStyle = '#000';
+    const y = f.y - 46 * u - bote - 4; X.fillStyle = f.gana ? '#ffd36b' : c.col; X.strokeText(f.p.nombre.slice(0, 16), f.x, y); X.fillText(f.p.nombre.slice(0, 16), f.x, y); }
+}
+const dibujaFicha = personaje;
 function dibujaEfectos(t) {
   E.efectos = E.efectos.filter(e => t - e.t0 < e.dur);
   for (const e of E.efectos) {
@@ -596,6 +688,10 @@ function mover() {
     if (E.tipo === 'gurubashi' && !f.quieto && Math.hypot(f.tx - f.x, f.ty - f.y) < 4) { const p = puntoArena(); f.tx = p[0]; f.ty = p[1]; }
     const dx = f.tx - f.x, dy = f.ty - f.y, d = Math.hypot(dx, dy), v = (f.prisa || (E.tipo === 'gurubashi' ? 1.1 : 3)) * f.vel;
     if (d > v) { f.x += dx / d * v; f.y += dy / d * v; } else { f.x = f.tx; f.y = f.ty; }
+    f.andando = d > 1;
+    if (f.mira) f.dir = Math.sign(f.mira.x - f.x) || f.dir;          // mirando a su objetivo
+    else if (f.andando && Math.abs(dx) > .5) f.dir = Math.sign(dx);
+    else if (E.tipo === 'jefe') f.dir = Math.sign(E.jefe.x - f.x) || 1;
   }
 }
 function cuadro() {
@@ -607,7 +703,7 @@ function cuadro() {
       if (E.tipo === 'jefe') dibujaJefe();
       dibujaCofre(t);
       E.fichas.filter(f => !f.vivo).forEach(f => dibujaFicha(f, t));
-      E.fichas.filter(f => f.vivo && !f.gana).forEach(f => dibujaFicha(f, t));
+      E.fichas.filter(f => f.vivo && !f.gana).sort((a, b) => a.y - b.y).forEach(f => dibujaFicha(f, t));   // los de delante, encima
       E.fichas.filter(f => f.gana).forEach(f => dibujaFicha(f, t));
       dibujaEfectos(t); dibujaTextos(t);
       if (E.reposo) { X.fillStyle = '#000a'; X.fillRect(390, 300, 500, 70); X.fillStyle = '#ffd36b'; X.font = '700 26px Cinzel, Georgia, serif'; X.textAlign = 'center';
@@ -661,10 +757,10 @@ function empieza() {
 function morir(f, col) { f.vivo = false; f.muerte = ahora(); f.flash = ahora(); estallido(f.x, f.y, col, 600, f.r * 3); }
 async function remate(b, premio, titulo, icono) {
   fanfarria(); monedas();
-  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas, pct: pctDe(premio, b)});
   const total = b.reduce((s, p) => s + p.papeletas, 0);
   $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/${icono}.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">${titulo}</p>
-    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${total}</p>`;
+    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${infoGanador(premio, b)}</p>`;
   $('ganador').classList.add('ver');
   await pausa(3500); await grabarAcaba(premio.nombre);
   pintaHistorial(); girando = false; resumen();
@@ -683,7 +779,8 @@ async function tiradaBatalla() {
     // la banda ataca
     const vivos = E.fichas.filter(f => f.vivo);
     for (let i = 0; i < Math.min(18, vivos.length); i++) { const f = vivos[Math.floor(azar(vivos.length))];
-      setTimeout(() => { proyectil(f.x, f.y - f.r, j.x + entre(-40, 40), j.y + entre(-30, 30), f.col, 450, 3); }, i * 40); }
+      setTimeout(() => { f.atk = ahora(); if (f.c.rango) proyectil(f.x + f.dir * f.r * .3, f.y - f.r * 3.4, j.x + entre(-40, 40), j.y + entre(-30, 30), f.c.fx, 450, Math.max(2.5, f.r / 4)); }, i * 40); }
+    vivos.forEach(f => { if (!f.c.rango && azar(1) < .5) setTimeout(() => f.atk = ahora(), azar(400)); });   // los de cuerpo a cuerpo también pegan
     await pausa(500);
     j.golpe = ahora(); j.vida = Math.max(.06, 1 - (s + 1) / pasos * .9);
     texto(j.x + entre(-60, 60), j.y - 40, '-' + Math.floor(entre(20000, 90000)).toLocaleString('es-ES'), '#ffe27a', 900, 22);
@@ -701,13 +798,19 @@ async function tiradaBatalla() {
   }
   // el último en pie
   const fg = ficha(premio); fg.gana = true;
-  banner(`¡${premio.nombre} sigue en pie!`, 'Solo queda un héroe…'); await pausa(2000);
-  fg.prisa = 6; fg.tx = j.x; fg.ty = j.y + j.r + fg.r + 8; await pausa(900);
-  for (let i = 0; i < 3; i++) { j.golpe = ahora(); estallido(j.x, j.y, '#ffd36b', 500, 140); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(90000, 250000)).toLocaleString('es-ES'), '#ffd36b', 1000, 26);
-    if ($('sonido').checked) tono(500 + i * 150, 0, .2, 'square', .06); await pausa(420); }
+  banner(`¡${premio.nombre} sigue en pie!`, 'Solo queda un héroe…'); await pausa(1800);
+  // ENRAGE: se pone rojo y crece, y luego va a por el jefe
+  const r0 = Math.max(fg.r, 14), r1 = r0 * 2.3; fg.enrage = ahora(); fg.mira = j;
+  banner('¡ENRAGE!', `${premio.nombre} entra en cólera`, '#ff3b2a'); estallido(fg.x, fg.y - r0 * 2, '#ff3b2a', 900, 160);
+  if ($('sonido').checked) { tono(80, 0, 1.1, 'sawtooth', .12); tono(120, .15, .9, 'square', .06); }
+  for (let i = 1; i <= 20; i++) { fg.r = r0 + (r1 - r0) * i / 20; await pausa(45); }
+  await pausa(900);
+  fg.prisa = 5; fg.tx = j.x - fg.r * 2.2; fg.ty = j.y + j.r + fg.r * 3.4; await pausa(1000);
+  for (let i = 0; i < 4; i++) { fg.atk = ahora(); if (fg.c.rango) proyectil(fg.x, fg.y - fg.r * 3.4, j.x, j.y, '#ff3b2a', 300, 9); j.golpe = ahora(); estallido(j.x, j.y, '#ff3b2a', 500, 160); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(150000, 400000)).toLocaleString('es-ES'), '#ff5a3a', 1000, 30);
+    j.vida = Math.max(0, j.vida - .04); if ($('sonido').checked) tono(400 + i * 150, 0, .2, 'square', .07); await pausa(420); }
   j.vida = 0; j.muerto = ahora(); estallido(j.x, j.y, col, 1400, 320); alFeed(`${premio.nombre} derrota a ${J.n}`);
-  E.cofre = {x: 640, y: 200, t0: ahora()}; await pausa(700); E.cofre.abierto = ahora();
-  fg.tx = 640; fg.ty = 290;
+  E.cofre = {x: 720, y: 330, t0: ahora()}; await pausa(700); E.cofre.abierto = ahora();
+  fg.mira = null; fg.tx = 600; fg.ty = 400;
   E.banner = {txt: `¡${J.n.toUpperCase()} HA CAÍDO!`, sub: `${premio.nombre} se lleva el botín`, col: '#ffd36b', t0: ahora(), fijo: true};
   await remate(b, premio, `¡${J.n.toUpperCase()} HA CAÍDO!`, J.i);
 }
@@ -725,13 +828,16 @@ async function tiradaGurubashi() {
     const n = Math.max(1, Math.ceil(muertes.length / (pasos - s))), caen = muertes.splice(0, n), caenF = new Set(caen.map(ficha));
     const atacantes = E.fichas.filter(f => f.vivo && !caenF.has(f));
     const duelos = caen.map(p => [atacantes[Math.floor(azar(atacantes.length))], ficha(p)]);
-    duelos.slice(0, 40).forEach(([a, v]) => { a.prisa = 4; a.quieto = true; const ang = Math.atan2(a.y - v.y, a.x - v.x); a.tx = v.x + Math.cos(ang) * (v.r * 3); a.ty = v.y + Math.sin(ang) * (v.r * 3); v.quieto = true; v.tx = v.x; v.ty = v.y; });
-    await pausa(700);
-    duelos.forEach(([a, v], i) => setTimeout(() => proyectil(a.x, a.y, v.x, v.y, a.col, 300, Math.max(2, a.r / 4)), Math.min(i, 40) * 20));
+    duelos.slice(0, 40).forEach(([a, v]) => { a.quieto = true; a.mira = v; v.quieto = true; v.tx = v.x; v.ty = v.y; v.mira = a;
+      if (a.c.rango) { a.tx = a.x; a.ty = a.y; return; }   // a distancia: dispara desde donde está
+      a.prisa = 4; const lado = Math.sign(a.x - v.x) || 1; a.tx = v.x + lado * v.r * 1.3; a.ty = v.y; });
+    await pausa(750);
+    duelos.forEach(([a, v], i) => setTimeout(() => { a.atk = ahora();
+      if (a.c.rango) proyectil(a.x + a.dir * a.r * .3, a.y - a.r * 3.4, v.x, v.y - v.r * 2, a.c.fx, 300, Math.max(2, a.r / 4)); }, Math.min(i, 40) * 20));
     if ($('sonido').checked) tono(220 + azar(200), 0, .15, 'square', .05);
     await pausa(380);
-    duelos.forEach(([a, v]) => { morir(v, a.col); a.prisa = 0; a.quieto = false; });
-    if (duelos.length <= 3) duelos.forEach(([a, v]) => { alFeed(`${a.p.nombre} → ${golpes[Math.floor(azar(golpes.length))]} → ${v.p.nombre}`); texto(v.x, v.y - v.r - 6, '¡K.O.!', '#ff5a4a', 900, 15); });
+    duelos.forEach(([a, v]) => { morir(v, a.c.fx); a.prisa = 0; a.quieto = false; a.mira = null; });
+    if (duelos.length <= 3) duelos.forEach(([a, v]) => { alFeed(`${a.p.nombre} → ${a.c.golpes[Math.floor(azar(a.c.golpes.length))]} → ${v.p.nombre}`); texto(v.x, v.y - v.r - 6, '¡K.O.!', '#ff5a4a', 900, 15); });
     else alFeed(`Caen ${duelos.length} luchadores · quedan ${E.fichas.filter(f => f.vivo).length}`);
     await pausa(Math.max(700, 1500 - b.length * 3));
   }
@@ -740,7 +846,7 @@ async function tiradaGurubashi() {
   await pausa(1800);
   E.cofre = {x: 640, y: 400, t0: ahora()}; texto(640, 350, 'Cofre de la Arena', '#ffd36b', 1500, 24);
   await pausa(900);
-  fg.prisa = 6; fg.tx = 640; fg.ty = 400 - 55; await pausa(2000);
+  fg.prisa = 6; fg.tx = 575; fg.ty = 420; await pausa(2000); fg.r = Math.max(fg.r, 18) * 1.4;
   E.cofre.abierto = ahora(); estallido(640, 400, '#ffd36b', 1200, 260);
   E.banner = {txt: '¡CAMPEÓN DE GURUBASHI!', sub: `${premio.nombre} abre el cofre de la arena`, col: '#ffd36b', t0: ahora(), fijo: true};
   await remate(b, premio, '¡CAMPEÓN DE LA ARENA GURUBASHI!', 'inv_box_02');
