@@ -7,7 +7,7 @@ compatibility_date = "2026-10-01"
 [vars]
 GUILD_ID = "1522639708176519308"          # Discord «WOW FOREVER - MUCHAMIEL»
 CLIENT_ID = "1565501143268720803"         # aplicación de Discord (de pruebas, de Van; cambiar por la de Muchamiel)
-ROLE_IDS = ""                             # roles de sub de Twitch / miembro de YouTube / Patreon, separados por comas
+ROLE_IDS = "1565455421404090388,1565455421404090389,1565455421404090390,1565455421404090391,1565529565479313589,1565529565479313590,1565529565479313591,1565529565479313592,1565529565479313593,1565529565479313594"   # Twitch Subscriber (+ tiers) y YouTube Member (+ niveles)
 ALLOW_USER_IDS = ""                       # ids de Discord que entran sin rol (pruebas)
 ADMIN_IDS = ""           # administradores (guías, eventos, preguntas): Van; añadir el id de Muchamiel
 

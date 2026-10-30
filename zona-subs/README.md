@@ -21,8 +21,8 @@ Los datos (votos y muro) están en un almacén KV de Cloudflare (`SUBS_KV`).
 ## Configuración (`wrangler.toml`)
 - `GUILD_ID`: el servidor de Discord.
 - `CLIENT_ID`: la aplicación de Discord. **Hoy es una de pruebas de Van**: hay que cambiarla por una de Muchamiel (Discord Developer Portal → Nueva aplicación → OAuth2 → Redirecciones: `https://muchamiel-subs.pages.dev/auth/callback`).
-- `ROLE_IDS`: los roles de sub, separados por comas. Para sacar el número de un rol: en Discord, Ajustes → Avanzado → Modo desarrollador; luego, en el servidor, Ajustes → Roles → clic derecho en el rol → Copiar ID.
-- `ALLOW_USER_IDS`: personas que entran sin rol, para pruebas (hoy, Van). Vaciar cuando ya no haga falta.
+- `ROLE_IDS`: los roles de sub, separados por comas. Para sacar el número de un rol: en Discord, Ajustes de usuario → Desarrollador → Modo desarrollador; luego, en el servidor, Ajustes → Roles → clic derecho en el rol → Copiar ID.
+- `ALLOW_USER_IDS`: personas que entran sin rol, para pruebas (vacío desde el 30-10). Los de `ADMIN_IDS` (Muchamiel y Van) entran siempre.
 
 ## Publicar un cambio
 Desde esta carpeta, con una cuenta de Cloudflare con acceso al proyecto `muchamiel-subs`:

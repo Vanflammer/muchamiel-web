@@ -1095,8 +1095,8 @@ def novedades29_page():
 
 
 # Van 30-10: página pública de la zona de subs. El botón no lleva a ningún sitio hasta que Muchamiel active las integraciones
-# de Discord (los roles de sub) y lo confirme: entonces se pone SUBS_ABIERTA = True y se vuelve a generar.
-SUBS_ABIERTA = False
+# de Discord (los roles de sub) y lo confirme: entonces se pone SUBS_ABIERTA = True y se vuelve a generar. Abierta el 30-10-2026.
+SUBS_ABIERTA = True
 SUBS_URL = 'https://muchamiel-subs.pages.dev'
 
 

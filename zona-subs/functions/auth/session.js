@@ -17,7 +17,7 @@ export async function onRequestPost({request, env}) {
   const nombre = m.nick || m.user?.global_name || m.user?.username || 'Sub';
   const roles = m.roles || [];
   const rolesSub = lista(env.ROLE_IDS);
-  const permitidos = lista(env.ALLOW_USER_IDS);
+  const permitidos = [...lista(env.ALLOW_USER_IDS), ...lista(env.ADMIN_IDS)];   // 30-10: los administradores (Muchamiel, Van) entran aunque no sean subs
   const esSub = roles.some(x => rolesSub.includes(x));
   if (!esSub && !permitidos.includes(id)) return json({ok: false, motivo: 'no-sub', id, roles}, 403);
 
