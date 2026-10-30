@@ -1,9 +1,9 @@
 {
   "slug": "druid",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-10-31",
   "resumen": {
-    "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Berserk, Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
-    "en": "The druid is the shapeshifter: it casts as a Moonkin, deals damage as a cat, soaks hits as a bear and heals with heal-over-time spells. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Berserk, Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. It suits players who want one character that can do everything and don't mind a busy action bar."
+    "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. Ojo: el 30-10 los datos del servidor rehicieron los árboles de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline) sin nota de Blizzard, así que aún puede cambiar. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
+    "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. Heads-up: on 30 October the server data reworked the Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in) with no Blizzard notes, so it may still change. It suits players who want to do everything with one character and don't mind lots of buttons."
   },
   "fuertes": [
     {
@@ -37,8 +37,8 @@
       "en": "To heal yourself you must leave your form, and shifting costs a lot of mana."
     },
     {
-      "es": "Tiger's Fury ya no existe en Forever, así que el gato depende de Shifting Power y de Furor para recuperar energía.",
-      "en": "Tiger's Fury is gone in Forever, so the cat relies on Shifting Power and Furor to get energy back."
+      "es": "Tiger's Fury ya no existe en Forever, así que el gato depende de Shifting Power y de Furor para recuperar energía, y desde el 30-10 Shifting Power no llega hasta el nivel 40.",
+      "en": "Tiger's Fury is gone in Forever, so the cat relies on Shifting Power and Furor to get energy back, and since 30 October Shifting Power only arrives at level 40."
     },
     {
       "es": "Balance sube más lento que Feral, y Restoration casi no mata sola.",
@@ -65,8 +65,8 @@
         "en": "Groups and raids as a caster; patient leveling"
       },
       "texto": {
-        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, que da crítico de hechizos a toda la banda.",
-        "en": "Damage from Wrath, Starfire and two damage-over-time spells (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. The tree ends in Moonkin Form, which gives spell crit to the whole raid."
+        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, cuya aura sube un 3 % el crítico de todo tipo a toda la banda (desde el 30-10; antes solo el de hechizos).",
+        "en": "Damage with Wrath, Starfire and two damage-over-time effects (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. At the bottom of the tree sits Moonkin Form, whose aura raises every type of crit by 3% for the whole raid (since 30 October; before, only spell crit)."
       }
     },
     {
@@ -83,8 +83,8 @@
         "en": "Leveling and solo play"
       },
       "texto": {
-        "es": "Forma felina con energía y puntos de combo: Shred y Claw para cargar, Rip y Rake para sangrar. Shifting Power sustituye al viejo truco de cambiar de forma para recuperar energía, y Berserk es el gran golpe del nivel 40.",
-        "en": "Cat Form with energy and combo points: Shred and Claw to build, Rip and Rake to bleed. Shifting Power replaces the old powershifting trick to regain energy, and Berserk is the big level 40 burst."
+        "es": "Forma felina con energía y puntos de combo: Shred y Claw para cargar, Rip y Rake para sangrar y Ferocious Bite para rematar. Desde el 30-10, Shifting Power llega al 40 (fila 7) y vuelve cada 8 s, y el talento nuevo Predatory Discipline hace que Ferocious Bite no gaste la energía que sobra. Berserk ya no existe.",
+        "en": "Cat Form with energy and combo points: Shred and Claw to build, Rip and Rake to bleed, Ferocious Bite to finish. Since 30 October, Shifting Power comes at 40 (row 7) with an 8 sec cooldown, and the new Predatory Discipline talent stops Ferocious Bite from spending your leftover energy. Berserk no longer exists."
       }
     },
     {
@@ -101,8 +101,8 @@
         "en": "Tanking dungeons and raids"
       },
       "texto": {
-        "es": "La misma rama que el gato, con otros talentos. El oso genera amenaza con Primal Bite (antes Mangle), Lacerate (sangrado que se acumula 5 veces) y Swipe. Natural Reaction da esquiva e ira, y Berserk hace que Primal Bite golpee a 3 objetivos.",
-        "en": "Same tree as the cat, different talents. The bear builds threat with Primal Bite (formerly Mangle), Lacerate (a bleed that stacks 5 times) and Swipe. Natural Reaction adds dodge and rage, and Berserk makes Primal Bite hit 3 targets."
+        "es": "La misma rama que el gato, con otros talentos. Desde el 30-10, Lacerate (sangrado que se acumula 5 veces) es talento de la fila 4 y llega al 25, y Primal Bite (antes Mangle) baja a la fila 7, así que llega al 40. Swipe se ocupa de los grupos y Natural Reaction da esquiva e ira. Berserk ya no existe.",
+        "en": "Same tree as the cat, different talents. Since 30 October, Lacerate (a bleed that stacks 5 times) is a row 4 talent you get at 25, and Primal Bite (formerly Mangle) drops to row 7, so it arrives at 40. Swipe handles packs and Natural Reaction adds dodge and rage. Berserk no longer exists."
       }
     },
     {
@@ -116,8 +116,8 @@
         "en": "Healing dungeons and raids"
       },
       "texto": {
-        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever Swiftmend ya no gasta el efecto en el tiempo, los efectos de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo. Regrowth cuesta alrededor de un 40 % menos de maná que en Classic.",
-        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever Swiftmend no longer eats the heal-over-time effect, effects from several druids stack and can crit, and Wild Growth heals the whole party. Regrowth costs about 40% less mana than in Classic."
+        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever los efectos en el tiempo de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo, aunque desde el 30-10 tarda 3 s en lanzarse (2,5 con Naturalist). El talento nuevo Bloom cura según tu Spirit cuando Rejuvenation o Regrowth terminan. Regrowth cuesta alrededor de un 40 % menos de maná que en Classic.",
+        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever HoTs from several druids stack and can crit, and Wild Growth heals the whole party, though since 30 October it has a 3 sec cast (2.5 with Naturalist). The new Bloom talent heals based on your Spirit when Rejuvenation or Regrowth runs out. Regrowth costs about 40% less mana than in Classic."
       }
     }
   ],
@@ -129,8 +129,8 @@
       },
       "faccion": "Alianza",
       "por_que": {
-        "es": "Elune's Light da +10 % de crítico durante 15 s cada 3 min: muy bueno junto a Berserk. Quickness suma esquiva para el oso y hace el sigilo del gato más difícil de ver.",
-        "en": "Elune's Light gives +10% crit for 15 sec every 3 min, great alongside Berserk. Quickness adds dodge for the bear and makes the cat's stealth harder to spot."
+        "es": "Elune's Light da +10 % de crítico durante 15 s cada 3 min: guárdalo para tus golpes más fuertes. Quickness suma esquiva para el oso y hace el sigilo del gato más difícil de ver.",
+        "en": "Elune's Light gives +10% crit for 15 sec every 3 min, save it for your hardest-hitting moments. Quickness adds dodge for the bear and makes the cat's stealth harder to spot."
       }
     },
     {
@@ -170,48 +170,48 @@
   "subir": {
     "rama": "Feral Combat",
     "intro": {
-      "es": "Para subir, Feral (gato) es lo más rápido y lo más cómodo: casi no paras a beber, matas de uno en uno a buen ritmo y, si se complica, pasas a oso. Hasta el 10 lanzas hechizos; del 10 al 20 peleas como oso; desde el 20 eres gato casi todo el tiempo. Este reparto termina en un gato de nivel 60 (9/37/5) que sirve en mazmorras sin tener que cambiar talentos.",
-      "en": "For leveling, Feral (cat) is the fastest and the comfiest: you rarely stop to drink, you kill single mobs quickly, and you shift to bear when things go wrong. Until 10 you cast spells; from 10 to 20 you fight as a bear; from 20 on you're a cat almost all the time. This build ends as a level 60 cat (9/37/5) that works in dungeons without a respec."
+      "es": "Para subir, Feral (gato) es lo más rápido y lo más cómodo: casi no paras a beber, matas de uno en uno a buen ritmo y, si se complica, pasas a oso. Hasta el 10 lanzas hechizos; del 10 al 20 peleas como oso; desde el 20 eres gato casi todo el tiempo. Ojo: el 30-10 los datos del servidor cambiaron el árbol sin nota de Blizzard (Shifting Power pasa al 40, Furor llega a Feral y Heart of the Wild se va a Restoration). Este reparto ya usa el árbol nuevo: es nuestro, comprobado punto a punto con los datos del cliente del 30-10, pero aún sin probar en el juego. Termina en un gato de nivel 60 (7/34/10).",
+      "en": "For leveling, Feral (cat) is the fastest and most comfortable: you barely stop to drink, you kill one mob at a time at a good pace and, if things go wrong, you switch to bear. Until 10 you cast spells; from 10 to 20 you fight as a bear; from 20 on you're a cat almost all the time. Note: on 30 October the server data changed the tree with no Blizzard notes (Shifting Power moves to 40, Furor joins Feral and Heart of the Wild moves to Restoration). This build already uses the new tree: it's our own, checked point by point against the 30 October client data, but not yet tested in game. It ends as a level 60 cat (7/34/10)."
     },
     "talentos": [
       {
         "niveles": "10-14",
         "puntos": "5/5 Ferocity",
         "nota": {
-          "es": "Abarata Maul, Swipe, Claw y Rake. Sirve para el oso y luego para el gato.",
-          "en": "Makes Maul, Swipe, Claw and Rake cheaper. Helps the bear now and the cat later."
+          "es": "Abarata Maul, Swipe, Claw, Rake y Primal Bite. Sirve para el oso y luego para el gato.",
+          "en": "Makes Maul, Swipe, Claw, Rake and Primal Bite cheaper. It helps the bear first and the cat later."
         }
       },
       {
         "niveles": "15-19",
-        "puntos": "2/2 Feral Swiftness, 3/5 Heart of the Wild",
+        "puntos": "5/5 Furor",
         "nota": {
-          "es": "Velocidad en forma felina y esquiva. Heart of the Wild da más Intellect para curarte y más aguante en oso.",
-          "en": "Cat Form speed and dodge. Heart of the Wild adds Intellect for self-heals and more stamina as a bear."
+          "es": "Desde el 30-10 está en Feral (fila 1). Al pasar a oso ganas 10 de ira y, al volver a gato, recuperas la energía que tenías más 10 por cada segundo que no estés en oso (hasta 100). Del 15 al 20 empiezas cada pelea de oso con ira.",
+          "en": "Since 30 October it sits in Feral (row 1). Shifting to bear gives you 10 rage and, back in Cat Form, you get the energy you had plus 10 for every second you spent outside bear (up to 100). From 15 to 20 every bear fight starts with rage."
         }
       },
       {
         "niveles": "20-24",
-        "puntos": "1/1 Feral Charge, 2/2 Sharpened Claws, 2/2 Savage Fury",
+        "puntos": "2/2 Feral Swiftness, 3/3 Shredding Attacks",
         "nota": {
-          "es": "Feral Charge acerca como oso (e interrumpe) y como gato salta a la espalda. Luego crítico y daño.",
-          "en": "Feral Charge closes the gap as a bear (and interrupts) and, as a cat, leaps behind the target. Then crit and damage."
+          "es": "Un 30 % más de velocidad como gato y un 4 % de esquiva. Shred cuesta 18 de energía menos: ya es tu golpe principal desde la espalda.",
+          "en": "30% faster in Cat Form and 4% dodge. Shred costs 18 less energy: it becomes your main attack from behind."
         }
       },
       {
         "niveles": "25-29",
-        "puntos": "3/3 Predatory Strikes, 2/2 Blood Frenzy",
+        "puntos": "1/1 Predatory Discipline, 2/2 Sharpened Claws, 2/2 Blood Frenzy",
         "nota": {
-          "es": "Más poder de ataque en forma. Blood Frenzy da un punto de combo extra con cada crítico. Si vas a tanquear mazmorras, puedes poner 1 punto en Primal Bite en vez de terminar Blood Frenzy.",
-          "en": "More attack power in form. Blood Frenzy grants an extra combo point on each crit. If you'll tank dungeons, you can put 1 point in Primal Bite instead of finishing Blood Frenzy."
+          "es": "Predatory Discipline es nuevo del 30-10: Ferocious Bite (rango 1 al 24) ya no gasta la energía que te sobra, pero sigue haciendo el daño extra. Luego un 6 % de crítico en forma y un punto de combo extra con cada crítico.",
+          "en": "Predatory Discipline is new on 30 October: Ferocious Bite (rank 1 at 24) no longer spends your leftover energy, but still deals the extra damage. Then 6% crit in forms and an extra combo point on every crit."
         }
       },
       {
         "niveles": "30-34",
-        "puntos": "1/1 Leader of the Pack, 2/2 Natural Instinct, 5/5 Heart of the Wild",
+        "puntos": "1/1 Leader of the Pack, 3/3 Predatory Strikes, 1/2 Savage Fury",
         "nota": {
-          "es": "Leader of the Pack da crítico a todo el grupo. Natural Instinct hace los críticos más fuertes y además mejora tus curas.",
-          "en": "Leader of the Pack gives the whole group crit. Natural Instinct makes crits hit harder and also boosts your heals."
+          "es": "Leader of the Pack sube un 3 % el crítico de todo tipo al grupo (desde el 30-10, también el de hechizos). Más poder de ataque en forma y más daño con Claw, Rake y Shred.",
+          "en": "Leader of the Pack raises every type of crit by 3% for the party (since 30 October, spell crit too). More attack power in forms and more damage from Claw, Rake and Shred."
         }
       },
       {
@@ -224,50 +224,50 @@
       },
       {
         "niveles": "40",
-        "puntos": "1/1 Berserk",
+        "puntos": "1/1 Shifting Power",
         "nota": {
-          "es": "El talento final de Feral: 15 s de crítico enorme en tus golpes de combo y te quita el miedo.",
-          "en": "The Feral capstone: 15 sec of massive crit on your combo builders, and it breaks fear."
+          "es": "Convierte maná en 40 de energía sin salir de forma, cada 8 s (desde el 30-10; antes 16). Úsalo cuando bajes de unos 50 de energía. Berserk, el antiguo talento final, ya no existe.",
+          "en": "Turns mana into 40 energy without leaving form, every 8 sec (since 30 October; it was 16). Use it when you drop below about 50 energy. Berserk, the old final talent, no longer exists."
         }
       },
       {
         "niveles": "41-43",
-        "puntos": "3/3 Shredding Attacks",
+        "puntos": "2/2 Savage Fury (+1), 2/2 Natural Instinct",
         "nota": {
-          "es": "Shred cuesta mucha menos energía. Es requisito para Shifting Power.",
-          "en": "Shred costs much less energy. Required for Shifting Power."
+          "es": "Completas Savage Fury (+10 % a Claw, Rake, Shred, Maul y Swipe). Natural Instinct hace los críticos más fuertes y mejora tus curas. Feral queda en 34.",
+          "en": "You finish Savage Fury (+10% to Claw, Rake, Shred, Maul and Swipe). Natural Instinct makes crits hit harder and boosts your heals. Feral ends at 34."
         }
       },
       {
-        "niveles": "44-46",
-        "puntos": "1/1 Shifting Power, 2/2 Improved Shifting Power",
+        "niveles": "44-48",
+        "puntos": "5/5 Heart of the Wild (Restoration)",
         "nota": {
-          "es": "Convierte maná en 40 de energía sin salir de forma. Con la mejora se usa más a menudo.",
-          "en": "Turns mana into 40 energy without leaving form. The upgrade lets you use it more often."
+          "es": "Desde el 30-10 está en Restoration (fila 1): +10 % de Intellect, +10 % de Strength como gato y +20 % de Stamina como oso.",
+          "en": "Since 30 October it sits in Restoration (row 1): +10% Intellect, +10% Strength in Cat Form and +20% Stamina in bear."
         }
       },
       {
-        "niveles": "47-51",
-        "puntos": "5/5 Furor (Restoration)",
+        "niveles": "49-53",
+        "puntos": "5/5 Naturalist (Restoration)",
         "nota": {
-          "es": "Al pasar a oso ganas 10 de ira, y al volver a gato recuperas la energía que tenías.",
-          "en": "Shifting to bear gives 10 rage, and going back to cat restores the energy you had."
+          "es": "+10 % a todo tu daño (desde el 30-10; antes 5 %) y Healing Touch medio segundo más rápido para curarte.",
+          "en": "+10% to all your damage (since 30 October; it was 5%) and a half-second faster Healing Touch for self-heals."
         }
       },
       {
-        "niveles": "52-56",
+        "niveles": "54-58",
         "puntos": "5/5 Genesis (Balance)",
         "nota": {
-          "es": "+5 % al daño periódico de hechizos y habilidades: tus sangrados y tus curas en el tiempo.",
-          "en": "+5% periodic damage and healing from spells and abilities: your bleeds and your heals over time."
+          "es": "+10 % al daño periódico de hechizos y habilidades (desde el 30-10; antes 5 %): tus sangrados y tus curas en el tiempo.",
+          "en": "+10% periodic damage from spells and abilities (since 30 October; it was 5%): your bleeds and your heals over time."
         }
       },
       {
-        "niveles": "57-60",
-        "puntos": "2/2 Nature's Majesty, 2/2 Nature's Reach",
+        "niveles": "59-60",
+        "puntos": "2/2 Nature's Majesty",
         "nota": {
-          "es": "+4 % de crítico y +4 % de golpe. Con esto llegas a 9/37/5.",
-          "en": "+4% crit and +4% hit. This takes you to 9/37/5."
+          "es": "+4 % de crítico con hechizos y cuerpo a cuerpo. Con esto llegas a 7/34/10.",
+          "en": "+4% crit with spells and melee. This takes you to 7/34/10."
         }
       }
     ],
@@ -462,21 +462,21 @@
         }
       },
       {
-        "nivel": 25,
-        "nombre": "Primal Bite",
-        "nuevo": true,
+        "nivel": 24,
+        "nombre": "Ferocious Bite",
+        "nuevo": false,
         "texto": {
-          "es": "Talento de oso (el antiguo Mangle). Mucho daño y amenaza cada 6 s.",
-          "en": "Bear talent (formerly Mangle). Big damage and threat every 6 sec."
+          "es": "Remate de daño directo. Desde el 30-10 tiene un rango 1 nuevo al 24 (33-43 de daño con 1 punto de combo, 129-139 con 5); antes llegaba al 32. Ideal para matar rápido sin esperar a Rip.",
+          "en": "Direct-damage finisher. Since 30 October it has a new rank 1 at 24 (33-43 damage with 1 combo point, 129-139 with 5); it used to arrive at 32. Great for quick kills without waiting on Rip."
         }
       },
       {
         "nivel": 25,
-        "nombre": "Shifting Power",
+        "nombre": "Lacerate",
         "nuevo": true,
         "texto": {
-          "es": "Talento de gato: convierte maná en 40 de energía. Sustituye al cambio de forma para recuperar energía.",
-          "en": "Cat talent: turns mana into 40 energy. Replaces powershifting."
+          "es": "Talento de oso desde el 30-10 (fila 4, debajo de Savage Fury). Sangrado que se acumula hasta 5 veces y genera mucha amenaza. El rango 2 se aprende al 34 y los rangos 3, 4 y 5 al 42, 50 y 58.",
+          "en": "Bear talent since 30 October (row 4, under Savage Fury). A bleed that stacks up to 5 times and generates a lot of threat. Rank 2 is trained at 34, and ranks 3, 4 and 5 at 42, 50 and 58."
         }
       },
       {
@@ -489,12 +489,21 @@
         }
       },
       {
-        "nivel": 32,
-        "nombre": "Ferocious Bite",
-        "nuevo": false,
+        "nivel": 40,
+        "nombre": "Primal Bite",
+        "nuevo": true,
         "texto": {
-          "es": "Remate de daño directo. Ideal para matar rápido sin esperar a Rip.",
-          "en": "Direct damage finisher. Ideal to kill fast without waiting on Rip."
+          "es": "Talento de oso (el antiguo Mangle). Desde el 30-10 está en la fila 7 y llega al 40 (antes al 25). Mucho daño y amenaza; los rangos 2 y 3 llegan al 50 y al 60.",
+          "en": "Bear talent (formerly Mangle). Since 30 October it sits in row 7 and arrives at 40 (it used to be 25). Big damage and threat; ranks 2 and 3 come at 50 and 60."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Shifting Power",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento de gato. Desde el 30-10 está en la fila 7 y llega al 40 (antes al 25): convierte maná en 40 de energía cada 8 s (antes 16). Sustituye al cambio de forma para recuperar energía.",
+          "en": "Cat talent. Since 30 October it sits in row 7 and arrives at 40 (it used to be 25): it turns mana into 40 energy every 8 sec (it was 16). It replaces shifting out and back in to regain energy."
         }
       },
       {
@@ -508,29 +517,11 @@
       },
       {
         "nivel": 40,
-        "nombre": "Berserk",
-        "nuevo": true,
-        "texto": {
-          "es": "Talento final de Feral: más crítico para el gato, Primal Bite a 3 objetivos para el oso, e inmunidad al miedo.",
-          "en": "Feral capstone: more crit for the cat, 3-target Primal Bite for the bear, and fear immunity."
-        }
-      },
-      {
-        "nivel": 40,
         "nombre": "Wild Growth",
         "nuevo": true,
         "texto": {
-          "es": "Talento final de Restoration: cura en el tiempo a todo el grupo.",
-          "en": "Restoration capstone: heals the whole party over time."
-        }
-      },
-      {
-        "nivel": 42,
-        "nombre": "Lacerate",
-        "nuevo": true,
-        "texto": {
-          "es": "Sangrado de oso que se acumula hasta 5 veces y genera mucha amenaza.",
-          "en": "Bear bleed that stacks up to 5 times and generates high threat."
+          "es": "Talento final de Restoration: cura en el tiempo a todo el grupo. Desde el 30-10 tarda 3 s en lanzarse (antes era instantáneo); 2,5 s con Naturalist.",
+          "en": "Restoration's final talent: heals the whole party over time. Since 30 October it has a 3 sec cast (it used to be instant); 2.5 sec with Naturalist."
         }
       },
       {
@@ -565,12 +556,12 @@
         "en": "Build combo points with Shred from behind, Claw otherwise. Rake only if the enemy will last."
       },
       {
-        "es": "Con 4-5 puntos: Rip si la pelea va a ser larga; Ferocious Bite (desde el 32) para rematar rápido.",
-        "en": "At 4-5 points: Rip for long fights; Ferocious Bite (from 32) to finish quickly."
+        "es": "Con 4-5 puntos: Rip si la pelea va a ser larga; Ferocious Bite (desde el 24) para rematar rápido.",
+        "en": "At 4-5 points: Rip for long fights; Ferocious Bite (from 24) to finish quickly."
       },
       {
-        "es": "Desde el 44: Shifting Power cuando bajes de unos 50 de energía.",
-        "en": "From 44: Shifting Power when you drop below about 50 energy."
+        "es": "Desde el 40: Shifting Power cuando bajes de unos 50 de energía.",
+        "en": "From 40: Shifting Power when you drop below about 50 energy."
       },
       {
         "es": "Si vienen dos o más enemigos o te queda poca vida, pasa a oso. Al acabar, sal de forma y cúrate.",
@@ -643,8 +634,8 @@
         "en": "Nature's Grasp before a fight saves you when an extra enemy shows up: it roots them on the first hit."
       },
       {
-        "es": "<b>Variante hasta el 30 con Shifting Power pronto</b> (reparto visto en la beta, con tope 30): 5/5 Ferocity, 2/2 Feral Swiftness, 3/3 Feral Instinct, 2/2 Sharpened Claws, 3/3 Shredding Attacks, Shifting Power (25), 2/2 Blood Frenzy, 2/2 Savage Fury y Leader of the Pack al 30. Te deja un gato un 30 % más rápido, con Shifting Power, un 9 % más de crítico y críticos que dan un punto de combo extra. Shifting Power cambia maná por 40 de energía: úsalo cuando bajes de 50 de energía, nunca por encima, o desperdicias la que sobra. El reparto del 30 al 60 de arriba sigue sirviendo, solo cambia el orden.",
-        "en": "<b>Variant to 30 with early Shifting Power</b> (a build seen in the beta, level cap 30): 5/5 Ferocity, 2/2 Feral Swiftness, 3/3 Feral Instinct, 2/2 Sharpened Claws, 3/3 Shredding Attacks, Shifting Power (25), 2/2 Blood Frenzy, 2/2 Savage Fury and Leader of the Pack at 30. You end up with a cat that is 30% faster, has Shifting Power, 9% more crit and crits that grant an extra combo point. Shifting Power trades mana for 40 Energy: use it when you drop below 50 Energy, never above, or the extra is wasted. The 30-60 plan above still works; only the order changes."
+        "es": "<b>Hasta el 40, sin Shifting Power</b>: desde el 30-10 está en la fila 7, así que la variante de la beta que lo ponía al 25 ya no se puede hacer. Mientras tanto, cuida la energía: con Predatory Discipline (25), Ferocious Bite no gasta la que sobra, y con Furor (15) recuperas la que tenías al volver a gato después de curarte.",
+        "en": "<b>Until 40, no Shifting Power</b>: since 30 October it sits in row 7, so the beta variant that took it at 25 is no longer possible. Meanwhile, manage your energy: with Predatory Discipline (25), Ferocious Bite doesn't spend the leftover, and with Furor (15) you get back what you had when you return to Cat Form after healing."
       },
       {
         "es": "<b>Como oso (10-19)</b>: Maul sustituye tu siguiente golpe automático y Swipe no, así que Swipe y Demoralizing Roar son la base y Maul solo va cuando te sobra ira. Enrage (12) te da ira a cambio de armadura para abrir. Si vas justo de vida, Nature's Grasp: el enemigo queda enraizado al golpearte, te alejas unos pasos y te curas con Regrowth.",
@@ -678,10 +669,10 @@
         }
       },
       {
-        "nivel": "25",
+        "nivel": "24-25",
         "texto": {
-          "es": "Cuarta fila de talentos: Primal Bite, Shifting Power, Insect Swarm o Swiftmend según la rama.",
-          "en": "Fourth talent row: Primal Bite, Shifting Power, Insect Swarm or Swiftmend depending on your spec."
+          "es": "Ferocious Bite (24) y la cuarta fila de talentos (25): Lacerate, Predatory Discipline, Insect Swarm o Swiftmend según la rama.",
+          "en": "Ferocious Bite (24) and the fourth talent row (25): Lacerate, Predatory Discipline, Insect Swarm or Swiftmend depending on your spec."
         }
       },
       {
@@ -694,22 +685,22 @@
       {
         "nivel": "32",
         "texto": {
-          "es": "Ferocious Bite y Ravage: el gato remata y abre con mucho más daño.",
-          "en": "Ferocious Bite and Ravage: the cat finishes and opens with much more damage."
+          "es": "Ravage: el gato abre desde el sigilo con mucho más daño.",
+          "en": "Ravage: the cat opens from stealth with much more damage."
         }
       },
       {
         "nivel": "40",
         "texto": {
-          "es": "Berserk, Dire Bear Form, Innervate, primera montura y doble especialización.",
-          "en": "Berserk, Dire Bear Form, Innervate, your first mount and dual specialization."
+          "es": "Séptima fila de talentos: Primal Bite y Shifting Power (Feral), Wild Growth (Restoration) o Moonkin Form (Balance). Además, Dire Bear Form, Innervate, primera montura y doble especialización.",
+          "en": "Seventh talent row: Primal Bite and Shifting Power (Feral), Wild Growth (Restoration) or Moonkin Form (Balance). Plus Dire Bear Form, Innervate, your first mount and dual specialization."
         }
       },
       {
         "nivel": "42-44",
         "texto": {
-          "es": "Lacerate para el oso y Barkskin para todas las formas.",
-          "en": "Lacerate for the bear and Barkskin for every form."
+          "es": "Barkskin (44) para todas las formas y el rango 3 de Lacerate (42) para el oso.",
+          "en": "Barkskin (44) for every form and Lacerate rank 3 (42) for the bear."
         }
       },
       {
@@ -723,14 +714,14 @@
   },
   "nivel60": {
     "intro": {
-      "es": "Las builds de abajo son las más planificadas para el nivel 60 con el cliente de la beta. El tope de la beta era el 30, así que nadie las ha probado en bandas. Las bandas llegan el 9-12-2026 y el equipo de 60 no se ha filtrado: tómalo como punto de partida y lo iremos ajustando.",
-      "en": "The builds below are the most planned level 60 builds on the beta client. The beta capped at 30, so nobody has tested them in raids. Raids arrive on 9 Dec 2026 and level 60 gear hasn't leaked: treat this as a starting point we'll keep adjusting."
+      "es": "El 30-10 los datos del servidor cambiaron los árboles de Feral y Restoration sin nota de Blizzard: desaparecen Berserk, Improved Shifting Power y Gift of the Earthmother, Furor y Heart of the Wild cambian de árbol, y Primal Bite y Shifting Power bajan a la fila 7. Las builds de 60 que más se planificaron en la beta (11/5/35 Restoration, 9/42/0 Feral y 36/0/15 Balance) ya no encajan tal cual, y las rehacemos en cuanto haya datos. Además nadie ha llegado aún a 60 y las bandas llegan el 9-12-2026: lo de abajo son prioridades, no builds cerradas.",
+      "en": "On 30 October the server data changed the Feral and Restoration trees with no Blizzard notes: Berserk, Improved Shifting Power and Gift of the Earthmother are gone, Furor and Heart of the Wild swap trees, and Primal Bite and Shifting Power drop to row 7. The most planned level 60 builds from the beta (11/5/35 Restoration, 9/42/0 Feral and 36/0/15 Balance) no longer fit as they were, and we will redo them once there is data. On top of that nobody has reached 60 yet and raids open on 9 December 2026: what follows are priorities, not final builds."
     },
     "ramas": [
       {
         "nombre": {
-          "es": "Feral Combat (gato) · 9/37/5",
-          "en": "Feral Combat (cat) · 9/37/5"
+          "es": "Feral Combat (gato)",
+          "en": "Feral Combat (cat)"
         },
         "rol": {
           "es": "DPS cuerpo a cuerpo",
@@ -738,8 +729,8 @@
         },
         "estadisticas": [
           {
-            "es": "Golpe hasta el 9 % contra jefes de banda (Nature's Reach ya te da un 4 %).",
-            "en": "Hit up to 9% against raid bosses (Nature's Reach already gives 4%)."
+            "es": "Golpe hasta el 9 % contra jefes de banda.",
+            "en": "Hit up to 9% against raid bosses."
           },
           {
             "es": "Después Expertise (nueva en Forever: reduce esquivas y paradas) y crítico.",
@@ -772,8 +763,8 @@
             "en": "Shred from behind to build points (Claw if you can't get behind)."
           },
           {
-            "es": "Ferocious Bite solo si Rip aún tiene tiempo de sobra. Berserk junto a Elune's Light si eres elfo de la noche.",
-            "en": "Ferocious Bite only if Rip has plenty of time left. Berserk together with Elune's Light if you're a Night Elf."
+            "es": "Ferocious Bite cuando Rip aún tenga tiempo de sobra; con Predatory Discipline ya no gasta la energía que sobra. Si eres elfo de la noche, Elune's Light en tus mejores momentos de daño.",
+            "en": "Ferocious Bite when Rip still has plenty of time left; with Predatory Discipline it no longer spends leftover energy. As a Night Elf, Elune's Light during your best damage windows."
           }
         ],
         "consumibles": [
@@ -793,8 +784,8 @@
       },
       {
         "nombre": {
-          "es": "Feral Combat (oso) · 9/42/0",
-          "en": "Feral Combat (bear) · 9/42/0"
+          "es": "Feral Combat (oso)",
+          "en": "Feral Combat (bear)"
         },
         "rol": {
           "es": "Tanque",
@@ -832,8 +823,8 @@
             "en": "Lacerate up to 5 stacks, then keep them up."
           },
           {
-            "es": "Maul con la ira que sobre contra uno; Swipe contra varios. Berserk en los grupos grandes: Primal Bite golpea a 3.",
-            "en": "Maul with spare rage on one target; Swipe on several. Berserk on big pulls: Primal Bite hits 3."
+            "es": "Maul con la ira que sobre contra uno; Swipe contra varios.",
+            "en": "Maul with spare rage on one target; Swipe on several."
           },
           {
             "es": "Defensas: Barkskin, Frenzied Regeneration y Challenging Roar si se escapan varios.",
@@ -856,7 +847,7 @@
         ]
       },
       {
-        "nombre": "Balance · 36/0/15",
+        "nombre": "Balance",
         "rol": {
           "es": "DPS a distancia",
           "en": "Ranged DPS"
@@ -913,7 +904,7 @@
         ]
       },
       {
-        "nombre": "Restoration · 11/5/35",
+        "nombre": "Restoration",
         "rol": {
           "es": "Sanador",
           "en": "Healer"
@@ -924,8 +915,8 @@
             "en": "Healing power first."
           },
           {
-            "es": "Spirit para el maná (Reflection mantiene el 50 % mientras lanzas).",
-            "en": "Spirit for mana (Reflection keeps 50% while casting)."
+            "es": "Spirit para el maná (Reflection mantiene el 50 % mientras lanzas) y para Bloom, que cura según tu Spirit.",
+            "en": "Spirit for mana (Reflection keeps 50% while casting) and for Bloom, which heals based on your Spirit."
           },
           {
             "es": "Crítico (las curas en el tiempo ya pueden ser críticas) y celeridad; Intellect llega solo con el equipo.",
@@ -938,12 +929,12 @@
             "en": "Rejuvenation on whoever is about to take damage, without refreshing early."
           },
           {
-            "es": "Wild Growth cuando varios del grupo pierdan vida.",
-            "en": "Wild Growth when several party members are taking damage."
+            "es": "Wild Growth cuando varios del grupo vayan a perder vida: desde el 30-10 tarda 3 s en lanzarse (2,5 con Naturalist).",
+            "en": "Wild Growth when several party members are about to take damage: since 30 October it has a 3 sec cast (2.5 with Naturalist)."
           },
           {
-            "es": "Swiftmend para una cura rápida en quien tenga Rejuvenation o Regrowth (ya no se gastan).",
-            "en": "Swiftmend for a fast heal on someone with Rejuvenation or Regrowth (they're no longer consumed)."
+            "es": "Swiftmend para una cura rápida en quien tenga tu Rejuvenation o Regrowth (según el texto del 30-10, consume ese efecto).",
+            "en": "Swiftmend for a fast heal on someone with your Rejuvenation or Regrowth (per the 30 October tooltip, it consumes that effect)."
           },
           {
             "es": "Regrowth en quien le falte bastante vida y no la tenga puesta.",
@@ -973,7 +964,8 @@
     "equipo": {
       "es": "El equipo de nivel 60 de Forever está oculto y aún no hay listas de mejores piezas. Lleva cuero (la tela casi nunca trae lo que necesitas) e ídolos en la ranura de reliquia. Para Feral, busca un buen arma de dos manos: en Forever su daño cuenta en forma. Para subir sirven el Wolfshead Helm (Peletería), el Manual Crowd Pummeler (Gnomeregan) y el conjunto Embrace of the Viper (Cuevas de los Lamentos). Balance y Restoration buscan maza de una mano o daga con objeto de mano izquierda, o un bastón con buenas estadísticas.",
       "en": "Forever's level 60 gear is hidden and there are no best-in-slot lists yet. Wear leather (cloth rarely has the right stats) and use idols in the relic slot. For Feral, look for a strong two-hander: in Forever its damage counts in form. For leveling, the Wolfshead Helm (Leatherworking), the Manual Crowd Pummeler (Gnomeregan) and the Embrace of the Viper set (Wailing Caverns) are good. Balance and Restoration want a one-hand mace or dagger with an off-hand item, or a staff with good stats."
-    }
+    },
+    "sin_builds_beta": true
   },
   "pvp": [
     {
@@ -1005,8 +997,8 @@
       "en": "In battlegrounds you're the best flag carrier: Travel Form, Dash and Feral Swiftness make you very fast."
     },
     {
-      "es": "Berserk te quita el miedo y te protege de él 15 s: guárdalo contra brujos y sacerdotes.",
-      "en": "Berserk breaks fear and makes you immune to it for 15 sec: save it for warlocks and priests."
+      "es": "Berserk ya no existe desde el 30-10, así que Feral no tiene nada contra el miedo: contra brujos y sacerdotes, espera a que gasten Fear o Psychic Scream antes de lanzarte a fondo.",
+      "en": "Berserk is gone since 30 October, so Feral has no answer to fear: against warlocks and priests, wait for them to use Fear or Psychic Scream before you commit."
     }
   ],
   "tecnicas": {
@@ -1078,14 +1070,14 @@
         }
       },
       {
-        "termino": "Bear defensive / fear immunity",
+        "termino": "Bear defensive",
         "titulo": {
           "es": "Aguantar como oso",
           "en": "Turtling in bear form"
         },
         "texto": {
-          "es": "Cuando te concentran varios, pasar a oso es tu defensa: mucha más armadura y vida. <b>Frenzied Regeneration</b> (nivel 36, 3 min de recarga) convierte hasta 10 de ira por segundo en vida durante 10 s; en Forever cada punto de ira vale un 1 % de tu vida máxima, así que con la barra llena puedes recuperar la vida entera, y <b>Barkskin</b> quita un 20 % del daño físico durante 15 s. <b>Berserk</b> (talento final de Feral) te quita el miedo y te protege de él durante 15 s: guárdalo para brujos y sacerdotes en vez de gastarlo nada más empezar. Si eres tauren, <b>War Stomp</b> funciona en forma y aturde a todos los que tengas cerca.",
-          "en": "When several players focus you, bear form is your defense: much more armor and health. <b>Frenzied Regeneration</b> (level 36, 3 min cooldown) turns up to 10 rage per second into health for 10 sec; in Forever each rage point is worth 1% of your max health, so a full rage bar can heal you to full, and <b>Barkskin</b> cuts physical damage by 20% for 15 sec. <b>Berserk</b> (Feral's final talent) removes fear and makes you immune to it for 15 sec: save it for warlocks and priests instead of using it on the opener. As a tauren, <b>War Stomp</b> works in forms and stuns everyone close to you."
+          "es": "Cuando te concentran varios, pasar a oso es tu defensa: mucha más armadura y vida. <b>Frenzied Regeneration</b> (nivel 36, 3 min de recarga) convierte hasta 10 de ira por segundo en vida durante 10 s; en Forever cada punto de ira vale un 1 % de tu vida máxima, así que con la barra llena puedes recuperar la vida entera, y <b>Barkskin</b> quita un 20 % del daño físico durante 15 s. <b>Berserk</b>, que quitaba el miedo, ya no existe desde el 30-10. Si eres tauren, <b>War Stomp</b> funciona en forma y aturde a todos los que tengas cerca.",
+          "en": "When several players focus you, bear form is your defense: much more armor and health. <b>Frenzied Regeneration</b> (level 36, 3 min cooldown) turns up to 10 rage per second into health for 10 sec; in Forever each rage point is worth 1% of your max health, so a full rage bar can heal you to full, and <b>Barkskin</b> cuts physical damage by 20% for 15 sec. <b>Berserk</b>, which removed fear, no longer exists since 30 October. As a tauren, <b>War Stomp</b> works in forms and stuns everyone close to you."
         }
       }
     ],
@@ -1097,8 +1089,8 @@
           "en": "Powershifting in Forever"
         },
         "texto": {
-          "es": "En Classic, el gato salía y volvía a entrar en forma para recibir energía gratis gracias a <b>Furor</b> (powershifting). En Forever eso ya no da energía: <b>Furor</b> solo te devuelve la que tenías. Su sustituto es <b>Shifting Power</b>: convierte maná en 40 de energía sin salir de forma (16 s de reutilización, 8 con <b>Improved Shifting Power</b>; cuesta lo mismo que entrar en gato). Úsalo cuando bajes de unos 50 de energía, nunca con la energía llena (no deja). Bebe pociones de maná y <b>Thistle Tea</b> sin salir de forma para alargarlo.",
-          "en": "In Classic, cats dropped and re-entered Cat Form to get free energy from <b>Furor</b> (powershifting). In Forever that no longer gives energy: <b>Furor</b> only restores what you had. Its replacement is <b>Shifting Power</b>: it turns mana into 40 energy without leaving form (16 sec cooldown, 8 with <b>Improved Shifting Power</b>; it costs the same as entering Cat Form). Use it when you drop below about 50 energy, never at full (it won't let you). Drink mana potions and <b>Thistle Tea</b> without leaving form to keep it going."
+          "es": "En Classic, el gato salía y volvía a entrar en forma para recibir energía gratis gracias a <b>Furor</b> (powershifting). En Forever eso ya no da energía: <b>Furor</b> solo te devuelve la que tenías. Su sustituto es <b>Shifting Power</b>: convierte maná en 40 de energía sin salir de forma (talento de nivel 40; desde el 30-10 vuelve cada 8 s, antes 16; cuesta lo mismo que entrar en gato). Úsalo cuando bajes de unos 50 de energía, nunca con la energía llena (no deja). Bebe pociones de maná y <b>Thistle Tea</b> sin salir de forma para alargarlo.",
+          "en": "In Classic, cats dropped and re-entered Cat Form to get free energy from <b>Furor</b> (powershifting). In Forever that no longer gives energy: <b>Furor</b> only restores what you had. Its replacement is <b>Shifting Power</b>: it turns mana into 40 energy without leaving form (a level 40 talent; since 30 October it has an 8 sec cooldown, down from 16; it costs the same as entering Cat Form). Use it when you drop below about 50 energy, never at full (it won't let you). Drink mana potions and <b>Thistle Tea</b> without leaving form to keep it going."
         }
       },
       {
@@ -1119,8 +1111,8 @@
           "en": "Bear tanking threat"
         },
         "texto": {
-          "es": "En Forever el oso genera un 50 % más de amenaza y gana el doble de ira con los críticos. Abre con <b>Faerie Fire</b> (ahora genera amenaza en oso), luego <b>Primal Bite</b> cada vez que esté lista y <b>Lacerate</b> hasta 5 acumulaciones. Contra varios, <b>Swipe</b> (3 objetivos) y, en grupos grandes, <b>Berserk</b> hace que <b>Primal Bite</b> golpee a 3. <b>Maul</b> sustituye a tu golpe normal y ese golpe ya no da ira: úsalo solo con ira de sobra. Gira al jefe para que mire lejos del grupo; <b>Growl</b> (8 s) para recuperar a uno y <b>Challenging Roar</b> si se escapan varios.",
-          "en": "In Forever bear forms generate 50% more threat and get double rage from crits. Open with <b>Faerie Fire</b> (it now generates threat in bear), then <b>Primal Bite</b> on cooldown and <b>Lacerate</b> up to 5 stacks. On packs, <b>Swipe</b> (3 targets), and on big pulls <b>Berserk</b> makes <b>Primal Bite</b> hit 3. <b>Maul</b> replaces your next white hit and that hit no longer gives rage, so only use it with spare rage. Turn the boss to face away from the group; <b>Growl</b> (8 sec) to pick one back up and <b>Challenging Roar</b> if several get loose."
+          "es": "En Forever el oso genera un 50 % más de amenaza y gana el doble de ira con los críticos. Abre con <b>Faerie Fire</b> (ahora genera amenaza en oso), luego <b>Primal Bite</b> (desde el 40) cada vez que esté lista y <b>Lacerate</b> hasta 5 acumulaciones. Contra varios, <b>Swipe</b> (3 objetivos). <b>Maul</b> sustituye a tu golpe normal y ese golpe ya no da ira: úsalo solo con ira de sobra. Gira al jefe para que mire lejos del grupo; <b>Growl</b> (8 s) para recuperar a uno y <b>Challenging Roar</b> si se escapan varios.",
+          "en": "In Forever bear forms generate 50% more threat and get double rage from crits. Open with <b>Faerie Fire</b> (it now generates threat in bear), then <b>Primal Bite</b> (from 40) on cooldown and <b>Lacerate</b> up to 5 stacks. On packs, <b>Swipe</b> (3 targets). <b>Maul</b> replaces your next white hit and that hit no longer gives rage, so only use it with spare rage. Turn the boss to face away from the group; <b>Growl</b> (8 sec) to pick one back up and <b>Challenging Roar</b> if several get loose."
         }
       },
       {
@@ -1141,8 +1133,8 @@
           "en": "Rolling HoTs ahead of damage"
         },
         "texto": {
-          "es": "Como sanador, cura antes de que haga falta: <b>Rejuvenation</b> en el tanque justo antes de atraer y en quien vaya a recibir daño. No la renueves antes de que acabe. En Forever las curas en el tiempo de varios druidas se acumulan y pueden hacer crítico, y <b>Swiftmend</b> ya no gasta la <b>Rejuvenation</b> o el <b>Regrowth</b>: úsalo cada 15 s como cura rápida sin perder ese efecto. <b>Wild Growth</b> cuando varios pierdan vida y <b>Nature's Swiftness</b> + <b>Healing Touch</b> para salvar a alguien. <b>Reflection</b> mantiene el 50 % de tu regeneración de maná mientras lanzas.",
-          "en": "As a healer, heal before it's needed: <b>Rejuvenation</b> on the tank right before the pull and on whoever is about to take damage. Don't refresh it early. In Forever HoTs from several druids stack and can crit, and <b>Swiftmend</b> no longer eats the <b>Rejuvenation</b> or <b>Regrowth</b>: use it every 15 sec as a quick burst heal. <b>Wild Growth</b> when several people are hurt, and <b>Nature's Swiftness</b> + <b>Healing Touch</b> to save someone. <b>Reflection</b> keeps 50% of your mana regen going while you cast."
+          "es": "Como sanador, cura antes de que haga falta: <b>Rejuvenation</b> en el tanque justo antes de atraer y en quien vaya a recibir daño. No la renueves antes de que acabe. En Forever las curas en el tiempo de varios druidas se acumulan y pueden hacer crítico, y <b>Swiftmend</b> (cada 15 s) es tu cura rápida; según el texto del 30-10, consume la <b>Rejuvenation</b> o el <b>Regrowth</b> que usa. Con <b>Bloom</b>, deja que tus curas en el tiempo terminen solas: al acabar curan según tu Spirit. <b>Wild Growth</b> (3 s de lanzamiento desde el 30-10) cuando varios vayan a perder vida y <b>Nature's Swiftness</b> + <b>Healing Touch</b> para salvar a alguien. <b>Reflection</b> mantiene el 50 % de tu regeneración de maná mientras lanzas.",
+          "en": "As a healer, heal before it's needed: <b>Rejuvenation</b> on the tank right before the pull and on whoever is about to take damage. Don't refresh it early. In Forever HoTs from several druids stack and can crit, and <b>Swiftmend</b> (every 15 sec) is your quick burst heal; per the 30 October tooltip, it consumes the <b>Rejuvenation</b> or <b>Regrowth</b> it uses. With <b>Bloom</b>, let your HoTs run out on their own: when they end they heal based on your Spirit. <b>Wild Growth</b> (3 sec cast since 30 October) when several people are about to take damage, and <b>Nature's Swiftness</b> + <b>Healing Touch</b> to save someone. <b>Reflection</b> keeps 50% of your mana regen going while you cast."
         }
       },
       {
@@ -1171,8 +1163,8 @@
         "en": "Mouseover macros let you heal without changing target when you drop form: <i>/cast [@mouseover,help,nodead][] Rejuvenation</i>. Same for <b>Regrowth</b> and <b>Remove Curse</b>."
       },
       {
-        "es": "El Cooldown Manager de Forever ya funciona con el druida: pon a la vista <b>Berserk</b>, <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b> y <b>Bash</b>.",
-        "en": "Forever's Cooldown Manager already supports druids: keep <b>Berserk</b>, <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b> and <b>Bash</b> in view."
+        "es": "El Cooldown Manager de Forever ya funciona con el druida: pon a la vista <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b>, <b>Frenzied Regeneration</b> y <b>Bash</b>.",
+        "en": "Forever's Cooldown Manager already supports druids: keep <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b>, <b>Frenzied Regeneration</b> and <b>Bash</b> in view."
       },
       {
         "es": "Gira con el ratón (botón derecho) y muévete de lado con las teclas de strafe: en gato, para ponerte detrás del enemigo; con la bandera, para no dar la espalda a quien te persigue.",
@@ -1222,8 +1214,12 @@
       "en": "Forever's spell hit cap and the exact value of Expertise and haste."
     },
     {
-      "es": "Las builds de 60 son de la beta (tope 30): pueden cambiar con los ajustes del lanzamiento.",
-      "en": "The level 60 builds come from the beta (capped at 30): launch tuning may change them."
+      "es": "El árbol del druida cambió el 30-10 en los datos del servidor, sin nota de Blizzard: puede volver a cambiar, y Predatory Discipline y Bloom aún no están traducidos en el juego. Las builds de nivel 60 con el árbol nuevo las rehacemos en cuanto el cliente traiga los talentos nuevos.",
+      "en": "The druid tree changed on 30 October in the server data, with no Blizzard notes: it may change again, and Predatory Discipline and Bloom are not translated in game yet. We will redo the level 60 builds on the new tree as soon as the client ships the new talents."
+    },
+    {
+      "es": "Swiftmend: desde el 30-10 su texto dice que consume la Rejuvenation o el Regrowth que usa (solo cambió la redacción). Comprobaremos en el juego si de verdad lo gasta.",
+      "en": "Swiftmend: since 30 October its tooltip says it consumes the Rejuvenation or Regrowth it uses (only the wording changed). We will check in game whether it really does."
     },
     {
       "es": "El nombre de la misión de Aquatic Form para los Skyborne, y si Moonglade forma parte de la cadena del gato.",
@@ -1242,6 +1238,14 @@
     {
       "nombre": "Notas de la beta de Blizzard (WoW Forever)",
       "url": "https://news.blizzard.com/en-us/"
+    },
+    {
+      "nombre": "Forever Changes: hotfix del 30-10 (datos del servidor, sin nota de Blizzard)",
+      "url": "https://foreverchanges.pro/patch-notes"
+    },
+    {
+      "nombre": "Forever Changes: árbol del druida (cliente 1.60.1.70707, 30-10)",
+      "url": "https://foreverchanges.pro/talents/druid"
     },
     {
       "nombre": "Talents Forever (datos del cliente de la beta, CC BY 4.0)",
@@ -1316,56 +1320,48 @@
           "niveles": "10-14",
           "puntos": "5/5 Ferocity",
           "nota": {
-            "es": "Maul y Swipe cuestan menos ira: más golpes y más amenaza desde el nivel 10, cuando consigues Bear Form.",
-            "en": "Maul and Swipe cost less rage: more hits and more threat from level 10, when you get Bear Form."
+            "es": "Maul, Swipe y Primal Bite cuestan menos ira: más golpes y más amenaza desde el nivel 10, cuando consigues Bear Form.",
+            "en": "Maul, Swipe and Primal Bite cost less rage: more attacks and more threat from level 10, when you get Bear Form."
           }
         },
         {
           "niveles": "15-19",
-          "puntos": "5/5 Heart of the Wild",
+          "puntos": "5/5 Furor",
           "nota": {
-            "es": "En forma de oso, un 20 % más de Stamina. Es el talento que más vida te da.",
-            "en": "20% more Stamina in Bear Form. The talent that gives you the most health."
+            "es": "Desde el 30-10 está en Feral (fila 1): al entrar en Bear Form ganas 10 de ira, así que empiezas cada pelea pegando.",
+            "en": "Since 30 October it sits in Feral (row 1): entering Bear Form gives you 10 rage, so every fight starts with attacks."
           }
         },
         {
-          "niveles": "20-22",
-          "puntos": "1/1 Feral Charge, 2/2 Sharpened Claws",
+          "niveles": "20-24",
+          "puntos": "2/2 Sharpened Claws, 2/2 Savage Fury, 1/1 Feral Charge",
           "nota": {
-            "es": "Carga hacia un enemigo, lo inmoviliza e interrumpe su hechizo. Perfecto para recoger al que se escapa o cortar a un lanzador. Un 6 % más de crítico en forma. Es requisito de Blood Frenzy.",
-            "en": "Charge an enemy, root it and interrupt its cast. Great for picking up runaways or stopping casters. 6% more crit in forms. It is required for Blood Frenzy."
+            "es": "Un 6 % más de crítico en forma (requisito de Blood Frenzy) y un 10 % más de daño con Maul y Swipe (requisito de Lacerate). Feral Charge carga, inmoviliza e interrumpe: para recoger al que se escapa o cortar a un lanzador.",
+            "en": "6% more crit in forms (required for Blood Frenzy) and 10% more Maul and Swipe damage (required for Lacerate). Feral Charge charges, roots and interrupts: to pick up a runner or stop a caster."
           }
         },
         {
-          "niveles": "23-25",
-          "puntos": "2/2 Savage Fury, 1/1 Primal Bite",
+          "niveles": "25-27",
+          "puntos": "1/1 Lacerate, 2/2 Blood Frenzy",
           "nota": {
-            "es": "Maul, Swipe y Claw hacen un 10 % más de daño, y abre Primal Bite. Tu golpe principal para la amenaza contra un objetivo: úsalo cada vez que esté listo.",
-            "en": "Maul, Swipe and Claw deal 10% more damage, and it unlocks Primal Bite. Your main single-target threat attack: use it whenever it is ready."
+            "es": "Desde el 30-10 Lacerate es talento de la fila 4: sangrado que se acumula 5 veces y genera mucha amenaza (rango 2 al 34, en el entrenador). Blood Frenzy: 5 de ira extra con cada crítico.",
+            "en": "Since 30 October Lacerate is a row 4 talent: a bleed that stacks 5 times and generates a lot of threat (rank 2 at 34, from the trainer). Blood Frenzy: 5 extra rage on every crit."
           }
         },
         {
-          "niveles": "26-27",
-          "puntos": "2/2 Blood Frenzy",
+          "niveles": "28-30",
+          "puntos": "2/3 Thick Hide, 1/1 Leader of the Pack",
           "nota": {
-            "es": "Cada crítico como oso te da 5 de ira extra: menos tirones con la barra vacía.",
-            "en": "Every bear crit gives you 5 extra rage: fewer pulls with an empty bar."
+            "es": "Más armadura en forma. Leader of the Pack sube un 3 % el crítico de todo tipo al grupo y es requisito de Primal Bite.",
+            "en": "More armor in forms. Leader of the Pack raises every type of crit by 3% for the party and is required for Primal Bite."
           }
         },
         {
-          "niveles": "28-31",
-          "puntos": "3/3 Predatory Strikes, 1/1 Leader of the Pack",
+          "niveles": "31-34",
+          "puntos": "3/3 Feral Instinct, 3/3 Thick Hide (+1)",
           "nota": {
-            "es": "Más poder de ataque en forma: más daño y más amenaza. Más crítico para todo el grupo mientras estás en forma. Es requisito de Berserk.",
-            "en": "More attack power in forms: more damage and more threat. More crit for the whole party while you are shapeshifted. It is required for Berserk."
-          }
-        },
-        {
-          "niveles": "32-34",
-          "puntos": "3/3 Feral Instinct",
-          "nota": {
-            "es": "Swipe hace un 30 % más de daño: mantienes mejor a varios enemigos.",
-            "en": "Swipe deals 30% more damage: you hold several mobs more easily."
+            "es": "Swipe hace un 30 % más de daño: mantienes mejor a varios enemigos. Completas la armadura.",
+            "en": "Swipe deals 30% more damage: you hold several enemies better. You finish the armor talent."
           }
         },
         {
@@ -1377,55 +1373,55 @@
           }
         },
         {
-          "niveles": "40-42",
-          "puntos": "1/1 Berserk, 2/3 Thick Hide",
+          "niveles": "40",
+          "puntos": "1/1 Primal Bite",
           "nota": {
-            "es": "Talento final: Primal Bite golpea a 3 objetivos y sin reutilización. Llega con Dire Bear Form al 40. Más armadura en forma.",
-            "en": "Final talent: Primal Bite hits 3 targets with no cooldown. It arrives with Dire Bear Form at 40. More armor in forms."
+            "es": "Desde el 30-10 está en la fila 7 y llega al 40, junto a Dire Bear Form (rangos 2 y 3 al 50 y al 60). Tu golpe principal de amenaza contra un objetivo: úsalo cada vez que esté listo.",
+            "en": "Since 30 October it sits in row 7 and arrives at 40, together with Dire Bear Form (ranks 2 and 3 at 50 and 60). Your main single-target threat attack: use it every time it's ready."
           }
         },
         {
-          "niveles": "43-44",
-          "puntos": "2/2 Natural Instinct",
+          "niveles": "41-45",
+          "puntos": "5/5 Heart of the Wild (Restoration)",
           "nota": {
-            "es": "Críticos más fuertes y algo más de curación por tu Intelecto, para curarte entre tirones.",
-            "en": "Stronger crits and a bit more healing from your Intellect, to top yourself up between pulls."
+            "es": "Desde el 30-10 está en Restoration (fila 1): un 20 % más de Stamina como oso, el talento que más vida te da, y un 10 % más de Intellect.",
+            "en": "Since 30 October it sits in Restoration (row 1): 20% more Stamina in bear, the talent that gives you the most health, plus 10% more Intellect."
           }
         },
         {
-          "niveles": "45-49",
+          "niveles": "46-50",
+          "puntos": "3/3 Predatory Strikes, 2/2 Natural Instinct",
+          "nota": {
+            "es": "Más poder de ataque en forma: más daño y más amenaza. Críticos más fuertes y algo más de curación para curarte entre tirones.",
+            "en": "More attack power in forms: more damage and more threat. Harder crits and a bit more healing to top yourself up between pulls."
+          }
+        },
+        {
+          "niveles": "51-55",
           "puntos": "5/5 Rend and Tear",
           "nota": {
             "es": "Un 10 % más de daño contra enemigos que sangran: con Lacerate puesto, siempre activo.",
-            "en": "10% more damage against bleeding targets: with Lacerate up, it is always on."
+            "en": "10% more damage against bleeding enemies: with Lacerate up, it's always on."
           }
         },
         {
-          "niveles": "50-51",
+          "niveles": "56-57",
           "puntos": "2/2 Feral Swiftness",
           "nota": {
-            "es": "Un 4 % más de esquiva (y más velocidad como gato). Feral queda en 42.",
-            "en": "4% more dodge (and more speed as a cat). Feral ends at 42."
+            "es": "Un 4 % más de esquiva (y más velocidad como gato). Feral queda en 43.",
+            "en": "4% more dodge (and more speed as a cat). Feral ends at 43."
           }
         },
         {
-          "niveles": "52-56",
-          "puntos": "5/5 Genesis (Balance)",
+          "niveles": "58-60",
+          "puntos": "3/5 Naturalist (Restoration)",
           "nota": {
-            "es": "En Balance: Lacerate y tus curas en el tiempo hacen un 5 % más.",
-            "en": "In Balance: Lacerate and your heals over time do 5% more."
-          }
-        },
-        {
-          "niveles": "57-60",
-          "puntos": "2/2 Nature's Majesty, 2/2 Nature's Reach",
-          "nota": {
-            "es": "Un 4 % más de crítico y un 4 % más de golpe: menos fallos en los golpes de amenaza. Total: 9/42/0.",
-            "en": "4% more crit and 4% more hit: fewer misses on your threat attacks. Total: 9/42/0."
+            "es": "Un 6 % más a todo tu daño: más amenaza. Total: 0/43/8.",
+            "en": "6% more to all your damage: more threat. Total: 0/43/8."
           }
         }
       ],
-      "final": "9/42/0"
+      "final": "0/43/8"
     },
     {
       "rol": {
@@ -1506,8 +1502,8 @@
           "niveles": "40",
           "puntos": "1/1 Moonkin Form",
           "nota": {
-            "es": "Talento final: más armadura y crítico de hechizos para todo el grupo. Ya es tu forma de combate.",
-            "en": "Final talent: more armor and spell crit for the whole party. This is now your combat form."
+            "es": "Talento final: más armadura y un 3 % de crítico de todo tipo para el grupo (desde el 30-10, no solo de hechizos). Ya es tu forma de combate.",
+            "en": "Final talent: more armor and 3% crit of every type for the party (since 30 October, not just spell crit). It becomes your combat form."
           }
         },
         {
@@ -1530,8 +1526,8 @@
           "niveles": "51-55",
           "puntos": "5/5 Naturalist",
           "nota": {
-            "es": "Un 5 % más a todo tu daño y Healing Touch más rápido para curarte.",
-            "en": "5% more on all your damage and a faster Healing Touch to heal yourself."
+            "es": "Un 10 % más a todo tu daño (desde el 30-10; antes 5 %) y Healing Touch más rápido para curarte.",
+            "en": "10% more to all your damage (since 30 October; it was 5%) and a faster Healing Touch for self-heals."
           }
         },
         {
@@ -1576,8 +1572,8 @@
           "niveles": "15-19",
           "puntos": "5/5 Naturalist",
           "nota": {
-            "es": "Un 5 % más a todo tu daño (también en forma) y Healing Touch medio segundo más rápido. Es requisito de Nature's Swiftness.",
-            "en": "5% more on all your damage (forms included) and Healing Touch half a second faster. It is required for Nature's Swiftness."
+            "es": "Un 10 % más a todo tu daño (también en forma), y Healing Touch y Wild Growth medio segundo más rápidos. Es requisito de Nature's Swiftness.",
+            "en": "10% more to all your damage (in forms too), and Healing Touch and Wild Growth cast half a second faster. It is required for Nature's Swiftness."
           }
         },
         {
@@ -1606,10 +1602,10 @@
         },
         {
           "niveles": "28-30",
-          "puntos": "1/1 Swiftmend, 1/1 Gift of the Earthmother, 1/1 Nature's Swiftness",
+          "puntos": "1/1 Swiftmend, 1/1 Bloom, 1/1 Nature's Swiftness",
           "nota": {
-            "es": "Cura al instante a quien tenga Rejuvenation o Regrowth, y en Forever no le quita el efecto. Rejuvenation y Swiftmend te bloquean menos tiempo entre hechizos. Tu siguiente hechizo de Naturaleza es instantáneo: Healing Touch grande en una emergencia.",
-            "en": "Instantly heals a target with Rejuvenation or Regrowth, and in Forever it no longer eats the effect. Rejuvenation and Swiftmend lock you out for less time between spells. Your next Nature spell is instant: a big Healing Touch in an emergency."
+            "es": "Swiftmend cura al instante a quien tenga tu Rejuvenation o Regrowth (el texto del 30-10 dice que consume el efecto que usa). Bloom, nuevo del 30-10: cuando tu Rejuvenation o tu Regrowth terminan, el objetivo se cura el 100 % de tu Spirit (el 50 % si se los disipan). Nature's Swiftness hace instantáneo tu siguiente hechizo de Naturaleza: Healing Touch grande en una emergencia.",
+            "en": "Swiftmend instantly heals someone with your Rejuvenation or Regrowth (the 30 October tooltip says it consumes the effect it uses). Bloom, new on 30 October: when your Rejuvenation or Regrowth runs out, the target is healed for 100% of your Spirit (50% if it gets dispelled). Nature's Swiftness makes your next Nature spell instant: a big Healing Touch in an emergency."
           }
         },
         {
@@ -1640,24 +1636,24 @@
           "niveles": "42-44",
           "puntos": "1/1 Wild Growth, 2/2 Improved Tranquility",
           "nota": {
-            "es": "Talento final: cura a todo el grupo en el tiempo. Úsalo cuando varios pierdan vida a la vez. Tranquility sin amenaza y con mucha menos reutilización. Restoration queda en 35.",
-            "en": "Final talent: heals the whole party over time. Use it when several people take damage at once. Tranquility with no threat and a much shorter cooldown. Restoration ends at 35."
+            "es": "Talento final: cura a todo el grupo en el tiempo. Desde el 30-10 tarda 3 s en lanzarse (2,5 con Naturalist): empiézalo antes de que el daño llegue a todos. Tranquility sin amenaza y con mucha menos reutilización. Restoration queda en 35.",
+            "en": "Final talent: heals the whole party over time. Since 30 October it has a 3 sec cast (2.5 with Naturalist): start it before the damage hits everyone. Tranquility with no threat and a much shorter cooldown. Restoration reaches 35."
           }
         },
         {
           "niveles": "45-49",
-          "puntos": "5/5 Heart of the Wild (Feral Combat)",
+          "puntos": "5/5 Heart of the Wild",
           "nota": {
-            "es": "En Feral: un 10 % más de Intelecto, es decir, más maná.",
-            "en": "In Feral: 10% more Intellect, which means more mana."
+            "es": "Desde el 30-10 está en Restoration (fila 1): un 10 % más de Intellect, es decir, más maná. Restoration queda en 40.",
+            "en": "Since 30 October it sits in Restoration (row 1): 10% more Intellect, which means more mana. Restoration ends at 40."
           }
         },
         {
           "niveles": "50-54",
           "puntos": "5/5 Genesis (Balance)",
           "nota": {
-            "es": "En Balance: tus curas en el tiempo (Rejuvenation, Regrowth, Wild Growth) curan un 5 % más.",
-            "en": "In Balance: your heals over time (Rejuvenation, Regrowth, Wild Growth) heal 5% more."
+            "es": "En Balance: tus curas en el tiempo (Rejuvenation, Regrowth, Wild Growth) curan un 10 % más (desde el 30-10; antes 5 %).",
+            "en": "In Balance: your heals over time (Rejuvenation, Regrowth, Wild Growth) heal 10% more (since 30 October; it was 5%)."
           }
         },
         {
@@ -1672,12 +1668,12 @@
           "niveles": "58-60",
           "puntos": "2/2 Nature's Majesty, 1/1 Nature's Splendor",
           "nota": {
-            "es": "Algo más de crítico, y Rejuvenation y Regrowth duran más. Total: 11/5/35.",
-            "en": "A bit more crit, and Rejuvenation and Regrowth last longer. Total: 11/5/35."
+            "es": "Algo más de crítico, y Rejuvenation y Regrowth duran más. Total: 11/0/40.",
+            "en": "A bit more crit, and Rejuvenation and Regrowth last longer. Total: 11/0/40."
           }
         }
       ],
-      "final": "11/5/35"
+      "final": "11/0/40"
     }
   ]
 }

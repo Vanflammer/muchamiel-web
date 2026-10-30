@@ -218,7 +218,7 @@ BUILDS = [
     ('druid', 'Druida', 'Balance 25 % · Feral 47 % · Restoration 28 %',
      [('11/5/35', 'Restoration', 'druid/60/05302001-05-5050035103113251-6'), ('9/42/0', 'Feral', 'druid/60/050022-55230202120132012551--6'),
       ('36/0/15', 'Balance', 'druid/60/5032220115501351--505203-6')],
-     'Revive (12, resurrección fuera de combate), Primal Bite y Shifting Power (25, Feral), Berserk y Wild Growth (40), Lacerate (42, oso).'),
+     'Revive (12, resurrección fuera de combate), Ferocious Bite rango 1 (24), Lacerate (25, oso), Primal Bite, Shifting Power y Wild Growth (40). Berserk desaparece el 30-10.'),
 ]
 
 
@@ -228,6 +228,8 @@ def builds_60():
         filas = ''.join(f'<li><b>{E(p)}</b> {E(s)} {link(TF + u, "Ver build")}</li>' for p, s, u in builds)
         if slug == 'mage':  # 30-10: Blizzard rehízo el árbol del mago el 28-10 (hotfix) y estas builds ya no se pueden hacer tal cual
             filas = '<li>El árbol de talentos del mago cambió el 28 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../mage/#g-60">guía del mago</a>.</li>'
+        if slug == 'druid':  # 31-10: el árbol del druida cambió el 30-10 (hotfix sin nota de Blizzard) y estas builds ya no se pueden hacer tal cual
+            filas = '<li>El árbol de talentos del druida cambió el 30 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../druid/#g-60">guía del druida</a>.</li>'
         cards += (f'<article class="addon build60"><img src="../assets/{slug}.jpg" alt=""><div><p class="eyebrow">{E(reparto)}</p><h3>{E(nombre)}</h3>'
                   f'<ol class="b60">{filas}</ol><p><strong>Nuevo en Forever:</strong> {E(nuevas)}</p>'
                   f'<a class="btn ghost" href="../{slug}/">Guía completa de la clase</a></div></article>')

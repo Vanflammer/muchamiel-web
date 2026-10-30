@@ -1,6 +1,6 @@
 {
   "slug": "warrior",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-10-31",
   "resumen": {
     "es": "El guerrero es la clase de cuerpo a cuerpo con armadura de placas que vive de la ira: la gana al golpear y al recibir golpes, y la gasta en sus habilidades. En Forever llega con cambios grandes: Victory Rush para curarse tras cada muerte, Tactical Mastery para cambiar de actitud sin perder toda la ira y una rama de Protección que ya sirve para subir de nivel en solitario. Es para quien quiere tanquear o pegar fuerte con armas y no le importa depender de su equipo.",
     "en": "The Warrior is the plate-wearing melee class that runs on Rage: you earn it by hitting and getting hit, then spend it on your abilities. Forever brings big changes: Victory Rush to heal after each kill, Tactical Mastery so stance swaps no longer wipe your Rage, and a Protection tree that now works for solo leveling. Pick it if you want to tank or hit hard with weapons and don't mind leaning on your gear."
@@ -217,8 +217,8 @@
         "niveles": "15-19",
         "puntos": "3/3 Improved Revenge, 2/2 Improved Bloodrage",
         "nota": {
-          "es": "Revenge pasa a ser tu golpe principal; Bloodrage da más ira para abrir.",
-          "en": "Revenge becomes your main hit; Bloodrage gives more Rage to open."
+          "es": "Revenge pasa a ser tu golpe principal (y desde el 30-10 escala con el poder de ataque); Bloodrage da más ira para abrir.",
+          "en": "Revenge becomes your main hit (and since 30 October it scales with attack power); Bloodrage gives more Rage to open."
         }
       },
       {
@@ -424,8 +424,8 @@
         "nombre": "Revenge",
         "nuevo": false,
         "texto": {
-          "es": "Contraataque barato tras un bloqueo, esquiva o parada. Tu botón principal como Protection.",
-          "en": "A cheap counterattack after a block, dodge or parry. Your main Protection button."
+          "es": "Contraataque barato tras un bloqueo, esquiva o parada. Tu botón principal como Protection. Desde el 30-10 cada rango suma un 22,5 % de tu poder de ataque: el rango 6 hace de 138 a 168 más ese 22,5 % (antes solo 138-168). Cambio visto en los datos del juego, sin nota oficial de Blizzard: puede cambiar.",
+          "en": "A cheap counterattack after a block, dodge or parry. Your main Protection button. Since 30 October every rank adds 22.5% of your attack power: rank 6 deals 138 to 168 plus that 22.5% (it used to be a flat 138-168). A change found in the game data with no official Blizzard note, so it may change."
         }
       },
       {
@@ -1124,8 +1124,8 @@
             "en": "Shield Slam on cooldown."
           },
           {
-            "es": "Revenge cuando se ilumine.",
-            "en": "Revenge when it lights up."
+            "es": "Revenge cuando se ilumine (desde el 30-10 suma un 22,5 % de tu poder de ataque, así que pega más cuanto mejor sea tu equipo).",
+            "en": "Revenge when it lights up (since 30 October it adds 22.5% of your attack power, so it hits harder as your gear improves)."
           },
           {
             "es": "Sunder Armor hasta 5 y mantenlo.",
@@ -1429,9 +1429,17 @@
     {
       "es": "Ajustes de última hora al lanzamiento (4 de noviembre) que cambien talentos o habilidades.",
       "en": "Last-minute launch tuning (4 November) that changes talents or abilities."
+    },
+    {
+      "es": "Revenge con poder de ataque: cambio del 30-10 sacado de los datos del juego (build 1.60.1.70707), sin nota de Blizzard; aún no se conocen las cifras exactas de los rangos 1 a 5.",
+      "en": "Revenge scaling with attack power: a 30 October change taken from the game data (build 1.60.1.70707), with no Blizzard note; the exact numbers for ranks 1 to 5 aren't known yet."
     }
   ],
   "fuentes": [
+    {
+      "nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)",
+      "url": "https://foreverchanges.pro/patch-notes"
+    },
     {
       "nombre": "Notas de la beta de Blizzard (foros oficiales)",
       "url": "https://us.forums.blizzard.com/en/wow/t/2360696"

@@ -827,6 +827,12 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
     ('confirmado', 'inv_sword_39', 'La misión legendaria de primavera',
      'Confirmada para la primavera de 2027, junto a dos bandas nuevas (10 y 20) y dos mazmorras. Blizzard no ha dicho qué arma será ni para qué clase.',
      'Blizzard: hoja de ruta'),
+    ('juego', 'spell_nature_healingtouch', 'Cambios de última hora sin anunciar (30 de octubre)',
+     'A cinco días del lanzamiento han aparecido cambios en los datos que Blizzard no ha anunciado: <strong>el druida cambia su árbol de talentos</strong> (adiós a Berserk; llegan Bloom y Predatory Discipline; Wild Growth pasa a tener 3 s de lanzamiento; Shifting Power y Primal Bite bajan a la fila 7), <strong>el mago de Escarcha sube mucho</strong> (Ice Lance hace un 300% a objetivos congelados, Ice Barrier da un 15% de daño de escarcha y Winter\'s Chill un 20% por acumulación), el sacerdote puede quitar enfermedades en Shadowform y la Revenge del guerrero escala con el poder de ataque. Además, las raíces de varias clases comparten ya rendimientos decrecientes y el Ultralight Goblin Glider pasa a 5 min de recarga. Puede cambiar otra vez: lo vamos poniendo en cada guía de clase.',
+     'Datos del servidor y del cliente recogidos por <a href="https://foreverchanges.pro/patch-notes" target="_blank" rel="noopener noreferrer">ForeverChanges</a> (28 y 30-10). Sin nota de Blizzard.'),
+    ('rumor', 'spell_shadow_raisedead', '¿La plaga zombi en Forever?',
+     'En los datos del servidor del 28-10 aparecen los hechizos del evento de la plaga zombi de 2008 (el que precedió a Wrath of the Lich King). Blizzard no ha anunciado ningún evento: puede ser solo un resto de los ficheros.',
+     'Datos del servidor recogidos por <a href="https://foreverchanges.pro/patch-notes" target="_blank" rel="noopener noreferrer">ForeverChanges</a> (28-10). Sin anuncio.'),
     ('confirmado', 'achievement_level_60', 'La beta en números: 8,8 millones de personajes',
      'Blizzard ha publicado las cifras de la beta: <strong>8.862.354 personajes</strong> creados (1.889.084 skyborne y 612.096 paladines renegados), <strong>9.959.014 muertes en JcJ</strong>, 1.248.125 duelos y 1.157.204 muertes por caída. La mazmorra más mortal fue el <a href="../mazmorras/salon-de-los-feudales/">Salón de los Feudales</a>, el enemigo más letal el Kobold Miner y la zona con más JcJ, Laderas de Trabalomas. Son personajes, no jugadores: Blizzard no ha dicho cuántas cuentas jugaron. Aun así, da una idea de las colas del día 4.',
      'Infografía oficial de <a href="https://x.com/Warcraft/status/2116245690200342529" target="_blank" rel="noopener noreferrer">World of Warcraft en X</a> (30-10)'),
@@ -1196,6 +1202,12 @@ def build_pages():
     body = ('<p class="eyebrow">YOUTUBE · BETA DE WOW FOREVER</p><h1>Noticias de WoW Forever</h1>'
             '<p class="lead">Todo lo que Muchamiel ha contado de WoW Forever durante la beta y el camino al torneo de 100.000 $. Pulsa una miniatura para verlo en YouTube.</p>'
             '<div class="divider ultima"><h2>Última hora</h2></div>'  # Van 15-10: lo primero de Noticias (clase propia para que youtube_auto meta su bloque después)
+            '<a class="news-card" href="../a-medias/"><span class="badge-new">ÚLTIMA HORA</span><span><p class="eyebrow">SIN NOTA OFICIAL · 30 DE OCTUBRE</p>'
+            '<h3>Cambios de última hora: el druida rehace su árbol y el mago de Escarcha sube</h3><p>Han salido en los datos del servidor sin que Blizzard los anuncie: adiós a Berserk, Bloom y Predatory Discipline nuevos, Ice Lance al 300% contra congelados, Ice Barrier con más daño y más. Ya están en las guías de cada clase.</p>'
+            '</span></a>'
+            '<a class="news-card" href="../a-medias/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 30 DE OCTUBRE</p>'
+            '<h3>La beta en números: 8,8 millones de personajes</h3><p>9,9 millones de muertes en JcJ, 1,1 millones de muertes por caída, el Salón de los Feudales como mazmorra más mortal y Laderas de Trabalomas como la zona con más JcJ.</p>'
+            '</span></a>'
             '<a class="news-card" href="../reserva-nombres/"><span class="badge-new">YA VA</span><span><p class="eyebrow">RESERVA DE NOMBRES · HASTA EL 3 DE NOVIEMBRE</p>'
             '<h3>La reserva de nombres ya funciona</h3><p>Abrió con retraso el martes por la noche. Qué hacer si la Horda te sale bloqueada en JcJ o te dice que el nombre está restringido.</p>'
             '</span></a>'
@@ -1445,8 +1457,8 @@ def carrusel(latest):
               'Scholomance, Stratholme, el Castillo de Colmillo Oscuro y el Monasterio Escarlata: dónde están, a qué nivel y qué te espera dentro. Feliz Halloween.', 'Ver las mazmorras'),
         slide('novedades-29-octubre/', 'cs-alianza', '2026-11-12', 'BLIZZARD · 29 DE OCTUBRE', 'Un parche grande cada 4 meses',
               'Lo que ha contado Blizzard del futuro de Forever y de sus servidores.', 'Leer'),
-        slide('a-medias/', 'cs-alianza', '2026-11-05', 'SIN NOTA OFICIAL · 28 DE OCTUBRE', 'Lanza de Hielo con 8 s de reutilización',
-              'Cambios a magos, cazadores y objetos que han salido en el juego sin anunciar.', 'Ver los cambios'),
+        slide('a-medias/', 'cs-blizz', '2026-11-08', 'ÚLTIMA HORA · SIN NOTA OFICIAL · 30 DE OCTUBRE', 'El druida cambia su árbol de talentos',
+              'Adiós a Berserk, Ice Lance hace un 300% a congelados y más cambios de última hora que Blizzard no ha anunciado. Ya en las guías.', 'Ver los cambios'),
         slide('dia-1/', 'cs-alianza', '2026-11-12', 'GUÍA · JUEVES 5 DE NOVIEMBRE', 'Día 1 en WoW Forever',
               'Qué dejar listo antes, Clásico o Mejorado y qué hacer en las primeras horas.', 'Ver la guía'),
         slide('reserva-nombres/', 'cs-alianza', '2026-11-04', 'RESERVA DE NOMBRES · HASTA EL 3 DE NOVIEMBRE', 'La reserva de nombres ya funciona',

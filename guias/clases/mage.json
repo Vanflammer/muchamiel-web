@@ -1,6 +1,6 @@
 {
   "slug": "mage",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-10-31",
   "resumen": {
     "es": "El mago es el lanzador de hechizos a distancia por excelencia: mucho daño, control (ovejas, congelaciones, ralentizaciones) y utilidad que nadie más tiene, como comida y agua gratis, teletransportes y portales. En Forever estrena Ice Lance, Frost Blast, Frostfire Bolt, un Arcano rehecho alrededor de Arcane Blast y Arcane Wrath, y un sistema propio para descifrar pergaminos. Es para quien disfruta jugando a distancia, controlando la pelea y no le importa morir rápido si se equivoca.",
     "en": "The mage is the classic ranged caster: big damage, crowd control (sheep, freezes, slows) and utility no one else brings, like free food and water, teleports and portals. Forever adds Ice Lance, Frost Blast, Frostfire Bolt, an Arcane tree rebuilt around Arcane Blast and Arcane Wrath, and a mage-only system for deciphering scrolls. It suits players who like fighting from range and controlling the fight, and who accept dying fast when they slip up."
@@ -57,8 +57,8 @@
         "en": "Solo leveling and PvP"
       },
       "texto": {
-        "es": "Ralentiza y congela, y luego remata con Ice Lance, que hace el triple de daño a objetivos congelados. Fingers of Frost hace que tus hechizos traten al objetivo como congelado aunque no lo esté. Es la rama más segura y la que recomiendan casi todas las guías para subir.",
-        "en": "Slow and freeze, then finish with Ice Lance, which deals triple damage to frozen targets. Fingers of Frost makes your spells treat the target as frozen even when it is not. It is the safest tree and the one almost every guide picks for leveling."
+        "es": "Ralentiza y congela, y luego remata con Ice Lance, que hace un 300 % más de daño a objetivos congelados (cuatro veces su daño; era un 200 % hasta el cambio del 30 de octubre, visto en los datos del juego y sin nota oficial de Blizzard, así que puede cambiar). Fingers of Frost hace que tus hechizos traten al objetivo como congelado aunque no lo esté. Es la rama más segura y la que recomiendan casi todas las guías para subir.",
+        "en": "Slow and freeze, then finish with Ice Lance, which deals 300% more damage to frozen targets (four times its damage; it was 200% until a 30 October change found in the game data with no official Blizzard note, so it may still change). Fingers of Frost makes your spells treat the target as frozen even when it is not. It is the safest tree and the one almost every guide picks for leveling."
       }
     },
     {
@@ -235,8 +235,8 @@
         "niveles": "40",
         "puntos": "1/1 Ice Barrier",
         "nota": {
-          "es": "Escudo que absorbe daño, sube tu daño de escarcha y evita que te retrasen el lanzamiento al recibir golpes. Llévalo siempre puesto.",
-          "en": "A shield that absorbs damage, raises your Frost damage and stops pushback while you cast. Keep it up at all times."
+          "es": "Escudo que absorbe daño, sube tu daño de escarcha (desde el 30-10, un 15 % durante 1 min y otro 5 % mientras dura el escudo) y evita que te retrasen el lanzamiento al recibir golpes. Llévalo siempre puesto.",
+          "en": "A shield that absorbs damage, raises your Frost damage (since 30 October, 15% for 1 min plus another 5% while the shield holds) and stops pushback while you cast. Keep it up at all times."
         }
       },
       {
@@ -251,16 +251,16 @@
         "niveles": "44-48",
         "puntos": "5/5 Winter's Chill",
         "nota": {
-          "es": "Tus Frostbolt y Frost Blast cargan el siguiente Cone of Cold: útil cuando peleas contra varios.",
-          "en": "Your Frostbolt and Frost Blast empower your next Cone of Cold: useful against several enemies."
+          "es": "Tus Frostbolt y Frost Blast cargan el siguiente Cone of Cold: cada acumulación le suma un 20 % de daño (un 5 % antes del cambio del 30-10, sin nota oficial). Útil cuando peleas contra varios.",
+          "en": "Your Frostbolt and Frost Blast empower your next Cone of Cold: each stack adds 20% damage (5% before the 30 October change, which has no official note). Useful against several enemies."
         }
       },
       {
         "niveles": "49-52",
         "puntos": "2/2 Arctic Reach, 2/2 Improved Frost Nova",
         "nota": {
-          "es": "Más alcance y Frost Nova más a menudo: más tiempo a salvo.",
-          "en": "More range and Frost Nova more often: more time out of danger."
+          "es": "Más alcance (desde el 30-10, también para Ice Lance: un 10/20 % más) y Frost Nova más a menudo: más tiempo a salvo.",
+          "en": "More range (since 30 October, Ice Lance too: 10/20% more) and Frost Nova more often: more time out of danger."
         }
       },
       {
@@ -439,8 +439,8 @@
         "nombre": "Ice Lance",
         "nuevo": true,
         "texto": {
-          "es": "Talento de Escarcha: instantáneo, el triple de daño a objetivos congelados.",
-          "en": "Frost talent: instant, triple damage to frozen targets."
+          "es": "Talento de Escarcha: instantáneo, un 300 % más de daño a objetivos congelados (antes un 200 %) y 8 s de reutilización en todos los rangos (antes solo en el rango 1). Cambios vistos en los datos el 30-10, sin nota oficial de Blizzard: pueden cambiar.",
+          "en": "Frost talent: instant, 300% more damage to frozen targets (up from 200%) and an 8 sec cooldown at every rank (before, only rank 1 had it). Changes found in the game data on 30 October with no official Blizzard note: they may change."
         }
       },
       {
@@ -448,8 +448,8 @@
         "nombre": "Arcane Blast",
         "nuevo": true,
         "texto": {
-          "es": "Talento de Arcano: cada lanzamiento te da poder con hechizos y encarece el siguiente.",
-          "en": "Arcane talent: each cast grants spell damage and makes the next one cost more."
+          "es": "Talento de Arcano: cada lanzamiento te da poder con hechizos y encarece el siguiente. Desde el 30-10 (visto en los datos, sin nota oficial): un 12 % de tu intelecto por lanzamiento (antes 15 %), un 100 % más de coste de maná (antes 175 %) y 18 s de duración (antes 15).",
+          "en": "Arcane talent: each cast grants spell damage and makes the next one cost more. Since 30 October (found in the game data, no official note): 12% of your Intellect per cast (was 15%), 100% more mana cost (was 175%) and an 18 sec duration (was 15)."
         }
       },
       {
@@ -538,8 +538,8 @@
         "nombre": "Ice Barrier",
         "nuevo": false,
         "texto": {
-          "es": "Talento de Escarcha: escudo que absorbe daño y sube tu daño de escarcha.",
-          "en": "Frost talent: a shield that absorbs damage and raises your Frost damage."
+          "es": "Talento de Escarcha: escudo que absorbe daño y sube tu daño de escarcha un 15 % durante 1 min, más otro 5 % mientras dura el escudo (antes 3 % y 3 %; cambio del 30-10 visto en los datos, sin nota oficial).",
+          "en": "Frost talent: a shield that absorbs damage and raises your Frost damage by 15% for 1 min, plus another 5% while the shield holds (was 3% and 3%; a 30 October change found in the game data, no official note)."
         }
       },
       {
@@ -737,8 +737,8 @@
   },
   "nivel60": {
     "intro": {
-      "es": "Las bandas llegan el 9 de diciembre, así que aún no hay registros reales de daño ni lista de equipo de Forever. Además, el 28 de octubre Blizzard cambió el árbol del mago (Arcane Focus desaparece, Incineration pasa a 5 rangos y Critical Mass a 3), y las builds de 60 que más se planificaron en la beta (0/29/22 Fuego, 0/0/51 Escarcha y 47/4/0 Arcano) ya no encajan tal cual: el árbol de Escarcha solo admite 48 puntos. Lo de abajo son prioridades, no builds cerradas.",
-      "en": "Raids open on 9 December, so there are no real damage logs or Forever gear lists yet. On top of that, on 28 October Blizzard changed the mage tree (Arcane Focus is gone, Incineration now has 5 ranks and Critical Mass 3), and the most planned level 60 builds from the beta (0/29/22 Fire, 0/0/51 Frost and 47/4/0 Arcane) no longer fit as they were: the Frost tree only holds 48 points. What follows are priorities, not final builds."
+      "es": "Las bandas llegan el 9 de diciembre, así que aún no hay registros reales de daño ni lista de equipo de Forever. Además, el 28 de octubre Blizzard cambió el árbol del mago (Arcane Focus desaparece, Incineration pasa a 5 rangos y Critical Mass a 3), y las builds de 60 que más se planificaron en la beta (0/29/22 Fuego, 0/0/51 Escarcha y 47/4/0 Arcano) ya no encajan tal cual: el árbol de Escarcha solo admite 48 puntos. Y el 30 de octubre aparecieron en los datos del juego, sin nota de Blizzard, más cambios: Ice Lance pega más a congelados pero tiene 8 s de reutilización en todos los rangos, Ice Barrier y Winter's Chill suben mucho, Arcane Resilience pasa a 3 rangos y Arcane Blast da menos poder pero cuesta menos. Lo de abajo son prioridades, no builds cerradas.",
+      "en": "Raids open on 9 December, so there are no real damage logs or Forever gear lists yet. On top of that, on 28 October Blizzard changed the mage tree (Arcane Focus is gone, Incineration now has 5 ranks and Critical Mass 3), and the most planned level 60 builds from the beta (0/29/22 Fire, 0/0/51 Frost and 47/4/0 Arcane) no longer fit as they were: the Frost tree only holds 48 points. Then on 30 October more changes showed up in the game data, with no Blizzard note: Ice Lance hits frozen targets harder but has an 8 sec cooldown at every rank, Ice Barrier and Winter's Chill get much stronger, Arcane Resilience goes to 3 ranks and Arcane Blast gives less power but costs less. What follows are priorities, not final builds."
     },
     "ramas": [
       {
@@ -796,20 +796,20 @@
         ],
         "rotacion": [
           {
-            "es": "Ice Barrier siempre puesto: además del escudo, sube tu daño de escarcha.",
-            "en": "Keep Ice Barrier up: besides the shield, it raises your Frost damage."
+            "es": "Ice Barrier siempre puesto: además del escudo, sube tu daño de escarcha (desde el 30-10, un 15 % durante 1 min y otro 5 % mientras aguanta el escudo).",
+            "en": "Keep Ice Barrier up: besides the shield, it raises your Frost damage (since 30 October, 15% for 1 min plus another 5% while the shield holds)."
           },
           {
             "es": "Frostbolt como hechizo principal.",
             "en": "Frostbolt as your main spell."
           },
           {
-            "es": "Ice Lance con cada Fingers of Frost (tienes 2 hechizos con el objetivo «congelado»).",
-            "en": "Ice Lance on every Fingers of Frost (you get 2 spells against a «frozen» target)."
+            "es": "Ice Lance con cada Fingers of Frost (tienes 2 hechizos con el objetivo «congelado»). Desde el 30-10 tiene 8 s de reutilización en todos los rangos: si no está listo, gasta la carga con Frostbolt.",
+            "en": "Ice Lance on every Fingers of Frost (you get 2 spells against a «frozen» target). Since 30 October it has an 8 sec cooldown at every rank: if it isn't ready, spend the charge on Frostbolt."
           },
           {
-            "es": "Si estás cerca del objetivo, Cone of Cold con 5 acumulaciones de Winter's Chill.",
-            "en": "If you are close to the target, Cone of Cold at 5 Winter's Chill stacks."
+            "es": "Si estás cerca del objetivo, Cone of Cold con 5 acumulaciones de Winter's Chill (desde el 30-10, cada una le suma un 20 % de daño, antes un 5 %).",
+            "en": "If you are close to the target, Cone of Cold at 5 Winter's Chill stacks (since 30 October, each one adds 20% damage, up from 5%)."
           },
           {
             "es": "Cold Snap para repetir Ice Barrier o Ice Block cuando haga falta.",
@@ -837,8 +837,8 @@
         ],
         "rotacion": [
           {
-            "es": "Arcane Blast hasta 3-4 acumulaciones: cada una te da poder con hechizos (15 % de tu intelecto) durante 15 s desde la primera.",
-            "en": "Arcane Blast up to 3-4 stacks: each grants spell damage (15% of your Intellect) for 15 sec from the first one."
+            "es": "Arcane Blast hasta 3-4 acumulaciones: cada una te da poder con hechizos (12 % de tu intelecto) durante 18 s desde la primera y sube el coste de maná un 100 %. Hasta el 30-10 eran 15 %, 15 s y 175 %; el cambio sale de los datos del juego, sin nota oficial.",
+            "en": "Arcane Blast up to 3-4 stacks: each grants spell damage (12% of your Intellect) for 18 sec from the first one and raises the mana cost by 100%. Until 30 October it was 15%, 15 sec and 175%; the change comes from the game data, with no official note."
           },
           {
             "es": "Arcane Wrath cada vez que esté listo (6 s de reutilización) con las acumulaciones puestas.",
@@ -932,8 +932,8 @@
           "en": "Shatter combo"
         },
         "texto": {
-          "es": "El golpe fuerte del mago de Escarcha. 1) <b>Frost Nova</b> (o una congelación de <b>Frostbite</b>). 2) Unos pasos de lado para salir de su alcance. 3) <b>Frostbolt</b> y, justo antes de que termine el lanzamiento, <b>Ice Lance</b>: por el spell batching de Forever los dos llegan a la vez y aprovechan la congelación. <b>Ice Lance</b> hace el triple de daño a objetivos congelados y lo «fotografía»: hace el daño completo aunque la congelación se rompa justo después. <b>Shatter</b> suma probabilidad de crítico contra congelados. Cualquier daño rompe <b>Frost Nova</b>, así que no pongas antes nada que pegue en el tiempo.",
-          "en": "The frost mage's big hit. 1) <b>Frost Nova</b> (or a <b>Frostbite</b> freeze). 2) A few strafe steps out of their reach. 3) <b>Frostbolt</b>, and just before it finishes, <b>Ice Lance</b>: thanks to Forever's spell batching both land together and use the freeze. <b>Ice Lance</b> deals triple damage to frozen targets and snapshots it, so it hits in full even if the freeze breaks right after. <b>Shatter</b> adds crit chance against frozen targets. Any damage breaks <b>Frost Nova</b>, so don't apply damage over time first."
+          "es": "El golpe fuerte del mago de Escarcha. 1) <b>Frost Nova</b> (o una congelación de <b>Frostbite</b>). 2) Unos pasos de lado para salir de su alcance. 3) <b>Frostbolt</b> y, justo antes de que termine el lanzamiento, <b>Ice Lance</b>: por el spell batching de Forever los dos llegan a la vez y aprovechan la congelación. <b>Ice Lance</b> hace un 300 % más de daño a objetivos congelados (desde el 30-10; antes un 200 %, y ahora con 8 s de reutilización en todos los rangos, sin nota oficial) y lo «fotografía»: hace el daño completo aunque la congelación se rompa justo después. <b>Shatter</b> suma probabilidad de crítico contra congelados. Cualquier daño rompe <b>Frost Nova</b>, así que no pongas antes nada que pegue en el tiempo.",
+          "en": "The frost mage's big hit. 1) <b>Frost Nova</b> (or a <b>Frostbite</b> freeze). 2) A few strafe steps out of their reach. 3) <b>Frostbolt</b>, and just before it finishes, <b>Ice Lance</b>: thanks to Forever's spell batching both land together and use the freeze. <b>Ice Lance</b> deals 300% more damage to frozen targets (since 30 October; it was 200%, and it now has an 8 sec cooldown at every rank, with no official note) and snapshots it, so it hits in full even if the freeze breaks right after. <b>Shatter</b> adds crit chance against frozen targets. Any damage breaks <b>Frost Nova</b>, so don't apply damage over time first."
         }
       },
       {
@@ -1116,6 +1116,10 @@
       "en": "Level 60 builds with the new 28 October tree: no guide has updated them yet."
     },
     {
+      "es": "Los cambios del 30 de octubre a Ice Lance, Ice Barrier, Winter's Chill, Arctic Reach, Arcane Resilience y Arcane Blast salen de los datos del juego, no de una nota de Blizzard: falta ver si llegan así al lanzamiento y cómo cambian las builds.",
+      "en": "The 30 October changes to Ice Lance, Ice Barrier, Winter's Chill, Arctic Reach, Arcane Resilience and Arcane Blast come from the game data, not from a Blizzard note: we still need to see whether they ship like this and how they change the builds."
+    },
+    {
       "es": "Dónde se aprende Teleport: Dalaran y si lo puede usar la Horda.",
       "en": "Where Teleport: Dalaran is learned and whether Horde can use it."
     },
@@ -1137,6 +1141,10 @@
     }
   ],
   "fuentes": [
+    {
+      "nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)",
+      "url": "https://foreverchanges.pro/patch-notes"
+    },
     {
       "nombre": "Blizzard: análisis de clases de Forever (mago y chamán)",
       "url": "https://news.blizzard.com/en-us/article/24302097/"
@@ -1394,10 +1402,10 @@
         },
         {
           "niveles": "41-45",
-          "puntos": "Arcane Impact a 3/3 (+1), 2/2 Arcane Subtlety, 2/2 Arcane Resilience",
+          "puntos": "Arcane Impact a 3/3 (+1), 2/2 Arcane Subtlety, 2/3 Arcane Resilience",
           "nota": {
-            "es": "Más crítico, menos resistencias del enemigo y armadura extra según tu intelecto.",
-            "en": "More crit, lower enemy resistances and extra armor based on your Intellect."
+            "es": "Más crítico, menos resistencias del enemigo y armadura extra según tu intelecto. Desde el 30-10 (visto en los datos, sin nota oficial) Arcane Resilience tiene 3 rangos, hasta el 75 % del intelecto como armadura (antes 2 rangos y 50 %); el tercero no entra en este reparto.",
+            "en": "More crit, lower enemy resistances and extra armor based on your Intellect. Since 30 October (found in the game data, no official note) Arcane Resilience has 3 ranks, up to 75% of Intellect as armor (was 2 ranks and 50%); the third rank doesn't fit in this build."
           }
         },
         {
@@ -1466,8 +1474,8 @@
           "niveles": "26-29",
           "puntos": "2/2 Arctic Reach, 1/1 Ice Block, 1/1 Ice Lance",
           "nota": {
-            "es": "Más alcance para Blizzard y más radio para Frost Nova y Cone of Cold. Ice Block te salva si un grupo se descontrola.",
-            "en": "More Blizzard range and a bigger Frost Nova and Cone of Cold radius. Ice Block saves you when a pull goes wrong."
+            "es": "Más alcance para Blizzard (y para Ice Lance desde el 30-10) y más radio para Frost Nova y Cone of Cold. Ice Block te salva si un grupo se descontrola.",
+            "en": "More Blizzard range (and Ice Lance range since 30 October) and a bigger Frost Nova and Cone of Cold radius. Ice Block saves you when a pull goes wrong."
           }
         },
         {

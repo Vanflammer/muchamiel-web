@@ -1,6 +1,6 @@
 {
   "slug": "priest",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-10-31",
   "resumen": {
     "es": "El sacerdote de Forever sigue siendo el sanador de tela con los mejores beneficios del juego, pero ahora llega con más herramientas: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> y <b>Shadow Word: Death</b>. <b>Fear Ward</b> y <b>Devouring Plague</b> ya los aprenden todas las razas. Es para quien quiere curar en grupo y en banda, o jugar Sombra: mucho aguante en solitario y un buen hueco en JcJ.",
     "en": "The Forever Priest is still the cloth healer with the best buffs in the game, but it now has more tools: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> and <b>Shadow Word: Death</b>. Every race now learns <b>Fear Ward</b> and <b>Devouring Plague</b>. Pick it if you want to heal groups and raids, or play Shadow, which is very self-sufficient solo and has a real place in PvP."
@@ -41,8 +41,8 @@
       "en": "No mobility tools: no charge, no blink. In PvP, melee classes will stay on top of you."
     },
     {
-      "es": "En <b>Shadowform</b> no puedes curar: salir para curarte y volver a entrar cuesta el 40 % del maná base.",
-      "en": "You cannot heal in <b>Shadowform</b>: dropping it to heal and going back in costs 40% of your base mana."
+      "es": "En <b>Shadowform</b> no puedes curar: salir para curarte y volver a entrar cuesta el 40 % del maná base. Desde el 30-10 sí puedes quitar enfermedades sin salir (<b>Cure Disease</b> y <b>Abolish Disease</b>; visto en los datos, sin nota oficial de Blizzard).",
+      "en": "You cannot heal in <b>Shadowform</b>: dropping it to heal and going back in costs 40% of your base mana. Since 30 October you can remove diseases without leaving it (<b>Cure Disease</b> and <b>Abolish Disease</b>; found in the game data, no official Blizzard note)."
     },
     {
       "es": "El daño Sagrado ha bajado: <b>Smite</b> y <b>Holy Fire</b> hacen más o menos la mitad que en Classic desde el nivel 30, así que Sagrado y Disciplina matan despacio.",
@@ -507,8 +507,8 @@
         "nombre": "Shadowform",
         "nuevo": false,
         "texto": {
-          "es": "Talento final de Sombra (nivel 42 con esta ruta). Más daño, mitad de coste y menos daño físico; no deja curar.",
-          "en": "Shadow capstone (level 42 on this route). More damage, half the cost and less physical damage taken; no healing."
+          "es": "Talento final de Sombra (nivel 42 con esta ruta). Más daño, mitad de coste y menos daño físico; no deja curar. Desde el 30-10 (cambio visto en los datos, sin nota oficial: puede cambiar) sí permite Cure Disease y Abolish Disease.",
+          "en": "Shadow capstone (level 42 on this route). More damage, half the cost and less physical damage taken; no healing. Since 30 October (a change found in the game data, no official note: it may change) it does allow Cure Disease and Abolish Disease."
         }
       },
       {
@@ -601,8 +601,8 @@
         "en": "Want <b>Shadowform</b> right at 40? Skip <b>Wand Specialization</b> for now: with every point in Shadow you reach the 30 needed at level 40."
       },
       {
-        "es": "En <b>Shadowform</b> no puedes curar. Si necesitas curarte, mejor <b>Power Word: Shield</b> y <b>Devouring Plague</b> antes que salir de la forma.",
-        "en": "You cannot heal in <b>Shadowform</b>. If you need health, lean on <b>Power Word: Shield</b> and <b>Devouring Plague</b> before leaving the form."
+        "es": "En <b>Shadowform</b> no puedes curar. Si necesitas curarte, mejor <b>Power Word: Shield</b> y <b>Devouring Plague</b> antes que salir de la forma. Las enfermedades sí: desde el 30-10 <b>Cure Disease</b> y <b>Abolish Disease</b> se lanzan en la forma (cambio sacado de los datos, sin nota oficial).",
+        "en": "You cannot heal in <b>Shadowform</b>. If you need health, lean on <b>Power Word: Shield</b> and <b>Devouring Plague</b> before leaving the form. Diseases are a different story: since 30 October <b>Cure Disease</b> and <b>Abolish Disease</b> work in the form (a change taken from the game data, no official note)."
       },
       {
         "es": "En Forever los efectos en el tiempo se recalculan mientras duran: si te llega un beneficio a mitad, el resto de golpes ya lo aprovecha.",
@@ -1156,9 +1156,17 @@
     {
       "es": "Cuánto pierden exactamente los rangos bajos con el poder con hechizos.",
       "en": "Exactly how much low spell ranks lose from spell power."
+    },
+    {
+      "es": "Cure Disease y Abolish Disease en Shadowform: cambio del 30-10 sacado de los datos del juego, sin nota de Blizzard; puede cambiar antes del lanzamiento.",
+      "en": "Cure Disease and Abolish Disease in Shadowform: a 30 October change taken from the game data, with no Blizzard note; it may change before launch."
     }
   ],
   "fuentes": [
+    {
+      "nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)",
+      "url": "https://foreverchanges.pro/patch-notes"
+    },
     {
       "nombre": "Notas de la beta de Blizzard (foros oficiales)",
       "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696"

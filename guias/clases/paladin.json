@@ -1,6 +1,6 @@
 {
   "slug": "paladin",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-10-31",
   "resumen": {
     "es": "El paladín es un guerrero sagrado con placas que pega, aguanta y se cura. En Forever es mucho más cómodo que en Classic: tiene un golpe nuevo desde el nivel 6 (Holy Strike), el Judgement ya no gasta el sello, Consecration y Blessing of Kings se aprenden en el entrenador y cada rama tiene talentos nuevos. Es para quien quiere una clase sólida y difícil de matar, que vale para todo: daño, tanque o sanador.",
     "en": "The paladin is a plate-wearing holy warrior who hits, endures and heals himself. In Forever it plays far smoother than in Classic: a new strike from level 6 (Holy Strike), Judgement no longer eats your seal, Consecration and Blessing of Kings come from the trainer, and every tree has new talents. Pick it if you want a sturdy, hard-to-kill class that can do it all: damage, tank or healer."
@@ -77,7 +77,7 @@
       {"nivel": 12, "nombre": "Redemption", "nuevo": false, "texto": {"es": "Resucita a un jugador fuera de combate. Se aprende con misión de clase.", "en": "Resurrects a player out of combat. Learned through a class quest."}},
       {"nivel": 14, "nombre": "Blessing of Wisdom", "nuevo": false, "texto": {"es": "Regenera maná. Ponla en vez de Might si siempre te quedas sin maná.", "en": "Restores mana over time. Use it instead of Might if you keep running dry."}},
       {"nivel": 16, "nombre": "Retribution Aura", "nuevo": false, "texto": {"es": "Daña a quien te golpea. Tu aura para subir.", "en": "Damages anything that hits you. Your leveling aura."}},
-      {"nivel": 16, "nombre": "Righteous Fury", "nuevo": false, "texto": {"es": "Mucha más amenaza con el daño sagrado. Solo para tanquear: apágala si haces daño en grupo.", "en": "Much more threat from Holy damage. Tanking only: turn it off when you DPS in a group."}},
+      {"nivel": 16, "nombre": "Righteous Fury", "nuevo": false, "texto": {"es": "Mucha más amenaza con el daño sagrado. Solo para tanquear: apágala si haces daño en grupo. Desde el 30-10 (visto en los datos, sin nota oficial de Blizzard; la descripción del juego no lo dice), la ventaja de Legacy The Quick and the Dead también la deja gratis tras resucitar, como tus hechizos de ayuda.", "en": "Much more threat from Holy damage. Tanking only: turn it off when you DPS in a group. Since 30 October (found in the game data, no official Blizzard note; the in-game tooltip doesn't say so), the Legacy perk The Quick and the Dead also makes it free after you are resurrected, like your helpful spells."}},
       {"nivel": 18, "nombre": "Blessing of Freedom", "nuevo": false, "texto": {"es": "Inmunidad a ralentizaciones y raíces durante 10 s.", "en": "Immunity to slows and roots for 10 s."}},
       {"nivel": 20, "nombre": "Consecration", "nuevo": false, "texto": {"es": "Daño sagrado en área bajo tus pies. Antes era talento; ahora la aprenden todos. Pega fuerte solo a los 4 primeros enemigos.", "en": "Holy damage on the ground around you. It used to be a talent; now everyone learns it. Hits hard only on the first 4 enemies."}},
       {"nivel": 20, "nombre": "Blessing of Kings", "nuevo": false, "texto": {"es": "+10 % a todas las estadísticas. Ahora se entrena, sin talento.", "en": "+10% to all stats. Now trained, no talent needed."}},
@@ -613,6 +613,7 @@
   ],
   "pendiente": [
     {"es": "Champion of the Light: la última nota de Blizzard lo deja en el 30 % del Intelecto; el cliente de la beta aún mostraba el 60 %. Lo confirmaremos en el juego.", "en": "Champion of the Light: Blizzard's latest note sets it to 30% of Intellect; the beta client still showed 60%. We will confirm in game."},
+    {"es": "The Quick and the Dead con Righteous Fury gratis tras resucitar: cambio del 30-10 sacado de los datos del juego, sin nota de Blizzard; puede cambiar antes del lanzamiento.", "en": "The Quick and the Dead making Righteous Fury free after a resurrection: a 30 October change taken from the game data, with no Blizzard note; it may change before launch."},
     {"es": "Equipo de banda y mejores piezas de Forever: sin datos hasta el 9-12.", "en": "Forever raid gear and best-in-slot: no data until December 9."},
     {"es": "Estadísticas a 60 y valor real de Twist of Light: la beta llegaba al nivel 30, así que nadie ha medido aún el nivel 60.", "en": "Stats at 60 and the real value of Twist of Light: the beta capped at 30, so nobody has measured level 60 yet."},
     {"es": "Misiones de clase de los paladines no-muertos (entrenadores en Deathknell, Brill y Bandarion Keep) y la misión de Summon Charger a nivel 60.", "en": "Undead paladin class quests (trainers at Deathknell, Brill and Bandarion Keep) and the level 60 Summon Charger quest."},
@@ -621,6 +622,7 @@
   ],
   "fuentes": [
     {"nombre": "Blizzard: análisis a fondo del paladín en Forever", "url": "https://news.blizzard.com/en-us/article/24302099"},
+    {"nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)", "url": "https://foreverchanges.pro/patch-notes"},
     {"nombre": "Blizzard: calendario de Forever (bandas y mazmorras)", "url": "https://news.blizzard.com/es-es/article/24303862/"},
     {"nombre": "Talents Forever (talentos, hechizos y niveles del cliente de la beta, CC BY 4.0)", "url": "https://talentsforever.com/"},
     {"nombre": "Warcraft Tavern: subir de nivel con paladín", "url": "https://www.warcrafttavern.com/forever/guides/paladin-leveling/"},
