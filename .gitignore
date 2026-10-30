@@ -17,3 +17,8 @@ gen.log
 .dev.vars
 .wrangler/
 SEGUIR-AQUI.md
+
+# 30-10: datos de Van fuera del repo público (cuenta de Cloudflare, ubicación, IDs de Discord)
+node_modules/
+zona-subs/wrangler.toml
+.mf/

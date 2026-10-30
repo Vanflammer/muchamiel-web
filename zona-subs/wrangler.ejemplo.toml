@@ -1,0 +1,16 @@
+# Zona de subs de Muchamiel (30-10-2026). Hoy en el Cloudflare de Van; se mueve al de Muchamiel después del lanzamiento.
+# COPIA DE EJEMPLO: el wrangler.toml de verdad (con los IDs de Discord) vive solo en el PC y no se sube.
+name = "muchamiel-subs"
+pages_build_output_dir = "public"
+compatibility_date = "2026-10-01"
+
+[vars]
+GUILD_ID = "1522639708176519308"          # Discord «WOW FOREVER - MUCHAMIEL»
+CLIENT_ID = "1565501143268720803"         # aplicación de Discord (de pruebas, de Van; cambiar por la de Muchamiel)
+ROLE_IDS = ""                             # roles de sub de Twitch / miembro de YouTube / Patreon, separados por comas
+ALLOW_USER_IDS = ""                       # ids de Discord que entran sin rol (pruebas)
+ADMIN_IDS = ""           # administradores (guías, eventos, preguntas): Van; añadir el id de Muchamiel
+
+[[kv_namespaces]]
+binding = "SUBS_KV"
+id = "dc074d07c40b4c99bcfde939ad8755ef"
