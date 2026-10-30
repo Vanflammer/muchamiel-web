@@ -133,6 +133,244 @@
       {"nivel": "60", "texto": {"es": "Greater Blessing of Kings, Greater Blessing of Light y Mass Salvation. Hora de elegir rama definitiva.", "en": "Greater Blessing of Kings and of Light, and Mass Salvation. Time to pick your final tree."}}
     ]
   },
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "Tanque",
+        "en": "Tank"
+      },
+      "rama": "Protection",
+      "para": {
+        "es": "Para quien quiere tanquear mazmorras mientras sube y aguantar grupos grandes con Consecration. Es más lento matando solo que Retribution, pero muy difícil de tumbar.",
+        "en": "For players who want to tank dungeons while leveling and hold big packs with Consecration. It kills more slowly solo than Retribution, but it's very hard to bring down."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Redoubt",
+          "nota": {
+            "es": "Al recibir golpes, a menudo bloqueas mucho más durante un rato. Es la base de todo el árbol.",
+            "en": "Taking hits often gives you a big block bonus for a while. It's the core of the whole tree."
+          }
+        },
+        {
+          "niveles": "15-17",
+          "puntos": "3/3 Precision",
+          "nota": {
+            "es": "Un 3 % más de golpe: fallas menos y generas amenaza más estable.",
+            "en": "3% more hit: fewer misses and steadier threat."
+          }
+        },
+        {
+          "niveles": "18-19",
+          "puntos": "2/5 Toughness",
+          "nota": {
+            "es": "Más armadura de los objetos y abre la fila 3.",
+            "en": "More armor from items, and it opens row 3."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Improved Righteous Fury",
+          "nota": {
+            "es": "Con Righteous Fury activo recibes un 6 % menos de daño. Llévalo siempre puesto cuando tanquees.",
+            "en": "With Righteous Fury active you take 6% less damage. Keep it up whenever you tank."
+          }
+        },
+        {
+          "niveles": "23-26",
+          "puntos": "1/1 Improved Seal of Fury, 3/3 Shield Specialization",
+          "nota": {
+            "es": "Seal of Fury, el sello de tanque de Forever, te devuelve maná al romperse su escudo. Tu escudo absorbe más y cada bloqueo te da maná.",
+            "en": "Seal of Fury, Forever's tank seal, returns mana when its shield breaks. Your shield absorbs more and each block gives mana."
+          }
+        },
+        {
+          "niveles": "27-29",
+          "puntos": "3/3 One-Handed Weapon Specialization",
+          "nota": {
+            "es": "Un 10 % más de daño con armas de una mano: más amenaza y matas antes cuando vas solo.",
+            "en": "10% more damage with one-handed weapons: more threat, and faster kills solo."
+          }
+        },
+        {
+          "niveles": "30-31",
+          "puntos": "1/1 Templar's Bulwark, 1/1 Swift Judgement",
+          "nota": {
+            "es": "Templar's Bulwark: un escudo igual a toda tu vida durante 8 segundos para salvar un pull. Swift Judgement reinicia Judgement y lo deja gratis.",
+            "en": "Templar's Bulwark: a shield equal to your full health for 8 seconds to save a pull. Swift Judgement resets Judgement and makes it free."
+          }
+        },
+        {
+          "niveles": "32-36",
+          "puntos": "5/5 Reckoning",
+          "nota": {
+            "es": "Tras bloquear o recibir un crítico ganas ataques extra. Con muchos enemigos encima, es mucha amenaza.",
+            "en": "Blocking or taking a crit gives you extra attacks. With a pack on you, that's a lot of threat."
+          }
+        },
+        {
+          "niveles": "37-39",
+          "puntos": "3/5 Iron Creed",
+          "nota": {
+            "es": "Holy Strike genera más amenaza y, con Righteous Fury, te hace recibir menos daño.",
+            "en": "Holy Strike generates more threat and, with Righteous Fury, reduces the damage you take."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Holy Shield",
+          "nota": {
+            "es": "Mucho más bloqueo durante 10 segundos y daño sagrado en cada bloqueo. Tenlo activo siempre que tanquees.",
+            "en": "Much more block for 10 seconds and Holy damage on every block. Keep it up whenever you tank."
+          }
+        },
+        {
+          "niveles": "41-47",
+          "puntos": "5/5 Iron Creed, 5/5 Anticipation",
+          "nota": {
+            "es": "Cierras Iron Creed y subes Defensa, clave para que los jefes te den menos golpes críticos.",
+            "en": "You finish Iron Creed and raise Defense, key to taking fewer critical hits from bosses."
+          }
+        },
+        {
+          "niveles": "48-51",
+          "puntos": "2/2 Sacred Duty, 4/5 Toughness",
+          "nota": {
+            "es": "Un 4 % más de Aguante y menos recarga en Divine Shield, Divine Protection y Templar's Bulwark.",
+            "en": "4% more Stamina and shorter cooldowns on Divine Shield, Divine Protection and Templar's Bulwark."
+          }
+        },
+        {
+          "niveles": "52-56",
+          "puntos": "5/5 Deflection (Retribution)",
+          "nota": {
+            "es": "Un 5 % más de parada: menos golpes que te llegan.",
+            "en": "5% more parry: fewer hits land on you."
+          }
+        },
+        {
+          "niveles": "57-60",
+          "puntos": "2/2 Holy Conduit (Retribution), 2/2 Improved Judgement (Retribution)",
+          "nota": {
+            "es": "Consecration, Exorcism y Hammer of Wrath mucho más baratos, y Judgement más a menudo. Acabas en 0/42/9.",
+            "en": "Much cheaper Consecration, Exorcism and Hammer of Wrath, and Judgement more often. You end at 0/42/9."
+          }
+        }
+      ],
+      "final": "0/42/9"
+    },
+    {
+      "rol": {
+        "es": "Sanador",
+        "en": "Healer"
+      },
+      "rama": "Holy",
+      "para": {
+        "es": "Para quien quiere curar mazmorras mientras sube. Solo mata despacio, así que compensa si vas a hacer muchas mazmorras o subes con un compañero; Holy Shock también sirve para pegar.",
+        "en": "For players who want to heal dungeons while leveling. Solo kills are slow, so it pays off if you run lots of dungeons or level with a friend; Holy Shock also works as an attack."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Divine Intellect",
+          "nota": {
+            "es": "Un 10 % más de Intelecto: más maná y más crítico con hechizos.",
+            "en": "10% more Intellect: more mana and more spell crit."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "3/3 Healing Light, 2/2 Spiritual Focus",
+          "nota": {
+            "es": "Holy Light y Flash of Light curan más, y casi no se retrasan cuando te pegan.",
+            "en": "Holy Light and Flash of Light heal more and barely get pushed back when you're hit."
+          }
+        },
+        {
+          "niveles": "20-24",
+          "puntos": "3/3 Reverence, 2/2 Purifying Power",
+          "nota": {
+            "es": "Parte de tu regeneración de maná sigue mientras lanzas. Cleanse más barato y Exorcism con menos recarga, que ayuda a matar solo.",
+            "en": "Part of your mana regen keeps going while casting. Cheaper Cleanse, and a shorter Exorcism cooldown that helps solo."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "5/5 Illumination",
+          "nota": {
+            "es": "Tus críticos de curación te devuelven maná. Es lo que te deja curar mazmorras enteras sin parar.",
+            "en": "Your healing crits refund mana. This is what lets you heal whole dungeons without stopping."
+          }
+        },
+        {
+          "niveles": "30-31",
+          "puntos": "1/1 Holy Shock, 1/1 Divine Favor",
+          "nota": {
+            "es": "Holy Shock cura o daña al instante. Divine Favor asegura un crítico cuando lo necesitas.",
+            "en": "Holy Shock heals or damages instantly. Divine Favor guarantees a crit when you need it."
+          }
+        },
+        {
+          "niveles": "32-36",
+          "puntos": "2/2 Infusion of Light, 3/3 Divine Precision",
+          "nota": {
+            "es": "Tras un crítico de Holy Shock o Flash of Light, tu siguiente Holy Light es más rápido. Más golpe con hechizos sagrados para no fallar Holy Shock.",
+            "en": "After a Holy Shock or Flash of Light crit, your next Holy Light casts faster. More Holy spell hit so Holy Shock lands."
+          }
+        },
+        {
+          "niveles": "37-39",
+          "puntos": "3/5 Holy Power",
+          "nota": {
+            "es": "Más crítico para Holy Shock y para el resto de hechizos. Con 30 puntos abres la fila 7.",
+            "en": "More crit for Holy Shock and your other spells. With 30 points you open row 7."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Light's Vigil",
+          "nota": {
+            "es": "Marca a un aliado: tu siguiente Holy Shock sobre él no gasta recarga. Ideal en el tanque.",
+            "en": "Mark an ally: your next Holy Shock on them triggers no cooldown. Ideal on the tank."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Holy Power, 1/1 Voice of Truth, 2/2 Unyielding Faith",
+          "nota": {
+            "es": "Cierras el crítico. Voice of Truth te deja lanzar aunque te silencien o interrumpan, y los miedos te duran menos.",
+            "en": "You finish the crit talents. Voice of Truth lets you cast through silences and interrupts, and fears last less."
+          }
+        },
+        {
+          "niveles": "46-50",
+          "puntos": "5/5 Benediction (Retribution)",
+          "nota": {
+            "es": "Todo lo instantáneo cuesta un 10 % menos de maná: Holy Shock, sellos y bendiciones.",
+            "en": "All instants cost 10% less mana: Holy Shock, seals and blessings."
+          }
+        },
+        {
+          "niveles": "51-55",
+          "puntos": "5/5 Toughness (Protection)",
+          "nota": {
+            "es": "Más armadura de los objetos para aguantar cuando algo se escapa del tanque.",
+            "en": "More armor from items to survive when something gets loose from the tank."
+          }
+        },
+        {
+          "niveles": "56-60",
+          "puntos": "3/3 Precision (Protection), 2/2 Guardian's Favor (Protection)",
+          "nota": {
+            "es": "Un 3 % más de golpe y Blessing of Protection con menos recarga para salvar a quien esté en apuros. Acabas en 36/10/5.",
+            "en": "3% more hit and a shorter Blessing of Protection cooldown to save whoever is in trouble. You end at 36/10/5."
+          }
+        }
+      ],
+      "final": "36/10/5"
+    }
+  ],
   "nivel60": {
     "intro": {
       "es": "A nivel 60 hay tres repartos claros, sacados de las builds más planificadas en la calculadora con los datos del cliente de la beta. Las bandas llegan el 9 de diciembre y aún no hay listas de equipo ni registros reales: las prioridades de abajo son las que dan las guías de la beta y pueden cambiar.",

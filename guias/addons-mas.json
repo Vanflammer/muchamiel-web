@@ -1,8 +1,8 @@
 {
   "actualizado": "2026-10-30",
   "intro": {
-    "es": "Más addons para WoW Forever, además de los de arriba: los básicos de siempre que ya tienen versión para Forever y algunos nuevos hechos para este cliente. Hemos comprobado en su página de descarga que cada uno tiene un archivo marcado «Forever» (a 30 de octubre de 2026). Los que salen como beta funcionan, pero todavía cambian a menudo. Instala siempre el archivo de Forever, no el de Classic ni el de Retail.",
-    "en": "More add-ons for WoW Forever on top of the ones above: the usual essentials that already have a Forever build, plus a few new ones made for this client. We checked each download page for a file tagged \"Forever\" (as of 30 October 2026). The ones marked beta work, but they still change often. Always install the Forever file, not the Classic or Retail one."
+    "es": "Más addons para WoW Forever, además de los de arriba: los básicos de siempre que ya tienen versión para Forever y algunos nuevos hechos para este cliente. Hemos comprobado en su página de descarga que cada uno tiene un archivo marcado «Forever» (a 30 de octubre de 2026). Los que salen como beta funcionan, pero todavía cambian a menudo. Instala siempre el archivo de Forever, no el de Classic ni el de Retail. <b>Cómo instalarlos:</b> lo más fácil es la app de CurseForge: elige World of Warcraft, luego la versión de Forever, busca el addon y pulsa Instalar; también los mantiene al día. A mano: descarga el .zip y descomprímelo en la carpeta Interface\\AddOns de tu instalación de Forever, y reinicia el juego. WowUp aún no tiene confirmado que funcione con Forever.",
+    "en": "More add-ons for WoW Forever on top of the ones above: the usual essentials that already have a Forever build, plus a few new ones made for this client. We checked each download page for a file tagged \"Forever\" (as of 30 October 2026). The ones marked beta work, but they still change often. Always install the Forever file, not the Classic or Retail one. <b>How to install them:</b> the easiest way is the CurseForge app: pick World of Warcraft, then the Forever version, search for the addon and click Install; it also keeps them updated. By hand: download the .zip, unzip it into the Interface\\AddOns folder of your Forever install and restart the game. WowUp is not yet confirmed to work with Forever."
   },
   "grupos": [
     {
@@ -160,6 +160,24 @@
             "en": "A small countdown bar for every DoT, bleed, poison or crowd control you have on each visible enemy, so you know when to refresh it. It reads your spells from the spellbook, works for every class and turns red in the last five seconds. Forever only, in beta."
           },
           "url": "https://www.curseforge.com/wow/addons/dot-ledger"
+        },
+        {
+          "nombre": "ThreatClassic2",
+          "forever": "si",
+          "que_hace": {
+            "es": "El medidor de amenaza de siempre en Classic, con archivo para Forever (versión «forever»): una barra por cada miembro del grupo con su amenaza sobre tu objetivo, para saber cuánto te falta para quitarle el monstruo al tanque (al 110 % cuerpo a cuerpo, al 130 % a distancia). Forever ya trae un indicador propio (busca «Threat» en Opciones: Aggro Display); esto es para ver los números de todos. Para DPS, tanques y cazadores o brujos que tanquean con la mascota.",
+            "en": "The classic threat meter, with a Forever file (the \"forever\" build): one bar per group member with their threat on your target, so you know how close you are to pulling the mob off the tank (110% in melee, 130% at range). Forever already has its own indicator (search \"Threat\" in Options: Aggro Display); this is for seeing everyone's numbers. For DPS, tanks, and hunters or warlocks who tank with their pet."
+          },
+          "url": "https://www.curseforge.com/wow/addons/threatclassic2"
+        },
+        {
+          "nombre": "ForeverThreat - Threat Meter for WoW Forever",
+          "forever": "si",
+          "que_hace": {
+            "es": "Medidor de amenaza al estilo de Omen hecho para Forever: amenaza del grupo o de la banda en directo, detecta al tanque, avisa antes de que te quites el monstruo y deja usar el foco como fuente. Tiene textos en castellano. Es el más descargado de los hechos para Forever. Según los autores de este tipo de addons, el juego oculta las cifras con algunos enemigos (jefes); si pasa, el medidor solo puede ordenar al grupo. Usa uno solo: este o ThreatClassic2.",
+            "en": "An Omen-style threat meter made for Forever: live group or raid threat, tank detection, a warning before you pull aggro, and your focus can be the threat source. It includes Spanish text. It's the most downloaded of the ones made for Forever. According to the authors of add-ons like this, the game hides the numbers on some enemies (bosses); when that happens the meter can only sort the group. Use just one: this or ThreatClassic2."
+          },
+          "url": "https://www.curseforge.com/wow/addons/foreverthreat-threat-meter-for-wow-forever"
         }
       ]
     },
@@ -236,6 +254,14 @@
     {
       "nombre": "Mein-MMO: addons más importantes de WoW Forever",
       "url": "https://mein-mmo.de/en/wow-forever-the-10-most-important-addons-and-how-to-install-them,1593699/"
+    },
+    {
+      "nombre": "CurseForge: ThreatClassic2 (archivos, con versión Forever)",
+      "url": "https://www.curseforge.com/wow/addons/threatclassic2/files"
+    },
+    {
+      "nombre": "CurseForge: ForeverThreat - Threat Meter for WoW Forever",
+      "url": "https://www.curseforge.com/wow/addons/foreverthreat-threat-meter-for-wow-forever"
     }
   ]
 }

@@ -1,0 +1,1072 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Respuestas cortas a lo que más se pregunta del cazador en WoW Forever. Cada una lleva su estado: <b>forever</b> (Blizzard lo ha confirmado para el juego), <b>beta</b> (visto en la beta o en el cliente de la beta, que llegaba al nivel 30; puede cambiar) o <b>classic</b> (dato de WoW Classic que Forever no ha tocado, pero sin comprobar). Para la mascota en detalle, mira la guía de Mascotas; para talentos, rotación y builds, la guía del Cazador.",
+    "en": "Short answers to the most common Hunter questions in WoW Forever. Each one is tagged: <b>forever</b> (confirmed by Blizzard for the game), <b>beta</b> (seen in the beta or its client, which capped at level 30; it may change) or <b>classic</b> (WoW Classic info Forever hasn't touched, but not verified). For pets in depth see the Pets guide; for talents, rotation and builds, see the Hunter guide."
+  },
+  "grupos": [
+    {
+      "titulo": {
+        "es": "Munición y carcaj",
+        "en": "Ammo and quivers"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿En Forever el cazador sigue gastando munición?",
+            "en": "Do Hunters still use ammo in Forever?"
+          },
+          "r": {
+            "es": "Sí. Cada disparo gasta una flecha o una bala, y si te quedas sin munición tus disparos dejan de funcionar. Compra varias pilas cada vez que pases por un vendedor.",
+            "en": "Yes. Every shot uses an arrow or a bullet, and if you run out your shots stop working. Buy several stacks whenever you pass a vendor."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Flechas o balas?",
+            "en": "Arrows or bullets?"
+          },
+          "r": {
+            "es": "Flechas para arcos y ballestas; balas para armas de fuego. Si cambias de tipo de arma, cambia también de munición.",
+            "en": "Arrows for bows and crossbows; bullets for guns. If you switch weapon type, switch ammo too."
+          },
+          "estado": "classic"
+        },
+        {
+          "p": {
+            "es": "¿Para qué sirve el carcaj o la bolsa de munición?",
+            "en": "What does a quiver or ammo pouch do?"
+          },
+          "r": {
+            "es": "Ocupa un hueco de bolsa y solo guarda munición (carcaj para flechas, bolsa para balas). En Classic además daba velocidad de disparo. Algunas bases de datos de Forever lo muestran igual que en Classic, pero Blizzard no lo ha confirmado. Lleva siempre el más grande que tengas.",
+            "en": "It takes a bag slot and only holds ammo (quiver for arrows, pouch for bullets). In Classic it also gave ranged attack speed. Some Forever databases show it unchanged from Classic, but Blizzard hasn't confirmed it. Always use the largest one you have."
+          },
+          "estado": "classic"
+        },
+        {
+          "p": {
+            "es": "¿La calidad de la munición cambia el daño?",
+            "en": "Does better ammo mean more damage?"
+          },
+          "r": {
+            "es": "Sí: en Classic la munición suma daño a cada disparo, así que usa la de mayor nivel que puedas llevar. La Ingeniería fabrica balas buenas.",
+            "en": "Yes: in Classic ammo adds damage to every shot, so use the highest level you can equip. Engineering crafts good bullets."
+          },
+          "estado": "classic"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Disparar",
+        "en": "Shooting"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Por qué no sale el Auto Shot cuando me muevo?",
+            "en": "Why doesn't Auto Shot fire while I move?"
+          },
+          "r": {
+            "es": "Desde el 15 de octubre, <b>Auto Shot</b> necesita medio segundo quieto antes de cada disparo, como en el WoW original. El ritmo es: paras, dispara, te mueves, vuelves a parar. Los instantáneos sí se lanzan corriendo.",
+            "en": "Since 15 October, <b>Auto Shot</b> needs half a second standing still before each shot, like original WoW. The rhythm is: stop, it fires, move, stop again. Instant shots still work on the move."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué es la zona muerta?",
+            "en": "What is the dead zone?"
+          },
+          "r": {
+            "es": "Los disparos van de 8 a 35 metros. Entre el cuerpo a cuerpo y los 8 metros no puedes disparar ni pegar. Sal con <b>Wing Clip</b> y unos pasos, o activa en Opciones «Auto Attack/Auto Shot» para que el juego cambie solo entre golpe y disparo.",
+            "en": "Shots work from 8 to 35 yards. Between melee range and 8 yards you can neither shoot nor hit. Get out with <b>Wing Clip</b> and a few steps, or turn on «Auto Attack/Auto Shot» in Options so the game swaps between melee and shooting for you."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Aimed Shot sigue siendo un talento?",
+            "en": "Is Aimed Shot still a talent?"
+          },
+          "r": {
+            "es": "No. Lo aprenden todos los cazadores en el instructor a nivel 20. Tiene 2 segundos de lanzamiento y comparte 6 segundos de reutilización con <b>Multi-Shot</b>.",
+            "en": "No. Every Hunter learns it from the trainer at level 20. It has a 2-second cast and shares a 6-second cooldown with <b>Multi-Shot</b>."
+          },
+          "estado": "forever"
+        },
+        {
+          "p": {
+            "es": "¿Aimed Shot me corta el Auto Shot?",
+            "en": "Does Aimed Shot clip my Auto Shot?"
+          },
+          "r": {
+            "es": "No: en Forever el <b>Auto Shot</b> sigue disparando mientras lanzas <b>Aimed Shot</b> o <b>Sniper Shot</b>. Lánzalo cada vez que esté listo, sin calcular tiempos.",
+            "en": "No: in Forever <b>Auto Shot</b> keeps firing while you cast <b>Aimed Shot</b> or <b>Sniper Shot</b>. Cast it whenever it's ready, no timing tricks needed."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué puedo lanzar mientras corro?",
+            "en": "What can I use while running?"
+          },
+          "r": {
+            "es": "Todo lo instantáneo: <b>Arcane Shot</b>, <b>Concussive Shot</b>, <b>Multi-Shot</b>, las picaduras, <b>Summon Hawk</b> y las trampas. Lo que no sale corriendo es el <b>Auto Shot</b> y lo que tiene tiempo de lanzamiento.",
+            "en": "Anything instant: <b>Arcane Shot</b>, <b>Concussive Shot</b>, <b>Multi-Shot</b>, stings, <b>Summon Hawk</b> and traps. What won't go off on the move is <b>Auto Shot</b> and anything with a cast time."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Se puede disparar más lejos?",
+            "en": "Can I shoot from further away?"
+          },
+          "r": {
+            "es": "Sí, con Marksmanship: <b>Hawk Eye</b> suma 6 metros al arma a distancia y <b>Sniper Shot</b> (talento final) dispara desde 45 metros y da 10 metros más a tus 3 disparos siguientes durante 10 segundos.",
+            "en": "Yes, with Marksmanship: <b>Hawk Eye</b> adds 6 yards to your ranged weapon and <b>Sniper Shot</b> (the final talent) fires from 45 yards and gives your next 3 shots 10 extra yards for 10 seconds."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Aspectos y utilidad",
+        "en": "Aspects and utility"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué aspecto llevo puesto?",
+            "en": "Which aspect should I keep on?"
+          },
+          "r": {
+            "es": "Solo puedes tener uno. <b>Aspect of the Hawk</b> para luchar a distancia; <b>Aspect of the Monkey</b> (más esquiva) antes del 10 o si te pegan; <b>Aspect of the Beast</b> en Survival (en Forever da poder de ataque de melé); <b>Aspect of the Wild</b> (nivel 46) si el grupo necesita resistencia a naturaleza.",
+            "en": "You can only have one. <b>Aspect of the Hawk</b> for ranged fighting; <b>Aspect of the Monkey</b> (more dodge) before 10 or when you're being hit; <b>Aspect of the Beast</b> as Survival (in Forever it adds melee attack power); <b>Aspect of the Wild</b> (level 46) when the group needs Nature resistance."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cheetah o Pack?",
+            "en": "Cheetah or Pack?"
+          },
+          "r": {
+            "es": "<b>Aspect of the Cheetah</b> (nivel 20) te da un 30 % de velocidad; <b>Aspect of the Pack</b> (nivel 40) se lo da a todo el grupo cercano. Con los dos, cualquier golpe aturde 4 segundos: quítalos antes de pelear y no uses Pack en una mazmorra con enemigos cerca.",
+            "en": "<b>Aspect of the Cheetah</b> (level 20) gives you 30% speed; <b>Aspect of the Pack</b> (level 40) gives it to your nearby group. With either, any hit dazes for 4 seconds: drop them before a fight and don't use Pack in a dungeon near enemies."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Para qué sirve el rastreo?",
+            "en": "What is tracking for?"
+          },
+          "r": {
+            "es": "Muestra en el minimapa un tipo de criatura: bestias (nivel 1), humanoides (10), no-muertos (18), ocultos (24), elementales (26), demonios (32), gigantes (40) y dragones (50). Solo uno a la vez. En Survival, <b>Improved Tracking</b> (nuevo) da un 5 % más de daño al tipo que rastreas.",
+            "en": "It shows one creature type on the minimap: Beasts (level 1), Humanoids (10), Undead (18), Hidden (24), Elementals (26), Demons (32), Giants (40) and Dragonkin (50). Only one at a time. As Survival, <b>Improved Tracking</b> (new) adds 5% damage to the tracked type."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cómo funciona Feign Death?",
+            "en": "How does Feign Death work?"
+          },
+          "r": {
+            "es": "Se aprende a nivel 30 y tiene 30 segundos de reutilización. Los enemigos te sueltan y pierdes la amenaza, pero puede fallar. Si lo dejas puesto 6 minutos, mueres de verdad. En Forever ya no hace falta para poner trampas.",
+            "en": "You learn it at 30 and it has a 30-second cooldown. Enemies drop you and your threat is wiped, but it can be resisted. Leave it on for 6 minutes and you really die. In Forever you no longer need it to lay traps."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué hace Eyes of the Beast?",
+            "en": "What does Eyes of the Beast do?"
+          },
+          "r": {
+            "es": "Desde el nivel 14 controlas a la mascota y ves por sus ojos, sin límite de distancia. En Forever dura 2 minutos (en Classic, 1). Sirve para explorar o tirar de un enemigo desde lejos.",
+            "en": "From level 14 you take control of your pet and see through its eyes at any range. In Forever it lasts 2 minutes (1 in Classic). Handy for scouting or pulling from afar."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Flare o Enchanted Flare?",
+            "en": "Flare or Enchanted Flare?"
+          },
+          "r": {
+            "es": "Los dos salen a nivel 32 en el cliente y revelan enemigos ocultos o invisibles en 10 metros durante 30 segundos. <b>Flare</b> tiene 15 s de reutilización; <b>Enchanted Flare</b> (nuevo) tiene 30 s pero además aparta la oscuridad mágica. Cómo conviven al lanzamiento está por confirmar.",
+            "en": "Both show up at level 32 in the client and reveal hidden or invisible enemies within 10 yards for 30 seconds. <b>Flare</b> has a 15 sec cooldown; <b>Enchanted Flare</b> (new) has 30 sec but also wards off magical darkness. How they coexist at launch is still unconfirmed."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Existen Wyvern Sting y Scatter Shot?",
+            "en": "Do Wyvern Sting and Scatter Shot exist?"
+          },
+          "r": {
+            "es": "<b>Wyvern Sting</b> no está en Forever. <b>Scatter Shot</b> sí, pero ahora es un talento de Marksmanship: desorienta 4 segundos a 15 metros y cualquier daño lo rompe.",
+            "en": "<b>Wyvern Sting</b> is not in Forever. <b>Scatter Shot</b> is, but it is now a Marksmanship talent: a 4-second disorient at 15 yards that breaks on any damage."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Scorpid Sting sigue bajando Fuerza y Agilidad?",
+            "en": "Does Scorpid Sting still lower Strength and Agility?"
+          },
+          "r": {
+            "es": "No. En Forever (nivel 22) baja un 2 % la probabilidad de golpe del objetivo durante 20 segundos.",
+            "en": "No. In Forever (level 22) it lowers the target's chance to hit by 2% for 20 seconds."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Trampas",
+        "en": "Traps"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Las trampas se pueden poner en combate?",
+            "en": "Can I lay traps in combat?"
+          },
+          "r": {
+            "es": "Sí. Es uno de los grandes cambios de Forever: ya no hace falta salir de combate ni usar Feign Death antes.",
+            "en": "Yes. It is one of Forever's big changes: no need to leave combat or Feign Death first."
+          },
+          "estado": "forever"
+        },
+        {
+          "p": {
+            "es": "¿Cuántas trampas puedo tener a la vez?",
+            "en": "How many traps can I have out?"
+          },
+          "r": {
+            "es": "Dos: una de fuego (<b>Immolation</b> o <b>Explosive</b>) y una de hielo (<b>Freezing</b> o <b>Frost</b>). Cada trampa dura 1 minuto en el suelo y tiene 30 segundos de reutilización.",
+            "en": "Two: one Fire (<b>Immolation</b> or <b>Explosive</b>) and one Frost (<b>Freezing</b> or <b>Frost</b>). Each trap stays on the ground for 1 minute and has a 30-second cooldown."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿A qué nivel llega cada trampa?",
+            "en": "At what level does each trap come?"
+          },
+          "r": {
+            "es": "<b>Immolation Trap</b> a 16, <b>Freezing Trap</b> a 20, <b>Frost Trap</b> a 28 y <b>Explosive Trap</b> a 34. Las de fuego ahora escalan con tu poder de ataque.",
+            "en": "<b>Immolation Trap</b> at 16, <b>Freezing Trap</b> at 20, <b>Frost Trap</b> at 28 and <b>Explosive Trap</b> at 34. Fire traps now scale with your attack power."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cuánto congela Freezing Trap?",
+            "en": "How long does Freezing Trap last?"
+          },
+          "r": {
+            "es": "Hasta 10, 15 o 20 segundos según el rango (niveles 20, 40 y 60), y <b>Clever Traps</b> (Survival) lo alarga un 30 %. Cualquier daño rompe el hielo, también tu mascota o un daño en el tiempo.",
+            "en": "Up to 10, 15 or 20 seconds by rank (levels 20, 40 and 60), and <b>Clever Traps</b> (Survival) adds 30%. Any damage breaks the ice, including your pet or a damage-over-time effect."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué hace Entrapment?",
+            "en": "What does Entrapment do?"
+          },
+          "r": {
+            "es": "Talento de Survival: quien pisa tu trampa queda enraizado 5 segundos. Con <b>Frost Trap</b> solo salta al activarse, no cada segundo, y tiene rendimientos decrecientes en JcJ.",
+            "en": "A Survival talent: whoever triggers your trap is rooted for 5 seconds. With <b>Frost Trap</b> it only fires on activation, not every tick, and it has diminishing returns in PvP."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Mascota básica",
+        "en": "Pet basics"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Cuándo tengo mascota?",
+            "en": "When do I get a pet?"
+          },
+          "r": {
+            "es": "A nivel 10, con la cadena de misiones del instructor. No te saltes el último paso: ir al instructor de tu capital, que te enseña <b>Feed Pet</b>, <b>Revive Pet</b> y <b>Beast Training</b>. Todo el detalle está en la guía de Mascotas.",
+            "en": "At level 10, through the trainer's quest chain. Don't skip the last step: visiting the trainer in your capital, who teaches <b>Feed Pet</b>, <b>Revive Pet</b> and <b>Beast Training</b>. Full details are in the Pets guide."
+          },
+          "estado": "forever"
+        },
+        {
+          "p": {
+            "es": "¿Qué mascota es mejor para subir?",
+            "en": "Which pet is best for leveling?"
+          },
+          "r": {
+            "es": "Felino si quieres daño; jabalí, oso o tortuga si quieres que aguante. Lo que manda es la familia, porque cada una tiene su truco. Tabla completa en la guía de Mascotas.",
+            "en": "A cat for damage; a boar, bear or turtle for staying power. The family is what matters, since each has its own trick. Full table in the Pets guide."
+          },
+          "estado": "forever"
+        },
+        {
+          "p": {
+            "es": "¿Puedo domar una bestia de más nivel que yo?",
+            "en": "Can I tame a beast above my level?"
+          },
+          "r": {
+            "es": "No: en Forever <b>Tame Beast</b> no funciona con bestias de nivel superior al tuyo.",
+            "en": "No: in Forever <b>Tame Beast</b> doesn't work on beasts higher level than you."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "Mi mascota no ataca sola, ¿dónde está el modo agresivo?",
+            "en": "My pet won't attack on its own. Where is Aggressive mode?"
+          },
+          "r": {
+            "es": "En la pestaña de mascota del libro de hechizos. Para mazmorras es mejor <b>Defensive</b> o <b>Passive</b>, para no tirar de enemigos por tu cuenta.",
+            "en": "In the pet tab of your spellbook. In dungeons <b>Defensive</b> or <b>Passive</b> is safer, so it doesn't pull on its own."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Por qué mi mascota hace poco daño?",
+            "en": "Why is my pet doing so little damage?"
+          },
+          "r": {
+            "es": "Casi siempre es la felicidad: contenta pega al 125 %, descontenta al 75 %. Dale comida de su dieta y cercana a su nivel, fuera de combate. Revisa también que tenga los rangos nuevos de sus habilidades.",
+            "en": "Almost always happiness: a happy pet hits at 125%, an unhappy one at 75%. Feed it food from its diet near its level, out of combat. Also check it has its latest ability ranks."
+          },
+          "estado": "forever"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Talentos y ramas",
+        "en": "Talents and specs"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué rama elijo para subir?",
+            "en": "Which spec should I level as?"
+          },
+          "r": {
+            "es": "Beast Mastery: la mascota tanquea y desde el 25 sumas dos halcones con <b>Summon Hawk</b>. Al completar la rama en el 40, los puntos van a Marksmanship. Orden de puntos en la guía del Cazador.",
+            "en": "Beast Mastery: your pet tanks and from 25 you add two hawks with <b>Summon Hawk</b>. Once the tree is done at 40, points go into Marksmanship. Point order is in the Hunter guide."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Hay doble especialización?",
+            "en": "Is there dual spec?"
+          },
+          "r": {
+            "es": "Sí, desde el nivel 40 en el instructor de clase: guardas dos builds y cambias entre ellas. Por ejemplo, una para mazmorras y otra para JcJ.",
+            "en": "Yes, from level 40 at your class trainer: you save two builds and swap between them, for example one for dungeons and one for PvP."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué es Lone Wolf?",
+            "en": "What is Lone Wolf?"
+          },
+          "r": {
+            "es": "Talento nuevo de Marksmanship: un 20 % más de daño con todos tus ataques mientras no tengas mascota fuera. Las builds más planificadas de Marksmanship y Survival para el 60 lo llevan. Para subir, mejor con mascota.",
+            "en": "A new Marksmanship talent: 20% more damage with all attacks while you have no pet out. The most-planned Marksmanship and Survival builds for 60 take it. For leveling, keep your pet."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Survival es de cuerpo a cuerpo?",
+            "en": "Is Survival a melee spec?"
+          },
+          "r": {
+            "es": "Sí, en Forever es la rama de melé del cazador: <b>Strider Kick</b>, <b>Lacerate</b>, <b>Mongoose Bite</b> con <b>Expose Prey</b> y <b>Predator's Edge</b> (un 50 % más de daño de la mano izquierda si llevas dos armas). Necesitas un buen arma de melé.",
+            "en": "Yes, in Forever it is the Hunter's melee tree: <b>Strider Kick</b>, <b>Lacerate</b>, <b>Mongoose Bite</b> with <b>Expose Prey</b>, and <b>Predator's Edge</b> (50% more off-hand damage if you dual-wield). You need a good melee weapon."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cuánto cuesta cambiar los talentos?",
+            "en": "How much does a respec cost?"
+          },
+          "r": {
+            "es": "En Classic el precio sube con cada cambio y baja con el tiempo. En la beta costaba 1 de plata de forma temporal; el precio del lanzamiento no se ha publicado.",
+            "en": "In Classic the price rises with each respec and drops over time. In the beta it cost 1 silver as a temporary measure; the launch price hasn't been published."
+          },
+          "estado": "classic"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Equipo y estadísticas",
+        "en": "Gear and stats"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué estadística busco?",
+            "en": "Which stat should I look for?"
+          },
+          "r": {
+            "es": "Agilidad ante todo: da poder de ataque a distancia y crítico. Después golpe (hasta un 9 % contra jefes). En Marksmanship el Intelecto también vale, porque <b>Careful Aim</b> lo convierte en poder de ataque.",
+            "en": "Agility first: it gives ranged attack power and crit. Then hit (up to 9% against bosses). As Marksmanship, Intellect matters too, since <b>Careful Aim</b> turns it into attack power."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cuándo llevo malla?",
+            "en": "When do I wear mail?"
+          },
+          "r": {
+            "es": "Como en Classic, a nivel 40. Hasta entonces, cuero. No cambies una pieza de cuero buena por una de malla peor: manda la Agilidad, no el tipo de armadura.",
+            "en": "As in Classic, at level 40. Until then, leather. Don't swap a good leather piece for a worse mail one: Agility matters more than armor type."
+          },
+          "estado": "classic"
+        },
+        {
+          "p": {
+            "es": "¿Qué armas puedo usar?",
+            "en": "Which weapons can I use?"
+          },
+          "r": {
+            "es": "Arcos, ballestas, armas de fuego y arrojadizas; dagas, armas de puño, hachas y espadas; bastones y armas de asta. Mazas, no. Aprende los tres tipos a distancia en el maestro de armas para usar la mejor que encuentres.",
+            "en": "Bows, crossbows, guns and thrown; daggers, fist weapons, axes and swords; staves and polearms. No maces. Learn all three ranged types from a weapon master so you can use the best one you find."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Importa el arma de melé si juego a distancia?",
+            "en": "Does my melee weapon matter if I play ranged?"
+          },
+          "r": {
+            "es": "Solo por sus estadísticas: busca un arma a dos manos con Agilidad y Aguante. Su daño solo cuenta si juegas Survival.",
+            "en": "Only for its stats: look for a two-hander with Agility and Stamina. Its damage only matters if you play Survival."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Profesiones",
+        "en": "Professions"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué profesiones me convienen?",
+            "en": "Which professions suit a Hunter?"
+          },
+          "r": {
+            "es": "Peletería y Desuello: equipo de cuero con Agilidad desde nivel bajo (el <b>Brawler's Leather Helm</b> destacó en la beta) y pieles de todo lo que matas. Ingeniería y Minería si te interesa el JcJ: balas, miras y artilugios.",
+            "en": "Leatherworking and Skinning: Agility leather gear from low levels (the <b>Brawler's Leather Helm</b> stood out in the beta) and hides from everything you kill. Engineering and Mining if you're into PvP: bullets, scopes and gadgets."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Y las secundarias?",
+            "en": "What about secondary professions?"
+          },
+          "r": {
+            "es": "Cocina para la comida que da bonificación (y para la mascota), Pesca para dinero y comida, y Primeros auxilios, que en Forever también hace pociones de sanación. Con la mascota tanqueando o un enemigo congelado, te da tiempo a vendarte.",
+            "en": "Cooking for buff food (and pet food), Fishing for gold and food, and First Aid, which also makes healing potions in Forever. With your pet tanking or an enemy frozen, you have time to bandage."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Subir de nivel",
+        "en": "Leveling"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Cómo sobrevivo antes del nivel 10?",
+            "en": "How do I survive before level 10?"
+          },
+          "r": {
+            "es": "Dispara desde lejos y aléjate cuando se acerquen. Desde el 8, <b>Concussive Shot</b> los frena. Con <b>Aspect of the Monkey</b> esquivas más los golpes que te lleguen.",
+            "en": "Shoot from range and back off when they close in. From 8, <b>Concussive Shot</b> slows them. <b>Aspect of the Monkey</b> helps you dodge the hits that land."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cada cuánto voy al instructor?",
+            "en": "How often should I visit the trainer?"
+          },
+          "r": {
+            "es": "Cada dos niveles: casi todo sube de rango en niveles pares. Aprende también los rangos nuevos de las habilidades de la mascota.",
+            "en": "Every two levels: most spells rank up on even levels. Also learn new ranks of your pet's abilities."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cómo encadeno enemigos sin parar?",
+            "en": "How do I chain-pull?"
+          },
+          "r": {
+            "es": "Mientras la mascota remata al primero, pon <b>Serpent Sting</b> al siguiente o déjale una trampa de fuego. Guarda siempre maná para un control o para <b>Feign Death</b> si algo se tuerce.",
+            "en": "While your pet finishes the first one, put <b>Serpent Sting</b> on the next or leave a fire trap for it. Always keep mana for a crowd control or <b>Feign Death</b> if things go wrong."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Por qué el enemigo viene a por mí y no a por la mascota?",
+            "en": "Why does the enemy come for me instead of my pet?"
+          },
+          "r": {
+            "es": "Porque disparas demasiado pronto. Deja que la mascota dé dos o tres golpes antes de empezar. Si aun así viene, <b>Disengage</b> (en Forever quita el doble de amenaza) y deja que la mascota lo recupere.",
+            "en": "Because you shoot too early. Let your pet land two or three hits first. If it still comes, <b>Disengage</b> (it sheds twice the threat in Forever) and let your pet take it back."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Algún truco para descansar menos?",
+            "en": "Any tips to rest less?"
+          },
+          "r": {
+            "es": "Come comida que dé bonificación, lleva agua de tu nivel y, si te paras junto a una hoguera, llama a la mascota allí para recibir también la bonificación de acampada.",
+            "en": "Eat buff food, carry water for your level and, if you stop by a campfire, call your pet there so it gets the camping buff too."
+          },
+          "estado": "beta"
+        }
+      ]
+    },
+    {
+      "titulo": {
+        "es": "Mazmorras y bandas",
+        "en": "Dungeons and raids"
+      },
+      "preguntas": [
+        {
+          "p": {
+            "es": "¿Qué hace el cazador en grupo?",
+            "en": "What is the Hunter's job in a group?"
+          },
+          "r": {
+            "es": "Daño a distancia, <b>Freezing Trap</b> para controlar a un enemigo y mejoras para el grupo: <b>Hunter's Mark</b>, <b>Trueshot Aura</b> (Marksmanship, ahora para toda la banda) y <b>Aspect of the Wild</b>.",
+            "en": "Ranged damage, <b>Freezing Trap</b> to control one enemy, and group buffs: <b>Hunter's Mark</b>, <b>Trueshot Aura</b> (Marksmanship, now raid-wide) and <b>Aspect of the Wild</b>."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Qué hago con la mascota en una mazmorra?",
+            "en": "What do I do with my pet in a dungeon?"
+          },
+          "r": {
+            "es": "Quítale <b>Growl</b> de lanzamiento automático para no robarle enemigos al tanque, ponla en <b>Defensive</b> o <b>Passive</b> y mándala con /petattack al objetivo del tanque. Si se lleva golpes de área, <b>Mend Pet</b>.",
+            "en": "Turn off <b>Growl</b> autocast so it doesn't steal mobs from the tank, set it to <b>Defensive</b> or <b>Passive</b> and send it with /petattack to the tank's target. If it takes area damage, <b>Mend Pet</b>."
+          },
+          "estado": "classic"
+        },
+        {
+          "p": {
+            "es": "¿Para qué sirve Hunter's Mark en grupo?",
+            "en": "What does Hunter's Mark do in a group?"
+          },
+          "r": {
+            "es": "Sube el poder de ataque a distancia de todos los que atacan al objetivo marcado y te deja verlo aunque entre en sigilo. Solo cabe una marca por objetivo: poneos de acuerdo si hay varios cazadores.",
+            "en": "It raises the ranged attack power of everyone attacking the marked target and lets you see it even in stealth. Only one mark fits per target: agree with the other Hunters."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Existe Tranquilizing Shot?",
+            "en": "Does Tranquilizing Shot exist?"
+          },
+          "r": {
+            "es": "Sí. En el cliente de Forever se aprende a nivel 60: quita un efecto de frenesí a un enemigo, a 8-35 metros y con 20 segundos de reutilización. En Classic era un libro que caía en Molten Core; en Forever aún no se ha podido comprobar en el juego.",
+            "en": "Yes. In the Forever client it's learned at level 60: it removes one Frenzy effect from an enemy, at 8-35 yards with a 20-second cooldown. In Classic it was a tome dropped in Molten Core; in Forever it hasn't been checked in game yet."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Cómo controlo mi amenaza?",
+            "en": "How do I manage threat?"
+          },
+          "r": {
+            "es": "Espera a que el tanque tenga al enemigo antes de soltar <b>Multi-Shot</b> o <b>Volley</b>. Si se gira hacia ti, <b>Feign Death</b> borra tu amenaza y <b>Disengage</b> la baja si está a tu lado. <b>Distracting Shot</b> hace lo contrario: genera amenaza para quitarle un enemigo a un sanador en un apuro.",
+            "en": "Wait until the tank has the mob before using <b>Multi-Shot</b> or <b>Volley</b>. If it turns on you, <b>Feign Death</b> wipes your threat and <b>Disengage</b> lowers it in melee range. <b>Distracting Shot</b> does the opposite: it builds threat to peel a mob off a healer in an emergency."
+          },
+          "estado": "beta"
+        },
+        {
+          "p": {
+            "es": "¿Hay Misdirection?",
+            "en": "Is there Misdirection?"
+          },
+          "r": {
+            "es": "No. Misdirection llegó con The Burning Crusade y no aparece en el libro de hechizos de Forever.",
+            "en": "No. Misdirection came with The Burning Crusade and isn't in Forever's spellbook."
+          },
+          "estado": "beta"
+        }
+      ]
+    }
+  ],
+  "armas": [
+    {
+      "nivel": "7",
+      "nombre": "Hickory Shortbow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Securing the Lines» en Durotar. Horda.",
+        "en": "Quest «Securing the Lines» in Durotar. Horde."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "11",
+      "nombre": "Daryl's Hunting Bow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «A Hunter's Boast» en Loch Modan. Alianza.",
+        "en": "Quest «A Hunter's Boast» in Loch Modan. Alliance."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "13-16",
+      "nombre": "Barbaric Crossbow",
+      "tipo": {
+        "es": "Ballesta",
+        "en": "Crossbow"
+      },
+      "como": {
+        "es": "Sima Ígnea (Ragefire Chasm), jefe Oggleflint. Objeto nuevo de Forever. La mazmorra está en Orgrimmar: en la práctica, Horda.",
+        "en": "Ragefire Chasm, boss Oggleflint. A new Forever item. The dungeon is inside Orgrimmar, so in practice Horde."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "13-16",
+      "nombre": "Calibrated Blunderbuss",
+      "tipo": {
+        "es": "Fusil (arma de fuego)",
+        "en": "Gun"
+      },
+      "como": {
+        "es": "Misión «Old Ironforge Incursion» del Hall of Thanes: la da Earthseer Farsen en Dun Morogh; matas a Durgen Dirgehammer y entregas su cabeza al rey Magni. Alianza.",
+        "en": "Hall of Thanes quest «Old Ironforge Incursion»: from Earthseer Farsen in Dun Morogh; kill Durgen Dirgehammer and bring his head to King Magni. Alliance."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "19-22",
+      "nombre": "Venomstrike",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Cuevas de los Lamentos (Wailing Caverns), jefe Lord Serpentis. Ambas facciones.",
+        "en": "Wailing Caverns, boss Lord Serpentis. Both factions."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "20",
+      "nombre": "Cliffrunner's Aim",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «The Sacred Flame» en Las Mil Agujas (Thousand Needles). Horda.",
+        "en": "Quest «The Sacred Flame» in Thousand Needles. Horde."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "22",
+      "nombre": "Raptor's End",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Ormer's Revenge» en Los Humedales (Wetlands). Alianza.",
+        "en": "Quest «Ormer's Revenge» in the Wetlands. Alliance."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "22-29",
+      "nombre": "Naga Heartpiercer",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Cavernas de Brazanegra (Blackfathom Deeps), jefa Lady Sarevess. Ambas facciones.",
+        "en": "Blackfathom Deeps, boss Lady Sarevess. Both factions."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "23-29",
+      "nombre": "Fallenroot Longbow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Cavernas de Brazanegra (Blackfathom Deeps), jefe Lorgus Jett. Objeto nuevo de Forever. Ambas facciones.",
+        "en": "Blackfathom Deeps, boss Lorgus Jett. A new Forever item. Both factions."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "25",
+      "nombre": "Lunaris Bow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Answered Questions» en el Bosque del Ocaso (Duskwood), al final de la cadena que empieza con «The Howling Vale». Alianza.",
+        "en": "Quest «Answered Questions» in Duskwood, at the end of the chain that starts with «The Howling Vale». Alliance."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "29-30",
+      "nombre": "Quilboar Blaster",
+      "tipo": {
+        "es": "Fusil (arma de fuego)",
+        "en": "Gun"
+      },
+      "como": {
+        "es": "Horado Rajacieno (Razorfen Kraul): recompensa por matar a Charlga Razorflank, misión «The Crone of the Kraul» (Alianza) o «A Vengeful Fate» (Horda).",
+        "en": "Razorfen Kraul: reward for killing Charlga Razorflank, quest «The Crone of the Kraul» (Alliance) or «A Vengeful Fate» (Horde)."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "30",
+      "nombre": "Truthseeker's Bow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Greater Friend of the Library»: se abre a nivel 30 tras entregar 25 libros de la cadena de la biblioteca. Facción sin confirmar.",
+        "en": "Quest «Greater Friend of the Library»: it opens at level 30 after donating 25 books in the library chain. Faction unconfirmed."
+      },
+      "estado": "beta"
+    },
+    {
+      "nivel": "30",
+      "nombre": "Shrapnel Blaster",
+      "tipo": {
+        "es": "Fusil (arma de fuego)",
+        "en": "Gun"
+      },
+      "como": {
+        "es": "Misión «Colonel Kurzen» en la Vega de Tuercespina (Stranglethorn Vale). Alianza.",
+        "en": "Quest «Colonel Kurzen» in Stranglethorn Vale. Alliance."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "35",
+      "nombre": "Master Hunter's Bow",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Big Game Hunter» en la Vega de Tuercespina (Stranglethorn Vale). Ambas facciones.",
+        "en": "Quest «Big Game Hunter» in Stranglethorn Vale. Both factions."
+      },
+      "estado": "classic"
+    },
+    {
+      "nivel": "50",
+      "nombre": "Verdant Keeper's Aim",
+      "tipo": {
+        "es": "Arco",
+        "en": "Bow"
+      },
+      "como": {
+        "es": "Misión «Corruption of Earth and Seed» de Maraudon. Ambas facciones.",
+        "en": "Maraudon quest «Corruption of Earth and Seed». Both factions."
+      },
+      "estado": "classic"
+    }
+  ],
+  "macros": [
+    {
+      "titulo": {
+        "es": "Empezar a disparar sin apagarlo",
+        "en": "Start shooting without toggling off"
+      },
+      "macro": "#showtooltip\n/targetenemy [noexists][dead][help]\n/cast !Auto Shot",
+      "para": {
+        "es": "Elige un enemigo si no tienes objetivo y enciende <b>Auto Shot</b>. El signo ! evita que una segunda pulsación lo apague.",
+        "en": "Picks an enemy if you have no target and turns on <b>Auto Shot</b>. The ! stops a second press from switching it off."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Marca y mascota al ataque",
+        "en": "Mark and send the pet"
+      },
+      "macro": "#showtooltip Hunter's Mark\n/cast Hunter's Mark\n/petattack",
+      "para": {
+        "es": "Abre cada combate con un solo botón: marca al objetivo y manda a la mascota por delante.",
+        "en": "Opens every fight with one button: marks the target and sends your pet in first."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Retirar la mascota",
+        "en": "Pull the pet back"
+      },
+      "macro": "/petfollow\n/petpassive",
+      "para": {
+        "es": "La mascota vuelve a tu lado y deja de atacar. Úsala antes de <b>Freezing Trap</b> o <b>Scatter Shot</b> para que no rompa el control. Para que vuelva a defenderte sola, ponla otra vez en <b>Defensive</b>.",
+        "en": "Your pet returns and stops attacking. Use it before <b>Freezing Trap</b> or <b>Scatter Shot</b> so it doesn't break the control. Set it back to <b>Defensive</b> afterwards so it protects you again."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Mascota todo en uno",
+        "en": "All-in-one pet button"
+      },
+      "macro": "#showtooltip\n/cast [mod:shift] Revive Pet; [nopet] Call Pet; Mend Pet",
+      "para": {
+        "es": "Sin mascota, la llama; con ella fuera, la cura con <b>Mend Pet</b>; con Mayús pulsado, la revive.",
+        "en": "With no pet out it calls it; with it out it heals it with <b>Mend Pet</b>; holding Shift revives it."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Scatter Shot sin que la mascota lo rompa",
+        "en": "Scatter Shot without the pet breaking it"
+      },
+      "macro": "#showtooltip Scatter Shot\n/petfollow\n/petpassive\n/cast Scatter Shot",
+      "para": {
+        "es": "Marksmanship. Retira la mascota y desorienta al objetivo: tienes 4 segundos para alejarte o poner <b>Freezing Trap</b> entre los dos.",
+        "en": "Marksmanship. Pulls your pet back and disorients the target: you get 4 seconds to back off or drop <b>Freezing Trap</b> between you."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Hacerse el muerto ya",
+        "en": "Feign Death right now"
+      },
+      "macro": "#showtooltip Feign Death\n/stopcasting\n/cast Feign Death",
+      "para": {
+        "es": "Corta lo que estés lanzando (por ejemplo <b>Aimed Shot</b>) y lanza <b>Feign Death</b> al instante. En Forever ya no hace falta para las trampas: es para soltar amenaza o enemigos.",
+        "en": "Cancels whatever you are casting (like <b>Aimed Shot</b>) and fires <b>Feign Death</b> instantly. In Forever you don't need it for traps: it's for dropping threat or attackers."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Hunter's Mark al pasar el ratón",
+        "en": "Mouseover Hunter's Mark"
+      },
+      "macro": "#showtooltip Hunter's Mark\n/cast [@mouseover,harm,nodead][] Hunter's Mark",
+      "para": {
+        "es": "Marca al enemigo que tengas bajo el ratón sin cambiar de objetivo; si no hay ninguno, marca a tu objetivo. Útil para marcar al pícaro que acaba de aparecer.",
+        "en": "Marks the enemy under your mouse without changing target; if there is none, marks your target. Handy for marking the rogue that just showed up."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Tranquilizing Shot al pasar el ratón",
+        "en": "Mouseover Tranquilizing Shot"
+      },
+      "macro": "#showtooltip Tranquilizing Shot\n/cast [@mouseover,harm,nodead][] Tranquilizing Shot",
+      "para": {
+        "es": "Para bandas: quitas el frenesí al jefe sin dejar de disparar a tu objetivo.",
+        "en": "For raids: remove the boss's Frenzy without switching off your own target."
+      }
+    },
+    {
+      "titulo": {
+        "es": "Cheetah o Pack según el objetivo",
+        "en": "Cheetah or Pack by target"
+      },
+      "macro": "#showtooltip\n/cast [help] Aspect of the Pack; Aspect of the Cheetah",
+      "para": {
+        "es": "Con un aliado seleccionado pone <b>Aspect of the Pack</b> (desde el 40); si no, <b>Aspect of the Cheetah</b>.",
+        "en": "With a friendly target selected it casts <b>Aspect of the Pack</b> (from 40); otherwise <b>Aspect of the Cheetah</b>."
+      }
+    }
+  ],
+  "jcj": [
+    {
+      "clase": "warrior",
+      "texto": {
+        "es": "Todo su daño depende de alcanzarte. <b>Concussive Shot</b>, <b>Frost Trap</b> y <b>Wing Clip</b> para mantener la distancia, e <b>Intimidation</b> o el desarme de un ave rapaz (<b>Mine!</b>) cuando llegue. Si vuelve a pegarse, <b>Freezing Trap</b> a tus pies y empieza de nuevo.",
+        "en": "All his damage depends on reaching you. <b>Concussive Shot</b>, <b>Frost Trap</b> and <b>Wing Clip</b> to keep range, and <b>Intimidation</b> or a bird of prey's disarm (<b>Mine!</b>) when he gets there. If he sticks again, <b>Freezing Trap</b> at your feet and reset."
+      }
+    },
+    {
+      "clase": "paladin",
+      "texto": {
+        "es": "Aguanta mucho y se cura: <b>Viper Sting</b> le vacía el maná y un cocodrilo con <b>Dismember</b> le reduce la curación. No te quedes cerca, que su aturdimiento es de corto alcance. Gana quien dure más: cuida tu propio maná.",
+        "en": "Tough and self-healing: <b>Viper Sting</b> drains his mana and a crocolisk with <b>Dismember</b> cuts his healing. Don't stay close, since his stun is short-range. It's a long fight: watch your own mana."
+      }
+    },
+    {
+      "clase": "rogue",
+      "texto": {
+        "es": "Lo peligroso es la apertura. Lleva <b>Track Hidden</b>, y si lo ves, <b>Hunter's Mark</b> y <b>Flare</b> para que no se esconda. <b>Serpent Sting</b> le impide volver al sigilo. Si se te pega, <b>Freezing Trap</b> o <b>Scatter Shot</b>, y distancia.",
+        "en": "The opener is the danger. Keep <b>Track Hidden</b> on, and once you spot him, <b>Hunter's Mark</b> and <b>Flare</b> so he can't hide. <b>Serpent Sting</b> stops him from restealthing. If he sticks to you, <b>Freezing Trap</b> or <b>Scatter Shot</b>, then get range."
+      }
+    },
+    {
+      "clase": "priest",
+      "texto": {
+        "es": "<b>Viper Sting</b> en cuanto puedas: sin maná no se cura. La mascota encima le retrasa los lanzamientos, y un murciélago con <b>Sonic Blast</b> los frena. Mantente fuera del alcance de su miedo y dispara desde lejos.",
+        "en": "<b>Viper Sting</b> as soon as you can: without mana he can't heal. Your pet on him pushes back casts, and a bat's <b>Sonic Blast</b> slows them. Stay out of his fear range and shoot from afar."
+      }
+    },
+    {
+      "clase": "shaman",
+      "texto": {
+        "es": "Manda la mascota a romper sus tótems y pon <b>Viper Sting</b> para que no pueda curarse ni golpear con choques. Si va de cuerpo a cuerpo, trátalo como a un guerrero: distancia y trampas.",
+        "en": "Send your pet to break his totems and use <b>Viper Sting</b> so he can't heal or spam shocks. If he plays melee, treat him like a warrior: range and traps."
+      }
+    },
+    {
+      "clase": "mage",
+      "texto": {
+        "es": "Quiere congelarte y alejarse. Quédate fuera del alcance de su nova de hielo, <b>Viper Sting</b> para vaciarle el maná y la mascota encima para cortar lanzamientos (un murciélago es ideal). Guarda <b>Feign Death</b> para cuando esté acabando un hechizo largo.",
+        "en": "He wants to freeze you and run. Stay outside his Frost Nova range, use <b>Viper Sting</b> to drain his mana and keep your pet on him to disrupt casts (a bat is ideal). Save <b>Feign Death</b> for when he's finishing a long cast."
+      }
+    },
+    {
+      "clase": "warlock",
+      "texto": {
+        "es": "Mata o controla primero a su demonio y mantén la mascota encima de él para retrasar sus lanzamientos. <b>Viper Sting</b> le quita el maná que recupera con su vida, y <b>Dismember</b> reduce lo que se cura drenando.",
+        "en": "Kill or control his demon first and keep your pet on him to push back casts. <b>Viper Sting</b> takes the mana he converts from health, and <b>Dismember</b> cuts what he heals by draining."
+      }
+    },
+    {
+      "clase": "druid",
+      "texto": {
+        "es": "Cada cambio de forma le cuesta maná: <b>Viper Sting</b> lo deja sin opciones. <b>Concussive Shot</b> y <b>Frost Trap</b> contra el felino y la forma de viaje, y <b>Dismember</b> contra sus curas en el tiempo. <b>Freezing Trap</b> funciona con cualquier forma.",
+        "en": "Every shapeshift costs him mana: <b>Viper Sting</b> leaves him without options. <b>Concussive Shot</b> and <b>Frost Trap</b> against cat and travel form, and <b>Dismember</b> against his heal-over-time. <b>Freezing Trap</b> works on any form."
+      }
+    },
+    {
+      "clase": "hunter",
+      "texto": {
+        "es": "Gana quien controle la distancia. Métete en su zona muerta con tu mascota o aléjate más que él; <b>Viper Sting</b> le baja el maná y matar su mascota primero suele compensar. Cúbrete tras un obstáculo cuando lance <b>Aimed Shot</b>.",
+        "en": "Whoever controls range wins. Either get into his dead zone along with your pet or outrange him; <b>Viper Sting</b> drains his mana and killing his pet first often pays off. Break line of sight when he casts <b>Aimed Shot</b>."
+      }
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Notas de la beta de Blizzard (foro oficial)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/2360696"
+    },
+    {
+      "nombre": "Blizzard: análisis a fondo del cazador y el druida en Forever",
+      "url": "https://worldofwarcraft.blizzard.com/news/24301515"
+    },
+    {
+      "nombre": "Talents Forever: hechizos y talentos del cazador del cliente de la beta (CC BY 4.0)",
+      "url": "https://talentsforever.com/hunter/changes"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía de subida del cazador en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/hunter-leveling/"
+    },
+    {
+      "nombre": "Warcraft Tavern: Auto Shot y varitas en la beta",
+      "url": "https://www.warcrafttavern.com/forever/news/hotfix-incoming-for-hunter-auto-shots-and-wands-in-wow-forever/"
+    },
+    {
+      "nombre": "Warcraft Tavern: misiones del Hall of Thanes",
+      "url": "https://www.warcrafttavern.com/forever/guides/hall-of-thanes-quests/"
+    },
+    {
+      "nombre": "Method: guía de subida del cazador en Forever",
+      "url": "https://www.method.gg/wow-forever/wow-forever-hunter-leveling-guide-and-talents"
+    },
+    {
+      "nombre": "Icy Veins: Truthseeker's Bow en Forever",
+      "url": "https://www.icy-veins.com/wow-forever/news/earn-the-best-bow-in-the-game-before-blizzard-changes-it/"
+    },
+    {
+      "nombre": "Wowhead Forever: Venomstrike",
+      "url": "https://www.wowhead.com/forever/item=6469"
+    },
+    {
+      "nombre": "Wowhead Forever: Barbaric Crossbow",
+      "url": "https://www.wowhead.com/forever/item=272999"
+    },
+    {
+      "nombre": "Wowhead Forever: Naga Heartpiercer",
+      "url": "https://www.wowhead.com/forever/item=3078"
+    },
+    {
+      "nombre": "Wowhead Forever: Fallenroot Longbow",
+      "url": "https://www.wowhead.com/forever/item=273843"
+    },
+    {
+      "nombre": "Wowhead Forever: Quilboar Blaster",
+      "url": "https://www.wowhead.com/forever/item=274084"
+    },
+    {
+      "nombre": "Zockify: armas del cazador al subir (WoW Classic)",
+      "url": "https://www.zockify.com/classic/hunter/leveling/"
+    },
+    {
+      "nombre": "Warcraft Tavern: macros del cazador (WoW Classic)",
+      "url": "https://warcrafttavern.com/wow-classic/guides/hunter-macros-tips"
+    },
+    {
+      "nombre": "Warcraft Tavern: munición y carcajes (WoW Classic)",
+      "url": "https://warcrafttavern.com/wow-classic/guides/ammo-bags-and-ammunition"
+    },
+    {
+      "nombre": "Petopia: mascotas (WoW Classic)",
+      "url": "https://www.wow-petopia.com/classic/"
+    }
+  ]
+}

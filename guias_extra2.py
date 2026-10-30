@@ -178,3 +178,28 @@ def insertar_ruta_subir(s):
     PARES.append((es, en))
     ancla = '<div class="divider"><h2>Monturas y viajes</h2></div>'
     return s.replace(ancla, es + ancla, 1) if ancla in s else s
+
+
+# ---------- Dudas del cazador (Van 30-10: muchos jugarán cazador) ----------
+def dudas_cazador(lang):
+    d = leer('cazador-dudas.json')
+    if not d:
+        return ''
+    h = f'<div class="divider" id="g-dudas"><h2>{es_en("Dudas del cazador", "Hunter FAQ", lang)}</h2></div><p>{t(d.get("intro"), lang)}</p>'
+    for g in d.get('grupos') or []:
+        h += f'<h3>{t(g.get("titulo"), lang)}</h3>' + ''.join(
+            f'<details class="entry"><summary>{t(q.get("p"), lang)}</summary><div class="detail-body"><p>{t(q.get("r"), lang)}{estado(q, lang)}</p></div></details>'
+            for q in g.get('preguntas') or [])
+    if d.get('armas'):
+        h += (f'<h3>{es_en("Armas a distancia que merece la pena buscar mientras subes", "Ranged weapons worth getting while leveling", lang)}</h3><table class="keys guia-t">'
+              + ''.join(f'<tr><th>{E(str(x.get("nivel", "")))}</th><td><b>{E(x.get("nombre", ""))}</b> · {t(x.get("tipo"), lang)}{estado(x, lang)}<br><small>{t(x.get("como"), lang)}</small></td></tr>'
+                        for x in d['armas']) + '</table>')
+    if d.get('macros'):
+        h += f'<h3>{es_en("Macros útiles", "Useful macros", lang)}</h3><div class="tecs">' + ''.join(
+            f'<div class="tec"><h4>{t(m.get("titulo"), lang)}</h4><pre class="macro-txt">{E(m.get("macro", ""))}</pre><p>{t(m.get("para"), lang)}</p></div>'
+            for m in d['macros']) + '</div>'
+    if d.get('jcj'):
+        h += (f'<h3>{es_en("Cómo ganar a cada clase en JcJ", "How to beat each class in PvP", lang)}</h3><table class="keys guia-t">'
+              + ''.join(f'<tr><th>{CLASE.get(x.get("clase", ""), (x.get("clase", ""),) * 2)[0 if lang == "es" else 1]}</th><td>{t(x.get("texto"), lang)}</td></tr>' for x in d['jcj'])
+              + '</table>')
+    return h + fuentes(d.get('fuentes'), lang)

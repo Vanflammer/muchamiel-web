@@ -137,6 +137,244 @@
       {"nivel": "60", "texto": {"es": "Últimos rangos (Lightning Bolt 10 llega al 56) y montura rápida.", "en": "Final ranks (Lightning Bolt rank 10 comes at 56) and fast mount."}}
     ]
   },
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "DPS a distancia",
+        "en": "Ranged DPS"
+      },
+      "rama": "Elemental",
+      "para": {
+        "es": "Para quien prefiere lanzar rayos desde lejos en lugar de pegar cuerpo a cuerpo. Hace mucho daño de golpe, pero gasta maná deprisa: descansa entre combates y en mazmorras deja que el tanque tome la amenaza.",
+        "en": "For players who'd rather throw lightning from range than fight in melee. It deals big burst damage but burns mana fast: rest between fights and let the tank build threat in dungeons."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Concussion",
+          "nota": {
+            "es": "Lightning Bolt, Chain Lightning y Earth Shock hacen más daño.",
+            "en": "Lightning Bolt, Chain Lightning and Earth Shock deal more damage."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "3/3 Elemental Alacrity, 2/5 Convection",
+          "nota": {
+            "es": "Rayos medio segundo más rápidos y hechizos de daño más baratos.",
+            "en": "Bolts half a second faster and cheaper damage spells."
+          }
+        },
+        {
+          "niveles": "20",
+          "puntos": "1/1 Elemental Focus",
+          "nota": {
+            "es": "A veces, el siguiente hechizo sale mucho más barato. Ahorra mucho maná.",
+            "en": "Sometimes your next spell costs much less mana. A big mana saver."
+          }
+        },
+        {
+          "niveles": "21-24",
+          "puntos": "5/5 Convection, 1/3 Elemental Warding",
+          "nota": {
+            "es": "Cierras el ahorro de maná. El punto en Elemental Warding abre la fila 4.",
+            "en": "You finish the mana savings. The Elemental Warding point opens row 4."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "3/3 Eye of the Storm, 3/3 Elemental Warding",
+          "nota": {
+            "es": "Tus rayos casi no se retrasan cuando te pegan, y recibes menos daño de fuego, escarcha y naturaleza.",
+            "en": "Your bolts barely get pushed back when you're hit, and you take less Fire, Frost and Nature damage."
+          }
+        },
+        {
+          "niveles": "30",
+          "puntos": "1/1 Lava Burst",
+          "nota": {
+            "es": "Golpe de fuego fuerte; con Flame Shock puesto hace más. Abre con Flame Shock y sigue con Lava Burst.",
+            "en": "A strong Fire hit that deals more with Flame Shock up. Open with Flame Shock, then Lava Burst."
+          }
+        },
+        {
+          "niveles": "31-34",
+          "puntos": "3/3 Lightning Overload, 1/1 Earthbound",
+          "nota": {
+            "es": "Tus rayos a veces se lanzan dos veces sin coste. Earthbind Totem inmoviliza al ponerlo: muy útil para escapar.",
+            "en": "Your bolts sometimes cast twice for free. Earthbind Totem roots enemies when placed: great for escaping."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Elemental Fury",
+          "nota": {
+            "es": "Tus críticos de hechizo hacen el doble de bonificación. El mayor salto de daño del árbol.",
+            "en": "Your spell crits get double the bonus. The biggest damage jump in the tree."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Elemental Mastery",
+          "nota": {
+            "es": "Lightning Bolt y Lava Burst más rápidos y Chain Lightning sin recarga durante un rato. Úsalo en jefes o pulls grandes.",
+            "en": "Faster Lightning Bolt and Lava Burst, and no Chain Lightning cooldown for a while. Use it on bosses or big pulls."
+          }
+        },
+        {
+          "niveles": "41-47",
+          "puntos": "5/5 Reverberation, 2/2 Elemental Reach",
+          "nota": {
+            "es": "Choques con menos recarga y más alcance para tus rayos: pegas desde más lejos y empiezas antes.",
+            "en": "Shorter Shock cooldowns and more range on your bolts: you hit from farther away and start sooner."
+          }
+        },
+        {
+          "niveles": "48-52",
+          "puntos": "5/5 Thundering Strikes (Enhancement)",
+          "nota": {
+            "es": "Un 5 % más de crítico con todo, que alimenta Elemental Fury y Lightning Overload.",
+            "en": "5% more crit with everything, feeding Elemental Fury and Lightning Overload."
+          }
+        },
+        {
+          "niveles": "53-57",
+          "puntos": "5/5 Ancestral Knowledge (Enhancement)",
+          "nota": {
+            "es": "Un 10 % más de Intelecto: más maná y más crítico con hechizos.",
+            "en": "10% more Intellect: more mana and more spell crit."
+          }
+        },
+        {
+          "niveles": "58-60",
+          "puntos": "2/2 Improved Ghost Wolf (Enhancement), 1/1 Shamanistic Focus (Enhancement)",
+          "nota": {
+            "es": "Ghost Wolf instantáneo y también en interiores, y choques mucho más baratos. Acabas en 38/13/0.",
+            "en": "Instant Ghost Wolf that also works indoors, and much cheaper Shocks. You end at 38/13/0."
+          }
+        }
+      ],
+      "final": "38/13/0"
+    },
+    {
+      "rol": {
+        "es": "Sanador",
+        "en": "Healer"
+      },
+      "rama": "Restoration",
+      "para": {
+        "es": "Para quien quiere curar mazmorras desde el principio. Solo mata despacio, así que compensa si vas a hacer muchas mazmorras, subes con un compañero o quieres llegar a 60 ya preparado para curar.",
+        "en": "For players who want to heal dungeons from the start. Solo kills are slow, so it pays off if you run lots of dungeons, level with a friend or want to hit 60 ready to heal."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Improved Healing Wave",
+          "nota": {
+            "es": "Healing Wave medio segundo más rápido. Tu cura principal sale antes.",
+            "en": "Healing Wave casts half a second faster. Your main heal lands sooner."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "3/3 Mindfulness, 2/5 Totemic Focus",
+          "nota": {
+            "es": "La mitad de tu regeneración de maná sigue mientras lanzas, y los tótems cuestan menos.",
+            "en": "Half your mana regen keeps going while casting, and totems cost less."
+          }
+        },
+        {
+          "niveles": "20",
+          "puntos": "1/1 Water Shield",
+          "nota": {
+            "es": "Esferas de agua que te devuelven maná al recibir golpes o al hacer críticos. Llévalo siempre puesto.",
+            "en": "Water orbs that return mana when you're hit or land crits. Keep it up at all times."
+          }
+        },
+        {
+          "niveles": "21-24",
+          "puntos": "3/3 Ancestral Healing, 3/5 Totemic Focus",
+          "nota": {
+            "es": "Tras un crítico de curación, el objetivo gana armadura. Con 15 puntos abres la fila 4.",
+            "en": "After a healing crit, the target gains armor. With 15 points you open row 4."
+          }
+        },
+        {
+          "niveles": "25",
+          "puntos": "1/1 Mana Tide Totem",
+          "nota": {
+            "es": "Devuelve maná a todo el grupo durante 12 segundos. Ponlo a mitad de un jefe largo.",
+            "en": "Restores mana to the whole group for 12 seconds. Drop it mid-way through a long boss."
+          }
+        },
+        {
+          "niveles": "26-30",
+          "puntos": "5/5 Tidal Mastery",
+          "nota": {
+            "es": "Un 5 % más de crítico con curas: más Ancestral Healing y más maná de Water Shield.",
+            "en": "5% more healing crit: more Ancestral Healing and more mana from Water Shield."
+          }
+        },
+        {
+          "niveles": "31-34",
+          "puntos": "1/1 Nature's Swiftness, 3/3 Healing Way",
+          "nota": {
+            "es": "Nature's Swiftness hace instantánea tu siguiente cura para emergencias. Healing Way: Healing Wave cura un 25 % más.",
+            "en": "Nature's Swiftness makes your next heal instant for emergencies. Healing Way: Healing Wave heals 25% more."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Purification",
+          "nota": {
+            "es": "Todas tus curas un 10 % más fuertes.",
+            "en": "All your heals 10% stronger."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Riptide",
+          "nota": {
+            "es": "Cura directa más una cura en el tiempo, y mejora Chain Heal sobre ese objetivo. Úsala en el tanque.",
+            "en": "A direct heal plus a heal over time, and it boosts Chain Heal on that target. Use it on the tank."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Restorative Totems",
+          "nota": {
+            "es": "Mana Spring Totem da más maná y Healing Stream Totem cura bastante más.",
+            "en": "Mana Spring Totem gives more mana and Healing Stream Totem heals much more."
+          }
+        },
+        {
+          "niveles": "46-50",
+          "puntos": "3/3 Healing Focus, 5/5 Totemic Focus",
+          "nota": {
+            "es": "Tus curas casi no se retrasan cuando te pegan, y los tótems salen mucho más baratos.",
+            "en": "Your heals barely get pushed back when you're hit, and totems become much cheaper."
+          }
+        },
+        {
+          "niveles": "51-55",
+          "puntos": "5/5 Thundering Strikes (Enhancement)",
+          "nota": {
+            "es": "Un 5 % más de crítico con hechizos y ataques: más críticos de curación.",
+            "en": "5% more crit with spells and attacks: more healing crits."
+          }
+        },
+        {
+          "niveles": "56-60",
+          "puntos": "5/5 Ancestral Knowledge (Enhancement)",
+          "nota": {
+            "es": "Un 10 % más de Intelecto: más maná para curar. Acabas en 0/10/41, la build de Restoration más usada en la beta.",
+            "en": "10% more Intellect: more mana to heal with. You end at 0/10/41, the most common Restoration build in the beta."
+          }
+        }
+      ],
+      "final": "0/10/41"
+    }
+  ],
   "nivel60": {
     "intro": {
       "es": "Al 60 se sabe qué talentos hay y cómo funcionan (cliente de la beta), pero nadie ha jugado aún contenido de 60 de Forever: las bandas llegan el 9-12. Los repartos más planificados en la calculadora son Enhancement 18/33/0, Restoration 0/10/41 y Elemental 38/13/0. Las prioridades de estadísticas son una primera aproximación de las guías y cambiarán con el equipo real.",

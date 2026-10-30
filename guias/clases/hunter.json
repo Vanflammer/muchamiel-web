@@ -410,5 +410,259 @@
     {"nombre": "Icy Veins: guía de JcJ del cazador (WoW Classic Era)", "url": "https://icy-veins.com/wow-classic/classic-hunter-pvp-guide"},
     {"nombre": "LFCarry: cazador en JcJ en Forever", "url": "https://lfcarry.com/guides/wow-forever-hunter-pvp"},
     {"nombre": "Skill Capped: glosario de JcJ (WoW Retail)", "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"}
+  ],
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "DPS a distancia",
+        "en": "Ranged DPS"
+      },
+      "rama": "Marksmanship",
+      "para": {
+        "es": "Para quien prefiere que el daño lo hagan sus disparos y no la mascota. Sube algo más lento que Beast Mastery, pero llega a 60 con la build de disparos lista para bandas.",
+        "en": "For players who want their own shots to do the damage instead of the pet. It levels a bit slower than Beast Mastery, but reaches 60 with a raid-ready shooting build."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Lethal Attacks",
+          "nota": {
+            "es": "Un 5 % más de crítico en todos tus ataques.",
+            "en": "5% more crit on all your attacks."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Careful Aim",
+          "nota": {
+            "es": "Todo tu Intelecto se suma al poder de ataque. Es requisito de Mortal Shots.",
+            "en": "All your Intellect is added to your attack power. It is required for Mortal Shots."
+          }
+        },
+        {
+          "niveles": "20-21",
+          "puntos": "2/2 Rapid Killing",
+          "nota": {
+            "es": "Rapid Fire se recarga 2 minutos antes y matar te da un empujón extra. Es requisito de Rapid Recuperation.",
+            "en": "Rapid Fire comes back 2 minutes sooner and kills give you an extra boost. It is required for Rapid Recuperation."
+          }
+        },
+        {
+          "niveles": "22-25",
+          "puntos": "3/5 Efficiency, 1/1 Trueshot Aura",
+          "nota": {
+            "es": "Disparos y picaduras cuestan menos maná: menos pausas para beber. Más poder de ataque a distancia para ti y tu grupo. Es requisito de Sniper Shot.",
+            "en": "Shots and stings cost less mana: fewer drink breaks. More ranged attack power for you and your party. It is required for Sniper Shot."
+          }
+        },
+        {
+          "niveles": "26-30",
+          "puntos": "5/5 Mortal Shots",
+          "nota": {
+            "es": "Tus críticos a distancia pegan un 30 % más.",
+            "en": "Your ranged crits hit 30% harder."
+          }
+        },
+        {
+          "niveles": "31-35",
+          "puntos": "2/2 Rapid Recuperation, 3/3 Barrage",
+          "nota": {
+            "es": "Con Serpent Sting puesto sigues recuperando maná mientras disparas. Multi-Shot, Aimed Shot y Volley hacen un 10 % más.",
+            "en": "With Serpent Sting up, your mana keeps regenerating while you shoot. Multi-Shot, Aimed Shot and Volley deal 10% more."
+          }
+        },
+        {
+          "niveles": "36-39",
+          "puntos": "4/5 Ranged Weapon Specialization",
+          "nota": {
+            "es": "Más daño con el arma a distancia.",
+            "en": "More damage with your ranged weapon."
+          }
+        },
+        {
+          "niveles": "40-41",
+          "puntos": "1/1 Sniper Shot, 5/5 Ranged Weapon Specialization",
+          "nota": {
+            "es": "Talento final: disparo fuerte desde muy lejos que alarga el alcance de tus 3 disparos siguientes. Abre los combates con él. Completas el 5 % de daño a distancia.",
+            "en": "Final talent: a strong long-range shot that extends the range of your next 3 shots. Open fights with it. You finish the 5% ranged damage bonus."
+          }
+        },
+        {
+          "niveles": "42-44",
+          "puntos": "3/3 Improved Stings",
+          "nota": {
+            "es": "Serpent Sting hace un 20 % más y mejoran tus otras picaduras.",
+            "en": "Serpent Sting deals 20% more and your other stings improve."
+          }
+        },
+        {
+          "niveles": "45-46",
+          "puntos": "5/5 Efficiency",
+          "nota": {
+            "es": "Completas el ahorro de maná.",
+            "en": "You finish the mana savings."
+          }
+        },
+        {
+          "niveles": "47-49",
+          "puntos": "3/3 Hawk Eye",
+          "nota": {
+            "es": "6 metros más de alcance: atacas antes de que lleguen a ti.",
+            "en": "6 more yards of range: you hit them before they reach you."
+          }
+        },
+        {
+          "niveles": "50-54",
+          "puntos": "5/5 Deadly Aspects (Beast Mastery)",
+          "nota": {
+            "es": "En Beast Mastery: con Aspect of the Hawk, tus Auto Shot pueden acelerar tus disparos un 30 %.",
+            "en": "In Beast Mastery: with Aspect of the Hawk, your Auto Shots can speed up your shooting by 30%."
+          }
+        },
+        {
+          "niveles": "55-59",
+          "puntos": "5/5 Improved Tracking (Survival)",
+          "nota": {
+            "es": "En Survival: más daño al tipo de criatura que estés rastreando.",
+            "en": "In Survival: more damage to the creature type you are tracking."
+          }
+        },
+        {
+          "niveles": "60",
+          "puntos": "1/1 Lone Wolf",
+          "nota": {
+            "es": "Un 20 % más de daño si juegas sin mascota, como hace la build más planificada para bandas. Si prefieres seguir con mascota, pon este punto en 1/5 Improved Arcane Shot. Total: 5/41/5.",
+            "en": "20% more damage if you play without a pet, like the most planned raid build. If you would rather keep your pet, put this point into 1/5 Improved Arcane Shot. Total: 5/41/5."
+          }
+        }
+      ],
+      "final": "5/41/5"
+    },
+    {
+      "rol": {
+        "es": "DPS cuerpo a cuerpo",
+        "en": "Melee DPS"
+      },
+      "rama": "Survival",
+      "para": {
+        "es": "Para quien quiere el cazador de cuerpo a cuerpo de Forever: pelea de cerca con arma de melé, con la mascota de apoyo. Es la build más planificada para el 60, aunque al principio sube más lento que Beast Mastery.",
+        "en": "For players who want Forever's melee hunter: you fight up close with a melee weapon and your pet backs you up. It is the most planned build for 60, though early levels go slower than Beast Mastery."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Improved Tracking",
+          "nota": {
+            "es": "Un 5 % más de daño contra el tipo de criatura que rastreas: deja el rastreo puesto según la zona.",
+            "en": "5% more damage against the creature type you track: keep the right tracking on for each zone."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "2/2 Savage Strikes, 3/5 Survivalist",
+          "nota": {
+            "es": "Un 4 % más de crítico con tus ataques de melé. Más vida: peleando de cerca la vas a necesitar.",
+            "en": "4% more crit on your melee attacks. More health: fighting up close, you will need it."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Surefooted",
+          "nota": {
+            "es": "Un 3 % más de golpe y los efectos que te frenan duran menos.",
+            "en": "3% more hit, and slowing effects on you last less."
+          }
+        },
+        {
+          "niveles": "23-24",
+          "puntos": "2/2 Clever Traps",
+          "nota": {
+            "es": "Trampas más duraderas y que hacen más daño.",
+            "en": "Traps last longer and deal more damage."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "5/5 Predator's Edge",
+          "nota": {
+            "es": "Tus críticos de melé pegan más y el arma de la mano izquierda hace un 50 % más.",
+            "en": "Your melee crits hit harder and your off-hand weapon deals 50% more."
+          }
+        },
+        {
+          "niveles": "30-32",
+          "puntos": "2/2 Expose Prey, 1/1 Strider Kick",
+          "nota": {
+            "es": "Con Hunter's Mark puesto, tus ataques pueden activar Mongoose Bite sin esperar a esquivar. Es requisito de Lacerating Strikes. Patada con todo el daño del arma que además te da velocidad.",
+            "en": "With Hunter's Mark up, your attacks can enable Mongoose Bite without needing a dodge. It is required for Lacerating Strikes. A kick with full weapon damage that also gives you a burst of speed."
+          }
+        },
+        {
+          "niveles": "33-34",
+          "puntos": "2/2 Resourcefulness",
+          "nota": {
+            "es": "Trampas y ataques de melé cuestan mucho menos maná, y los críticos te ayudan a recuperarlo.",
+            "en": "Traps and melee attacks cost far less mana, and crits help you get it back."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Lightning Reflexes",
+          "nota": {
+            "es": "Un 10 % más de Agilidad: más poder de ataque, crítico y esquiva.",
+            "en": "10% more Agility: more attack power, crit and dodge."
+          }
+        },
+        {
+          "niveles": "40-42",
+          "puntos": "1/1 Lacerating Strikes, 2/2 Survivalist's Discipline",
+          "nota": {
+            "es": "Talento final: Mongoose Bite deja además un sangrado. Trampas y Deterrence se recargan un 40 % antes.",
+            "en": "Final talent: Mongoose Bite also leaves a bleed. Traps and Deterrence come back 40% sooner."
+          }
+        },
+        {
+          "niveles": "43-44",
+          "puntos": "2/2 Survival Tactics",
+          "nota": {
+            "es": "Tus trampas y Feign Death fallan menos. Survival queda en 35.",
+            "en": "Your traps and Feign Death miss less. Survival ends at 35."
+          }
+        },
+        {
+          "niveles": "45-49",
+          "puntos": "5/5 Lethal Attacks (Marksmanship)",
+          "nota": {
+            "es": "En Marksmanship: un 5 % más de crítico en todos tus ataques.",
+            "en": "In Marksmanship: 5% more crit on all your attacks."
+          }
+        },
+        {
+          "niveles": "50-54",
+          "puntos": "5/5 Careful Aim",
+          "nota": {
+            "es": "Tu Intelecto se suma al poder de ataque.",
+            "en": "Your Intellect is added to your attack power."
+          }
+        },
+        {
+          "niveles": "55-59",
+          "puntos": "5/5 Deadly Aspects (Beast Mastery)",
+          "nota": {
+            "es": "En Beast Mastery: con Aspect of the Beast puesto, tus golpes automáticos de melé pueden darte un 30 % más de velocidad de ataque durante 12 s.",
+            "en": "In Beast Mastery: with Aspect of the Beast active, your melee auto attacks can give you 30% more attack speed for 12 sec."
+          }
+        },
+        {
+          "niveles": "60",
+          "puntos": "1/1 Lone Wolf",
+          "nota": {
+            "es": "Un 20 % más de daño sin mascota, como la build más planificada. Si quieres seguir con mascota, pon este punto en 1/5 Improved Arcane Shot. Total: 5/11/35.",
+            "en": "20% more damage without a pet, like the most planned build. If you want to keep your pet, put this point into 1/5 Improved Arcane Shot. Total: 5/11/35."
+          }
+        }
+      ],
+      "final": "5/11/35"
+    }
   ]
 }

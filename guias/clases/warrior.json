@@ -752,6 +752,236 @@
       }
     ]
   },
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "DPS con dos armas",
+        "en": "Dual-wield DPS"
+      },
+      "rama": "Fury",
+      "para": {
+        "es": "Para quien quiere hacer daño en mazmorras y en grupo desde temprano. Pega muy fuerte, pero recibe mucho daño: come y bebe entre combates y no tires de más enemigos de los que puedes aguantar.",
+        "en": "For players who want to deal damage in dungeons and groups early on. It hits very hard but takes a beating, so rest between fights and don't pull more than you can handle."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Cruelty",
+          "nota": {
+            "es": "Un 5 % más de crítico cuerpo a cuerpo. Más daño y más ira desde el primer punto.",
+            "en": "5% more melee crit. More damage and more rage from the very first point."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Unbridled Wrath",
+          "nota": {
+            "es": "Tus golpes de arma dan ira extra a menudo. Con dos armas se nota todavía más.",
+            "en": "Your weapon hits often give extra rage. It shines even more with two weapons."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Furious Precision",
+          "nota": {
+            "es": "Más golpe con la mano izquierda. Tómalo cuando empieces a llevar dos armas.",
+            "en": "More hit chance with your off-hand. Take it once you start dual wielding."
+          }
+        },
+        {
+          "niveles": "23-24",
+          "puntos": "2/5 Lingering Rage",
+          "nota": {
+            "es": "La ira tarda más en bajar al salir de combate, así que llegas al siguiente pull con ira guardada. Además, abre la fila 4.",
+            "en": "Rage takes longer to decay after combat, so you reach the next pull with rage in the bar. It also unlocks row 4."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "5/5 Enrage",
+          "nota": {
+            "es": "Al recibir golpes, a menudo haces un 10 % más de daño físico durante 12 segundos.",
+            "en": "Getting hit often gives you 10% more physical damage for 12 seconds."
+          }
+        },
+        {
+          "niveles": "30",
+          "puntos": "1/1 Death Wish",
+          "nota": {
+            "es": "Un 20 % más de daño físico e inmunidad al miedo durante 30 segundos, a cambio de recibir un poco más. Guárdalo para jefes y pulls difíciles.",
+            "en": "20% more physical damage and Fear immunity for 30 seconds, at the cost of taking a bit more. Save it for bosses and tough pulls."
+          }
+        },
+        {
+          "niveles": "31-34",
+          "puntos": "4/5 Dual Wield Specialization",
+          "nota": {
+            "es": "Más daño y más ira con la mano izquierda. Con 25 puntos en Fury ya puedes bajar a la fila 6.",
+            "en": "More off-hand damage and rage. With 25 points in Fury you can now reach row 6."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Flurry",
+          "nota": {
+            "es": "Tras un crítico, tus tres golpes siguientes van un 25 % más rápido. Con Cruelty salta muy a menudo.",
+            "en": "After a crit, your next three swings are 25% faster. With Cruelty it procs very often."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Bloodthirst",
+          "nota": {
+            "es": "Tu golpe principal desde ahora: daño según tu poder de ataque y algo de velocidad de movimiento. Úsalo cada vez que esté listo.",
+            "en": "Your main strike from now on: damage based on attack power plus a short speed boost. Use it on cooldown."
+          }
+        },
+        {
+          "niveles": "41-43",
+          "puntos": "5/5 Dual Wield Specialization, 1/1 Raging Blows, 1/2 Improved Execute",
+          "nota": {
+            "es": "Cierras la mano izquierda, Whirlwind y Cleave cuestan menos ira y Execute sale más barato para rematar.",
+            "en": "You finish off-hand damage, Whirlwind and Cleave cost less rage, and Execute is cheaper for finishing targets."
+          }
+        },
+        {
+          "niveles": "44-48",
+          "puntos": "3/3 Improved Rend (Arms), 2/3 Improved Heroic Strike (Arms)",
+          "nota": {
+            "es": "Primeros puntos en Arms: Rend hace más daño y Heroic Strike sale más barato para gastar la ira que sobra. Con 5 puntos se abre la fila 2.",
+            "en": "First points in Arms: Rend hits harder and Heroic Strike gets cheaper for dumping spare rage. Five points open row 2."
+          }
+        },
+        {
+          "niveles": "49-53",
+          "puntos": "5/5 Improved Tactical Mastery (Arms)",
+          "nota": {
+            "es": "Guardas más ira al cambiar de actitud: Berserker Stance para pegar, Battle Stance para Overpower o Charge, sin perderla.",
+            "en": "You keep more rage when switching stances: Berserker for damage, Battle for Overpower or Charge, without losing it."
+          }
+        },
+        {
+          "niveles": "54-58",
+          "puntos": "1/1 Anger Management (Arms), 3/3 Deep Wounds (Arms), 3/3 Improved Heroic Strike (Arms)",
+          "nota": {
+            "es": "Un punto de ira cada 3 segundos en combate y sangrado tras cada crítico: con tanto crítico, es mucho daño extra.",
+            "en": "One rage every 3 seconds in combat, and a bleed after every crit: with this much crit it adds a lot of damage."
+          }
+        },
+        {
+          "niveles": "59-60",
+          "puntos": "2/2 Impale (Arms)",
+          "nota": {
+            "es": "Los críticos de tus habilidades hacen más daño. Acabas en 17/34/0, la build de Fury más usada en la beta.",
+            "en": "Your ability crits deal more damage. You end at 17/34/0, the most common Fury build in the beta."
+          }
+        }
+      ],
+      "final": "17/34/0"
+    },
+    {
+      "rol": {
+        "es": "DPS con arma a dos manos",
+        "en": "Two-handed DPS"
+      },
+      "rama": "Arms",
+      "para": {
+        "es": "Para quien prefiere un arma grande y golpes fuertes, recibiendo menos daño que con Fury. Es la opción clásica para subir pegando, y Mortal Strike también vale mucho en JcJ.",
+        "en": "For players who prefer one big weapon and heavy hits while taking less damage than Fury. It's the classic damage leveling path, and Mortal Strike is great in PvP too."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "3/3 Improved Rend, 2/3 Improved Heroic Strike",
+          "nota": {
+            "es": "Rend hace bastante más daño y es la puerta a Deep Wounds y Bloodthrill. Heroic Strike más barato para gastar ira; con 5 puntos abres la fila 2.",
+            "en": "Rend deals much more damage and leads to Deep Wounds and Bloodthrill. A cheaper Heroic Strike to spend rage; five points open row 2."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Improved Tactical Mastery",
+          "nota": {
+            "es": "Guardas ira al cambiar de actitud, así que puedes pasar a Defensive Stance o volver a Battle Stance sin quedarte a cero.",
+            "en": "You keep rage when changing stances, so you can swap to Defensive or back to Battle without dropping to zero."
+          }
+        },
+        {
+          "niveles": "20-25",
+          "puntos": "2/2 Improved Overpower, 1/1 Anger Management, 3/3 Deep Wounds",
+          "nota": {
+            "es": "Overpower casi siempre crítico (úsalo cada vez que el enemigo esquive), un punto de ira cada 3 segundos y sangrado extra tras cada crítico.",
+            "en": "Overpower almost always crits (use it whenever the enemy dodges), one rage every 3 seconds, and an extra bleed after each crit."
+          }
+        },
+        {
+          "niveles": "26-31",
+          "puntos": "1/1 Spearing Strike, 3/3 Two-Handed Weapon Specialization, 2/2 Impale",
+          "nota": {
+            "es": "Spearing Strike es un golpe nuevo de Forever que pega mucho más contra gigantes, dragones y enemigos montados. Después, más daño con armas a dos manos y críticos de habilidad más fuertes.",
+            "en": "Spearing Strike is a new Forever attack that hits much harder against giants, dragonkin and mounted targets. Then more two-handed damage and harder-hitting ability crits."
+          }
+        },
+        {
+          "niveles": "32-37",
+          "puntos": "1/1 Sweeping Strikes, 5/5 Weaponmaster",
+          "nota": {
+            "es": "Sweeping Strikes reparte tus siguientes golpes a un segundo enemigo. Weaponmaster cambia según el arma: hacha o asta da crítico, maza o bastón ignora armadura y espada da ataques extra.",
+            "en": "Sweeping Strikes spreads your next hits to a second enemy. Weaponmaster depends on your weapon: axes or polearms give crit, maces or staves ignore armor, swords give extra attacks."
+          }
+        },
+        {
+          "niveles": "38-39",
+          "puntos": "2/2 Improved Slam",
+          "nota": {
+            "es": "Slam deja de retrasar tu golpe automático: ya se puede meter entre golpes. Con 30 puntos en Arms abres la fila 7.",
+            "en": "Slam no longer delays your auto attack, so you can weave it between swings. With 30 points in Arms you open row 7."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Mortal Strike",
+          "nota": {
+            "es": "Tu golpe principal y además reduce la curación del objetivo a la mitad. Úsalo siempre que esté listo.",
+            "en": "Your main attack, and it halves healing on the target. Use it on cooldown."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Bloodthrill",
+          "nota": {
+            "es": "Con Rend puesto, tus golpes pueden activar Overpower. Más Overpower, más daño.",
+            "en": "With Rend up, your hits can enable Overpower. More Overpower, more damage."
+          }
+        },
+        {
+          "niveles": "46-51",
+          "puntos": "3/3 Improved Heroic Strike, 5/5 Cruelty (Fury)",
+          "nota": {
+            "es": "Heroic Strike más barato para gastar ira y un 5 % más de crítico, que alimenta Deep Wounds e Impale.",
+            "en": "A cheaper Heroic Strike to spend rage and 5% more crit, which feeds Deep Wounds and Impale."
+          }
+        },
+        {
+          "niveles": "52-56",
+          "puntos": "5/5 Unbridled Wrath (Fury)",
+          "nota": {
+            "es": "Más ira con cada golpe de arma, para usar Mortal Strike y Slam sin esperar.",
+            "en": "More rage from each weapon hit, so Mortal Strike and Slam are always affordable."
+          }
+        },
+        {
+          "niveles": "57-60",
+          "puntos": "1/1 Piercing Howl (Fury), 3/3 Blood Craze (Fury)",
+          "nota": {
+            "es": "Piercing Howl frena a todos los que tienes cerca y Blood Craze te devuelve vida tras golpes fuertes. Acabas en 37/14/0.",
+            "en": "Piercing Howl slows everything around you and Blood Craze heals you after big hits. You end at 37/14/0."
+          }
+        }
+      ],
+      "final": "37/14/0"
+    }
+  ],
   "nivel60": {
     "intro": {
       "es": "La beta acabó con el tope en 30, así que nadie ha jugado un guerrero de 60 en Forever. Las builds de abajo son las más planificadas en la calculadora con los datos del cliente; las prioridades son las de Classic adaptadas a los cambios de Forever. Las bandas llegan el 9 de diciembre: hasta entonces, mazmorras.",

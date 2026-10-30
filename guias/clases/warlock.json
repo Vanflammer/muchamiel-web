@@ -1241,5 +1241,227 @@
       "nombre": "Skill Capped: glosario de JcJ (WoW Retail)",
       "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"
     }
+  ],
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "Daño con demonio (Demonology)",
+        "en": "Pet damage (Demonology)"
+      },
+      "rama": "Demonology",
+      "para": {
+        "es": "Para quien quiere que el demonio haga el trabajo duro: el Voidwalker aguanta y pega más, y tú dependes poco del equipo. Muy segura para jugar solo; mata algo más lento que Affliction al principio.",
+        "en": "For players who want the demon to do the heavy lifting: the Voidwalker tanks and hits harder, and you depend little on gear. Very safe for solo play; it kills a bit slower than Affliction early on."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Unholy Power",
+          "nota": {
+            "es": "Tu demonio hace un 10 % más de daño. El Voidwalker pasa a matar de verdad.",
+            "en": "Your demon deals 10% more damage. The Voidwalker starts pulling real weight."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "3/3 Fel Vitality, 2/2 Demonic Energies",
+          "nota": {
+            "es": "Más vida y maná para el demonio (y maná para ti). Tu daño lo cura poco a poco.",
+            "en": "More health and mana for your demon (and mana for you). Your damage heals it over time."
+          }
+        },
+        {
+          "niveles": "20-24",
+          "puntos": "2/2 Master Summoner, 1/1 Demonic Sacrifice, 2/2 Demonic Aegis",
+          "nota": {
+            "es": "Invocas mucho más rápido y barato. Demonic Sacrifice abre la rama; Demonic Aegis mejora tu armadura de demonio.",
+            "en": "You summon much faster and cheaper. Demonic Sacrifice opens the tree; Demonic Aegis improves your demon armor."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "3/3 Demonic Brand, 1/1 Fel Domination, 1/3 Improved Voidwalker",
+          "nota": {
+            "es": "Searing Pain marca al objetivo y los siguientes golpes de tu demonio hacen daño extra. Fel Domination: un demonio nuevo casi al instante.",
+            "en": "Searing Pain brands the target and your demon's next hits deal extra damage. Fel Domination: a new demon almost instantly."
+          }
+        },
+        {
+          "niveles": "30",
+          "puntos": "1/1 Soul Link",
+          "nota": {
+            "es": "El demonio recibe parte del daño que te hacen y los dos pegan un 3 % más.",
+            "en": "Your demon takes part of the damage aimed at you and you both deal 3% more."
+          }
+        },
+        {
+          "niveles": "31-34",
+          "puntos": "3/3 Demonic Knowledge, Improved Voidwalker a 2/3 (+1)",
+          "nota": {
+            "es": "Tú y tu demonio ganan poder con hechizos según tu nivel. Voidwalker más fuerte.",
+            "en": "You and your demon gain spell power based on your level. A stronger Voidwalker."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Master Demonologist",
+          "nota": {
+            "es": "Bonus según el demonio que lleves: con el Voidwalker recibes menos daño físico; con el Imp, más daño de fuego.",
+            "en": "A bonus that depends on your demon: with the Voidwalker you take less physical damage; with the Imp, more Fire damage."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Demonic Pact",
+          "nota": {
+            "es": "El efecto de Demonic Sacrifice ya no se pierde al invocar otro demonio distinto.",
+            "en": "Your Demonic Sacrifice effect is no longer lost when you summon a different demon."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Improved Corruption (Affliction)",
+          "nota": {
+            "es": "Pasas a Affliction: Corruption instantánea, para lanzarla mientras te mueves.",
+            "en": "Move into Affliction: instant Corruption, so you can cast it on the move."
+          }
+        },
+        {
+          "niveles": "46-50",
+          "puntos": "5/5 Demonic Embrace",
+          "nota": {
+            "es": "Un 15 % más de aguante (Stamina): más vida para Life Tap y para sobrevivir.",
+            "en": "15% more Stamina: more health for Life Tap and for staying alive."
+          }
+        },
+        {
+          "niveles": "51-55",
+          "puntos": "5/5 Bane (Destruction)",
+          "nota": {
+            "es": "Pasas a Destruction: Shadow Bolt e Immolate medio segundo más rápidos.",
+            "en": "Move into Destruction: Shadow Bolt and Immolate cast half a second faster."
+          }
+        },
+        {
+          "niveles": "56-60",
+          "puntos": "5/5 Molten Skin (Destruction)",
+          "nota": {
+            "es": "Un 10 % menos de daño recibido. Cierre muy cómodo para jugar solo y en JcJ.",
+            "en": "10% less damage taken. A very comfortable finish for solo play and PvP."
+          }
+        }
+      ],
+      "final": "5/36/10"
+    },
+    {
+      "rol": {
+        "es": "Daño (Destruction)",
+        "en": "Damage (Destruction)"
+      },
+      "rama": "Destruction",
+      "para": {
+        "es": "Para quien prefiere matar rápido con golpes grandes en vez de esperar a los efectos de daño. Es la que más daño hace de golpe, pero gasta más maná y aguanta peor si algo sale mal.",
+        "en": "For players who prefer to kill fast with big hits instead of waiting on damage over time. It has the most burst, but it uses more mana and is less forgiving when things go wrong."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Bane",
+          "nota": {
+            "es": "Shadow Bolt e Immolate medio segundo más rápidos: más daño por segundo desde el principio.",
+            "en": "Shadow Bolt and Immolate cast half a second faster: more damage per second from the start."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "3/3 Cataclysm, 2/5 Aftermath",
+          "nota": {
+            "es": "Tus hechizos de Destruction cuestan un 10 % menos. Immolate empieza con más daño.",
+            "en": "Your Destruction spells cost 10% less. Immolate opens with more damage."
+          }
+        },
+        {
+          "niveles": "20",
+          "puntos": "1/1 Shadowburn",
+          "nota": {
+            "es": "Golpe instantáneo para rematar; si el enemigo muere poco después, te devuelve un fragmento de alma.",
+            "en": "An instant hit to finish enemies; if the target dies shortly after, you get a Soul Shard back."
+          }
+        },
+        {
+          "niveles": "21-25",
+          "puntos": "5/5 Ruin",
+          "nota": {
+            "es": "Tus críticos de Destruction hacen el doble de daño extra. Es el talento que da sentido a la rama.",
+            "en": "Your Destruction crits deal double the bonus damage. This is the talent the tree is built around."
+          }
+        },
+        {
+          "niveles": "26-29",
+          "puntos": "1/1 Conflagrate, Aftermath a 5/5 (+3)",
+          "nota": {
+            "es": "Conflagrate consume Immolate para un golpe instantáneo fuerte; con Aftermath completo, además ralentiza al 50 %.",
+            "en": "Conflagrate consumes Immolate for a strong instant hit; with full Aftermath it also slows by 50%."
+          }
+        },
+        {
+          "niveles": "30-35",
+          "puntos": "3/3 Agonizing Flames, 3/3 Fire and Brimstone",
+          "nota": {
+            "es": "Un 10 % más de daño en todos los hechizos de Destruction y mucho más crítico en Conflagrate.",
+            "en": "10% more damage on all Destruction spells and much more crit on Conflagrate."
+          }
+        },
+        {
+          "niveles": "36-39",
+          "puntos": "1/1 Bane of Havoc, 3/5 Shadow and Flame",
+          "nota": {
+            "es": "Bane of Havoc copia parte de tu daño a un segundo objetivo. Shadow and Flame: Conflagrate ya no gasta Immolate y sube tu daño de sombra.",
+            "en": "Bane of Havoc copies part of your damage to a second target. Shadow and Flame: Conflagrate no longer uses up Immolate and boosts your Shadow damage."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Incinerate",
+          "nota": {
+            "es": "Hechizo nuevo de fuego que pega más si el objetivo tiene Immolate. Pasa a ser tu relleno contra enemigos ardiendo.",
+            "en": "A new Fire spell that hits harder on targets with Immolate. It becomes your filler against burning enemies."
+          }
+        },
+        {
+          "niveles": "41-44",
+          "puntos": "Shadow and Flame a 5/5 (+2), 2/2 Destructive Reach",
+          "nota": {
+            "es": "Termina Shadow and Flame y gana alcance: atacas desde más lejos.",
+            "en": "Finish Shadow and Flame and gain range: you attack from further away."
+          }
+        },
+        {
+          "niveles": "45-49",
+          "puntos": "5/5 Suppression (Affliction)",
+          "nota": {
+            "es": "Pasas a Affliction: +5 % de golpe y menos amenaza. A 60, contra jefes, es imprescindible.",
+            "en": "Move into Affliction: +5% hit and less threat. At 60, against bosses, you need it."
+          }
+        },
+        {
+          "niveles": "50-54",
+          "puntos": "5/5 Demonic Embrace (Demonology)",
+          "nota": {
+            "es": "Un 15 % más de aguante: más vida para Life Tap.",
+            "en": "15% more Stamina: more health for Life Tap."
+          }
+        },
+        {
+          "niveles": "55-60",
+          "puntos": "2/2 Demonic Aegis (Demonology), 3/3 Fel Vitality (Demonology), 1/1 Demonic Sacrifice (Demonology)",
+          "nota": {
+            "es": "Mejor armadura, más maná y Demonic Sacrifice: sacrifica al Imp para un 15 % más de daño de sombra o al Succubus para un 15 % más de fuego.",
+            "en": "Better armor, more mana and Demonic Sacrifice: sacrifice the Imp for 15% more Shadow damage or the Succubus for 15% more Fire."
+          }
+        }
+      ],
+      "final": "5/11/35"
+    }
   ]
 }

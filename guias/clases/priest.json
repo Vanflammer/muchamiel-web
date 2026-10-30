@@ -1219,5 +1219,259 @@
       "nombre": "Engadget: bases del sacerdote Sombra en JcJ (Cataclysm)",
       "url": "https://www.engadget.com/2011/06/29/spiritual-guidance-the-basics-of-shadow-priest-pvp/"
     }
+  ],
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "Sanador",
+        "en": "Healer"
+      },
+      "rama": "Discipline",
+      "para": {
+        "es": "Para quien quiere curar mazmorras mientras sube y, entre una y otra, hacer misiones con varita, escudos y Penance. Mata más despacio que Sombra, pero casi nunca muere y llega a 60 lista para curar.",
+        "en": "For players who want to heal dungeons on the way up and quest in between with wand, shields and Penance. It kills slower than Shadow, but rarely dies and hits 60 ready to heal."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Twin Disciplines",
+          "nota": {
+            "es": "Un 5 % más de daño y curación en los hechizos instantáneos: Shadow Word: Pain, Renew y Power Word: Shield ya salen mejores desde el principio.",
+            "en": "5% more damage and healing on instant spells: Shadow Word: Pain, Renew and Power Word: Shield all get better from the start."
+          }
+        },
+        {
+          "niveles": "15-16",
+          "puntos": "2/2 Wand Specialization",
+          "nota": {
+            "es": "La varita hace un 25 % más de daño. Entre mazmorras, es lo que remata a casi todos los enemigos.",
+            "en": "Your wand deals 25% more damage. Between dungeons, it finishes off almost everything."
+          }
+        },
+        {
+          "niveles": "17-19",
+          "puntos": "3/5 Mental Strength",
+          "nota": {
+            "es": "Más Intelecto, es decir, más maná para aguantar una mazmorra entera.",
+            "en": "More Intellect, which means more mana to last a whole dungeon."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Improved Power Word: Shield",
+          "nota": {
+            "es": "El escudo absorbe un 20 % más. Es tu herramienta principal para curar y también te protege cuando vas solo.",
+            "en": "Your shield absorbs 20% more. It is your main healing tool and also keeps you safe when solo."
+          }
+        },
+        {
+          "niveles": "23-26",
+          "puntos": "3/3 Meditation, 1/1 Soul Warding",
+          "nota": {
+            "es": "Sigues recuperando la mitad del maná mientras lanzas: menos pausas para beber en mitad de la mazmorra. Power Word: Shield se recarga 4 s antes y cuesta un 15 % menos. Ya puedes escudar al tanque en casi cada tirón.",
+            "en": "Half your mana regen keeps going while casting: fewer drink breaks mid-dungeon. Power Word: Shield comes back 4 sec sooner and costs 15% less. You can now shield the tank on nearly every pull."
+          }
+        },
+        {
+          "niveles": "27-30",
+          "puntos": "3/3 Mental Agility, 1/1 Penance",
+          "nota": {
+            "es": "Smite, Holy Fire y los instantáneos cuestan un 10 % menos de maná. El hechizo clave de la rama: cura mucho a un aliado o hace daño a un enemigo en 2 s. Úsalo cada vez que esté listo.",
+            "en": "Smite, Holy Fire and your instant spells cost 10% less mana. The key spell of the tree: a big heal on an ally or damage on an enemy over 2 sec. Use it whenever it is ready."
+          }
+        },
+        {
+          "niveles": "31-35",
+          "puntos": "5/5 Renewed Hope",
+          "nota": {
+            "es": "Más crítico en tus curas directas sobre quien tenga Weakened Soul, y curarlo acorta la espera para volver a escudarlo.",
+            "en": "More crit on your direct heals on targets with Weakened Soul, and healing them shortens the wait before you can shield them again."
+          }
+        },
+        {
+          "niveles": "36-38",
+          "puntos": "3/3 Divine Aegis",
+          "nota": {
+            "es": "Cada cura crítica deja además un escudo en el objetivo. Con Renewed Hope saltan a menudo.",
+            "en": "Every critical heal also leaves a shield on the target. With Renewed Hope, they happen often."
+          }
+        },
+        {
+          "niveles": "39-42",
+          "puntos": "1/1 Inner Focus, 1/1 Power Infusion, 5/5 Mental Strength",
+          "nota": {
+            "es": "Un hechizo gratis y con más crítico cada cierto tiempo: guárdalo para un Greater Heal en un apuro. Talento final: un 20 % más de daño y curación a un aliado durante 15 s. Dáselo a quien más haga en el momento fuerte del combate. Completas el 10 % de Intelecto. Aquí terminas Disciplina con 33 puntos.",
+            "en": "A free spell with extra crit every so often: save it for a Greater Heal in a pinch. Final talent: 20% more damage and healing for an ally for 15 sec. Give it to your best player at the key moment of the fight. You finish the 10% Intellect bonus. This completes Discipline with 33 points."
+          }
+        },
+        {
+          "niveles": "43-47",
+          "puntos": "5/5 Holy Specialization",
+          "nota": {
+            "es": "En Holy: un 5 % más de crítico en hechizos sagrados, así que más escudos de Divine Aegis.",
+            "en": "In Holy: 5% more crit on Holy spells, so more Divine Aegis shields."
+          }
+        },
+        {
+          "niveles": "48-52",
+          "puntos": "5/5 Divine Fury",
+          "nota": {
+            "es": "Heal y Greater Heal se lanzan medio segundo más rápido (y Smite también).",
+            "en": "Heal and Greater Heal cast half a second faster (and so does Smite)."
+          }
+        },
+        {
+          "niveles": "53-54",
+          "puntos": "2/3 Improved Renew",
+          "nota": {
+            "es": "Renew cura un 10 % más.",
+            "en": "Renew heals 10% more."
+          }
+        },
+        {
+          "niveles": "55-57",
+          "puntos": "3/3 Inspiration",
+          "nota": {
+            "es": "Tus curas críticas suben la armadura del objetivo un 25 % durante 15 s: muy útil en el tanque.",
+            "en": "Your critical heals raise the target's armor by 25% for 15 sec: great on the tank."
+          }
+        },
+        {
+          "niveles": "58-60",
+          "puntos": "3/3 Improved Healing",
+          "nota": {
+            "es": "Tus curas grandes y Penance cuestan un 15 % menos. Total: 33/18/0.",
+            "en": "Your big heals and Penance cost 15% less. Total: 33/18/0."
+          }
+        }
+      ],
+      "final": "33/18/0"
+    },
+    {
+      "rol": {
+        "es": "Sanador",
+        "en": "Healer"
+      },
+      "rama": "Holy",
+      "para": {
+        "es": "Para quien piensa pasar casi toda la subida dentro de mazmorras curando. Para hacer misiones solo es la más lenta de las tres, así que compensa si tienes grupo fijo o buscas grupo a menudo.",
+        "en": "For players who plan to spend most of the leveling inside dungeons as the healer. It is the slowest of the three for solo questing, so it pays off if you have a regular group or queue up often."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Holy Specialization",
+          "nota": {
+            "es": "Un 5 % más de crítico con hechizos sagrados: sirve para Smite cuando vas solo y para las curas.",
+            "en": "5% more crit on Holy spells: it helps Smite when solo and your heals in groups."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Divine Fury",
+          "nota": {
+            "es": "Heal, Greater Heal, Smite y Holy Fire se lanzan medio segundo más rápido. Es el talento que más se nota.",
+            "en": "Heal, Greater Heal, Smite and Holy Fire cast half a second faster. The talent you will feel most."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Improved Renew",
+          "nota": {
+            "es": "Renew cura un 15 % más. Es barato y lo vas a usar en cada tirón.",
+            "en": "Renew heals 15% more. It is cheap and you will use it on every pull."
+          }
+        },
+        {
+          "niveles": "23-25",
+          "puntos": "3/3 Inspiration",
+          "nota": {
+            "es": "Tus curas críticas dan un 25 % más de armadura al objetivo durante 15 s. El tanque lo agradece.",
+            "en": "Your critical heals give the target 25% more armor for 15 sec. Your tank will thank you."
+          }
+        },
+        {
+          "niveles": "26-28",
+          "puntos": "3/3 Improved Healing",
+          "nota": {
+            "es": "Las curas grandes cuestan un 15 % menos: aguantas más tirones sin beber.",
+            "en": "Big heals cost 15% less: more pulls before you need to drink."
+          }
+        },
+        {
+          "niveles": "29-32",
+          "puntos": "1/1 Binding Heal, 2/2 Litany of Light, 1/1 Spirit of Redemption",
+          "nota": {
+            "es": "Te curas a ti y al objetivo a la vez. Ideal cuando un enemigo se escapa y te golpea a ti. Si alternas curas distintas, recuperas maná con cada una. Al morir sigues curando unos segundos. Es requisito de Prayer of Mending.",
+            "en": "Heals you and your target at once. Perfect when a mob slips past the tank and hits you. If you alternate between different heals, you get mana back on each one. When you die you keep healing for a few seconds. It is required for Prayer of Mending."
+          }
+        },
+        {
+          "niveles": "33-37",
+          "puntos": "5/5 Spiritual Guidance",
+          "nota": {
+            "es": "Tu Espíritu se suma a la curación (y un poco al daño). Desde aquí el Espíritu del equipo vale el doble.",
+            "en": "Your Spirit adds to your healing (and a bit to damage). From here, Spirit on gear is worth much more."
+          }
+        },
+        {
+          "niveles": "38-39",
+          "puntos": "2/3 Spiritual Healing",
+          "nota": {
+            "es": "Tus curas sanan más.",
+            "en": "Your heals heal more."
+          }
+        },
+        {
+          "niveles": "40-41",
+          "puntos": "1/1 Prayer of Mending, 3/3 Spiritual Healing",
+          "nota": {
+            "es": "Talento final: una cura que salta sola de un miembro del grupo a otro cuando reciben daño. Ponla en el tanque en cada tirón. Completas el 10 % de curación. Holy queda en 32 puntos.",
+            "en": "Final talent: a heal that bounces on its own between party members as they take damage. Put it on the tank every pull. You finish the 10% healing bonus. Holy ends at 32 points."
+          }
+        },
+        {
+          "niveles": "42-46",
+          "puntos": "5/5 Twin Disciplines (Discipline)",
+          "nota": {
+            "es": "En Disciplina: un 5 % más a Renew, Power Word: Shield y Prayer of Mending, que son instantáneos.",
+            "en": "In Discipline: 5% more on Renew, Power Word: Shield and Prayer of Mending, which are instant."
+          }
+        },
+        {
+          "niveles": "47-51",
+          "puntos": "5/5 Mental Strength",
+          "nota": {
+            "es": "Un 10 % más de Intelecto: más maná para los combates largos.",
+            "en": "10% more Intellect: more mana for long fights."
+          }
+        },
+        {
+          "niveles": "52-55",
+          "puntos": "3/3 Meditation, 1/1 Inner Focus",
+          "nota": {
+            "es": "Mantienes la mitad de la regeneración de maná mientras lanzas. Un hechizo gratis con más crítico: guárdalo para un Greater Heal en un apuro.",
+            "en": "You keep half your mana regen while casting. A free spell with extra crit: save it for an emergency Greater Heal."
+          }
+        },
+        {
+          "niveles": "56-58",
+          "puntos": "3/3 Improved Power Word: Shield",
+          "nota": {
+            "es": "El escudo absorbe un 20 % más para los golpes que no te da tiempo a curar.",
+            "en": "Your shield absorbs 20% more for the hits you can't heal in time."
+          }
+        },
+        {
+          "niveles": "59-60",
+          "puntos": "2/3 Silent Resolve",
+          "nota": {
+            "es": "Generas menos amenaza con tus curas: menos enemigos se van a por ti. Total: 19/32/0.",
+            "en": "Your heals generate less threat, so fewer mobs come after you. Total: 19/32/0."
+          }
+        }
+      ],
+      "final": "19/32/0"
+    }
   ]
 }

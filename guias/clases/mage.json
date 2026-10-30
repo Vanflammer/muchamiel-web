@@ -1193,5 +1193,337 @@
       "nombre": "Skill Capped: glosario de JcJ (WoW Retail)",
       "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"
     }
+  ],
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "Daño (Fire)",
+        "en": "Damage (Fire)"
+      },
+      "rama": "Fire",
+      "para": {
+        "es": "Para quien quiere el daño más alto por objetivo y se ve haciendo mazmorras y banda como Fuego a 60. Gasta más maná y controla menos que Escarcha, así que pide comer y beber más a menudo.",
+        "en": "For players who want the highest single-target damage and plan to dungeon and raid as Fire at 60. It burns more mana and has less control than Frost, so expect to eat and drink more often."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Accelerant",
+          "nota": {
+            "es": "Fireball se lanza medio segundo más rápido: más daño por segundo desde el primer día.",
+            "en": "Fireball casts half a second faster: more damage per second from day one."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Ignite",
+          "nota": {
+            "es": "Tus críticos de fuego dejan al objetivo ardiendo con un 40 % extra del daño.",
+            "en": "Your Fire crits leave the target burning for an extra 40% of the damage."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "1/1 Pyroblast, 2/2 Improved Fire Blast",
+          "nota": {
+            "es": "Pyroblast es tu golpe de apertura (6 s de lanzamiento, mejor desde lejos). Fire Blast vuelve antes y llega más lejos.",
+            "en": "Pyroblast is your opener (6 sec cast, best from range). Fire Blast comes back sooner and reaches further."
+          }
+        },
+        {
+          "niveles": "23-25",
+          "puntos": "2/5 Incineration, 1/1 Heating Up",
+          "nota": {
+            "es": "Más crítico para Fire Blast y Scorch. Heating Up: cada crítico acorta el siguiente Pyroblast, y Fire Blast siempre suma una carga.",
+            "en": "More crit for Fire Blast and Scorch. Heating Up: each crit shortens your next Pyroblast, and Fire Blast always adds a stack."
+          }
+        },
+        {
+          "niveles": "26-29",
+          "puntos": "3/3 Master of Elements, Incineration a 3/5 (+1)",
+          "nota": {
+            "es": "Los críticos de fuego y escarcha te devuelven parte del maná: bebes menos.",
+            "en": "Fire and Frost crits refund part of their mana: you drink less."
+          }
+        },
+        {
+          "niveles": "30-34",
+          "puntos": "3/3 Critical Mass, 1/1 Blast Wave, Incineration a 4/5 (+1)",
+          "nota": {
+            "es": "+6 % de crítico con fuego y Blast Wave, un golpe en área instantáneo que además ralentiza a los que te rodean.",
+            "en": "+6% Fire crit, and Blast Wave, an instant area hit that also slows everyone around you."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "3/3 Fire Power, 2/3 Burning Soul",
+          "nota": {
+            "es": "Más daño por cada efecto de fuego tuyo en el objetivo (Ignite, Pyroblast…). Burning Soul: menos retrasos al recibir golpes.",
+            "en": "More damage for each of your Fire effects on the target (Ignite, Pyroblast…). Burning Soul: fewer cast delays when hit."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Combustion",
+          "nota": {
+            "es": "Botón de ráfaga: cada golpe de fuego sube tu crítico hasta que hagas 3 críticos. Para élites y peleas difíciles.",
+            "en": "Burst button: each Fire hit raises your crit until you land 3 crits. For elites and hard fights."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "Burning Soul a 3/3 (+1), 3/3 Improved Scorch, Incineration a 5/5 (+1)",
+          "nota": {
+            "es": "Improved Scorch hace que cada Scorch sume un 3 % de daño de fuego (hasta 5 veces): úsalo en enemigos largos.",
+            "en": "Improved Scorch makes each Scorch add 3% Fire damage (up to 5 stacks): use it on long fights."
+          }
+        },
+        {
+          "niveles": "46-48",
+          "puntos": "3/3 Precision (Frost)",
+          "nota": {
+            "es": "Tres puntos en Frost para +6 % de golpe: fallas menos contra enemigos de más nivel y jefes.",
+            "en": "Three points in Frost for +6% hit: fewer misses against higher-level enemies and bosses."
+          }
+        },
+        {
+          "niveles": "49-53",
+          "puntos": "3/3 Impact, 2/2 Flame Throwing",
+          "nota": {
+            "es": "Tus hechizos de fuego pueden aturdir 2 s, y llegan 6 metros más lejos.",
+            "en": "Your Fire spells can stun for 2 sec, and reach 6 yards further."
+          }
+        },
+        {
+          "niveles": "54-56",
+          "puntos": "3/3 Improved Flamestrike",
+          "nota": {
+            "es": "Flamestrike critica mucho más: útil para limpiar grupos en mazmorra.",
+            "en": "Flamestrike crits far more often: useful to clear packs in dungeons."
+          }
+        },
+        {
+          "niveles": "57-60",
+          "puntos": "2/2 Frost Warding (Frost), 2/2 Improved Frost Nova (Frost)",
+          "nota": {
+            "es": "Cierre en Frost: mejores armaduras de escarcha y Frost Nova más a menudo para escapar.",
+            "en": "Finish in Frost: stronger frost armors and Frost Nova more often to get away."
+          }
+        }
+      ],
+      "final": "0/44/7"
+    },
+    {
+      "rol": {
+        "es": "Daño (Arcane)",
+        "en": "Damage (Arcane)"
+      },
+      "rama": "Arcane",
+      "para": {
+        "es": "Para quien quiere la rama nueva de Forever: Arcane Blast y Arcane Wrath dan mucho daño en poco tiempo. Sube bien solo, pero pide vigilar el maná y depende de activaciones al azar.",
+        "en": "For players who want the reworked Forever tree: Arcane Blast and Arcane Wrath deal a lot of damage quickly. It levels fine solo, but you must watch your mana and it relies on random procs."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "2/2 Wand Specialization, 3/5 Improved Channeling",
+          "nota": {
+            "es": "Más daño con la varita para rematar sin gastar maná, y Arcane Missiles se retrasa menos al recibir golpes.",
+            "en": "More wand damage to finish enemies without spending mana, and fewer Arcane Missiles delays when you get hit."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Arcane Concentration",
+          "nota": {
+            "es": "Clearcasting: a veces tu siguiente hechizo de daño sale gratis. Es tu mayor ahorro de maná.",
+            "en": "Clearcasting: sometimes your next damage spell is free. It is your biggest mana saver."
+          }
+        },
+        {
+          "niveles": "20-24",
+          "puntos": "1/1 Arcane Blast, 2/2 Missile Barrage, Improved Channeling a 5/5 (+2)",
+          "nota": {
+            "es": "Arcane Blast te da poder con hechizos con cada lanzamiento (y cuesta más). Missile Barrage deja Arcane Missiles gratis y el doble de rápido.",
+            "en": "Arcane Blast grants spell power with each cast (and costs more). Missile Barrage makes Arcane Missiles free and twice as fast."
+          }
+        },
+        {
+          "niveles": "25-29",
+          "puntos": "1/1 Arcane Wrath, 3/3 Arcane Meditation, 1/3 Arcane Impact",
+          "nota": {
+            "es": "Arcane Wrath escala con tu maná máximo: lánzalo con las cargas de Arcane Blast puestas. Arcane Meditation: recuperas maná mientras lanzas.",
+            "en": "Arcane Wrath scales with your maximum mana: cast it with Arcane Blast stacks up. Arcane Meditation: mana regenerates while you cast."
+          }
+        },
+        {
+          "niveles": "30",
+          "puntos": "1/1 Presence of Mind",
+          "nota": {
+            "es": "Tu siguiente hechizo sale instantáneo: un Arcane Wrath o un Polymorph cuando hace falta.",
+            "en": "Your next spell is instant: an Arcane Wrath or a Polymorph when you need it."
+          }
+        },
+        {
+          "niveles": "31-35",
+          "puntos": "5/5 Arcane Mind",
+          "nota": {
+            "es": "+10 % de intelecto (más maná, más daño de Arcane Wrath) y críticos arcanos mucho más fuertes.",
+            "en": "+10% Intellect (more mana, more Arcane Wrath damage) and much stronger Arcane crits."
+          }
+        },
+        {
+          "niveles": "36-39",
+          "puntos": "3/3 Arcane Instability, Arcane Impact a 2/3 (+1)",
+          "nota": {
+            "es": "+3 % de daño y +3 % de crítico con todo, más crítico arcano.",
+            "en": "+3% damage and +3% crit on everything, plus more Arcane crit."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Arcane Power",
+          "nota": {
+            "es": "Un 30 % más de daño durante 15 s a cambio de más maná. Guárdalo para élites o para tirar dos enemigos a la vez.",
+            "en": "30% more damage for 15 sec at a higher mana cost. Save it for elites or for dropping two enemies at once."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "Arcane Impact a 3/3 (+1), 2/2 Arcane Subtlety, 2/2 Arcane Resilience",
+          "nota": {
+            "es": "Más crítico, menos resistencias del enemigo y armadura extra según tu intelecto.",
+            "en": "More crit, lower enemy resistances and extra armor based on your Intellect."
+          }
+        },
+        {
+          "niveles": "46-49",
+          "puntos": "2/2 Arcane Geometry, 2/2 Magic Absorption",
+          "nota": {
+            "es": "Más alcance para los hechizos arcanos y resistencias extra.",
+            "en": "More range for Arcane spells and extra resistances."
+          }
+        },
+        {
+          "niveles": "50-54",
+          "puntos": "5/5 Accelerant (Fire)",
+          "nota": {
+            "es": "Pasas a Fire: Arcane Wrath se lanza medio segundo más rápido.",
+            "en": "Move into Fire: Arcane Wrath casts half a second faster."
+          }
+        },
+        {
+          "niveles": "55-60",
+          "puntos": "4/5 Incineration (Fire), 2/2 Improved Counterspell",
+          "nota": {
+            "es": "Más crítico para Arcane Blast y Counterspell que además silencia 4 s.",
+            "en": "More Arcane Blast crit, and a Counterspell that also silences for 4 sec."
+          }
+        }
+      ],
+      "final": "42/9/0"
+    },
+    {
+      "rol": {
+        "es": "Daño en área en grupo (Frost AoE)",
+        "en": "Group AoE damage (Frost AoE)"
+      },
+      "rama": "Frost",
+      "para": {
+        "es": "Para subir en grupo juntando muchos enemigos y matarlos a la vez con Blizzard, Cone of Cold y Flamestrike. Solo compensa con otro mago o con un compañero que aguante; para jugar solo, mejor la build principal.",
+        "en": "For leveling in a group by pulling many enemies and killing them together with Blizzard, Cone of Cold and Flamestrike. Only worth it with another mage or a partner who can take hits; for solo play, use the main build."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Improved Frostbolt",
+          "nota": {
+            "es": "Hasta el 20 subes con Frostbolt normal: medio segundo menos por lanzamiento.",
+            "en": "Until 20 you level with plain Frostbolt: half a second less per cast."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "2/2 Improved Frost Nova, 3/3 Permafrost",
+          "nota": {
+            "es": "Frost Nova más a menudo y ralentizaciones más largas y fuertes: los enemigos tardan más en llegar.",
+            "en": "Frost Nova more often, and longer, stronger slows: enemies take longer to reach you."
+          }
+        },
+        {
+          "niveles": "20-25",
+          "puntos": "3/3 Frost Channeling, 3/3 Improved Blizzard",
+          "nota": {
+            "es": "Blizzard llega al 20: con Improved Blizzard ralentiza y puedes moverte en círculo mientras pega. Frost Channeling abarata los hechizos.",
+            "en": "Blizzard arrives at 20: with Improved Blizzard it slows, so you can kite in a circle while it ticks. Frost Channeling makes spells cheaper."
+          }
+        },
+        {
+          "niveles": "26-29",
+          "puntos": "2/2 Arctic Reach, 1/1 Ice Block, 1/1 Ice Lance",
+          "nota": {
+            "es": "Más alcance para Blizzard y más radio para Frost Nova y Cone of Cold. Ice Block te salva si un grupo se descontrola.",
+            "en": "More Blizzard range and a bigger Frost Nova and Cone of Cold radius. Ice Block saves you when a pull goes wrong."
+          }
+        },
+        {
+          "niveles": "30-33",
+          "puntos": "3/3 Improved Cone of Cold, 1/1 Cold Snap",
+          "nota": {
+            "es": "Cone of Cold pega bastante más para rematar el grupo. Cold Snap reinicia Frost Nova, Cone of Cold e Ice Block.",
+            "en": "Cone of Cold hits much harder to finish the pack. Cold Snap resets Frost Nova, Cone of Cold and Ice Block."
+          }
+        },
+        {
+          "niveles": "34-39",
+          "puntos": "3/3 Shatter, 3/3 Precision",
+          "nota": {
+            "es": "Mucho más crítico contra enemigos congelados (tras Frost Nova) y +6 % de golpe.",
+            "en": "Much more crit against frozen enemies (after Frost Nova) and +6% hit."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Ice Barrier",
+          "nota": {
+            "es": "El talento clave para el área: con el escudo puesto no pierdes tiempo de lanzamiento aunque te peguen.",
+            "en": "The key talent for AoE: while the shield is up you lose no cast time when hit."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Incineration (Fire)",
+          "nota": {
+            "es": "Pasas a Fire: más crítico para Ice Lance, Fire Blast y Scorch.",
+            "en": "Move into Fire: more crit for Ice Lance, Fire Blast and Scorch."
+          }
+        },
+        {
+          "niveles": "46-50",
+          "puntos": "5/5 Ignite (Fire)",
+          "nota": {
+            "es": "Los críticos de Flamestrike tras Frost Nova (con Shatter) dejan a todo el grupo ardiendo.",
+            "en": "Flamestrike crits after Frost Nova (with Shatter) leave the whole pack burning."
+          }
+        },
+        {
+          "niveles": "51-55",
+          "puntos": "3/3 Improved Flamestrike (Fire), 2/3 Impact (Fire)",
+          "nota": {
+            "es": "Flamestrike critica mucho más y tus hechizos de fuego pueden aturdir.",
+            "en": "Flamestrike crits far more and your Fire spells can stun."
+          }
+        },
+        {
+          "niveles": "56-60",
+          "puntos": "3/3 Master of Elements (Fire), 2/2 Flame Throwing (Fire)",
+          "nota": {
+            "es": "Los críticos de fuego y escarcha te devuelven maná, y Flamestrike llega más lejos.",
+            "en": "Fire and Frost crits refund mana, and Flamestrike reaches further."
+          }
+        }
+      ],
+      "final": "0/20/31"
+    }
   ]
 }

@@ -16,7 +16,7 @@ MESES = {'es': ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 
 
 L = {
     'resumen': ('Resumen', 'Overview'), 'subir': ('Subir del 1 al 60', 'Leveling 1-60'), 'n60': ('Nivel 60', 'Level 60'),
-    'tec': ('Cómo se juega', 'How to play'), 'tec_pvp': ('En JcJ', 'In PvP'), 'tec_pve': ('En mazmorras y bandas', 'In dungeons and raids'),
+    'tec': ('Cómo se juega', 'How to play'), 'dudas': ('Dudas', 'FAQ'), 'tec_pvp': ('En JcJ', 'In PvP'), 'tec_pve': ('En mazmorras y bandas', 'In dungeons and raids'),
     'tec_teclas': ('Teclas y macros', 'Keybinds and macros'),
     'tec_glos': ('Todas las técnicas, explicadas para cualquier clase:', 'Every technique, explained for any class:'), 'tec_glos_l': ('Técnicas de juego', 'Gameplay techniques'),
     'pvp': ('JcJ', 'PvP'), 'prof': ('Profesiones', 'Professions'), 'falta': ('Lo que falta', 'Still to come'),
@@ -90,9 +90,12 @@ def cargar(carpeta):
 def guia_clase(d, lang, builds60=''):
     s = d.get('subir') or {}
     n60 = d.get('nivel60') or {}
-    nav = [('g-resumen', 'resumen'), ('g-subir', 'subir'), ('g-tec', 'tec'), ('g-60', 'n60'), ('g-pvp', 'pvp'), ('g-prof', 'prof'), ('g-falta', 'falta'), ('beta', 'beta')]
+    nav = [('g-resumen', 'resumen'), ('g-subir', 'subir'), ('g-tec', 'tec'), ('g-60', 'n60'), ('g-pvp', 'pvp'), ('g-prof', 'prof'), ('g-falta', 'falta')]
+    if d['slug'] == 'hunter':
+        nav.insert(3, ('g-dudas', 'dudas'))
     h = (f'<section class="guia" id="guia"><p class="guia-fecha">{l("actualizado", lang)} {fecha(d["actualizado"], lang)}</p>'
          '<div class="quick guia-nav">' + ''.join(f'<a href="#{a}">{l(k, lang)}</a>' for a, k in nav) +
+         f'<a href="../macros/{d["slug"]}/">{"Macros" if lang == "es" else "Macros"}</a>'
          f'<a href="../calculadora/?class={d["slug"]}">{"Calculadora" if lang == "es" else "Calculator"}</a></div>')
     # Resumen
     h += f'<div class="divider" id="g-resumen"><h2>{l("resumen", lang)}</h2></div><p class="lead">{t(d.get("resumen"), lang)}</p>'
@@ -118,6 +121,13 @@ def guia_clase(d, lang, builds60=''):
         h += f'<h3>{l("talentos", lang)}</h3><table class="keys guia-t">' + ''.join(
             f'<tr><th>{E(str(x.get("niveles", "")))}</th><td><b>{E(x.get("puntos", ""))}</b>' + (f'<br>{t(x.get("nota"), lang)}' if t(x.get('nota'), lang) else '') + '</td></tr>'
             for x in s['talentos']) + '</table>'
+    for r in d.get('subir_roles') or []:  # Van 30-10: builds de subida para los otros roles de la clase
+        h += (f'<h3>{"Para subir como" if lang == "es" else "Leveling as"} {t(r.get("rol"), lang)} · {E(r.get("rama", ""))}'
+              + (f' <small>({E(r["final"])})</small>' if r.get('final') else '') + '</h3>'
+              + (f'<p>{t(r.get("para"), lang)}</p>' if t(r.get('para'), lang) else '')
+              + '<table class="keys guia-t">' + ''.join(
+                  f'<tr><th>{E(str(x.get("niveles", "")))}</th><td><b>{E(x.get("puntos", ""))}</b>' + (f'<br>{t(x.get("nota"), lang)}' if t(x.get('nota'), lang) else '') + '</td></tr>'
+                  for x in r.get('talentos') or []) + '</table>')
     if s.get('habilidades'):
         h += f'<h3>{l("habilidades", lang)}</h3><table class="keys guia-t">' + ''.join(
             f'<tr{" class=nueva" if x.get("nuevo") else ""}><th>{E(str(x.get("nivel", "")))}</th><td><b>{E(x.get("nombre", ""))}</b>'
@@ -166,6 +176,9 @@ def guia_clase(d, lang, builds60=''):
     if d.get('profesiones'):
         h += f'<div class="divider" id="g-prof"><h2>{l("prof_t", lang)}</h2></div><table class="keys guia-t">' + ''.join(
             f'<tr><th>{t(p.get("nombre"), lang)}</th><td>{t(p.get("por_que"), lang)}</td></tr>' for p in d['profesiones']) + '</table>'
+    if d['slug'] == 'hunter':
+        import guias_extra2
+        h += guias_extra2.dudas_cazador(lang)
     h += (f'<div class="prepare guia-falta" id="g-falta"><h3>{l("falta_t", lang)}</h3>{lista(d.get("pendiente"), lang)}'
           f'<p>{l("promesa", lang)}</p></div>' + fuentes(d.get('fuentes'), lang) + '</section>')
     return h
@@ -180,12 +193,11 @@ def insertar_clase(s, slug):
     b60 = '' if (datos.get('nivel60') or {}).get('sin_builds_beta') else forever_portal.builds60_clase(slug)
     es, en = guia_clase(datos, 'es', b60), guia_clase(datos, 'en', b60)
     PARES.append((es, en))
-    beta = (f'<div class="divider" id="beta"><h2>{l("beta_t", "es")}</h2></div><p class="fine">{l("beta_p", "es")}</p>')
-    PARES.append((beta, f'<div class="divider" id="beta"><h2>{l("beta_t", "en")}</h2></div><p class="fine">{l("beta_p", "en")}</p>'))
     s = s.replace('WOW FOREVER · BETA · NIVEL 30', 'WOW FOREVER · GUÍA DE CLASE', 1)
     i = s.index('<div class="class-banner">')
     j = s.index('</div>', i) + len('</div>')
-    s = s[:j] + es + beta + s[j:]
+    k = s.index('<footer', j)  # Van 30-10: fuera todo lo de la beta (nivel 30) que venía detrás
+    s = s[:j] + es + s[k:]
     s = s.replace('<details open class="section" id="builds">', '<details class="section" id="builds">', 1)
     return s, True
 
@@ -450,6 +462,7 @@ letter-spacing:.06em;background:#2a6b2a;color:#d9ffd9;vertical-align:1px}
 .guia-centro{text-align:center}.guia-profs{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:10px 0 24px}
 .tag-estado{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:3px;font:700 11px "Segoe UI",sans-serif;background:#2a3a55;color:#cfe0ff}.tag-estado.forever{background:#2a6b2a;color:#d9ffd9}.tag-estado.classic{background:#6b4a12;color:#ffe7a6}
 .tec.xp h4{display:flex;align-items:center;gap:8px}.tec.xp img{border-radius:6px;border:1px solid #c99a3c88}.xp-val{margin-left:auto;color:#9be29b;font-size:14px}
+pre.macro-txt{white-space:pre-wrap;margin:6px 0;padding:8px 10px;background:#0a0e15;border:1px solid #2c3444;border-radius:6px;font-size:13px}
 .tecs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:8px 0 18px}
 .tec{padding:14px 16px;border:1px solid #2c3444;border-left:3px solid #c99a3c88;border-radius:8px;background:#0f141d}
 .tec h4{margin:0 0 2px;color:#ffe7a6;font-size:16px}.tec p{margin:6px 0 0;line-height:1.55}.tec .tec-term{margin:0;font-size:12.5px;letter-spacing:.04em;color:#9fb3c8}

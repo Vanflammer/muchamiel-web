@@ -230,7 +230,7 @@ def builds_60():
             filas = '<li>El árbol de talentos del mago cambió el 28 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../mage/#g-60">guía del mago</a>.</li>'
         cards += (f'<article class="addon build60"><img src="../assets/{slug}.jpg" alt=""><div><p class="eyebrow">{E(reparto)}</p><h3>{E(nombre)}</h3>'
                   f'<ol class="b60">{filas}</ol><p><strong>Nuevo en Forever:</strong> {E(nuevas)}</p>'
-                  f'<a class="btn ghost" href="../{slug}/">Guía PvP de la beta (nivel 30)</a></div></article>')
+                  f'<a class="btn ghost" href="../{slug}/">Guía completa de la clase</a></div></article>')
     return ('<p class="eyebrow">WOW FOREVER · NIVEL 60</p><h1>Builds de nivel 60</h1>'
             '<p class="lead">Las builds de nivel 60 más planificadas de cada clase, con los 51 puntos repartidos. Pulsa «Ver build» para abrirla en el árbol de talentos. '
             'El porcentaje es cuánta gente juega cada rama.</p>' + nav_forever('builds-60') +

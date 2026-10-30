@@ -1291,5 +1291,385 @@
       "nombre": "Foros de Blizzard: trucos de Feral en JcJ (WoW Classic Era)",
       "url": "https://us.forums.blizzard.com/en/wow/t/feral-druid-pvp-tips-tricks/173701"
     }
+  ],
+  "subir_roles": [
+    {
+      "rol": {
+        "es": "Tanque",
+        "en": "Tank"
+      },
+      "rama": "Feral Combat (oso)",
+      "para": {
+        "es": "Para quien quiere tanquear mazmorras desde el principio. Haces misiones como oso (y luego como gato, con la misma rama) y en grupo ya tienes los talentos de aguante y amenaza.",
+        "en": "For players who want to tank dungeons from the start. You quest as a bear (and later as a cat, same tree) and in groups you already have the survival and threat talents."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Ferocity",
+          "nota": {
+            "es": "Maul y Swipe cuestan menos ira: más golpes y más amenaza desde el nivel 10, cuando consigues Bear Form.",
+            "en": "Maul and Swipe cost less rage: more hits and more threat from level 10, when you get Bear Form."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Heart of the Wild",
+          "nota": {
+            "es": "En forma de oso, un 20 % más de Stamina. Es el talento que más vida te da.",
+            "en": "20% more Stamina in Bear Form. The talent that gives you the most health."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "1/1 Feral Charge, 2/2 Sharpened Claws",
+          "nota": {
+            "es": "Carga hacia un enemigo, lo inmoviliza e interrumpe su hechizo. Perfecto para recoger al que se escapa o cortar a un lanzador. Un 6 % más de crítico en forma. Es requisito de Blood Frenzy.",
+            "en": "Charge an enemy, root it and interrupt its cast. Great for picking up runaways or stopping casters. 6% more crit in forms. It is required for Blood Frenzy."
+          }
+        },
+        {
+          "niveles": "23-25",
+          "puntos": "2/2 Savage Fury, 1/1 Primal Bite",
+          "nota": {
+            "es": "Maul, Swipe y Claw hacen un 10 % más de daño, y abre Primal Bite. Tu golpe principal para la amenaza contra un objetivo: úsalo cada vez que esté listo.",
+            "en": "Maul, Swipe and Claw deal 10% more damage, and it unlocks Primal Bite. Your main single-target threat attack: use it whenever it is ready."
+          }
+        },
+        {
+          "niveles": "26-27",
+          "puntos": "2/2 Blood Frenzy",
+          "nota": {
+            "es": "Cada crítico como oso te da 5 de ira extra: menos tirones con la barra vacía.",
+            "en": "Every bear crit gives you 5 extra rage: fewer pulls with an empty bar."
+          }
+        },
+        {
+          "niveles": "28-31",
+          "puntos": "3/3 Predatory Strikes, 1/1 Leader of the Pack",
+          "nota": {
+            "es": "Más poder de ataque en forma: más daño y más amenaza. Más crítico para todo el grupo mientras estás en forma. Es requisito de Berserk.",
+            "en": "More attack power in forms: more damage and more threat. More crit for the whole party while you are shapeshifted. It is required for Berserk."
+          }
+        },
+        {
+          "niveles": "32-34",
+          "puntos": "3/3 Feral Instinct",
+          "nota": {
+            "es": "Swipe hace un 30 % más de daño: mantienes mejor a varios enemigos.",
+            "en": "Swipe deals 30% more damage: you hold several mobs more easily."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Natural Reaction",
+          "nota": {
+            "es": "Un 5 % más de esquiva y 5 de ira cada vez que esquivas. Te hace mucho más duro.",
+            "en": "5% more dodge and 5 rage every time you dodge. It makes you much tougher."
+          }
+        },
+        {
+          "niveles": "40-42",
+          "puntos": "1/1 Berserk, 2/3 Thick Hide",
+          "nota": {
+            "es": "Talento final: Primal Bite golpea a 3 objetivos y sin reutilización. Llega con Dire Bear Form al 40. Más armadura en forma.",
+            "en": "Final talent: Primal Bite hits 3 targets with no cooldown. It arrives with Dire Bear Form at 40. More armor in forms."
+          }
+        },
+        {
+          "niveles": "43-44",
+          "puntos": "2/2 Natural Instinct",
+          "nota": {
+            "es": "Críticos más fuertes y algo más de curación por tu Intelecto, para curarte entre tirones.",
+            "en": "Stronger crits and a bit more healing from your Intellect, to top yourself up between pulls."
+          }
+        },
+        {
+          "niveles": "45-49",
+          "puntos": "5/5 Rend and Tear",
+          "nota": {
+            "es": "Un 10 % más de daño contra enemigos que sangran: con Lacerate puesto, siempre activo.",
+            "en": "10% more damage against bleeding targets: with Lacerate up, it is always on."
+          }
+        },
+        {
+          "niveles": "50-51",
+          "puntos": "2/2 Feral Swiftness",
+          "nota": {
+            "es": "Un 4 % más de esquiva (y más velocidad como gato). Feral queda en 42.",
+            "en": "4% more dodge (and more speed as a cat). Feral ends at 42."
+          }
+        },
+        {
+          "niveles": "52-56",
+          "puntos": "5/5 Genesis (Balance)",
+          "nota": {
+            "es": "En Balance: Lacerate y tus curas en el tiempo hacen un 5 % más.",
+            "en": "In Balance: Lacerate and your heals over time do 5% more."
+          }
+        },
+        {
+          "niveles": "57-60",
+          "puntos": "2/2 Nature's Majesty, 2/2 Nature's Reach",
+          "nota": {
+            "es": "Un 4 % más de crítico y un 4 % más de golpe: menos fallos en los golpes de amenaza. Total: 9/42/0.",
+            "en": "4% more crit and 4% more hit: fewer misses on your threat attacks. Total: 9/42/0."
+          }
+        }
+      ],
+      "final": "9/42/0"
+    },
+    {
+      "rol": {
+        "es": "DPS a distancia",
+        "en": "Ranged DPS"
+      },
+      "rama": "Balance",
+      "para": {
+        "es": "Para quien quiere jugar el druida lanzador desde el principio. Sube más despacio que el gato porque bebe más, pero cuando llegas a 60 ya eres Moonkin sin tener que pagar por cambiar talentos.",
+        "en": "For players who want to play the caster druid from the start. It levels slower than cat because you drink more, but you reach 60 as a Moonkin without paying to respec."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Improved Wrath",
+          "nota": {
+            "es": "Wrath se lanza medio segundo más rápido y cuesta la mitad. Es tu hechizo principal hasta tener Starfire.",
+            "en": "Wrath casts half a second faster and costs half the mana. It is your main spell until you have Starfire."
+          }
+        },
+        {
+          "niveles": "15-17",
+          "puntos": "3/3 Moonglow",
+          "nota": {
+            "es": "Tus hechizos de daño cuestan un 25 % menos: más enemigos por cada barra de maná.",
+            "en": "Your damage spells cost 25% less: more kills per bar of mana."
+          }
+        },
+        {
+          "niveles": "18-21",
+          "puntos": "2/2 Improved Moonfire, 2/2 Nature's Majesty",
+          "nota": {
+            "es": "Moonfire hace más daño y más crítico. Es requisito de Vengeance. Un 4 % más de crítico con hechizos.",
+            "en": "Moonfire deals more damage and crits more. It is required for Vengeance. 4% more spell crit."
+          }
+        },
+        {
+          "niveles": "22-25",
+          "puntos": "2/2 Nature's Reach, 1/1 Nature's Splendor, 1/1 Insect Swarm",
+          "nota": {
+            "es": "Más alcance y un 4 % más de golpe: atacas desde más lejos y fallas menos. Moonfire, Insect Swarm y tus curas en el tiempo duran más. Segundo daño en el tiempo; además el enemigo falla más sus golpes.",
+            "en": "More range and 4% more hit: you attack from further away and miss less. Moonfire, Insect Swarm and your heals over time last longer. A second damage over time; the enemy also misses more often."
+          }
+        },
+        {
+          "niveles": "26-30",
+          "puntos": "5/5 Vengeance",
+          "nota": {
+            "es": "Tus críticos de Arcano y Naturaleza pegan el doble de fuerte.",
+            "en": "Your Arcane and Nature crits hit twice as hard."
+          }
+        },
+        {
+          "niveles": "31",
+          "puntos": "1/1 Nature's Grace",
+          "nota": {
+            "es": "Tras cada crítico, lanzas más rápido el siguiente hechizo.",
+            "en": "After each crit, your next spell casts faster."
+          }
+        },
+        {
+          "niveles": "32-34",
+          "puntos": "3/3 Eclipse",
+          "nota": {
+            "es": "Cada Wrath acelera los dos Starfire siguientes: alterna los dos hechizos.",
+            "en": "Every Wrath speeds up your next two Starfires: alternate both spells."
+          }
+        },
+        {
+          "niveles": "35-39",
+          "puntos": "5/5 Moonfury",
+          "nota": {
+            "es": "Un 10 % más de daño con Arcano y Naturaleza: casi todo lo que haces.",
+            "en": "10% more Arcane and Nature damage: almost everything you do."
+          }
+        },
+        {
+          "niveles": "40",
+          "puntos": "1/1 Moonkin Form",
+          "nota": {
+            "es": "Talento final: más armadura y crítico de hechizos para todo el grupo. Ya es tu forma de combate.",
+            "en": "Final talent: more armor and spell crit for the whole party. This is now your combat form."
+          }
+        },
+        {
+          "niveles": "41-45",
+          "puntos": "5/5 Improved Starfire",
+          "nota": {
+            "es": "Starfire se lanza medio segundo más rápido y a veces aturde. Balance queda en 36.",
+            "en": "Starfire casts half a second faster and can stun. Balance ends at 36."
+          }
+        },
+        {
+          "niveles": "46-50",
+          "puntos": "5/5 Nature's Focus (Restoration)",
+          "nota": {
+            "es": "En Restoration: pierdes mucho menos tiempo de lanzamiento cuando te golpean.",
+            "en": "In Restoration: you lose much less cast time when you get hit."
+          }
+        },
+        {
+          "niveles": "51-55",
+          "puntos": "5/5 Naturalist",
+          "nota": {
+            "es": "Un 5 % más a todo tu daño y Healing Touch más rápido para curarte.",
+            "en": "5% more on all your damage and a faster Healing Touch to heal yourself."
+          }
+        },
+        {
+          "niveles": "56-58",
+          "puntos": "3/3 Reflection",
+          "nota": {
+            "es": "Sigues recuperando la mitad del maná mientras lanzas.",
+            "en": "Half your mana regen keeps going while casting."
+          }
+        },
+        {
+          "niveles": "59-60",
+          "puntos": "2/3 Subtlety",
+          "nota": {
+            "es": "Menos amenaza con tus hechizos: en grupo, menos enemigos se van a por ti. Total: 36/0/15.",
+            "en": "Less threat from your spells: in groups, fewer mobs turn on you. Total: 36/0/15."
+          }
+        }
+      ],
+      "final": "36/0/15"
+    },
+    {
+      "rol": {
+        "es": "Sanador",
+        "en": "Healer"
+      },
+      "rama": "Restoration",
+      "para": {
+        "es": "Para quien quiere curar mazmorras durante toda la subida. Solo es lento: para misiones, pega como oso o gato y cúrate entre combates; en grupo luce desde el primer día.",
+        "en": "For players who want to heal dungeons all the way up. Solo it is slow: for quests, fight as bear or cat and heal yourself between fights; in groups it shines from day one."
+      },
+      "talentos": [
+        {
+          "niveles": "10-14",
+          "puntos": "5/5 Nature's Focus",
+          "nota": {
+            "es": "Tus hechizos casi no se retrasan cuando te golpean: curarte o lanzar Wrath con un enemigo encima ya no es un problema.",
+            "en": "Your spells barely get pushed back when you are hit: healing yourself or casting Wrath with a mob on you is no longer a problem."
+          }
+        },
+        {
+          "niveles": "15-19",
+          "puntos": "5/5 Naturalist",
+          "nota": {
+            "es": "Un 5 % más a todo tu daño (también en forma) y Healing Touch medio segundo más rápido. Es requisito de Nature's Swiftness.",
+            "en": "5% more on all your damage (forms included) and Healing Touch half a second faster. It is required for Nature's Swiftness."
+          }
+        },
+        {
+          "niveles": "20-22",
+          "puntos": "3/3 Reflection",
+          "nota": {
+            "es": "Mantienes la mitad de la regeneración de maná mientras curas: el talento de maná más importante.",
+            "en": "You keep half your mana regen while healing: the most important mana talent."
+          }
+        },
+        {
+          "niveles": "23-24",
+          "puntos": "2/5 Gift of Nature",
+          "nota": {
+            "es": "Tus curas sanan un poco más.",
+            "en": "Your heals heal a little more."
+          }
+        },
+        {
+          "niveles": "25-27",
+          "puntos": "3/3 Improved Rejuvenation",
+          "nota": {
+            "es": "Rejuvenation cura un 15 % más. Es requisito de Improved Regrowth.",
+            "en": "Rejuvenation heals 15% more. It is required for Improved Regrowth."
+          }
+        },
+        {
+          "niveles": "28-30",
+          "puntos": "1/1 Swiftmend, 1/1 Gift of the Earthmother, 1/1 Nature's Swiftness",
+          "nota": {
+            "es": "Cura al instante a quien tenga Rejuvenation o Regrowth, y en Forever no le quita el efecto. Rejuvenation y Swiftmend te bloquean menos tiempo entre hechizos. Tu siguiente hechizo de Naturaleza es instantáneo: Healing Touch grande en una emergencia.",
+            "en": "Instantly heals a target with Rejuvenation or Regrowth, and in Forever it no longer eats the effect. Rejuvenation and Swiftmend lock you out for less time between spells. Your next Nature spell is instant: a big Healing Touch in an emergency."
+          }
+        },
+        {
+          "niveles": "31-33",
+          "puntos": "5/5 Gift of Nature",
+          "nota": {
+            "es": "Completas el 10 % más de curación.",
+            "en": "You finish the 10% healing bonus."
+          }
+        },
+        {
+          "niveles": "34-36",
+          "puntos": "3/3 Living Spirit",
+          "nota": {
+            "es": "Un 15 % más de Espíritu (más maná). Es requisito de Wild Growth.",
+            "en": "15% more Spirit (more mana). It is required for Wild Growth."
+          }
+        },
+        {
+          "niveles": "37-41",
+          "puntos": "5/5 Improved Regrowth",
+          "nota": {
+            "es": "Regrowth tiene mucho más crítico: tu cura directa fuerte.",
+            "en": "Regrowth crits far more often: your strong direct heal."
+          }
+        },
+        {
+          "niveles": "42-44",
+          "puntos": "1/1 Wild Growth, 2/2 Improved Tranquility",
+          "nota": {
+            "es": "Talento final: cura a todo el grupo en el tiempo. Úsalo cuando varios pierdan vida a la vez. Tranquility sin amenaza y con mucha menos reutilización. Restoration queda en 35.",
+            "en": "Final talent: heals the whole party over time. Use it when several people take damage at once. Tranquility with no threat and a much shorter cooldown. Restoration ends at 35."
+          }
+        },
+        {
+          "niveles": "45-49",
+          "puntos": "5/5 Heart of the Wild (Feral Combat)",
+          "nota": {
+            "es": "En Feral: un 10 % más de Intelecto, es decir, más maná.",
+            "en": "In Feral: 10% more Intellect, which means more mana."
+          }
+        },
+        {
+          "niveles": "50-54",
+          "puntos": "5/5 Genesis (Balance)",
+          "nota": {
+            "es": "En Balance: tus curas en el tiempo (Rejuvenation, Regrowth, Wild Growth) curan un 5 % más.",
+            "en": "In Balance: your heals over time (Rejuvenation, Regrowth, Wild Growth) heal 5% more."
+          }
+        },
+        {
+          "niveles": "55-57",
+          "puntos": "3/3 Moonglow",
+          "nota": {
+            "es": "Tus hechizos de daño cuestan menos; útil para las misiones en solitario.",
+            "en": "Your damage spells cost less; handy for solo questing."
+          }
+        },
+        {
+          "niveles": "58-60",
+          "puntos": "2/2 Nature's Majesty, 1/1 Nature's Splendor",
+          "nota": {
+            "es": "Algo más de crítico, y Rejuvenation y Regrowth duran más. Total: 11/5/35.",
+            "en": "A bit more crit, and Rejuvenation and Regrowth last longer. Total: 11/5/35."
+          }
+        }
+      ],
+      "final": "11/5/35"
+    }
   ]
 }
