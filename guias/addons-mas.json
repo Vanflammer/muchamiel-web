@@ -1,8 +1,8 @@
 {
   "actualizado": "2026-10-30",
   "intro": {
-    "es": "Más addons para WoW Forever, además de los de arriba: los básicos de siempre que ya tienen versión para Forever y algunos nuevos hechos para este cliente. Hemos comprobado en su página de descarga que cada uno tiene un archivo marcado «Forever» (a 30 de octubre de 2026). Los que salen como beta funcionan, pero todavía cambian a menudo. Instala siempre el archivo de Forever, no el de Classic ni el de Retail. <b>Cómo instalarlos:</b> lo más fácil es la app de CurseForge: elige World of Warcraft, luego la versión de Forever, busca el addon y pulsa Instalar; también los mantiene al día. A mano: descarga el .zip y descomprímelo en la carpeta Interface\\AddOns de tu instalación de Forever, y reinicia el juego. WowUp aún no tiene confirmado que funcione con Forever.",
-    "en": "More add-ons for WoW Forever on top of the ones above: the usual essentials that already have a Forever build, plus a few new ones made for this client. We checked each download page for a file tagged \"Forever\" (as of 30 October 2026). The ones marked beta work, but they still change often. Always install the Forever file, not the Classic or Retail one. <b>How to install them:</b> the easiest way is the CurseForge app: pick World of Warcraft, then the Forever version, search for the addon and click Install; it also keeps them updated. By hand: download the .zip, unzip it into the Interface\\AddOns folder of your Forever install and restart the game. WowUp is not yet confirmed to work with Forever."
+    "es": "Más addons para WoW Forever, además de los de arriba: los básicos de siempre que ya tienen versión para Forever y algunos nuevos hechos para este cliente. Hemos comprobado en su página de descarga que cada uno tiene un archivo marcado «Forever» (a 30 de octubre de 2026). Los que salen como beta funcionan, pero todavía cambian a menudo. Instala siempre el archivo de Forever, no el de Classic ni el de Retail. <b>Cómo instalarlos:</b> lo más fácil es la app de CurseForge: elige World of Warcraft, luego la versión de Forever, busca el addon y pulsa Instalar; también los mantiene al día. A mano: descarga el .zip y descomprímelo en la carpeta Interface\\AddOns de tu instalación de Forever, y reinicia el juego. También vale <b>WowUp</b> (con Forever funciona): instala lo de CurseForge y Wago en un solo programa.",
+    "en": "More add-ons for WoW Forever on top of the ones above: the usual essentials that already have a Forever build, plus a few new ones made for this client. We checked each download page for a file tagged \"Forever\" (as of 30 October 2026). The ones marked beta work, but they still change often. Always install the Forever file, not the Classic or Retail one. <b>How to install them:</b> the easiest way is the CurseForge app: pick World of Warcraft, then the Forever version, search for the addon and click Install; it also keeps them updated. By hand: download the .zip, unzip it into the Interface\\AddOns folder of your Forever install and restart the game. <b>WowUp</b> works too (it runs fine with Forever): it installs CurseForge and Wago addons from a single app."
   },
   "grupos": [
     {
@@ -19,6 +19,15 @@
             "en": "Not an add-on but the app that installs them and keeps them updated. Pick <b>WoW Forever</b> in the game list and it puts everything in the right folder (forever\\Interface\\AddOns). Add-ons dropped into the Retail or Classic folder won't show up in game."
           },
           "url": "https://www.curseforge.com/download/app"
+        },
+        {
+          "nombre": "WowUp",
+          "forever": "si",
+          "que_hace": {
+            "es": "Gestor de addons: instala y actualiza los de CurseForge y Wago desde un solo programa. Funciona con Forever.",
+            "en": "Addon manager: installs and updates CurseForge and Wago addons from a single app. Works with Forever."
+          },
+          "url": "https://wowup.io/"
         },
         {
           "nombre": "Questie",
