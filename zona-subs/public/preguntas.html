@@ -1,5 +1,5 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Preguntas · Zona de subs · Muchamiel</title><link rel="icon" href="/assets/sello.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="robots" content="noindex"><title>Preguntas y peticiones · Zona de subs · Muchamiel</title><link rel="icon" href="/assets/sello.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cinzel+Decorative:wght@700;900&display=swap"><link rel="stylesheet" href="/assets/estilo.css"></head>
 <body><header class="cab"><div class="cab-fila">
 <a class="logo" href="/"><img src="/assets/sello.svg" alt=""><span>Muchamiel<small>Zona de subs</small></span></a>
@@ -12,14 +12,15 @@
 <a href="/eventos"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_head_dragon_01.jpg" alt="" width="24" height="24">Eventos</a>
 <a href="/vota"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_letter_15.jpg" alt="" width="24" height="24">Votar</a>
 <a href="/preguntas" aria-current="page"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_questionmark.jpg" alt="" width="24" height="24">Preguntas</a>
+<a href="/interfaz"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_misc_spyglass_02.jpg" alt="" width="24" height="24">Su interfaz</a>
 <a href="/sorteos"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_holiday_christmas_present_01.jpg" alt="" width="24" height="24">Sorteos</a>
 <a href="/muro"><img src="https://wow.zamimg.com/images/wow/icons/medium/inv_valentinescard01.jpg" alt="" width="24" height="24">Muro</a>
 </nav></header>
 <main>
-<div class="titulo"><img class="ico" src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg" alt=""><h1>Preguntas del mes</h1></div>
-<p class="lead">Pregunta lo que quieras y vota las que más te interesen. Muchamiel contesta las más votadas en directo a final de mes.</p>
-<div class="box"><textarea id="texto" maxlength="280" rows="3" placeholder="Tu pregunta (máximo 280 caracteres)"></textarea>
-<p><button class="btn" id="enviar">Enviar pregunta</button> <span class="mut">Hasta 3 por persona al mes.</span></p></div>
+<div class="titulo"><img class="ico" src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg" alt=""><h1>Preguntas y peticiones</h1></div>
+<p class="lead">Pregunta lo que quieras o <b>pide algo de WoW Forever</b>: un aura de ForeverAuras, una macro o una guía. Vota lo que más te interese: las preguntas más votadas se contestan en directo y las peticiones más votadas se hacen y se publican.</p>
+<div class="box"><p style="margin-top:0"><select id="tipo" style="background:#0a0806;color:inherit;border:1px solid #4a3a1c;border-radius:8px;padding:8px"><option value="pregunta">❓ Pregunta para el directo</option><option value="aura">🔰 Pido un aura (ForeverAuras)</option><option value="macro">🪄 Pido una macro</option><option value="guia">📘 Pido una guía</option></select></p><textarea id="texto" maxlength="280" rows="3" placeholder="Escribe tu pregunta o lo que pides, con la clase si va de una (máximo 280 caracteres)"></textarea>
+<p><button class="btn" id="enviar">Enviar</button> <span class="mut">Hasta 3 por persona al mes. Solo cosas de WoW Forever.</span></p></div>
 <div id="lista"></div>
 <p><a href="/">← Volver</a></p>
 </main>
@@ -27,17 +28,18 @@
 <script src="/assets/zona.js"></script>
 <script>
 const e = s => String(s || '').replace(/[<>&"]/g, c => ({'<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;'}[c]));
+const ETQ = {pregunta: '❓ Pregunta', aura: '🔰 Petición de aura', macro: '🪄 Petición de macro', guia: '📘 Petición de guía'};
 const manda = async cuerpo => {
   const r = await fetch('/api/preguntas', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(cuerpo)});
   const d = await r.json(); if (d.error) alert(d.error); else pinta(d);
 };
 function pinta(d) {
   document.getElementById('lista').innerHTML = d.preguntas.length ? d.preguntas.map(p =>
-    `<div class="box${p.respondida ? ' ok' : ''}"><p style="margin-top:0">${e(p.texto)}</p><p class="mut">— ${e(p.autor)}${p.respondida ? ' · ✔ Respondida' : ''}</p>
+    `<div class="box${p.respondida ? ' ok' : ''}"><p style="margin-top:0"><span class="mut">${ETQ[p.tipo] || ETQ.pregunta}</span><br>${e(p.texto)}</p><p class="mut">— ${e(p.autor)}${p.respondida ? (p.tipo === 'pregunta' ? ' · ✔ Respondida' : ' · ✔ Hecha') : ''}</p>
      <button class="btn${p.mio ? '' : ' gris'}" onclick="manda({voto:'${p.id}'})">👍 ${p.votos}</button>
-     ${d.admin ? `<button class="btn gris" onclick="manda({respondida:'${p.id}'})">${p.respondida ? 'Marcar sin responder' : 'Marcar respondida'}</button> <button class="btn gris" onclick="if(confirm('¿Borrar?'))manda({borrar:'${p.id}'})">Borrar</button>` : ''}</div>`).join('')
-    : '<p class="mut">Aún no hay preguntas este mes. ¡Haz la primera!</p>';
+     ${d.admin ? `<button class="btn gris" onclick="manda({respondida:'${p.id}'})">${p.respondida ? 'Desmarcar' : (p.tipo === 'pregunta' ? 'Marcar respondida' : 'Marcar hecha')}</button> <button class="btn gris" onclick="if(confirm('¿Borrar?'))manda({borrar:'${p.id}'})">Borrar</button>` : ''}</div>`).join('')
+    : '<p class="mut">Aún no hay nada este mes. ¡Sé el primero!</p>';
 }
-document.getElementById('enviar').onclick = () => { const t = document.getElementById('texto'); if (t.value.trim()) { manda({texto: t.value}); t.value = ''; } };
+document.getElementById('enviar').onclick = () => { const t = document.getElementById('texto'); if (t.value.trim()) { manda({texto: t.value, tipo: document.getElementById('tipo').value}); t.value = ''; } };
 fetch('/api/preguntas').then(r => r.json()).then(pinta);
 </script></body></html>

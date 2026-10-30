@@ -1254,7 +1254,7 @@ def build_pages():
     bios += f'<a class="bio" href="{PATREON}" target="_blank" rel="noopener noreferrer"><strong>Patreon</strong><small>Apoyo mensual</small><q>Para quien quiera apoyar su contenido cada mes.</q></a>'
     bios += f'<a class="bio" href="{DONAR}" target="_blank" rel="noopener noreferrer"><strong>Donaciones</strong><small>StreamElements, como en su Twitch</small><q>Si no puedes suscribirte con tarjeta, dona 5 € y te regala la sub.</q></a>'
     bios += '<a class="bio" href="../colaboraciones/"><strong>Para marcas</strong><small>Colaboraciones y contacto</small><q>Con quién ha trabajado, sus números y cómo contactarle.</q></a>'
-    body = ('<p class="eyebrow">EL BRUJO DETRÁS DE LA GUÍA</p>'
+    body = ('<p class="eyebrow">EL STREAMER DETRÁS DE LA GUÍA</p>'
             f'<div class="about"><img class="avatar" src="{AVATAR}" alt="Muchamiel"><div><h1>Muchamiel</h1>'
             '<p class="lead">Streamer y creador de contenido de World of Warcraft: Hardcore, Classic, algo de Retail y, ahora, WoW Forever. En directo todos los días en Twitch y Kick.</p>'
             f'<div class="actions"><a class="btn tw" href="{TWITCH}" target="_blank" rel="noopener noreferrer">Twitch · <span data-twitch-followers>{miles(STATS["tw_followers"])}</span> seguidores</a>'
@@ -1263,12 +1263,12 @@ def build_pages():
             '<div class="divider"><h2>La versión oficial (más o menos)</h2></div>'
             '<p>Muchamiel lleva subiendo vídeos de WoW desde 2016 y ya suma más de <strong>73 millones de visualizaciones</strong>, que se dice pronto y se farmea despacio.</p>'  # Van 16-10: fuera lo del «brujo más malo de España» (no es verdad)
             '<p>Si no está jugando un torneo, está retransmitiendo uno: Go Again, la TBC League, Bronzebeard… y ahora <strong>The Forever Open</strong>, con 100.000 $ en juego. '
-            'Su método de entrenamiento es científico: duelos a CD, BiS completo y horas de directo hasta que el Fear sale solo.</p>'
+            'Su método de entrenamiento es científico: duelos a CD, BiS completo y horas de directo hasta que la rotación sale sola.</p>'
             '<p>Su filosofía cabe en un tuit (literalmente, es su bio de X): <em>«Que la suerte me pille trabajando. El clavo no va a entrar dándole flojo. OSS»</em>.</p>'
             '<div class="divider"><h2>Con sus propias palabras</h2></div><p class="sub">Lo que pone Muchamiel en cada una de sus redes.</p><div class="bios">' + bios + '</div>'
             '<div class="divider"><h2>Échale una mano</h2></div>' + roads())
     page('muchamiel', 'Quién es Muchamiel: streamer de WoW Classic y WoW Forever',
-         'Muchamiel, streamer de World of Warcraft en Twitch, Kick y YouTube: el brujo de The Forever Open. Sus redes, sus descripciones y cómo apoyarle.', body)
+         'Muchamiel, streamer de World of Warcraft en Twitch, Kick y YouTube: de The Forever Open a WoW Forever. Sus redes, sus descripciones y cómo apoyarle.', body)
     # Clases
     body = ('<p class="eyebrow">LAS NUEVE CLASES</p><h1>Clases</h1>'
             '<p class="lead">Elige tu clase: builds de 26 puntos, macros listas para copiar, duelos contra las nueve clases, BGs, equipo y habilidades por nivel. '
@@ -1374,7 +1374,7 @@ APARTADOS = [
     ('torneo/', ZAML + 'achievement_arena_2v2_7.jpg', 'The Forever Open', 'El torneo 1v1 de 100.000 $: premios, fechas y reglamento.'),
     ('noticias/', ZAML + 'inv_scroll_03.jpg', 'Noticias', 'Los vídeos de Muchamiel sobre WoW Forever, con miniaturas.'),
     ('sorteos/', ZAML + 'inv_misc_gift_05.jpg', 'Sorteos', 'WoW gratis: Road to 100K en YouTube y Road to 2K subs en Twitch.'),
-    ('muchamiel/', AVATAR, 'Muchamiel', 'El brujo detrás de la guía: sus redes, su lema y cómo apoyarle.'),
+    ('muchamiel/', AVATAR, 'Muchamiel', 'El streamer detrás de la guía: sus redes, su lema y cómo apoyarle.'),
     ('cambios/', ZAML + 'inv_misc_note_06.jpg', 'Cambios de la beta', 'Nerfs y mejoras de cada parche, por clase y en castellano.'),
     ('colaboraciones/', ZAML + 'inv_misc_coin_01.jpg', 'Patrocinadores', 'Las marcas que colaboran con Muchamiel, sus números y contacto.'),
 ]
