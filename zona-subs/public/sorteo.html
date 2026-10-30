@@ -533,7 +533,17 @@ function puntoArena() { const a = azar(Math.PI * 2), d = Math.sqrt(azar(1)); ret
 const fx = o => E.efectos.push({t0: ahora(), ...o});
 function proyectil(x1, y1, x2, y2, col, dur = 500, grande = 4) { fx({tipo: 'p', x1, y1, x2, y2, col, dur, g: grande}); }
 function texto(x, y, txt, col, dur = 900, tam = 18) { fx({tipo: 't', x, y, txt, col, dur, tam}); }
-function estallido(x, y, col, dur = 700, rad = 60) { fx({tipo: 'e', x, y, col, dur, rad}); }
+function estallido(x, y, col, dur = 700, rad = 60) { fx({tipo: 'e', x, y, col, dur, rad}); explosion(x, y, col, Math.min(70, 8 + rad / 4), rad / 22); }
+// explosión de partículas (fuego, chispas y humo); fuerza = velocidad
+function explosion(x, y, col, n = 30, fuerza = 4) {
+  E.parts = E.parts || [];
+  for (let i = 0; i < n; i++) { const a = azar(Math.PI * 2), v = entre(.3, 1) * fuerza * 1.8;
+    E.parts.push({x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - fuerza * .4, vida: entre(400, 900) * (1 + fuerza / 12), t0: ahora(), r: entre(1.5, 4) * (1 + fuerza / 8),
+      col: azar(1) < .35 ? '#fff4c2' : azar(1) < .5 ? col : '#ff9a2a'}); }
+  for (let i = 0; i < n / 4; i++) E.parts.push({x: x + entre(-10, 10), y: y + entre(-10, 10), vx: entre(-.6, .6), vy: entre(-1.2, -.3), vida: 1300, t0: ahora(), r: entre(6, 14) * (1 + fuerza / 10), col: 'humo'});
+  if (E.parts.length > 2500) E.parts.splice(0, E.parts.length - 2500);
+}
+function temblor(amp, dur) { E.temblor = {amp, dur, t0: ahora()}; }
 function banner(txt, sub = '', col = '#ffd36b') { E.banner = {txt, sub, col, t0: ahora()}; }
 function alFeed(html) { E.feed.unshift({txt: html, t0: ahora()}); E.feed.length = Math.min(E.feed.length, 7); }
 
@@ -591,6 +601,9 @@ function dibujaJefe() {
 const MODELOS = {};
 function modelo(k) { if (!MODELOS[k]) { const im = new Image(); im.src = `/assets/modelos/${k}.webp`; MODELOS[k] = im; } const im = MODELOS[k]; return im.complete && im.naturalWidth ? im : null; }
 const ALTO_RAZA = {'Humano': 1, 'Enano': .8, 'Gnomo': .64, 'Elfo de la noche': 1.12, 'Orco': 1.05, 'No-muerto': .98, 'Tauren': 1.22, 'Trol': 1.12};
+const ICONO_ATAQUE = {Guerrero: 'ability_warrior_savageblow', Paladín: 'spell_holy_holybolt', Cazador: 'inv_spear_07', Pícaro: 'ability_rogue_eviscerate', Sacerdote: 'spell_holy_holysmite',
+  Chamán: 'spell_nature_lightning', Mago: 'spell_fire_flamebolt', Brujo: 'spell_shadow_shadowbolt', oso: 'ability_druid_maul', felino: 'ability_druid_rake', lechucico: 'spell_arcane_starfire', normal: 'spell_nature_starfall'};
+const iconoAtaque = f => ICONO_ATAQUE[f.c.n === 'Druida' ? f.forma : f.c.n];
 function claveModelo(f) {
   if (f.c.n === 'Druida' && f.forma !== 'normal') return `${f.forma}-${f.raza.n === 'Tauren' ? 'T' : 'E'}`;
   return `${RAZAS.indexOf(f.raza)}-${CLASES.indexOf(f.c)}`;
@@ -616,20 +629,27 @@ function personaje(f, t) {
   }
   if (muerto) { X.globalAlpha = t - f.muerte > 1400 ? .22 : 1 - km * .5; X.rotate(-f.dir * km * Math.PI / 2); }
   if (sigilo) X.globalAlpha *= .45;
-  const emb = ka ? Math.sin(ka * Math.PI) : 0;   // embestida al atacar
-  X.translate(f.dir * emb * (f.rango ? 2 : 7) * u, -bote - (victoria ? Math.abs(Math.sin(t / 220)) * 7 * u : 0));
-  X.rotate(f.dir * (emb * (f.rango ? -.05 : .2) + (f.andando ? Math.sin(fase) * .05 : 0)));
+  const emb = ka ? Math.sin(ka * Math.PI) : 0;   // al atacar: un paso corto hacia el objetivo, sin inclinarse
+  X.translate(f.dir * emb * (f.rango ? 0 : 4) * u, -bote - (victoria ? Math.abs(Math.sin(t / 220)) * 7 * u : 0));
+  if (f.andando) X.rotate(f.dir * Math.sin(fase) * .04);
   X.scale(f.dir, respira);
-  if (f.enrage) X.filter = 'sepia(1) saturate(6) hue-rotate(-45deg) brightness(1.1)'; else if (flash) X.filter = 'brightness(2.6)';
+  // Contra el jefe se les ve DE ESPALDAS: silueta a contraluz con el borde del color de su clase. El ganador se gira al final.
+  const espalda = E.tipo === 'jefe' && !victoria;
+  if (espalda) { X.shadowColor = f.enrage ? '#ff3b2a' : f.c.col; X.shadowBlur = (f.enrage ? 22 : 7) * u; }
+  if (espalda) X.filter = f.enrage ? 'brightness(.45) sepia(1) saturate(8) hue-rotate(-45deg)' : flash ? 'brightness(.9)' : 'brightness(.13) contrast(1.3)';
+  else if (f.enrage) X.filter = 'sepia(1) saturate(6) hue-rotate(-45deg) brightness(1.1)'; else if (flash) X.filter = 'brightness(2.6)';
   if (im) X.drawImage(im, -ancho / 2, -alto, ancho, alto);
   else { X.fillStyle = f.col; X.beginPath(); X.ellipse(0, -alto * .5, ancho * .5, alto * .5, 0, 0, 7); X.fill(); }
-  X.filter = 'none';
-  if (emb && f.rango) {   // hechizo o disparo saliendo de la mano
-    X.shadowColor = f.c.fx; X.shadowBlur = 16 * u; X.fillStyle = f.c.fx; X.beginPath(); X.arc(ancho * .45, -alto * .58, (2 + emb * 2.5) * u, 0, 7); X.fill(); X.shadowBlur = 0;
-  } else if (ka && !f.rango) {   // tajo o zarpazo
-    X.strokeStyle = `rgba(255,255,255,${.8 * (1 - ka)})`; X.lineWidth = 2 * u; X.beginPath(); X.arc(ancho * .2, -alto * .55, alto * .45, -1.5 + ka * .5, .4 + ka * .8); X.stroke();
+  X.filter = 'none'; X.shadowBlur = 0;
+  if (emb && f.rango) {   // el hechizo se carga en la mano antes de salir
+    X.globalCompositeOperation = 'lighter'; X.shadowColor = f.c.fx; X.shadowBlur = 18 * u; X.fillStyle = f.c.fx;
+    X.beginPath(); X.arc(ancho * .42, -alto * .6, (1.5 + emb * 3) * u, 0, 7); X.fill(); X.shadowBlur = 0; X.globalCompositeOperation = 'source-over';
   }
   X.restore();
+  if (ka && ka < .75) {   // icono de la habilidad que usa, encima de la cabeza (iconos del juego)
+    const ic = icono(iconoAtaque(f)); if (ic) { const s = Math.max(14, 11 * u), a = ka < .15 ? ka / .15 : 1 - (ka - .15) / .6;
+      X.globalAlpha = Math.max(0, a); X.drawImage(ic, f.x - s / 2, f.y - alto - s - 26 - ka * 10, s, s); X.strokeStyle = '#000'; X.lineWidth = 1.5; X.strokeRect(f.x - s / 2, f.y - alto - s - 26 - ka * 10, s, s); X.globalAlpha = 1; }
+  }
   f.altoPx = alto;
   if ((E.nombres && !muerto) || f.gana) {
     X.font = `${f.gana ? '700 18px' : '12px'} Georgia, serif`; X.textAlign = 'center'; X.lineWidth = 3; X.strokeStyle = '#000';
@@ -638,6 +658,17 @@ function personaje(f, t) {
 }
 const dibujaFicha = personaje;
 function dibujaEfectos(t) {
+  if (E.parts && E.parts.length) {   // partículas: se mueven, caen un poco y se apagan
+    E.parts = E.parts.filter(p => t - p.t0 < p.vida);
+    for (const p of E.parts) { const k = (t - p.t0) / p.vida;
+      p.x += p.vx; p.y += p.vy; p.vx *= .96; p.vy = p.vy * .96 + (p.col === 'humo' ? -.01 : .06);
+      if (p.col === 'humo') { X.globalAlpha = .25 * (1 - k); X.fillStyle = '#2a2420'; X.beginPath(); X.arc(p.x, p.y, p.r * (1 + k * 2), 0, 7); X.fill(); }
+    }
+    X.globalCompositeOperation = 'lighter';
+    for (const p of E.parts) { if (p.col === 'humo') continue; const k = (t - p.t0) / p.vida;
+      X.globalAlpha = 1 - k; X.fillStyle = p.col; X.beginPath(); X.arc(p.x, p.y, p.r * (1 - k * .6), 0, 7); X.fill(); }
+    X.globalCompositeOperation = 'source-over'; X.globalAlpha = 1;
+  }
   E.efectos = E.efectos.filter(e => t - e.t0 < e.dur);
   for (const e of E.efectos) {
     const k = (t - e.t0) / e.dur;
@@ -697,6 +728,8 @@ function mover() {
 function cuadro() {
   const t = ahora();
   if ($('arena').classList.contains('ver') || (rec && rec.state === 'recording')) {
+    X.save();
+    if (E && E.temblor && t - E.temblor.t0 < E.temblor.dur) { const k = 1 - (t - E.temblor.t0) / E.temblor.dur; X.translate((Math.random() - .5) * E.temblor.amp * k, (Math.random() - .5) * E.temblor.amp * k); }
     fondo();
     if (E) {
       mover();
@@ -709,6 +742,8 @@ function cuadro() {
       if (E.reposo) { X.fillStyle = '#000a'; X.fillRect(390, 300, 500, 70); X.fillStyle = '#ffd36b'; X.font = '700 26px Cinzel, Georgia, serif'; X.textAlign = 'center';
         X.fillText(E.fichas.length ? 'Pulsa «¡Sortear!» para empezar' : 'Pega la lista de subs', 640, 345); }
     }
+    X.restore();
+    if (E && E.destello && t - E.destello < 700) { X.globalAlpha = .85 * (1 - (t - E.destello) / 700); X.fillStyle = '#fff6d8'; X.fillRect(0, 0, W, H); X.globalAlpha = 1; }   // fogonazo
   }
   requestAnimationFrame(cuadro);
 }
@@ -780,7 +815,7 @@ async function tiradaBatalla() {
     const vivos = E.fichas.filter(f => f.vivo);
     for (let i = 0; i < Math.min(18, vivos.length); i++) { const f = vivos[Math.floor(azar(vivos.length))];
       setTimeout(() => { f.atk = ahora(); if (f.rango) proyectil(f.x + f.dir * f.r * .3, f.y - f.r * 3.4, j.x + entre(-40, 40), j.y + entre(-30, 30), f.c.fx, 450, Math.max(2.5, f.r / 4)); }, i * 40); }
-    vivos.forEach(f => { if (!f.rango && azar(1) < .5) setTimeout(() => f.atk = ahora(), azar(400)); });   // los de cuerpo a cuerpo también pegan
+    vivos.forEach(f => { if (!f.rango && azar(1) < .5) setTimeout(() => { f.atk = ahora(); explosion(j.x + entre(-60, 60), j.y + entre(20, 90), f.c.fx, 6, 2.5); }, azar(400)); });   // los de cuerpo a cuerpo también pegan
     await pausa(500);
     j.golpe = ahora(); j.vida = Math.max(.06, 1 - (s + 1) / pasos * .9);
     texto(j.x + entre(-60, 60), j.y - 40, '-' + Math.floor(entre(20000, 90000)).toLocaleString('es-ES'), '#ffe27a', 900, 22);
@@ -808,9 +843,10 @@ async function tiradaBatalla() {
   fg.prisa = 5; fg.tx = j.x - fg.r * 2.2; fg.ty = j.y + j.r + fg.r * 3.4; await pausa(1000);
   for (let i = 0; i < 4; i++) { fg.atk = ahora(); if (fg.rango) proyectil(fg.x, fg.y - fg.r * 3.4, j.x, j.y, '#ff3b2a', 300, 9); j.golpe = ahora(); estallido(j.x, j.y, '#ff3b2a', 500, 160); texto(j.x + entre(-50, 50), j.y - 60, '¡CRÍTICO! -' + Math.floor(entre(150000, 400000)).toLocaleString('es-ES'), '#ff5a3a', 1000, 30);
     j.vida = Math.max(0, j.vida - .04); if ($('sonido').checked) tono(400 + i * 150, 0, .2, 'square', .07); await pausa(420); }
-  j.vida = 0; j.muerto = ahora(); estallido(j.x, j.y, col, 1400, 320); alFeed(`${premio.nombre} derrota a ${J.n}`);
+  j.vida = 0; j.muerto = ahora(); estallido(j.x, j.y, col, 1400, 320); explosion(j.x, j.y + 40, '#ffd36b', 160, 9); explosion(j.x, j.y + 40, col, 120, 6); temblor(26, 1300); E.destello = ahora();
+  if ($('sonido').checked) { tono(55, 0, 1.6, 'sawtooth', .14); tono(90, .05, 1.2, 'square', .08); } alFeed(`${premio.nombre} derrota a ${J.n}`);
   E.cofre = {x: 720, y: 330, t0: ahora()}; await pausa(700); E.cofre.abierto = ahora();
-  fg.mira = null; fg.tx = 600; fg.ty = 400;
+  fg.mira = null; fg.enrage = 0; fg.tx = 600; fg.ty = 400;
   E.banner = {txt: `¡${J.n.toUpperCase()} HA CAÍDO!`, sub: `${premio.nombre} se lleva el botín`, col: '#ffd36b', t0: ahora(), fijo: true};
   await remate(b, premio, `¡${J.n.toUpperCase()} HA CAÍDO!`, J.i);
 }
