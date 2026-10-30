@@ -48,6 +48,31 @@ background:radial-gradient(circle at 50% 0%,#5a2a00,#1a0f05 70%);box-shadow:0 0 
 canvas#monedas{position:fixed;inset:0;pointer-events:none;z-index:50}
 .historial{list-style:none;padding:0;margin:0}.historial li{display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border-bottom:1px solid #2a2010}
 .aviso{font-size:13px;color:var(--mut);border-left:3px solid var(--oro2);padding:6px 10px;margin:12px 0}
+.modos{display:flex;gap:8px;flex-wrap:wrap}.modos label{margin:0;display:inline-flex;gap:6px;align-items:center;background:#0a0806;border:1px solid #4a3a1c;border-radius:999px;padding:6px 12px;color:var(--txt);cursor:pointer}
+select{width:100%;background:#0a0806;color:var(--txt);border:1px solid #4a3a1c;border-radius:8px;padding:9px;font:inherit}
+.banda{display:none;margin:18px 0;padding:16px;border-radius:14px;border:2px solid #6b5426;background:radial-gradient(ellipse at 50% 0%,#3a1608,#120a06 60%,#0a0705)}
+.banda.ver{display:block}
+.jefe{display:flex;align-items:center;gap:16px;justify-content:center}
+.jefe img{width:96px;height:96px;border-radius:14px;border:3px solid #a8302f;box-shadow:0 0 30px #e0402f88;animation:respira 2.4s ease-in-out infinite}
+.jefe.golpe img{animation:sacude .35s}.jefe.muerto img{filter:grayscale(1) brightness(.5);animation:none;transform:rotate(-8deg) scale(.92);transition:all .8s}
+.jefe-info{min-width:min(420px,60vw)}.jefe-info b{font:900 26px "Cinzel Decorative",Cinzel,serif;color:#ff5a3c;text-shadow:0 0 14px #ff3a1c88}
+.vida{position:relative;height:22px;background:#2a0d0a;border:1px solid #6b2a1c;border-radius:6px;overflow:hidden;margin-top:6px}
+.vida i{position:absolute;inset:0 auto 0 0;width:100%;background:linear-gradient(180deg,#e0402f,#8a1a10);transition:width .6s}
+.vida span{position:relative;display:block;text-align:center;font:700 13px/22px Cinzel,serif;color:#fff;text-shadow:0 1px 2px #000}
+.habilidad{min-height:40px;text-align:center;font:900 clamp(18px,3vw,28px) Cinzel,serif;color:#ffb347;text-shadow:0 0 16px #ff6a00;margin:10px 0}
+.habilidad.ver{animation:grita .9s ease-out}
+.marcos{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px;max-height:46vh;overflow:auto;padding:4px}
+.mb{position:relative;background:#0c0a07;border:1px solid #3a2e18;border-radius:6px;padding:5px 7px;overflow:hidden;transition:opacity .5s,filter .5s}
+.mb b{display:block;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mb .hp{height:6px;background:#1b1b1b;border-radius:3px;margin-top:4px;overflow:hidden}
+.mb .hp i{display:block;height:100%;width:100%;background:linear-gradient(90deg,#2fbf4a,#1e8a33);transition:width .5s}
+.mb.golpeado{animation:sacude .35s;box-shadow:0 0 14px #ff3a1c}.mb.muerto{opacity:.35;filter:grayscale(1)}.mb.muerto .hp i{width:0!important}
+.mb.muerto::after{content:"💀";position:absolute;right:6px;top:4px}
+.mb.vivo{border-color:var(--leg);box-shadow:0 0 22px var(--leg);transform:scale(1.04)}
+.mb .dano{position:absolute;right:8px;top:-2px;font:900 16px Cinzel,serif;color:#ffdf5a;text-shadow:0 0 6px #000;animation:sube .9s ease-out forwards;pointer-events:none}
+.registro{margin-top:10px;max-height:110px;overflow:auto;font:13px/1.5 Consolas,monospace;color:#d8c9a8;background:#0005;border-radius:8px;padding:8px}
+.registro .r{color:#ff6a4a}.registro .g{color:var(--leg);font-weight:700}
+@keyframes respira{50%{transform:scale(1.05)}}@keyframes sacude{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+@keyframes grita{from{transform:scale(1.6);opacity:0}to{transform:scale(1);opacity:1}}@keyframes sube{to{transform:translateY(-22px);opacity:0}}
 body.directo .config{display:none}body.directo main{max-width:1400px}
 @media(max-width:760px){.rejilla{grid-template-columns:1fr}.resumen{grid-template-columns:repeat(2,1fr)}.carta{width:130px}.pesos{grid-template-columns:repeat(2,1fr)}}
 </style></head>
@@ -73,6 +98,9 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <div><b class="q3">Tier 3</b><input type="number" id="p3" min="0" max="100" value="6"></div>
 <div><b class="qg">Gratis</b><input type="number" id="pg" min="0" max="100" value="1"></div>
 </div>
+<label>Cómo se sortea</label>
+<div class="modos"><label><input type="radio" name="modo" value="jefe" checked> 🐉 Jefe de banda</label><label><input type="radio" name="modo" value="ruleta"> 🎰 Ruleta de botín</label></div>
+<label>Jefe</label><select id="jefe"><option value="onyxia">Onyxia</option><option value="ragnaros">Ragnaros</option><option value="hogger">Hogger</option></select>
 <label class="check"><input type="checkbox" id="quitar" checked> Quien gana, sale del bombo (no repite)</label>
 <label class="check"><input type="checkbox" id="sonido" checked> Sonido de botín</label>
 <label>Ganadores de golpe</label><input type="number" id="cuantos" min="1" max="20" value="1">
@@ -87,7 +115,13 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <button class="btn gris" id="pantalla">⛶ Pantalla completa</button>
 </div>
 
-<div class="escenario"><div class="aguja"></div><div class="cinta" id="cinta"></div><div class="vacio" id="vacio">Pega la lista para empezar</div></div>
+<section class="banda" id="banda">
+<div class="jefe"><img id="jefeImg" src="" alt=""><div class="jefe-info"><b id="jefeNombre"></b><div class="vida"><i id="jefeVida"></i><span id="jefePct">100 %</span></div></div></div>
+<div class="habilidad" id="habilidad"></div>
+<div class="marcos" id="marcos"></div>
+<div class="registro" id="registro"></div>
+</section>
+<div class="escenario" id="escenarioRuleta"><div class="aguja"></div><div class="cinta" id="cinta"></div><div class="vacio" id="vacio">Pega la lista para empezar</div></div>
 <div class="ganador" id="ganador"></div>
 
 <section class="marco config" style="margin-top:16px">
@@ -230,4 +264,94 @@ $('pantalla').onclick = () => document.fullscreenElement ? document.exitFullscre
 $('copiar').onclick = () => navigator.clipboard.writeText(ganadores.map((g, i) => `${i + 1}. ${g.nombre} (${TIER[g.t].n})`).join('\n'));
 $('reiniciar').onclick = () => { if (confirm('¿Volver a meter a todos los ganadores en el bombo?')) { ganadores = []; pintaHistorial(); resumen(); } };
 resumen();
+</script>
+<script>
+// ---- Modo «Jefe de banda»: el jefe va matando a la banda y el último en pie (el ganador) lo remata ----
+const JEFES = {
+  onyxia: {n: 'Onyxia', i: 'achievement_boss_onyxia', h: [
+    ['Aliento de fuego', 'abrasa'], ['Barrido de cola', 'manda volando'], ['Bola de fuego', 'calcina'], ['Rugido intimidante', 'tira al foso de cachorros'], ['Erupción', 'hunde en lava']]},
+  ragnaros: {n: 'Ragnaros', i: 'achievement_boss_ragnaros', h: [
+    ['Explosión de lava', 'funde'], ['Ira de Ragnaros', 'lanza por los aires'], ['Golpe de magma', 'aplasta'], ['¡Muere, insecto!', 'fulmina'], ['Hijos de la llama', 'rodea de llamas']]},
+  hogger: {n: 'Hogger', i: 'inv_misc_head_gnoll_01', h: [
+    ['¡Hogger aplasta!', 'aplasta'], ['Mordisco salvaje', 'muerde'], ['Grito gnoll', 'asusta'], ['Hogger tiene hambre', 'se merienda'], ['Garrotazo', 'deja K.O.']]}
+};
+const pausa = ms => new Promise(r => setTimeout(r, ms));
+function modo() { return document.querySelector('[name=modo]:checked').value; }
+function vistaModo() {
+  const j = modo() === 'jefe';
+  $('banda').classList.toggle('ver', j); $('escenarioRuleta').style.display = j ? 'none' : '';
+  const J = JEFES[$('jefe').value];
+  $('jefeImg').src = `https://wow.zamimg.com/images/wow/icons/large/${J.i}.jpg`; $('jefeNombre').textContent = J.n;
+  if (j && !girando) pintaBanda(bombo());
+}
+function pintaBanda(b) {
+  $('marcos').innerHTML = b.map((p, k) => `<div class="mb" id="mb${k}" style="color:${TIER[p.t].c}"><b>${esc(p.nombre)}</b><div class="hp"><i></i></div></div>`).join('');
+  $('jefeVida').style.width = '100%'; $('jefePct').textContent = '100 %';
+  document.querySelector('.jefe').classList.remove('muerto'); $('habilidad').textContent = ''; $('registro').innerHTML = '';
+}
+function log(html) { const r = $('registro'); r.insertAdjacentHTML('afterbegin', `<div>${html}</div>`); }
+async function tiradaJefe() {
+  const b = resumen(); if (!b.length || girando) return;
+  girando = true; $('sortear').disabled = true; $('ganador').classList.remove('ver');
+  pintaBanda(b);
+  const J = JEFES[$('jefe').value];
+  // Justo: primero el ganador según papeletas; luego el orden de supervivencia (más papeletas, más aguante de media)
+  const premio = elegir(b);
+  let resto = b.filter(p => p !== premio); const supervivencia = [];
+  while (resto.length) { const x = elegir(resto); supervivencia.push(x); resto = resto.filter(p => p !== x); }
+  const muertes = supervivencia.reverse();  // los primeros en caer son los que menos aguantan
+  const idx = p => b.indexOf(p);
+  log(`<span class="r">${J.n} entra en combate.</span>`);
+  if ($('sonido').checked) tono(110, 0, .8, 'sawtooth', .08);
+  await pausa(1200);
+  const pasos = Math.min(14, Math.max(1, muertes.length));
+  let vidaJefe = 100;
+  for (let s = 0; s < pasos; s++) {
+    const quedan = muertes.length;
+    if (!quedan) break;
+    const n = Math.max(1, Math.ceil(quedan / (pasos - s)));
+    const caen = muertes.splice(0, n);
+    const [hab, verbo] = J.h[Math.floor(azar(J.h.length))];
+    $('habilidad').textContent = hab + '!'; $('habilidad').classList.remove('ver'); void $('habilidad').offsetWidth; $('habilidad').classList.add('ver');
+    document.querySelector('.jefe').classList.add('golpe'); setTimeout(() => document.querySelector('.jefe').classList.remove('golpe'), 400);
+    if ($('sonido').checked) tono(160 + azar(80), 0, .25, 'square', .05);
+    for (const p of caen) {
+      const el = $('mb' + idx(p)); if (!el) continue;
+      el.classList.add('golpeado'); el.insertAdjacentHTML('beforeend', `<span class="dano">-${(1500 + Math.floor(azar(9000))).toLocaleString('es-ES')}</span>`);
+      el.scrollIntoView({block: 'nearest'});
+    }
+    await pausa(450);
+    caen.forEach(p => { const el = $('mb' + idx(p)); if (el) { el.classList.remove('golpeado'); el.classList.add('muerto'); } });
+    log(caen.length > 3 ? `<span class="r">${hab}</span> ${verbo} a ${caen.length} jugadores.` : caen.map(p => `<span class="r">${hab}</span> ${verbo} a ${esc(p.nombre)}.`).join('<br>'));
+    vidaJefe = Math.max(8, 100 - Math.round((s + 1) / pasos * 85));
+    $('jefeVida').style.width = vidaJefe + '%'; $('jefePct').textContent = vidaJefe + ' %';
+    await pausa(Math.max(700, 1500 - b.length * 3));
+  }
+  // El último en pie remata al jefe
+  const el = $('mb' + idx(premio)); el.classList.add('vivo'); el.scrollIntoView({block: 'nearest'});
+  $('habilidad').textContent = `¡${premio.nombre} sigue en pie!`; $('habilidad').classList.remove('ver'); void $('habilidad').offsetWidth; $('habilidad').classList.add('ver');
+  await pausa(1600);
+  $('habilidad').textContent = '¡Golpe final!'; $('habilidad').classList.remove('ver'); void $('habilidad').offsetWidth; $('habilidad').classList.add('ver');
+  $('jefeVida').style.width = '0%'; $('jefePct').textContent = '0 %'; document.querySelector('.jefe').classList.add('muerto');
+  log(`<span class="g">${esc(premio.nombre)} derrota a ${J.n}.</span>`);
+  fanfarria(); monedas();
+  ganadores.push({nombre: premio.nombre, t: premio.t, papeletas: premio.papeletas});
+  const total = b.reduce((s2, p) => s2 + p.papeletas, 0);
+  $('ganador').innerHTML = `<img src="https://wow.zamimg.com/images/wow/icons/large/${J.i}.jpg" alt=""><p class="ql" style="font-family:Cinzel,serif;letter-spacing:.1em">¡${J.n.toUpperCase()} HA CAÍDO!</p>
+    <div class="nombre">${esc(premio.nombre)}</div><p>Se lleva el botín legendario · ${TIER[premio.t].n} · ${premio.papeletas} papeleta${premio.papeletas > 1 ? 's' : ''} de ${total}</p>`;
+  $('ganador').classList.add('ver'); $('ganador').scrollIntoView({block: 'center', behavior: 'smooth'});
+  pintaHistorial(); girando = false; resumen();
+}
+$('sortear').onclick = async () => {
+  const n = Math.max(1, Math.min(20, parseInt($('cuantos').value) || 1));
+  for (let i = 0; i < n; i++) {
+    if (!bombo().length) break;
+    await (modo() === 'jefe' ? tiradaJefe() : tirada());
+    if (i < n - 1) await pausa(3000);
+  }
+};
+document.querySelectorAll('[name=modo]').forEach(r => r.addEventListener('change', vistaModo));
+$('jefe').addEventListener('change', vistaModo);
+['lista', 'gratis', 'p1', 'p2', 'p3', 'pg'].forEach(id => $(id).addEventListener('input', () => { if (modo() === 'jefe' && !girando) pintaBanda(bombo()); }));
+vistaModo();
 </script></body></html>
