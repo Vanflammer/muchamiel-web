@@ -274,7 +274,7 @@ table.keys{border-collapse:collapse;width:100%;margin:10px 0}.keys th,.keys td{p
 .news-card:hover{box-shadow:0 0 24px #3ddc8444}.news-card.home-reserva{text-align:center;padding-top:30px;margin:0 0 26px;border-color:#c99a3c;background:linear-gradient(120deg,#2a2210,#0b0d12 70%)}.news-card.home-reserva:hover{box-shadow:0 0 24px #e8b84a44}.news-card.home-reserva .eyebrow{color:#e8b84a}.news-card.home-reserva>span:last-child{display:flex;flex-direction:column;align-items:center}.news-card.home-reserva p{max-width:720px;margin-left:auto;margin-right:auto}.news-card.home-reserva .badge-new{background:#8a5a12}.news-card h3{margin:4px 0 6px;font-size:22px;color:#fff}.news-card p{color:#d7f3e2}.news-card .eyebrow{color:#7ee0a0;margin:0}
 .badge-new{position:absolute;top:-11px;right:18px;padding:3px 10px;border-radius:4px;background:#c81e1e;color:#fff;font:700 12px "Segoe UI",sans-serif;letter-spacing:.08em}
 @media(max-width:700px){.facts{grid-template-columns:1fr}.beta-face{width:72px;height:72px}}
-main{overflow-x:clip}''' + __import__('forever_portal').CSS + __import__('guias_portal').CSS + __import__('macros_portal').CSS + '''
+main{overflow-x:clip}.tile .fine{display:block;margin-top:6px;opacity:.8}''' + __import__('forever_portal').CSS + __import__('guias_portal').CSS + __import__('macros_portal').CSS + '''
 footer.site-foot{position:relative;margin:64px calc(50% - 50vw) -72px;padding:44px 0 28px;border-top:1px solid var(--gold-line);font-size:14px;color:#aab4c4;
 background:linear-gradient(180deg,#0b0e15f2,#05070bfa),url("{base}assets/horde.png") center 30%/cover;box-shadow:inset 0 1px 0 #f3c76a1f}
 footer.site-foot:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,transparent,#c99a3c,transparent)}
@@ -1361,6 +1361,36 @@ def build_pages():
             f'<a class="tile" href="{DISCORD_CREADORES}" target="_blank" rel="noopener noreferrer"><strong>¿Quieres crear contenido?</strong><span>«¿Quieres vivir de crear contenido de videojuegos? Háblame por Discord.»</span></a></div>')
     page('colaboraciones', 'Colaboraciones y patrocinios de Muchamiel: marcas y contacto',
          'Marcas que han trabajado con Muchamiel (LagZapper, Instant Gaming, Knoweats, Planeta DeAgostini…), sus números en Twitch, YouTube y Kick y su contacto para marcas.', body)
+    # Juegos de WoW en el navegador (Van, 30-10-2026): lo que se juega en los directos, para todos.
+    def jg(nombre, url, que, extra=''):
+        return (f'<a class="tile" href="{url}" target="_blank" rel="noopener noreferrer"><strong>{E(nombre)}</strong>'
+                f'<span>{que}</span>' + (f'<span class="fine">{extra}</span>' if extra else '') + '</a>')
+    body = ('<section class="hero"><p class="eyebrow">MATA LA ESPERA</p><h1>Juegos de WoW en el navegador</h1>'
+            '<p class="lead">Gratis, sin instalar nada y hechos por fans. Para practicar tu clase, retar al chat o pasar el rato mientras llega Forever.</p></section>'
+            '<div class="divider"><h2>Para jugar</h2></div><div class="tiles">'
+            + jg('Arena of Champions', 'https://arenaofchampions.live/',
+                 'Arenas de WoW con gráficos de Warcraft 3. Eliges una de las 9 clases clásicas y peleas en arena, ideal para practicar el JcJ de la clase que vas a llevar.',
+                 'Se juega como invitado, sin cuenta. Web oficial: arenaofchampions.live (las demás son guías de fans).')
+            + jg('Azeroth Survivors', 'https://wow.aethus.pl',
+                 'Al estilo de Vampire Survivors en el WoW clásico: eliges clase, los ataques salen solos, subes de nivel y cada pocos minutos aparece un jefe.',
+                 'Sin cuenta. Usa solo wow.aethus.pl: hay copias con anuncios.')
+            + jg('WoWdle', 'https://www.wowdle.app/',
+                 'El Wordle de WoW: cada día, adivinar un personaje, una zona o una imagen con pistas.')
+            + jg('WoW Guesser', 'https://wowguesser.com/es',
+                 'Adivina la clase de una habilidad por su icono o la zona por una captura, como GeoGuessr. Muy bueno para repasar el mapa.')
+            + '</div><div class="divider"><h2>Para probar tu clase de Forever</h2></div><div class="tiles">'
+            + jg('Forever Practice Yard', 'https://argorlant.github.io/forever-practice-yard/',
+                 'Un muñeco de entrenamiento para practicar la rotación de las 9 clases de Forever.',
+                 'No da el daño exacto: es para aprender las teclas.')
+            + jg('Forever Sims', 'https://foreversims.com/',
+                 'Simulador de daño, tanque y sanación de Forever para todas las clases.')
+            + jg('Forever Sixty', 'https://foreversixty.gg/sim',
+                 'Otro simulador: pegas tu build y te da el daño. Sirve para comparar con Forever Sims.')
+            + '</div><p class="fine">Ninguno es de Blizzard ni de Muchamiel: los hacen fans. Nunca pongas tu cuenta de Battle.net en ninguno. '
+            'Los simuladores usan datos de la beta y pueden cambiar con el lanzamiento. Comprobados el 30 de octubre de 2026.</p>'
+            '<p class="fine">¿Conoces otro que merezca estar aquí? Díselo a Muchamiel en el chat o en el Discord.</p>')
+    page('juegos', 'Juegos de WoW gratis en el navegador: arenas, Survivors y simuladores de Forever | Muchamiel',
+         'Juegos de WoW gratis en el navegador para matar la espera de Forever: Arena of Champions (arenas con las 9 clases), Azeroth Survivors, WoWdle, WoW Guesser y simuladores de Forever.', body)
     # 404
     tpl = (dist / 'comunes' / 'index.html').read_text(encoding='utf-8')
     head = re.sub(r'<title>.*?</title>', '<title>Página no encontrada · WoW Forever</title>', tpl[:tpl.index('<body')], count=1, flags=re.S)
@@ -1384,6 +1414,7 @@ APARTADOS = [
     ('sorteos/', ZAML + 'inv_misc_gift_05.jpg', 'Sorteos', 'WoW gratis: Road to 100K en YouTube y Road to 2K subs en Twitch.'),
     ('muchamiel/', AVATAR, 'Muchamiel', 'El streamer detrás de la guía: sus redes, su lema y cómo apoyarle.'),
     ('cambios/', ZAML + 'inv_misc_note_06.jpg', 'Cambios de la beta', 'Nerfs y mejoras de cada parche, por clase y en castellano.'),
+    ('juegos/', ZAML + 'inv_misc_dice_01.jpg', 'Juegos', 'Juegos de WoW gratis en el navegador: arenas, Survivors y simuladores.'),
     ('colaboraciones/', ZAML + 'inv_misc_coin_01.jpg', 'Patrocinadores', 'Las marcas que colaboran con Muchamiel, sus números y contacto.'),
 ]
 
@@ -1562,7 +1593,7 @@ def footer(base):
             f'<div class="foot-icons">{icons}<button type="button" class="ico mail" {CORREO_DATA} aria-label="Correo" title="Correo">{MAIL_SVG}</button></div></div>'
             + col('WoW Forever', [('Lanzamiento', base + 'lanzamiento/'), ('Subir de nivel', base + 'subir-nivel/'), ('Mazmorras', base + 'mazmorras/'), ('Profesiones', base + 'profesiones/'), ('Legacy', base + 'legacy/'), ('Calendario', base + 'calendario/')])
             + col('Guía de la beta', [('Clases', base + 'clases/'), ('Razas', base + 'razas/'), ('Calculadora', base + 'calculadora/'), ('Guía de macros', base + 'comunes/'), ('Addons', base + 'addons/')])
-            + col('Comunidad', [('Noticias', base + 'noticias/'), ('Sorteos', base + 'sorteos/'), ('Quién es Muchamiel', base + 'muchamiel/'),
+            + col('Comunidad', [('Noticias', base + 'noticias/'), ('Sorteos', base + 'sorteos/'), ('Quién es Muchamiel', base + 'muchamiel/'), ('Juegos de WoW', base + 'juegos/'),
                                 ('Directo en Twitch', TWITCH), ('Donar a Muchamiel', DONAR)])
             + col('Patrocinadores', [('Colaboraciones', base + 'colaboraciones/'), ('Contacto profesional', base + 'colaboraciones/#contacto'), ('Patreon', PATREON), ('Discord', DISCORD)])
             + f'</div><div class="foot-partners"><h4>Colaboran con Muchamiel</h4><div>{partners}</div></div>'
