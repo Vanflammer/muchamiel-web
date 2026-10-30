@@ -1,0 +1,287 @@
+{
+  "slug": "first-aid",
+  "nombre": {
+    "es": "Primeros auxilios",
+    "en": "First Aid"
+  },
+  "tipo": "secundaria",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "La gran novedad de Forever. Además de vendas, ahora fabrica las pociones de sanación (ya no son de Alquimia), cataplasmas contra enfermedades, torniquetes contra sangrados y antídotos. No ocupa hueco y la puede subir cualquier clase. Imprescindible para guerreros y pícaros.",
+    "en": "Forever's big change. Besides bandages, it now makes healing potions (no longer Alchemy), poultices against disease, tourniquets against bleeds and anti-venoms. It takes no slot and any class can level it. A must for warriors and rogues."
+  },
+  "pareja": {
+    "es": "Con Herbalism, para las hierbas de las pociones. La tela de las vendas te cae sola de los humanoides.",
+    "en": "Herbalism, for the potion herbs. Bandage cloth drops on its own from humanoids."
+  },
+  "forever": [
+    {
+      "es": "Pociones de sanación: Minor (Peacebloom), Lesser (Briarthorn), Healing (Bruiseweed), Greater (Liferoot), Superior (Sungrass) y Major (Golden Sansam), con vial y especias del vendedor. Las tres últimas, con manual.",
+      "en": "Healing potions: Minor (Peacebloom), Lesser (Briarthorn), Healing (Bruiseweed), Greater (Liferoot), Superior (Sungrass) and Major (Golden Sansam), plus a vial and vendor spices. The last three need a manual."
+    },
+    {
+      "es": "Cataplasmas contra enfermedades: Simple, Clever, Superior y Powerful Poultice. No se usan en combate.",
+      "en": "Poultices against disease: Simple, Clever, Superior and Powerful Poultice. Not usable in combat."
+    },
+    {
+      "es": "Torniquetes contra sangrados: Woolen, Leather y Surgical Tourniquet. No se usan en combate.",
+      "en": "Tourniquets against bleeds: Woolen, Leather and Surgical Tourniquet. Not usable in combat."
+    },
+    {
+      "es": "Antídotos con rangos nuevos (Potent Anti-Venom) y el Powerful Anti-Venom cambiado. Estos sí se usan en combate.",
+      "en": "Anti-venoms with new ranks (Potent Anti-Venom) and a reworked Powerful Anti-Venom. These are usable in combat."
+    },
+    {
+      "es": "<b>Dense Runecloth Bandage</b> a 300: cura 3.400 en 8 segundos y se hace con dos Heavy Runecloth Bandage.",
+      "en": "<b>Dense Runecloth Bandage</b> at 300: heals 3,400 over 8 seconds, made from two Heavy Runecloth Bandages."
+    },
+    {
+      "es": "Campamento: <b>First Aid Kit</b> (20, aguante; no se suma a Power Word: Fortitude), <b>Toxin Study</b> (140, pociones y antídotos) y <b>Plague Doctor's Laboratory</b> (300, pociones y cataplasmas).",
+      "en": "Camp: <b>First Aid Kit</b> (20, Stamina; doesn't stack with Power Word: Fortitude), <b>Toxin Study</b> (140, potions and anti-venoms) and <b>Plague Doctor's Laboratory</b> (300, potions and poultices)."
+    },
+    {
+      "es": "17 recetas nuevas en total. Legacy: Working Overtime, Dedicated Study y Field Medicine.",
+      "en": "17 new recipes in total. Legacy: Working Overtime, Dedicated Study and Field Medicine."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 40,
+      "receta": "Linen Bandage",
+      "cuantas": "~50",
+      "materiales": {
+        "es": "1 Linen Cloth",
+        "en": "1 Linen Cloth"
+      },
+      "nota": {
+        "es": "Del instructor. El lino cae de humanoides de nivel 1-19.",
+        "en": "From the trainer. Linen drops from humanoids level 1-19."
+      }
+    },
+    {
+      "desde": 40,
+      "hasta": 80,
+      "receta": "Heavy Linen Bandage (o Minor Healing Potion)",
+      "cuantas": "~50",
+      "materiales": {
+        "es": "2 Linen Cloth. La poción: 1 Empty Vial, 1 Mild Spices, 1 Peacebloom.",
+        "en": "2 Linen Cloth. The potion: 1 Empty Vial, 1 Mild Spices, 1 Peacebloom."
+      },
+      "nota": {
+        "es": "Journeyman con 50 de habilidad y nivel 10. Si tienes Peacebloom, la poción sube igual y además la usas.",
+        "en": "Journeyman at 50 skill and level 10. If you have Peacebloom, the potion levels you just as well and you'll use it."
+      }
+    },
+    {
+      "desde": 80,
+      "hasta": 115,
+      "receta": "Wool Bandage (o Lesser Healing Potion)",
+      "cuantas": "~50",
+      "materiales": {
+        "es": "1 Wool Cloth. La poción: 1 Empty Vial, 2 Mild Spices, 1 Briarthorn.",
+        "en": "1 Wool Cloth. The potion: 1 Empty Vial, 2 Mild Spices, 1 Briarthorn."
+      },
+      "nota": {
+        "es": "La lana cae de humanoides de nivel 15-30. Con 80 también puedes hacer Anti-Venom, y con 90 la Simple Poultice.",
+        "en": "Wool drops from humanoids level 15-30. At 80 you can also make Anti-Venom, and at 90 Simple Poultice."
+      }
+    },
+    {
+      "desde": 115,
+      "hasta": 150,
+      "receta": "Heavy Wool Bandage (o Healing Potion)",
+      "cuantas": "~50",
+      "materiales": {
+        "es": "2 Wool Cloth. La poción: 1 Leaded Vial, 1 Hot Spices, 1 Bruiseweed.",
+        "en": "2 Wool Cloth. The potion: 1 Leaded Vial, 1 Hot Spices, 1 Bruiseweed."
+      },
+      "nota": {
+        "es": "Con 120 sale el Woolen Tourniquet. Con 125 compra el libro de Experto (abajo).",
+        "en": "Woolen Tourniquet unlocks at 120. At 125 buy the Expert book (below)."
+      }
+    },
+    {
+      "desde": 150,
+      "hasta": 180,
+      "receta": "Silk Bandage",
+      "cuantas": "~42",
+      "materiales": {
+        "es": "1 Silk Cloth",
+        "en": "1 Silk Cloth"
+      },
+      "nota": {
+        "es": "La seda cae de humanoides de nivel 26-40.",
+        "en": "Silk drops from humanoids level 26-40."
+      }
+    },
+    {
+      "desde": 180,
+      "hasta": 210,
+      "receta": "Heavy Silk Bandage",
+      "cuantas": "~46",
+      "materiales": {
+        "es": "2 Silk Cloth",
+        "en": "2 Silk Cloth"
+      },
+      "nota": {
+        "es": "Manual: Heavy Silk Bandage, del mismo vendedor que el libro de Experto.",
+        "en": "Manual: Heavy Silk Bandage, from the same vendor as the Expert book."
+      }
+    },
+    {
+      "desde": 210,
+      "hasta": 240,
+      "receta": "Mageweave Bandage",
+      "cuantas": "~40",
+      "materiales": {
+        "es": "1 Mageweave Cloth",
+        "en": "1 Mageweave Cloth"
+      },
+      "nota": {
+        "es": "Manual: Mageweave Bandage, del mismo vendedor. Al llegar a 225, misión Triage para pasar de ahí.",
+        "en": "Manual: Mageweave Bandage, same vendor. At 225, do the Triage quest to go further."
+      }
+    },
+    {
+      "desde": 240,
+      "hasta": 260,
+      "receta": "Heavy Mageweave Bandage",
+      "cuantas": "~30",
+      "materiales": {
+        "es": "2 Mageweave Cloth",
+        "en": "2 Mageweave Cloth"
+      },
+      "nota": {
+        "es": "Del instructor tras Triage. Alternativa: Superior Healing Potion (Crystal Vial, Soothing Spices, Sungrass) si tienes el manual.",
+        "en": "From the trainer after Triage. Alternative: Superior Healing Potion (Crystal Vial, Soothing Spices, Sungrass) if you have the manual."
+      }
+    },
+    {
+      "desde": 260,
+      "hasta": 290,
+      "receta": "Runecloth Bandage (o Major Healing Potion)",
+      "cuantas": "~50",
+      "materiales": {
+        "es": "1 Runecloth. La poción: 1 Crystal Vial, 3 Soothing Spices, 1 Golden Sansam.",
+        "en": "1 Runecloth. The potion: 1 Crystal Vial, 3 Soothing Spices, 1 Golden Sansam."
+      },
+      "nota": {
+        "es": "La runatela cae de humanoides de nivel 51-60. El manual de la Major no lo vende ningún PNJ.",
+        "en": "Runecloth drops from humanoids level 51-60. No vendor sells the Major potion manual."
+      }
+    },
+    {
+      "desde": 290,
+      "hasta": 300,
+      "receta": "Heavy Runecloth Bandage",
+      "cuantas": "~15",
+      "materiales": {
+        "es": "2 Runecloth",
+        "en": "2 Runecloth"
+      },
+      "nota": {
+        "es": "A 300: Dense Runecloth Bandage, Plague Doctor's Laboratory y título de cuenta.",
+        "en": "At 300: Dense Runecloth Bandage, Plague Doctor's Laboratory and the account title."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75, Oficial 50-150 (nivel 10, en el instructor), Experto 125-225 (libro Expert First Aid - Under Wraps) y Artesano 200-300 (misión Triage, nivel 35 y 225 de habilidad).",
+      "en": "Ranks: Apprentice 1-75, Journeyman 50-150 (level 10, from the trainer), Expert 125-225 (book Expert First Aid - Under Wraps) and Artisan 200-300 (Triage quest, level 35 and 225 skill)."
+    },
+    {
+      "es": "Instructores, Horda: Arnok (Orgrimmar), Mary Edras (Entrañas), Pand Stonebinder (Cima del Trueno), Rawrk (Durotar), Nurse Neela (Tirisfal), Vira Younghoof (Mulgore).",
+      "en": "Trainers, Horde: Arnok (Orgrimmar), Mary Edras (Undercity), Pand Stonebinder (Thunder Bluff), Rawrk (Durotar), Nurse Neela (Tirisfal), Vira Younghoof (Mulgore)."
+    },
+    {
+      "es": "Instructores, Alianza: Shaina Fuller (Ventormenta), Nissa Firestone (Forjaz), Dannelor (Darnassus), Michelle Belle (Elwynn), Thamner Pol (Dun Morogh), Byancie (Teldrassil), Fremal Doohickey (Humedales). Isla de Zephras, para todos: Melasa Fairmend y Naleeia Tattermend.",
+      "en": "Trainers, Alliance: Shaina Fuller (Stormwind), Nissa Firestone (Ironforge), Dannelor (Darnassus), Michelle Belle (Elwynn), Thamner Pol (Dun Morogh), Byancie (Teldrassil), Fremal Doohickey (Wetlands). Zephras Isle, for everyone: Melasa Fairmend and Naleeia Tattermend."
+    },
+    {
+      "es": "Libro de Experto y manuales de seda y tejido mágico: Deneb Walker (Alianza, Tierras Altas de Arathi) y Balai Lok'Wein (Horda, Marjal Revolcafango).",
+      "en": "Expert book and the silk and mageweave manuals: Deneb Walker (Alliance, Arathi Highlands) and Balai Lok'Wein (Horde, Dustwallow Marsh)."
+    },
+    {
+      "es": "Triage: Doctor Gustaf VanHowzen en Theramore (Alianza) y Doctor Gregory Victor en Sentencia (Horda). Hay que salvar a 15 heridos.",
+      "en": "Triage: Doctor Gustaf VanHowzen in Theramore (Alliance) and Doctor Gregory Victor in Hammerfall (Horde). You need to save 15 patients."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "Tus propias pociones de sanación: no dependes de ningún alquimista.",
+      "en": "Your own healing potions: you don't need an alchemist."
+    },
+    {
+      "es": "Major Healing Potion y Dense Runecloth Bandage: lo que más vas a gastar a nivel 60, en bandas y en PvP.",
+      "en": "Major Healing Potion and Dense Runecloth Bandage: what you'll use most at 60, in raids and PvP."
+    },
+    {
+      "es": "Cataplasmas, torniquetes y antídotos: quitan enfermedades, sangrados y venenos a cualquier clase.",
+      "en": "Poultices, tourniquets and anti-venoms: they clear disease, bleeds and poison for any class."
+    },
+    {
+      "es": "La Toxin Study (140) en el campamento, con pociones y antídotos para el grupo.",
+      "en": "Toxin Study (140) at camp, with potions and anti-venoms for the group."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Súbela con la tela que te cae mientras subes: casi no cuesta nada.",
+      "en": "Level it with the cloth that drops while you level: it costs almost nothing."
+    },
+    {
+      "es": "Cuando tengas una poción en naranja o amarillo, hazla antes que la venda: subes igual y te la quedas.",
+      "en": "When a potion is orange or yellow, make it instead of the bandage: same skill-up and you keep it."
+    },
+    {
+      "es": "Vendas entre combates en lugar de comer: no paras.",
+      "en": "Bandage between fights instead of eating: no downtime."
+    },
+    {
+      "es": "Las especias, viales y el agua, siempre del vendedor de comercio.",
+      "en": "Buy spices and vials from the trade vendor."
+    },
+    {
+      "es": "Ve a Triage nada más llegar a 225: si no, dejas de subir.",
+      "en": "Go do Triage as soon as you hit 225: otherwise you stop gaining skill."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Las habilidades exactas de las pociones no coinciden entre fuentes. Usamos las del cliente de la beta (Minor 55, Lesser 85, Healing 135, Greater 155, Superior 215, Major 275), pero otras guías dan cifras distintas.",
+      "en": "The exact potion skill levels differ between sources. We use the beta client data (Minor 55, Lesser 85, Healing 135, Greater 155, Superior 215, Major 275), but other guides list different numbers."
+    },
+    {
+      "es": "Qué piden las cataplasmas y los torniquetes, y dónde caen los manuales de Superior y Major.",
+      "en": "What poultices and tourniquets need, and where the Superior and Major manuals drop."
+    },
+    {
+      "es": "De 225 a 300 es la ruta clásica: la beta se paró en 225 y no se ha probado.",
+      "en": "225 to 300 is the classic route: the beta stopped at 225, so it's untested."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Icy Veins: las pociones de sanación pasan a Primeros auxilios",
+      "url": "https://www.icy-veins.com/wow-forever/news/healing-potions-now-crafted-by-first-aid-in-wow-forever/"
+    },
+    {
+      "nombre": "Blizzard Watch: Primeros auxilios en Forever",
+      "url": "https://blizzardwatch.com/2026/10/16/first-aid-getting-new-recipes-updates-world-warcraft-forever/"
+    },
+    {
+      "nombre": "wow-professions: First Aid 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+    },
+    {
+      "nombre": "KamiLabs: Primeros auxilios en Forever",
+      "url": "https://kami-labs.fr/en/guide-secourisme-wow-forever/"
+    },
+    {
+      "nombre": "Warcraft Tavern: First Aid en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/first-aid/"
+    }
+  ]
+}

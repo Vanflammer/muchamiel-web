@@ -1,0 +1,237 @@
+{
+  "slug": "priest",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El sacerdote de Forever sigue siendo el sanador de tela con los mejores beneficios del juego, pero ahora llega con más herramientas: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> y <b>Shadow Word: Death</b>. <b>Fear Ward</b> y <b>Devouring Plague</b> ya los aprenden todas las razas. Es para quien quiere curar en grupo y en banda, o jugar Sombra: mucho aguante en solitario y un buen hueco en JcJ.",
+    "en": "The Forever Priest is still the cloth healer with the best buffs in the game, but it now has more tools: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> and <b>Shadow Word: Death</b>. Every race now learns <b>Fear Ward</b> and <b>Devouring Plague</b>. Pick it if you want to heal groups and raids, or play Shadow, which is very self-sufficient solo and has a real place in PvP."
+  },
+  "fuertes": [
+    {"es": "Mucho aguante en solitario: <b>Power Word: Shield</b>, <b>Spirit Tap</b>, la cura de <b>Devouring Plague</b> y <b>Vampiric Embrace</b> te dejan encadenar enemigos con poco descanso.", "en": "Great solo sustain: <b>Power Word: Shield</b>, <b>Spirit Tap</b>, the self-heal on <b>Devouring Plague</b> and <b>Vampiric Embrace</b> let you chain pulls with little downtime."},
+    {"es": "Los mejores beneficios: <b>Power Word: Fortitude</b> dura 1 hora, <b>Divine Spirit</b> ya no es un talento (lo aprenden todos a nivel 30) y las versiones Prayer afectan a toda la banda.", "en": "The best buffs: <b>Power Word: Fortitude</b> lasts 1 hour, <b>Divine Spirit</b> is no longer a talent (everyone learns it at 30) and the Prayer versions cover the whole raid."},
+    {"es": "Muy versátil: puedes curar mazmorras con cualquier rama mientras subes, y siempre hay sitio para un sanador.", "en": "Very flexible: you can heal dungeons in any spec while leveling, and groups always need healers."},
+    {"es": "<b>Fear Ward</b> para todos: ya no hace falta ser enano para proteger al tanque de los miedos.", "en": "<b>Fear Ward</b> for everyone: you no longer need to be a Dwarf to keep your tank safe from fears."},
+    {"es": "Sombra tiene remate nuevo: <b>Shadow Word: Death</b> y el talento <b>Early Demise</b> cierran a los enemigos por debajo del 20 % de vida.", "en": "Shadow gets a new finisher: <b>Shadow Word: Death</b> plus the <b>Early Demise</b> talent close out enemies below 20% health."}
+  ],
+  "debiles": [
+    {"es": "Depende mucho del maná: si te quedas sin maná con el enemigo vivo, lo normal es morir.", "en": "Very mana-hungry: running dry with the enemy still alive is the most common way to die."},
+    {"es": "Arranque lento: hasta tener una buena varita y <b>Mind Flay</b>, el daño es bajo.", "en": "Slow start: until you have a decent wand and <b>Mind Flay</b>, your damage is low."},
+    {"es": "Sin herramientas de movimiento: ni carga ni teletransporte. En JcJ, los cuerpo a cuerpo te persiguen sin descanso.", "en": "No mobility tools: no charge, no blink. In PvP, melee classes will stay on top of you."},
+    {"es": "En <b>Shadowform</b> no puedes curar: salir para curarte y volver a entrar cuesta el 40 % del maná base.", "en": "You cannot heal in <b>Shadowform</b>: dropping it to heal and going back in costs 40% of your base mana."},
+    {"es": "El daño Sagrado ha bajado: <b>Smite</b> y <b>Holy Fire</b> hacen más o menos la mitad que en Classic desde el nivel 30, así que Sagrado y Disciplina matan despacio.", "en": "Holy damage was cut: <b>Smite</b> and <b>Holy Fire</b> deal roughly half their Classic damage from level 30 on, so Holy and Discipline kill slowly."}
+  ],
+  "ramas": [
+    {"nombre": "Discipline", "rol": {"es": "Sanador y apoyo", "en": "Healer and support"},
+     "mejor_para": {"es": "Curar mazmorras y bandas con escudos y Penance", "en": "Healing dungeons and raids with shields and Penance"},
+     "texto": {"es": "Rehecha casi entera. <b>Penance</b> (canalizado de 2 s que cura o hace daño), <b>Soul Warding</b>, <b>Renewed Hope</b> y <b>Divine Aegis</b> la convierten en la rama de los escudos. Su talento final, <b>Power Infusion</b>, da un 20 % más de daño y curación a un aliado durante 15 s.", "en": "Almost fully rebuilt. <b>Penance</b> (a 2 sec channel that heals or deals damage), <b>Soul Warding</b>, <b>Renewed Hope</b> and <b>Divine Aegis</b> make it the shield spec. Its capstone, <b>Power Infusion</b>, gives an ally 20% more damage and healing for 15 sec."}},
+    {"nombre": "Holy", "rol": {"es": "Sanador", "en": "Healer"},
+     "mejor_para": {"es": "Curar a grupos enteros", "en": "Healing whole groups"},
+     "texto": {"es": "La rama de curación pura. Gana <b>Binding Heal</b> (te cura a ti y al objetivo a la vez), <b>Litany of Light</b> (devuelve maná si alternas curas) y <b>Prayer of Mending</b> como talento final, que sustituye a Lightwell. <b>Spiritual Guidance</b> convierte tu Espíritu en poder de curación.", "en": "The pure healing spec. It gains <b>Binding Heal</b> (heals you and your target at once), <b>Litany of Light</b> (mana back when you alternate heals) and <b>Prayer of Mending</b> as the capstone, replacing Lightwell. <b>Spiritual Guidance</b> turns your Spirit into healing power."}},
+    {"nombre": "Shadow", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
+     "mejor_para": {"es": "Subir de nivel, jugar solo y JcJ", "en": "Leveling, solo play and PvP"},
+     "texto": {"es": "Daño de Sombra con efectos en el tiempo y canalizados. <b>Mind Flay</b> llega a nivel 20 con su mejora, <b>Vampiric Embrace</b> a nivel 25 y <b>Shadowform</b> a nivel 40 (reduce a la mitad el coste de los hechizos de Sombra). Es la rama más elegida para subir.", "en": "Shadow damage built on DoTs and channels. <b>Mind Flay</b> and its upgrade open at 20, <b>Vampiric Embrace</b> at 25 and <b>Shadowform</b> at 40 (it halves the cost of Shadow spells). It is the most popular leveling spec."}}
+  ],
+  "razas": [
+    {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza", "por_que": {"es": "<b>Ruthless</b> (+1 % de crítico) y <b>The Human Spirit</b> (+10 % de Espíritu) valen para curar y para Sombra. <b>Will to Survive</b> rompe aturdimientos en JcJ. Su hechizo propio, <b>Divine Grace</b>, es una cura instantánea que además quita Weakened Soul.", "en": "<b>Ruthless</b> (+1% crit) and <b>The Human Spirit</b> (+10% Spirit) help both healing and Shadow. <b>Will to Survive</b> breaks stuns in PvP. Its priest spell, <b>Divine Grace</b>, is an instant heal that also clears Weakened Soul."}},
+    {"raza": {"es": "Enano", "en": "Dwarf"}, "faccion": "Alianza", "por_que": {"es": "<b>Artisan's Precision</b> da +1 % de golpe, muy útil en Sombra. <b>Stoneform</b> limpia sangrados, venenos y enfermedades. Conserva <b>Desperate Prayer</b> y gana <b>Chastise</b> (daño e inmovilización contra humanoides).", "en": "<b>Artisan's Precision</b> gives +1% hit, very handy for Shadow. <b>Stoneform</b> clears bleeds, poisons and diseases. It keeps <b>Desperate Prayer</b> and gains <b>Chastise</b> (damage plus a root on humanoids)."}},
+    {"raza": {"es": "Gnomo", "en": "Gnome"}, "faccion": "Alianza", "por_que": {"es": "Nuevo como sacerdote en Forever. <b>Expansive Mind</b> (+5 % de maná) y <b>Eureka!</b> (menos coste y más curación o daño durante 8 s) son buenos para sanar. <b>Contingency Plan</b> es una red de seguridad para el tanque y <b>Escape Artist</b> ayuda en JcJ.", "en": "New to the Priest in Forever. <b>Expansive Mind</b> (+5% mana) and <b>Eureka!</b> (cheaper, stronger spells for 8 sec) are good for healers. <b>Contingency Plan</b> is a safety net for the tank and <b>Escape Artist</b> helps in PvP."}},
+    {"raza": {"es": "Elfo de la noche", "en": "Night Elf"}, "faccion": "Alianza", "por_que": {"es": "<b>Elune's Light</b> da +10 % de crítico durante 15 s, una buena ventana de daño en Sombra. <b>Shadowmeld</b> sirve para evitar peleas y <b>Starshards</b> pega casi el doble que en Classic, aunque ahora tiene 30 s de reutilización.", "en": "<b>Elune's Light</b> gives +10% crit for 15 sec, a strong Shadow burst window. <b>Shadowmeld</b> helps you skip fights, and <b>Starshards</b> hits almost twice as hard as in Classic, though it now has a 30 sec cooldown."}},
+    {"raza": {"es": "No-muerto", "en": "Undead"}, "faccion": "Horda", "por_que": {"es": "La mejor opción de la Horda para casi todo. <b>Will of the Forsaken</b> rompe miedos y encantamientos, <b>Touch of the Grave</b> roba vida y <b>Dark Sacrifice</b> cambia vida por maná, muy útil para curar.", "en": "The best Horde pick for almost everything. <b>Will of the Forsaken</b> breaks fears and charms, <b>Touch of the Grave</b> drains health and <b>Dark Sacrifice</b> trades health for mana, great for healers."}},
+    {"raza": {"es": "Trol", "en": "Troll"}, "faccion": "Horda", "por_que": {"es": "<b>Berserking</b> da un 10 % más de velocidad de lanzamiento durante 15 s y <b>Beast Slaying</b> suma un 5 % de daño contra bestias. <b>Shadowguard</b> castiga a quien te golpea y <b>Rapid Regeneration</b> recupera vida entre combates.", "en": "<b>Berserking</b> gives 10% more casting speed for 15 sec and <b>Beast Slaying</b> adds 5% damage against beasts. <b>Shadowguard</b> punishes whoever hits you and <b>Rapid Regeneration</b> restores health between fights."}}
+  ],
+  "subir": {
+    "rama": "Shadow",
+    "intro": {
+      "es": "Recomendamos Sombra porque es una sola ruta del 10 al 60, sin pagar por cambiar de talentos, y la que más usan las guías y los jugadores. <b>Spirit Tap</b> te devuelve maná al matar, <b>Mind Flay</b> llega a nivel 22 y <b>Shadowform</b> a nivel 42. Hasta entonces, la varita hace buena parte del trabajo. Si prefieres matar con varita y curar mucho en mazmorras, Disciplina con <b>Penance</b> (nivel 30) también funciona, pero mata más despacio.",
+      "en": "We recommend Shadow because it is a single route from 10 to 60 with no paid respec, and it is what most guides and players use. <b>Spirit Tap</b> refunds mana on kills, <b>Mind Flay</b> comes at 22 and <b>Shadowform</b> at 42. Until then your wand does a lot of the work. If you would rather wand things down and heal plenty of dungeons, Discipline with <b>Penance</b> (level 30) also works, but it kills more slowly."
+    },
+    "talentos": [
+      {"niveles": "10-11", "puntos": "2/2 Wand Specialization", "nota": {"es": "Un 25 % más de daño con varita por solo 2 puntos. Antes de Mind Flay, la varita remata casi todo.", "en": "25% more wand damage for just 2 points. Before Mind Flay, the wand finishes almost everything."}},
+      {"niveles": "12-16", "puntos": "5/5 Spirit Tap", "nota": {"es": "El talento clave para subir: al matar, el doble de Espíritu y el 50 % de regeneración mientras lanzas, durante 15 s.", "en": "The key leveling talent: on a kill, double Spirit and 50% regen while casting for 15 sec."}},
+      {"niveles": "17-21", "puntos": "2/2 Improved Shadow Word: Pain, 3/5 Shadow Focus", "nota": {"es": "Shadow Word: Pain dura 6 s más; Shadow Focus reduce los fallos de los hechizos de Sombra.", "en": "Shadow Word: Pain lasts 6 sec longer; Shadow Focus cuts Shadow spell misses."}},
+      {"niveles": "22-24", "puntos": "1/1 Mind Flay, 2/2 Improved Mind Flay", "nota": {"es": "Tu nuevo hechizo principal. Con la mejora, cada golpe del canalizado pega un 20 % más que el anterior: termina siempre el canalizado.", "en": "Your new main spell. With the upgrade, each tick hits 20% harder than the one before: always finish the channel."}},
+      {"niveles": "25-27", "puntos": "5/5 Shadow Focus, 1/1 Vampiric Embrace", "nota": {"es": "Vampiric Embrace cura a tu grupo con el daño de Sombra, y Spirit Tap también salta si muere un enemigo afectado.", "en": "Vampiric Embrace heals your party from your Shadow damage, and Spirit Tap also triggers when an affected enemy dies."}},
+      {"niveles": "28-30", "puntos": "3/3 Shadow Weaving", "nota": {"es": "Hasta un 10 % más de daño de Sombra sobre el objetivo; en Forever ya no falla al aplicarse.", "en": "Up to 10% more Shadow damage on the target; in Forever it can no longer fail to apply."}},
+      {"niveles": "31-35", "puntos": "5/5 Dark Inspiration", "nota": {"es": "Mind Blast y Mind Flay completo te dan un 15 % más de Espíritu (también al grupo): menos tiempo bebiendo.", "en": "Mind Blast and a full Mind Flay give you (and your party) 15% more Spirit: less time drinking."}},
+      {"niveles": "36-41", "puntos": "2/2 Devouring Contagion, 4/5 Darkness", "nota": {"es": "Devouring Plague cuesta la mitad y salta a 2 enemigos cercanos si el objetivo muere. Darkness sube el daño de Sombra.", "en": "Devouring Plague costs half and jumps to 2 nearby enemies if the target dies. Darkness raises Shadow damage."}},
+      {"niveles": "42", "puntos": "1/1 Shadowform", "nota": {"es": "El gran salto: +10 % de daño de Sombra, mitad de coste y un 15 % menos de daño físico recibido.", "en": "The big jump: +10% Shadow damage, half the mana cost and 15% less physical damage taken."}},
+      {"niveles": "43-45", "puntos": "5/5 Darkness, 2/2 Early Demise", "nota": {"es": "Early Demise da +30 % de crítico a Shadow Word: Death con el enemigo por debajo del 20 %.", "en": "Early Demise gives Shadow Word: Death +30% crit when the enemy is below 20%."}},
+      {"niveles": "46-50", "puntos": "5/5 Twin Disciplines", "nota": {"es": "Un 5 % más de daño y curación con los hechizos instantáneos; también afecta a Mind Flay y Shadow Word: Death.", "en": "5% more damage and healing on instant spells; it also covers Mind Flay and Shadow Word: Death."}},
+      {"niveles": "51-55", "puntos": "5/5 Mental Strength", "nota": {"es": "Un 10 % más de Intelecto: más maná y más crítico.", "en": "10% more Intellect: more mana and more crit."}},
+      {"niveles": "56-60", "puntos": "3/3 Meditation, 1/1 Inner Focus, 1/3 Mental Agility", "nota": {"es": "Regenerar maná mientras lanzas y un hechizo gratis cada 3 min. Total: 17/0/34.", "en": "Mana regen while casting and a free spell every 3 min. Total: 17/0/34."}}
+    ],
+    "habilidades": [
+      {"nivel": 1, "nombre": "Smite", "nuevo": false, "texto": {"es": "Tu primer ataque. Úsalo hasta tener Mind Blast y una varita.", "en": "Your first attack. Use it until you have Mind Blast and a wand."}},
+      {"nivel": 1, "nombre": "Power Word: Fortitude", "nuevo": false, "texto": {"es": "Aguante para ti y tu grupo durante 1 hora; tenlo siempre puesto.", "en": "Stamina for you and your party for 1 hour; keep it up at all times."}},
+      {"nivel": 4, "nombre": "Shadow Word: Pain", "nuevo": false, "texto": {"es": "Daño de Sombra en el tiempo. Al ser instantáneo, sirve para marcar enemigos antes que nadie.", "en": "Shadow damage over time. Being instant, it is great for tagging mobs first."}},
+      {"nivel": 6, "nombre": "Power Word: Shield", "nuevo": false, "texto": {"es": "Absorbe daño y evita que te retrasen el lanzamiento. Póntelo antes de cada combate.", "en": "Absorbs damage and stops spell pushback. Put it on before every pull."}},
+      {"nivel": 8, "nombre": "Renew", "nuevo": false, "texto": {"es": "Cura en el tiempo barata; en Forever ya puede hacer crítico.", "en": "Cheap heal over time; in Forever it can now crit."}},
+      {"nivel": 8, "nombre": "Fade", "nuevo": false, "texto": {"es": "Quita amenaza durante 10 s. En Forever quita unas cinco veces más que en Classic.", "en": "Drops threat for 10 sec. In Forever it sheds about five times more than in Classic."}},
+      {"nivel": 10, "nombre": "Mind Blast", "nuevo": false, "texto": {"es": "Golpe fuerte de Sombra cada 8 s. Ábrelo desde lejos.", "en": "Big Shadow hit every 8 sec. Open with it from range."}},
+      {"nivel": 12, "nombre": "Inner Fire", "nuevo": false, "texto": {"es": "Mucha armadura para un personaje de tela. Siempre activo.", "en": "Lots of armor for a cloth wearer. Always keep it on."}},
+      {"nivel": 14, "nombre": "Psychic Scream", "nuevo": false, "texto": {"es": "Hace huir a 2 enemigos cercanos. Cuidado: pueden traer más enemigos.", "en": "Makes 2 nearby enemies flee. Careful: they can pull more mobs."}},
+      {"nivel": 16, "nombre": "Heal", "nuevo": false, "texto": {"es": "Tu cura principal hasta Greater Heal.", "en": "Your main heal until Greater Heal."}},
+      {"nivel": 18, "nombre": "Dispel Magic", "nuevo": false, "texto": {"es": "Quita un efecto mágico malo a un aliado o uno bueno a un enemigo.", "en": "Removes a harmful magic effect from an ally or a beneficial one from an enemy."}},
+      {"nivel": 20, "nombre": "Devouring Plague", "nuevo": false, "texto": {"es": "Ahora lo aprenden todos los sacerdotes. Daño en el tiempo que te cura; 24 s de reutilización.", "en": "Every Priest learns it now. Damage over time that heals you; 24 sec cooldown."}},
+      {"nivel": 20, "nombre": "Fear Ward", "nuevo": false, "texto": {"es": "Ahora para todas las razas. Bloquea el siguiente miedo del objetivo.", "en": "Now for every race. Blocks the target's next fear."}},
+      {"nivel": 20, "nombre": "Flash Heal", "nuevo": false, "texto": {"es": "Cura rápida de 1,5 s para apuros.", "en": "Fast 1.5 sec heal for emergencies."}},
+      {"nivel": 22, "nombre": "Mind Flay", "nuevo": false, "texto": {"es": "Talento de Sombra (fila 3). Canalizado que pega y frena al objetivo; solo llega a 20 metros.", "en": "Shadow talent (row 3). A channel that damages and slows the target; only 20 yards of range."}},
+      {"nivel": 25, "nombre": "Binding Heal", "nuevo": true, "texto": {"es": "Talento de Sagrado. Cura a la vez a un aliado y a ti.", "en": "Holy talent. Heals an ally and yourself at the same time."}},
+      {"nivel": 27, "nombre": "Vampiric Embrace", "nuevo": false, "texto": {"es": "Talento de Sombra. Tu daño de Sombra cura al grupo durante 30 s; ahora con 30 s de reutilización.", "en": "Shadow talent. Your Shadow damage heals the party for 30 sec; now on a 30 sec cooldown."}},
+      {"nivel": 30, "nombre": "Divine Spirit", "nuevo": false, "texto": {"es": "Antes era talento; ahora lo aprenden todos. Espíritu para ti y tus aliados durante 1 hora.", "en": "It used to be a talent; now everyone learns it. Spirit for you and your allies for 1 hour."}},
+      {"nivel": 30, "nombre": "Penance", "nuevo": true, "texto": {"es": "Talento de Disciplina. Canalizado de 2 s que cura a un aliado o daña a un enemigo; 12 s de reutilización.", "en": "Discipline talent. A 2 sec channel that heals an ally or hurts an enemy; 12 sec cooldown."}},
+      {"nivel": 30, "nombre": "Prayer of Healing", "nuevo": false, "texto": {"es": "Ahora se lanza sobre un objetivo y cura a su grupo.", "en": "Now cast on a target, healing that target's party."}},
+      {"nivel": 30, "nombre": "Mind Control", "nuevo": false, "texto": {"es": "Controla a un humanoide. Útil en mazmorras y en JcJ.", "en": "Take control of a humanoid. Useful in dungeons and PvP."}},
+      {"nivel": 32, "nombre": "Shadow Word: Death", "nuevo": true, "texto": {"es": "Remate instantáneo de Sombra con 18 s de reutilización. Si el objetivo sobrevive, pierdes el 10 % de tu vida máxima.", "en": "Instant Shadow finisher on an 18 sec cooldown. If the target survives, you lose 10% of your max health."}},
+      {"nivel": 34, "nombre": "Levitate", "nuevo": false, "texto": {"es": "Caer despacio y caminar sobre el agua (pide Light Feather).", "en": "Slow fall and walk on water (needs a Light Feather)."}},
+      {"nivel": 40, "nombre": "Greater Heal", "nuevo": false, "texto": {"es": "La cura grande y lenta para golpes fuertes.", "en": "The big, slow heal for heavy hits."}},
+      {"nivel": 40, "nombre": "Prayer of Mending", "nuevo": true, "texto": {"es": "Talento final de Sagrado. Cura al recibir daño y salta hasta 5 veces por el grupo.", "en": "Holy capstone. Heals when the target takes damage, then jumps up to 5 times around the group."}},
+      {"nivel": 42, "nombre": "Shadowform", "nuevo": false, "texto": {"es": "Talento final de Sombra (nivel 42 con esta ruta). Más daño, mitad de coste y menos daño físico; no deja curar.", "en": "Shadow capstone (level 42 on this route). More damage, half the cost and less physical damage taken; no healing."}},
+      {"nivel": 48, "nombre": "Prayer of Fortitude", "nuevo": false, "texto": {"es": "Fortitude para toda la banda de una vez (pide Holy Candle).", "en": "Fortitude for the whole raid at once (needs a Holy Candle)."}}
+    ],
+    "rotacion": [
+      {"es": "Antes de nada: <b>Power Word: Fortitude</b> e <b>Inner Fire</b> puestos.", "en": "First things first: <b>Power Word: Fortitude</b> and <b>Inner Fire</b> up."},
+      {"es": "<b>Power Word: Shield</b> antes de atacar para que no te retrasen el lanzamiento (luego hay 15 s de Weakened Soul).", "en": "<b>Power Word: Shield</b> before pulling so you are not pushed back (Weakened Soul then lasts 15 sec)."},
+      {"es": "Abre con <b>Mind Blast</b> desde lejos y pon <b>Shadow Word: Pain</b>.", "en": "Open with <b>Mind Blast</b> from range, then apply <b>Shadow Word: Pain</b>."},
+      {"es": "Desde nivel 20, <b>Devouring Plague</b> en enemigos duros: hace daño y te cura.", "en": "From level 20, <b>Devouring Plague</b> on tough enemies: it deals damage and heals you."},
+      {"es": "<b>Mind Flay</b> entero como relleno (el último golpe es el más fuerte) y <b>Mind Blast</b> cada vez que esté listo.", "en": "Full <b>Mind Flay</b> channels as filler (the last tick hits hardest) and <b>Mind Blast</b> whenever it is ready."},
+      {"es": "Desde nivel 32, <b>Shadow Word: Death</b> solo para rematar: si no mata, te hace daño.", "en": "From level 32, <b>Shadow Word: Death</b> only to finish: if it does not kill, it hurts you."},
+      {"es": "Si vas justo de maná, deja que la varita y los efectos en el tiempo terminen al enemigo y aprovecha <b>Spirit Tap</b> al matar.", "en": "When low on mana, let the wand and your DoTs finish the enemy and make use of <b>Spirit Tap</b> on the kill."}
+    ],
+    "extra": {
+      "titulo": {"es": "Varitas para subir", "en": "Wands for leveling"},
+      "items": [
+        {"es": "<b>Lesser Magic Wand</b> (nivel 5): se fabrica con Encantamiento; la primera varita de casi todos.", "en": "<b>Lesser Magic Wand</b> (level 5): crafted with Enchanting; almost everyone's first wand."},
+        {"es": "<b>Greater Magic Wand</b> (nivel 13): también de Encantamiento, bastante más daño que la anterior.", "en": "<b>Greater Magic Wand</b> (level 13): also from Enchanting, much more damage than the first one."},
+        {"es": "<b>Sizzle Stick</b>: recompensa de misión de las Cuevas de los Lamentos.", "en": "<b>Sizzle Stick</b>: quest reward from Wailing Caverns."},
+        {"es": "<b>Gravestone Scepter</b>: recompensa de misión de Cavernas de Brazanegra; se suele llevar hasta finales de los 30.", "en": "<b>Gravestone Scepter</b>: quest reward from Blackfathom Deeps; people often keep it into their late 30s."},
+        {"es": "<b>Wand of Eventide</b> (nivel 27): botín del mundo que se liga al equiparlo; búscala en la casa de subastas.", "en": "<b>Wand of Eventide</b> (level 27): bind-on-equip world drop; check the auction house."},
+        {"es": "Regla general: cambia de varita en cuanto encuentres una mejor. Hasta Mind Flay y Shadowform, la varita es tu mayor fuente de daño.", "en": "Rule of thumb: swap wands as soon as you find a better one. Until Mind Flay and Shadowform, your wand is your biggest damage source."}
+      ]
+    },
+    "consejos": [
+      {"es": "No aprendas todos los rangos de todos los hechizos: guarda oro para la montura del nivel 40 (unas 120 monedas de oro entre entrenamiento y montura). Prioriza lo que usas.", "en": "Do not buy every rank of every spell: save gold for your level 40 mount (around 120 gold for training and the mount). Prioritize what you actually use."},
+      {"es": "Si tienes la ventaja de Legacy <b>Talented</b> al máximo, los talentos empiezan a nivel 5: adelanta toda la tabla 5 niveles.", "en": "With the Legacy perk <b>Talented</b> maxed, talents start at level 5: move the whole table 5 levels earlier."},
+      {"es": "¿Quieres <b>Shadowform</b> a nivel 40 justo? Deja <b>Wand Specialization</b> para después: con todos los puntos en Sombra llegas a los 30 necesarios a nivel 40.", "en": "Want <b>Shadowform</b> right at 40? Skip <b>Wand Specialization</b> for now: with every point in Shadow you reach the 30 needed at level 40."},
+      {"es": "En <b>Shadowform</b> no puedes curar. Si necesitas curarte, mejor <b>Power Word: Shield</b> y <b>Devouring Plague</b> antes que salir de la forma.", "en": "You cannot heal in <b>Shadowform</b>. If you need health, lean on <b>Power Word: Shield</b> and <b>Devouring Plague</b> before leaving the form."},
+      {"es": "En Forever los efectos en el tiempo se recalculan mientras duran: si te llega un beneficio a mitad, el resto de golpes ya lo aprovecha.", "en": "In Forever, DoTs and HoTs update while they run: a buff that lands mid-way boosts the remaining ticks."},
+      {"es": "Puedes curar mazmorras siendo Sombra mientras subes. Lleva agua de tu nivel antes de entrar.", "en": "You can heal dungeons as Shadow while leveling. Bring water for your level before you go in."},
+      {"es": "Los rangos muy bajos aprovechan menos tu poder con hechizos (lo dice el propio juego en la hoja de personaje). Usa rangos cercanos a tu nivel.", "en": "Very low spell ranks get less from your spell power (the game says so on the character sheet). Use ranks close to your level."},
+      {"es": "Come para tener <b>Well Fed</b>: en Forever da un 5 % más de experiencia por muerte durante 15 min.", "en": "Eat for <b>Well Fed</b>: in Forever it gives 5% more experience per kill for 15 min."}
+    ],
+    "hitos": [
+      {"nivel": "4", "texto": {"es": "<b>Shadow Word: Pain</b>: empiezas a marcar enemigos con un instantáneo.", "en": "<b>Shadow Word: Pain</b>: you can now tag mobs with an instant spell."}},
+      {"nivel": "5", "texto": {"es": "Primera varita (<b>Lesser Magic Wand</b>). El ritmo cambia mucho.", "en": "First wand (<b>Lesser Magic Wand</b>). The pace changes a lot."}},
+      {"nivel": "10", "texto": {"es": "Primer talento, <b>Mind Blast</b> y los hechizos propios de tu raza.", "en": "First talent, <b>Mind Blast</b> and your race's own priest spells."}},
+      {"nivel": "20", "texto": {"es": "<b>Devouring Plague</b>, <b>Fear Ward</b> y <b>Flash Heal</b> para todos.", "en": "<b>Devouring Plague</b>, <b>Fear Ward</b> and <b>Flash Heal</b> for everyone."}},
+      {"nivel": "22", "texto": {"es": "<b>Mind Flay</b>: por fin un relleno de Sombra que no es la varita.", "en": "<b>Mind Flay</b>: finally a Shadow filler that is not your wand."}},
+      {"nivel": "30", "texto": {"es": "<b>Divine Spirit</b>, <b>Prayer of Healing</b> y <b>Mind Control</b>. Disciplina tendría ya <b>Penance</b>.", "en": "<b>Divine Spirit</b>, <b>Prayer of Healing</b> and <b>Mind Control</b>. Discipline would have <b>Penance</b> by now."}},
+      {"nivel": "32", "texto": {"es": "<b>Shadow Word: Death</b>: remate instantáneo.", "en": "<b>Shadow Word: Death</b>: an instant finisher."}},
+      {"nivel": "40", "texto": {"es": "Montura y <b>Greater Heal</b>.", "en": "Mount and <b>Greater Heal</b>."}},
+      {"nivel": "42", "texto": {"es": "<b>Shadowform</b>: el mayor salto de poder de toda la subida.", "en": "<b>Shadowform</b>: the biggest power spike of the whole climb."}},
+      {"nivel": "60", "texto": {"es": "Tope de nivel. Decide si sigues en Sombra o cambias a Disciplina o Sagrado para mazmorras y bandas.", "en": "Level cap. Decide whether to stay Shadow or switch to Discipline or Holy for dungeons and raids."}}
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "La beta solo llegó a nivel 30, así que todo lo de nivel 60 es teoría: valores del cliente de la beta y las builds más planificadas. Las más populares son Sombra 14/0/37 y 17/0/34, Disciplina 32/19/0 y 33/18/0, y Sagrado 19/32/0. La ruta de subida de esta guía (17/0/34) ya sirve como build de Sombra a 60. Las bandas llegan el 9 de diciembre de 2026.",
+      "en": "The beta only went to level 30, so everything at 60 is theory: beta client values and the most planned builds. The most popular are Shadow 14/0/37 and 17/0/34, Discipline 32/19/0 and 33/18/0, and Holy 19/32/0. This guide's leveling route (17/0/34) already works as a level 60 Shadow build. Raids arrive on 9 December 2026."
+    },
+    "ramas": [
+      {"nombre": "Shadow", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
+       "estadisticas": [
+         {"es": "Golpe con hechizos primero, hasta el tope (el tope exacto de Forever no está confirmado). Shadow Focus ya da un 5 %.", "en": "Spell hit first, up to the cap (the exact Forever cap is not confirmed). Shadow Focus already gives 5%."},
+         {"es": "Después, poder con hechizos o daño de Sombra.", "en": "Then spell power or Shadow damage."},
+         {"es": "Luego crítico: Shadowform duplica el bonus de daño crítico de tus hechizos de Sombra.", "en": "Then crit: Shadowform doubles the crit damage bonus of your Shadow spells."},
+         {"es": "Intelecto para tener más maná; el Espíritu, solo si viene en una pieza que ya es buena.", "en": "Intellect for a bigger mana pool; Spirit only when it comes on an item that is already good."}
+       ],
+       "rotacion": [
+         {"es": "Mantén <b>Shadow Word: Pain</b> siempre en el objetivo.", "en": "Keep <b>Shadow Word: Pain</b> on the target at all times."},
+         {"es": "<b>Devouring Plague</b> cada vez que esté listo (24 s de reutilización).", "en": "<b>Devouring Plague</b> whenever it is ready (24 sec cooldown)."},
+         {"es": "<b>Mind Blast</b> en cuanto esté disponible.", "en": "<b>Mind Blast</b> on cooldown."},
+         {"es": "<b>Shadow Word: Death</b> cuando esté listo, sobre todo con el jefe por debajo del 20 % (Early Demise). Vigila tu vida por el rebote.", "en": "<b>Shadow Word: Death</b> on cooldown, especially with the boss below 20% (Early Demise). Watch your health for the backlash."},
+         {"es": "<b>Vampiric Embrace</b> activo casi siempre para curar al grupo.", "en": "Keep <b>Vampiric Embrace</b> up almost all the time to heal the group."},
+         {"es": "<b>Mind Flay</b> de relleno, sin cortarlo. Con varios enemigos, reparte Shadow Word: Pain y deja que Devouring Contagion propague la plaga.", "en": "<b>Mind Flay</b> as filler, without clipping it. On several enemies, spread Shadow Word: Pain and let Devouring Contagion spread the plague."}
+       ],
+       "consumibles": [
+         {"es": "Comida de Cocina con Well Fed y pociones de maná.", "en": "Cooking food for Well Fed, and mana potions."},
+         {"es": "En Classic se usaban <b>Elixir of Shadow Power</b>, <b>Greater Arcane Elixir</b> y <b>Brilliant Wizard Oil</b>; están por confirmar en Forever, que tiene muchas recetas nuevas.", "en": "Classic used <b>Elixir of Shadow Power</b>, <b>Greater Arcane Elixir</b> and <b>Brilliant Wizard Oil</b>; still to be confirmed in Forever, which has many new recipes."}
+       ]},
+      {"nombre": "Discipline", "rol": {"es": "Sanador", "en": "Healer"},
+       "estadisticas": [
+         {"es": "Poder de curación primero.", "en": "Healing power first."},
+         {"es": "Intelecto (más maná y Mental Strength lo sube un 10 %).", "en": "Intellect (more mana, and Mental Strength adds 10%)."},
+         {"es": "Maná cada 5 s y Espíritu para aguantar peleas largas.", "en": "Mana per 5 sec and Spirit to last through long fights."},
+         {"es": "Crítico: activa <b>Divine Aegis</b> y <b>Inspiration</b>, así que vale algo más que en otras ramas.", "en": "Crit: it triggers <b>Divine Aegis</b> and <b>Inspiration</b>, so it is worth a bit more than in other specs."}
+       ],
+       "rotacion": [
+         {"es": "<b>Power Word: Shield</b> en el tanque y en quien vaya a recibir daño; con <b>Soul Warding</b> no tiene reutilización y cuesta menos.", "en": "<b>Power Word: Shield</b> on the tank and on whoever is about to take damage; with <b>Soul Warding</b> it has no cooldown and costs less."},
+         {"es": "<b>Penance</b> cada vez que esté listo para una cura fuerte: es tu cura más eficiente.", "en": "<b>Penance</b> whenever it is ready for a strong heal: it is your most mana-efficient heal."},
+         {"es": "<b>Renew</b> en quien reciba daño constante.", "en": "<b>Renew</b> on targets taking steady damage."},
+         {"es": "<b>Flash Heal</b> o <b>Binding Heal</b> para curas rápidas; con <b>Renewed Hope</b>, curar a un objetivo con Weakened Soul acorta su espera de escudo.", "en": "<b>Flash Heal</b> or <b>Binding Heal</b> for quick heals; with <b>Renewed Hope</b>, healing a target with Weakened Soul shortens their shield lockout."},
+         {"es": "<b>Greater Heal</b> con <b>Inner Focus</b> antes de un golpe grande conocido.", "en": "<b>Greater Heal</b> with <b>Inner Focus</b> before a known big hit."},
+         {"es": "<b>Power Infusion</b> en un lanzador de daño (o en otro sanador) en el momento clave del combate.", "en": "<b>Power Infusion</b> on a damage caster (or another healer) at the key moment of the fight."}
+       ],
+       "consumibles": [
+         {"es": "Pociones de maná y comida con Well Fed.", "en": "Mana potions and Well Fed food."},
+         {"es": "En Classic se usaban <b>Brilliant Mana Oil</b>, <b>Mageblood Potion</b> y <b>Flask of Distilled Wisdom</b>; están por confirmar en Forever.", "en": "Classic used <b>Brilliant Mana Oil</b>, <b>Mageblood Potion</b> and <b>Flask of Distilled Wisdom</b>; still to be confirmed in Forever."}
+       ]},
+      {"nombre": "Holy", "rol": {"es": "Sanador", "en": "Healer"},
+       "estadisticas": [
+         {"es": "Poder de curación primero.", "en": "Healing power first."},
+         {"es": "Intelecto y maná cada 5 s.", "en": "Intellect and mana per 5 sec."},
+         {"es": "El Espíritu vale más que en Disciplina: <b>Spiritual Guidance</b> suma el 25 % de tu Espíritu a la curación.", "en": "Spirit is worth more than for Discipline: <b>Spiritual Guidance</b> adds 25% of your Spirit to your healing."},
+         {"es": "Crítico, el último.", "en": "Crit last."}
+       ],
+       "rotacion": [
+         {"es": "<b>Prayer of Mending</b> cada 10 s en quien vaya a recibir daño: salta solo por el grupo.", "en": "<b>Prayer of Mending</b> every 10 sec on whoever is about to take damage: it bounces around the group on its own."},
+         {"es": "<b>Renew</b> en todos los que reciban daño constante.", "en": "<b>Renew</b> on everyone taking steady damage."},
+         {"es": "<b>Flash Heal</b> o <b>Binding Heal</b> para curas rápidas. Alterna hechizos para que <b>Litany of Light</b> te devuelva maná.", "en": "<b>Flash Heal</b> or <b>Binding Heal</b> for quick heals. Alternate spells so <b>Litany of Light</b> refunds mana."},
+         {"es": "<b>Greater Heal</b> con <b>Inner Focus</b> para golpes grandes.", "en": "<b>Greater Heal</b> with <b>Inner Focus</b> for big hits."},
+         {"es": "<b>Prayer of Healing</b> (sobre un objetivo de ese grupo) o <b>Holy Nova</b> cuando duele a todo el grupo.", "en": "<b>Prayer of Healing</b> (cast on someone in that party) or <b>Holy Nova</b> when the whole group is hurting."}
+       ],
+       "consumibles": [
+         {"es": "Lo mismo que Disciplina: pociones de maná y comida con Well Fed.", "en": "Same as Discipline: mana potions and Well Fed food."},
+         {"es": "Los consumibles de maná de Classic (<b>Brilliant Mana Oil</b>, <b>Mageblood Potion</b>) están por confirmar en Forever.", "en": "Classic mana consumables (<b>Brilliant Mana Oil</b>, <b>Mageblood Potion</b>) are still to be confirmed in Forever."}
+       ]}
+    ],
+    "equipo": {
+      "es": "Aún no hay listas de mejor equipo para Forever: el botín de las mazmorras se ha renovado y las bandas (Cavernas del Túmulo, Cima Hyjal y Guarida de Onyxia) llegan el 9 de diciembre. Mientras tanto, busca tela con poder con hechizos o daño de Sombra (Sombra) o con poder de curación (Disciplina y Sagrado). Las mazmorras nuevas de nivel alto (Bastión Faucenegra y Bancal del Creador) y las clásicas de 60, más Sastrería, serán la base del equipo. El arma suele ser la mejora más grande.",
+      "en": "There are no best-in-slot lists for Forever yet: dungeon loot has been reworked and the raids (Barrow Deeps, Hyjal Summit and Onyxia's Lair) open on 9 December. Until then, look for cloth with spell power or Shadow damage (Shadow) or healing power (Discipline and Holy). The new high-level dungeons (Blackmaw Hold and Shaper's Terrace), the classic level 60 dungeons and Tailoring will be your main gear sources. Your weapon is usually the biggest upgrade."
+    }
+  },
+  "pvp": [
+    {"es": "En JcJ, Sombra es la rama para hacer daño. Talentos útiles: <b>Silence</b>, <b>Blackout</b>, <b>Improved Psychic Scream</b>, <b>Shadow Reach</b>, <b>Martyrdom</b> y <b>Silent Resolve</b>.", "en": "For PvP damage, play Shadow. Useful talents: <b>Silence</b>, <b>Blackout</b>, <b>Improved Psychic Scream</b>, <b>Shadow Reach</b>, <b>Martyrdom</b> and <b>Silent Resolve</b>."},
+    {"es": "Contra cuerpo a cuerpo: <b>Power Word: Shield</b> primero, <b>Psychic Scream</b> para ganar distancia y Shadowform para recibir un 15 % menos de daño físico.", "en": "Against melee: <b>Power Word: Shield</b> first, <b>Psychic Scream</b> to make space and Shadowform for 15% less physical damage taken."},
+    {"es": "Usa <b>Silence</b> para cortar una cura o un hechizo grande, no en cuanto esté listo.", "en": "Use <b>Silence</b> to stop a heal or a big spell, not just because it is ready."},
+    {"es": "<b>Mana Burn</b> contra sanadores y lanzadores: quemar maná también gana duelos largos.", "en": "<b>Mana Burn</b> on healers and casters: draining mana also wins long duels."},
+    {"es": "<b>Dispel Magic</b> quita beneficios al rival y males a tus aliados; <b>Fear Ward</b> en tu aliado clave contra brujos y guerreros.", "en": "<b>Dispel Magic</b> strips enemy buffs and cleans your allies; <b>Fear Ward</b> your key ally against Warlocks and Warriors."},
+    {"es": "<b>Shadow Word: Death</b> solo para rematar: si el rival sobrevive, pierdes el 10 % de tu vida.", "en": "<b>Shadow Word: Death</b> only as a finisher: if your target survives, you lose 10% of your health."},
+    {"es": "En campos de batalla, un sanador de Disciplina con escudos y Penance es muy difícil de matar; no te alejes de tu grupo.", "en": "In battlegrounds, a Discipline healer with shields and Penance is very hard to kill; stay close to your group."},
+    {"es": "Las raciales cuentan: <b>Will of the Forsaken</b>, <b>Will to Survive</b>, <b>Escape Artist</b> y <b>Stoneform</b> te sacan de apuros.", "en": "Racials matter: <b>Will of the Forsaken</b>, <b>Will to Survive</b>, <b>Escape Artist</b> and <b>Stoneform</b> get you out of trouble."}
+  ],
+  "profesiones": [
+    {"nombre": {"es": "Sastrería", "en": "Tailoring"}, "por_que": {"es": "Equipo de tela para subir y patrones nuevos de Forever, como cinturones de nivel 10 con poder con hechizos o de curación.", "en": "Cloth gear for leveling and new Forever patterns, like level 10 belts with spell power or healing."}},
+    {"nombre": {"es": "Encantamiento", "en": "Enchanting"}, "por_que": {"es": "Te fabricas tus primeras varitas (necesitas 10 de habilidad para la Lesser Magic Wand) y encantas tu equipo. Con Sastrería, la pareja clásica del sacerdote.", "en": "You craft your first wands (10 skill for the Lesser Magic Wand) and enchant your gear. With Tailoring, the classic Priest pairing."}},
+    {"nombre": {"es": "Herboristería y Alquimia", "en": "Herbalism and Alchemy"}, "por_que": {"es": "Para fabricarte pociones y elixires de maná a nivel 60, y ganar oro recolectando mientras subes.", "en": "To craft your own mana potions and elixirs at 60, and make gold gathering while you level."}},
+    {"nombre": {"es": "Ingeniería", "en": "Engineering"}, "por_que": {"es": "Sobre todo para JcJ, con esquemas y abalorios nuevos en Forever.", "en": "Mainly for PvP, with new schematics and trinkets in Forever."}}
+  ],
+  "pendiente": [
+    {"es": "Builds de nivel 60 probadas: la beta llegó solo a nivel 30 y los números pueden cambiar con los arreglos del lanzamiento.", "en": "Tested level 60 builds: the beta only reached level 30 and numbers may change with launch hotfixes."},
+    {"es": "El tope de golpe con hechizos en Forever (en Classic era el 16 % contra jefes de banda).", "en": "The spell hit cap in Forever (in Classic it was 16% against raid bosses)."},
+    {"es": "El mejor equipo de mazmorras y de bandas de Forever (las bandas salen el 9-12-2026).", "en": "Best-in-slot gear from Forever dungeons and raids (raids open on 9 December 2026)."},
+    {"es": "Qué consumibles de Classic siguen igual y cuáles son nuevos en Forever.", "en": "Which Classic consumables are unchanged and which are new in Forever."},
+    {"es": "Cuánto pierden exactamente los rangos bajos con el poder con hechizos.", "en": "Exactly how much low spell ranks lose from spell power."}
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de Blizzard (foros oficiales)", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696"},
+    {"nombre": "Talents Forever: cambios del sacerdote (datos del cliente de la beta, CC BY 4.0)", "url": "https://talentsforever.com/priest/changes"},
+    {"nombre": "Talents Forever: builds y orden de talentos", "url": "https://talentsforever.com/priest/leveling"},
+    {"nombre": "Warcraft Tavern: subir de nivel con sacerdote", "url": "https://www.warcrafttavern.com/forever/guides/priest-leveling/"},
+    {"nombre": "Warcraft Tavern: sacerdote Sombra", "url": "https://www.warcrafttavern.com/forever/guides/shadow-priest/"},
+    {"nombre": "Warcraft Tavern: sacerdote Sagrado", "url": "https://www.warcrafttavern.com/forever/guides/holy-priest/"},
+    {"nombre": "Warcraft Tavern: sacerdote Disciplina", "url": "https://www.warcrafttavern.com/forever/guides/discipline-priest/"},
+    {"nombre": "Method: subir de nivel con sacerdote", "url": "https://www.method.gg/wow-forever/wow-forever-priest-leveling-guide-and-talents"},
+    {"nombre": "wow.gg: sacerdote Sombra en la beta", "url": "https://wow.gg/guides/wow-forever-shadow-priest-beta"},
+    {"nombre": "Warcraft Wiki: WoW Forever", "url": "https://warcraft.wiki.gg/wiki/Forever"}
+  ]
+}

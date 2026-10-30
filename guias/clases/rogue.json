@@ -1,0 +1,237 @@
+{
+  "slug": "rogue",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El pícaro es el especialista en cuerpo a cuerpo que pega desde las sombras: sigilo, venenos, aturdimientos y mucho daño a un solo objetivo. En Forever gana <b>Mutilate</b> y <b>Venom</b> (Assassination), puede usar <b>hachas</b> y un único talento, <b>Hack and Slash</b>, sirve para cualquier arma. Es para quien disfruta eligiendo cuándo empieza la pelea y quién la termina.",
+    "en": "The rogue is the melee specialist who strikes from the shadows: stealth, poisons, stuns and heavy single-target damage. Forever adds <b>Mutilate</b> and <b>Venom</b> (Assassination), lets rogues use <b>axes</b>, and a single talent, <b>Hack and Slash</b>, now works with every weapon type. It suits players who like choosing when a fight starts and who ends it."
+  },
+  "fuertes": [
+    {"es": "Mucho daño a un objetivo y finalizadores muy fuertes.", "en": "High single-target damage and strong finishers."},
+    {"es": "Tú decides cuándo empieza la pelea: sigilo, Sap y aperturas desde atrás.", "en": "You choose when the fight starts: stealth, Sap and openers from behind."},
+    {"es": "Muchas salidas: Evasion, Sprint, Vanish, Gouge y Blind.", "en": "Plenty of escapes: Evasion, Sprint, Vanish, Gouge and Blind."},
+    {"es": "En JcJ, control casi sin descanso con Cheap Shot, Kidney Shot y Kick.", "en": "In PvP, near-constant control with Cheap Shot, Kidney Shot and Kick."},
+    {"es": "La energía vuelve sin pausas (10 por segundo, sin esperar al tic), así que el ritmo es más fluido que en Classic.", "en": "Energy comes back smoothly (10 per second, no tick to wait for), so the pace feels smoother than in Classic."}
+  ],
+  "debiles": [
+    {"es": "Sin curación propia: dependes de vendas, comida y pociones.", "en": "No self-healing: you rely on bandages, food and potions."},
+    {"es": "Casi sin daño en área: solo Blade Flurry (Combat) llega a un segundo objetivo.", "en": "Almost no area damage: only Blade Flurry (Combat) reaches a second target."},
+    {"es": "Aporta poca utilidad a la banda aparte del daño y Expose Armor.", "en": "Brings little raid utility beyond damage and Expose Armor."},
+    {"es": "Si te atrapan varios enemigos sin tus defensas listas, caes rápido.", "en": "If several enemies catch you with your defences on cooldown, you go down fast."}
+  ],
+  "ramas": [
+    {"nombre": "Combat", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
+     "mejor_para": {"es": "Subir de nivel, mazmorras y bandas", "en": "Leveling, dungeons and raids"},
+     "texto": {"es": "La más sencilla y constante. Con Hack and Slash cualquier arma rinde, Riposte y Deflection te mantienen vivo y Blade Flurry da algo de daño a dos objetivos. Es la build de 60 más planificada en la calculadora.", "en": "The simplest and most consistent tree. Hack and Slash makes every weapon type viable, Riposte and Deflection keep you alive, and Blade Flurry adds some two-target damage. It is the most planned level 60 build in the calculator."}},
+    {"nombre": "Assassination", "rol": {"es": "DPS cuerpo a cuerpo (venenos)", "en": "Melee DPS (poisons)"},
+     "mejor_para": {"es": "Bandas y JcJ con dagas", "en": "Raids and PvP with daggers"},
+     "texto": {"es": "La rama renovada: Mutilate (dos dagas, 2 puntos de combo) y Venom, que sube el daño y la frecuencia de tus venenos. Se queda corta hasta el nivel 30, pero luego crece mucho. Necesita dagas en las dos manos.", "en": "The reworked tree: Mutilate (two daggers, 2 combo points) and Venom, which boosts your poison damage and how often they apply. It feels thin until level 30, then grows fast. Needs daggers in both hands."}},
+    {"nombre": "Subtlety", "rol": {"es": "DPS cuerpo a cuerpo (sigilo y sangrados)", "en": "Melee DPS (stealth and bleeds)"},
+     "mejor_para": {"es": "JcJ y duelos", "en": "PvP and duels"},
+     "texto": {"es": "Sigilo mejorado, Premeditation, Preparation y trucos baratos (Sap y Blind cuestan la mitad con Dirty Tricks). Tiene dos caminos nuevos: sangrado con Hemorrhage, Rupture y Thousand Cuts, o Ambush con Cutthroat. Es la más usada en las builds de 60, pero sobre todo para JcJ.", "en": "Better stealth, Premeditation, Preparation and cheap tricks (Sap and Blind cost half with Dirty Tricks). It has two new paths: bleeds with Hemorrhage, Rupture and Thousand Cuts, or Ambush with Cutthroat. It is the most planned tree at 60, mostly for PvP."}}
+  ],
+  "razas": [
+    {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza", "por_que": {"es": "Ruthless da +1 % de golpe crítico siempre y Will to Survive quita los aturdimientos: buena para JcE y JcJ.", "en": "Ruthless gives a permanent +1% crit and Will to Survive breaks stuns: good for both PvE and PvP."}},
+    {"raza": {"es": "Elfo de la noche", "en": "Night Elf"}, "faccion": "Alianza", "por_que": {"es": "Elune's Light: +10 % de crítico durante 15 s. Quickness te hace más difícil de ver en sigilo y Shadowmeld da una salida más.", "en": "Elune's Light: +10% crit for 15 sec. Quickness makes you harder to spot in stealth and Shadowmeld is one more escape."}},
+    {"raza": {"es": "Gnomo", "en": "Gnome"}, "faccion": "Alianza", "por_que": {"es": "Expansive Mind da un 5 % más de energía máxima, Eureka! abarata y refuerza tus golpes y Escape Artist quita ralentizaciones.", "en": "Expansive Mind gives 5% more maximum Energy, Eureka! makes your strikes cheaper and stronger, and Escape Artist breaks slows."}},
+    {"raza": {"es": "Enano", "en": "Dwarf"}, "faccion": "Alianza", "por_que": {"es": "Para JcJ: Stoneform limpia venenos, sangrados y enfermedades y reduce el daño físico. +1 % de golpe con Artisan's Precision.", "en": "For PvP: Stoneform clears poisons, bleeds and diseases and cuts physical damage. +1% hit from Artisan's Precision."}},
+    {"raza": {"es": "Orco", "en": "Orc"}, "faccion": "Horda", "por_que": {"es": "Blood Fury: +10 % de poder de ataque 15 s. Hardiness acorta un 20 % los aturdimientos que recibes. La más completa de la Horda.", "en": "Blood Fury: +10% Attack Power for 15 sec. Hardiness shortens stuns on you by 20%. The most complete Horde pick."}},
+    {"raza": {"es": "No-muerto", "en": "Undead"}, "faccion": "Horda", "por_que": {"es": "La de JcJ: Will of the Forsaken rompe miedos y sueños, y Touch of the Grave roba vida al pegar.", "en": "The PvP pick: Will of the Forsaken breaks fears and sleeps, and Touch of the Grave drains health as you hit."}},
+    {"raza": {"es": "Trol", "en": "Troll"}, "faccion": "Horda", "por_que": {"es": "Berserking: +10 % de velocidad de ataque 15 s, y regeneración de vida para subir con menos pausas.", "en": "Berserking: +10% attack speed for 15 sec, plus health regeneration for fewer breaks while leveling."}},
+    {"raza": {"es": "Célico (Windshaper)", "en": "Skyborne (Windshaper)"}, "faccion": "Horda", "por_que": {"es": "Raza nueva (pack Heroico). Wind Blessed da +2 % de celeridad fija y Skysight, velocidad de movimiento. También existe en la Alianza (High Order).", "en": "New race (Heroic pack). Wind Blessed gives a flat +2% Haste and Skysight adds movement speed. The Alliance has its own version (High Order)."}}
+  ],
+  "subir": {
+    "rama": "Combat",
+    "intro": {
+      "es": "Para subir recomendamos <b>Combat</b>: casi todas las guías coinciden y es la que menos depende del equipo. Pegas con <b>Sinister Strike</b>, gastas los puntos de combo en <b>Slice and Dice</b> y <b>Eviscerate</b>, y sobrevives con <b>Riposte</b>, <b>Evasion</b> y <b>Sprint</b> (que Endurance recarga mucho antes). Con <b>Hack and Slash</b> vale cualquier arma: espadas y hachas dan golpes extra, dagas y puños crítico, mazas ignoran armadura. Lleva el arma más lenta y fuerte en la mano principal. Los puntos de Assassination llegan al final para cerrar la build de 60 más jugada.",
+      "en": "For leveling we recommend <b>Combat</b>: almost every guide agrees, and it is the tree that depends least on gear. You build with <b>Sinister Strike</b>, spend combo points on <b>Slice and Dice</b> and <b>Eviscerate</b>, and survive with <b>Riposte</b>, <b>Evasion</b> and <b>Sprint</b> (which Endurance brings back much sooner). Thanks to <b>Hack and Slash</b> any weapon works: swords and axes give extra swings, daggers and fist weapons give crit, maces ignore armor. Put your slowest, hardest-hitting weapon in the main hand. The Assassination points come at the end to complete the most played level 60 build."
+    },
+    "talentos": [
+      {"niveles": "10-11", "puntos": "2/2 Improved Sinister Strike", "nota": {"es": "Sinister Strike cuesta menos energía: más golpes por pelea.", "en": "Cheaper Sinister Strike: more strikes per fight."}},
+      {"niveles": "12-14", "puntos": "3/3 Improved Eviscerate", "nota": {"es": "+20 % al finalizador con el que matas casi todo.", "en": "+20% to the finisher that kills almost everything."}},
+      {"niveles": "15-17", "puntos": "3/3 Precision", "nota": {"es": "Fallas menos, y en Forever también cuenta para los venenos.", "en": "You miss less, and in Forever it also counts for poisons."}},
+      {"niveles": "18-20", "puntos": "3/3 Deflection", "nota": {"es": "+6 % de parada y requisito de Riposte.", "en": "+6% Parry and the requirement for Riposte."}},
+      {"niveles": "21", "puntos": "1/1 Riposte", "nota": {"es": "Golpe gratis tras parar que además desarma 6 s.", "en": "A free strike after a parry that also disarms for 6 sec."}},
+      {"niveles": "22-23", "puntos": "2/2 Endurance", "nota": {"es": "Sprint y Evasion se recargan un 60 % antes: tus defensas casi en cada pelea difícil.", "en": "Sprint and Evasion recharge 60% sooner: your defences ready for nearly every hard fight."}},
+      {"niveles": "24", "puntos": "1/5 Lightning Reflexes", "nota": {"es": "Punto de relleno para abrir la fila 4 (+1 % de esquiva).", "en": "Filler point to open row 4 (+1% Dodge)."}},
+      {"niveles": "25", "puntos": "1/1 Flawless Execution", "nota": {"es": "Talento nuevo: Eviscerate cuesta 10 de energía menos.", "en": "New talent: Eviscerate costs 10 less Energy."}},
+      {"niveles": "26-29", "puntos": "4/5 Dual Wield Specialization", "nota": {"es": "Más daño con la mano izquierda.", "en": "More off-hand damage."}},
+      {"niveles": "30", "puntos": "1/1 Blade Flurry", "nota": {"es": "+20 % de velocidad de ataque y tus golpes alcanzan a un segundo enemigo durante 15 s.", "en": "+20% attack speed and your hits reach a second enemy for 15 sec."}},
+      {"niveles": "31-35", "puntos": "5/5 Hack and Slash", "nota": {"es": "El talento clave de Combat: bonus según el arma que lleves.", "en": "Combat's key talent: a bonus based on the weapon you use."}},
+      {"niveles": "36-39", "puntos": "2/2 Weapon Expertise, Dual Wield Specialization a 5/5 (+1), 1/3 Aggression", "nota": {"es": "Te esquivan y paran menos; con esto llegas a 30 puntos en Combat.", "en": "Fewer dodges and parries against you; this takes you to 30 points in Combat."}},
+      {"niveles": "40-42", "puntos": "1/1 Adrenaline Rush, Aggression a 3/3 (+2)", "nota": {"es": "Energía al doble durante 15 s: úsalo en élites y peleas con varios enemigos.", "en": "Double Energy regeneration for 15 sec: use it on elites and multi-mob pulls."}},
+      {"niveles": "43-60", "puntos": "Assassination: 5/5 Malice, 3/3 Ruthlessness, 3/3 Improved Slice and Dice, 1/1 Relentless Strikes, 5/5 Lethality, 1/1 Cold Blood", "nota": {"es": "En ese orden. Más crítico, puntos de combo gratis, energía de vuelta y críticos más fuertes. Acabas en 18/33/0.", "en": "In that order. More crit, free combo points, Energy refunds and harder crits. You finish at 18/33/0."}}
+    ],
+    "habilidades": [
+      {"nivel": 1, "nombre": "Sinister Strike", "nuevo": false, "texto": {"es": "Tu generador de puntos de combo con cualquier arma.", "en": "Your combo point builder with any weapon."}},
+      {"nivel": 1, "nombre": "Eviscerate", "nuevo": false, "texto": {"es": "Finalizador de daño directo: más daño cuantos más puntos gastes.", "en": "Direct damage finisher: more damage the more points you spend."}},
+      {"nivel": 1, "nombre": "Stealth", "nuevo": false, "texto": {"es": "Te vuelve invisible a costa de ir más despacio; abre casi todas tus peleas.", "en": "Makes you invisible at the cost of moving slower; it opens most of your fights."}},
+      {"nivel": 4, "nombre": "Backstab", "nuevo": false, "texto": {"es": "Golpe fuerte por la espalda; necesita una daga en la mano principal.", "en": "Big hit from behind; needs a dagger in the main hand."}},
+      {"nivel": 4, "nombre": "Pick Pocket", "nuevo": false, "texto": {"es": "Robas dinero y cajas cerradas (Junkboxes) a los humanoides sin que te vean.", "en": "Steal coins and locked Junkboxes from humanoids without being seen."}},
+      {"nivel": 6, "nombre": "Gouge", "nuevo": false, "texto": {"es": "Incapacita 4 s al enemigo que te mira; sirve para cortar un hechizo o recolocarte.", "en": "Incapacitates an enemy facing you for 4 sec; use it to stop a cast or reposition."}},
+      {"nivel": 8, "nombre": "Evasion", "nuevo": false, "texto": {"es": "+50 % de esquiva durante 15 s: tu botón de emergencia contra cuerpo a cuerpo.", "en": "+50% Dodge for 15 sec: your emergency button against melee."}},
+      {"nivel": 10, "nombre": "Slice and Dice", "nuevo": false, "texto": {"es": "Finalizador que sube la velocidad de ataque; mantenlo activo en peleas largas.", "en": "Finisher that raises attack speed; keep it up in longer fights."}},
+      {"nivel": 10, "nombre": "Sap", "nuevo": false, "texto": {"es": "Deja fuera de combate a un humanoide que no esté peleando. En Forever ya no rompe tu sigilo.", "en": "Takes an out-of-combat humanoid out of the fight. In Forever it no longer breaks your stealth."}},
+      {"nivel": 10, "nombre": "Sprint", "nuevo": false, "texto": {"es": "+50 % de velocidad durante 15 s, también en sigilo.", "en": "+50% movement speed for 15 sec, even in stealth."}},
+      {"nivel": 12, "nombre": "Kick", "nuevo": false, "texto": {"es": "Interrumpe un hechizo y bloquea esa escuela 5 s.", "en": "Interrupts a spell and locks that school for 5 sec."}},
+      {"nivel": 14, "nombre": "Garrote", "nuevo": false, "texto": {"es": "Apertura desde el sigilo que hace sangrar al objetivo.", "en": "Stealth opener that makes the target bleed."}},
+      {"nivel": 14, "nombre": "Expose Armor", "nuevo": false, "texto": {"es": "Finalizador que baja la armadura del objetivo; en Forever reduce más que en Classic.", "en": "Finisher that lowers the target's armor; in Forever it reduces more than in Classic."}},
+      {"nivel": 16, "nombre": "Pick Lock", "nuevo": false, "texto": {"es": "Abre cofres, cajas y algunas puertas cerradas (mira la sección de abajo).", "en": "Opens locked chests, boxes and some doors (see the section below)."}},
+      {"nivel": 16, "nombre": "Feint", "nuevo": false, "texto": {"es": "Baja tu amenaza en grupo para que el enemigo no se gire hacia ti.", "en": "Lowers your threat in groups so the enemy does not turn on you."}},
+      {"nivel": 18, "nombre": "Ambush", "nuevo": false, "texto": {"es": "Gran golpe de apertura desde el sigilo y por la espalda; necesita daga.", "en": "Huge opener from stealth and from behind; needs a dagger."}},
+      {"nivel": 20, "nombre": "Rupture", "nuevo": false, "texto": {"es": "Finalizador de sangrado; útil en enemigos con mucha vida.", "en": "Bleed finisher; useful on high-health enemies."}},
+      {"nivel": 20, "nombre": "Instant Poison", "nuevo": false, "texto": {"es": "Primer veneno de daño y el que usarás para subir (con Crippling Poison, que ralentiza).", "en": "Your first damage poison and the one to level with (alongside Crippling Poison, which slows)."}},
+      {"nivel": 22, "nombre": "Vanish", "nuevo": false, "texto": {"es": "Desapareces en plena pelea y quitas ralentizaciones: para huir o reabrir.", "en": "Vanish mid-fight and shed slows: to escape or reopen."}},
+      {"nivel": 22, "nombre": "Distract", "nuevo": false, "texto": {"es": "Gira a los enemigos y, en Forever, les baja la detección de sigilo 10 s.", "en": "Turns enemies around and, in Forever, lowers their stealth detection for 10 sec."}},
+      {"nivel": 26, "nombre": "Cheap Shot", "nuevo": false, "texto": {"es": "Aturde 4 s desde el sigilo y da 2 puntos de combo.", "en": "Stuns for 4 sec from stealth and awards 2 combo points."}},
+      {"nivel": 30, "nombre": "Kidney Shot", "nuevo": false, "texto": {"es": "Finalizador que aturde hasta 5 s (6 s con el rango 2, a nivel 50).", "en": "Finisher that stuns for up to 5 sec (6 sec with rank 2, at level 50)."}},
+      {"nivel": 30, "nombre": "Blade Flurry", "nuevo": false, "texto": {"es": "Talento de Combat: velocidad de ataque y golpes a un segundo enemigo.", "en": "Combat talent: attack speed and hits on a second enemy."}},
+      {"nivel": 30, "nombre": "Mutilate", "nuevo": true, "texto": {"es": "Talento nuevo de Assassination: golpe con las dos dagas que da 2 puntos de combo y pega más a objetivos envenenados.", "en": "New Assassination talent: a strike with both daggers that awards 2 combo points and hits poisoned targets harder."}},
+      {"nivel": 30, "nombre": "Deadly Poison", "nuevo": false, "texto": {"es": "Veneno que se acumula hasta 5 veces; brilla en peleas largas.", "en": "Poison that stacks up to 5 times; shines in long fights."}},
+      {"nivel": 34, "nombre": "Blind", "nuevo": false, "texto": {"es": "Desorienta al enemigo hasta 10 s; necesita Blinding Powder.", "en": "Disorients an enemy for up to 10 sec; needs Blinding Powder."}},
+      {"nivel": 40, "nombre": "Adrenaline Rush", "nuevo": false, "texto": {"es": "Último talento de Combat: energía al doble durante 15 s.", "en": "Combat's final talent: double Energy regeneration for 15 sec."}},
+      {"nivel": 40, "nombre": "Venom", "nuevo": true, "texto": {"es": "Finalizador nuevo de Assassination: +30 % de daño de venenos y +10 % de probabilidad de aplicarlos.", "en": "New Assassination finisher: +30% poison damage and +10% chance to apply them."}},
+      {"nivel": 40, "nombre": "Thousand Cuts", "nuevo": true, "texto": {"es": "Talento final nuevo de Subtlety: cada tic de Rupture abarata tu siguiente Hemorrhage o Backstab.", "en": "New Subtlety capstone: each Rupture tick makes your next Hemorrhage or Backstab cheaper."}}
+    ],
+    "rotacion": [
+      {"es": "Abre desde el sigilo: Cheap Shot (desde el 26) o Garrote; si llevas daga, Ambush. En enemigos débiles, ve directo sin sigilo.", "en": "Open from stealth: Cheap Shot (from 26) or Garrote; with a dagger, Ambush. On weak enemies, just walk in without stealth."},
+      {"es": "Genera puntos con Sinister Strike. No uses un generador si ya tienes 5 puntos.", "en": "Build points with Sinister Strike. Never use a builder at 5 points."},
+      {"es": "Enemigo con mucha vida: Slice and Dice con 1-2 puntos y después Eviscerate con 4-5.", "en": "High-health enemy: Slice and Dice at 1-2 points, then Eviscerate at 4-5."},
+      {"es": "Enemigo normal: Eviscerate con 3-5 puntos; no gastes energía en Slice and Dice si va a morir antes.", "en": "Normal enemy: Eviscerate at 3-5 points; skip Slice and Dice if it will die first."},
+      {"es": "Usa Riposte siempre que se ilumine tras una parada.", "en": "Use Riposte whenever it lights up after a parry."},
+      {"es": "Dos enemigos o más: Blade Flurry y Evasion; Adrenaline Rush para cerrar la pelea rápido.", "en": "Two or more enemies: Blade Flurry and Evasion; Adrenaline Rush to end the fight fast."},
+      {"es": "Kick a los lanzadores y Gouge para ganar tiempo. Si todo va mal, Vanish o Sprint.", "en": "Kick casters and Gouge to buy time. If it all goes wrong, Vanish or Sprint."}
+    ],
+    "extra": {
+      "titulo": {"es": "Venenos y abrir cerraduras", "en": "Poisons and lockpicking"},
+      "items": [
+        {"es": "<b>Cuándo:</b> los venenos llegan a nivel 20 con una misión de clase (las guías la sitúan entre los niveles 20 y 24). Ese nivel aprendes Instant Poison y Crippling Poison; luego, Mind-numbing (24), Deadly (30) y Wound (32), y sus rangos nuevos hasta el 60.", "en": "<b>When:</b> poisons arrive at level 20 through a class quest (guides place it between levels 20 and 24). At that point you learn Instant Poison and Crippling Poison; later come Mind-numbing (24), Deadly (30) and Wound (32), with new ranks up to 60."},
+        {"es": "<b>Para subir:</b> Instant Poison en las dos armas. Las peleas son cortas y el daño inmediato rinde más.", "en": "<b>For leveling:</b> Instant Poison on both weapons. Fights are short, so instant damage pays off more."},
+        {"es": "<b>A nivel alto y en bandas:</b> Instant Poison en el arma lenta (normalmente la principal) y Deadly Poison en la rápida (la secundaria). Assassination, además, mantiene Venom.", "en": "<b>At high level and in raids:</b> Instant Poison on the slow weapon (usually the main hand) and Deadly Poison on the fast one (the off-hand). Assassination also keeps Venom up."},
+        {"es": "<b>En JcJ:</b> Crippling Poison contra quien huye o te mantiene a distancia, Wound Poison contra curaciones y Mind-numbing contra lanzadores.", "en": "<b>In PvP:</b> Crippling Poison against runners and kiters, Wound Poison against healing and Mind-numbing against casters."},
+        {"es": "<b>Novedades de Forever:</b> los venenos pueden ser críticos, escalan con el poder de ataque, tienen más cargas y conviven con piedras de afilar y contrapesos en la misma arma. Malice y Precision ya cuentan para ellos.", "en": "<b>New in Forever:</b> poisons can crit, scale with Attack Power, have more charges and stack with sharpening stones and weightstones on the same weapon. Malice and Precision now count for them."},
+        {"es": "<b>Abrir cerraduras:</b> Pick Lock se aprende en el instructor a nivel 16 y necesita Thieves' Tools. Abre cofres cerrados, las Junkboxes que sacas con Pick Pocket y algunas puertas de mazmorra que sirven de atajo.", "en": "<b>Lockpicking:</b> Pick Lock is learned from the trainer at level 16 and needs Thieves' Tools. It opens locked chests, the Junkboxes you get from Pick Pocket and some dungeon doors that work as shortcuts."},
+        {"es": "<b>Cómo subirla:</b> la habilidad sube abriendo cerraduras de tu nivel. Ve abriendo las Junkboxes que robes mientras subes y no te quedarás atrás. Cada mejora de habilidad depende de tu nivel de personaje.", "en": "<b>How to raise it:</b> the skill goes up by opening locks at your level. Open the Junkboxes you steal as you level and you will not fall behind. How high it can go depends on your character level."}
+      ]
+    },
+    "consejos": [
+      {"es": "Sube Primeros auxilios y Cocina desde el principio: en Forever Primeros auxilios hace las pociones de sanación y la comida da un extra de experiencia.", "en": "Level First Aid and Cooking from the start: in Forever First Aid makes healing potions and food gives bonus experience."},
+      {"es": "Usa Sap con un humanoide de un grupo y pelea con el resto: en Forever Sap no rompe el sigilo.", "en": "Sap one humanoid in a group and fight the rest: in Forever Sap no longer breaks stealth."},
+      {"es": "Pasa por el instructor cada dos niveles: el pícaro aprende rangos nuevos muy a menudo.", "en": "Visit your trainer every two levels: rogues get new ranks very often."},
+      {"es": "Si encuentras una buena espada, maza o puño, entrena esa arma en la capital. Las hachas de una mano ya se pueden usar.", "en": "If you find a good sword, mace or fist weapon, train that skill in a capital city. One-handed axes are now allowed too."},
+      {"es": "Con el punto de Legacy <b>Talented</b> tu primer talento llega a nivel 5 y todo el plan se adelanta 5 niveles.", "en": "With the <b>Talented</b> Legacy perk your first talent arrives at level 5, moving the whole plan 5 levels earlier."},
+      {"es": "Desuello te da dinero y cuero sin desviarte: ya estás matando bestias.", "en": "Skinning gives you money and leather without detours: you are already killing beasts."},
+      {"es": "En mazmorras, pega por la espalda y usa Feint si el enemigo se gira hacia ti.", "en": "In dungeons, attack from behind and use Feint if the enemy turns on you."}
+    ],
+    "hitos": [
+      {"nivel": "10", "texto": {"es": "Primer talento, Slice and Dice, Sap, Sprint y doble arma.", "en": "First talent, Slice and Dice, Sap, Sprint and dual wielding."}},
+      {"nivel": "16", "texto": {"es": "Pick Lock y Feint.", "en": "Pick Lock and Feint."}},
+      {"nivel": "20", "texto": {"es": "Venenos (misión de clase), Rupture y Riposte con los talentos de Combat.", "en": "Poisons (class quest), Rupture, and Riposte with the Combat talents."}},
+      {"nivel": "22", "texto": {"es": "Vanish: ya puedes salir de casi cualquier pelea.", "en": "Vanish: you can now leave almost any fight."}},
+      {"nivel": "26", "texto": {"es": "Cheap Shot: aperturas con aturdimiento.", "en": "Cheap Shot: stun openers."}},
+      {"nivel": "30", "texto": {"es": "Blade Flurry, Kidney Shot y Deadly Poison. Mutilate si vas Assassination.", "en": "Blade Flurry, Kidney Shot and Deadly Poison. Mutilate if you play Assassination."}},
+      {"nivel": "34", "texto": {"es": "Blind y Blinding Powder.", "en": "Blind and Blinding Powder."}},
+      {"nivel": "40", "texto": {"es": "Adrenaline Rush, montura y, según las guías, segunda especialización de talentos.", "en": "Adrenaline Rush, your mount and, according to guides, a second talent specialization."}},
+      {"nivel": "60", "texto": {"es": "Build completa de 51 puntos, rangos máximos de venenos y Eviscerate.", "en": "Full 51-point build, top ranks of poisons and Eviscerate."}}
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "Las builds de 60 salen de la calculadora con datos del cliente de la beta, que se quedó en nivel 30: nadie ha probado aún el 60 en Forever. Las guías dan prioridades generales y esperan a los primeros registros para afinar estadísticas y equipo. Tómalo como punto de partida.",
+      "en": "The level 60 builds come from the calculator using beta client data, and the beta stopped at level 30: nobody has played 60 in Forever yet. Guides give general priorities and are waiting for the first logs to fine-tune stats and gear. Treat this as a starting point."
+    },
+    "ramas": [
+      {"nombre": "Combat", "rol": {"es": "DPS cuerpo a cuerpo · 18/33/0", "en": "Melee DPS · 18/33/0"},
+       "estadisticas": [
+         {"es": "Agility primero: da poder de ataque, crítico y esquiva.", "en": "Agility first: it gives Attack Power, crit and dodge."},
+         {"es": "Golpe (hit) hasta que no falles, luego crítico y poder de ataque; el tope exacto en Forever está por confirmar.", "en": "Hit until you stop missing, then crit and Attack Power; the exact cap in Forever is not confirmed yet."},
+         {"es": "Strength solo da poder de ataque: por detrás de Agility.", "en": "Strength only gives Attack Power: below Agility."}
+       ],
+       "rotacion": [
+         {"es": "Abre con Cheap Shot o Garrote (Ambush si llevas daga).", "en": "Open with Cheap Shot or Garrote (Ambush with a dagger)."},
+         {"es": "Slice and Dice siempre activo; renuévalo antes de que caiga.", "en": "Keep Slice and Dice up at all times; refresh it before it drops."},
+         {"es": "Expose Armor a 5 puntos en jefes si nadie aplica una reducción de armadura mejor.", "en": "Expose Armor at 5 points on bosses if nobody applies a better armor reduction."},
+         {"es": "Sinister Strike para generar; Eviscerate con los puntos sobrantes.", "en": "Sinister Strike to build; Eviscerate with spare points."},
+         {"es": "Blade Flurry y Adrenaline Rush juntos al empezar o cuando haya dos objetivos.", "en": "Blade Flurry and Adrenaline Rush together at the start or when there are two targets."}
+       ],
+       "consumibles": [
+         {"es": "Instant Poison en el arma principal (lenta) y Deadly Poison en la secundaria (rápida).", "en": "Instant Poison on the main hand (slow) and Deadly Poison on the off-hand (fast)."},
+         {"es": "Piedras de afilar o contrapesos: en Forever conviven con los venenos.", "en": "Sharpening stones or weightstones: in Forever they stack with poisons."},
+         {"es": "Thistle Tea para recuperar energía, comida y elixires de agilidad, y pociones de sanación.", "en": "Thistle Tea for Energy, Agility food and elixirs, and healing potions."}
+       ]},
+      {"nombre": "Assassination", "rol": {"es": "DPS cuerpo a cuerpo · 38/11/2", "en": "Melee DPS · 38/11/2"},
+       "estadisticas": [
+         {"es": "Agility y poder de ataque: los venenos ya escalan con él.", "en": "Agility and Attack Power: poisons now scale with it."},
+         {"es": "Crítico: activa Seal Fate y los venenos pueden ser críticos.", "en": "Crit: it triggers Seal Fate and poisons can crit."},
+         {"es": "Golpe para que no fallen ni golpes ni venenos (Precision ya les afecta).", "en": "Hit so neither strikes nor poisons miss (Precision now affects them)."}
+       ],
+       "rotacion": [
+         {"es": "Abre con Ambush desde el sigilo.", "en": "Open with Ambush from stealth."},
+         {"es": "Mutilate como generador; con 4 puntos, Sinister Strike para no pasarte.", "en": "Mutilate as your builder; at 4 points, Sinister Strike so you don't overcap."},
+         {"es": "Mantén Venom, Slice and Dice y, en jefes, Expose Armor; renueva primero el que antes caiga (suele ser Venom).", "en": "Keep Venom, Slice and Dice and, on bosses, Expose Armor up; refresh whichever falls first (usually Venom)."},
+         {"es": "Eviscerate solo si no retrasa Venom ni Slice and Dice.", "en": "Eviscerate only if it doesn't delay Venom or Slice and Dice."},
+         {"es": "Cold Blood con Mutilate o Eviscerate para un golpe seguro.", "en": "Cold Blood on Mutilate or Eviscerate for a guaranteed crit."}
+       ],
+       "consumibles": [
+         {"es": "Dos dagas: Mutilate las necesita.", "en": "Two daggers: Mutilate requires them."},
+         {"es": "Instant Poison en la principal y Deadly Poison en la secundaria.", "en": "Instant Poison on the main hand and Deadly Poison on the off-hand."},
+         {"es": "Thistle Tea, comida y elixires de agilidad.", "en": "Thistle Tea, Agility food and elixirs."}
+       ]},
+      {"nombre": "Subtlety", "rol": {"es": "DPS cuerpo a cuerpo / JcJ · 16/12/23", "en": "Melee DPS / PvP · 16/12/23"},
+       "estadisticas": [
+         {"es": "Agility, aguante (Stamina) y poder de ataque: en JcJ sobrevivir pesa tanto como pegar.", "en": "Agility, Stamina and Attack Power: in PvP surviving matters as much as hitting."},
+         {"es": "Crítico para las aperturas con Ambush.", "en": "Crit for your Ambush openers."}
+       ],
+       "rotacion": [
+         {"es": "Premeditation y apertura con Cheap Shot o Ambush.", "en": "Premeditation, then open with Cheap Shot or Ambush."},
+         {"es": "Kidney Shot a 5 puntos cuando se acabe el primer aturdimiento.", "en": "Kidney Shot at 5 points as the first stun ends."},
+         {"es": "Gouge, Blind o Vanish para reiniciar; Preparation para tenerlo todo otra vez.", "en": "Gouge, Blind or Vanish to reset; Preparation to get it all back."},
+         {"es": "Remata con Eviscerate.", "en": "Finish with Eviscerate."}
+       ],
+       "consumibles": [
+         {"es": "Crippling Poison o Wound Poison según el rival, más Instant Poison.", "en": "Crippling or Wound Poison depending on the opponent, plus Instant Poison."},
+         {"es": "Blinding Powder y Flash Powder de sobra.", "en": "Plenty of Blinding Powder and Flash Powder."},
+         {"es": "Pociones de sanación y Thistle Tea.", "en": "Healing potions and Thistle Tea."}
+       ]}
+    ],
+    "equipo": {
+      "es": "Aún no hay lista de mejor equipo de Forever: las mazmorras tienen botín renovado y las bandas llegan el 9 de diciembre. Busca cuero con Agility, golpe y crítico. Combat puede usar cualquier arma (espadas y hachas son lo más seguro); Assassination necesita dos dagas; Subtlety, daga en la principal para Ambush y Backstab.",
+      "en": "There is no Forever best-in-slot list yet: dungeons have reworked loot and raids arrive on 9 December. Look for leather with Agility, hit and crit. Combat can use any weapon (swords and axes are the safest bet); Assassination needs two daggers; Subtlety wants a main-hand dagger for Ambush and Backstab."
+    }
+  },
+  "pvp": [
+    {"es": "La rama de JcJ es Subtlety: Premeditation, Preparation y Dirty Deeds te dan aperturas largas y un segundo intento.", "en": "Subtlety is the PvP tree: Premeditation, Preparation and Dirty Deeds give you long openers and a second attempt."},
+    {"es": "Encadena Cheap Shot y Kidney Shot, pero guarda Gouge, Blind o Vanish para cuando el rival rompa el control.", "en": "Chain Cheap Shot into Kidney Shot, but keep Gouge, Blind or Vanish for when the opponent breaks free."},
+    {"es": "Contra lanzadores, Kick en el hechizo importante (curación o control), no en el primero que veas. Combat puede silenciar 2 s con Improved Kick.", "en": "Against casters, Kick the spell that matters (a heal or crowd control), not the first one you see. Combat can silence for 2 sec with Improved Kick."},
+    {"es": "Venenos según el rival: Wound contra quien se cura, Crippling contra quien huye y Mind-numbing contra lanzadores.", "en": "Pick poisons per opponent: Wound against healers, Crippling against runners and Mind-numbing against casters."},
+    {"es": "Sap no rompe el sigilo y Distract baja la detección de sigilo del rival: úsalos para elegir con quién peleas.", "en": "Sap doesn't break stealth and Distract lowers the enemy's stealth detection: use them to choose who you fight."},
+    {"es": "En campos de batalla, busca lanzadores y curadores solos; huye de los combates largos contra varios.", "en": "In battlegrounds, hunt lone casters and healers; avoid long fights against several enemies."},
+    {"es": "Ingeniería suma granadas y artilugios que ganan duelos; un pícaro de JcJ casi siempre la lleva.", "en": "Engineering adds grenades and gadgets that win duels; a PvP rogue almost always has it."}
+  ],
+  "profesiones": [
+    {"nombre": {"es": "Desuello + Peletería", "en": "Skinning + Leatherworking"}, "por_que": {"es": "Lo más cómodo para subir: cuero sin desviarte y armadura propia, con recetas renovadas. La silla de campamento de Desuello da +2 % de crítico.", "en": "The easiest for leveling: leather with no detours and your own armor, with reworked recipes. Skinning's camp chair gives +2% crit."}},
+    {"nombre": {"es": "Ingeniería + Minería", "en": "Engineering + Mining"}, "por_que": {"es": "La pareja para JcJ y para exprimir el daño a nivel 60.", "en": "The pair for PvP and for squeezing out damage at level 60."}},
+    {"nombre": {"es": "Primeros auxilios", "en": "First Aid"}, "por_que": {"es": "Imprescindible sin curación propia: vendas, antídotos, torniquetes y, en Forever, las pociones de sanación.", "en": "A must with no self-healing: bandages, antidotes, tourniquets and, in Forever, healing potions."}},
+    {"nombre": {"es": "Cocina", "en": "Cooking"}, "por_que": {"es": "Comida con agilidad y extra de experiencia, y es la base de la acampada.", "en": "Agility food with bonus experience, and it is the base of camping."}}
+  ],
+  "pendiente": [
+    {"es": "Nombre exacto de la misión de venenos en Forever y su nivel (en Classic eran Klaven's Tower para la Alianza y Mission: Possible But Not Probable para la Horda).", "en": "Exact name and level of the poison quest in Forever (in Classic they were Klaven's Tower for the Alliance and Mission: Possible But Not Probable for the Horde)."},
+    {"es": "Tope de golpe (hit) y prioridad exacta de estadísticas a nivel 60.", "en": "Hit cap and exact stat priority at level 60."},
+    {"es": "Mejor equipo y armas de Forever: botín de mazmorras renovado y bandas desde el 9-12-2026.", "en": "Forever's best gear and weapons: reworked dungeon loot and raids from 9 Dec 2026."},
+    {"es": "Qué rama da más daño en banda: hay que esperar a los primeros registros.", "en": "Which tree deals the most raid damage: we need the first logs."},
+    {"es": "Si Forever cambia el tope de Pick Lock respecto a Classic y cómo se consigue Thistle Tea.", "en": "Whether Forever changes Pick Lock's skill cap from Classic, and how Thistle Tea is obtained."}
+  ],
+  "fuentes": [
+    {"nombre": "Talents Forever (calculadora y datos del cliente de la beta, CC BY 4.0)", "url": "https://talentsforever.com/rogue"},
+    {"nombre": "Build Combat 18/33/0 en Talents Forever", "url": "https://talentsforever.com/rogue/60/00530310501-32003320201515231--6"},
+    {"nombre": "Build Assassination 38/11/2 en Talents Forever", "url": "https://talentsforever.com/rogue/60/00531310551521051-302303-002-6"},
+    {"nombre": "Build Subtlety 16/12/23 en Talents Forever", "url": "https://talentsforever.com/rogue/60/30502010401-320302002-332002320021221-6"},
+    {"nombre": "Warcraft Tavern: guía de subir de nivel del pícaro", "url": "https://www.warcrafttavern.com/forever/guides/rogue-leveling/"},
+    {"nombre": "Warcraft Tavern: Combat Rogue", "url": "https://www.warcrafttavern.com/forever/guides/combat-rogue/"},
+    {"nombre": "Warcraft Tavern: Assassination Rogue", "url": "https://www.warcrafttavern.com/forever/guides/assassination-rogue/"},
+    {"nombre": "Warcraft Tavern: cambios de pícaro y brujo", "url": "https://www.warcrafttavern.com/forever/news/poison-pets-rogue-warlock-deep-dive-for-wow-forever/"},
+    {"nombre": "Method: guía de subir de nivel del pícaro", "url": "https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents"},
+    {"nombre": "Warcraft Wiki: habilidades del pícaro en Forever", "url": "https://warcraft.wiki.gg/wiki/Rogue_abilities_(Forever)"},
+    {"nombre": "wowtbc.gg: Assassination Rogue (Forever)", "url": "https://wowtbc.gg/warcraftforever/class-guides/assassination-rogue/"},
+    {"nombre": "Notas de la beta de Blizzard", "url": "https://news.blizzard.com/en-us/"}
+  ]
+}

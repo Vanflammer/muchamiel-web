@@ -1,0 +1,1002 @@
+{
+  "slug": "mage",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El mago es el lanzador de hechizos a distancia por excelencia: mucho daño, control (ovejas, congelaciones, ralentizaciones) y utilidad que nadie más tiene, como comida y agua gratis, teletransportes y portales. En Forever estrena Ice Lance, Frost Blast, Frostfire Bolt, un Arcano rehecho alrededor de Arcane Blast y Arcane Wrath, y un sistema propio para descifrar pergaminos. Es para quien disfruta jugando a distancia, controlando la pelea y no le importa morir rápido si se equivoca.",
+    "en": "The mage is the classic ranged caster: big damage, crowd control (sheep, freezes, slows) and utility no one else brings, like free food and water, teleports and portals. Forever adds Ice Lance, Frost Blast, Frostfire Bolt, an Arcane tree rebuilt around Arcane Blast and Arcane Wrath, and a mage-only system for deciphering scrolls. It suits players who like fighting from range and controlling the fight, and who accept dying fast when they slip up."
+  },
+  "fuertes": [
+    {
+      "es": "Mucho control: Polymorph, Frost Nova, ralentizaciones con Frostbolt y Cone of Cold, y Counterspell para cortar hechizos.",
+      "en": "Lots of control: Polymorph, Frost Nova, slows from Frostbolt and Cone of Cold, and Counterspell to stop casts."
+    },
+    {
+      "es": "Casi no gasta oro en comida ni bebida: la conjura gratis desde el nivel 4 y la reparte al grupo.",
+      "en": "Barely spends gold on food or drink: conjures it for free from level 4 and shares it with the group."
+    },
+    {
+      "es": "Teletransportes desde el 20 y portales desde el 40: vuelves a la capital en segundos y el grupo te buscará.",
+      "en": "Teleports from 20 and portals from 40: back to a capital in seconds, and groups will want you."
+    },
+    {
+      "es": "Escape fácil: Blink te saca de aturdimientos y raíces, y con talentos tienes Ice Block e Ice Barrier.",
+      "en": "Easy escapes: Blink frees you from stuns and roots, and talents add Ice Block and Ice Barrier."
+    },
+    {
+      "es": "Daño en área para mazmorras y grupos: Arcane Explosion, Flamestrike, Blizzard y Cone of Cold.",
+      "en": "Area damage for dungeons and groups: Arcane Explosion, Flamestrike, Blizzard and Cone of Cold."
+    }
+  ],
+  "debiles": [
+    {
+      "es": "Solo lleva tela y tiene poca vida: si un enemigo te alcanza sin Frost Nova ni Blink, lo pasas mal.",
+      "en": "Cloth only and low health: if an enemy reaches you with no Frost Nova or Blink ready, you are in trouble."
+    },
+    {
+      "es": "Depende mucho del maná: hay que beber a menudo entre combates.",
+      "en": "Very mana-hungry: expect to drink often between fights."
+    },
+    {
+      "es": "En Forever el AoE de matar grupos enormes a base de ralentizar está recortado (Blizzard ralentiza menos y Cone of Cold controla bien solo a 4 enemigos).",
+      "en": "In Forever the old mass-kiting AoE is toned down (Blizzard slows less and Cone of Cold only fully controls 4 enemies)."
+    },
+    {
+      "es": "Bajar de rango los hechizos ya no sirve: un rango muy bajo apenas activa talentos como Frostbite.",
+      "en": "Downranking no longer pays off: a very low rank barely triggers talents like Frostbite."
+    }
+  ],
+  "ramas": [
+    {
+      "nombre": "Frost",
+      "rol": {
+        "es": "DPS a distancia y control",
+        "en": "Ranged DPS and control"
+      },
+      "mejor_para": {
+        "es": "Subir de nivel solo y JcJ",
+        "en": "Solo leveling and PvP"
+      },
+      "texto": {
+        "es": "Ralentiza y congela, y luego remata con Ice Lance, que hace el triple de daño a objetivos congelados. Fingers of Frost hace que tus hechizos traten al objetivo como congelado aunque no lo esté. Es la rama más segura y la que recomiendan casi todas las guías para subir.",
+        "en": "Slow and freeze, then finish with Ice Lance, which deals triple damage to frozen targets. Fingers of Frost makes your spells treat the target as frozen even when it is not. It is the safest tree and the one almost every guide picks for leveling."
+      }
+    },
+    {
+      "nombre": "Fire",
+      "rol": {
+        "es": "DPS a distancia",
+        "en": "Ranged DPS"
+      },
+      "mejor_para": {
+        "es": "Mazmorras y daño en grupo",
+        "en": "Dungeons and group damage"
+      },
+      "texto": {
+        "es": "Busca golpes críticos: cada crítico con Fireball, Frostfire Bolt, Fire Blast o Scorch acumula Heating Up y acorta el siguiente Pyroblast. Fire Power suma daño por cada efecto de fuego tuyo en el objetivo. Es la build de 60 más planificada en la beta.",
+        "en": "Built around crits: every crit with Fireball, Frostfire Bolt, Fire Blast or Scorch stacks Heating Up and shortens your next Pyroblast. Fire Power adds damage for each of your fire effects on the target. It was the most planned level 60 build in the beta."
+      }
+    },
+    {
+      "nombre": "Arcane",
+      "rol": {
+        "es": "DPS a distancia con ráfagas",
+        "en": "Ranged burst DPS"
+      },
+      "mejor_para": {
+        "es": "Ráfagas de daño y quien quiera algo distinto",
+        "en": "Burst windows and players who want something new"
+      },
+      "texto": {
+        "es": "Rehecha en Forever: Arcane Blast te da poder con cada lanzamiento, Arcane Wrath escala con tu maná máximo y Missile Barrage deja Arcane Missiles gratis y más rápidos. Depende de activaciones al azar y de vigilar el maná.",
+        "en": "Rebuilt for Forever: Arcane Blast powers you up with each cast, Arcane Wrath scales with your maximum mana and Missile Barrage makes Arcane Missiles free and faster. It relies on random procs and careful mana management."
+      }
+    }
+  ],
+  "razas": [
+    {
+      "raza": {
+        "es": "Gnomo",
+        "en": "Gnome"
+      },
+      "faccion": "Alianza",
+      "por_que": {
+        "es": "Eureka! (8 s de más daño y menos coste), Expansive Mind (+5 % de maná) y Escape Artist para librarte de ralentizaciones. La más completa para JcE y JcJ.",
+        "en": "Eureka! (8 sec of more damage and lower cost), Expansive Mind (+5% mana) and Escape Artist to shake off slows. The most complete pick for PvE and PvP."
+      }
+    },
+    {
+      "raza": {
+        "es": "Humano",
+        "en": "Human"
+      },
+      "faccion": "Alianza",
+      "por_que": {
+        "es": "Ruthless da probabilidad de crítico, The Human Spirit más espíritu y Will to Survive quita aturdimientos, muy útil en JcJ.",
+        "en": "Ruthless adds crit chance, The Human Spirit more Spirit, and Will to Survive breaks stuns, great in PvP."
+      }
+    },
+    {
+      "raza": {
+        "es": "Célico (Orden Eminente)",
+        "en": "Skyborne (High Order)"
+      },
+      "faccion": "Alianza",
+      "por_que": {
+        "es": "Raza nueva: Wind Blessed da celeridad, Read Leyline acelera la regeneración de vida y maná, y Walk on Air te deja planear. Necesita el pack Heroico o superior.",
+        "en": "New race: Wind Blessed adds haste, Read Leyline speeds up health and mana regeneration, and Walk on Air lets you glide. Requires the Heroic pack or higher."
+      }
+    },
+    {
+      "raza": {
+        "es": "Orco",
+        "en": "Orc"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Nuevo mago en Forever. Blood Fury sube un 10 % el poder con hechizos durante 15 s, Shatter Curse limpia maldiciones y Hardiness acorta aturdimientos.",
+        "en": "A new mage race in Forever. Blood Fury raises spell power by 10% for 15 sec, Shatter Curse cleanses curses and Hardiness shortens stuns."
+      }
+    },
+    {
+      "raza": {
+        "es": "No-muerto",
+        "en": "Undead"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Will of the Forsaken rompe miedo, hechizo y sueño: la mejor para JcJ. Cannibalize ayuda a recuperarte al subir.",
+        "en": "Will of the Forsaken breaks fear, charm and sleep: the best PvP pick. Cannibalize helps you recover while leveling."
+      }
+    },
+    {
+      "raza": {
+        "es": "Trol",
+        "en": "Troll"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Berserking acelera los lanzamientos un 10 % durante 15 s y Beast Slaying da más daño contra bestias, comunes al subir.",
+        "en": "Berserking speeds up casting by 10% for 15 sec, and Beast Slaying adds damage against beasts, which you fight a lot while leveling."
+      }
+    }
+  ],
+  "subir": {
+    "rama": "Frost",
+    "intro": {
+      "es": "Para subir recomendamos Escarcha, como la mayoría de guías (Method, Warcraft Tavern, Icy Veins, Mobalytics). Es la rama más segura: tus hechizos ralentizan, Frostbite y Fingers of Frost te dan ventanas de congelación y ahí Ice Lance y Shatter hacen el daño fuerte. Frost Channeling abarata los hechizos y desde el 40 tienes Ice Barrier. El plan es sencillo: Frostbolt desde lejos, Ice Lance cuando el enemigo esté congelado y Frost Nova si se acerca. Arcano también funciona solo (alguna guía lo prefiere por su ahorro de maná) y Fuego rinde mejor en mazmorras. Ojo: el árbol cambió el 28 de octubre; este reparto ya usa el árbol nuevo.",
+      "en": "For leveling we recommend Frost, like most guides (Method, Warcraft Tavern, Icy Veins, Mobalytics). It is the safest tree: your spells slow, Frostbite and Fingers of Frost open freeze windows, and Ice Lance plus Shatter do the heavy hitting there. Frost Channeling makes spells cheaper, and from 40 you have Ice Barrier. The plan is simple: Frostbolt from range, Ice Lance when the enemy is frozen, Frost Nova if it gets close. Arcane also works solo (one guide prefers it for its mana savings) and Fire does better in dungeons. Note: the tree changed on 28 October; this build already uses the new tree."
+    },
+    "talentos": [
+      {
+        "niveles": "10-14",
+        "puntos": "5/5 Improved Frostbolt",
+        "nota": {
+          "es": "Frostbolt (y Frost Blast) se lanza medio segundo más rápido: más daño por segundo desde el primer día.",
+          "en": "Frostbolt (and Frost Blast) casts half a second faster: more damage per second from day one."
+        }
+      },
+      {
+        "niveles": "15-19",
+        "puntos": "3/3 Frostbite, 2/5 Ice Shards",
+        "nota": {
+          "es": "Frostbite congela al azar con tus ralentizaciones; es lo que alimenta a Ice Lance más adelante.",
+          "en": "Frostbite randomly freezes targets with your chill effects; it is what feeds Ice Lance later on."
+        }
+      },
+      {
+        "niveles": "20",
+        "puntos": "1/1 Ice Lance",
+        "nota": {
+          "es": "Hechizo nuevo e instantáneo: el triple de daño contra objetivos congelados. Es tu remate.",
+          "en": "New instant spell: triple damage against frozen targets. It is your finisher."
+        }
+      },
+      {
+        "niveles": "21-26",
+        "puntos": "Ice Shards de 2/5 a 5/5 (+3), 3/3 Frost Channeling",
+        "nota": {
+          "es": "Más daño crítico y un 15 % menos de coste en los hechizos de escarcha: bebes menos.",
+          "en": "Bigger crits and 15% cheaper Frost spells: you drink less."
+        }
+      },
+      {
+        "niveles": "27-29",
+        "puntos": "3/3 Shatter",
+        "nota": {
+          "es": "Mucha más probabilidad de crítico contra objetivos congelados. Con Ice Lance, los remates se notan.",
+          "en": "Much higher crit chance against frozen targets. Combined with Ice Lance, finishers hit hard."
+        }
+      },
+      {
+        "niveles": "30-34",
+        "puntos": "2/2 Fingers of Frost, 3/3 Permafrost",
+        "nota": {
+          "es": "Fingers of Frost hace que tus 2 siguientes hechizos traten al objetivo como congelado; Permafrost alarga las ralentizaciones.",
+          "en": "Fingers of Frost makes your next 2 spells treat the target as frozen; Permafrost lengthens your slows."
+        }
+      },
+      {
+        "niveles": "35-36",
+        "puntos": "1/1 Ice Block, 1/1 Cold Snap",
+        "nota": {
+          "es": "Ice Block te salva de una muerte segura y Cold Snap reinicia Frost Nova, Cone of Cold e Ice Block.",
+          "en": "Ice Block saves you from certain death, and Cold Snap resets Frost Nova, Cone of Cold and Ice Block."
+        }
+      },
+      {
+        "niveles": "37-39",
+        "puntos": "3/3 Improved Cone of Cold",
+        "nota": {
+          "es": "Cone of Cold pega bastante más; sirve para rematar varios enemigos pegados a ti.",
+          "en": "Cone of Cold hits much harder; good for finishing several enemies up close."
+        }
+      },
+      {
+        "niveles": "40",
+        "puntos": "1/1 Ice Barrier",
+        "nota": {
+          "es": "Escudo que absorbe daño, sube tu daño de escarcha y evita que te retrasen el lanzamiento al recibir golpes. Llévalo siempre puesto.",
+          "en": "A shield that absorbs damage, raises your Frost damage and stops pushback while you cast. Keep it up at all times."
+        }
+      },
+      {
+        "niveles": "41-43",
+        "puntos": "3/3 Precision",
+        "nota": {
+          "es": "+6 % de probabilidad de acertar: fallas menos contra enemigos de más nivel.",
+          "en": "+6% spell hit: fewer misses against higher-level enemies."
+        }
+      },
+      {
+        "niveles": "44-48",
+        "puntos": "5/5 Winter's Chill",
+        "nota": {
+          "es": "Tus Frostbolt y Frost Blast cargan el siguiente Cone of Cold: útil cuando peleas contra varios.",
+          "en": "Your Frostbolt and Frost Blast empower your next Cone of Cold: useful against several enemies."
+        }
+      },
+      {
+        "niveles": "49-52",
+        "puntos": "2/2 Arctic Reach, 2/2 Improved Frost Nova",
+        "nota": {
+          "es": "Más alcance y Frost Nova más a menudo: más tiempo a salvo.",
+          "en": "More range and Frost Nova more often: more time out of danger."
+        }
+      },
+      {
+        "niveles": "53-57",
+        "puntos": "3/3 Improved Blizzard, 2/2 Frost Warding",
+        "nota": {
+          "es": "Blizzard pasa a ralentizar (máximo 40 % en Forever) para el AoE en grupo; Frost Warding mejora tus armaduras y escudos.",
+          "en": "Blizzard now slows (40% max in Forever) for group AoE; Frost Warding improves your armors and wards."
+        }
+      },
+      {
+        "niveles": "58-60",
+        "puntos": "3/5 Incineration (Fire)",
+        "nota": {
+          "es": "El árbol de Escarcha solo admite 48 puntos: los 3 últimos van a Fuego para dar más crítico a Ice Lance.",
+          "en": "The Frost tree only holds 48 points: the last 3 go into Fire for extra Ice Lance crit chance."
+        }
+      }
+    ],
+    "habilidades": [
+      {
+        "nivel": 1,
+        "nombre": "Fireball",
+        "nuevo": false,
+        "texto": {
+          "es": "Tu primer hechizo de daño; a partir del 4 lo sustituye Frostbolt.",
+          "en": "Your first damage spell; Frostbolt takes over from level 4."
+        }
+      },
+      {
+        "nivel": 1,
+        "nombre": "Frost Armor",
+        "nuevo": false,
+        "texto": {
+          "es": "Armadura que ralentiza a quien te golpea. Siempre activa hasta tener Ice Armor.",
+          "en": "Armor that slows whoever hits you. Keep it up until you get Ice Armor."
+        }
+      },
+      {
+        "nivel": 1,
+        "nombre": "Arcane Intellect",
+        "nuevo": false,
+        "texto": {
+          "es": "Más intelecto para ti y tus compañeros durante una hora.",
+          "en": "More Intellect for you and your allies for one hour."
+        }
+      },
+      {
+        "nivel": 4,
+        "nombre": "Frostbolt",
+        "nuevo": false,
+        "texto": {
+          "es": "Daño y ralentización: tu hechizo principal hasta el 60.",
+          "en": "Damage plus a slow: your main spell all the way to 60."
+        }
+      },
+      {
+        "nivel": 4,
+        "nombre": "Conjure Water",
+        "nuevo": false,
+        "texto": {
+          "es": "Agua gratis para recuperar maná; súbela de rango cada 10 niveles.",
+          "en": "Free water to restore mana; upgrade the rank every 10 levels."
+        }
+      },
+      {
+        "nivel": 6,
+        "nombre": "Fire Blast",
+        "nuevo": false,
+        "texto": {
+          "es": "Daño instantáneo para rematar mientras te mueves.",
+          "en": "Instant damage to finish enemies while on the move."
+        }
+      },
+      {
+        "nivel": 6,
+        "nombre": "Conjure Food",
+        "nuevo": false,
+        "texto": {
+          "es": "Comida gratis para recuperar vida.",
+          "en": "Free food to restore health."
+        }
+      },
+      {
+        "nivel": 6,
+        "nombre": "Comprehend Scroll",
+        "nuevo": true,
+        "texto": {
+          "es": "Descifra los pergaminos que sueltan los enemigos y te da efectos útiles. Sube con el uso.",
+          "en": "Deciphers scrolls dropped by enemies for useful effects. It improves with use."
+        }
+      },
+      {
+        "nivel": 8,
+        "nombre": "Polymorph",
+        "nuevo": false,
+        "texto": {
+          "es": "Convierte en oveja a un humanoide o bestia: quita de en medio al segundo enemigo.",
+          "en": "Turns a humanoid or beast into a sheep: takes the second enemy out of the fight."
+        }
+      },
+      {
+        "nivel": 8,
+        "nombre": "Arcane Missiles",
+        "nuevo": false,
+        "texto": {
+          "es": "Daño canalizado; en Escarcha se usa poco al subir.",
+          "en": "Channeled damage; Frost rarely uses it while leveling."
+        }
+      },
+      {
+        "nivel": 10,
+        "nombre": "Frost Nova",
+        "nuevo": false,
+        "texto": {
+          "es": "Congela a todos los que tienes cerca: tu botón de emergencia y la puerta a Ice Lance.",
+          "en": "Freezes everything around you: your panic button and the setup for Ice Lance."
+        }
+      },
+      {
+        "nivel": 14,
+        "nombre": "Arcane Explosion",
+        "nuevo": false,
+        "texto": {
+          "es": "Daño instantáneo alrededor de ti; caro en maná.",
+          "en": "Instant damage around you; expensive in mana."
+        }
+      },
+      {
+        "nivel": 16,
+        "nombre": "Flamestrike",
+        "nuevo": false,
+        "texto": {
+          "es": "Columna de fuego en un área con quemadura posterior; buena tras un Frost Nova.",
+          "en": "A pillar of fire on an area with a burn after; great right after Frost Nova."
+        }
+      },
+      {
+        "nivel": 18,
+        "nombre": "Remove Lesser Curse",
+        "nuevo": false,
+        "texto": {
+          "es": "Quita una maldición o, en Forever, también un Bane.",
+          "en": "Removes a curse or, in Forever, a Bane too."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Blink",
+        "nuevo": false,
+        "texto": {
+          "es": "Te teletransporta 20 m hacia delante y te libra de aturdimientos y raíces.",
+          "en": "Teleports you 20 yards forward and frees you from stuns and roots."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Blizzard",
+        "nuevo": false,
+        "texto": {
+          "es": "Lluvia de hielo canalizada en un área: tu AoE de grupo.",
+          "en": "Channeled ice storm on an area: your group AoE."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Evocation",
+        "nuevo": false,
+        "texto": {
+          "es": "Recupera mucho maná en 8 s de canalización.",
+          "en": "Restores a large amount of mana over an 8 sec channel."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Ice Lance",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento de Escarcha: instantáneo, el triple de daño a objetivos congelados.",
+          "en": "Frost talent: instant, triple damage to frozen targets."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Arcane Blast",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento de Arcano: cada lanzamiento te da poder con hechizos y encarece el siguiente.",
+          "en": "Arcane talent: each cast grants spell damage and makes the next one cost more."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Teleport: Stormwind / Ironforge / Orgrimmar / Undercity",
+        "nuevo": false,
+        "texto": {
+          "es": "Teletransportes a tus capitales; se aprenden con el instructor de portales.",
+          "en": "Teleports to your capitals; learned from the portal trainer."
+        }
+      },
+      {
+        "nivel": 24,
+        "nombre": "Counterspell",
+        "nuevo": false,
+        "texto": {
+          "es": "Interrumpe un hechizo y bloquea esa escuela de magia 10 s.",
+          "en": "Interrupts a spell and locks that school for 10 sec."
+        }
+      },
+      {
+        "nivel": 24,
+        "nombre": "Frost Blast",
+        "nuevo": true,
+        "texto": {
+          "es": "Hechizo nuevo de 1,5 s que ralentiza un 40 %: sustituye a usar Frostbolt de rango 1 para frenar rápido.",
+          "en": "New 1.5 sec spell that slows by 40%: replaces using rank 1 Frostbolt for a quick slow."
+        }
+      },
+      {
+        "nivel": 25,
+        "nombre": "Arcane Wrath",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento de Arcano: proyectil que gana daño según tu maná máximo.",
+          "en": "Arcane talent: a bolt that gains damage from your maximum mana."
+        }
+      },
+      {
+        "nivel": 26,
+        "nombre": "Cone of Cold",
+        "nuevo": false,
+        "texto": {
+          "es": "Cono de daño y ralentización; frena más a los 4 primeros enemigos.",
+          "en": "A cone of damage and slow; slows the first 4 enemies harder."
+        }
+      },
+      {
+        "nivel": 28,
+        "nombre": "Conjure Mana Agate",
+        "nuevo": false,
+        "texto": {
+          "es": "Gema que te devuelve maná al instante en mitad del combate.",
+          "en": "A gem that gives back mana instantly mid-fight."
+        }
+      },
+      {
+        "nivel": 30,
+        "nombre": "Ice Armor",
+        "nuevo": false,
+        "texto": {
+          "es": "Sustituye a Frost Armor con mucha más armadura.",
+          "en": "Replaces Frost Armor with much more armor."
+        }
+      },
+      {
+        "nivel": 34,
+        "nombre": "Mage Armor",
+        "nuevo": false,
+        "texto": {
+          "es": "Mantiene el 50 % de tu regeneración de maná mientras lanzas; para peleas largas.",
+          "en": "Keeps 50% of your mana regeneration while casting; for long fights."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Frostfire Bolt",
+        "nuevo": true,
+        "texto": {
+          "es": "Hechizo nuevo de fuego y escarcha a la vez: daño fuerte, quemadura y ralentización. Usa la resistencia más baja del objetivo.",
+          "en": "New spell that is both Fire and Frost: big hit, burn and slow. It checks the target's lower resistance."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Ice Barrier",
+        "nuevo": false,
+        "texto": {
+          "es": "Talento de Escarcha: escudo que absorbe daño y sube tu daño de escarcha.",
+          "en": "Frost talent: a shield that absorbs damage and raises your Frost damage."
+        }
+      },
+      {
+        "nivel": 50,
+        "nombre": "Teleport: Dalaran",
+        "nuevo": true,
+        "texto": {
+          "es": "Teletransporte nuevo a Dalaran. Aún no se sabe dónde se aprende ni si lo tiene la Horda.",
+          "en": "New teleport to Dalaran. Where it is learned, and whether Horde gets it, is not known yet."
+        }
+      }
+    ],
+    "rotacion": [
+      {
+        "es": "Antes de empezar: Ice Armor (o Frost Armor), Arcane Intellect y, desde el 40, Ice Barrier.",
+        "en": "Before you start: Ice Armor (or Frost Armor), Arcane Intellect and, from 40, Ice Barrier."
+      },
+      {
+        "es": "Abre con Frostbolt desde lejos y lanza otro mientras el enemigo se acerca ralentizado.",
+        "en": "Open with Frostbolt from max range and cast another while the slowed enemy walks in."
+      },
+      {
+        "es": "Si salta Frostbite o Fingers of Frost, lanza Ice Lance de inmediato: es tu golpe más fuerte.",
+        "en": "When Frostbite or Fingers of Frost triggers, cast Ice Lance right away: it is your biggest hit."
+      },
+      {
+        "es": "Si te alcanza: Frost Nova, aléjate un par de pasos y remata con Ice Lance mientras sigue congelado.",
+        "en": "If it reaches you: Frost Nova, step a few yards away and finish with Ice Lance while it is frozen."
+      },
+      {
+        "es": "¿Dos enemigos? Polymorph al segundo y mata primero al otro.",
+        "en": "Two enemies? Polymorph the second one and kill the first."
+      },
+      {
+        "es": "Para volver a frenar rápido, Frost Blast; para rematar en movimiento, Fire Blast o la varita.",
+        "en": "To reapply a slow quickly, use Frost Blast; to finish on the move, Fire Blast or your wand."
+      },
+      {
+        "es": "Entre combates, bebe agua conjurada; si te quedas sin maná en pleno combate, gema de maná y Evocation.",
+        "en": "Between fights, drink conjured water; if you run dry mid-fight, use a mana gem and Evocation."
+      }
+    ],
+    "extra": {
+      "titulo": {
+        "es": "Comida y agua, teletransportes, portales y AoE en grupo",
+        "en": "Food and water, teleports, portals and group AoE"
+      },
+      "items": [
+        {
+          "es": "<b>Conjure Water</b> sube de rango en los niveles 4, 10, 20, 30, 40, 50 y 60; <b>Conjure Food</b> en 6, 12, 22, 32, 42, 52 y 60. Cada lanzamiento da 20 unidades (10 en el rango del 60) y no gasta componentes. Los rangos del 60 no los vende el instructor: salen de un libro, misión o botín.",
+          "en": "<b>Conjure Water</b> gets new ranks at levels 4, 10, 20, 30, 40, 50 and 60; <b>Conjure Food</b> at 6, 12, 22, 32, 42, 52 and 60. Each cast gives 20 items (10 for the level 60 rank) and needs no reagents. The trainer does not sell the level 60 ranks: they come from a book, quest or drop."
+        },
+        {
+          "es": "Lo conjurado desaparece si estás desconectado más de 15 minutos: no hagas reservas enormes antes de salir.",
+          "en": "Conjured items vanish if you stay logged out for more than 15 minutes: do not stockpile before logging off."
+        },
+        {
+          "es": "Gemas de maná: <b>Agate</b> (28), <b>Jade</b> (38), <b>Citrine</b> (48) y <b>Ruby</b> (58). Recuperan maná al instante en combate.",
+          "en": "Mana gems: <b>Agate</b> (28), <b>Jade</b> (38), <b>Citrine</b> (48) and <b>Ruby</b> (58). They restore mana instantly in combat."
+        },
+        {
+          "es": "<b>Teletransportes</b> (solo tú, 10 s de lanzamiento, gastan una <b>Rune of Teleportation</b>): nivel 20 Stormwind e Ironforge (Alianza) u Orgrimmar y Undercity (Horda); nivel 30 Darnassus o Thunder Bluff.",
+          "en": "<b>Teleports</b> (just you, 10 sec cast, use a <b>Rune of Teleportation</b>): level 20 Stormwind and Ironforge (Alliance) or Orgrimmar and Undercity (Horde); level 30 Darnassus or Thunder Bluff."
+        },
+        {
+          "es": "<b>Portales</b> (para todo el grupo, 850 de maná y 1 min de reutilización, gastan una <b>Rune of Portals</b>): nivel 40 Stormwind e Ironforge u Orgrimmar y Undercity; nivel 50 Darnassus o Thunder Bluff.",
+          "en": "<b>Portals</b> (for the whole group, 850 mana and 1 min cooldown, use a <b>Rune of Portals</b>): level 40 Stormwind and Ironforge or Orgrimmar and Undercity; level 50 Darnassus or Thunder Bluff."
+        },
+        {
+          "es": "Teletransportes y portales no los enseña el instructor normal sino el <b>instructor de portales</b> de las capitales (Alianza: Stormwind, Ironforge y Darnassus; Horda: Orgrimmar, Thunder Bluff y Undercity). Nuevo en Forever: <b>Teleport: Dalaran</b> a nivel 50.",
+          "en": "Teleports and portals are not taught by the regular trainer but by the <b>portal trainer</b> in the capitals (Alliance: Stormwind, Ironforge and Darnassus; Horde: Orgrimmar, Thunder Bluff and Undercity). New in Forever: <b>Teleport: Dalaran</b> at level 50."
+        },
+        {
+          "es": "<b>AoE en grupo:</b> la experiencia por muerte se reparte y baja mucho si hay alguien de bastante más nivel. Que te «suba» un 60 no compensa: agrúpate con gente de tu nivel y limpiad mazmorras o zonas con muchos enemigos.",
+          "en": "<b>Group AoE:</b> kill experience is split and drops sharply if someone is much higher level. Being boosted by a 60 is not worth it: group with players your level and clear dungeons or crowded areas."
+        },
+        {
+          "es": "<b>Cómo hacerlo:</b> deja que el tanque reúna a los enemigos; con la amenaza en él, Blizzard. Si vienen a por ti, Frost Nova, un paso atrás y Flamestrike o Cone of Cold; Arcane Explosion cuando estén encima. Guarda siempre maná para un Frost Nova y un Blink.",
+          "en": "<b>How to do it:</b> let the tank gather the enemies; with threat on the tank, Blizzard. If they come for you, Frost Nova, a step back and Flamestrike or Cone of Cold; Arcane Explosion when they are on top of you. Always keep mana for a Frost Nova and a Blink."
+        },
+        {
+          "es": "El AoE en solitario de Classic (arrastrar decenas de enemigos con Blizzard) está recortado: Improved Blizzard ralentiza como mucho un 40 % y Cone of Cold controla bien solo a 4. Empieza con grupos pequeños de 3 o 4 y sube poco a poco.",
+          "en": "Classic-style solo AoE (dragging dozens of enemies with Blizzard) is toned down: Improved Blizzard slows 40% at most and Cone of Cold only fully controls 4 targets. Start with small packs of 3 or 4 and build up slowly."
+        }
+      ]
+    },
+    "consejos": [
+      {
+        "es": "Consigue una varita pronto: a niveles bajos remata enemigos sin gastar maná.",
+        "en": "Get a wand early: at low levels it finishes enemies without spending mana."
+      },
+      {
+        "es": "No bajes de rango para ahorrar: un Frostbolt de rango muy bajo apenas activa Frostbite. Para frenar barato está Frost Blast.",
+        "en": "Do not downrank to save mana: a very low-rank Frostbolt barely triggers Frostbite. Frost Blast is there for cheap slows."
+      },
+      {
+        "es": "Polymorph cura muy rápido al enemigo: no lo uses sobre uno que ya hayas dañado si piensas dejarlo para el final.",
+        "en": "Polymorph heals the target very quickly: do not use it on one you already hurt if you plan to kill it last."
+      },
+      {
+        "es": "Recoge y descifra pergaminos con Comprehend Scroll: dan mejoras temporales. Si fallas, te puedes convertir en oveja un rato, así que hazlo fuera de combate y quieto.",
+        "en": "Pick up and decipher scrolls with Comprehend Scroll: they give temporary buffs. If you fail you may turn into a sheep for a bit, so do it out of combat and standing still."
+      },
+      {
+        "es": "Haz las misiones de clase (hacia los niveles 10, 15 y 26): dan bastones, túnicas y varitas.",
+        "en": "Do the class quests (around levels 10, 15 and 26): they reward staves, robes and wands."
+      },
+      {
+        "es": "Pasa por el instructor en cada nivel par: casi siempre hay un rango nuevo.",
+        "en": "Visit the trainer every even level: there is almost always a new rank."
+      },
+      {
+        "es": "Con el punto de Legacy «Talented» recibes los talentos hasta 5 niveles antes; el reparto es el mismo, solo se adelanta.",
+        "en": "With the «Talented» Legacy perk you get talent points up to 5 levels earlier; the build stays the same, it just comes sooner."
+      },
+      {
+        "es": "A nivel 40 llega la doble especialización: puedes subir en Escarcha y tener Fuego listo para mazmorras.",
+        "en": "Dual specialization arrives at level 40: you can level as Frost and keep Fire ready for dungeons."
+      }
+    ],
+    "hitos": [
+      {
+        "nivel": "4",
+        "texto": {
+          "es": "Frostbolt y Conjure Water: ya juegas como mago de Escarcha y no compras agua.",
+          "en": "Frostbolt and Conjure Water: you play like a Frost mage and stop buying water."
+        }
+      },
+      {
+        "nivel": "10",
+        "texto": {
+          "es": "Primer talento y Frost Nova: ya puedes escapar de los enemigos cuerpo a cuerpo.",
+          "en": "First talent point and Frost Nova: you can now escape melee enemies."
+        }
+      },
+      {
+        "nivel": "20",
+        "texto": {
+          "es": "Gran salto: Ice Lance, Blink, Blizzard, Evocation y los primeros teletransportes.",
+          "en": "Big jump: Ice Lance, Blink, Blizzard, Evocation and your first teleports."
+        }
+      },
+      {
+        "nivel": "24",
+        "texto": {
+          "es": "Frost Blast y Counterspell.",
+          "en": "Frost Blast and Counterspell."
+        }
+      },
+      {
+        "nivel": "30",
+        "texto": {
+          "es": "Fingers of Frost e Ice Armor: el combate en solitario se vuelve mucho más fluido.",
+          "en": "Fingers of Frost and Ice Armor: solo fights get much smoother."
+        }
+      },
+      {
+        "nivel": "40",
+        "texto": {
+          "es": "Ice Barrier, Frostfire Bolt, portales, montura y doble especialización.",
+          "en": "Ice Barrier, Frostfire Bolt, portals, riding and dual specialization."
+        }
+      },
+      {
+        "nivel": "50",
+        "texto": {
+          "es": "Últimos portales y Teleport: Dalaran.",
+          "en": "Last portals and Teleport: Dalaran."
+        }
+      },
+      {
+        "nivel": "60",
+        "texto": {
+          "es": "Últimos rangos, 51 talentos y la Conjure Mana Ruby (58) en la bolsa.",
+          "en": "Final ranks, 51 talent points and Conjure Mana Ruby (58) in your bags."
+        }
+      }
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "Las bandas llegan el 9 de diciembre, así que aún no hay registros reales de daño ni lista de equipo de Forever. Además, el 28 de octubre Blizzard cambió el árbol del mago (Arcane Focus desaparece, Incineration pasa a 5 rangos y Critical Mass a 3), y las builds de 60 que más se planificaron en la beta (0/29/22 Fuego, 0/0/51 Escarcha y 47/4/0 Arcano) ya no encajan tal cual: el árbol de Escarcha solo admite 48 puntos. Lo de abajo son prioridades, no builds cerradas.",
+      "en": "Raids open on 9 December, so there are no real damage logs or Forever gear lists yet. On top of that, on 28 October Blizzard changed the mage tree (Arcane Focus is gone, Incineration now has 5 ranks and Critical Mass 3), and the most planned level 60 builds from the beta (0/29/22 Fire, 0/0/51 Frost and 47/4/0 Arcane) no longer fit as they were: the Frost tree only holds 48 points. What follows are priorities, not final builds."
+    },
+    "ramas": [
+      {
+        "nombre": "Fire",
+        "rol": {
+          "es": "DPS a distancia",
+          "en": "Ranged DPS"
+        },
+        "estadisticas": [
+          {
+            "es": "Poder con hechizos > golpe (hit) > crítico > celeridad > espíritu > maná cada 5 s (orientativo, de la beta).",
+            "en": "Spell power > hit > crit > haste > spirit > mana per 5 sec (preliminary, from the beta)."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Scorch hasta tener 5 acumulaciones de Improved Scorch en el objetivo, y renuévalas antes de que caduquen.",
+            "en": "Scorch until the target has 5 Improved Scorch stacks, and refresh them before they expire."
+          },
+          {
+            "es": "Fire Blast cada vez que esté listo: siempre suma una carga de Heating Up (dos si es crítico).",
+            "en": "Fire Blast whenever it is ready: it always adds a Heating Up charge (two on a crit)."
+          },
+          {
+            "es": "Con 3 cargas de Heating Up, Pyroblast (se lanza en 1,5 s).",
+            "en": "At 3 Heating Up charges, cast Pyroblast (1.5 sec cast)."
+          },
+          {
+            "es": "Relleno: Fireball, que además deja un efecto de fuego que cuenta para Fire Power; Frostfire Bolt si el objetivo resiste el fuego.",
+            "en": "Filler: Fireball, whose burn also counts toward Fire Power; Frostfire Bolt if the target resists fire."
+          },
+          {
+            "es": "Combustion junto a tus otros potenciadores (raciales, Presence of Mind si lo tienes).",
+            "en": "Combustion together with your other cooldowns (racials, Presence of Mind if you have it)."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Aceite de mago (Wizard Oil) y elixir arcano del mayor rango disponible, pociones de maná y comida con Well Fed.",
+            "en": "The highest Wizard Oil and arcane elixir you can get, mana potions and Well Fed food."
+          }
+        ]
+      },
+      {
+        "nombre": "Frost",
+        "rol": {
+          "es": "DPS a distancia y control",
+          "en": "Ranged DPS and control"
+        },
+        "estadisticas": [
+          {
+            "es": "Poder con hechizos > golpe > celeridad > crítico > intelecto > espíritu (orientativo, de la beta).",
+            "en": "Spell power > hit > haste > crit > intellect > spirit (preliminary, from the beta)."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Ice Barrier siempre puesto: además del escudo, sube tu daño de escarcha.",
+            "en": "Keep Ice Barrier up: besides the shield, it raises your Frost damage."
+          },
+          {
+            "es": "Frostbolt como hechizo principal.",
+            "en": "Frostbolt as your main spell."
+          },
+          {
+            "es": "Ice Lance con cada Fingers of Frost (tienes 2 hechizos con el objetivo «congelado»).",
+            "en": "Ice Lance on every Fingers of Frost (you get 2 spells against a «frozen» target)."
+          },
+          {
+            "es": "Si estás cerca del objetivo, Cone of Cold con 5 acumulaciones de Winter's Chill.",
+            "en": "If you are close to the target, Cone of Cold at 5 Winter's Chill stacks."
+          },
+          {
+            "es": "Cold Snap para repetir Ice Barrier o Ice Block cuando haga falta.",
+            "en": "Cold Snap to reuse Ice Barrier or Ice Block when needed."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Los mismos que Fuego; pociones de protección contra la escuela del jefe cuando toque.",
+            "en": "Same as Fire; protection potions for the boss's school when needed."
+          }
+        ]
+      },
+      {
+        "nombre": "Arcane",
+        "rol": {
+          "es": "DPS a distancia con ráfagas",
+          "en": "Ranged burst DPS"
+        },
+        "estadisticas": [
+          {
+            "es": "Poder con hechizos > golpe > celeridad > intelecto > crítico > espíritu (orientativo, de la beta). El intelecto pesa más que en otras ramas por Arcane Blast y Arcane Wrath.",
+            "en": "Spell power > hit > haste > intellect > crit > spirit (preliminary, from the beta). Intellect matters more than in other trees because of Arcane Blast and Arcane Wrath."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Arcane Blast hasta 3-4 acumulaciones: cada una te da poder con hechizos (15 % de tu intelecto) durante 15 s desde la primera.",
+            "en": "Arcane Blast up to 3-4 stacks: each grants spell damage (15% of your Intellect) for 15 sec from the first one."
+          },
+          {
+            "es": "Arcane Wrath cada vez que esté listo (6 s de reutilización) con las acumulaciones puestas.",
+            "en": "Arcane Wrath on cooldown (6 sec) while your stacks are up."
+          },
+          {
+            "es": "Arcane Missiles solo con Missile Barrage (gratis y el doble de rápido).",
+            "en": "Arcane Missiles only on Missile Barrage (free and twice as fast)."
+          },
+          {
+            "es": "Con Clearcasting, Arcane Blast gratis; si el maná baja mucho, deja caer las acumulaciones.",
+            "en": "On Clearcasting, a free Arcane Blast; if mana runs low, let the stacks drop."
+          },
+          {
+            "es": "Arcane Power y Presence of Mind para las ventanas de ráfaga.",
+            "en": "Arcane Power and Presence of Mind for burst windows."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Pociones de maná, gema de maná y aceite de maná (Mana Oil) del mayor rango para aguantar.",
+            "en": "Mana potions, mana gem and the highest Mana Oil to keep going."
+          }
+        ]
+      }
+    ],
+    "equipo": {
+      "es": "Todavía no hay lista de equipo de Forever: las mazmorras nuevas traen cientos de objetos y las bandas no abren hasta el 9 de diciembre. Mientras tanto, prioriza el poder con hechizos y luego el golpe (hit) hasta que dejes de fallar a menudo contra jefes. Sastrería da equipo de tela con poder con hechizos desde nivel bajo y es la forma más fácil de equiparte al llegar a 60.",
+      "en": "There is no Forever gear list yet: the new dungeons bring hundreds of items and raids do not open until 9 December. Until then, prioritize spell power and then hit until you stop missing bosses often. Tailoring makes cloth with spell power from low levels and is the easiest way to gear up when you hit 60."
+    },
+    "sin_builds_beta": true
+  },
+  "pvp": [
+    {
+      "es": "Escarcha es la rama de JcJ: ralentizaciones, congelaciones, Ice Block y Cold Snap te dan tiempo para lanzar.",
+      "en": "Frost is the PvP tree: slows, freezes, Ice Block and Cold Snap buy you time to cast."
+    },
+    {
+      "es": "Combo básico: Frost Nova, unos pasos atrás y Ice Lance (o Frostbolt) mientras el rival sigue congelado.",
+      "en": "Basic combo: Frost Nova, a few steps back and Ice Lance (or Frostbolt) while the enemy is still frozen."
+    },
+    {
+      "es": "Blink quita aturdimientos y raíces: guárdalo para la apertura del pícaro o la carga del guerrero, no lo gastes por reflejo.",
+      "en": "Blink removes stuns and roots: save it for a rogue's opener or a warrior's charge, do not burn it on reflex."
+    },
+    {
+      "es": "Counterspell sobre las curas importantes; con Improved Counterspell (Arcano) además silencia 4 s.",
+      "en": "Counterspell the important heals; with Improved Counterspell (Arcane) it also silences for 4 sec."
+    },
+    {
+      "es": "Polymorph al curador o al segundo rival para pelear uno contra uno; Remove Lesser Curse quita maldiciones y Banes de brujo.",
+      "en": "Polymorph the healer or the second enemy to fight one on one; Remove Lesser Curse clears warlock curses and Banes."
+    },
+    {
+      "es": "En campos de batalla, Cone of Cold y Blizzard frenan a grupos en las banderas; Frostfire Bolt también ralentiza.",
+      "en": "In battlegrounds, Cone of Cold and Blizzard slow groups at the flags; Frostfire Bolt slows too."
+    },
+    {
+      "es": "La raza cuenta: No-muerto contra miedos, Humano contra aturdimientos, Gnomo contra ralentizaciones y Orco contra brujos.",
+      "en": "Race matters: Undead against fears, Human against stuns, Gnome against slows and Orc against warlocks."
+    }
+  ],
+  "profesiones": [
+    {
+      "nombre": {
+        "es": "Sastrería",
+        "en": "Tailoring"
+      },
+      "por_que": {
+        "es": "Equipo de tela con poder con hechizos desde nivel bajo y bolsas. La tela sale sola al matar humanoides.",
+        "en": "Cloth gear with spell power from low levels, plus bags. Cloth drops naturally from humanoids."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Encantamiento",
+        "en": "Enchanting"
+      },
+      "por_que": {
+        "es": "Pareja natural de Sastrería: desencantas lo que fabricas y haces varitas y aceites para ti.",
+        "en": "Tailoring's natural partner: disenchant what you craft and make wands and oils for yourself."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Ingeniería",
+        "en": "Engineering"
+      },
+      "por_que": {
+        "es": "La mejor para JcJ por sus explosivos y artilugios; el gnomo falla menos al usarlos.",
+        "en": "The best for PvP thanks to explosives and gadgets; gnomes fail less when using them."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Cocina",
+        "en": "Cooking"
+      },
+      "por_que": {
+        "es": "Comida con Well Fed (+5 % de experiencia por muerte) y necesaria para la acampada.",
+        "en": "Well Fed food (+5% kill experience) and needed for camping."
+      }
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Builds de 60 con el árbol nuevo del 28 de octubre: ninguna guía las ha actualizado todavía.",
+      "en": "Level 60 builds with the new 28 October tree: no guide has updated them yet."
+    },
+    {
+      "es": "Dónde se aprende Teleport: Dalaran y si lo puede usar la Horda.",
+      "en": "Where Teleport: Dalaran is learned and whether Horde can use it."
+    },
+    {
+      "es": "Dónde se consiguen los rangos de 60 de Conjure Food y Conjure Water y el libro de Arcane Brilliance (nivel 56).",
+      "en": "Where to get the level 60 ranks of Conjure Food and Conjure Water and the Arcane Brilliance book (level 56)."
+    },
+    {
+      "es": "Frost Blast (24) sale en las notas de Blizzard pero no en los datos del cliente que hemos leído; lo confirmaremos en el lanzamiento.",
+      "en": "Frost Blast (24) is in Blizzard's notes but not in the client data we read; we will confirm it at launch."
+    },
+    {
+      "es": "Cómo funciona del todo la Investigación (Research) del mago y qué pergaminos merecen la pena.",
+      "en": "How the mage's Research system fully works and which scrolls are worth it."
+    },
+    {
+      "es": "Equipo de banda y consumibles de 60 propios de Forever (bandas el 9 de diciembre).",
+      "en": "Forever's own raid gear and level 60 consumables (raids on 9 December)."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Blizzard: análisis de clases de Forever (mago y chamán)",
+      "url": "https://news.blizzard.com/en-us/article/24302097/"
+    },
+    {
+      "nombre": "Blizzard: notas de desarrollo de Forever (foros)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/2360696/7"
+    },
+    {
+      "nombre": "Talents Forever (datos del cliente de la beta, CC BY 4.0)",
+      "url": "https://talentsforever.com/mage"
+    },
+    {
+      "nombre": "Method: guía de subida del mago",
+      "url": "https://www.method.gg/wow-forever/wow-forever-mage-leveling-guide-and-talents"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía de subida del mago",
+      "url": "https://www.warcrafttavern.com/forever/guides/mage-leveling/"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía del mago",
+      "url": "https://www.warcrafttavern.com/forever/guides/mage/"
+    },
+    {
+      "nombre": "Warcraft Tavern: experiencia en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/experience/"
+    },
+    {
+      "nombre": "Zockify: mago en Forever",
+      "url": "https://www.zockify.com/forever/mage/"
+    },
+    {
+      "nombre": "wow.gg: mago de Escarcha en la beta",
+      "url": "https://wow.gg/guides/wow-forever-frost-mage-beta"
+    },
+    {
+      "nombre": "Mobalytics: subida con AoE de Escarcha",
+      "url": "https://mobalytics.gg/wow-forever/profile/kargoz/classes/1-60-frost-mage-aoe-leveling-guide-talents-strategy-best-grinding-spots"
+    },
+    {
+      "nombre": "Icy Veins: subida del mago de Escarcha",
+      "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling"
+    }
+  ]
+}

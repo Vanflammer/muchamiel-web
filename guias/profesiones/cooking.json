@@ -1,0 +1,243 @@
+{
+  "slug": "cooking",
+  "nombre": {
+    "es": "Cocina",
+    "en": "Cooking"
+  },
+  "tipo": "secundaria",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Cocinas carne, pescado y huevos para hacer comida con estadísticas. En Forever pesa más que nunca: casi toda la comida da un pequeño extra de experiencia y la Cocina es la base de la acampada, porque monta la hoguera. No ocupa hueco: súbela con cualquier personaje.",
+    "en": "You cook meat, fish and eggs into food with stats. In Forever it matters more than ever: most food gives a small XP bonus, and Cooking is the core of camping, since it builds the campfire. It takes no slot: level it on every character."
+  },
+  "pareja": {
+    "es": "Con Fishing: casi la mejor comida sale del pescado. Y con Skinning, porque las mismas bestias dan carne.",
+    "en": "Fishing: most of the best food comes from fish. Also Skinning, since the same beasts drop meat."
+  },
+  "forever": [
+    {
+      "es": "Casi toda la comida cocinada da un pequeño extra de experiencia además de sus estadísticas.",
+      "en": "Most cooked food gives a small XP bonus on top of its stats."
+    },
+    {
+      "es": "Hogueras: <b>Basic Campfire</b> (20, caben 3 objetos de campamento), <b>Journeyman Campfire</b> (90, caben 5) y <b>Expert Campfire</b> (200, caben 10). Se hacen con Simple Wood y Flint and Tinder.",
+      "en": "Campfires: <b>Basic Campfire</b> (20, holds 3 camp objects), <b>Journeyman Campfire</b> (90, holds 5) and <b>Expert Campfire</b> (200, holds 10). Made from Simple Wood and Flint and Tinder."
+    },
+    {
+      "es": "44 recetas nuevas: platos, tés y batidos. Por ejemplo Peace Tea (25), Breakfast Omelette (75), Savory Whimsyfin Delight (85, te convierte en múrloc u ogro), Plain Ol' Paletusk (185), Plated Armorfish (225) y una tanda de platos a 275.",
+      "en": "44 new recipes: dishes, teas and smoothies. For example Peace Tea (25), Breakfast Omelette (75), Savory Whimsyfin Delight (85, turns you into a murloc or an ogre), Plain Ol' Paletusk (185), Plated Armorfish (225) and a batch of dishes at 275."
+    },
+    {
+      "es": "<b>Cookie's Feast</b> (140): festín para el grupo. <b>Iron Oven</b> (300): horno para comida de aguante.",
+      "en": "<b>Cookie's Feast</b> (140): a group feast. <b>Iron Oven</b> (300): an oven for stamina food."
+    },
+    {
+      "es": "Comidas cambiadas: Bristle Whisker Catfish ahora sube la pesca; Longjaw Mud Snapper y Smoked Sagefish dan poder de ataque o de hechizos.",
+      "en": "Changed foods: Bristle Whisker Catfish now boosts Fishing; Longjaw Mud Snapper and Smoked Sagefish give attack or spell power."
+    },
+    {
+      "es": "Legacy: <b>Master Chef</b> (probabilidad de una ración extra) y <b>Gourmand</b> (la comida dura más).",
+      "en": "Legacy: <b>Master Chef</b> (chance of an extra serving) and <b>Gourmand</b> (food buffs last longer)."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 55,
+      "receta": "Roasted Boar Meat / Charred Wolf Meat / Herb Baked Egg",
+      "cuantas": "~55",
+      "materiales": {
+        "es": "1 Chunk of Boar Meat, 1 Stringy Wolf Meat o 1 Small Egg + 1 Mild Spices. Si pescas: Brilliant Smallfish o Slitherskin Mackerel.",
+        "en": "1 Chunk of Boar Meat, 1 Stringy Wolf Meat, or 1 Small Egg + 1 Mild Spices. If you fish: Brilliant Smallfish or Slitherskin Mackerel."
+      },
+      "nota": {
+        "es": "Las tres las enseña el instructor. Las especias, en el vendedor de cocina, no en la subasta.",
+        "en": "All three come from the trainer. Buy spices from the cooking vendor, not the auction house."
+      }
+    },
+    {
+      "desde": 55,
+      "hasta": 90,
+      "receta": "Coyote Steak / Smoked Bear Meat / Longjaw Mud Snapper",
+      "cuantas": "~35",
+      "materiales": {
+        "es": "1 Coyote Meat, 1 Bear Meat o 1 Raw Longjaw Mud Snapper.",
+        "en": "1 Coyote Meat, 1 Bear Meat or 1 Raw Longjaw Mud Snapper."
+      },
+      "nota": {
+        "es": "Journeyman con 50 y nivel 10: sin él dejas de subir en 75.",
+        "en": "Journeyman at 50 and level 10: without it you stop gaining at 75."
+      }
+    },
+    {
+      "desde": 90,
+      "hasta": 130,
+      "receta": "Dig Rat Stew (Horda) / Crab Cake / Dry Pork Ribs",
+      "cuantas": "~40",
+      "materiales": {
+        "es": "1 Dig Rat (Los Baldíos), o 1 Crawler Meat + 1 Mild Spices, o 1 Boar Ribs + 1 Mild Spices.",
+        "en": "1 Dig Rat (The Barrens), or 1 Crawler Meat + 1 Mild Spices, or 1 Boar Ribs + 1 Mild Spices."
+      },
+      "nota": {
+        "es": "Dig Rat Stew es recompensa de misión. Crab Cake y Dry Pork Ribs, del instructor.",
+        "en": "Dig Rat Stew is a quest reward. Crab Cake and Dry Pork Ribs come from the trainer."
+      }
+    },
+    {
+      "desde": 130,
+      "hasta": 175,
+      "receta": "Curiously Tasty Omelet / Hot Lion Chops / Bristle Whisker Catfish",
+      "cuantas": "~45",
+      "materiales": {
+        "es": "1 Raptor Egg + 1 Hot Spices, 1 Lion Meat + 1 Hot Spices o 1 Raw Bristle Whisker Catfish.",
+        "en": "1 Raptor Egg + 1 Hot Spices, 1 Lion Meat + 1 Hot Spices or 1 Raw Bristle Whisker Catfish."
+      },
+      "nota": {
+        "es": "Expert a partir de 125 y nivel 20 (ver «pendiente»: libro o instructor).",
+        "en": "Expert from 125 and level 20 (see Pending: book or trainer)."
+      }
+    },
+    {
+      "desde": 175,
+      "hasta": 210,
+      "receta": "Plain Ol' Paletusk / Roast Raptor / Mithril Headed Trout",
+      "cuantas": "~35",
+      "materiales": {
+        "es": "2 Chunk of Boar Meat + 1 Mild Spices (Paletusk), 1 Raptor Flesh + 1 Hot Spices o 1 Raw Mithril Head Trout.",
+        "en": "2 Chunk of Boar Meat + 1 Mild Spices (Paletusk), 1 Raptor Flesh + 1 Hot Spices or 1 Raw Mithril Head Trout."
+      },
+      "nota": {
+        "es": "Plain Ol' Paletusk es nueva de Forever: se la compras a Martha Wellsworth en Riverglades (20 de plata) y se aprende con 185.",
+        "en": "Plain Ol' Paletusk is new in Forever: buy it from Martha Wellsworth in Riverglades (20 silver); it needs 185."
+      }
+    },
+    {
+      "desde": 210,
+      "hasta": 225,
+      "receta": "Hot Wolf Ribs / Soothing Turtle Bisque",
+      "cuantas": "~17",
+      "materiales": {
+        "es": "1 Red Wolf Meat + 1 Hot Spices, o 1 Turtle Meat + 1 Soothing Spices.",
+        "en": "1 Red Wolf Meat + 1 Hot Spices, or 1 Turtle Meat + 1 Soothing Spices."
+      },
+      "nota": {
+        "es": "Hot Wolf Ribs la venden Vivianna (Feralas) o Super-Seller 680 (Desolace). Antes de 225 necesitas el rango Artisan (200 de habilidad y nivel 35).",
+        "en": "Hot Wolf Ribs is sold by Vivianna (Feralas) or Super-Seller 680 (Desolace). Before 225 you need Artisan (200 skill and level 35)."
+      }
+    },
+    {
+      "desde": 225,
+      "hasta": 275,
+      "receta": "Spotted Yellowtail / Monster Omelet / Tender Wolf Steak",
+      "cuantas": "~60",
+      "materiales": {
+        "es": "1 Raw Spotted Yellowtail; o 1 Giant Egg + 2 Soothing Spices; o 1 Tender Wolf Meat + 1 Soothing Spices.",
+        "en": "1 Raw Spotted Yellowtail; or 1 Giant Egg + 2 Soothing Spices; or 1 Tender Wolf Meat + 1 Soothing Spices."
+      },
+      "nota": {
+        "es": "Recetas en Tanaris: Gikkix (Puerto Bonvapor) vende la del pescado; Dirge Quikcleave (Gadgetzan), la del lobo.",
+        "en": "Recipes in Tanaris: Gikkix (Steamwheedle Port) sells the fish one; Dirge Quikcleave (Gadgetzan) the wolf one."
+      }
+    },
+    {
+      "desde": 275,
+      "hasta": 300,
+      "receta": "Poached Sunscale Salmon / Nightfin Soup",
+      "cuantas": "~35",
+      "materiales": {
+        "es": "1 Raw Sunscale Salmon, o 1 Raw Nightfin Snapper + 1 Refreshing Spring Water.",
+        "en": "1 Raw Sunscale Salmon, or 1 Raw Nightfin Snapper + 1 Refreshing Spring Water."
+      },
+      "nota": {
+        "es": "Las dos, de Gikkix. Pasan a amarillo en 290. A 300, Iron Oven y título de cuenta.",
+        "en": "Both from Gikkix. They turn yellow at 290. At 300, the Iron Oven and the account title."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75 (sin nivel mínimo), Oficial 50-150 (nivel 10), Experto 125-225 (nivel 20), Artesano 200-300 (nivel 35). Hay instructor en todas las capitales y zonas de inicio, y suele tener un fuego al lado.",
+      "en": "Ranks: Apprentice 1-75 (no level needed), Journeyman 50-150 (level 10), Expert 125-225 (level 20), Artisan 200-300 (level 35). Every capital and starting zone has a trainer, usually with a fire nearby."
+    },
+    {
+      "es": "En Classic el Experto era un libro (Wulan en la Aldea Cazasombras, Desolace, para la Horda; Shandrina en el lago Mystral, Vallefresno, para la Alianza) y el Artesano, la misión de Dirge Quikcleave en Gadgetzan (nivel 35 y 225).",
+      "en": "In Classic, Expert was a book (Wulan in Shadowprey Village, Desolace, for Horde; Shandrina at Mystral Lake, Ashenvale, for Alliance) and Artisan was Dirge Quikcleave's quest in Gadgetzan (level 35 and 225)."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "La hoguera: con 90 haces la de oficial (5 objetos) y con 200 la de experto (10). Todo el grupo te la pedirá.",
+      "en": "The campfire: at 90 you make the Journeyman one (5 objects) and at 200 the Expert one (10). Your whole group will want it."
+    },
+    {
+      "es": "Cookie's Feast (140): comida para el grupo entero.",
+      "en": "Cookie's Feast (140): food for the whole group."
+    },
+    {
+      "es": "A 60: Nightfin Soup (maná), Grilled Squid (agilidad) y la comida de aguante del Iron Oven para bandas.",
+      "en": "At 60: Nightfin Soup (mana), Grilled Squid (agility) and the Iron Oven's stamina food for raids."
+    },
+    {
+      "es": "Comida de pesca: Bristle Whisker Catfish (+8), Filet of Redgill (+18) y Spinefin Halibut (+18) suben la habilidad de pesca.",
+      "en": "Fishing food: Bristle Whisker Catfish (+8), Filet of Redgill (+18) and Spinefin Halibut (+18) raise Fishing skill."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Apréndela en cuanto llegues a nivel 5: la misión de la acampada te lleva a ella.",
+      "en": "Learn it as soon as you hit level 5: the camping quest points you to it."
+    },
+    {
+      "es": "Guarda la carne mientras subes: cocinar en tu hoguera te ahorra la subasta y da experiencia.",
+      "en": "Keep meat while leveling: cooking at your own campfire saves AH gold and gives XP."
+    },
+    {
+      "es": "Las especias y el agua, siempre del vendedor de cocina.",
+      "en": "Always buy spices and water from the cooking vendor."
+    },
+    {
+      "es": "Cookie's Stirring Rod (de Cookie, en Las Minas de la Muerte) cocina un 25 % más rápido.",
+      "en": "Cookie's Stirring Rod (from Cookie in The Deadmines) cooks 25% faster."
+    },
+    {
+      "es": "Si subes Fishing a la vez, casi no gastas nada.",
+      "en": "Level Fishing alongside it and you barely spend a coin."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Si en Forever los rangos Experto y Artesano los enseña el instructor o siguen siendo libro y misión como en Classic: las guías no coinciden. Prueba primero con tu instructor.",
+      "en": "Whether Expert and Artisan are taught by the trainer in Forever or are still a book and a quest as in Classic: guides disagree. Try your trainer first."
+    },
+    {
+      "es": "De 225 a 300 es la ruta clásica: la beta se paró en 225 y no se ha probado.",
+      "en": "225 to 300 is the classic route: the beta stopped at 225, so it's untested."
+    },
+    {
+      "es": "Cuánta experiencia extra da la comida y dónde se aprenden la mayoría de las 44 recetas nuevas.",
+      "en": "How much extra XP food gives and where most of the 44 new recipes are learned."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: Cooking en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/cooking/"
+    },
+    {
+      "nombre": "wow-professions: Cooking 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/cooking-leveling-guide"
+    },
+    {
+      "nombre": "KamiLabs: Cocina en Forever (recetas nuevas)",
+      "url": "https://kami-labs.fr/en/guide-cuisine-wow-forever/"
+    },
+    {
+      "nombre": "Zockify: profesiones en Forever",
+      "url": "https://www.zockify.com/forever/professions/"
+    },
+    {
+      "nombre": "Blizzard: repaso a fondo de Forever",
+      "url": "https://news.blizzard.com/es-es/article/24303313/world-of-warcraft-forever-resumen-de-la-mesa-redonda-repaso-a-fondo"
+    }
+  ]
+}

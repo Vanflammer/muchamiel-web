@@ -1,0 +1,239 @@
+{
+  "slug": "shaman",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El chamán es un híbrido con malla que pega, cura y apoya al grupo con tótems. En Forever deja de ser exclusivo de la Horda: el <b>enano</b> puede ser chamán en la Alianza y, en la Horda, se suma el célico Formaviento (Windshaper Skyborne). Los tótems duran 5 minutos, se ponen de cuatro en cuatro con un solo hechizo y se pueden mover. Es para quien quiere hacer de todo y no le importa gestionar el maná.",
+    "en": "The Shaman is a mail-wearing hybrid that hits, heals and supports the group with totems. In Forever it is no longer Horde-only: the <b>Dwarf</b> can be a Shaman on the Alliance side, and the Horde gains the Windshaper Skyborne. Totems last 5 minutes, go down four at a time with a single spell and can be moved. It suits players who want to do a bit of everything and don't mind managing mana."
+  },
+  "fuertes": [
+    {"es": "Tres papeles reales: daño cuerpo a cuerpo, daño a distancia y sanador.", "en": "Three real roles: melee damage, ranged damage and healer."},
+    {"es": "Tótems que mejoran a todo el grupo (fuerza, agilidad, Windfury, maná, curación) y ahora duran 5 minutos.", "en": "Totems that buff the whole group (strength, agility, Windfury, mana, healing) and now last 5 minutes."},
+    {"es": "Utilidad de sobra: Earth Shock corta hechizos, Purge quita beneficios mágicos, Tremor Totem anula miedos y Grounding Totem se traga un hechizo.", "en": "Plenty of utility: Earth Shock interrupts, Purge strips magic buffs, Tremor Totem cancels fears and Grounding Totem eats a spell."},
+    {"es": "Se cura solo entre combates y tiene Reincarnation para levantarse tras morir.", "en": "Heals itself between fights and has Reincarnation to get back up after dying."},
+    {"es": "Ghost Wolf instantáneo y en interiores con el talento Improved Ghost Wolf: muy cómodo hasta tener montura.", "en": "Instant, indoor Ghost Wolf with the Improved Ghost Wolf talent: very handy until you get a mount."}
+  ],
+  "debiles": [
+    {"es": "No tiene control fuerte: ni aturdimientos ni miedos ni ovejas (solo ralentizar y, con talento, inmovilizar con Earthbind Totem).", "en": "No hard crowd control: no stuns, fears or sheep (only slows and, with a talent, a root from Earthbind Totem)."},
+    {"es": "Depende mucho del maná; en combates largos o tirando muchos tótems se queda seco.", "en": "Very mana-hungry; long fights or spamming totems drain you fast."},
+    {"es": "Muchos hechizos con tiempo de lanzamiento: hay que pararse a lanzar más que con otras clases.", "en": "Lots of cast-time spells: you stand still and cast more than most classes."},
+    {"es": "No puede llevar dos armas ni usar espadas o armas de asta.", "en": "Cannot dual wield, and cannot use swords or polearms."},
+    {"es": "Las misiones de tótems (sobre todo la de agua) son largas y obligatorias para usar cada elemento.", "en": "The totem quests (especially Water) are long and required to use each element."}
+  ],
+  "ramas": [
+    {"nombre": "Enhancement", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
+     "mejor_para": {"es": "Subir de nivel, jugar solo y JcJ de presión", "en": "Leveling, solo play and pressure PvP"},
+     "texto": {"es": "Arma de dos manos, Windfury Weapon y Stormstrike. En Forever convierte Intelecto en poder de ataque (Mental Dexterity) y acumula Maelstrom Weapon para lanzar Lightning Bolt instantáneo y gratis. Su talento final, Rage of the Farseer, sube un 30 % la velocidad de ataque.", "en": "Two-hander, Windfury Weapon and Stormstrike. In Forever it turns Intellect into attack power (Mental Dexterity) and stacks Maelstrom Weapon for an instant, free Lightning Bolt. Its capstone, Rage of the Farseer, adds 30% attack speed."}},
+    {"nombre": "Elemental", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
+     "mejor_para": {"es": "Grupos, bandas y JcJ a distancia", "en": "Groups, raids and ranged PvP"},
+     "texto": {"es": "Lanzador de rayos y fuego. Lava Burst (nuevo) pega un 20 % más si el objetivo tiene Flame Shock, Lightning Overload duplica rayos y Elemental Mastery acorta los lanzamientos y quita el tiempo de reutilización a Chain Lightning durante 15 s. Gasta mucho maná al principio.", "en": "Lightning and fire caster. Lava Burst (new) hits 20% harder on a Flame Shocked target, Lightning Overload doubles bolts, and Elemental Mastery shortens casts and removes Chain Lightning's cooldown for 15 sec. Heavy on mana early on."}},
+    {"nombre": "Restoration", "rol": {"es": "Sanador", "en": "Healer"},
+     "mejor_para": {"es": "Mazmorras y bandas", "en": "Dungeons and raids"},
+     "texto": {"es": "Sanador de grupo con Chain Heal y tótems. Gana Water Shield para recuperar maná y Riptide como talento final: cura al momento, deja una cura en el tiempo y mejora un 25 % el Chain Heal sobre ese objetivo. Para subir solo es lento.", "en": "Group healer built on Chain Heal and totems. It gains Water Shield for mana and Riptide as its capstone: an instant heal plus a heal over time that makes Chain Heal 25% stronger on that target. Slow for solo leveling."}}
+  ],
+  "razas": [
+    {"raza": {"es": "Orco", "en": "Orc"}, "faccion": "Horda",
+     "por_que": {"es": "Blood Fury sube un 10 % el poder de ataque y de hechizos, Savage da un 1 % de crítico y Hardiness acorta los aturdimientos. Buena para todo y la más segura en JcJ.", "en": "Blood Fury adds 10% attack and spell power, Savage gives 1% crit and Hardiness shortens stuns. Good for everything and the safest PvP pick."}},
+    {"raza": {"es": "Trol", "en": "Troll"}, "faccion": "Horda",
+     "por_que": {"es": "Berserking sube un 10 % la velocidad de ataque y de lanzamiento; Regeneration y Rapid Regeneration ayudan a encadenar combates al subir.", "en": "Berserking adds 10% attack and casting speed; Regeneration and Rapid Regeneration help you chain pulls while leveling."}},
+    {"raza": {"es": "Tauren", "en": "Tauren"}, "faccion": "Horda",
+     "por_que": {"es": "War Stomp aturde a varios enemigos (el único aturdimiento que tendrás) y Endurance da un 2 % más de daño y curación críticos.", "en": "War Stomp stuns several enemies (the only stun you will get) and Endurance gives 2% more critical damage and healing."}},
+    {"raza": {"es": "Célico Formaviento", "en": "Windshaper Skyborne"}, "faccion": "Horda",
+     "por_que": {"es": "Raza nueva: Wind Blessed da un 3 % de celeridad y Elemental Insight un 5 % de daño contra elementales. Empieza en la Isla de Zephras y necesita el pack Heroico o superior.", "en": "New race: Wind Blessed gives 3% haste and Elemental Insight 5% damage against elementals. Starts on Zephras Isle and needs the Heroic pack or higher."}},
+    {"raza": {"es": "Enano", "en": "Dwarf"}, "faccion": "Alianza",
+     "por_que": {"es": "Única opción de chamán en la Alianza. Stoneform limpia venenos, enfermedades y sangrados y reduce el daño físico; según las notas de Blizzard, Earth Fury da un 2 % más de daño y curación críticos.", "en": "The only Alliance Shaman option. Stoneform clears poisons, diseases and bleeds and reduces physical damage; per Blizzard's notes, Earth Fury adds 2% critical damage and healing."}}
+  ],
+  "subir": {
+    "rama": "Enhancement",
+    "intro": {
+      "es": "Todas las guías coinciden: <b>Enhancement</b> es la forma más rápida y cómoda de subir. Pegas con un arma de dos manos, te curas entre combates y casi no paras a beber gracias a Shamanistic Focus. Hasta el 30 usa Rockbiter Weapon; a partir del 30, Windfury Weapon con el arma más lenta que encuentres. Este reparto termina en 18/33/0 al 60, el mismo que más se planifica en la calculadora de Forever. Si tienes puntos de Legacy (perk Talented), llegarás a cada talento algún nivel antes.",
+      "en": "Every guide agrees: <b>Enhancement</b> is the fastest and most comfortable way to level. You hit with a two-hander, heal between fights and barely stop to drink thanks to Shamanistic Focus. Use Rockbiter Weapon until 30; from 30 on, Windfury Weapon on the slowest weapon you can find. This order ends at 18/33/0 at 60, the most planned build on the Forever calculator. With Legacy points (the Talented perk) you reach each talent a few levels earlier."
+    },
+    "talentos": [
+      {"niveles": "10-14", "puntos": "5/5 Thundering Strikes", "nota": {"es": "5 % de crítico con todo: lo notas desde el primer golpe.", "en": "5% crit on everything: you feel it from the first swing."}},
+      {"niveles": "15-19", "puntos": "2/2 Improved Ghost Wolf, 3/3 Mental Dexterity", "nota": {"es": "Ghost Wolf instantáneo listo para el 20; Mental Dexterity convierte todo tu Intelecto en poder de ataque.", "en": "Instant Ghost Wolf ready for level 20; Mental Dexterity turns all your Intellect into attack power."}},
+      {"niveles": "20-23", "puntos": "3/3 Elemental Weapons, 1/1 Shamanistic Focus", "nota": {"es": "Más daño de Rockbiter y Windfury, y choques y Lightning Shield un 45 % más baratos.", "en": "More Rockbiter and Windfury damage, and Shocks and Lightning Shield 45% cheaper."}},
+      {"niveles": "24-25", "puntos": "1/5 Ancestral Knowledge, 1/1 Stormstrike", "nota": {"es": "El punto del 24 solo sirve para abrir la fila 4; al 25, Stormstrike, tu golpe principal.", "en": "The level 24 point just opens row 4; at 25, Stormstrike, your main strike."}},
+      {"niveles": "26-30", "puntos": "5/5 Flurry", "nota": {"es": "Tras cada crítico, golpes mucho más rápidos. Encaja con Windfury Weapon al 30.", "en": "Much faster swings after every crit. Pairs with Windfury Weapon at 30."}},
+      {"niveles": "31-34", "puntos": "2/2 Mental Quickness, 2/2 Improved Stormstrike", "nota": {"es": "Más poder de hechizo para tus curas y choques, y maná mientras lanzas tras cada Stormstrike.", "en": "More spell power for heals and Shocks, and mana regen while casting after each Stormstrike."}},
+      {"niveles": "35-39", "puntos": "5/5 Maelstrom Weapon", "nota": {"es": "Cada golpe puede cargar un acumulador; a 5 cargas, Lightning Bolt instantáneo y gratis.", "en": "Melee hits can add a stack; at 5 stacks, an instant, free Lightning Bolt."}},
+      {"niveles": "40-42", "puntos": "1/1 Rage of the Farseer, 1/1 Spirit Weapons, 2/5 Ancestral Knowledge", "nota": {"es": "Rage of the Farseer para combates duros; Spirit Weapons añade parada y menos amenaza (sin Rockbiter activo).", "en": "Rage of the Farseer for hard fights; Spirit Weapons adds parry and lower threat (without Rockbiter active)."}},
+      {"niveles": "43-52", "puntos": "5/5 Concussion, 5/5 Reverberation", "nota": {"es": "Ya en Elemental: más daño de Lightning Bolt y Earth Shock, y choques con menos tiempo de reutilización.", "en": "Now in Elemental: more Lightning Bolt and Earth Shock damage, and shorter Shock cooldowns."}},
+      {"niveles": "53-60", "puntos": "3/3 Call of Flame, 3/3 Elemental Alacrity, 2/2 Trial by Fire", "nota": {"es": "Más daño de Flame Shock, Searing Totem y Fire Nova, y rayos más rápidos.", "en": "More Flame Shock, Searing Totem and Fire Nova damage, and faster bolts."}}
+    ],
+    "habilidades": [
+      {"nivel": 1, "nombre": "Rockbiter Weapon", "nuevo": false, "texto": {"es": "Imbuición de arma con poder de ataque; ahora dura 60 minutos. La mejor hasta el 30.", "en": "Weapon imbue that adds attack power; now lasts 60 minutes. The best one until 30."}},
+      {"nivel": 1, "nombre": "Lightning Bolt", "nuevo": false, "texto": {"es": "Rayo para iniciar el combate; en Forever los rangos altos se lanzan en 2,5 s.", "en": "Opening bolt; in Forever its higher ranks cast in 2.5 sec."}},
+      {"nivel": 4, "nombre": "Earth Shock", "nuevo": false, "texto": {"es": "Daño instantáneo que además interrumpe hechizos. Guárdalo para cortar curas.", "en": "Instant damage that also interrupts. Save it to stop heals."}},
+      {"nivel": 4, "nombre": "Stoneskin Totem", "nuevo": false, "texto": {"es": "Primer tótem, de la misión de tierra. Reduce el daño físico del grupo.", "en": "Your first totem, from the Earth quest. Reduces physical damage taken by the group."}},
+      {"nivel": 6, "nombre": "Earthbind Totem", "nuevo": false, "texto": {"es": "Ralentiza a los enemigos cercanos: tu mejor herramienta para huir o rematar a quien escapa.", "en": "Slows nearby enemies: your best tool to escape or finish off runners."}},
+      {"nivel": 8, "nombre": "Lightning Shield", "nuevo": false, "texto": {"es": "Esferas que dañan a quien te golpea. Tenlo siempre puesto.", "en": "Orbs that damage whoever hits you. Keep it up at all times."}},
+      {"nivel": 10, "nombre": "Flame Shock", "nuevo": false, "texto": {"es": "Daño de fuego al momento y en el tiempo. Ponlo a enemigos que vayan a durar.", "en": "Instant fire damage plus a DoT. Use it on enemies that will live a while."}},
+      {"nivel": 10, "nombre": "Searing Totem", "nuevo": false, "texto": {"es": "Tótem de fuego (misión de fuego) que dispara al enemigo. Daño gratis en cada combate.", "en": "Fire totem (Fire quest) that shoots your target. Free damage every fight."}},
+      {"nivel": 10, "nombre": "Strength of Earth Totem", "nuevo": false, "texto": {"es": "Más fuerza para ti y tu grupo; ahora llega a toda la banda.", "en": "More strength for you and your group; now raid-wide."}},
+      {"nivel": 12, "nombre": "Fire Nova", "nuevo": true, "texto": {"es": "Ya no es un tótem: es un hechizo instantáneo que explota alrededor de tu tótem de fuego activo.", "en": "No longer a totem: an instant spell that explodes around your active Fire totem."}},
+      {"nivel": 12, "nombre": "Purge", "nuevo": false, "texto": {"es": "Quita un efecto mágico al enemigo. Clave contra paladines y sacerdotes.", "en": "Removes a magic effect from an enemy. Key against Paladins and Priests."}},
+      {"nivel": 18, "nombre": "Tremor Totem", "nuevo": false, "texto": {"es": "Quita miedo, hechizo y sueño al grupo. Imprescindible contra brujos y sacerdotes.", "en": "Removes fear, charm and sleep from the group. A must against Warlocks and Priests."}},
+      {"nivel": 20, "nombre": "Ghost Wolf", "nuevo": false, "texto": {"es": "Forma de lobo con un 40 % más de velocidad, para viajar hasta tener montura.", "en": "Wolf form with 40% more speed, for travel until you get a mount."}},
+      {"nivel": 20, "nombre": "Call of the Elements", "nuevo": true, "texto": {"es": "Pone hasta 4 tótems guardados en la barra de tótems con un solo lanzamiento de 3 s.", "en": "Drops up to 4 totems saved on your Totem Bar in one 3 sec cast."}},
+      {"nivel": 20, "nombre": "Totemic Recall", "nuevo": true, "texto": {"es": "Recoge tus tótems y te devuelve un 25 % del maná que costaron.", "en": "Recalls your totems and refunds 25% of their mana cost."}},
+      {"nivel": 20, "nombre": "Healing Stream Totem", "nuevo": false, "texto": {"es": "Tótem de agua (misión de agua) que cura al grupo poco a poco.", "en": "Water totem (Water quest) that heals the group over time."}},
+      {"nivel": 22, "nombre": "Totemic Projection", "nuevo": true, "texto": {"es": "Mueve tus tótems activos a un punto a 30 m sin volver a lanzarlos.", "en": "Moves your active totems to a spot up to 30 yd away without recasting them."}},
+      {"nivel": 25, "nombre": "Stormstrike", "nuevo": false, "texto": {"es": "Talento: golpe con el arma que sube un 20 % el daño de tu siguiente Lightning Bolt, Chain Lightning o Earth Shock.", "en": "Talent: a weapon strike that makes your next Lightning Bolt, Chain Lightning or Earth Shock deal 20% more."}},
+      {"nivel": 26, "nombre": "Magma Totem", "nuevo": false, "texto": {"es": "Tótem de fuego que daña a todo lo que tenga cerca. Para grupos de enemigos.", "en": "Fire totem that damages everything near it. For packs."}},
+      {"nivel": 26, "nombre": "Mana Spring Totem", "nuevo": false, "texto": {"es": "Devuelve maná al grupo; úsalo solo si vas a quedarte cerca.", "en": "Restores mana to the group; only use it if you will stay nearby."}},
+      {"nivel": 30, "nombre": "Windfury Weapon", "nuevo": false, "texto": {"es": "La imbuición que más daño hace con un arma lenta de dos manos.", "en": "The strongest imbue on a slow two-hander."}},
+      {"nivel": 30, "nombre": "Call of the Ancestors", "nuevo": true, "texto": {"es": "Segundo juego de 4 tótems guardado (por ejemplo, uno para grupo y otro para jugar solo).", "en": "A second saved set of 4 totems (for example, one for groups and one for solo)."}},
+      {"nivel": 30, "nombre": "Reincarnation", "nuevo": false, "texto": {"es": "Te levantas tras morir; necesitas un Ankh en la bolsa.", "en": "Get back up after dying; needs an Ankh in your bags."}},
+      {"nivel": 30, "nombre": "Lava Burst", "nuevo": true, "texto": {"es": "Talento Elemental: golpe de lava que pega un 20 % más si el objetivo tiene Flame Shock.", "en": "Elemental talent: a lava blast that deals 20% more on a Flame Shocked target."}},
+      {"nivel": 32, "nombre": "Windfury Totem", "nuevo": false, "texto": {"es": "Da golpes extra a los cuerpo a cuerpo del grupo. No se combina con Flametongue Totem.", "en": "Grants extra attacks to the group's melee. Does not stack with Flametongue Totem."}},
+      {"nivel": 32, "nombre": "Chain Lightning", "nuevo": false, "texto": {"es": "Rayo que salta a 3 objetivos; en Forever es más rápido y bastante más barato.", "en": "A bolt that jumps to 3 targets; faster and much cheaper in Forever."}},
+      {"nivel": 35, "nombre": "Maelstrom Weapon", "nuevo": true, "texto": {"es": "Talento Enhancement: a 5 cargas, tu siguiente Lightning Bolt es instantáneo y gratis.", "en": "Enhancement talent: at 5 stacks, your next Lightning Bolt is instant and free."}},
+      {"nivel": 40, "nombre": "Rage of the Farseer", "nuevo": true, "texto": {"es": "Talento final de Enhancement: +30 % de velocidad de ataque durante 25 s, cada 3 minutos.", "en": "Enhancement capstone: +30% attack speed for 25 sec, every 3 minutes."}},
+      {"nivel": 40, "nombre": "Call of the Spirits", "nuevo": true, "texto": {"es": "Tercer juego de 4 tótems guardado.", "en": "A third saved set of 4 totems."}},
+      {"nivel": 40, "nombre": "Riptide", "nuevo": true, "texto": {"es": "Talento final de Restoration: cura instantánea más cura en el tiempo; mejora tu Chain Heal sobre ese objetivo.", "en": "Restoration capstone: instant heal plus a HoT; boosts your Chain Heal on that target."}}
+    ],
+    "rotacion": [
+      {"es": "Antes de nada: Lightning Shield y la imbuición del arma (Rockbiter hasta el 30, Windfury después).", "en": "Before anything: Lightning Shield and your weapon imbue (Rockbiter until 30, Windfury after)."},
+      {"es": "Empieza con Lightning Bolt o acércate andando y pon Searing Totem (y Strength of Earth Totem si el combate va a ser largo).", "en": "Open with Lightning Bolt or walk in, and drop Searing Totem (plus Strength of Earth Totem for longer fights)."},
+      {"es": "Flame Shock al enemigo si va a durar; si ya lo tiene, Earth Shock. Guarda Earth Shock si el enemigo lanza curas.", "en": "Flame Shock the target if it will last; if it already has it, Earth Shock. Hold Earth Shock if the enemy casts heals."},
+      {"es": "Desde el 25: Stormstrike en cuanto esté listo y, justo después, Earth Shock o Lightning Bolt para aprovechar el 20 %.", "en": "From 25: Stormstrike on cooldown, then Earth Shock or Lightning Bolt to cash in the 20%."},
+      {"es": "Desde el 35: con 5 cargas de Maelstrom Weapon, Lightning Bolt instantáneo (mejor justo después de Stormstrike).", "en": "From 35: at 5 Maelstrom Weapon stacks, instant Lightning Bolt (ideally right after Stormstrike)."},
+      {"es": "Varios enemigos: Magma Totem (26) y Fire Nova, que explota alrededor de tu tótem de fuego.", "en": "Several enemies: Magma Totem (26) and Fire Nova, which explodes around your Fire totem."},
+      {"es": "Desde el 40: Rage of the Farseer en combates difíciles o al encadenar varios enemigos.", "en": "From 40: Rage of the Farseer for hard fights or chained pulls."}
+    ],
+    "extra": {
+      "titulo": {"es": "Misiones de tótems (tierra, fuego, agua y aire)", "en": "Totem quests (Earth, Fire, Water and Air)"},
+      "items": [
+        {"es": "Los tótems de cada elemento (Earth Totem, Fire Totem, Water Totem, Air Totem) tienen que estar en tu bolsa para lanzar los tótems de ese elemento. Sin la misión, no hay tótems de ese tipo.", "en": "Each element's item (Earth Totem, Fire Totem, Water Totem, Air Totem) must be in your bags to cast that element's totems. No quest, no totems of that kind."},
+        {"es": "<b>Tierra, nivel 4</b> (célicos, nivel 3 en la Isla de Zephras). Call of Earth te la da el instructor de tu zona de inicio. Enano: Teo Hammerstorm en Anvilmar (Dun Morogh); bebes Earth Sapta en la piedra del espíritu y vences a una manifestación de tierra. Premio: Earth Totem y Stoneskin Totem.", "en": "<b>Earth, level 4</b> (Skyborne: level 3 on Zephras Isle). Call of Earth comes from your starting zone trainer. Dwarf: Teo Hammerstorm in Anvilmar (Dun Morogh); drink Earth Sapta at the spirit stone and defeat an earth manifestation. Reward: Earth Totem and Stoneskin Totem."},
+        {"es": "<b>Fuego, nivel 10</b>. Call of Fire, en varias partes. Enano: empieza con Bruegs Kindleborn (Dun Morogh) y sigue con Braldir Ashmantle en Loch Modan; hay troggs de hasta nivel 14, así que ve con cuidado o en grupo. Premio: Fire Totem y Searing Totem. Es la más importante: de ella dependen Searing Totem y Fire Nova (12).", "en": "<b>Fire, level 10</b>. Call of Fire, in several parts. Dwarf: starts with Bruegs Kindleborn (Dun Morogh) and continues with Braldir Ashmantle in Loch Modan; troggs go up to level 14, so be careful or bring a friend. Reward: Fire Totem and Searing Totem. The most important one: Searing Totem and Fire Nova (12) depend on it."},
+        {"es": "<b>Agua, nivel 20</b>. Call of Water, larga y con muchos viajes. Enano: Norric Lochthane (Loch Modan) y Hervdana Saegrund (Humedales); muestras de agua en Crestagrana y Vallefresno y el último paso en Páramos de Poniente. Premio: Water Totem y Healing Stream Totem. Si te atasca, hazla un poco más tarde.", "en": "<b>Water, level 20</b>. Call of Water, long and travel-heavy. Dwarf: Norric Lochthane (Loch Modan) and Hervdana Saegrund (Wetlands); water samples in Redridge and Ashenvale and the last step in Westfall. Reward: Water Totem and Healing Stream Totem. If it slows you down, do it a bit later."},
+        {"es": "<b>Aire, nivel 30</b>. Call of Air, la empieza tu instructor. Enano: hay que llegar a Veyric en las Tierras Altas de Arathi. Premio: Air Totem (Grounding Totem, Windfury Totem, Grace of Air Totem…).", "en": "<b>Air, level 30</b>. Call of Air, started by your trainer. Dwarf: reach Veyric in the Arathi Highlands. Reward: Air Totem (Grounding Totem, Windfury Totem, Grace of Air Totem…)."},
+        {"es": "Después del aire sigue una cadena de clase de nivel 30-40 (Razorfen Kraul, tótems retorcidos de «Storm, Earth, and Fire», Alterac) que da un arma según tu rama: Rage of the Storm (Enhancement), Lightning's Grasp (Elemental) o Tidebringer's Claw (Restoration). Las últimas partes son de nivel 40: mejor en grupo.", "en": "After Air comes a level 30-40 class chain (Razorfen Kraul, twisted totems for \"Storm, Earth, and Fire\", Alterac) that rewards a weapon for your spec: Rage of the Storm (Enhancement), Lightning's Grasp (Elemental) or Tidebringer's Claw (Restoration). The last steps are level 40: bring a group."},
+        {"es": "Horda (orco, trol, tauren): las misiones van en sus zonas de inicio y capitales como en Classic (agua desde Orgrimmar o Cima del Trueno). Los pasos exactos en Forever aún no están publicados: sigue lo que diga el juego.", "en": "Horde (Orc, Troll, Tauren): the quests run through their starting zones and capitals as in Classic (Water from Orgrimmar or Thunder Bluff). The exact Forever steps are not published yet: follow the in-game quest."}
+      ]
+    },
+    "consejos": [
+      {"es": "Configura la barra de tótems al 20: un juego para jugar solo (Searing + Strength of Earth) y otro para grupo. Con Call of the Elements los pones de una vez.", "en": "Set up the Totem Bar at 20: one set for solo play (Searing + Strength of Earth) and one for groups. Call of the Elements drops them all at once."},
+      {"es": "Los tótems duran 5 minutos: no los pongas si no los vas a usar. Totemic Recall te devuelve parte del maná y Totemic Projection los mueve al siguiente combate.", "en": "Totems last 5 minutes: don't drop them if you won't use them. Totemic Recall refunds some mana and Totemic Projection moves them to the next fight."},
+      {"es": "Ya no se puede alternar tótems para sumar efectos (totem twisting): Grace of Air Totem ya se combina con Windfury o Flametongue Totem.", "en": "Totem twisting is gone: Grace of Air Totem now stacks with Windfury or Flametongue Totem directly."},
+      {"es": "Las imbuiciones duran 60 minutos y, según las guías, se pueden combinar con piedras de afilar o aceites.", "en": "Imbues last 60 minutes and, according to guides, can be combined with sharpening stones or oils."},
+      {"es": "Lleva siempre un Ankh para Reincarnation y usa Astral Recall (15 minutos de reutilización) como segunda piedra de hogar.", "en": "Always carry an Ankh for Reincarnation and use Astral Recall (15 minute cooldown) as a second hearthstone."},
+      {"es": "Primeros auxilios y vendas te ahorran mucho maná entre combates.", "en": "First Aid and bandages save a lot of mana between fights."},
+      {"es": "En mazmorras puedes tanquear con escudo y Rockbiter: Earth Shock genera mucha amenaza. No tienes provocar.", "en": "In dungeons you can tank with a shield and Rockbiter: Earth Shock builds lots of threat. You have no taunt."},
+      {"es": "La malla llega al nivel 40; hasta entonces, cuero.", "en": "Mail unlocks at level 40; leather until then."}
+    ],
+    "hitos": [
+      {"nivel": "4", "texto": {"es": "Earth Shock y misión de tierra (Stoneskin Totem).", "en": "Earth Shock and the Earth quest (Stoneskin Totem)."}},
+      {"nivel": "10", "texto": {"es": "Primer talento, Flame Shock y misión de fuego (Searing Totem).", "en": "First talent, Flame Shock and the Fire quest (Searing Totem)."}},
+      {"nivel": "12", "texto": {"es": "Fire Nova: ya puedes con grupos pequeños de enemigos.", "en": "Fire Nova: small packs become doable."}},
+      {"nivel": "20", "texto": {"es": "Ghost Wolf, Call of the Elements, Totemic Recall, Frost Shock y misión de agua.", "en": "Ghost Wolf, Call of the Elements, Totemic Recall, Frost Shock and the Water quest."}},
+      {"nivel": "25", "texto": {"es": "Stormstrike: el gran salto de daño.", "en": "Stormstrike: the big damage jump."}},
+      {"nivel": "30", "texto": {"es": "Windfury Weapon, Reincarnation, Call of the Ancestors y misión de aire.", "en": "Windfury Weapon, Reincarnation, Call of the Ancestors and the Air quest."}},
+      {"nivel": "32", "texto": {"es": "Windfury Totem y Chain Lightning.", "en": "Windfury Totem and Chain Lightning."}},
+      {"nivel": "39", "texto": {"es": "Maelstrom Weapon completo: Lightning Bolt instantáneo y gratis.", "en": "Maelstrom Weapon complete: instant, free Lightning Bolt."}},
+      {"nivel": "40", "texto": {"es": "Malla, montura, doble especialización, Rage of the Farseer, Chain Heal y Call of the Spirits.", "en": "Mail, mount, dual spec, Rage of the Farseer, Chain Heal and Call of the Spirits."}},
+      {"nivel": "60", "texto": {"es": "Últimos rangos (Lightning Bolt 10 llega al 56) y montura rápida.", "en": "Final ranks (Lightning Bolt rank 10 comes at 56) and fast mount."}}
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "Al 60 se sabe qué talentos hay y cómo funcionan (cliente de la beta), pero nadie ha jugado aún contenido de 60 de Forever: las bandas llegan el 9-12. Los repartos más planificados en la calculadora son Enhancement 18/33/0, Restoration 0/10/41 y Elemental 38/13/0. Las prioridades de estadísticas son una primera aproximación de las guías y cambiarán con el equipo real.",
+      "en": "At 60 we know which talents exist and how they work (beta client), but nobody has played Forever's level 60 content yet: raids arrive on December 9. The most planned builds on the calculator are Enhancement 18/33/0, Restoration 0/10/41 and Elemental 38/13/0. Stat priorities are a first estimate from the guides and will change once real gear is out."
+    },
+    "ramas": [
+      {"nombre": "Enhancement", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
+       "estadisticas": [
+         {"es": "Golpe (Hit) primero, hasta no fallar contra jefes.", "en": "Hit first, until you stop missing bosses."},
+         {"es": "Después Fuerza e Intelecto: con Mental Dexterity el Intelecto da tanto poder de ataque como la Fuerza, y además maná. Hay guías que ya lo ponen por delante.", "en": "Then Strength and Intellect: with Mental Dexterity, Intellect gives as much attack power as Strength, plus mana. Some guides already rank it higher."},
+         {"es": "Luego crítico (alimenta Flurry) y Agilidad.", "en": "Then crit (feeds Flurry) and Agility."}
+       ],
+       "rotacion": [
+         {"es": "Windfury Weapon y tótems con Call of the Elements: Strength of Earth, Mana Spring, Searing y Windfury o Grace of Air.", "en": "Windfury Weapon and totems via Call of the Elements: Strength of Earth, Mana Spring, Searing and Windfury or Grace of Air."},
+         {"es": "Rage of the Farseer junto a abalorios y raciales (Blood Fury, Berserking).", "en": "Rage of the Farseer together with trinkets and racials (Blood Fury, Berserking)."},
+         {"es": "Lightning Bolt cuando tengas 5 cargas de Maelstrom Weapon.", "en": "Lightning Bolt at 5 Maelstrom Weapon stacks."},
+         {"es": "Stormstrike en cuanto esté listo.", "en": "Stormstrike on cooldown."},
+         {"es": "Flame Shock si no está puesto; si lo está, Earth Shock.", "en": "Flame Shock if it is missing; otherwise Earth Shock."},
+         {"es": "Fire Nova cuando no haya nada más.", "en": "Fire Nova when nothing else is ready."}
+       ],
+       "consumibles": [
+         {"es": "Comida con Well Fed y elixires de Fuerza o Agilidad (Alquimia).", "en": "Well Fed food and Strength or Agility elixirs (Alchemy)."},
+         {"es": "Piedra de afilar o de peso sobre el arma, compatible con la imbuición.", "en": "A sharpening stone or weightstone on your weapon, which works alongside the imbue."},
+         {"es": "Pociones de maná para combates largos.", "en": "Mana potions for long fights."}
+       ]},
+      {"nombre": "Elemental", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
+       "estadisticas": [
+         {"es": "Poder de hechizo y golpe con hechizos (Hit) arriba; las guías no se ponen de acuerdo en el orden entre los dos.", "en": "Spell power and spell hit at the top; guides disagree on which comes first."},
+         {"es": "Después celeridad, Intelecto y crítico (Elemental Fury duplica la bonificación de los críticos).", "en": "Then haste, Intellect and crit (Elemental Fury doubles the crit bonus)."},
+         {"es": "Maná cada 5 s y Espíritu si te quedas sin maná.", "en": "MP5 and Spirit if you run out of mana."}
+       ],
+       "rotacion": [
+         {"es": "Flame Shock siempre puesto en el objetivo.", "en": "Keep Flame Shock on the target."},
+         {"es": "Elemental Mastery junto a Berserking o Blood Fury.", "en": "Elemental Mastery together with Berserking or Blood Fury."},
+         {"es": "Lava Burst en cuanto esté listo (con Flame Shock pega un 20 % más).", "en": "Lava Burst whenever it is ready (20% more with Flame Shock up)."},
+         {"es": "Lightning Bolt de relleno; Chain Lightning con varios enemigos (sin reutilización durante Elemental Mastery).", "en": "Lightning Bolt as filler; Chain Lightning on several enemies (no cooldown during Elemental Mastery)."},
+         {"es": "Con Clearcasting (Elemental Focus), gástalo en Lava Burst o Earth Shock, los más caros.", "en": "With Clearcasting (Elemental Focus), spend it on Lava Burst or Earth Shock, the pricier spells."}
+       ],
+       "consumibles": [
+         {"es": "Las guías apuntan a Flask of Supreme Power y Brilliant Wizard Oil, como en Classic (sin confirmar en Forever).", "en": "Guides point to Flask of Supreme Power and Brilliant Wizard Oil, as in Classic (unconfirmed in Forever)."},
+         {"es": "Pociones de maná y comida con Well Fed.", "en": "Mana potions and Well Fed food."}
+       ]},
+      {"nombre": "Restoration", "rol": {"es": "Sanador", "en": "Healer"},
+       "estadisticas": [
+         {"es": "Poder de curación primero.", "en": "Healing power first."},
+         {"es": "Después Intelecto, maná cada 5 s y Espíritu (Mindfulness deja que la mitad siga mientras lanzas).", "en": "Then Intellect, MP5 and Spirit (Mindfulness keeps half of it while casting)."},
+         {"es": "Celeridad y crítico al final (el crítico activa Ancestral Healing y Water Shield).", "en": "Haste and crit last (crits trigger Ancestral Healing and Water Shield)."}
+       ],
+       "rotacion": [
+         {"es": "Water Shield siempre puesto.", "en": "Keep Water Shield up."},
+         {"es": "Riptide en el tanque o en quien vaya a recibir daño, y Chain Heal sobre ese objetivo (25 % más).", "en": "Riptide on the tank or whoever is about to take damage, then Chain Heal on that target (25% more)."},
+         {"es": "Healing Wave para curas grandes y Lesser Healing Wave para urgencias.", "en": "Healing Wave for big heals and Lesser Healing Wave for emergencies."},
+         {"es": "Nature's Swiftness + Healing Wave cuando alguien va a morir.", "en": "Nature's Swiftness + Healing Wave when someone is about to die."},
+         {"es": "Mana Tide Totem cuando el grupo se quede sin maná; Tremor Totem si hay miedos.", "en": "Mana Tide Totem when the group runs low; Tremor Totem against fears."}
+       ],
+       "consumibles": [
+         {"es": "Pociones de maná, elixires de maná y comida con Well Fed.", "en": "Mana potions, mana elixirs and Well Fed food."},
+         {"es": "Aceite de maná sobre el arma si existe en Forever (pendiente de confirmar).", "en": "Mana oil on your weapon if Forever keeps it (to be confirmed)."}
+       ]}
+    ],
+    "equipo": {
+      "es": "Aún no hay listas de mejor equipo de Forever: el botín de mazmorras está renovado y las bandas abren el 9-12. Mientras, busca armas de la cadena de clase del 30-40 (Rage of the Storm, Lightning's Grasp, Tidebringer's Claw) y de mazmorra. Enhancement: arma de dos manos lenta, golpe, Fuerza e Intelecto. Elemental y Restoration: arma de una mano y escudo u objeto de mano izquierda con poder de hechizo o de curación, e Intelecto. Recuerda que llevas malla desde el 40.",
+      "en": "There are no Forever best-in-slot lists yet: dungeon loot has been redone and raids open on December 9. Meanwhile, look for weapons from the level 30-40 class chain (Rage of the Storm, Lightning's Grasp, Tidebringer's Claw) and from dungeons. Enhancement: a slow two-hander, hit, Strength and Intellect. Elemental and Restoration: a one-hander plus shield or off-hand with spell or healing power, and Intellect. Remember you wear mail from 40."
+    }
+  },
+  "pvp": [
+    {"es": "Earth Shock corta un hechizo y bloquea esa escuela 2 s: guárdalo para la cura o el miedo decisivo, no lo gastes en daño.", "en": "Earth Shock interrupts and locks that school for 2 sec: save it for the key heal or fear, don't waste it on damage."},
+    {"es": "Purge contra paladines, sacerdotes y magos: quitar un escudo o una bendición cambia el combate.", "en": "Purge Paladins, Priests and Mages: removing a shield or blessing turns the fight."},
+    {"es": "Tremor Totem contra brujos y sacerdotes y Grounding Totem contra hechizos de control; con Totemic Projection los recolocas sin volver a lanzarlos.", "en": "Tremor Totem against Warlocks and Priests, Grounding Totem against crowd control spells; Totemic Projection repositions them without recasting."},
+    {"es": "No tienes control fuerte: Frost Shock y Earthbind Totem (con Earthbound, inmovilización de 5 s) son tu forma de ganar distancia.", "en": "You lack hard CC: Frost Shock and Earthbind Totem (with Earthbound, a 5 sec root) are how you gain distance."},
+    {"es": "Enhancement: Stormstrike + Lightning Bolt instantáneo de Maelstrom Weapon + Rage of the Farseer es tu ventana de daño; úsala cuando el rival haya gastado sus defensas.", "en": "Enhancement: Stormstrike + instant Maelstrom Lightning Bolt + Rage of the Farseer is your burst window; use it once the enemy has spent their defenses."},
+    {"es": "Ghost Wolf instantáneo (Improved Ghost Wolf) para perseguir o escapar en campos de batalla.", "en": "Instant Ghost Wolf (Improved Ghost Wolf) to chase or escape in battlegrounds."},
+    {"es": "En el campo de batalla de 15 contra 15, tus tótems de grupo (Windfury, Strength of Earth, Healing Stream) valen tanto como tu daño: quédate con tu grupo.", "en": "In the 15v15 battleground your group totems (Windfury, Strength of Earth, Healing Stream) are worth as much as your damage: stay with your group."}
+  ],
+  "profesiones": [
+    {"nombre": {"es": "Peletería + Desuello", "en": "Leatherworking + Skinning"}, "por_que": {"es": "Llevas cuero hasta el 40 y malla después: puedes hacerte tu propio equipo, y además objetos de campamento.", "en": "You wear leather until 40 and mail after: you can craft your own gear, plus camp items."}},
+    {"nombre": {"es": "Minería + Herrería", "en": "Mining + Blacksmithing"}, "por_que": {"es": "Piedras de afilar y de peso para tu arma, y armas de dos manos de herrero como Stormcarver (300).", "en": "Sharpening stones and weightstones for your weapon, and crafted two-handers like Stormcarver (300)."}},
+    {"nombre": {"es": "Encantamiento", "en": "Enchanting"}, "por_que": {"es": "Encantas tu propia arma y fabricas el Polished Driftwood Icon, un objeto ligado con una bonificación que no se consigue de otra forma.", "en": "Enchant your own weapon and craft the Polished Driftwood Icon, a bound item with a bonus you can't get any other way."}},
+    {"nombre": {"es": "Herboristería + Alquimia", "en": "Herbalism + Alchemy"}, "por_que": {"es": "Pociones de maná y elixires: el chamán vive de su maná.", "en": "Mana potions and elixirs: the Shaman lives on mana."}}
+  ],
+  "pendiente": [
+    {"es": "Talentos, rangos y cifras son del cliente de la beta y de sus notas: pueden cambiar al salir el 4-11.", "en": "Talents, ranks and numbers come from the beta client and notes: they may change at launch on November 4."},
+    {"es": "Racial del enano: las notas de Blizzard hablan de Earth Fury (2 % de daño crítico), pero los datos del cliente muestran Artisan's Precision (1 % de golpe). Lo confirmaremos en el juego.", "en": "Dwarf racial: Blizzard's notes mention Earth Fury (2% crit damage), but the client data shows Artisan's Precision (1% hit). We'll confirm it in game."},
+    {"es": "Pasos exactos de las misiones de tótems de la Horda y de los célicos en Forever (solo están publicadas las del enano).", "en": "Exact Horde and Skyborne totem quest steps in Forever (only the Dwarf ones are published)."},
+    {"es": "Equipo y prioridades de estadísticas reales de nivel 60 (bandas el 9-12).", "en": "Real level 60 gear and stat priorities (raids on December 9)."},
+    {"es": "Si Enhancement debe priorizar Intelecto o Fuerza al 60, y si el chamán puede tanquear de verdad a ese nivel.", "en": "Whether Enhancement should favor Intellect or Strength at 60, and whether Shamans can truly tank at that level."}
+  ],
+  "fuentes": [
+    {"nombre": "Talents Forever (cliente de la beta, CC BY 4.0)", "url": "https://talentsforever.com/shaman"},
+    {"nombre": "Blizzard: lanzamiento de WoW Forever", "url": "https://news.blizzard.com/en-us/article/24302093/"},
+    {"nombre": "Blizzard: célicos y la Isla de Zephras", "url": "https://news.blizzard.com/es-es/article/24302071"},
+    {"nombre": "Warcraft Tavern: guía de subida del chamán", "url": "https://www.warcrafttavern.com/forever/guides/shaman-leveling/"},
+    {"nombre": "Warcraft Tavern: guía del chamán", "url": "https://www.warcrafttavern.com/forever/guides/shaman/"},
+    {"nombre": "Warcraft Tavern: misiones de tótems del enano", "url": "https://www.warcrafttavern.com/forever/guides/dwarf-shaman-totem-quests/"},
+    {"nombre": "Method: subir de nivel con chamán", "url": "https://www.method.gg/wow-forever/wow-forever-shaman-leveling-guide-and-talents"},
+    {"nombre": "Zockify: chamán de Forever", "url": "https://www.zockify.com/forever/shaman/"},
+    {"nombre": "Zockify: subida del chamán", "url": "https://www.zockify.com/forever/shaman/leveling/"},
+    {"nombre": "wow.gg: Restoration en la beta", "url": "https://wow.gg/guides/wow-forever-restoration-shaman-beta"},
+    {"nombre": "WoWTBC.gg: Enhancement en Forever", "url": "https://wowtbc.gg/warcraftforever/class-guides/enhancement-shaman/"}
+  ]
+}

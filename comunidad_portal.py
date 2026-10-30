@@ -274,7 +274,7 @@ table.keys{border-collapse:collapse;width:100%;margin:10px 0}.keys th,.keys td{p
 .news-card:hover{box-shadow:0 0 24px #3ddc8444}.news-card.home-reserva{text-align:center;padding-top:30px;margin:0 0 26px;border-color:#c99a3c;background:linear-gradient(120deg,#2a2210,#0b0d12 70%)}.news-card.home-reserva:hover{box-shadow:0 0 24px #e8b84a44}.news-card.home-reserva .eyebrow{color:#e8b84a}.news-card.home-reserva>span:last-child{display:flex;flex-direction:column;align-items:center}.news-card.home-reserva p{max-width:720px;margin-left:auto;margin-right:auto}.news-card.home-reserva .badge-new{background:#8a5a12}.news-card h3{margin:4px 0 6px;font-size:22px;color:#fff}.news-card p{color:#d7f3e2}.news-card .eyebrow{color:#7ee0a0;margin:0}
 .badge-new{position:absolute;top:-11px;right:18px;padding:3px 10px;border-radius:4px;background:#c81e1e;color:#fff;font:700 12px "Segoe UI",sans-serif;letter-spacing:.08em}
 @media(max-width:700px){.facts{grid-template-columns:1fr}.beta-face{width:72px;height:72px}}
-main{overflow-x:clip}''' + __import__('forever_portal').CSS + __import__('macros_portal').CSS + '''
+main{overflow-x:clip}''' + __import__('forever_portal').CSS + __import__('guias_portal').CSS + __import__('macros_portal').CSS + '''
 footer.site-foot{position:relative;margin:64px calc(50% - 50vw) -72px;padding:44px 0 28px;border-top:1px solid var(--gold-line);font-size:14px;color:#aab4c4;
 background:linear-gradient(180deg,#0b0e15f2,#05070bfa),url("{base}assets/horde.png") center 30%/cover;box-shadow:inset 0 1px 0 #f3c76a1f}
 footer.site-foot:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,transparent,#c99a3c,transparent)}
@@ -507,7 +507,7 @@ def reserva_page():
             '<strong>nombre y apellido</strong>, y la combinación tiene que ser única en toda Europa. Te contamos cómo funciona, quién puede reservar y cómo hacerlo.</p>'
             '<div class="tfo-stats"><div><b data-countdown="2026-10-27">27 oct</b><span>para la reserva</span></div><div><b>3</b><span>personajes por cuenta</span></div>'
             '<div><b>Nombre + apellido</b><span>únicos en la región</span></div><div><b>5 nov</b><span>lanzamiento</span></div></div>'
-            '<div class="prepare" style="border-color:#5fd38a"><h3>✅ Ya funciona (desde la noche del 27)</h3><p>La reserva abrió con retraso el martes por la noche, tras unos problemas técnicos. Si te da algún problema, mira esto antes de nada:</p><ul><li><strong>Horda bloqueada en JcJ:</strong> Blizzard está frenando la creación de personajes de la Horda en las reglas JcJ porque hay muchos más que de la Alianza. Es temporal: vuelve a probar más tarde o elige otras reglas.</li><li><strong>«Ese nombre está restringido»:</strong> están bloqueados los nombres de personajes de la historia (Fordring, Proudmoore…). Además, por un fallo, se bloqueaban nombres normales, como los que llevan «con». Blizzard lo arregla con el próximo reinicio de los servidores: si te pasó, vuelve a intentarlo después.</li><li><strong>Los nombres valen para todas las reglas:</strong> si alguien coge un nombre en Normal, nadie lo puede usar tampoco en JcJ ni en Rol.</li><li><strong>«Estas reglas no están disponibles temporalmente»:</strong> espera un rato y vuelve a probar.</li></ul></div>'
+            '<div class="prepare" style="border-color:#5fd38a"><h3>✅ Ya funciona (desde la noche del 27)</h3><p>La reserva abrió con retraso el martes por la noche, tras unos problemas técnicos. Si te da algún problema, mira esto antes de nada:</p><ul><li><strong>Horda bloqueada en JcJ:</strong> Blizzard está frenando la creación de personajes de la Horda en las reglas JcJ porque hay muchos más que de la Alianza. Es temporal: vuelve a probar más tarde o elige otras reglas.</li><li><strong>«Ese nombre está restringido»:</strong> están bloqueados los nombres de personajes de la historia (Fordring, Proudmoore…). Además, por un fallo, se bloqueaban nombres normales, como los que llevan «con». Blizzard lo arregla con el próximo reinicio de los servidores: si te pasó, vuelve a intentarlo después.</li><li><strong>Los nombres valen para todas las reglas:</strong> si alguien reserva un nombre en Normal, nadie lo puede usar tampoco en JcJ ni en Rol.</li><li><strong>«Estas reglas no están disponibles temporalmente»:</strong> espera un rato y vuelve a probar.</li></ul></div>'
             '<div class="prepare"><h3>Ya hay hora: martes 27 de octubre a las 18:00</h3><p>Blizzard ha publicado la hora de apertura: en Europa, <strong>el martes 27 de octubre a las 18:00</strong> (hora peninsular)*. Y un detalle importante: los <strong>3 personajes son en total</strong>, sumando todas las reglas. Si reservas dos en JcJ, solo te queda uno para Normal o Rol. Ese límite es solo para la reserva. <span class="latam">* En los servidores de América, donde juegan México, Chile y Argentina, abre a otra hora: México 14:00 · Chile y Argentina 17:00 (13:00 de la costa oeste de EE. UU.).</span></p></div>'
             '<div class="prepare"><h3>Novedad del 22 de octubre: también habrá reinos de Rol-JcJ</h3><p>Blizzard ha decidido añadir las reglas de <strong>Rol-JcJ</strong> (reinos de rol con combate entre jugadores en el mundo abierto) para el lanzamiento. Y están trabajando para que <strong>se puedan elegir ya en la reserva de nombres</strong> del 27. En el podcast de JcJ lo veían con dudas, pero han hecho caso a los jugadores.</p></div>'
             '<div class="divider"><h2>Cómo son los nombres en Forever</h2></div>'
@@ -1168,6 +1168,8 @@ def build_pages():
     zona_subs_page()
     calendario_page()
     import forever_portal
+    import guias_portal  # Van 30-10: guías de 1 a 300 de cada profesión (/profesiones/<slug>/)
+    guias_portal.build(page, dist)
     forever_portal.build(page)  # juego completo (4-11, nivel 60): desplegable «WoW Forever»
     import mazmorras_portal
     mazmorras_portal.build()  # Van 16-10: una página por mazmorra (/mazmorras/<slug>/)
@@ -1482,8 +1484,8 @@ SEO = {
     'razas': ('Razas de WoW Forever: raciales de Alianza y Horda | Muchamiel', 'Todas las razas de WoW Forever, Alianza y Horda, con sus raciales, macros y las clases que pueden jugar.'),
 }
 for slug, name, cls, color, tagline in classes:
-    SEO[slug] = (f'Guía {name} WoW Forever PvP nivel 30: builds y macros | Muchamiel',
-                 f'Guía de {name} ({cls}) en WoW Forever: builds de 26 puntos, macros para copiar, duelos contra las nueve clases, BGs y equipo. {tagline}.')
+    SEO[slug] = (f'Guía de {name} en WoW Forever: subir del 1 al 60, talentos y nivel 60 | Muchamiel',  # Van 30-10: guía completa
+                 f'Guía completa de {name} ({cls}) en WoW Forever: talentos punto a punto para subir del 1 al 60, habilidades por nivel, rotación, razas, nivel 60, JcJ y macros. {tagline}.')
 
 
 def seo(s, file):
@@ -1728,7 +1730,9 @@ def run():
             calculadora_bonita.patch_js(dist / 'calculadora' / 'calculator.js')  # Van 15-10: calculadora centrada, botones de clase y flechas de requisitos
         if file.parent.parent == dist and file.name == 'index.html' and file.parent.name in {c[0] for c in classes}:
             import forever_portal  # Van 16-10: builds de nivel 60 al final de la guía de la clase
-            s = s.replace('<footer', forever_portal.builds60_clase(file.parent.name) + '<footer', 1)
+            import guias_portal  # Van 30-10: con guía completa, las builds de 60 van dentro de ella
+            if not guias_portal.cargar_clase(file.parent.name):
+                s = s.replace('<footer', forever_portal.builds60_clase(file.parent.name) + '<footer', 1)
             import calculadora_bonita  # Van 15-10: las builds de ejemplo abren la calculadora con los puntos puestos
             s = calculadora_bonita.guide_links(s, file.parent.name, json.loads(re.search(r'id="talent-data"[^>]*>(.*?)</script>', (dist.parent / 'base-gpt' / 'calculadora' / 'index.html').read_text(encoding='utf-8'), re.S)[1]))
         import raciales_15oct  # Van 16-10: raciales según las notas de la beta del 15-10 (Razas y Macros)
@@ -1737,7 +1741,14 @@ def run():
         s = extras(s, file)
         s = seo(s, file)
         s = raciales_15oct.aplicar(s)[0]  # otra vez tras seo(): las descripciones de las páginas de raza
+        import guias_portal  # Van 30-10: guía completa de la clase arriba y la beta debajo; guías de profesiones en su página
+        if file.parent.parent == dist and file.name == 'index.html' and file.parent.name in {c[0] for c in classes}:
+            s = guias_portal.insertar_clase(s, file.parent.name)[0]
+        if file == dist / 'profesiones' / 'index.html':
+            s = guias_portal.insertar_prof_index(s)
         file.write_text(s, encoding='utf-8')
+    import guias_portal
+    print(f"Guías: {guias_portal.registrar_en()} textos en inglés registrados")
     import idiomas
     total, hechas, en = idiomas.construir()
     print(f'Inglés: {hechas}/{total} textos traducidos' + (' → /en/ publicado' if en else ' → /en/ aún no (falta traducir)'))

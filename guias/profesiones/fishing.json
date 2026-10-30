@@ -1,0 +1,203 @@
+{
+  "slug": "fishing",
+  "nombre": {
+    "es": "Pesca",
+    "en": "Fishing"
+  },
+  "tipo": "secundaria",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Pescas en ríos, lagos y mar. Da comida buena y barata, dinero y sorpresas (cofres y objetos raros). En Forever, con la Cocina pesando más que nunca, vale todavía más. No ocupa hueco y es perfecta para los ratos muertos.",
+    "en": "You fish rivers, lakes and the sea. It gives good cheap food, gold and surprises (chests and rare items). In Forever, with Cooking mattering more than ever, it's worth even more. It takes no slot and fills dead time perfectly."
+  },
+  "pareja": {
+    "es": "Con Cooking: casi toda la mejor comida sale de pescado.",
+    "en": "Cooking: most of the best food comes from fish."
+  },
+  "forever": [
+    {
+      "es": "Se pueden pescar peces nuevos poco comunes y raros.",
+      "en": "You can catch new uncommon and rare fish."
+    },
+    {
+      "es": "Campamento: <b>Fish Bowl</b> (20, +8 % a todas las estadísticas; no se suma a Blessing of Kings), <b>Fishing Rack</b> (peces inusuales) y <b>Fishing Hut</b> (peces poco comunes).",
+      "en": "Camp: <b>Fish Bowl</b> (20, +8% all stats; doesn't stack with Blessing of Kings), <b>Fishing Rack</b> (unusual fish) and <b>Fishing Hut</b> (uncommon fish)."
+    },
+    {
+      "es": "El Chef's Knife prepara los peces únicos, y hay comida que sube la pesca un rato (Bristle Whisker Catfish +8, Filet of Redgill +18, Spinefin Halibut +18).",
+      "en": "The Chef's Knife prepares unique fish, and some food raises Fishing for a while (Bristle Whisker Catfish +8, Filet of Redgill +18, Spinefin Halibut +18)."
+    },
+    {
+      "es": "El torneo de pesca de Tuercespina ahora tiene varios ganadores: Arcanite Fishing Pole (+35) y monedas para canjear por premios.",
+      "en": "The Stranglethorn fishing tournament now has several winners: Arcanite Fishing Pole (+35) and coins to trade for rewards."
+    },
+    {
+      "es": "Menú Bait and Tackle para fabricar lo del campamento, con Create y Create All. La pesca se lanza desde la ventana de profesiones o desde la barra.",
+      "en": "Bait and Tackle menu to craft camp items, with Create and Create All. You cast from the Professions window or your action bar."
+    },
+    {
+      "es": "Legacy: <b>Luremaster</b> (hasta un 50 % de probabilidad de un pez extra al pescar con señuelo) y Working Overtime.",
+      "en": "Legacy: <b>Luremaster</b> (up to 50% chance of an extra fish while using a lure) and Working Overtime."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 75,
+      "receta": "Cualquier agua de zona de inicio",
+      "cuantas": {
+        "es": "con Shiny Bauble (+25)",
+        "en": "with Shiny Bauble (+25)"
+      },
+      "materiales": {
+        "es": "Durotar, Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil o la Isla de Zephras. Las capitales no cuentan como zona de inicio.",
+        "en": "Durotar, Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil or Zephras Isle. Capital cities don't count as starting zones."
+      },
+      "nota": {
+        "es": "Compra Fishing Pole y Shiny Bauble en el vendedor de pesca o de comercio. Ahora no pide nivel mínimo.",
+        "en": "Buy a Fishing Pole and Shiny Baubles from a fishing or trade vendor. No level requirement right now."
+      }
+    },
+    {
+      "desde": 75,
+      "hasta": 150,
+      "receta": "Ríos y lagos de zonas 10-20 y capitales",
+      "cuantas": {
+        "es": "con Nightcrawlers (+50)",
+        "en": "with Nightcrawlers (+50)"
+      },
+      "materiales": {
+        "es": "Las capitales, Los Baldíos, Costa Oscura, Loch Modan, Bosque de Argénteos o Páramos de Poniente.",
+        "en": "Capital cities, The Barrens, Darkshore, Loch Modan, Silverpine Forest or Westfall."
+      },
+      "nota": {
+        "es": "Journeyman con 50 y nivel 10, en cualquier instructor. Si se escapan los peces, pon Nightcrawlers.",
+        "en": "Journeyman at 50 and level 10, from any trainer. If fish get away, use Nightcrawlers."
+      }
+    },
+    {
+      "desde": 150,
+      "hasta": 225,
+      "receta": "Zonas 30-45",
+      "cuantas": {
+        "es": "con Bright Baubles (+75)",
+        "en": "with Bright Baubles (+75)"
+      },
+      "materiales": {
+        "es": "Marjal Revolcafango (la mejor), Vega de Tuercespina, Tierras Altas de Arathi, Desolace, Montañas de Alterac, Pantano de las Penas o Mil Agujas.",
+        "en": "Dustwallow Marsh (best), Stranglethorn Vale, Arathi Highlands, Desolace, Alterac Mountains, Swamp of Sorrows or Thousand Needles."
+      },
+      "nota": {
+        "es": "Expert con el libro Expert Fishing - The Bass and You (nivel 20 y 125): lo vende Old Man Heming en Bahía del Botín. Riverglades (35-45) tiene mar y costa, pero no se ha publicado qué se pesca.",
+        "en": "Expert from the book Expert Fishing - The Bass and You (level 20 and 125): Old Man Heming sells it in Booty Bay. Riverglades (35-45) has a coast, but its fish haven't been published."
+      }
+    },
+    {
+      "desde": 225,
+      "hasta": 300,
+      "receta": "Zonas 45-60",
+      "cuantas": {
+        "es": "con Bright Baubles o Aquadynamic Fish Attractor (+100)",
+        "en": "with Bright Baubles or Aquadynamic Fish Attractor (+100)"
+      },
+      "materiales": {
+        "es": "Feralas, Tanaris, Tierras del Interior, Cráter de Un'Goro, Frondavil o Tierras de la Peste del Oeste.",
+        "en": "Feralas, Tanaris, The Hinterlands, Un'Goro Crater, Felwood or Western Plaguelands."
+      },
+      "nota": {
+        "es": "Artisan con la misión de Nat Pagle (abajo). A 300, título de cuenta.",
+        "en": "Artisan through Nat Pagle's quest (below). At 300, the account title."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75, Oficial 50-150 (nivel 10, instructor), Experto 125-225 (libro, nivel 20) y Artesano 200-300 (misión, nivel 35).",
+      "en": "Ranks: Apprentice 1-75, Journeyman 50-150 (level 10, trainer), Expert 125-225 (book, level 20) and Artisan 200-300 (quest, level 35)."
+    },
+    {
+      "es": "Horda: Lumak (Orgrimmar), Armand Cromwell (Entrañas), Kah Mistrunner (Cima del Trueno), Lau'Tiki (Durotar), Uthan Stillwater (Mulgore), Clyde Kellen (Tirisfal).",
+      "en": "Horde: Lumak (Orgrimmar), Armand Cromwell (Undercity), Kah Mistrunner (Thunder Bluff), Lau'Tiki (Durotar), Uthan Stillwater (Mulgore), Clyde Kellen (Tirisfal)."
+    },
+    {
+      "es": "Alianza: Arnold Leland (Ventormenta), Grimnur Stonebrand (Forjaz), Astaia (Darnassus), Lee Brown (Elwynn), Paxton Ganter (Dun Morogh), Androl Oakhand (Teldrassil). Isla de Zephras, para todos: Baelann Swiftcurrent y Fenn Fairweather.",
+      "en": "Alliance: Arnold Leland (Stormwind), Grimnur Stonebrand (Ironforge), Astaia (Darnassus), Lee Brown (Elwynn), Paxton Ganter (Dun Morogh), Androl Oakhand (Teldrassil). Zephras Isle, for everyone: Baelann Swiftcurrent and Fenn Fairweather."
+    },
+    {
+      "es": "Artesano: misión «Nat Pagle, Angler Extreme» de Nat Pagle, en la Cala Furia de la Marea (Marjal Revolcafango), con nivel 35 y 225. Pide un pez de cada zona: Feralas Ahi (Feralas), Misty Reed Mahi Mahi (Pantano de las Penas), Sar'theris Striker (Desolace) y Savage Coast Blue Sailfin (Tuercespina).",
+      "en": "Artisan: the quest Nat Pagle, Angler Extreme from Nat Pagle at Tidefury Cove (Dustwallow Marsh), at level 35 and 225. It asks for one fish per zone: Feralas Ahi (Feralas), Misty Reed Mahi Mahi (Swamp of Sorrows), Sar'theris Striker (Desolace) and Savage Coast Blue Sailfin (Stranglethorn)."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "Raw Nightfin Snapper y Raw Sunscale Salmon: dan los últimos puntos de Cocina y comida de banda. Se venden muy bien.",
+      "en": "Raw Nightfin Snapper and Raw Sunscale Salmon: they give the last Cooking points and raid food. They sell very well."
+    },
+    {
+      "es": "Stonescale Eel: para los Stonescale Oil de los frascos de Alquimia.",
+      "en": "Stonescale Eel: for the Stonescale Oil in Alchemy flasks."
+    },
+    {
+      "es": "El Fish Bowl (20) en el campamento: un +8 % a todo muy barato.",
+      "en": "The Fish Bowl (20) at camp: a cheap +8% to all stats."
+    },
+    {
+      "es": "Los peces raros nuevos de Forever y los cofres que salen del agua.",
+      "en": "Forever's new rare fish and the chests you pull out of the water."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Pesca en agua de tu nivel de habilidad: con poca, en zonas altas se te escapan los peces.",
+      "en": "Fish water that matches your skill: in high zones with low skill, fish get away."
+    },
+    {
+      "es": "Pon siempre señuelo: Shiny Bauble (+25), Nightcrawlers (+50), Bright Baubles (+75), Aquadynamic Fish Attractor (+100).",
+      "en": "Always use a lure: Shiny Bauble (+25), Nightcrawlers (+50), Bright Baubles (+75), Aquadynamic Fish Attractor (+100)."
+    },
+    {
+      "es": "Mejores cañas: Strong Fishing Pole (+5), Big Iron Fishing Pole (+20) y Arcanite Fishing Pole (+35, del torneo). Lucky Fishing Hat y Nat Pagle's Extreme Anglin' Boots dan +5 cada uno.",
+      "en": "Better poles: Strong Fishing Pole (+5), Big Iron Fishing Pole (+20) and Arcanite Fishing Pole (+35, from the tournament). Lucky Fishing Hat and Nat Pagle's Extreme Anglin' Boots give +5 each."
+    },
+    {
+      "es": "Pesca mientras esperas al grupo, al barco o a que reaparezca algo.",
+      "en": "Fish while you wait for the group, the boat or a respawn."
+    },
+    {
+      "es": "Cocina lo que pescas: subes las dos a la vez.",
+      "en": "Cook what you catch: you level both at once."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Qué peces nuevos hay y dónde, y qué piden el Fishing Rack y la Fishing Hut.",
+      "en": "Which new fish exist and where, and what the Fishing Rack and Fishing Hut need."
+    },
+    {
+      "es": "Qué se pesca en Riverglades y en la Isla de Zephras.",
+      "en": "What you can catch in Riverglades and on Zephras Isle."
+    },
+    {
+      "es": "Desde 150 es la ruta clásica: la beta no llegaba tan lejos.",
+      "en": "From 150 up it's the classic route: the beta didn't go that far."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: Fishing en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/fishing/"
+    },
+    {
+      "nombre": "wow-professions: Fishing 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+    },
+    {
+      "nombre": "Warcraft Tavern: profesiones en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+    },
+    {
+      "nombre": "Blizzard: Legacy",
+      "url": "https://news.blizzard.com/en-us/article/24307383/"
+    }
+  ]
+}

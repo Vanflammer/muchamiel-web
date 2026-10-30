@@ -112,12 +112,7 @@ def brujo(s):
     fin = s.index('<details', intro_b)
     cabecera = ('<p class="eyebrow">WOW FOREVER · BETA · NIVEL 30</p><div class="class-banner"><img src="../assets/warlock.jpg" alt=""><h1>Brujo</h1></div>'
                 '<p>26 puntos: 21 por nivel y 5 extras de Legacy. Cliente en inglés, explicaciones en español. Propuestas para probar en duelos, BGs y mundo abierto; '
-                'no son un ranking de victorias ni todas las distribuciones matemáticamente posibles.</p><div class="quick"></div>'
-                '<aside class="mm-box" id="muchamiel"><p class="eyebrow">ESPECIAL</p><h2>El brujo de Muchamiel</h2>'
-                '<p>Muchamiel juega <strong>Brujo No-muerto</strong> y prepara The Forever Open en directo. Esta guía nació para él: para su preparación propone empezar por '
-                '<a href="#B1">B1 · Soul Link + Corruption instantánea</a> y dominar antes <a href="#C1">retirar mascota</a>, <a href="#C3">Fear</a>, '
-                '<a href="#C12">Devour Magic</a> y <a href="#D1">Soul Link</a>. Como No-muerto tiene <a href="../razas/undead/">Will of the Forsaken y Cannibalize</a>.</p>'
-                '<p><a href="../muchamiel/">Quién es Muchamiel</a> · <a href="../torneo/">The Forever Open</a></p></aside>')
+                'no son un ranking de victorias ni todas las distribuciones matemáticamente posibles.</p><div class="quick"></div>')  # Van 30-10: fuera el recuadro «El brujo de Muchamiel» (torneo pasado y su clase no se usa como reclamo)
     s = s[:intro_a] + cabecera + s[fin:]
     # Elegir build y variantes, dentro de Builds; las reglas no se copian.
     elegir, variantes = cuerpo(s, 'elegir'), cuerpo(s, 'variantes')

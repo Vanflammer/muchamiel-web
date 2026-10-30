@@ -1,0 +1,99 @@
+{
+  "slug": "alchemy",
+  "nombre": {"es": "Alquimia", "en": "Alchemy"},
+  "tipo": "fabricacion",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Pociones de maná, elixires, aceites y, a nivel alto, frascos y transmutaciones. En Forever ya no hace las pociones de sanación normales: pasan a First Aid. A cambio gana decenas de recetas nuevas (elixires de 30 minutos, pociones arrojadizas, pociones de estadísticas cortas). Es la profesión de las bandas: tus frascos y elixires no dependen de nadie.",
+    "en": "Mana potions, elixirs, oils and, at high skill, flasks and transmutes. In Forever it no longer makes the regular healing potions: those moved to First Aid. In exchange it gets dozens of new recipes (30-minute elixirs, thrown potions, short stat potions). It is the raiding profession: your own flasks and elixirs, no middleman."
+  },
+  "pareja": {
+    "es": "Con Herbalism: casi todo lo que fabricas lleva hierbas, y recogerlas tú ahorra mucho oro.",
+    "en": "Herbalism: nearly every recipe uses herbs, and picking them yourself saves a lot of gold."
+  },
+  "forever": [
+    {"es": "Las seis <b>Healing Potion</b> de siempre (de Minor a Major) se fabrican ahora con First Aid. Alchemy conserva las <b>Discolored Healing Potion</b> (seis rangos, cuatro de ellos nuevos). Por eso las rutas clásicas que suben con pociones de sanación ya no sirven.", "en": "The six classic <b>Healing Potions</b> (Minor to Major) are now made with First Aid. Alchemy keeps the <b>Discolored Healing Potion</b> line (six ranks, four of them new). That is why classic routes built on healing potions no longer work."},
+    {"es": "Recetas renombradas: <b>Catseye Elixir</b> pasa a ser <b>Catseye Draught</b>, los elixires de detectar pasan a <b>Draught of Detect Undead</b> / <b>Draught of Detect Demon</b> y <b>Elixir of Defense</b> pasa a <b>Elixir of Lesser Defense</b>.", "en": "Renamed recipes: <b>Catseye Elixir</b> is now <b>Catseye Draught</b>, the detect elixirs are now <b>Draught of Detect Undead</b> / <b>Draught of Detect Demon</b>, and <b>Elixir of Defense</b> is now <b>Elixir of Lesser Defense</b>."},
+    {"es": "<b>Fire Oil</b>, <b>Shadow Oil</b>, <b>Frost Oil</b> y <b>Stonescale Oil</b> dan 2 por fabricación. <b>Elixir of Minor Defense</b> y <b>Minor Mana Potion</b> llevan Peacebloom donde antes llevaban Silverleaf.", "en": "<b>Fire Oil</b>, <b>Shadow Oil</b>, <b>Frost Oil</b> and <b>Stonescale Oil</b> make 2 per craft. <b>Elixir of Minor Defense</b> and <b>Minor Mana Potion</b> use Peacebloom where they used Silverleaf."},
+    {"es": "Recetas con <b>Favor del Mercader</b> (unas 29): elixires Mageblood y Cleric's, Mender's, Spellblasting y Frenzy Potion, y al final <b>Major Frenzy Potion</b> (290) y <b>Elixir of the Grizzly</b> (300). Las venden Nina Surefire (Alianza, campamento de Redridge) y Apothecary Durelle (Horda, junto al Cruce).", "en": "<b>Merchant's Favor</b> recipes (about 29): Mageblood and Cleric's elixirs, Mender's, Spellblasting and Frenzy Potions, and at the top <b>Major Frenzy Potion</b> (290) and <b>Elixir of the Grizzly</b> (300). Sold by Nina Surefire (Alliance, Redridge camp) and Apothecary Durelle (Horde, near the Crossroads)."},
+    {"es": "Acampada: <b>Mana Well</b> (20 de habilidad; más regeneración de maná, no se suma a Blessing of Wisdom), <b>Fermenter</b> (140; crea componentes) y <b>Alchemy Laboratory</b> (300; recetas avanzadas). Los dos últimos salen de planos.", "en": "Camping: <b>Mana Well</b> (skill 20; extra mana regen, does not stack with Blessing of Wisdom), <b>Fermenter</b> (140; makes reagents) and <b>Alchemy Laboratory</b> (300; advanced recipes). The last two come from blueprints."},
+    {"es": "Legacy: la primera vez que tu cuenta llega a 150, 225 y 300 en una de fabricación ganas un punto. Con 300 y el certificado (1.000 de Favor) desbloqueas el título «the Alchemist» para toda la cuenta.", "en": "Legacy: the first time your account reaches 150, 225 and 300 in a crafting profession you earn a point. At 300, the certification (1,000 Favor) unlocks the account-wide title \"the Alchemist\"."}
+  ],
+  "tramos": [
+    {"desde": 1, "hasta": 10, "receta": "Minor Arcane Elixir", "cuantas": "~9",
+     "materiales": {"es": "Total: 9 Peacebloom, 9 Empty Vial", "en": "Total: 9 Peacebloom, 9 Empty Vial"},
+     "nota": {"es": "Receta nueva de Forever. Si el Silverleaf sale más barato, haz <b>Elixir of Minor Force</b> (1 Silverleaf y 1 Empty Vial cada uno). Los frascos vacíos se compran en el vendedor de alquimia.", "en": "New Forever recipe. If Silverleaf is cheaper, make <b>Elixir of Minor Force</b> instead (1 Silverleaf and 1 Empty Vial each). Empty Vials come from the alchemy supply vendor."}},
+    {"desde": 10, "hasta": 55, "receta": "Elixir of Minor Defense", "cuantas": "~45",
+     "materiales": {"es": "Total: 45 Silverleaf, 45 Peacebloom, 45 Empty Vial", "en": "Total: 45 Silverleaf, 45 Peacebloom, 45 Empty Vial"},
+     "nota": {"es": "Al llegar a 50, aprende Journeyman (nivel 10). Las dos hierbas salen en todas las zonas de inicio.", "en": "At 50, train Journeyman (level 10). Both herbs grow in every starting zone."}},
+    {"desde": 55, "hasta": 65, "receta": "Minor Mana Potion", "cuantas": "~10",
+     "materiales": {"es": "Total: 10 Mageroyal, 10 Peacebloom, 10 Empty Vial", "en": "Total: 10 Mageroyal, 10 Peacebloom, 10 Empty Vial"},
+     "nota": {"es": "Guárdalas: los de maná las usan mucho subiendo.", "en": "Keep them: mana users burn through them while leveling."}},
+    {"desde": 65, "hasta": 90, "receta": "Elixir of Minor Fortitude", "cuantas": "~27",
+     "materiales": {"es": "Total: 54 Earthroot, 27 Peacebloom, 27 Empty Vial", "en": "Total: 54 Earthroot, 27 Peacebloom, 27 Empty Vial"},
+     "nota": {"es": "Se pone amarilla hacia 80: los últimos puntos piden alguna de más.", "en": "Turns yellow around 80, so the last points take a few extra crafts."}},
+    {"desde": 90, "hasta": 120, "receta": "Elixir of Wisdom", "cuantas": "~30",
+     "materiales": {"es": "Total: 30 Mageroyal, 60 Briarthorn, 30 Empty Vial", "en": "Total: 30 Mageroyal, 60 Briarthorn, 30 Empty Vial"},
+     "nota": {"es": "Los sastres los necesitan para <b>Gloves of Meditation</b>: se venden bien o los guardas para tu otro personaje.", "en": "Tailors need them for <b>Gloves of Meditation</b>: they sell well, or keep them for your alt."}},
+    {"desde": 120, "hasta": 130, "receta": "Lesser Mana Potion", "cuantas": "~10",
+     "materiales": {"es": "Total: 10 Mageroyal, 10 Stranglekelp, 10 Empty Vial", "en": "Total: 10 Mageroyal, 10 Stranglekelp, 10 Empty Vial"},
+     "nota": {"es": "A 125 aprende Expert (nivel 20, 50 de plata).", "en": "At 125, train Expert (level 20, 50 silver)."}},
+    {"desde": 130, "hasta": 150, "receta": "Fire Oil", "cuantas": "~20",
+     "materiales": {"es": "Total: 40 Firefin Snapper, 20 Empty Vial", "en": "Total: 40 Firefin Snapper, 20 Empty Vial"},
+     "nota": {"es": "En Forever da 2 aceites por fabricación. Guarda 30 para el siguiente tramo. Si no hay pescado, sigue con Lesser Mana Potion.", "en": "In Forever it makes 2 oils per craft. Keep 30 for the next step. If there is no fish, keep making Lesser Mana Potions."}},
+    {"desde": 150, "hasta": 165, "receta": "Elixir of Fire Power", "cuantas": "~15",
+     "materiales": {"es": "Total: 30 Fire Oil, 15 Kingsblood, 15 Leaded Vial", "en": "Total: 30 Fire Oil, 15 Kingsblood, 15 Leaded Vial"},
+     "nota": {"es": "Si hiciste pociones de maná en vez de aceite, sigue con Lesser Mana Potion hasta 165.", "en": "If you made mana potions instead of oil, keep going with Lesser Mana Potions to 165."}},
+    {"desde": 165, "hasta": 195, "receta": "Mana Potion", "cuantas": "~36",
+     "materiales": {"es": "Total: 36 Stranglekelp, 36 Kingsblood, 36 Leaded Vial", "en": "Total: 36 Stranglekelp, 36 Kingsblood, 36 Leaded Vial"},
+     "nota": {"es": "Se venden siempre. Aprende Artisan en cuanto llegues a 200 (nivel 35).", "en": "They always sell. Train Artisan as soon as you hit 200 (level 35)."}},
+    {"desde": 195, "hasta": 230, "receta": "Nature Protection Potion", "cuantas": "~48",
+     "materiales": {"es": "Total: 48 Liferoot, 48 Stranglekelp, 48 Leaded Vial", "en": "Total: 48 Liferoot, 48 Stranglekelp, 48 Leaded Vial"},
+     "nota": {"es": "La receta se liga al recogerla: cómprala con el personaje que sube. La venden Bronk o Logannas (Feralas), Glyx Brewright (Stranglethorn Vale) y Alchemist Pestlezugg (Tanaris).", "en": "The recipe binds on pickup, so buy it on the leveling character. Sold by Bronk or Logannas (Feralas), Glyx Brewright (Stranglethorn Vale) and Alchemist Pestlezugg (Tanaris)."}},
+    {"desde": 230, "hasta": 265, "receta": "Draught of Detect Undead", "cuantas": "~45",
+     "materiales": {"es": "Total: 45 Arthas' Tears, 45 Crystal Vial", "en": "Total: 45 Arthas' Tears, 45 Crystal Vial"},
+     "nota": {"es": "Antes se llamaba Elixir of Detect Undead. Se pone amarilla hacia 245, así que cuenta con fabricaciones extra.", "en": "Formerly Elixir of Detect Undead. It turns yellow around 245, so expect extra crafts."}},
+    {"desde": 265, "hasta": 290, "receta": "Superior Mana Potion", "cuantas": "~30",
+     "materiales": {"es": "Total: 60 Sungrass, 60 Blindweed, 30 Crystal Vial", "en": "Total: 60 Sungrass, 60 Blindweed, 30 Crystal Vial"},
+     "nota": {"es": "Receta de Algernon (Undercity) o Ulthir (Darnassus). Alternativas según precio: <b>Elixir of Shadow Power</b> (3 Ghost Mushroom y 1 Crystal Vial) o <b>Draught of Detect Demon</b> (2 Gromsblood y 1 Crystal Vial).", "en": "Recipe from Algernon (Undercity) or Ulthir (Darnassus). Alternatives by price: <b>Elixir of Shadow Power</b> (3 Ghost Mushroom and 1 Crystal Vial) or <b>Draught of Detect Demon</b> (2 Gromsblood and 1 Crystal Vial)."}},
+    {"desde": 290, "hasta": 300, "receta": "Major Frenzy Potion", "cuantas": "~17",
+     "materiales": {"es": "Total: 51 Plaguebloom, 34 Blindweed, 17 Imbued Vial", "en": "Total: 51 Plaguebloom, 34 Blindweed, 17 Imbued Vial"},
+     "nota": {"es": "Receta nueva de Forever que se compra con Favor del Mercader (Nina Surefire o Apothecary Durelle). Se pone amarilla a 295. La ruta clásica terminaba con Major Healing Potion, que ahora es de First Aid.", "en": "New Forever recipe bought with Merchant's Favor (Nina Surefire or Apothecary Durelle). Yellow at 295. The classic route ended on Major Healing Potion, which now belongs to First Aid."}}
+  ],
+  "entrenadores": [
+    {"es": "Apprentice (1-75): sin nivel mínimo en Forever. Hay instructor en todas las capitales.", "en": "Apprentice (1-75): no level requirement in Forever. Every capital has a trainer."},
+    {"es": "Journeyman (hasta 150; con 50 de habilidad y nivel 10): Yelmak (Orgrimmar), Doctor Marsh (Undercity), Bena Winterhoof (Thunder Bluff), Lilyssia Nightbreeze (Stormwind), Tally Berryfizz (Ironforge), Sylvanna Forestmoon (Darnassus).", "en": "Journeyman (up to 150; skill 50 and level 10): Yelmak (Orgrimmar), Doctor Marsh (Undercity), Bena Winterhoof (Thunder Bluff), Lilyssia Nightbreeze (Stormwind), Tally Berryfizz (Ironforge), Sylvanna Forestmoon (Darnassus)."},
+    {"es": "Expert (hasta 225; con 125 y nivel 20, 50 de plata): Doctor Herbert Halsey (Undercity) o Ainethil (Darnassus).", "en": "Expert (up to 225; skill 125 and level 20, 50 silver): Doctor Herbert Halsey (Undercity) or Ainethil (Darnassus)."},
+    {"es": "Artisan (hasta 300; con 200 y nivel 35): Rogvar (Stonard, Swamp of Sorrows) para la Horda y Kylanna Windwhisper (Feathermoon Stronghold, Feralas) para la Alianza.", "en": "Artisan (up to 300; skill 200 and level 35): Rogvar (Stonard, Swamp of Sorrows) for the Horde and Kylanna Windwhisper (Feathermoon Stronghold, Feralas) for the Alliance."}
+  ],
+  "lo_mejor": [
+    {"es": "Pociones de maná de todos los rangos: las compra cualquier sanador o lanzador, siempre.", "en": "Mana potions of every rank: healers and casters always buy them."},
+    {"es": "Elixires para bandas, incluidos los nuevos de Favor (Mageblood, Cleric's, Elixir of the Grizzly) y los clásicos (Mongoose, Sages, Brute Force). Las bandas abren el 9 de diciembre: ahí se disparan los precios.", "en": "Raid elixirs, including the new Favor ones (Mageblood, Cleric's, Elixir of the Grizzly) and the classics (Mongoose, Sages, Brute Force). Raids open on 9 December: that is when prices jump."},
+    {"es": "Pociones de protección (Greater Fire, Shadow, Nature…): imprescindibles en ciertos jefes de banda.", "en": "Protection potions (Greater Fire, Shadow, Nature…): mandatory for certain raid bosses."},
+    {"es": "Frascos a 300 y transmutaciones: lo más caro de la profesión. Necesitas la Philosopher's Stone para transmutar.", "en": "Flasks at 300 and transmutes: the priciest part of the profession. You need a Philosopher's Stone to transmute."},
+    {"es": "<b>Discolored Healing Potion</b>: la única poción de sanación que sigue siendo de Alchemy.", "en": "<b>Discolored Healing Potion</b>: the only healing potion line still made by Alchemy."}
+  ],
+  "consejos": [
+    {"es": "Recoge hierbas desde el nivel 1 y no las vendas todas: la subida de 1 a 300 se come varios cientos.", "en": "Pick herbs from level 1 and don't sell them all: going 1-300 eats several hundred."},
+    {"es": "Los frascos (Empty, Leaded, Crystal Vial) se compran en el vendedor de alquimia. Compra los justos de cada tramo.", "en": "Vials (Empty, Leaded, Crystal) come from the alchemy vendor. Buy just what each step needs."},
+    {"es": "No la subas rápido si vas justo de oro: guarda las hierbas y súbela con calma a partir del 40.", "en": "Don't rush it if gold is tight: bank the herbs and level it calmly from 40."},
+    {"es": "Rellena los Waylaid Supplies que pidan hierbas: dan Favor del Mercader, y con él compras las mejores recetas nuevas.", "en": "Fill Waylaid Supplies that ask for herbs: they pay Merchant's Favor, which buys the best new recipes."},
+    {"es": "Aprende Artisan a 200 y no a 225: así no pierdes puntos atascado en el tope.", "en": "Train Artisan at 200, not 225, so you don't waste crafts stuck at the cap."},
+    {"es": "Compara precios en la subasta antes de cada tramo: casi siempre hay una receta alternativa más barata.", "en": "Check the auction house before each step: there is usually a cheaper alternative recipe."}
+  ],
+  "pendiente": [
+    {"es": "De 225 a 300 nadie lo ha probado: la beta tenía tope de nivel 30. La ruta se ajustará en la semana del lanzamiento.", "en": "Nobody has tested 225-300: the beta was capped at level 30. The route will be adjusted in launch week."},
+    {"es": "Las guías no coinciden en los rangos exactos de cada receta (Forever movió los puntos de muchas). Si una receta se pone gris antes de lo que dice aquí, pasa a la siguiente.", "en": "Guides disagree on each recipe's exact ranges (Forever moved many of them). If a recipe turns grey earlier than listed, move on to the next one."},
+    {"es": "Los costes de Favor de cada receta y la lista de frascos de Forever son datos de la beta: pueden cambiar.", "en": "Favor costs per recipe and Forever's flask list are beta data and may change."},
+    {"es": "Si hay especializaciones de alquimia en Forever: no hay nada oficial.", "en": "Whether Alchemy gets specializations in Forever: nothing official yet."}
+  ],
+  "fuentes": [
+    {"nombre": "Blizzard: repaso a fondo de Forever (profesiones y acampada)", "url": "https://news.blizzard.com/es-es/article/24303313/world-of-warcraft-forever-resumen-de-la-mesa-redonda-repaso-a-fondo"},
+    {"nombre": "Icy Veins: las pociones de sanación pasan a Primeros auxilios", "url": "https://www.icy-veins.com/wow-forever/news/healing-potions-now-crafted-by-first-aid-in-wow-forever/"},
+    {"nombre": "Warcraft Tavern: profesiones en Forever", "url": "https://www.warcrafttavern.com/forever/guides/professions/"},
+    {"nombre": "WoW-Professions: Alchemy 1-300 en Forever", "url": "https://www.wow-professions.com/forever/alchemy-leveling-guide"},
+    {"nombre": "RankedBoost: Alchemy en Forever (cambios del cliente)", "url": "https://rankedboost.com/world-of-warcraft/forever/professions/alchemy-leveling/"},
+    {"nombre": "LFCarry: Alchemy en Forever (Favor y acampada)", "url": "https://lfcarry.com/guides/wow-forever-alchemy"},
+    {"nombre": "Warcraft Tavern: Alchemy 1-300 en Classic", "url": "https://www.warcrafttavern.com/guides/wow-classic-alchemy-guide-1-to-300/"}
+  ]
+}

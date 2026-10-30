@@ -1,0 +1,245 @@
+{
+  "slug": "mining",
+  "nombre": {
+    "es": "Minería",
+    "en": "Mining"
+  },
+  "tipo": "recoleccion",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Sacas mineral y piedra de las vetas y lo fundes en lingotes. La fundición también da puntos, así que se sube a la vez minando y fundiendo. En Forever hay minerales y lingotes nuevos, y las vetas reaparecen antes cuando hay gente cerca. Para herreros, ingenieros y para quien quiera dinero.",
+    "en": "You mine ore and stone from veins and smelt it into bars. Smelting gives skill too, so you level by mining and smelting. Forever adds new ores and bars, and veins respawn faster when players are around. For blacksmiths, engineers and anyone after gold."
+  },
+  "pareja": {
+    "es": "Con Blacksmithing o con Engineering (la de PvP).",
+    "en": "Blacksmithing or Engineering (the PvP pick)."
+  },
+  "forever": [
+    {
+      "es": "Cada zona de inicio tiene un instructor júnior que enseña hasta 75 (sin fundición) y vetas <b>Poor Copper Vein</b> que se pueden minar desde el nivel 1. En Teldrassil hay <b>Chunk of Amber</b>. Las pequeñas solo dan puntos hasta 20.",
+      "en": "Every starting zone has a junior trainer who teaches up to 75 (no smelting) and <b>Poor Copper Veins</b> you can mine from level 1. Teldrassil has <b>Chunks of Amber</b>. The small ones only give points up to 20."
+    },
+    {
+      "es": "Manual de inicio: una misión del primer día deja elegir <b>Mining for Dummies</b>, que enseña Mining y da +2 de habilidad.",
+      "en": "Starter manual: an early quest lets you choose <b>Mining for Dummies</b>, which teaches Mining and gives +2 skill."
+    },
+    {
+      "es": "Las vetas reaparecen más rápido cuantos más jugadores hay cerca. Y el mineral se apila de 20 en 20 (antes, 10).",
+      "en": "Veins respawn faster the more players are nearby. Ore now stacks to 20 (it was 10)."
+    },
+    {
+      "es": "Minerales nuevos que salen de propina: <b>Pyrite</b> (de Copper, Tin e Iron), <b>Bauxite</b> (de Mithril) y <b>Pitchblende</b> (de Thorium). Y <b>Heavy Thorium Ore</b>, de vetas propias en la zona de la Plaga del Monte Hyjal.",
+      "en": "New bonus ores: <b>Pyrite</b> (from Copper, Tin and Iron), <b>Bauxite</b> (from Mithril) and <b>Pitchblende</b> (from Thorium). Plus <b>Heavy Thorium Ore</b> from its own veins in Mount Hyjal's Scourge area."
+    },
+    {
+      "es": "Lingotes nuevos: <b>Azerothium Bar</b> (275; 2 Pitchblende y 1 Coal en una forja) y <b>Heavy Thorium Bar</b> (300; en la Molten Foundry). Los dos los enseña el instructor.",
+      "en": "New bars: <b>Azerothium Bar</b> (275; 2 Pitchblende and 1 Coal at a forge) and <b>Heavy Thorium Bar</b> (300; at a Molten Foundry). Both come from the trainer."
+    },
+    {
+      "es": "Campamento: <b>Lodestone</b> (20, poder de ataque, no se suma a Blessing of Might), <b>Rock Garden</b> (140, hace salir una veta común de vez en cuando; el plano lo sueltan los Relic Guardian de la Excavación de los Humedales) y <b>Molten Foundry</b> (300).",
+      "en": "Camp: <b>Lodestone</b> (20, attack power, doesn't stack with Blessing of Might), <b>Rock Garden</b> (140, spawns a common vein now and then; Relic Guardians at the Wetlands Excavation Site drop the blueprint) and <b>Molten Foundry</b> (300)."
+    },
+    {
+      "es": "Fundir es más cómodo: botones Create y Create All, filtro y buscador.",
+      "en": "Smelting is easier: Create and Create All buttons, a filter and a search box."
+    },
+    {
+      "es": "Rockslicer: lo suelta Rhahk'Zor en Las Minas de la Muerte, con 30 usos, y deja minar Copper, Tin, Silver e Iron sin tener la profesión.",
+      "en": "Rockslicer: Rhahk'Zor drops it in The Deadmines. It has 30 uses and lets you mine Copper, Tin, Silver and Iron without the profession."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 65,
+      "receta": "Copper Vein (1) y Smelt Copper",
+      "cuantas": {
+        "es": "120-140 Copper Ore",
+        "en": "120-140 Copper Ore"
+      },
+      "materiales": {
+        "es": "Tu zona de inicio: la cueva de Durotar (5 vetas), Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil o la Isla de Zephras. Funde en Razor Hill, Rémol, Villadorada, Kharanos o Shen'dar Village.",
+        "en": "Your starting zone: the Durotar cave (5 veins), Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil or Zephras Isle. Smelt in Razor Hill, Brill, Goldshire, Kharanos or Shen'dar Village."
+      },
+      "nota": {
+        "es": "Guarda unos 70 Copper Bar para el bronce. Compra el Mining Pick al instructor o al proveedor de minería.",
+        "en": "Keep about 70 Copper Bars for bronze. Buy the Mining Pick from the trainer or the mining supplier."
+      }
+    },
+    {
+      "desde": 65,
+      "hasta": 125,
+      "receta": "Tin Vein (65), Silver Vein (75), Copper; Smelt Tin y Smelt Bronze",
+      "cuantas": {
+        "es": "personaje de nivel 10-25",
+        "en": "character level 10-25"
+      },
+      "materiales": {
+        "es": "Alianza: Los Humedales (la mejor), Páramos de Poniente, Loch Modan. Horda: Bosque de Argénteos, Los Baldíos, Sierra Espolón. Las dos: Laderas de Trabalomas y Vallefresno.",
+        "en": "Alliance: Wetlands (best), Westfall, Loch Modan. Horde: Silverpine Forest, The Barrens, Stonetalon Mountains. Both: Hillsbrad Foothills and Ashenvale."
+      },
+      "nota": {
+        "es": "Journeyman con 50 de habilidad y nivel 10 (no en el júnior). Fundir: 70 Tin Bar (se pone gris en 75) y luego 70 Bronze Bar hasta 105; Smelt Silver da puntos hasta 120.",
+        "en": "Journeyman at 50 skill and level 10 (not from a junior). Smelting: 70 Tin Bars (grey at 75), then 70 Bronze Bars to 105; Smelt Silver gives points up to 120."
+      }
+    },
+    {
+      "desde": 125,
+      "hasta": 175,
+      "receta": "Iron Deposit (125), Gold Vein (155), Silver; Smelt Iron y Smelt Gold",
+      "cuantas": {
+        "es": "personaje de nivel 25-35",
+        "en": "character level 25-35"
+      },
+      "materiales": {
+        "es": "Mil Agujas si eres de nivel 30 o menos; con más nivel o montura, Tierras Altas de Arathi. También Desolace, las Montañas de Alterac y la Vega de Tuercespina.",
+        "en": "Thousand Needles if you're level 30 or below; higher or mounted, Arathi Highlands. Also Desolace, Alterac Mountains and Stranglethorn Vale."
+      },
+      "nota": {
+        "es": "Expert con 125 y nivel 20. Smelt Gold se aprende con 155 y da un punto cada vez hasta 170: unos 22 Gold Ore llevan de 155 a 175. Con +5 de minería, el hierro se mina desde 120.",
+        "en": "Expert at 125 and level 20. Smelt Gold is learned at 155 and gives a point every time until 170: about 22 Gold Ore take you from 155 to 175. With +5 Mining you can mine Iron from 120."
+      }
+    },
+    {
+      "desde": 175,
+      "hasta": 245,
+      "receta": "Mithril Deposit (175), Truesilver Deposit (230); Smelt Mithril",
+      "cuantas": {
+        "es": "personaje de nivel 40-50",
+        "en": "character level 40-50"
+      },
+      "materiales": {
+        "es": "Tierras del Interior y Tanaris (si no eres 60, sáltate sus cuatro cuevas). También las Tierras Inhóspitas, la Garganta de Fuego y Feralas.",
+        "en": "The Hinterlands and Tanaris (below 60, skip its four caves). Also Badlands, Searing Gorge and Feralas."
+      },
+      "nota": {
+        "es": "Artisan con 200 y nivel 35: lo necesitas para pasar de 225. Entre 230 y 245 sirven también los Dark Iron Deposit de la Garganta de Fuego y la Estepa Ardiente. Riverglades (35-45) encaja por nivel, pero aún no se sabe qué vetas tiene.",
+        "en": "Artisan at 200 and level 35: you need it to go past 225. From 230 to 245 the Dark Iron Deposits in Searing Gorge and Burning Steppes work too. Riverglades (35-45) fits by level, but its veins aren't known yet."
+      }
+    },
+    {
+      "desde": 245,
+      "hasta": 275,
+      "receta": "Small Thorium Vein (245), Mithril, Truesilver",
+      "cuantas": {
+        "es": "personaje de nivel 50-55",
+        "en": "character level 50-55"
+      },
+      "materiales": {
+        "es": "Cráter de Un'Goro, Las Tierras Devastadas (la Alianza no puede minar en la armería del Garrison) y Frondavil (sobre todo la cueva de Jaedenar).",
+        "en": "Un'Goro Crater, Blasted Lands (Alliance can't mine in the Garrison Armory) and Felwood (mainly the Jaedenar cave)."
+      },
+      "nota": {
+        "es": "Guarda el Thorium: las Pitchblende que salen de él son para el Azerothium.",
+        "en": "Keep your Thorium: the Pitchblende it drops is for Azerothium."
+      }
+    },
+    {
+      "desde": 275,
+      "hasta": 300,
+      "receta": "Rich Thorium Vein (275), Small Thorium; Smelt Azerothium",
+      "cuantas": {
+        "es": "personaje de nivel 55-60",
+        "en": "character level 55-60"
+      },
+      "materiales": {
+        "es": "Cráter de Un'Goro, Tierras de la Peste del Este, Cuna del Invierno, Estepa Ardiente y Silithus.",
+        "en": "Un'Goro Crater, Eastern Plaguelands, Winterspring, Burning Steppes and Silithus."
+      },
+      "nota": {
+        "es": "Fundir Azerothium Bar desde 275 también da puntos. A 300: Heavy Thorium del Monte Hyjal, la Molten Foundry y el título de cuenta.",
+        "en": "Smelting Azerothium Bars from 275 also gives points. At 300: Heavy Thorium on Mount Hyjal, the Molten Foundry and the account title."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75 (nivel 1), Oficial 50-150 (nivel 10), Experto 125-225 (nivel 20), Artesano 200-300 (nivel 35). Los júnior de zona de inicio, solo hasta 75 y sin fundición.",
+      "en": "Ranks: Apprentice 1-75 (level 1), Journeyman 50-150 (level 10), Expert 125-225 (level 20), Artisan 200-300 (level 35). Junior trainers in starting zones only go to 75, with no smelting."
+    },
+    {
+      "es": "Horda: Makaru (Orgrimmar), Brom Killian (Entrañas), Brek Stonehoof (Cima del Trueno), Krunn (Razor Hill).",
+      "en": "Horde: Makaru (Orgrimmar), Brom Killian (Undercity), Brek Stonehoof (Thunder Bluff), Krunn (Razor Hill)."
+    },
+    {
+      "es": "Alianza: Gelman Stonehand (Ventormenta), Geofram Bouldertoe (Forjaz), Yarr Hammerstone (Dun Morogh). En Darnassus no hay: el más cercano es Kurdram Stonehammer, en Auberdine.",
+      "en": "Alliance: Gelman Stonehand (Stormwind), Geofram Bouldertoe (Ironforge), Yarr Hammerstone (Dun Morogh). Darnassus has none: the closest is Kurdram Stonehammer in Auberdine."
+    },
+    {
+      "es": "Célicos (Isla de Zephras): misión «Harvesting Windstones» eligiendo Mining for Dummies. Luego Halavuul Cragwind (Valanaar) o Messana Crestwind (Shen'dar Village).",
+      "en": "Skyborne (Zephras Isle): the quest Harvesting Windstones, choosing Mining for Dummies. Then Halavuul Cragwind (Valanaar) or Messana Crestwind (Shen'dar Village)."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "Thorium y Arcane Crystal (sale a veces de las vetas de Thorium): los piden todas las profesiones de fabricación a nivel 60.",
+      "en": "Thorium and Arcane Crystal (a rare find in Thorium veins): every crafting profession wants them at 60."
+    },
+    {
+      "es": "Iron y Mithril: los ingenieros los gastan a montones (bombas, granadas, artilugios de PvP).",
+      "en": "Iron and Mithril: engineers burn through them (bombs, grenades, PvP gadgets)."
+    },
+    {
+      "es": "Las piedras preciosas que salen de las vetas y los minerales nuevos (Pyrite, Bauxite, Pitchblende): recetas nuevas de Forever los usan.",
+      "en": "Gems from veins and the new ores (Pyrite, Bauxite, Pitchblende): new Forever recipes use them."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Funde siempre que pases por una forja: subes habilidad y ocupas menos bolsa.",
+      "en": "Smelt every time you pass a forge: you gain skill and save bag space."
+    },
+    {
+      "es": "En Forever las vetas reaparecen muy rápido: en las cuevas, ve con nivel de sobra para no pelear sin parar.",
+      "en": "In Forever veins come back fast: go into caves overleveled so you're not fighting nonstop."
+    },
+    {
+      "es": "Find Minerals se apaga al morir y no se lleva a la vez que Find Herbs.",
+      "en": "Find Minerals turns off when you die and can't run with Find Herbs."
+    },
+    {
+      "es": "Ayudas: Enchant Gloves - Mining (+2), Enchant Gloves - Advanced Mining (+5), Miner's Cape (+2, de Miner Johnson en Las Minas de la Muerte) y Goblin Mining Helmet (+5).",
+      "en": "Bonuses: Enchant Gloves - Mining (+2), Enchant Gloves - Advanced Mining (+5), Miner's Cape (+2, from Miner Johnson in The Deadmines) and Goblin Mining Helmet (+5)."
+    },
+    {
+      "es": "Monta pronto el Rock Garden (140): te da mineral sin moverte del campamento.",
+      "en": "Get the Rock Garden (140) early: it gives you ore without leaving camp."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Qué vetas hay en Riverglades (35-45).",
+      "en": "Which veins are in Riverglades (35-45)."
+    },
+    {
+      "es": "Los tramos de 125 en adelante son la ruta clásica: la beta se paró en el nivel 30 y Arathi o Desolace no se probaron del todo.",
+      "en": "Everything from 125 up is the classic route: the beta stopped at level 30, so Arathi and Desolace weren't fully tested."
+    },
+    {
+      "es": "Qué habilidad piden Pyrite, Bauxite y Pitchblende, y de dónde sale el plano de la Molten Foundry.",
+      "en": "What skill Pyrite, Bauxite and Pitchblende need, and where the Molten Foundry blueprint comes from."
+    },
+    {
+      "es": "Se habla de poder minar algunas criaturas muertas, pero no hay datos claros.",
+      "en": "There's talk of mining some dead creatures, but no clear data yet."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: Mining en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/mining/"
+    },
+    {
+      "nombre": "wow-professions: Mining 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/mining-leveling-guide"
+    },
+    {
+      "nombre": "wow-professions: cambios de Mining",
+      "url": "https://www.wow-professions.com/forever/mining-changes"
+    },
+    {
+      "nombre": "Zockify: profesiones en Forever",
+      "url": "https://www.zockify.com/forever/professions/"
+    }
+  ]
+}

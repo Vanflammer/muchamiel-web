@@ -1,0 +1,233 @@
+{
+  "slug": "skinning",
+  "nombre": {
+    "es": "Desuello",
+    "en": "Skinning"
+  },
+  "tipo": "recoleccion",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Despellejas a las bestias que matas y sacas cuero y pieles. Casi no te desvía de tu camino, porque ya las estás matando para las misiones. Es de las mejores para ganar dinero subiendo, y la base de la Peletería.",
+    "en": "You skin the beasts you kill for leather and hides. It barely slows you down, since you're already killing them for quests. One of the best ways to earn gold while leveling, and the base for Leatherworking."
+  },
+  "pareja": {
+    "es": "Con Leatherworking (cazadores, druidas, pícaros y chamanes). También va bien con otra de recolección para hacer dinero.",
+    "en": "Leatherworking (hunters, druids, rogues and shamans). It also pairs well with another gathering skill for gold."
+  },
+  "forever": [
+    {
+      "es": "Lo básico no cambia: la habilidad que necesitas depende del nivel de la bestia, hasta 300.",
+      "en": "The basics don't change: the skill you need depends on the beast's level, up to 300."
+    },
+    {
+      "es": "Cada criatura se puede desollar <b>una sola vez</b> y luego desaparece (Blizzard lo dejó así en la beta, como en el juego original).",
+      "en": "Each creature can be skinned <b>only once</b>, then it despawns (Blizzard set it back this way during the beta, as in the original game)."
+    },
+    {
+      "es": "Manual de inicio: una misión del primer día deja elegir <b>Pelt Collecting for Beginners</b>, que enseña Skinning y da +2 de habilidad. Y cada zona de inicio tiene un instructor júnior hasta 75.",
+      "en": "Starter manual: an early quest lets you choose <b>Pelt Collecting for Beginners</b>, which teaches Skinning and gives +2 skill. Every starting zone also has a junior trainer up to 75."
+    },
+    {
+      "es": "Materiales nuevos: Fel Hide, Fel Leather, Pristine Scale, Pristine Leather y Pristine Hide, además de materiales escasos que salen de propina.",
+      "en": "New materials: Fel Hide, Fel Leather, Pristine Scale, Pristine Leather and Pristine Hide, plus Scarce materials that drop as a bonus."
+    },
+    {
+      "es": "Campamento: <b>Camp Chair</b> (20, +2 % de golpe crítico), <b>Field Guide</b> (140, además rastrea bestias) y <b>Trapper's Workbench</b> (300, además te da una trampa).",
+      "en": "Camp: <b>Camp Chair</b> (20, +2% critical strike), <b>Field Guide</b> (140, also tracks beasts) and <b>Trapper's Workbench</b> (300, also gives you a trap)."
+    },
+    {
+      "es": "Legacy: <b>Working Overtime</b> (más probabilidad de subir) y <b>Bountiful Harvest</b> (hasta un 100 % más de materiales escasos de Mining, Herbalism y Skinning).",
+      "en": "Legacy: <b>Working Overtime</b> (better skill-up chance) and <b>Bountiful Harvest</b> (up to 100% more Scarce materials from Mining, Herbalism and Skinning)."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 75,
+      "receta": "Bestias de nivel 1-15",
+      "cuantas": {
+        "es": "personaje de nivel 1-12",
+        "en": "character level 1-12"
+      },
+      "materiales": {
+        "es": "Tu zona de inicio. Horda: Durotar (Mottled Boar del Valle de los Retos), Mulgore, Tirisfal. Alianza: Elwynn (Young Wolf y Timber Wolf en Villanorte), Dun Morogh, Teldrassil. Célicos: Isla de Zephras.",
+        "en": "Your starting zone. Horde: Durotar (Mottled Boars in the Valley of Trials), Mulgore, Tirisfal. Alliance: Elwynn (Young Wolves and Timber Wolves in Northshire), Dun Morogh, Teldrassil. Skyborne: Zephras Isle."
+      },
+      "nota": {
+        "es": "Necesitas un Skinning Knife en la bolsa. Journeyman con 50 de habilidad y nivel 10, con un instructor normal.",
+        "en": "You need a Skinning Knife in your bags. Journeyman at 50 skill and level 10, from a full trainer."
+      }
+    },
+    {
+      "desde": 75,
+      "hasta": 125,
+      "receta": "Bestias de nivel 15-25",
+      "cuantas": {
+        "es": "personaje de nivel 12-22",
+        "en": "character level 12-22"
+      },
+      "materiales": {
+        "es": "Los Baldíos: Sunscale Scytheclaw, Zhevra Charger y Ornery Plainstrider (16-18), en el campamento de raptores al oeste de Northwatch Hold. Alianza: Loch Modan (Elder Mountain Boar, Black Bear Patriarch, Loch Crocolisk, 16-17), Costa Oscura, Páramos de Poniente, Montañas Crestagrana.",
+        "en": "The Barrens: Sunscale Scytheclaw, Zhevra Charger and Ornery Plainstrider (16-18), at the raptor camp west of Northwatch Hold. Alliance: Loch Modan (Elder Mountain Boar, Black Bear Patriarch, Loch Crocolisk, 16-17), Darkshore, Westfall, Redridge Mountains."
+      },
+      "nota": {
+        "es": "Regla: hasta nivel 10, habilidad 1; de 11 a 19, 10 puntos por nivel (nivel 15 = 50); desde 20, nivel × 5. Expert con 125 y nivel 20.",
+        "en": "Rule: up to level 10, skill 1; levels 11-19, 10 points per level (level 15 = 50); from 20, level × 5. Expert at 125 and level 20."
+      }
+    },
+    {
+      "desde": 125,
+      "hasta": 150,
+      "receta": "Bestias de nivel 25-30",
+      "cuantas": {
+        "es": "personaje de nivel 22-28",
+        "en": "character level 22-28"
+      },
+      "materiales": {
+        "es": "Los Humedales: Mottled Scytheclaw y Mottled Razormaw (25-27) junto a la Excavación de Whelgar. También el sur de Los Baldíos, Laderas de Trabalomas y Vallefresno.",
+        "en": "Wetlands: Mottled Scytheclaw and Mottled Razormaw (25-27) near Whelgar's Excavation Site. Also the southern Barrens, Hillsbrad Foothills and Ashenvale."
+      },
+      "nota": {
+        "es": "Si vas a la Excavación, aprovecha: allí está la mazmorra nueva Excavación de Whelgar (24-29).",
+        "en": "If you're at the Excavation Site, there's also the new Whelgar's Excavation dungeon (24-29)."
+      }
+    },
+    {
+      "desde": 150,
+      "hasta": 205,
+      "receta": "Bestias de nivel 30-40",
+      "cuantas": {
+        "es": "personaje de nivel 30-40",
+        "en": "character level 30-40"
+      },
+      "materiales": {
+        "es": "Cueva de los yetis de Laderas de Trabalomas (Cave Yeti y Ferocious Yeti, 30-32), Mil Agujas (Shimmering Flats), Tierras Altas de Arathi, Desolace, Vega de Tuercespina, Pantano de las Penas, Marjal Revolcafango, Tierras Inhóspitas y Riverglades.",
+        "en": "Hillsbrad Foothills yeti cave (Cave Yeti and Ferocious Yeti, 30-32), Thousand Needles (Shimmering Flats), Arathi Highlands, Desolace, Stranglethorn Vale, Swamp of Sorrows, Dustwallow Marsh, Badlands and Riverglades."
+      },
+      "nota": {
+        "es": "Artisan con 200 de habilidad y nivel 35: después ya no necesitas volver al instructor. Riverglades (35-45) tiene jabalíes, coyotes, crocoliscos y buitres, pero no se ha publicado qué niveles dan.",
+        "en": "Artisan at 200 skill and level 35: after that you don't need the trainer again. Riverglades (35-45) has boars, coyotes, crocolisks and vultures, but their levels haven't been published."
+      }
+    },
+    {
+      "desde": 205,
+      "hasta": 260,
+      "receta": "Bestias de nivel 41-52",
+      "cuantas": {
+        "es": "personaje de nivel 42-52",
+        "en": "character level 42-52"
+      },
+      "materiales": {
+        "es": "Feralas (la mejor): cueva de Feral Scar Vale en el sur, con Feral Scar Yeti, Enraged Feral Scar y Hulking Feral Scar (43-46). También Tanaris, Tierras del Interior, la Garganta de Fuego y Azshara.",
+        "en": "Feralas (best): the Feral Scar Vale cave in the south, with Feral Scar Yeti, Enraged Feral Scar and Hulking Feral Scar (43-46). Also Tanaris, The Hinterlands, Searing Gorge and Azshara."
+      },
+      "nota": {
+        "es": "Horda desde Campamento Mojache; Alianza desde el Bastión Plumaluna.",
+        "en": "Horde from Camp Mojache; Alliance from Feathermoon Stronghold."
+      }
+    },
+    {
+      "desde": 260,
+      "hasta": 300,
+      "receta": "Bestias de nivel 52-60",
+      "cuantas": {
+        "es": "personaje de nivel 50-60",
+        "en": "character level 50-60"
+      },
+      "materiales": {
+        "es": "Cráter de Un'Goro (lo mejor): los dinosaurios del oeste (Diemetradon, Pterrordax, Elder Diemetradon, Frenzied Pterrordax, 50-55) desde el Refugio de Marshal. Luego Cuna del Invierno, Silithus, Frondavil, Las Tierras Devastadas y las Tierras de la Peste.",
+        "en": "Un'Goro Crater (best): the western dinosaurs (Diemetradon, Pterrordax, Elder Diemetradon, Frenzied Pterrordax, 50-55) out of Marshal's Refuge. Then Winterspring, Silithus, Felwood, Blasted Lands and the Plaguelands."
+      },
+      "nota": {
+        "es": "Para las bestias de nivel 60 hace falta 300. A 300, título de cuenta.",
+        "en": "Level 60 beasts need 300. At 300, the account title."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75 (nivel 1), Oficial 50-150 (nivel 10), Experto 125-225 (nivel 20), Artesano 200-300 (nivel 35).",
+      "en": "Ranks: Apprentice 1-75 (level 1), Journeyman 50-150 (level 10), Expert 125-225 (level 20), Artisan 200-300 (level 35)."
+    },
+    {
+      "es": "Horda: Thuwd (Orgrimmar), Killian Hagey (Entrañas), Mooranta (Cima del Trueno), Yonn Deepcut (Poblado Pezuña de Sangre), Rand Rhobart (Tirisfal).",
+      "en": "Horde: Thuwd (Orgrimmar), Killian Hagey (Undercity), Mooranta (Thunder Bluff), Yonn Deepcut (Bloodhoof Village), Rand Rhobart (Tirisfal)."
+    },
+    {
+      "es": "Alianza: Maris Granger (Ventormenta), Balthus Stoneflayer (Forjaz), Eladriel (Darnassus), Helene Peltskinner (Villadorada), Radnaal Maneweaver (Teldrassil).",
+      "en": "Alliance: Maris Granger (Stormwind), Balthus Stoneflayer (Ironforge), Eladriel (Darnassus), Helene Peltskinner (Goldshire), Radnaal Maneweaver (Teldrassil)."
+    },
+    {
+      "es": "Célicos (Isla de Zephras): misión «Harvesting Windstones» eligiendo Pelt Collecting for Beginners. Luego Ishlee Breezewhisper (Valanaar) o Mendalass Tattermend (Shen'dar Village).",
+      "en": "Skyborne (Zephras Isle): the quest Harvesting Windstones, choosing Pelt Collecting for Beginners. Then Ishlee Breezewhisper (Valanaar) or Mendalass Tattermend (Shen'dar Village)."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "Rugged Leather y Thick Leather: la Peletería los gasta sin parar a nivel 60.",
+      "en": "Rugged Leather and Thick Leather: Leatherworking burns through them at 60."
+    },
+    {
+      "es": "Escamas y pieles de banda y de Un'Goro (dinosaurios, dragones): piezas caras para la Peletería.",
+      "en": "Scales and hides from Un'Goro and raids (dinosaurs, dragons): pricey Leatherworking materials."
+    },
+    {
+      "es": "Los materiales Pristine y Fel nuevos, que piden recetas de Forever.",
+      "en": "The new Pristine and Fel materials, which Forever recipes ask for."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Desuella todo lo que mates: es la profesión que menos tiempo te quita.",
+      "en": "Skin everything you kill: it's the profession that costs you the least time."
+    },
+    {
+      "es": "Si vas en grupo, desuella rápido: cada bicho solo se puede desollar una vez.",
+      "en": "In a group, skin fast: each creature can only be skinned once."
+    },
+    {
+      "es": "Ayudas: Enchant Gloves - Skinning (+5) y la versión avanzada (+10), Keen Skinning Knife (+3) y Cartilage Shapers (+4).",
+      "en": "Bonuses: Enchant Gloves - Skinning (+5) and the advanced version (+10), Keen Skinning Knife (+3) and Cartilage Shapers (+4)."
+    },
+    {
+      "es": "Va muy bien con cazador: tu mascota mata y tú desuellas.",
+      "en": "Great on a hunter: your pet kills and you skin."
+    },
+    {
+      "es": "Si sacas carne de las mismas bestias, súbete la Cocina a la vez.",
+      "en": "If those beasts also drop meat, level Cooking at the same time."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "De qué bestias salen exactamente los materiales Pristine y Fel, y qué trampas da el Trapper's Workbench.",
+      "en": "Which beasts drop the Pristine and Fel materials, and which traps the Trapper's Workbench gives."
+    },
+    {
+      "es": "Niveles de las bestias de Riverglades y de la Isla de Zephras.",
+      "en": "Beast levels in Riverglades and on Zephras Isle."
+    },
+    {
+      "es": "Los tramos de 150 en adelante son la ruta clásica: la beta se paró en el nivel 30.",
+      "en": "Everything from 150 up is the classic route: the beta stopped at level 30."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: Skinning en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/skinning/"
+    },
+    {
+      "nombre": "wow-professions: Skinning 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/skinning-leveling-guide"
+    },
+    {
+      "nombre": "Zockify: profesiones en Forever",
+      "url": "https://www.zockify.com/forever/professions/"
+    },
+    {
+      "nombre": "Warcraft Wiki: Riverglades",
+      "url": "https://warcraft.wiki.gg/wiki/Riverglades"
+    }
+  ]
+}

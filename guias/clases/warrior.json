@@ -1,0 +1,267 @@
+{
+  "slug": "warrior",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El guerrero es la clase de cuerpo a cuerpo con armadura de placas que vive de la ira: la gana al golpear y al recibir golpes, y la gasta en sus habilidades. En Forever llega con cambios grandes: Victory Rush para curarse tras cada muerte, Tactical Mastery para cambiar de actitud sin perder toda la ira y una rama de Protección que ya sirve para subir de nivel en solitario. Es para quien quiere tanquear o pegar fuerte con armas y no le importa depender de su equipo.",
+    "en": "The Warrior is the plate-wearing melee class that runs on Rage: you earn it by hitting and getting hit, then spend it on your abilities. Forever brings big changes: Victory Rush to heal after each kill, Tactical Mastery so stance swaps no longer wipe your Rage, and a Protection tree that now works for solo leveling. Pick it if you want to tank or hit hard with weapons and don't mind leaning on your gear."
+  },
+  "fuertes": [
+    {"es": "El mejor tanque de la versión clásica: Shield Slam, Revenge, Sunder Armor y Taunt cada 8 segundos.", "en": "The classic go-to tank: Shield Slam, Revenge, Sunder Armor and an 8-second Taunt."},
+    {"es": "Mejora muchísimo con el equipo: cada arma nueva se nota al momento.", "en": "Scales hugely with gear: every weapon upgrade shows right away."},
+    {"es": "No bebe ni descansa por maná: la ira vuelve en cada combate.", "en": "No drinking for mana: Rage comes back every fight."},
+    {"es": "Victory Rush le da una pequeña cura gratis tras cada muerte, algo que en Classic no tenía.", "en": "Victory Rush gives a small free heal after each kill, something Classic never had."},
+    {"es": "En Forever, Shield Wall, Retaliation y Recklessness ya no comparten recarga y bajan a 15 minutos las dos primeras.", "en": "In Forever, Shield Wall, Retaliation and Recklessness no longer share a cooldown, and the first two drop to 15 minutes."},
+    {"es": "Battle Shout ahora llega a toda la banda.", "en": "Battle Shout now reaches the whole raid."}
+  ],
+  "debiles": [
+    {"es": "Casi no se cura: la vida que pierdes no vuelve hasta que comes o vendas.", "en": "Very little self-healing: lost health stays lost until you eat or bandage."},
+    {"es": "Depende mucho del arma. Con un arma mala, el guerrero sube despacio.", "en": "Weapon-dependent. With a bad weapon, leveling is slow."},
+    {"es": "Le cuestan los grupos de enemigos y los de más nivel si va solo.", "en": "Struggles with packs and higher-level mobs when solo."},
+    {"es": "Poco control y nada de escapes: los magos y cazadores lo frenan con facilidad en JcJ.", "en": "Little crowd control and no escapes: Mages and Hunters kite it easily in PvP."},
+    {"es": "En Forever la ira llega de forma más pareja pero, según las guías de la beta, en menor cantidad que en Classic.", "en": "In Forever Rage comes in more evenly but, according to beta guides, in smaller amounts than in Classic."}
+  ],
+  "ramas": [
+    {
+      "nombre": "Arms",
+      "rol": {"es": "DPS cuerpo a cuerpo (arma de dos manos)", "en": "Melee DPS (two-hander)"},
+      "mejor_para": {"es": "JcJ y subir en grupo", "en": "PvP and group leveling"},
+      "texto": {
+        "es": "Golpes grandes con arma de dos manos, Rend y Overpower como base y Mortal Strike a nivel 40, que corta las curas un 50 %. Forever añade Spearing Strike, Bloodthrill (Rend da opciones de Overpower) y Weaponmaster, que cambia según el tipo de arma.",
+        "en": "Big two-handed hits built on Rend and Overpower, with Mortal Strike at 40 cutting healing by 50%. Forever adds Spearing Strike, Bloodthrill (Rend opens Overpower chances) and Weaponmaster, which changes with your weapon type."
+      }
+    },
+    {
+      "nombre": "Fury",
+      "rol": {"es": "DPS cuerpo a cuerpo (dos armas)", "en": "Melee DPS (dual wield)"},
+      "mejor_para": {"es": "Daño en mazmorras y bandas", "en": "Dungeon and raid damage"},
+      "texto": {
+        "es": "Dos armas, mucho crítico y Flurry para atacar más rápido. Bloodthirst ya no cura: ahora da un 10 % de velocidad de movimiento. Es floja antes del 30, cuando le llegan las piezas clave, y en la beta la rehicieron entera el 1 de octubre.",
+        "en": "Two weapons, lots of crit and Flurry for faster swings. Bloodthirst no longer heals: it now grants 10% movement speed. It's weak before 30, when its key pieces arrive, and the tree was rebuilt on 1 October during the beta."
+      }
+    },
+    {
+      "nombre": "Protection",
+      "rol": {"es": "Tanque (arma de una mano y escudo)", "en": "Tank (one-hander and shield)"},
+      "mejor_para": {"es": "Subir de nivel en solitario y tanquear", "en": "Solo leveling and tanking"},
+      "texto": {
+        "es": "En Forever es la rama más cómoda para subir: el escudo da ira con cada bloqueo, esquiva o parada, Vanguard permite cargar en actitud defensiva y Bastion suma un 10 % de daño con escudo. A nivel 40 llega Shield Slam, y el árbol medio también sirve como apoyo de JcJ.",
+        "en": "In Forever it's the smoothest leveling tree: your shield turns blocks, dodges and parries into Rage, Vanguard lets you Charge in Defensive Stance and Bastion adds 10% damage with a shield. Shield Slam arrives at 40, and the middle of the tree doubles as a PvP utility path."
+      }
+    }
+  ],
+  "razas": [
+    {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza", "por_que": {"es": "Ruthless da un 1 % de crítico fijo y Will to Survive quita cualquier aturdimiento cada 3 minutos. Buena para todo.", "en": "Ruthless gives a flat 1% crit and Will to Survive breaks any stun every 3 minutes. Solid at everything."}},
+    {"raza": {"es": "Enano", "en": "Dwarf"}, "faccion": "Alianza", "por_que": {"es": "Artisan's Precision da un 1 % de golpe y Stoneform quita sangrados, venenos y enfermedades y reduce un 10 % el daño físico 8 segundos. Muy buena para tanque.", "en": "Artisan's Precision gives 1% hit and Stoneform clears bleeds, poisons and diseases and cuts physical damage taken by 10% for 8 seconds. Great for tanks."}},
+    {"raza": {"es": "Elfo de la noche", "en": "Night Elf"}, "faccion": "Alianza", "por_que": {"es": "Elune's Light da un 10 % de crítico durante 15 segundos, Quickness suma esquiva y velocidad, y Shadowmeld sirve para quitarse amenaza.", "en": "Elune's Light grants 10% crit for 15 seconds, Quickness adds dodge and speed, and Shadowmeld works as a threat drop."}},
+    {"raza": {"es": "Gnomo", "en": "Gnome"}, "faccion": "Alianza", "por_que": {"es": "Escape Artist quita ralentizaciones y te hace inmune 3 segundos: lo que más le falta al guerrero en JcJ. Eureka! da un 10 % más de daño y un 10 % menos de coste 8 segundos.", "en": "Escape Artist breaks slows and makes you immune for 3 seconds, which is exactly what Warriors lack in PvP. Eureka! adds 10% damage and 10% lower costs for 8 seconds."}},
+    {"raza": {"es": "Orco", "en": "Orc"}, "faccion": "Horda", "por_que": {"es": "Blood Fury sube un 10 % el poder de ataque 15 segundos cada 2 minutos y Hardiness acorta un 20 % los aturdimientos. Ya no tiene especialización en hachas.", "en": "Blood Fury adds 10% attack power for 15 seconds every 2 minutes, and Hardiness shortens stuns by 20%. Axe Specialization is gone."}},
+    {"raza": {"es": "Tauren", "en": "Tauren"}, "faccion": "Horda", "por_que": {"es": "War Stomp aturde hasta 5 enemigos cada 90 segundos, Endurance da un 5 % de vida y Plainsrunning te acelera hasta un 60 % mientras corres. Gran tanque y gran raza de JcJ.", "en": "War Stomp stuns up to 5 enemies every 90 seconds, Endurance adds 5% health and Plainsrunning speeds you up to 60% while running. Great tank and PvP pick."}},
+    {"raza": {"es": "Trol", "en": "Troll"}, "faccion": "Horda", "por_que": {"es": "Berserking da un 10 % de velocidad de ataque 15 segundos (más golpes, más ira) y Rapid Regeneration recupera media vida en 6 segundos fuera de peligro: menos pausas al subir.", "en": "Berserking grants 10% attack speed for 15 seconds (more swings, more Rage) and Rapid Regeneration restores half your health over 6 seconds when safe: less downtime while leveling."}},
+    {"raza": {"es": "No-muerto", "en": "Undead"}, "faccion": "Horda", "por_que": {"es": "Will of the Forsaken rompe miedos y sueños, y Touch of the Grave roba algo de vida (20 % de probabilidad para guerreros, cada 15 segundos como mucho).", "en": "Will of the Forsaken breaks fears and sleeps, and Touch of the Grave drains a bit of health (20% chance for Warriors, at most every 15 seconds)."}}
+  ],
+  "subir": {
+    "rama": "Protection",
+    "intro": {
+      "es": "Recomendamos Protection con arma de una mano rápida y escudo. Varias guías la ponen como la opción más rápida o más segura para subir solo, y en la beta fue la build de 60 más planificada. Shield Specialization y Master of Defense convierten cada bloqueo, esquiva y parada en ira, así que cuantos más enemigos te pegan, más ira tienes. Juegas en Defensive Stance casi siempre, abres con Charge y vives de Revenge. Si vas a subir siempre en grupo, Arms con arma de dos manos es la alternativa.",
+      "en": "We recommend Protection with a fast one-hander and a shield. Several guides rate it the fastest or safest way to level solo, and it was the most planned level-60 build during the beta. Shield Specialization and Master of Defense turn every block, dodge and parry into Rage, so the more enemies hit you, the more Rage you have. You live in Defensive Stance, open with Charge and lean on Revenge. If you'll always level in a group, Arms with a two-hander is the alternative."
+    },
+    "talentos": [
+      {"niveles": "10-14", "puntos": "5/5 Shield Specialization", "nota": {"es": "Más bloqueo y 5 de ira por cada bloqueo. Es la base de todo lo demás.", "en": "More block chance and 5 Rage per block. Everything else builds on it."}},
+      {"niveles": "15-19", "puntos": "3/3 Improved Revenge, 2/2 Improved Bloodrage", "nota": {"es": "Revenge pasa a ser tu golpe principal; Bloodrage da más ira para abrir.", "en": "Revenge becomes your main hit; Bloodrage gives more Rage to open."}},
+      {"niveles": "20-24", "puntos": "2/2 Master of Defense, 3/3 Improved Thunder Clap", "nota": {"es": "Ira también al esquivar y parar con escudo, y Thunder Clap barato para pulls de dos o tres.", "en": "Rage on dodges and parries with a shield, plus a cheap Thunder Clap for two- or three-mob pulls."}},
+      {"niveles": "25-26", "puntos": "1/1 Vanguard, 1/1 Last Stand", "nota": {"es": "Vanguard: Charge sin salir de Defensive Stance. Last Stand: 30 % de vida extra 20 segundos, ahora cada 3 minutos.", "en": "Vanguard: Charge without leaving Defensive Stance. Last Stand: 30% extra health for 20 seconds, now on a 3-minute cooldown."}},
+      {"niveles": "27-29", "puntos": "2/3 Improved Sunder Armor, 1/5 Anticipation", "nota": {"es": "Sunder Armor más barato; el punto en Anticipation abre la fila siguiente.", "en": "Cheaper Sunder Armor; the Anticipation point unlocks the next row."}},
+      {"niveles": "30-34", "puntos": "1/1 Concussion Blow, 3/3 Focused Rage, 1/2 Improved Shield Wall", "nota": {"es": "Aturdimiento de 5 segundos y todas las habilidades ofensivas 3 de ira más baratas.", "en": "A 5-second stun and every offensive ability costs 3 less Rage."}},
+      {"niveles": "35-39", "puntos": "5/5 Bastion", "nota": {"es": "Un 10 % más de daño con escudo. El gran salto de daño antes del 40.", "en": "10% more damage with a shield. Your big damage jump before 40."}},
+      {"niveles": "40", "puntos": "1/1 Shield Slam", "nota": {"es": "Golpe fuerte que escala con el valor de bloqueo y puede quitar una magia. Úsalo siempre que esté listo.", "en": "A heavy hit that scales with Block Value and can purge a magic effect. Press it on cooldown."}},
+      {"niveles": "41-45", "puntos": "2/2 Improved Shield Wall, 5/5 Anticipation", "nota": {"es": "Shield Wall pasa a recargarse en 4 minutos y ganas defensa.", "en": "Shield Wall drops to a 4-minute cooldown and you gain Defense."}},
+      {"niveles": "46-48", "puntos": "3/3 Defiance", "nota": {"es": "Más amenaza con escudo. Si tanqueas mazmorras desde antes, súbelo antes.", "en": "More threat with a shield. If you tank dungeons earlier, take it sooner."}},
+      {"niveles": "49-53", "puntos": "5/5 Cruelty (Fury)", "nota": {"es": "Un 5 % de crítico: más daño y más ira por los críticos.", "en": "5% crit: more damage and more Rage from crits."}},
+      {"niveles": "54-58", "puntos": "5/5 Deflection (Arms)", "nota": {"es": "Un 5 % más de parada, que alimenta Master of Defense y Revenge.", "en": "5% more parry, which feeds Master of Defense and Revenge."}},
+      {"niveles": "59-60", "puntos": "2/2 Improved Charge (Arms)", "nota": {"es": "Más ira al cargar. Acabas en 7/5/39, la build de Protection más usada en la beta.", "en": "More Rage from Charge. You end at 7/5/39, the most used Protection build in the beta."}}
+    ],
+    "habilidades": [
+      {"nivel": 1, "nombre": "Battle Shout", "nuevo": false, "texto": {"es": "Más poder de ataque para ti y tu grupo; ahora dura 3 minutos y llega a toda la banda.", "en": "Attack power for you and your group; now lasts 3 minutes and reaches the whole raid."}},
+      {"nivel": 1, "nombre": "Heroic Strike", "nuevo": false, "texto": {"es": "Sustituye tu siguiente golpe; úsalo solo cuando te sobre ira.", "en": "Replaces your next swing; only use it when you have Rage to spare."}},
+      {"nivel": 4, "nombre": "Charge", "nuevo": false, "texto": {"es": "Cargas contra el enemigo, ganas ira y lo aturdes 1 segundo. Solo fuera de combate.", "en": "Rush the target, gain Rage and stun it for 1 second. Out of combat only."}},
+      {"nivel": 4, "nombre": "Rend", "nuevo": false, "texto": {"es": "Sangrado. En Forever el enemigo queda marcado como tuyo en cuanto lo aplicas.", "en": "A bleed. In Forever it tags the mob as yours the moment it lands."}},
+      {"nivel": 6, "nombre": "Thunder Clap", "nuevo": false, "texto": {"es": "Daña hasta 4 enemigos y ralentiza sus ataques un 20 %; ahora también funciona en Defensive Stance.", "en": "Hits up to 4 enemies and slows their attacks by 20%; it now works in Defensive Stance too."}},
+      {"nivel": 8, "nombre": "Hamstring", "nuevo": false, "texto": {"es": "Ralentiza un 40 % al enemigo; para que no huya.", "en": "Slows the enemy by 40%; stops runners."}},
+      {"nivel": 10, "nombre": "Defensive Stance", "nuevo": false, "texto": {"es": "Se consigue con la misión de clase del 10, junto con Taunt y Sunder Armor. Menos daño recibido y más amenaza.", "en": "Earned through the level 10 class quest, along with Taunt and Sunder Armor. Less damage taken and more threat."}},
+      {"nivel": 10, "nombre": "Bloodrage", "nuevo": false, "texto": {"es": "Ira inmediata a cambio de un poco de vida; perfecta para abrir un combate.", "en": "Instant Rage for a bit of health; ideal to open a fight."}},
+      {"nivel": 10, "nombre": "Sunder Armor", "nuevo": false, "texto": {"es": "Quita armadura al enemigo (hasta 5 veces) y genera mucha amenaza. También marca al enemigo como tuyo.", "en": "Strips armor (up to 5 stacks) and builds lots of threat. It also tags the mob as yours."}},
+      {"nivel": 12, "nombre": "Overpower", "nuevo": false, "texto": {"es": "Golpe que no se puede esquivar, disponible tras una esquiva del enemigo. Battle Stance.", "en": "An unavoidable strike after the enemy dodges. Battle Stance."}},
+      {"nivel": 12, "nombre": "Shield Bash", "nuevo": false, "texto": {"es": "Interrumpe un hechizo. Necesita escudo.", "en": "Interrupts a spell. Needs a shield."}},
+      {"nivel": 14, "nombre": "Tactical Mastery", "nuevo": true, "texto": {"es": "Pasiva: guardas hasta 10 de ira al cambiar de actitud. En Classic era un talento.", "en": "Passive: keep up to 10 Rage when you swap stances. It was a talent in Classic."}},
+      {"nivel": 14, "nombre": "Revenge", "nuevo": false, "texto": {"es": "Contraataque barato tras un bloqueo, esquiva o parada. Tu botón principal como Protection.", "en": "A cheap counterattack after a block, dodge or parry. Your main Protection button."}},
+      {"nivel": 14, "nombre": "Demoralizing Shout", "nuevo": false, "texto": {"es": "Baja el poder de ataque de los enemigos cercanos; en Forever quita más y dura 45 segundos.", "en": "Lowers nearby enemies' attack power; in Forever it reduces more and lasts 45 seconds."}},
+      {"nivel": 16, "nombre": "Shield Block", "nuevo": false, "texto": {"es": "Bloqueas los 2 siguientes golpes durante 7 segundos; activa Revenge y te da ira.", "en": "Blocks the next 2 hits within 7 seconds; enables Revenge and gives Rage."}},
+      {"nivel": 18, "nombre": "Disarm", "nuevo": false, "texto": {"es": "Quita el arma al enemigo 10 segundos.", "en": "Disarms the enemy for 10 seconds."}},
+      {"nivel": 20, "nombre": "Victory Rush", "nuevo": true, "texto": {"es": "Tras matar a un enemigo que da experiencia, tienes 20 segundos para un golpe gratis que te cura un 10 % de la vida.", "en": "After killing a mob that grants experience, you get 20 seconds for a free strike that heals 10% of your health."}},
+      {"nivel": 20, "nombre": "Slam", "nuevo": false, "texto": {"es": "Llega antes que en Classic (antes era a nivel 30) y ahora tiene 18 segundos de recarga.", "en": "Arrives earlier than in Classic (it used to be level 30) and now has an 18-second cooldown."}},
+      {"nivel": 20, "nombre": "Cleave", "nuevo": false, "texto": {"es": "Golpea a tu objetivo y a otro cercano; para gastar ira con dos enemigos.", "en": "Hits your target and one more nearby; spend Rage with two mobs."}},
+      {"nivel": 20, "nombre": "Retaliation", "nuevo": false, "texto": {"es": "Contraataca cada golpe cuerpo a cuerpo de frente durante 15 segundos; recarga de 15 minutos.", "en": "Counterattacks every melee hit from the front for 15 seconds; 15-minute cooldown."}},
+      {"nivel": 22, "nombre": "Intimidating Shout", "nuevo": false, "texto": {"es": "Hace huir de miedo a hasta 5 enemigos 8 segundos; te salva un pull que se complica.", "en": "Fears up to 5 enemies for 8 seconds; saves a pull gone wrong."}},
+      {"nivel": 24, "nombre": "Execute", "nuevo": false, "texto": {"es": "Remate contra enemigos por debajo del 20 % de vida; al subir, mejor guardar la ira para el siguiente.", "en": "Finisher below 20% health; while leveling, saving Rage for the next mob is often better."}},
+      {"nivel": 25, "nombre": "Spearing Strike", "nuevo": true, "texto": {"es": "Talento de Arms: golpe con un extra de daño contra gigantes, dragones y objetivos montados, a los que desmonta. Necesita Battle Stance y sirve con cualquier arma.", "en": "Arms talent: a strike with bonus damage against giants, dragonkin and mounted targets, which it dismounts. Needs Battle Stance and works with any weapon."}},
+      {"nivel": 28, "nombre": "Shield Wall", "nuevo": false, "texto": {"es": "Un 60 % menos de daño durante 12 segundos; en Forever recarga en 15 minutos.", "en": "60% less damage for 12 seconds; in Forever it's a 15-minute cooldown."}},
+      {"nivel": 30, "nombre": "Berserker Stance", "nuevo": false, "texto": {"es": "Misión de clase del 30 (también da Intercept). Más crítico y más daño recibido.", "en": "Level 30 class quest (it also teaches Intercept). More crit, more damage taken."}},
+      {"nivel": 30, "nombre": "Berserker Rage", "nuevo": false, "texto": {"es": "Inmune a miedos e incapacitaciones 10 segundos y más ira al recibir daño. Llega al 30 (antes al 32).", "en": "Immune to fear and incapacitate for 10 seconds, plus extra Rage from damage taken. Now at 30 (was 32)."}},
+      {"nivel": 36, "nombre": "Whirlwind", "nuevo": false, "texto": {"es": "Golpea a hasta 4 enemigos con las dos armas. Solo en Berserker Stance.", "en": "Hits up to 4 enemies with both weapons. Berserker Stance only."}},
+      {"nivel": 38, "nombre": "Pummel", "nuevo": false, "texto": {"es": "Interrupción sin escudo, en Berserker Stance.", "en": "A shieldless interrupt, in Berserker Stance."}},
+      {"nivel": 40, "nombre": "Shield Slam", "nuevo": false, "texto": {"es": "Talento final de Protection: mucho daño y amenaza, escala con el valor de bloqueo.", "en": "Protection's capstone: big damage and threat, scales with Block Value."}},
+      {"nivel": 50, "nombre": "Recklessness", "nuevo": false, "texto": {"es": "Un 100 % más de probabilidad de crítico 15 segundos a cambio de recibir un 20 % más de daño.", "en": "100% more crit chance for 15 seconds at the cost of taking 20% more damage."}}
+    ],
+    "rotacion": [
+      {"es": "Antes de cada pull: Battle Shout puesto y Bloodrage si vas a empezar sin ira.", "en": "Before each pull: Battle Shout up, and Bloodrage if you're starting at zero Rage."},
+      {"es": "Abre con Charge. Hasta tener Vanguard (25), carga en Battle Stance y pasa a Defensive Stance: Tactical Mastery te deja conservar 10 de ira.", "en": "Open with Charge. Until Vanguard (25), Charge in Battle Stance and swap to Defensive Stance: Tactical Mastery keeps 10 Rage."},
+      {"es": "Rend si el enemigo va a durar; uno o dos Sunder Armor al principio.", "en": "Rend if the mob will live a while; one or two Sunder Armor early on."},
+      {"es": "Revenge cada vez que se ilumine. Usa Shield Block para provocarlo y ganar ira con los bloqueos.", "en": "Revenge every time it lights up. Use Shield Block to set it up and gain Rage from blocks."},
+      {"es": "Con dos o más enemigos: Thunder Clap y Demoralizing Shout, y Cleave si te sobra ira.", "en": "With two or more mobs: Thunder Clap and Demoralizing Shout, then Cleave with spare Rage."},
+      {"es": "Desde el 40, Shield Slam en cuanto esté listo.", "en": "From 40, Shield Slam whenever it's ready."},
+      {"es": "Victory Rush tras cada muerte, y deja que el ataque automático remate: guarda la ira para el siguiente enemigo.", "en": "Victory Rush after every kill, and let auto attacks finish the mob: save Rage for the next one."}
+    ],
+    "extra": {
+      "titulo": {"es": "Armas y equipo para subir", "en": "Weapons and gear for leveling"},
+      "items": [
+        {"es": "Escudo siempre puesto: Shield Specialization, Master of Defense, Bastion y Shield Slam no funcionan sin él.", "en": "Keep a shield on: Shield Specialization, Master of Defense, Bastion and Shield Slam do nothing without it."},
+        {"es": "Arma de una mano rápida: da ira más constante y más ocasiones de Revenge.", "en": "A fast one-hander: steadier Rage and more Revenge chances."},
+        {"es": "Lleva un arma de dos manos en la bolsa para enemigos sueltos y fuertes; vuelve al escudo antes de un pull grande.", "en": "Keep a two-hander in your bags for single tough mobs; swap back to the shield before a big pull."},
+        {"es": "Malla hasta el 40; ese nivel el instructor te enseña a llevar placas.", "en": "Mail until 40; at that level your trainer teaches Plate."},
+        {"es": "Usas todas las armas menos las varitas. Las armas de asta se aprenden a partir del 20.", "en": "You can use every weapon except wands. Polearms can be learned from 20."},
+        {"es": "En Forever la ira de tus golpes depende de la velocidad del arma, no del daño: dos armas igual de rápidas dan la misma ira.", "en": "In Forever, swing Rage depends on weapon speed, not damage: two weapons of the same speed give the same Rage."},
+        {"es": "Misiones de clase: la del 10 (actitud defensiva) da un arma a elegir, la del 20 una cota y la del 30 abre la misión del arma de Whirlwind en Alterac, difícil en solitario.", "en": "Class quests: the level 10 one (Defensive Stance) offers a weapon choice, the level 20 one a chest piece, and around 30 there's the Whirlwind weapon quest in Alterac, which is hard solo."}
+      ]
+    },
+    "consejos": [
+      {"es": "La ira se pierde fuera de combate (1,25 por segundo): encadena enemigos sin pausas largas.", "en": "Rage decays out of combat (1.25 per second): chain pulls without long breaks."},
+      {"es": "Pelear contra dos enemigos te da más ira con Protection; no tengas miedo a pulls pequeños.", "en": "Fighting two mobs gives you more Rage as Protection; don't be afraid of small pulls."},
+      {"es": "Usa Last Stand (3 min) y Retaliation o Shield Wall sin miedo: están para usarlos, no para guardarlos.", "en": "Use Last Stand (3 min) and Retaliation or Shield Wall freely: they're meant to be used, not hoarded."},
+      {"es": "Haz las misiones de mazmorra: las armas de recompensa son lo que más te acelera.", "en": "Do dungeon quests: reward weapons speed you up more than anything."},
+      {"es": "Come siempre algo que dé Well Fed: en Forever también da más experiencia por muerte.", "en": "Always keep a Well Fed buff: in Forever it also adds experience per kill."},
+      {"es": "Con el beneficio de Legado Talented el primer talento llega a nivel 5: todos los tramos de arriba se adelantan 5 niveles.", "en": "With the Legacy perk Talented your first talent comes at level 5: every bracket above moves 5 levels earlier."},
+      {"es": "Contra lanzadores de hechizos, Shield Bash y luego ponte detrás de una esquina para que vengan a ti.", "en": "Against casters, Shield Bash and then break line of sight around a corner so they come to you."},
+      {"es": "Agrúpate siempre que puedas, sobre todo con un sanador: el guerrero es la clase que más gana con grupo.", "en": "Group up whenever you can, especially with a healer: Warriors gain more from a group than anyone."}
+    ],
+    "hitos": [
+      {"nivel": "10", "texto": {"es": "Primer talento y misión de clase: Defensive Stance, Taunt y Sunder Armor.", "en": "First talent point and class quest: Defensive Stance, Taunt and Sunder Armor."}},
+      {"nivel": "14", "texto": {"es": "Revenge y Tactical Mastery: ya puedes cambiar de actitud sin quedarte a cero.", "en": "Revenge and Tactical Mastery: stance swaps no longer leave you at zero."}},
+      {"nivel": "20", "texto": {"es": "Victory Rush, Slam, Cleave, Retaliation y Master of Defense. Armas de asta en el instructor.", "en": "Victory Rush, Slam, Cleave, Retaliation and Master of Defense. Polearms at the weapon trainer."}},
+      {"nivel": "25", "texto": {"es": "Vanguard: cargas sin salir de Defensive Stance. Subir se vuelve mucho más fluido.", "en": "Vanguard: Charge without leaving Defensive Stance. Leveling gets much smoother."}},
+      {"nivel": "30", "texto": {"es": "Misión de Berserker Stance e Intercept, Berserker Rage y Concussion Blow.", "en": "Berserker Stance and Intercept quest, Berserker Rage and Concussion Blow."}},
+      {"nivel": "35-39", "texto": {"es": "Bastion: un 10 % más de daño con escudo.", "en": "Bastion: 10% more damage with a shield."}},
+      {"nivel": "40", "texto": {"es": "Shield Slam, placas y montura. Según Warcraft Tavern, también la doble especialización de talentos.", "en": "Shield Slam, Plate and your mount. According to Warcraft Tavern, dual talent specialization too."}},
+      {"nivel": "50", "texto": {"es": "Recklessness, tu gran botón de daño.", "en": "Recklessness, your big damage button."}},
+      {"nivel": "60", "texto": {"es": "Build completa 7/5/39. Si vas a hacer daño en bandas, toca cambiar a Fury o Arms.", "en": "Full 7/5/39 build. If you'll deal damage in raids, it's time to switch to Fury or Arms."}}
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "La beta acabó con el tope en 30, así que nadie ha jugado un guerrero de 60 en Forever. Las builds de abajo son las más planificadas en la calculadora con los datos del cliente; las prioridades son las de Classic adaptadas a los cambios de Forever. Las bandas llegan el 9 de diciembre: hasta entonces, mazmorras.",
+      "en": "The beta ended with a level 30 cap, so nobody has played a level 60 Forever Warrior yet. The builds below are the most planned ones in the calculator using client data; the priorities are Classic's, adjusted for Forever's changes. Raids arrive on 9 December: until then, it's dungeons."
+    },
+    "ramas": [
+      {
+        "nombre": "Fury",
+        "rol": {"es": "DPS cuerpo a cuerpo · 17/34/0", "en": "Melee DPS · 17/34/0"},
+        "estadisticas": [
+          {"es": "Golpe primero: con dos armas, un fallo es daño e ira perdidos. Furious Precision ayuda con la mano izquierda.", "en": "Hit first: with two weapons, a miss is lost damage and Rage. Furious Precision helps the off-hand."},
+          {"es": "Después crítico y fuerza (1 de fuerza = 2 de poder de ataque). Agilidad algo menos.", "en": "Then crit and Strength (1 Strength = 2 attack power). Agility a bit less."},
+          {"es": "Arma lenta y potente en la mano derecha. El tope de golpe en Forever está sin confirmar.", "en": "A slow, heavy main-hand weapon. Forever's hit cap is unconfirmed."}
+        ],
+        "rotacion": [
+          {"es": "Battle Shout siempre puesto y Sunder Armor si nadie más lo aplica.", "en": "Battle Shout always up, and Sunder Armor if nobody else applies it."},
+          {"es": "Bloodthirst cada 6 segundos (30 de ira).", "en": "Bloodthirst every 6 seconds (30 Rage)."},
+          {"es": "Whirlwind en Berserker Stance cuando Bloodthirst está en recarga.", "en": "Whirlwind in Berserker Stance while Bloodthirst is on cooldown."},
+          {"es": "Execute por debajo del 20 %.", "en": "Execute below 20%."},
+          {"es": "Heroic Strike (o Cleave con varios) cuando te sobre ira.", "en": "Heroic Strike (or Cleave on several targets) when Rage is high."},
+          {"es": "Death Wish y Recklessness juntos, mejor en la fase de Execute. Bloodrage y Berserker Rage también curan con Gore Drinker.", "en": "Death Wish and Recklessness together, ideally in the Execute phase. Bloodrage and Berserker Rage also heal with Gore Drinker."}
+        ],
+        "consumibles": [
+          {"es": "Los de Classic, si se mantienen: Elixir of the Mongoose, Juju Power, Mighty Rage Potion y piedras de afilar.", "en": "Classic's, if they stay the same: Elixir of the Mongoose, Juju Power, Mighty Rage Potion and sharpening stones."},
+          {"es": "Comida con Well Fed de fuerza o de poder de ataque.", "en": "Well Fed food with Strength or attack power."}
+        ]
+      },
+      {
+        "nombre": "Arms",
+        "rol": {"es": "DPS cuerpo a cuerpo · 37/11/0", "en": "Melee DPS · 37/11/0"},
+        "estadisticas": [
+          {"es": "Daño del arma de dos manos por encima de todo.", "en": "Two-hander weapon damage above all."},
+          {"es": "Después golpe, crítico y fuerza. Weaponmaster cambia según el arma: hacha o asta da 5 % de crítico, maza o bastón ignora un 15 % de armadura y espada da un 5 % de ataque extra.", "en": "Then hit, crit and Strength. Weaponmaster depends on the weapon: axe or polearm gives 5% crit, mace or staff ignores 15% armor, and sword gives a 5% extra-attack chance."}
+        ],
+        "rotacion": [
+          {"es": "Mortal Strike cada vez que esté listo.", "en": "Mortal Strike whenever it's ready."},
+          {"es": "Rend siempre puesto: con Bloodthrill, tus golpes de la mano derecha pueden abrir Overpower.", "en": "Keep Rend up: with Bloodthrill, your main-hand swings can open Overpower."},
+          {"es": "Overpower cuando se ilumine (Improved Overpower le da un 50 % más de crítico).", "en": "Overpower when it lights up (Improved Overpower gives it 50% more crit)."},
+          {"es": "Slam con Improved Slam (ya no frena tu ataque) y Whirlwind en Berserker Stance: con 25 de ira guardada, cambiar de actitud apenas cuesta.", "en": "Slam with Improved Slam (it no longer delays your swing) and Whirlwind in Berserker Stance: with 25 Rage kept, stance swaps barely cost anything."},
+          {"es": "Sweeping Strikes con dos objetivos y Execute para rematar.", "en": "Sweeping Strikes on two targets and Execute to finish."}
+        ],
+        "consumibles": [
+          {"es": "Los mismos que Fury, si se mantienen como en Classic.", "en": "Same as Fury, if they stay as in Classic."}
+        ]
+      },
+      {
+        "nombre": "Protection",
+        "rol": {"es": "Tanque · 7/5/39", "en": "Tank · 7/5/39"},
+        "estadisticas": [
+          {"es": "Aguante, armadura y evitación para sobrevivir; golpe para no perder amenaza.", "en": "Stamina, armor and avoidance to survive; hit so you don't lose threat."},
+          {"es": "Valor de bloqueo: Shield Slam escala con él, así que un escudo mejor es también más daño.", "en": "Block Value: Shield Slam scales with it, so a better shield also means more damage."},
+          {"es": "Hay otra build 0/20/31 con Enrage y Cruelty para tanquear con más daño.", "en": "There's also a 0/20/31 build with Enrage and Cruelty for a more aggressive tank."}
+        ],
+        "rotacion": [
+          {"es": "Shield Slam cada vez que esté listo.", "en": "Shield Slam on cooldown."},
+          {"es": "Revenge cuando se ilumine.", "en": "Revenge when it lights up."},
+          {"es": "Sunder Armor hasta 5 y mantenlo.", "en": "Sunder Armor to 5 stacks and keep it up."},
+          {"es": "Thunder Clap y Demoralizing Shout siempre puestos.", "en": "Keep Thunder Clap and Demoralizing Shout up."},
+          {"es": "Heroic Strike o Cleave con la ira sobrante, sin retrasar Shield Slam ni Revenge.", "en": "Heroic Strike or Cleave with spare Rage, never delaying Shield Slam or Revenge."},
+          {"es": "Last Stand cada 3 minutos y Shield Wall cada 4 con Improved Shield Wall.", "en": "Last Stand every 3 minutes and Shield Wall every 4 with Improved Shield Wall."}
+        ],
+        "consumibles": [
+          {"es": "Si se mantienen como en Classic: Elixir of Fortitude, Elixir of Superior Defense y Greater Stoneshield Potion.", "en": "If they stay as in Classic: Elixir of Fortitude, Elixir of Superior Defense and Greater Stoneshield Potion."},
+          {"es": "Comida con Well Fed de aguante.", "en": "Well Fed food with Stamina."}
+        ]
+      }
+    ],
+    "equipo": {
+      "es": "Aún no hay lista de mejor equipo para Forever: el botín de las mazmorras se ha rehecho y las bandas llegan el 9 de diciembre. Compara cada pieza por sus estadísticas, no por su color. Herrería tiene placas y mallas buenas (muchas se ligan al recogerlas) y la mazmorra es la fuente principal. Fury quiere un arma lenta en la mano derecha, Arms la mejor de dos manos que encuentres y Protection un escudo con mucho valor de bloqueo. El arma a distancia sirve sobre todo por sus estadísticas.",
+      "en": "There's no best-in-slot list for Forever yet: dungeon loot was rebuilt and raids arrive on 9 December. Compare every piece by its stats, not its color. Blacksmithing makes good plate and mail (much of it bind on pickup) and dungeons are the main source. Fury wants a slow main hand, Arms the best two-hander you can find, and Protection a shield with high Block Value. Your ranged slot is mostly about its stats."
+    }
+  },
+  "pvp": [
+    {"es": "Arms es la rama de JcJ: Mortal Strike corta las curas un 50 % y lo necesitas contra sanadores.", "en": "Arms is the PvP tree: Mortal Strike cuts healing by 50%, and you need it against healers."},
+    {"es": "Improved Hamstring puede inmovilizar 5 segundos: pégate a magos y cazadores y no los sueltes.", "en": "Improved Hamstring can root for 5 seconds: stick to Mages and Hunters and don't let go."},
+    {"es": "Spearing Strike desmonta a los objetivos montados: muy útil en campos de batalla.", "en": "Spearing Strike dismounts mounted targets: very handy in battlegrounds."},
+    {"es": "Guarda Berserker Rage para el miedo o la incapacitación, y Intercept para cuando te alejen.", "en": "Save Berserker Rage for fears and incapacitates, and Intercept for when you're kited."},
+    {"es": "Shield Wall, Retaliation y Recklessness ya no comparten recarga: puedes usar uno sin perder los otros.", "en": "Shield Wall, Retaliation and Recklessness no longer share a cooldown: using one doesn't lock the others."},
+    {"es": "Protection deja una ruta para JcJ sin escudo hasta el centro del árbol: Iron Will, Improved Disarm, Last Stand y Concussion Blow.", "en": "Protection now has a shieldless PvP path to the middle of the tree: Iron Will, Improved Disarm, Last Stand and Concussion Blow."},
+    {"es": "Con escudo, Improved Shield Bash silencia 3 segundos: cambia a escudo para cortar una cura clave.", "en": "With a shield, Improved Shield Bash silences for 3 seconds: swap to a shield to stop a key heal."},
+    {"es": "En Forever los críticos en JcJ ya no se reducen, y Victory Rush te cura tras cada muerte.", "en": "In Forever, PvP crits are no longer reduced, and Victory Rush heals you after each kill."}
+  ],
+  "profesiones": [
+    {"nombre": {"es": "Herrería", "en": "Blacksmithing"}, "por_que": {"es": "Placas, mallas y armas para subir, muchas solo para herreros, y piedras de afilar que suben el daño del arma.", "en": "Plate, mail and weapons for leveling, many only for blacksmiths, plus sharpening stones for extra weapon damage."}},
+    {"nombre": {"es": "Minería", "en": "Mining"}, "por_que": {"es": "Da el mineral para Herrería o Ingeniería y oro para la montura del 40.", "en": "Supplies ore for Blacksmithing or Engineering and gold for your level 40 mount."}},
+    {"nombre": {"es": "Ingeniería", "en": "Engineering"}, "por_que": {"es": "Forever añade planos y abalorios nuevos; muy buena para JcJ y para gnomos.", "en": "Forever adds new schematics and trinkets; great for PvP and for Gnomes."}},
+    {"nombre": {"es": "Cocina", "en": "Cooking"}, "por_que": {"es": "Comida con Well Fed (más experiencia al subir) y necesaria para montar campamentos.", "en": "Well Fed food (more experience while leveling), and you need it for campsites."}}
+  ],
+  "pendiente": [
+    {"es": "Prioridad de estadísticas a 60 y topes de golpe y pericia (Expertise) en Forever: nadie los ha medido todavía.", "en": "Level 60 stat priority and Forever's hit and Expertise caps: nobody has measured them yet."},
+    {"es": "Si Fury o Arms es mejor daño a 60: las simulaciones publicadas son anteriores a la reforma de Fury del 1 de octubre.", "en": "Whether Fury or Arms does more damage at 60: published sims predate the 1 October Fury rework."},
+    {"es": "Equipo de banda y mejor equipo: las bandas llegan el 9 de diciembre de 2026.", "en": "Raid gear and best-in-slot: raids arrive on 9 December 2026."},
+    {"es": "Qué consumibles de Classic siguen igual con las 600 recetas nuevas de Forever.", "en": "Which Classic consumables stay the same with Forever's 600 new recipes."},
+    {"es": "Ajustes de última hora al lanzamiento (4 de noviembre) que cambien talentos o habilidades.", "en": "Last-minute launch tuning (4 November) that changes talents or abilities."}
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de Blizzard (foros oficiales)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
+    {"nombre": "Talents Forever: calculadora y datos del cliente (CC BY 4.0)", "url": "https://talentsforever.com/warrior"},
+    {"nombre": "Talents Forever: cambios del guerrero", "url": "https://talentsforever.com/warrior/changes"},
+    {"nombre": "Warcraft Tavern: guía del guerrero", "url": "https://www.warcrafttavern.com/forever/guides/warrior/"},
+    {"nombre": "Warcraft Tavern: subir de nivel con guerrero", "url": "https://www.warcrafttavern.com/forever/guides/warrior-leveling/"},
+    {"nombre": "Warcraft Tavern: Fury", "url": "https://www.warcrafttavern.com/forever/guides/fury-warrior/"},
+    {"nombre": "Warcraft Tavern: Protection", "url": "https://www.warcrafttavern.com/forever/guides/protection-warrior/"},
+    {"nombre": "Method: subir de nivel con guerrero", "url": "https://www.method.gg/wow-forever/wow-forever-warrior-leveling-guide-and-talents"},
+    {"nombre": "Icy Veins: Protection para subir", "url": "https://www.icy-veins.com/wow-forever/protection-warrior-leveling"},
+    {"nombre": "wow.gg: Fury en la beta", "url": "https://wow.gg/guides/wow-forever-fury-warrior-beta"},
+    {"nombre": "WoW Forever Builds: Protection 20-60", "url": "https://wowforeverbuilds.com/guide/protection-warrior-leveling"},
+    {"nombre": "wowforever.gg: build de Protection para subir", "url": "https://wowforever.gg/en/builds/warrior-protection-leveling/"}
+  ]
+}

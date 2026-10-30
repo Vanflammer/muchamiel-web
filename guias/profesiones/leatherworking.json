@@ -1,0 +1,113 @@
+{
+  "slug": "leatherworking",
+  "nombre": {"es": "Peletería", "en": "Leatherworking"},
+  "tipo": "fabricacion",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Armadura de cuero y malla, kits de armadura y bolsas especiales. En Forever es de las que más crecen: más de 270 recetas nuevas, conjuntos para cada rol que se compran con Favor y una tienda de campaña que da descanso. Para cazadores, druidas, pícaros y chamanes.",
+    "en": "Leather and mail armor, armor kits and special bags. In Forever it's one of the biggest winners: over 270 new recipes, role-based sets bought with Favor and a camp tent that grants rest. For hunters, druids, rogues and shamans."
+  },
+  "pareja": {
+    "es": "Con Skinning: despellejas lo que ya estás matando y la piel va directa a la profesión.",
+    "en": "Skinning: you skin what you're already killing and the leather goes straight into the profession."
+  },
+  "forever": [
+    {"es": "Más de 270 recetas nuevas (más de 500 en total). Forever movió los puntos de casi 200 recetas: de 225 en adelante muchas se ponen grises unos 25 puntos antes que en Classic, así que una guía de Classic no sirve ahí.", "en": "Over 270 new recipes (over 500 in total). Forever moved the skill-up points of nearly 200 recipes: from 225 on, many turn grey about 25 points earlier than in Classic, so a Classic guide won't work there."},
+    {"es": "Con <b>Favor del Mercader</b> (81 patrones en escalones de 30, 60 y 90): conjuntos para subir de nivel (Brawler's, Defender's, Stormrider's, Totemic, Trapper's, Wisdom's), piezas de cuero y malla (Mender's, Skycaller's, Prowler's, Skulker's, Warden's, Skirmisher's, Stalker's) y kits como <b>Forceful Thick Armor Kit</b> y <b>Mystic Rugged Armor Kit</b>. Los vende Daniel Stitchsong (Alianza, Redridge) y el campamento de la Horda junto al Cruce.", "en": "With <b>Merchant's Favor</b> (81 patterns in 30, 60 and 90 tiers): leveling sets (Brawler's, Defender's, Stormrider's, Totemic, Trapper's, Wisdom's), leather and mail pieces (Mender's, Skycaller's, Prowler's, Skulker's, Warden's, Skirmisher's, Stalker's) and kits like <b>Forceful Thick Armor Kit</b> and <b>Mystic Rugged Armor Kit</b>. Sold by Daniel Stitchsong (Alliance, Redridge) and the Horde camp near the Crossroads."},
+    {"es": "Blizzard añadió patrones de peletería que caen al azar en mazmorras, y arregló los kits de armadura de poder de ataque, que daban el doble a distancia.", "en": "Blizzard added leatherworking patterns as random dungeon drops, and fixed attack power armor kits that gave double ranged attack power."},
+    {"es": "Acampada: <b>Camp Tent</b> (20; experiencia de descanso, hasta un 5 % de nivel), <b>Tanning Rack</b> (140; crea componentes) y <b>Sewing Machine</b> (300; necesaria para sus recetas más avanzadas).", "en": "Camping: <b>Camp Tent</b> (20; rested XP, up to 5% of a level), <b>Tanning Rack</b> (140; makes reagents) and <b>Sewing Machine</b> (300; needed for its most advanced recipes)."},
+    {"es": "Puntos de Legacy a 150, 225 y 300, y título de cuenta con el certificado (300 y 1.000 de Favor).", "en": "Legacy points at 150, 225 and 300, and an account title with the certification (300 and 1,000 Favor)."}
+  ],
+  "tramos": [
+    {"desde": 1, "hasta": 30, "receta": "Light Leather", "cuantas": "~33",
+     "materiales": {"es": "Total: 100 Ruined Leather Scraps", "en": "Total: 100 Ruined Leather Scraps"},
+     "nota": {"es": "3 restos por cuero. Amarilla desde 20. Si tienes Light Leather de sobra, haz <b>Light Armor Kit</b> (1 Light Leather cada uno).", "en": "3 scraps per leather. Yellow from 20. With spare Light Leather, make <b>Light Armor Kit</b> (1 Light Leather each)."}},
+    {"desde": 30, "hasta": 55, "receta": "Cured Light Hide", "cuantas": "~27",
+     "materiales": {"es": "Total: 27 Light Hide, 27 Salt", "en": "Total: 27 Light Hide, 27 Salt"},
+     "nota": {"es": "Guarda 24 para Light Leather Pants. En Elwynn y Tirisfal no hay vendedor al lado del instructor: compra Salt y Coarse Thread en Goldshire (Tharynn Bouden) o Brill (Abigail Shiel). Aprende Journeyman a 50 (nivel 10).", "en": "Keep 24 for Light Leather Pants. Elwynn and Tirisfal have no vendor next to the trainer: buy Salt and Coarse Thread in Goldshire (Tharynn Bouden) or Brill (Abigail Shiel). Train Journeyman at 50 (level 10)."}},
+    {"desde": 55, "hasta": 75, "receta": "Embossed Leather Gloves", "cuantas": "~21",
+     "materiales": {"es": "Total: 63 Light Leather, 42 Coarse Thread", "en": "Total: 63 Light Leather, 42 Coarse Thread"},
+     "nota": {"es": "Los últimos cinco puntos son amarillos.", "en": "The last five points are yellow."}},
+    {"desde": 75, "hasta": 80, "receta": "Medium Leather", "cuantas": "~8",
+     "materiales": {"es": "Total: 32 Light Leather", "en": "Total: 32 Light Leather"},
+     "nota": {"es":"Guárdalo para más adelante.", "en":"Keep it for later."}},
+    {"desde": 80, "hasta": 90, "receta": "Cured Medium Hide", "cuantas": "~10",
+     "materiales": {"es": "Total: 10 Medium Hide, 10 Salt", "en": "Total: 10 Medium Hide, 10 Salt"},
+     "nota": {"es": "Guárdalas todas para Dark Leather Belt.", "en": "Keep them all for Dark Leather Belt."}},
+    {"desde": 90, "hasta": 100, "receta": "Fine Leather Belt", "cuantas": "~19",
+     "materiales": {"es": "Total: 114 Light Leather, 38 Coarse Thread", "en": "Total: 114 Light Leather, 38 Coarse Thread"},
+     "nota": {"es": "Guarda 10 cinturones.", "en": "Keep 10 belts."}},
+    {"desde": 100, "hasta": 115, "receta": "Light Leather Pants", "cuantas": "~24",
+     "materiales": {"es": "Total: 240 Light Leather, 24 Cured Light Hide, 24 Fine Thread", "en": "Total: 240 Light Leather, 24 Cured Light Hide, 24 Fine Thread"},
+     "nota": {"es": "Amarillos todo el tramo.", "en": "Yellow the whole way."}},
+    {"desde": 115, "hasta": 125, "receta": "Dark Leather Belt", "cuantas": "~10",
+     "materiales": {"es": "Total: 10 Fine Leather Belt, 10 Cured Medium Hide, 20 Fine Thread, 10 Gray Dye", "en": "Total: 10 Fine Leather Belt, 10 Cured Medium Hide, 20 Fine Thread, 10 Gray Dye"},
+     "nota": {"es": "A 125 aprende Expert (nivel 20, 50 de plata).", "en": "At 125 train Expert (level 20, 50 silver)."}},
+    {"desde": 125, "hasta": 130, "receta": "Heavy Leather", "cuantas": "~7",
+     "materiales": {"es": "Total: 35 Medium Leather", "en": "Total: 35 Medium Leather"},
+     "nota": {"es":"Guárdalo para los tramos siguientes.", "en":"Keep it for the next steps."}},
+    {"desde": 130, "hasta": 140, "receta": "Cured Heavy Hide", "cuantas": "~20",
+     "materiales": {"es": "Total: 20 Heavy Hide, 60 Salt", "en": "Total: 20 Heavy Hide, 60 Salt"},
+     "nota": {"es": "Guárdalas. Si la Heavy Hide está cara, salta a Hillman's Leather Gloves hasta 150 y luego <b>Barbaric Leggings</b> (patrón de vendedor en Thousand Needles, Arathi Highlands y Ashenvale) hasta 165 y <b>Barbaric Harness</b> hasta 175.", "en": "Keep them. If Heavy Hide is pricey, go straight to Hillman's Leather Gloves until 150, then <b>Barbaric Leggings</b> (vendor pattern in Thousand Needles, Arathi Highlands and Ashenvale) to 165 and <b>Barbaric Harness</b> to 175."}},
+    {"desde": 140, "hasta": 155, "receta": "Hillman's Leather Gloves", "cuantas": "~16-20",
+     "materiales": {"es": "Por pieza: 14 Medium Leather, 4 Fine Thread", "en": "Per craft: 14 Medium Leather, 4 Fine Thread"},
+     "nota": {"es": "Amarillos desde 145.", "en": "Yellow from 145."}},
+    {"desde": 155, "hasta": 165, "receta": "Barbaric Shoulders", "cuantas": "~10",
+     "materiales": {"es": "Total: 80 Heavy Leather, 10 Cured Heavy Hide, 20 Fine Thread", "en": "Total: 80 Heavy Leather, 10 Cured Heavy Hide, 20 Fine Thread"},
+     "nota": {"es":"Del instructor Expert.", "en":"From the Expert trainer."}},
+    {"desde": 165, "hasta": 195, "receta": "Guardian Gloves", "cuantas": "~36",
+     "materiales": {"es": "Total: 144 Heavy Leather, 36 Cured Heavy Hide, 36 Silken Thread", "en": "Total: 144 Heavy Leather, 36 Cured Heavy Hide, 36 Silken Thread"},
+     "nota": {"es": "Amarillos desde 185. Cura 26 Heavy Hide más (3 Salt cada una).", "en": "Yellow from 185. Cure 26 more Heavy Hide (3 Salt each)."}},
+    {"desde": 195, "hasta": 210, "receta": "Nightscape Headband", "cuantas": "~21",
+     "materiales": {"es": "Total: 105 Thick Leather, 42 Silken Thread", "en": "Total: 105 Thick Leather, 42 Silken Thread"},
+     "nota": {"es": "Amarilla desde 200. Aprende Artisan a 200 (nivel 35).", "en": "Yellow from 200. Train Artisan at 200 (level 35)."}},
+    {"desde": 210, "hasta": 225, "receta": "Nightscape Pants", "cuantas": "~15",
+     "materiales": {"es": "Total: 210 Thick Leather, 60 Silken Thread", "en": "Total: 210 Thick Leather, 60 Silken Thread"},
+     "nota": {"es": "Solo la enseñan los instructores Artisan (no los Expert de Thunder Bluff y Darnassus).", "en": "Only the Artisan trainers teach it (not the Expert ones in Thunder Bluff and Darnassus)."}},
+    {"desde": 225, "hasta": 235, "receta": "Rugged Armor Kit", "cuantas": "—",
+     "materiales": {"es": "Por pieza: 5 Rugged Leather", "en": "Per craft: 5 Rugged Leather"},
+     "nota": {"es": "Del instructor. Gris a 245.", "en": "From the trainer. Grey at 245."}},
+    {"desde": 235, "hasta": 260, "receta": "Wicked Leather Gauntlets", "cuantas": "—",
+     "materiales": {"es": "Por pieza: 8 Rugged Leather, 1 Black Dye, 1 Rune Thread", "en": "Per craft: 8 Rugged Leather, 1 Black Dye, 1 Rune Thread"},
+     "nota": {"es": "Necesitas el patrón (se aprende a 235). Alternativa de 235 a 250: <b>Nightscape Boots</b> (16 Thick Leather y 2 Heavy Silken Thread cada una).", "en": "Needs the pattern (learnable at 235). Alternative for 235-250: <b>Nightscape Boots</b> (16 Thick Leather and 2 Heavy Silken Thread each)."}},
+    {"desde": 260, "hasta": 280, "receta": "Tooled Leather Gauntlets", "cuantas": "—",
+     "materiales": {"es": "Por pieza: 10 Rugged Leather, 1 Rune Thread, 1 Orange Dye", "en": "Per craft: 10 Rugged Leather, 1 Rune Thread, 1 Orange Dye"},
+     "nota": {"es": "Receta nueva de Forever (intelecto y espíritu).", "en": "New Forever recipe (intellect and spirit)."}},
+    {"desde": 280, "hasta": 300, "receta": "Blue Suede Hat", "cuantas": "—",
+     "materiales": {"es": "Por pieza: 16 Rugged Leather, 1 Rune Thread, 4 Blue Dye", "en": "Per craft: 16 Rugged Leather, 1 Rune Thread, 4 Blue Dye"},
+     "nota": {"es": "Receta nueva de Forever (fuerza y agilidad). Naranja a 280, amarilla cerca de 300.", "en": "New Forever recipe (strength and agility). Orange at 280, yellow near 300."}}
+  ],
+  "entrenadores": [
+    {"es": "Apprentice (1-75): sin nivel mínimo. Kamari (Orgrimmar), Dan Golthas (Undercity), Mak (Thunder Bluff), Randal Worth (Stormwind), Gretta Finespindle (Ironforge), Darianna (Darnassus). Zonas de inicio: Chaw Stronghide (Bloodhoof Village), Shelene Rhobart (al sureste de Brill), Adele Fielder (Crystal Lake, Elwynn), Nadyia Maneweaver (Teldrassil) e Indari Sunseam (Zephras Isle).", "en": "Apprentice (1-75): no level requirement. Kamari (Orgrimmar), Dan Golthas (Undercity), Mak (Thunder Bluff), Randal Worth (Stormwind), Gretta Finespindle (Ironforge), Darianna (Darnassus). Starting zones: Chaw Stronghide (Bloodhoof Village), Shelene Rhobart (southeast of Brill), Adele Fielder (Crystal Lake, Elwynn), Nadyia Maneweaver (Teldrassil) and Indari Sunseam (Zephras Isle)."},
+    {"es": "Journeyman (hasta 150; con 50 y nivel 10): Karolek (Orgrimmar), Arthur Moore (Undercity), Tarn (Thunder Bluff), Simon Tanner (Stormwind), Fimble Finespindle (Ironforge), Faldron (Darnassus). En Zephras Isle, Emerii Tallgust.", "en": "Journeyman (up to 150; skill 50 and level 10): Karolek (Orgrimmar), Arthur Moore (Undercity), Tarn (Thunder Bluff), Simon Tanner (Stormwind), Fimble Finespindle (Ironforge), Faldron (Darnassus). On Zephras Isle, Emerii Tallgust."},
+    {"es": "Expert (hasta 225; con 125 y nivel 20, 50 de plata): Una (Thunder Bluff) o Telonis (Darnassus).", "en": "Expert (up to 225; skill 125 and level 20, 50 silver): Una (Thunder Bluff) or Telonis (Darnassus)."},
+    {"es": "Artisan (hasta 300; con 200 y nivel 35): Hahrana Ironhide (Camp Mojache, Feralas) para la Horda y Drakk Stonehand (Aerie Peak, The Hinterlands) para la Alianza.", "en": "Artisan (up to 300; skill 200 and level 35): Hahrana Ironhide (Camp Mojache, Feralas) for the Horde and Drakk Stonehand (Aerie Peak, The Hinterlands) for the Alliance."}
+  ],
+  "lo_mejor": [
+    {"es": "Kits de armadura: todo el mundo se los pone en piernas, pecho, manos y pies. El <b>Mystic Rugged Armor Kit</b> de Favor es nuevo.", "en": "Armor kits: everyone puts them on legs, chest, hands and feet. The Favor <b>Mystic Rugged Armor Kit</b> is new."},
+    {"es": "Los conjuntos de Favor para subir de nivel: cuero o malla rara con estadísticas para tu rol, desde 60 de habilidad.", "en": "Favor leveling sets: rare leather or mail with stats for your role, from skill 60."},
+    {"es": "Bolsas especiales (carcajes y bolsas de munición para cazadores).", "en": "Special bags (quivers and ammo pouches for hunters)."},
+    {"es": "La Camp Tent: experiencia de descanso para todo el grupo junto a la hoguera.", "en": "The Camp Tent: rested XP for the whole group at the campfire."}
+  ],
+  "consejos": [
+    {"es": "Sube Skinning desde el nivel 1: la ruta pide cientos de cueros de cada tipo.", "en": "Level Skinning from level 1: the route eats hundreds of each leather type."},
+    {"es": "Cura las pieles (Hide) en cuanto las tengas y guarda lo que la ruta te pide guardar: hay tramos que reutilizan cinturones y pieles curadas.", "en": "Cure hides as soon as you get them and keep what the route says to keep: some steps reuse belts and cured hides."},
+    {"es": "En la parte media hay dos caminos: con Heavy Hide o sin ella. Mira precios y elige el más barato.", "en": "The middle stretch has two paths: with Heavy Hide or without. Check prices and take the cheaper one."},
+    {"es": "No sigas una guía de Classic pasado 225: en Forever las recetas se ponen grises antes.", "en": "Don't follow a Classic guide past 225: in Forever recipes go grey sooner."},
+    {"es": "Rellena los Waylaid Supplies que pidan cuero: el Favor da los conjuntos y kits nuevos.", "en": "Fill Waylaid Supplies that ask for leather: Favor buys the new sets and kits."}
+  ],
+  "pendiente": [
+    {"es": "De 225 a 300 no se ha probado (la beta tenía tope de nivel 30). Las guías no coinciden: otra ruta usa Blue Suede Gloves, Supple Scorpid Bracers y Blue Suede Bracers. Lo ajustaremos en la semana del lanzamiento.", "en": "225-300 hasn't been tested (the beta was capped at level 30). Guides disagree: another route uses Blue Suede Gloves, Supple Scorpid Bracers and Blue Suede Bracers. We'll fix it in launch week."},
+    {"es": "Dónde se consiguen los patrones de Wicked Leather Gauntlets, Tooled Leather Gauntlets y Blue Suede Hat, y cuántas piezas hacen falta.", "en": "Where the Wicked Leather Gauntlets, Tooled Leather Gauntlets and Blue Suede Hat patterns come from, and how many crafts each needs."},
+    {"es": "Cómo se desbloquean Dragonscale, Elemental y Tribal en Forever.", "en": "How Dragonscale, Elemental and Tribal unlock in Forever."},
+    {"es": "Qué componentes hace el Tanning Rack y qué recetas piden la Sewing Machine.", "en": "Which reagents the Tanning Rack makes and which recipes need the Sewing Machine."}
+  ],
+  "fuentes": [
+    {"nombre": "Blizzard: repaso a fondo de Forever (profesiones y acampada)", "url": "https://news.blizzard.com/es-es/article/24303313/world-of-warcraft-forever-resumen-de-la-mesa-redonda-repaso-a-fondo"},
+    {"nombre": "Warcraft Tavern: profesiones en Forever", "url": "https://www.warcrafttavern.com/forever/guides/professions/"},
+    {"nombre": "WoW-Professions: Leatherworking 1-300 en Forever", "url": "https://www.wow-professions.com/forever/leatherworking-leveling-guide"},
+    {"nombre": "LFCarry: Leatherworking en Forever (Favor y 225-300)", "url": "https://lfcarry.com/guides/wow-forever-leatherworking"},
+    {"nombre": "Conquest Capped: Leatherworking en Forever", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-leatherworking/"},
+    {"nombre": "RankedBoost: Leatherworking en Forever (cambios del cliente)", "url": "https://rankedboost.com/world-of-warcraft/forever/professions/leatherworking-leveling/"}
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "slug": "hunter",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El cazador ataca a distancia con arco, ballesta o arma de fuego y lleva una mascota que tanquea por él. En Forever todos aprenden Aimed Shot a nivel 20, las trampas se ponen en pleno combate y cada familia de mascotas tiene su truco propio. Es la clase más cómoda para subir sola y, a nivel 60, puedes jugarla con mascota (Beast Mastery), sin mascota a distancia (Marksmanship) o cuerpo a cuerpo (Survival).",
+    "en": "The Hunter fights at range with a bow, crossbow or gun and brings a pet that tanks for them. In Forever every Hunter learns Aimed Shot at level 20, traps can be laid mid-fight and each pet family has its own trick. It is the easiest class to level alone, and at 60 you can play it with a pet (Beast Mastery), at range without one (Marksmanship) or in melee (Survival)."
+  },
+  "fuertes": [
+    {"es": "Sube de nivel rápido y sin pasar apuros: la mascota recibe los golpes mientras tú disparas.", "en": "Fast, safe leveling: the pet takes the hits while you shoot."},
+    {"es": "Mucho control: Concussive Shot, Wing Clip, Scatter Shot y dos trampas a la vez (una de fuego y una de hielo), ahora también en combate.", "en": "Plenty of control: Concussive Shot, Wing Clip, Scatter Shot and two traps at once (one Fire, one Frost), now usable mid-fight."},
+    {"es": "Feign Death para soltar enemigos o salir de un mal tirón, y Aspect of the Cheetah para viajar rápido antes de la montura.", "en": "Feign Death to shed enemies or escape a bad pull, and Aspect of the Cheetah to travel fast before you have a mount."},
+    {"es": "Tres ramas muy distintas: mascota y halcones, tirador solitario de largo alcance o luchador cuerpo a cuerpo.", "en": "Three very different trees: pet and hawks, long-range lone marksman, or melee fighter."},
+    {"es": "Viper Sting y Tranquilizing Shot dan utilidad en mazmorras, bandas y JcJ.", "en": "Viper Sting and Tranquilizing Shot bring utility in dungeons, raids and PvP."}
+  ],
+  "debiles": [
+    {"es": "Muy flojo antes del nivel 10: sin mascota toca alejarse y disparar.", "en": "Weak before level 10: with no pet you have to kite."},
+    {"es": "Zona muerta: a menos de 8 metros no puedes disparar, y Auto Shot necesita medio segundo quieto antes de cada disparo.", "en": "Dead zone: inside 8 yards you cannot shoot, and Auto Shot needs half a second standing still before each shot."},
+    {"es": "Gastas en munición y comida para la mascota, y el carcaj o la bolsa de munición ocupa un hueco de bolsa.", "en": "You spend money on ammo and pet food, and the quiver or ammo pouch takes up a bag slot."},
+    {"es": "Hay que cuidar a la mascota: si muere o está descontenta, tu daño baja mucho.", "en": "The pet needs looking after: if it dies or is unhappy, your damage drops a lot."},
+    {"es": "Va justo de maná en peleas largas si no eliges talentos que lo alivien.", "en": "Mana runs short in long fights unless you take talents that help."}
+  ],
+  "ramas": [
+    {"nombre": "Beast Mastery", "rol": {"es": "DPS a distancia con mascota", "en": "Ranged DPS with a pet"},
+     "mejor_para": {"es": "Subir de nivel y jugar solo", "en": "Leveling and solo play"},
+     "texto": {"es": "La mascota es más dura y pega más, y a partir del nivel 25 sumas hasta dos halcones con Summon Hawk. Focused Fire sube tu daño y el de la mascota mientras esté fuera. Es la opción más segura para subir.", "en": "Your pet is tougher and hits harder, and from level 25 you add up to two hawks with Summon Hawk. Focused Fire raises your damage and your pet's while it is out. It is the safest way to level."}},
+    {"nombre": "Marksmanship", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
+     "mejor_para": {"es": "Bandas y JcJ a distancia", "en": "Raids and ranged PvP"},
+     "texto": {"es": "Rama de disparos: Careful Aim convierte tu Intelecto en poder de ataque, Rapid Killing acorta Rapid Fire y Sniper Shot (talento final) dispara desde 45 metros y alarga el alcance de los tres siguientes disparos. Con Lone Wolf haces un 20 % más de daño si no sacas mascota.", "en": "The shooting tree: Careful Aim turns your Intellect into attack power, Rapid Killing shortens Rapid Fire and Sniper Shot (the final talent) fires from 45 yards and extends the range of your next three shots. Lone Wolf adds 20% damage when you have no pet out."}},
+    {"nombre": "Survival", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
+     "mejor_para": {"es": "Nivel 60, JcJ y quien quiera un cazador de cerca", "en": "Level 60, PvP and anyone wanting a close-range Hunter"},
+     "texto": {"es": "En Forever es una rama de cuerpo a cuerpo: Predator's Edge, Expose Prey (Mongoose Bite sin necesidad de esquivar), Strider Kick y Lacerating Strikes giran en torno a tu arma de melé. También mejora las trampas. Es la rama más planificada para el nivel 60, pero para subir rinde menos que Beast Mastery.", "en": "In Forever this is a melee tree: Predator's Edge, Expose Prey (Mongoose Bite without needing a dodge), Strider Kick and Lacerating Strikes all revolve around your melee weapon. It also improves traps. It is the most-planned tree for level 60, but it levels slower than Beast Mastery."}}
+  ],
+  "razas": [
+    {"raza": {"es": "Elfo de la noche", "en": "Night Elf"}, "faccion": "Alianza",
+     "por_que": {"es": "Elune's Light da un 10 % de crítico durante 15 segundos y Shadowmeld te esconde o te quita la atención en combate. Buena para bandas.", "en": "Elune's Light gives 10% crit for 15 seconds and Shadowmeld hides you or drops you off the enemy's radar in combat. Good for raids."}},
+    {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza",
+     "por_que": {"es": "Nuevo en el cazador. Ruthless da un 1 % de crítico fijo y Will to Survive rompe aturdimientos: muy útil en JcJ.", "en": "New to Hunter. Ruthless gives a flat 1% crit and Will to Survive breaks stuns: very handy in PvP."}},
+    {"raza": {"es": "Enano", "en": "Dwarf"}, "faccion": "Alianza",
+     "por_que": {"es": "Artisan's Precision da un 1 % de golpe, Big Game Hunter un 5 % más de daño contra bestias (muy útil al subir) y Stoneform limpia sangrados, venenos y enfermedades.", "en": "Artisan's Precision gives 1% hit, Big Game Hunter 5% more damage to Beasts (great while leveling) and Stoneform clears bleeds, poisons and diseases."}},
+    {"raza": {"es": "Célico (Orden Eminente)", "en": "Skyborne (High Order)"}, "faccion": "Alianza",
+     "por_que": {"es": "Raza nueva: Wind Blessed da un 2 % de celeridad y Read Leyline acelera la recuperación de vida y maná. Empieza en la Isla de Zephras y pide el pack Heroico.", "en": "New race: Wind Blessed gives 2% haste and Read Leyline speeds up health and mana regeneration. Starts on Zephras Isle and needs the Heroic pack."}},
+    {"raza": {"es": "Orco", "en": "Orc"}, "faccion": "Horda",
+     "por_que": {"es": "Command vuelve: tu mascota hace un 5 % más de daño. Blood Fury sube el poder de ataque y Hardiness acorta los aturdimientos. La mejor para Beast Mastery.", "en": "Command is back: your pet deals 5% more damage. Blood Fury raises attack power and Hardiness shortens stuns. The best pick for Beast Mastery."}},
+    {"raza": {"es": "Trol", "en": "Troll"}, "faccion": "Horda",
+     "por_que": {"es": "Berserking da un 10 % de velocidad de ataque durante 15 segundos, Beast Slaying un 5 % contra bestias y Rapid Regeneration recupera media vida fuera de peligro.", "en": "Berserking gives 10% attack speed for 15 seconds, Beast Slaying 5% against Beasts and Rapid Regeneration restores half your health when safe."}},
+    {"raza": {"es": "Tauren", "en": "Tauren"}, "faccion": "Horda",
+     "por_que": {"es": "War Stomp aturde en área, Endurance da un 5 % de vida y Plainsrunning te acelera hasta un 60 % si no paras de correr (sin montura). Fuerte en mundo abierto y JcJ.", "en": "War Stomp is an area stun, Endurance gives 5% health and Plainsrunning speeds you up to 60% while you keep running (not mounted). Strong in the open world and PvP."}},
+    {"raza": {"es": "Célico (Formaviento)", "en": "Skyborne (Windshaper)"}, "faccion": "Horda",
+     "por_que": {"es": "Raza nueva: 2 % de celeridad con Wind Blessed y Skysight para moverte más rápido. Empieza en la Isla de Zephras y pide el pack Heroico.", "en": "New race: 2% haste from Wind Blessed and Skysight to move faster. Starts on Zephras Isle and needs the Heroic pack."}}
+  ],
+  "subir": {
+    "rama": "Beast Mastery",
+    "intro": {
+      "es": "Todas las guías publicadas coinciden: Beast Mastery es la rama para subir. La mascota tanquea y hace buena parte del daño, tú disparas desde lejos y casi nunca mueres. Desde el 25 sumas dos halcones que pegan solos. A partir del nivel 40, cuando la rama ya está completa, los puntos van a Marksmanship para más crítico y daño a distancia. Al llegar a 60 puedes quedarte así o cambiar en el instructor de una capital.",
+      "en": "Every published guide agrees: Beast Mastery is the leveling tree. Your pet tanks and does much of the damage, you shoot from afar and you rarely die. From 25 you add two hawks that fight on their own. After level 40, once the tree is done, points go into Marksmanship for more crit and ranged damage. At 60 you can keep it or respec at a capital-city trainer."
+    },
+    "talentos": [
+      {"niveles": "10-14", "puntos": "5/5 Endurance Training", "nota": {"es": "Tu mascota tiene un 15 % más de vida y armadura: aguanta mejor los tirones.", "en": "Your pet gets 15% more health and armor, so it survives pulls better."}},
+      {"niveles": "15-16", "puntos": "2/2 Focused Fire", "nota": {"es": "Un 2 % más de daño para ti y la mascota mientras esté fuera.", "en": "2% more damage for you and your pet while it is out."}},
+      {"niveles": "17-19", "puntos": "3/5 Deadly Aspects", "nota": {"es": "Con Aspect of the Hawk, tus Auto Shot pueden darte un 30 % más de velocidad de disparo durante 12 segundos.", "en": "With Aspect of the Hawk, your Auto Shots can grant 30% ranged attack speed for 12 seconds."}},
+      {"niveles": "20", "puntos": "1/1 Bestial Swiftness", "nota": {"es": "La mascota corre un 30 % más y es requisito de Intimidation.", "en": "Your pet runs 30% faster, and it is required for Intimidation."}},
+      {"niveles": "21-24", "puntos": "4/5 Unleashed Fury", "nota": {"es": "Más daño de la mascota y de los halcones.", "en": "More damage from your pet and your hawks."}},
+      {"niveles": "25", "puntos": "1/1 Summon Hawk", "nota": {"es": "Habilidad nueva: hasta dos halcones atacando a la vez durante 18 segundos.", "en": "New ability: up to two hawks attacking at once for 18 seconds."}},
+      {"niveles": "26", "puntos": "5/5 Unleashed Fury", "nota": {"es": "Completas el 15 % de daño extra de mascota y halcones.", "en": "Completes the 15% bonus damage for pet and hawks."}},
+      {"niveles": "27-29", "puntos": "3/5 Ferocity", "nota": {"es": "Más crítico para mascota y halcones.", "en": "More crit for your pet and hawks."}},
+      {"niveles": "30", "puntos": "1/1 Intimidation", "nota": {"es": "Aturdimiento de 3 segundos de la mascota; salva peleas y es requisito de Bestial Wrath.", "en": "A 3-second stun from your pet; it saves fights and leads to Bestial Wrath."}},
+      {"niveles": "31-32", "puntos": "5/5 Ferocity", "nota": {"es": "Abre Frenzy, que necesita Ferocity.", "en": "Unlocks Frenzy, which needs Ferocity."}},
+      {"niveles": "33-34", "puntos": "2/2 Bestial Discipline", "nota": {"es": "La mascota recupera foco más rápido y tú sigues recuperando la mitad del maná mientras disparas: menos pausas para beber.", "en": "Your pet regains Focus faster and you keep half your mana regeneration while casting: fewer stops to drink."}},
+      {"niveles": "35-39", "puntos": "5/5 Frenzy", "nota": {"es": "Tras cada crítico, la mascota ataca un 30 % más rápido durante 8 segundos.", "en": "After each crit your pet attacks 30% faster for 8 seconds."}},
+      {"niveles": "40", "puntos": "1/1 Bestial Wrath", "nota": {"es": "La mascota hace un 50 % más de daño durante 18 segundos y no se la puede controlar.", "en": "Your pet deals 50% more damage for 18 seconds and cannot be crowd-controlled."}},
+      {"niveles": "41-60", "puntos": "5/5 Lethal Attacks, 5/5 Careful Aim, 3/5 Efficiency, 2/2 Rapid Killing, 5/5 Mortal Shots (Marksmanship)", "nota": {"es": "En ese orden: crítico, poder de ataque por Intelecto, menos coste de maná, Rapid Fire más a menudo y más daño de crítico. Acabas en 31/20/0, la build de Beast Mastery más planificada para el 60.", "en": "In that order: crit, attack power from Intellect, cheaper shots, Rapid Fire more often and bigger crits. You end at 31/20/0, the most-planned Beast Mastery build for 60."}}
+    ],
+    "habilidades": [
+      {"nivel": 1, "nombre": "Raptor Strike", "nuevo": false, "texto": {"es": "Golpe de melé para cuando el enemigo te alcanza.", "en": "Melee strike for when the enemy reaches you."}},
+      {"nivel": 4, "nombre": "Serpent Sting", "nuevo": false, "texto": {"es": "Veneno de daño en el tiempo; úsalo solo en peleas que duren.", "en": "Damage-over-time poison; use it only on fights that last."}},
+      {"nivel": 4, "nombre": "Aspect of the Monkey", "nuevo": false, "texto": {"es": "Más esquiva: tu aspecto hasta el nivel 10.", "en": "More dodge: your aspect until level 10."}},
+      {"nivel": 6, "nombre": "Arcane Shot", "nuevo": false, "texto": {"es": "Disparo instantáneo de daño arcano.", "en": "Instant Arcane damage shot."}},
+      {"nivel": 6, "nombre": "Hunter's Mark", "nuevo": false, "texto": {"es": "Marca al objetivo: más poder de ataque a distancia contra él y no se te escapa en sigilo.", "en": "Marks the target: more ranged attack power against it, and it cannot hide in stealth."}},
+      {"nivel": 8, "nombre": "Concussive Shot", "nuevo": false, "texto": {"es": "Frena al enemigo un 50 % durante 4 segundos.", "en": "Slows the enemy by 50% for 4 seconds."}},
+      {"nivel": 10, "nombre": "Tame Beast", "nuevo": false, "texto": {"es": "Doma tu primera mascota (misión del instructor); también llegan Call Pet, Feed Pet y Revive Pet.", "en": "Tame your first pet (trainer quest); Call Pet, Feed Pet and Revive Pet come with it."}},
+      {"nivel": 10, "nombre": "Aspect of the Hawk", "nuevo": false, "texto": {"es": "Más poder de ataque a distancia: tu aspecto de combate desde aquí.", "en": "More ranged attack power: your combat aspect from here on."}},
+      {"nivel": 12, "nombre": "Mend Pet", "nuevo": false, "texto": {"es": "Cura a la mascota mientras la canalizas.", "en": "Heals your pet while you channel it."}},
+      {"nivel": 12, "nombre": "Wing Clip", "nuevo": false, "texto": {"es": "Golpe de melé que frena al enemigo para volver a alejarte.", "en": "Melee hit that slows the enemy so you can back off."}},
+      {"nivel": 16, "nombre": "Immolation Trap", "nuevo": false, "texto": {"es": "Trampa de fuego; en Forever se pone también en combate (30 s de reutilización).", "en": "Fire trap; in Forever it can also be laid in combat (30 sec cooldown)."}},
+      {"nivel": 18, "nombre": "Multi-Shot", "nuevo": false, "texto": {"es": "Golpea a 3 objetivos; comparte reutilización de 6 s con Aimed Shot.", "en": "Hits 3 targets; shares a 6 sec cooldown with Aimed Shot."}},
+      {"nivel": 20, "nombre": "Aimed Shot", "nuevo": true, "texto": {"es": "Ya no es talento: lo aprenden todos, con 2 segundos de lanzamiento. Auto Shot sigue disparando mientras lo lanzas.", "en": "No longer a talent: every Hunter learns it, with a 2-second cast. Auto Shot keeps firing while you cast it."}},
+      {"nivel": 20, "nombre": "Freezing Trap", "nuevo": false, "texto": {"es": "Congela a un enemigo hasta 10 segundos; tu mejor control.", "en": "Freezes one enemy for up to 10 seconds; your best crowd control."}},
+      {"nivel": 20, "nombre": "Aspect of the Cheetah", "nuevo": false, "texto": {"es": "Un 30 % más de velocidad para viajar; si te golpean, te aturde.", "en": "30% faster travel; if you are hit, you get dazed."}},
+      {"nivel": 20, "nombre": "Disengage", "nuevo": false, "texto": {"es": "Quita amenaza; en Forever quita el doble que en Classic.", "en": "Drops threat; in Forever it sheds twice as much as in Classic."}},
+      {"nivel": 25, "nombre": "Summon Hawk", "nuevo": true, "texto": {"es": "Talento de Beast Mastery: lanza un halcón que ataca 18 s; hasta dos a la vez. Comparte reutilización con Arcane Shot.", "en": "Beast Mastery talent: sends a hawk that attacks for 18 sec; up to two at once. Shares its cooldown with Arcane Shot."}},
+      {"nivel": 26, "nombre": "Rapid Fire", "nuevo": false, "texto": {"es": "Un 40 % más de velocidad de ataque a distancia y de melé durante 15 segundos.", "en": "40% faster ranged and melee attacks for 15 seconds."}},
+      {"nivel": 28, "nombre": "Frost Trap", "nuevo": false, "texto": {"es": "Hielo en el suelo que frena un 60 %; comparte reutilización con Freezing Trap.", "en": "Ice patch that slows by 60%; shares its cooldown with Freezing Trap."}},
+      {"nivel": 30, "nombre": "Feign Death", "nuevo": false, "texto": {"es": "Te haces el muerto para que los enemigos te suelten. Ojo: si lo dejas activo 6 minutos, mueres de verdad.", "en": "Play dead so enemies drop you. Careful: leave it on for 6 minutes and you really die."}},
+      {"nivel": 30, "nombre": "Aspect of the Beast", "nuevo": false, "texto": {"es": "Cambiado: además de ocultarte del rastreo, da poder de ataque de melé. Es el aspecto de Survival.", "en": "Changed: besides hiding you from tracking, it adds melee attack power. It is Survival's aspect."}},
+      {"nivel": 30, "nombre": "Lacerate", "nuevo": true, "texto": {"es": "Hechizo nuevo del instructor para todos: un sangrado de 21 segundos.", "en": "New trainer spell for everyone: a 21-second bleed."}},
+      {"nivel": 32, "nombre": "Enchanted Flare", "nuevo": true, "texto": {"es": "Versión nueva de Flare: además de revelar enemigos ocultos, aparta la oscuridad mágica.", "en": "New take on Flare: besides revealing hidden enemies, it dispels magical darkness."}},
+      {"nivel": 34, "nombre": "Explosive Trap", "nuevo": false, "texto": {"es": "Trampa de fuego en área para grupos de enemigos.", "en": "Area Fire trap for packs of enemies."}},
+      {"nivel": 36, "nombre": "Viper Sting", "nuevo": false, "texto": {"es": "Roba maná al objetivo; en Forever tiene 15 s de reutilización.", "en": "Drains the target's mana; in Forever it has a 15 sec cooldown."}},
+      {"nivel": 40, "nombre": "Bestial Wrath", "nuevo": false, "texto": {"es": "Talento final de Beast Mastery: la mascota se enfurece 18 segundos.", "en": "Beast Mastery's final talent: your pet rages for 18 seconds."}},
+      {"nivel": 40, "nombre": "Sniper Shot", "nuevo": true, "texto": {"es": "Talento final de Marksmanship: disparo de 4 s de lanzamiento desde 45 metros que alarga el alcance de los 3 siguientes.", "en": "Marksmanship's final talent: a 4-sec cast shot from 45 yards that extends the range of your next 3 shots."}},
+      {"nivel": 40, "nombre": "Volley", "nuevo": false, "texto": {"es": "Lluvia de disparos en área; en Forever sin reutilización.", "en": "Area rain of shots; no cooldown in Forever."}},
+      {"nivel": 46, "nombre": "Aspect of the Wild", "nuevo": false, "texto": {"es": "Resistencia a naturaleza para todo el grupo.", "en": "Nature resistance for the whole group."}},
+      {"nivel": 60, "nombre": "Tranquilizing Shot", "nuevo": false, "texto": {"es": "Quita el frenesí a un enemigo; clave en algunos jefes de banda.", "en": "Removes a Frenzy effect from an enemy; key on some raid bosses."}}
+    ],
+    "rotacion": [
+      {"es": "Fuera de combate, Aspect of the Hawk puesto (Aspect of the Cheetah solo para viajar).", "en": "Out of combat, keep Aspect of the Hawk on (Aspect of the Cheetah only for travel)."},
+      {"es": "Manda a la mascota primero y deja que dé dos o tres golpes antes de disparar, para que no te quite la atención.", "en": "Send your pet in first and let it land two or three hits before you shoot, so it keeps the enemy's attention."},
+      {"es": "Desde el 25: mantén dos halcones con Summon Hawk; vuelve a lanzarlo justo antes de que caduque uno.", "en": "From 25: keep two hawks up with Summon Hawk; recast it just before one runs out."},
+      {"es": "Aimed Shot cada vez que esté listo (Multi-Shot si hay varios enemigos: comparten reutilización).", "en": "Aimed Shot whenever it is ready (Multi-Shot if there are several enemies: they share a cooldown)."},
+      {"es": "Arcane Shot cuando ya tengas dos halcones y les quede tiempo, porque comparte reutilización con Summon Hawk.", "en": "Arcane Shot once both hawks are up with time left, since it shares a cooldown with Summon Hawk."},
+      {"es": "Serpent Sting solo en enemigos que duren; en los que caen rápido es maná perdido.", "en": "Serpent Sting only on enemies that last; on quick kills it wastes mana."},
+      {"es": "Si un enemigo va a por ti: Concussive Shot, Frost Trap o Wing Clip, y Disengage para devolverlo a la mascota.", "en": "If an enemy comes for you: Concussive Shot, Frost Trap or Wing Clip, then Disengage to hand it back to your pet."},
+      {"es": "Rapid Fire y Bestial Wrath (desde el 40) en enemigos duros o cuando se juntan varios.", "en": "Rapid Fire and Bestial Wrath (from 40) on tough enemies or when several gang up."}
+    ],
+    "extra": {
+      "titulo": {"es": "Mascotas, munición y comida", "en": "Pets, ammo and food"},
+      "items": [
+        {"es": "<b>La primera (nivel 10)</b>: el instructor te da la misión Taming the Beast en tu zona de inicio. Como en Classic, puedes domar bestias de la misión (enano: jabalí, oso o leopardo de Dun Morogh; elfo de la noche: araña, felino o búho de Teldrassil; tauren: zancudo, lobo o ave de Mulgore; orco y trol: jabalí, cangrejo o escórpido de Durotar). Quédate la que más te guste: lo que manda es la familia.", "en": "<b>Your first (level 10)</b>: the trainer gives you Taming the Beast in your starting zone. As in Classic, you tame beasts from the quest (Dwarf: boar, bear or leopard in Dun Morogh; Night Elf: spider, cat or owl in Teldrassil; Tauren: plainstrider, wolf or bird in Mulgore; Orc and Troll: boar, crab or scorpid in Durotar). Keep whichever you like: the family is what matters."},
+        {"es": "<b>Para subir</b>: felino (mucho daño), jabalí (Charge, aguanta y llega rápido), oso (Swipe golpea a 3 enemigos y come de todo) o lobo. Doma siempre una bestia de tu nivel: en Forever no puedes domar nada por encima de tu nivel y la mascota se queda con el nivel que tenía.", "en": "<b>For leveling</b>: cat (high damage), boar (Charge, sturdy and quick to engage), bear (Swipe hits 3 enemies and it eats anything) or wolf. Always tame a beast at your level: in Forever you cannot tame anything above your level and the pet keeps the level it had."},
+        {"es": "<b>Felinos raros (dato de Classic)</b>: Humar the Pridelord (nivel 23, Los Baldíos) y Broken Tooth (nivel 37, Tierras Inhóspitas), con ataque muy rápido que interrumpe lanzamientos en JcJ. En Forever el daño por familia está igualado, así que la velocidad no da más daño, pero sí más interrupciones.", "en": "<b>Rare cats (Classic data)</b>: Humar the Pridelord (level 23, The Barrens) and Broken Tooth (level 37, Badlands), with a very fast attack that pushes back casts in PvP. In Forever damage is evened out per family, so speed adds no damage, only more pushback."},
+        {"es": "<b>Trucos nuevos por familia</b>: oso Swipe, cangrejo Pinch (frena), cocodrilo Dismember (menos curación, gran opción de JcJ), hiena Tendon Rip, raptor Savage Rend (sangrado), araña Web (enraíza), zancudo Dust Cloud (baja armadura), ave rapaz Mine! (desarma), murciélago Sonic Blast (frena lanzamientos) y zorro, familia nueva, Trickster's Dance (esquiva y velocidad). El lobo mantiene Furious Howl, ahora un 40 % más flojo.", "en": "<b>New tricks per family</b>: bear Swipe, crab Pinch (slow), crocolisk Dismember (reduced healing, great for PvP), hyena Tendon Rip, raptor Savage Rend (bleed), spider Web (root), tallstrider Dust Cloud (armor reduction), bird of prey Mine! (disarm), bat Sonic Blast (slower casting) and the new fox family, Trickster's Dance (dodge and attack speed). The wolf keeps Furious Howl, now 40% weaker."},
+        {"es": "<b>Para mazmorras y bandas</b>: felino por daño o lobo por Furious Howl, que da poder de ataque al grupo de melé. Para JcJ: cocodrilo, murciélago, ave rapaz o serpiente alada (Lightning Breath ignora armadura y se lanza a distancia).", "en": "<b>For dungeons and raids</b>: cat for damage or wolf for Furious Howl, which buffs melee attack power for the group. For PvP: crocolisk, bat, bird of prey or wind serpent (Lightning Breath ignores armor and works at range)."},
+        {"es": "<b>Alimentar</b>: Feed Pet desde el nivel 10, fuera de combate. Contenta, la mascota hace un 125 % del daño; descontenta, un 75 %. Muere o la despides con Dismiss Pet y pierde felicidad. Da comida de su dieta y cercana a su nivel (Beast Lore, nivel 24, te dice qué come). Felino, lobo, raptor, zorro y araña: carne; oso y jabalí: casi todo; murciélago y gorila: hongos y fruta.", "en": "<b>Feeding</b>: Feed Pet from level 10, out of combat. A happy pet deals 125% damage, an unhappy one 75%. Dying or Dismiss Pet costs happiness. Feed food from its diet and close to its level (Beast Lore, level 24, shows what it eats). Cat, wolf, raptor, fox and spider: meat; bear and boar: almost anything; bat and gorilla: fungus and fruit."},
+        {"es": "<b>Munición</b>: flechas para arco y ballesta, balas para armas de fuego. Se gastan con cada disparo, así que compra varias pilas en cada ciudad y usa la de mejor nivel que puedas. La Ingeniería fabrica balas y miras para el arma.", "en": "<b>Ammo</b>: arrows for bows and crossbows, bullets for guns. Each shot uses one, so buy several stacks in every town and use the best level you can. Engineering makes bullets and weapon scopes."},
+        {"es": "<b>Carcaj o bolsa de munición</b>: ocupa uno de tus huecos de bolsa y solo guarda munición. En Classic además aumentaba la velocidad de disparo; Forever no ha anunciado cambios. Lleva siempre el más grande que encuentres.", "en": "<b>Quiver or ammo pouch</b>: it takes one of your bag slots and holds only ammo. In Classic it also raised ranged attack speed; Forever has not announced any change. Always carry the largest one you can find."}
+      ]
+    },
+    "consejos": [
+      {"es": "Con el Legado: la ventaja Talented (5 puntos, pide antes Well Rested) te da el primer talento a nivel 5. Los 16 puntos de salida alcanzan, así que adelanta el orden de talentos cinco niveles.", "en": "Legacy: the Talented perk (5 points, needs Well Rested first) gives you your first talent at level 5. The 16 starting points cover it, so move the talent order five levels earlier."},
+        {"es": "Visita al instructor cada dos niveles: casi todo sube de rango en niveles pares.", "en": "Visit your trainer every two levels: most spells gain ranks on even levels."},
+        {"es": "No te pegues al enemigo: Auto Shot no dispara a menos de 8 metros y necesita medio segundo quieto. Activa en Opciones «Auto Attack/Auto Shot» para cambiar solo entre melé y disparo.", "en": "Do not hug the enemy: Auto Shot will not fire inside 8 yards and needs half a second standing still. Turn on the «Auto Attack/Auto Shot» option to switch between melee and shooting automatically."},
+        {"es": "Las trampas ya se ponen en combate: una de fuego y una de hielo a la vez. Freezing Trap a un segundo enemigo te salva de muchos tirones dobles.", "en": "Traps now work in combat: one Fire and one Frost at a time. A Freezing Trap on a second enemy saves you from many double pulls."},
+        {"es": "Peletería y Desuello son la pareja clásica: la Peletería hace equipo de cuero con mucha Agilidad desde nivel bajo y no necesita yunque.", "en": "Leatherworking and Skinning are the classic pair: Leatherworking makes high-Agility leather gear from low levels and needs no anvil."},
+        {"es": "Mejores armas a distancia en mazmorras (beta): Calibrated Blunderbuss en Hall of Thanes (Alianza), Venomstrike en Cuevas de los Lamentos y Naga Heartpiercer o Fallenroot Longbow en Cavernas de Brazanegra.", "en": "Good ranged weapon upgrades in dungeons (beta): Calibrated Blunderbuss in Hall of Thanes (Alliance), Venomstrike in Wailing Caverns and Naga Heartpiercer or Fallenroot Longbow in Blackfathom Deeps."},
+        {"es": "Usa una macro que haga Mend Pet si la mascota vive, Revive Pet si ha muerto y Call Pet si no está: un solo botón para todo.", "en": "Use a macro that casts Mend Pet if your pet is alive, Revive Pet if it is dead and Call Pet if it is not out: one button for everything."},
+        {"es": "Lleva comida para la mascota de tu zona y agua a tu nivel: ahorras paradas y la mascota no pierde daño.", "en": "Carry pet food from your zone and water at your level: fewer stops, and your pet keeps its damage."}
+    ],
+    "hitos": [
+      {"nivel": "10", "texto": {"es": "Primera mascota, Aspect of the Hawk y primer punto de talento: el juego cambia por completo.", "en": "First pet, Aspect of the Hawk and first talent point: the game changes completely."}},
+      {"nivel": "20", "texto": {"es": "Aimed Shot para todos, Freezing Trap, Disengage y Aspect of the Cheetah.", "en": "Aimed Shot for everyone, Freezing Trap, Disengage and Aspect of the Cheetah."}},
+      {"nivel": "25", "texto": {"es": "Summon Hawk: con dos halcones fuera, el daño da un salto.", "en": "Summon Hawk: with two hawks out, your damage jumps."}},
+      {"nivel": "26", "texto": {"es": "Rapid Fire, tu primer gran momento de daño.", "en": "Rapid Fire, your first big damage cooldown."}},
+      {"nivel": "30", "texto": {"es": "Feign Death, Intimidation, Aspect of the Beast y Lacerate.", "en": "Feign Death, Intimidation, Aspect of the Beast and Lacerate."}},
+      {"nivel": "36", "texto": {"es": "Viper Sting: drenaje de maná para casters enemigos.", "en": "Viper Sting: mana drain against enemy casters."}},
+      {"nivel": "40", "texto": {"es": "Bestial Wrath, Volley, Aspect of the Pack, armadura de malla, montura y segunda especialización de talentos.", "en": "Bestial Wrath, Volley, Aspect of the Pack, mail armor, your mount and a second talent specialization."}},
+      {"nivel": "46", "texto": {"es": "Aspect of the Wild para el grupo.", "en": "Aspect of the Wild for the group."}},
+      {"nivel": "60", "texto": {"es": "Tranquilizing Shot, últimos rangos y hora de elegir la build de 60.", "en": "Tranquilizing Shot, final ranks and time to choose your level 60 build."}}
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "Las bandas llegan el 9 de diciembre y aún no hay simulaciones ni registros de combate de Forever, así que nadie sabe todavía qué rama hace más daño. Lo que sí sabemos es qué planifica la gente en la calculadora con los datos del cliente: Survival 47 %, Marksmanship 27 % y Beast Mastery 26 %. Ojo: las builds más populares de Survival y Marksmanship llevan Lone Wolf, es decir, juegan sin mascota. El 28 de octubre Blizzard bajó un poco el poder de ataque de Aspect of the Hawk y Trueshot Aura.",
+      "en": "Raids arrive on 9 December and there are no Forever sims or combat logs yet, so nobody knows which tree does the most damage. What we do know is what people plan in the calculator with the client's data: Survival 47%, Marksmanship 27% and Beast Mastery 26%. Note that the most popular Survival and Marksmanship builds take Lone Wolf, which means playing without a pet. On 28 October Blizzard trimmed the attack power from Aspect of the Hawk and Trueshot Aura."
+    },
+    "ramas": [
+      {"nombre": "Survival", "rol": {"es": "DPS cuerpo a cuerpo (5/11/35)", "en": "Melee DPS (5/11/35)"},
+       "estadisticas": [
+         {"es": "Daño del arma de melé primero: elige entre un arma a dos manos o dos de una mano (Predator's Edge sube un 50 % la mano izquierda).", "en": "Melee weapon damage first: choose a two-hander or two one-handers (Predator's Edge adds 50% to the off-hand)."},
+         {"es": "Agilidad: poder de ataque y crítico, y Lightning Reflexes la sube un 10 %.", "en": "Agility: attack power and crit, and Lightning Reflexes raises it by 10%."},
+         {"es": "Golpe hasta el 9 % contra jefes; Surefooted ya te da un 3 %.", "en": "Hit up to 9% against bosses; Surefooted already gives 3%."},
+         {"es": "Después crítico y celeridad, que en Forever es una estadística secundaria.", "en": "Then crit and haste, which is a secondary stat in Forever."}
+       ],
+       "rotacion": [
+         {"es": "Aspect of the Beast y Hunter's Mark en el objetivo (lo necesita Expose Prey).", "en": "Aspect of the Beast and Hunter's Mark on the target (Expose Prey needs it)."},
+         {"es": "Rapid Fire con los abalorios y la racial al empezar: también acelera tus golpes de melé.", "en": "Rapid Fire with trinkets and your racial at the start: it speeds up your melee too."},
+         {"es": "Mongoose Bite en cuanto se active; con Lacerating Strikes deja un sangrado.", "en": "Mongoose Bite as soon as it lights up; with Lacerating Strikes it leaves a bleed."},
+         {"es": "Mantén Lacerate y usa Strider Kick cada vez que esté listo.", "en": "Keep Lacerate up and use Strider Kick whenever it is ready."},
+         {"es": "Raptor Strike para rellenar e Immolation Trap si el combate lo permite.", "en": "Raptor Strike as filler and Immolation Trap when the fight allows."}
+       ],
+       "consumibles": [
+         {"es": "Elixires y comida de Agilidad, pociones de maná y pociones de sanación (en Forever las hace Primeros auxilios).", "en": "Agility elixirs and food, mana potions and healing potions (made by First Aid in Forever)."},
+         {"es": "Piedras de afilar o contrapesos para tus armas de melé.", "en": "Sharpening stones or weightstones for your melee weapons."}
+       ]},
+      {"nombre": "Marksmanship", "rol": {"es": "DPS a distancia (5/41/5)", "en": "Ranged DPS (5/41/5)"},
+       "estadisticas": [
+         {"es": "Golpe hasta el 9 % contra jefes.", "en": "Hit up to 9% against bosses."},
+         {"es": "Agilidad: 2 de poder de ataque a distancia y crítico por cada punto.", "en": "Agility: 2 ranged attack power plus crit for every point."},
+         {"es": "Intelecto vale más que en Classic: Careful Aim lo convierte entero en poder de ataque.", "en": "Intellect is worth more than in Classic: Careful Aim turns all of it into attack power."},
+         {"es": "Crítico (Mortal Shots lo hace pegar mucho más) y luego celeridad.", "en": "Crit (Mortal Shots makes it hit much harder), then haste."}
+       ],
+       "rotacion": [
+         {"es": "Abre con Hunter's Mark y Sniper Shot desde lejos: los tres disparos siguientes tienen más alcance.", "en": "Open with Hunter's Mark and Sniper Shot from range: your next three shots get extra reach."},
+         {"es": "Serpent Sting puesto: activa Rapid Recuperation (maná) y Rapid Killing si el enemigo muere con él.", "en": "Keep Serpent Sting up: it triggers Rapid Recuperation (mana) and Rapid Killing if the enemy dies with it."},
+         {"es": "Aimed Shot cada vez que esté listo; Multi-Shot solo si hay varios objetivos.", "en": "Aimed Shot on cooldown; Multi-Shot only with several targets."},
+         {"es": "Arcane Shot entre medias (Improved Arcane Shot lo acorta) sin cortar el Auto Shot.", "en": "Arcane Shot in between (Improved Arcane Shot shortens it) without clipping Auto Shot."},
+         {"es": "Rapid Fire y la racial juntos; Rapid Killing reduce mucho su reutilización.", "en": "Rapid Fire and your racial together; Rapid Killing cuts its cooldown a lot."}
+       ],
+       "consumibles": [
+         {"es": "Elixires y comida de Agilidad, pociones de maná y la mejor munición que puedas comprar o fabricar.", "en": "Agility elixirs and food, mana potions and the best ammo you can buy or craft."},
+         {"es": "Una mira de Ingeniería en el arma a distancia.", "en": "An Engineering scope on your ranged weapon."}
+       ]},
+      {"nombre": "Beast Mastery", "rol": {"es": "DPS a distancia con mascota (31/20/0)", "en": "Ranged DPS with a pet (31/20/0)"},
+       "estadisticas": [
+         {"es": "Golpe hasta el 9 % contra jefes.", "en": "Hit up to 9% against bosses."},
+         {"es": "Agilidad y crítico: la mascota hereda el 100 % de tu probabilidad de crítico y un 10 % de tu poder de ataque.", "en": "Agility and crit: your pet inherits 100% of your crit chance and 10% of your attack power."},
+         {"es": "Después poder de ataque y celeridad.", "en": "Then attack power and haste."}
+       ],
+       "rotacion": [
+         {"es": "Aspect of the Hawk, Hunter's Mark y la mascota delante.", "en": "Aspect of the Hawk, Hunter's Mark and your pet in front."},
+         {"es": "Dos halcones siempre fuera con Summon Hawk.", "en": "Two hawks always out with Summon Hawk."},
+         {"es": "Bestial Wrath, Rapid Fire y la racial a la vez.", "en": "Bestial Wrath, Rapid Fire and your racial together."},
+         {"es": "Aimed Shot cada vez que esté listo y Arcane Shot cuando los halcones no lo necesiten.", "en": "Aimed Shot on cooldown and Arcane Shot when the hawks do not need the shared cooldown."},
+         {"es": "Mend Pet si la mascota recibe daño de área; Serpent Sting en peleas largas.", "en": "Mend Pet if your pet takes area damage; Serpent Sting on long fights."}
+       ],
+       "consumibles": [
+         {"es": "Lo mismo que Marksmanship y comida para mantener a la mascota contenta.", "en": "Same as Marksmanship, plus food to keep your pet happy."}
+       ]}
+    ],
+    "equipo": {
+      "es": "Forever ha rehecho cientos de objetos y no hay lista de mejor equipo fiable todavía. Busca cuero y, desde el 40, malla con Agilidad y golpe; para Marksmanship también Intelecto. Las piezas de Peletería y los botines nuevos de mazmorra (Bastión Faucenegra, Bancal del Creador y las de 60 de siempre) son el punto de partida hasta que abran las bandas.",
+      "en": "Forever has reworked hundreds of items and there is no reliable best-in-slot list yet. Look for leather and, from 40, mail with Agility and hit; for Marksmanship, Intellect too. Leatherworking pieces and the new dungeon loot (Blackmaw Hold, Shaper's Terrace and the classic level 60 dungeons) are the starting point until raids open."
+    }
+  },
+  "pvp": [
+    {"es": "Tu fuerza es la distancia: Concussive Shot, Wing Clip y Frost Trap para mantenerla, y nunca te quedes en la zona muerta de 8 metros.", "en": "Your strength is distance: Concussive Shot, Wing Clip and Frost Trap to keep it, and never stand in the 8-yard dead zone."},
+    {"es": "Auto Shot necesita medio segundo quieto: dispara, muévete y vuelve a parar. Aimed Shot (2 s) se lanza mientras Auto Shot sigue funcionando.", "en": "Auto Shot needs half a second still: shoot, move and stop again. Aimed Shot (2 sec) casts while Auto Shot keeps going."},
+    {"es": "Las trampas ya van en combate: Scatter Shot y Freezing Trap a sus pies es el combo clásico para ganar tiempo o curarte con vendas.", "en": "Traps work in combat now: Scatter Shot then Freezing Trap at their feet is the classic combo to buy time or bandage up."},
+    {"es": "Viper Sting (15 s de reutilización) contra paladines, sacerdotes, chamanes y druidas; Serpent Sting contra pícaros para que no vuelvan al sigilo.", "en": "Viper Sting (15 sec cooldown) against paladins, priests, shamans and druids; Serpent Sting on rogues so they cannot restealth."},
+    {"es": "Elige mascota por su truco: cocodrilo (Dismember, menos curación), murciélago (Sonic Blast contra casters) o ave rapaz (Mine! desarma a guerreros y pícaros).", "en": "Pick your pet for its trick: crocolisk (Dismember, reduced healing), bat (Sonic Blast against casters) or bird of prey (Mine! disarms warriors and rogues)."},
+    {"es": "Feign Death quita el objetivo a quien te esté apuntando y corta muchos lanzamientos.", "en": "Feign Death drops you from the enemy's target and cancels many casts."},
+    {"es": "En campos de batalla, Marksmanship con Sniper Shot llega a 45 metros y sube el alcance de los disparos siguientes; desde un sitio alto es muy molesto.", "en": "In battlegrounds, Marksmanship with Sniper Shot reaches 45 yards and extends your next shots; from high ground it is a real pain."},
+    {"es": "Ingeniería suma granadas y artilugios que deciden duelos.", "en": "Engineering adds grenades and gadgets that decide duels."}
+  ],
+  "profesiones": [
+    {"nombre": {"es": "Peletería", "en": "Leatherworking"}, "por_que": {"es": "Equipo de cuero con mucha Agilidad desde nivel bajo, kits de armadura y bolsas especiales. Con Desuello te cuesta casi nada.", "en": "High-Agility leather gear from low level, armor kits and special bags. Paired with Skinning it costs you next to nothing."}},
+    {"nombre": {"es": "Desuello", "en": "Skinning"}, "por_que": {"es": "Ya matas bestias todo el rato: despellejarlas da dinero para la montura y materiales para la Peletería.", "en": "You kill beasts all the time anyway: skinning them pays for your mount and feeds Leatherworking."}},
+    {"nombre": {"es": "Ingeniería", "en": "Engineering"}, "por_que": {"es": "Balas, miras para el arma a distancia y artilugios de JcJ. Va con Minería.", "en": "Bullets, ranged weapon scopes and PvP gadgets. Pairs with Mining."}},
+    {"nombre": {"es": "Primeros auxilios", "en": "First Aid"}, "por_que": {"es": "En Forever fabrica las pociones de sanación, además de vendas y antídotos.", "en": "In Forever it makes healing potions, plus bandages and antidotes."}}
+  ],
+  "pendiente": [
+    {"es": "Qué rama hace más daño en las bandas: no hay simulaciones ni registros hasta que abran el 9 de diciembre.", "en": "Which tree does the most raid damage: there are no sims or logs until raids open on 9 December."},
+    {"es": "Dónde domar un zorro (familia nueva) y en qué niveles: solo hay datos sin confirmar de la Isla de Zephras.", "en": "Where to tame a fox (new family) and at what levels: only unconfirmed reports from Zephras Isle."},
+    {"es": "Si el carcaj y la bolsa de munición siguen dando velocidad de disparo como en Classic.", "en": "Whether quivers and ammo pouches still grant ranged attack speed as in Classic."},
+    {"es": "Cómo conviven Flare y Enchanted Flare (las dos salen a nivel 32 en el cliente).", "en": "How Flare and Enchanted Flare coexist (both show up at level 32 in the client)."},
+    {"es": "Lista de mejor equipo y consumibles de Forever: muchos objetos y recetas han cambiado.", "en": "Forever best-in-slot gear and consumables list: many items and recipes have changed."},
+    {"es": "Felicidad de la mascota: en la beta solo bajaba al morir (fallo); falta confirmar cómo va en el lanzamiento.", "en": "Pet happiness: in the beta it only dropped on death (a bug); still to confirm how it works at launch."}
+  ],
+  "fuentes": [
+    {"nombre": "Notas de la beta de Blizzard (foro oficial)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
+    {"nombre": "Talents Forever: calculadora y datos del cliente (CC BY 4.0)", "url": "https://talentsforever.com/hunter/changes"},
+    {"nombre": "Method: guía de subida del cazador", "url": "https://www.method.gg/wow-forever/wow-forever-hunter-leveling-guide-and-talents"},
+    {"nombre": "Warcraft Tavern: guía de subida del cazador", "url": "https://www.warcrafttavern.com/forever/guides/hunter-leveling/"},
+    {"nombre": "Warcraft Tavern: guía del cazador", "url": "https://warcrafttavern.com/forever/guides/hunter/"},
+    {"nombre": "Warcraft Tavern: mascotas", "url": "https://www.warcrafttavern.com/forever/guides/hunter-pets/"},
+    {"nombre": "Warcraft Tavern: mejores mascotas", "url": "https://www.warcrafttavern.com/forever/guides/best-hunter-pets/"},
+    {"nombre": "Seemeta: familias de mascotas y dieta", "url": "https://seemeta.com/en/wow-forever/pets"},
+    {"nombre": "Icy Veins: Beast Mastery para subir", "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling"},
+    {"nombre": "wowtbc.gg: Survival en Forever", "url": "https://wowtbc.gg/warcraftforever/class-guides/survival-hunter/"},
+    {"nombre": "Kami Labs: resumen del vídeo de Blizzard de cazador y druida", "url": "https://kami-labs.fr/en/wow-forever/chasseur-druide-wow-forever-deep-dive/"}
+  ]
+}

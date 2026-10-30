@@ -226,6 +226,8 @@ def builds_60():
     cards = ''
     for slug, nombre, reparto, builds, nuevas in BUILDS:
         filas = ''.join(f'<li><b>{E(p)}</b> {E(s)} {link(TF + u, "Ver build")}</li>' for p, s, u in builds)
+        if slug == 'mage':  # 30-10: Blizzard rehízo el árbol del mago el 28-10 (hotfix) y estas builds ya no se pueden hacer tal cual
+            filas = '<li>El árbol de talentos del mago cambió el 28 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../mage/#g-60">guía del mago</a>.</li>'
         cards += (f'<article class="addon build60"><img src="../assets/{slug}.jpg" alt=""><div><p class="eyebrow">{E(reparto)}</p><h3>{E(nombre)}</h3>'
                   f'<ol class="b60">{filas}</ol><p><strong>Nuevo en Forever:</strong> {E(nuevas)}</p>'
                   f'<a class="btn ghost" href="../{slug}/">Guía PvP de la beta (nivel 30)</a></div></article>')
@@ -406,7 +408,7 @@ def profesiones():
             '<div class="divider"><h2>Por qué son vitales</h2></div><div class="profs">' + por_que + '</div>'
             '<div class="divider"><h2>Recolección</h2></div><p class="sub">Sacan materiales del mundo. No cuestan dinero: lo dan.</p><div class="profs">' + prof(RECOLECCION) + '</div>'
             '<div class="divider"><h2>Fabricación</h2></div><p class="sub">Convierten los materiales en equipo y consumibles. Cada una va de la mano de una de recolección.</p><div class="profs">' + prof(FABRICACION) + '</div>'
-            '<div class="divider"><h2>Secundarias: cógelas todas</h2></div><p class="sub">No ocupan hueco de profesión principal. Cocina, Primeros auxilios y Pesca las puede tener cualquiera, a la vez.</p><div class="profs">' + sec + '</div>'
+            '<div class="divider"><h2>Secundarias: apréndelas todas</h2></div><p class="sub">No ocupan hueco de profesión principal. Cocina, Primeros auxilios y Pesca las puede tener cualquiera, a la vez.</p><div class="profs">' + sec + '</div>'
             '<div class="divider"><h2>Primeros auxilios: la gran novedad</h2></div>'
             '<p class="sub">En Forever, <strong>las pociones de sanación se fabrican con Primeros auxilios</strong>, no con Alquimia. Así cualquier personaje, sea de la clase que sea, puede hacerse sus propias pociones.</p>'
             '<table class="keys"><tr><th>Poción</th><td><strong>Habilidad · componentes</strong></td></tr>' + ''.join(f'<tr><th>{E(p)}</th><td>{E(c)}</td></tr>' for p, c in POCIONES) + '</table>'
@@ -448,7 +450,7 @@ def profesiones():
             'Maestro cocinero, Maestro del cebo, Estudio dedicado y Bonificaciones de rendimiento (más Favor del Mercader).</td></tr>'
             '<tr><th>Magos</th><td>Tienen además un sistema propio de Investigación, aparte de las profesiones.</td></tr>'
             '<tr><th>¿Joyería e Inscripción?</th><td>En la beta hay pistas: un aprendiz de joyero en Dalaran que te dice que vuelvas más adelante, un escriba en Durotar igual y la habilidad de Inscripción ya aparece en la hoja de personaje. Blizzard no lo ha anunciado: si llegan, será en 2027.</td></tr></table>'
-            '<div class="divider"><h2>¿Cuáles cojo?</h2></div><table class="keys">' + elegir + '</table>'
+            '<div class="divider"><h2>¿Cuáles elijo?</h2></div><table class="keys">' + elegir + '</table>'
             '<div class="prepare" style="margin-top:22px"><h3>Consejos para no arrepentirte</h3><ol>'
             '<li>Aprende tus dos principales en cuanto llegues a la primera ciudad y recolecta desde el nivel 1: luego no apetece volver atrás.</li>'
             '<li>No subas una de fabricación pronto si vas justo de dinero: guarda los materiales o véndelos y súbela con calma a partir del 40.</li>'

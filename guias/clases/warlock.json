@@ -1,0 +1,1061 @@
+{
+  "slug": "warlock",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "El brujo es el lanzador de hechizos que pelea con un demonio al lado y gasta su propia vida como recurso. En Forever llega muy cambiado: Curse of Agony y Curse of Doom pasan a ser «Banes» (puedes tener a la vez una Bane y una maldición en el mismo objetivo), los demonios escalan con tu equipo y cada rama tiene un talento final nuevo (Wrack, Demonic Pact e Incinerate). Es ideal si te gusta subir solo, aguantar mucho sin descansar y aportar invocaciones y piedras al grupo.",
+    "en": "The Warlock is a caster who fights with a demon at their side and spends their own health as a resource. Forever reworks it a lot: Curse of Agony and Curse of Doom are now «Banes» (you can keep one Bane and one Curse on the same target), demons scale with your gear, and every tree has a new capstone (Wrack, Demonic Pact and Incinerate). Pick it if you like leveling solo, rarely stopping to rest, and bringing summons and stones to your group."
+  },
+  "fuertes": [
+    {
+      "es": "Uno de los mejores para subir solo: el demonio recibe los golpes y tú matas con efectos de daño en el tiempo.",
+      "en": "One of the best solo levelers: your demon takes the hits while your damage over time does the killing."
+    },
+    {
+      "es": "Casi nunca para a beber: Life Tap convierte vida en maná y Drain Life te devuelve la vida.",
+      "en": "Almost never stops to drink: Life Tap turns health into mana and Drain Life gives the health back."
+    },
+    {
+      "es": "Mucho control: Fear, Howl of Terror, Death Coil, Banish y la Seduction de la súcubo o el íncubo.",
+      "en": "Plenty of crowd control: Fear, Howl of Terror, Death Coil, Banish and the Succubus or Incubus Seduction."
+    },
+    {
+      "es": "Utilidad que todos quieren: Healthstone, Soulstone y Ritual of Summoning (en Forever el buscador de grupo no teletransporta).",
+      "en": "Utility everyone wants: Healthstones, Soulstones and Ritual of Summoning (in Forever the group finder does not teleport you)."
+    },
+    {
+      "es": "Los demonios escalan con tus estadísticas, así que la mascota sigue siendo útil hasta el 60.",
+      "en": "Demons scale with your stats, so your pet stays useful all the way to 60."
+    },
+    {
+      "es": "Montura gratis a nivel 40 con una misión de clase: te ahorras el oro de la montura.",
+      "en": "A free mount at level 40 from a class quest, which saves you the mount gold."
+    }
+  ],
+  "debiles": [
+    {
+      "es": "Va en tela: si el demonio cae o te alcanzan varios enemigos, mueres rápido.",
+      "en": "Wears cloth: if your demon dies or several enemies reach you, you go down fast."
+    },
+    {
+      "es": "Depende de los fragmentos de alma (Soul Shards) para casi todo: demonios, piedras e invocaciones.",
+      "en": "Relies on Soul Shards for almost everything: demons, stones and summons."
+    },
+    {
+      "es": "Muchos hechizos canalizados: si te interrumpen o te alejas, se cortan (los drenajes se rompen al salir de rango).",
+      "en": "Many channeled spells: interrupts or moving out of range cut them short (drains break as soon as you leave range)."
+    },
+    {
+      "es": "Fear tiene 20 metros de alcance en Forever y el enemigo puede volver con más amigos si no lo controlas.",
+      "en": "Fear has a 20-yard range in Forever, and a feared enemy can come back with friends if you are careless."
+    },
+    {
+      "es": "Hay que gestionar muchas cosas a la vez: demonio, efectos de daño, vida, maná y fragmentos.",
+      "en": "You juggle a lot at once: demon, damage over time effects, health, mana and shards."
+    }
+  ],
+  "ramas": [
+    {
+      "nombre": "Affliction",
+      "rol": {
+        "es": "DPS a distancia (daño en el tiempo)",
+        "en": "Ranged DPS (damage over time)"
+      },
+      "mejor_para": {
+        "es": "Subir de nivel solo y bandas",
+        "en": "Solo leveling and raids"
+      },
+      "texto": {
+        "es": "Pones Corruption, Bane of Agony y Siphon Life y dejas que hagan el trabajo mientras drenas. En Forever los efectos de daño pueden ser críticos (Malevolence y Pandemic lo aprovechan) y el talento final, Wrack, es un canalizado que aumenta el daño de tus otros efectos de sombra. Es la rama más recomendada para subir.",
+        "en": "You stack Corruption, Bane of Agony and Siphon Life and let them work while you drain. In Forever damage over time can crit (Malevolence and Pandemic build on that), and the capstone, Wrack, is a channel that boosts your other Shadow damage over time. It is the most recommended leveling tree."
+      }
+    },
+    {
+      "nombre": "Demonology",
+      "rol": {
+        "es": "DPS con demonio y mucho aguante",
+        "en": "Pet DPS with high survivability"
+      },
+      "mejor_para": {
+        "es": "Jugar seguro, JcJ y quien quiera un demonio fuerte",
+        "en": "Safe play, PvP and anyone who wants a strong demon"
+      },
+      "texto": {
+        "es": "Refuerza al demonio (Unholy Power, Demonic Knowledge, Demonic Brand) y a ti (Demonic Embrace, Soul Link). Con el talento final, Demonic Pact, sacrificas un demonio y puedes sacar otro sin perder el beneficio. Arranca más tarde que Affliction, pero es muy sólida en cuanto tiene sus talentos clave.",
+        "en": "Empowers your demon (Unholy Power, Demonic Knowledge, Demonic Brand) and you (Demonic Embrace, Soul Link). With the capstone, Demonic Pact, you can sacrifice one demon and summon another without losing the buff. It comes online later than Affliction, but it is very solid once the key talents are in."
+      }
+    },
+    {
+      "nombre": "Destruction",
+      "rol": {
+        "es": "DPS a distancia (daño directo)",
+        "en": "Ranged DPS (direct damage)"
+      },
+      "mejor_para": {
+        "es": "Mazmorras, ráfagas de daño y JcJ",
+        "en": "Dungeons, burst damage and PvP"
+      },
+      "texto": {
+        "es": "Fuego y sombra de golpe: Immolate, Conflagrate (ahora desde nivel 25), Shadowburn y el nuevo Incinerate como talento final. Shadow and Flame hace que Conflagrate no gaste Immolate y que Shadowburn te devuelva el fragmento. Es la más exigente para subir solo, pero brilla en grupo.",
+        "en": "Fire and Shadow up front: Immolate, Conflagrate (now from level 25), Shadowburn and the new Incinerate as its capstone. Shadow and Flame stops Conflagrate from eating Immolate and refunds Shadowburn's shard. It is the hardest tree to level solo, but it shines in groups."
+      }
+    }
+  ],
+  "razas": [
+    {
+      "raza": {
+        "es": "Humano",
+        "en": "Human"
+      },
+      "faccion": "Alianza",
+      "por_que": {
+        "es": "Ruthless da un 1 % de crítico y The Human Spirit un 10 % más de Spirit, que en Forever aumenta lo que da Life Tap. Will to Survive quita aturdimientos en JcJ.",
+        "en": "Ruthless gives 1% crit and The Human Spirit 10% more Spirit, which in Forever raises what Life Tap returns. Will to Survive breaks stuns in PvP."
+      }
+    },
+    {
+      "raza": {
+        "es": "Gnomo",
+        "en": "Gnome"
+      },
+      "faccion": "Alianza",
+      "por_que": {
+        "es": "Expansive Mind da un 5 % más de maná y Escape Artist te libra de ralentizaciones. Eureka! solo afecta al daño no periódico: va mejor a Destruction que a Affliction.",
+        "en": "Expansive Mind gives 5% more mana and Escape Artist frees you from slows. Eureka! only affects non-periodic damage, so it suits Destruction better than Affliction."
+      }
+    },
+    {
+      "raza": {
+        "es": "Orco",
+        "en": "Orc"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Blood Fury sube un 10 % la potencia con hechizos y Command (recuperado en el último repaso de Blizzard) da un 5 % más de daño a tu demonio. Hardiness reduce los aturdimientos. Muy buena para Demonology.",
+        "en": "Blood Fury raises spell power by 10% and Command (back in Blizzard's last racial pass) gives your demon 5% more damage. Hardiness shortens stuns. Great for Demonology."
+      }
+    },
+    {
+      "raza": {
+        "es": "No-muerto",
+        "en": "Undead"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Will of the Forsaken rompe miedo, encantamiento y sueño: oro en JcJ. Touch of the Grave te cura al hacer daño y Cannibalize recupera vida y maná.",
+        "en": "Will of the Forsaken breaks Fear, Charm and Sleep, which is gold in PvP. Touch of the Grave heals you as you deal damage and Cannibalize restores health and mana."
+      }
+    },
+    {
+      "raza": {
+        "es": "Trol",
+        "en": "Troll"
+      },
+      "faccion": "Horda",
+      "por_que": {
+        "es": "Nuevo como brujo en Forever. Berserking acelera los lanzamientos (no los efectos periódicos) y Rapid Regeneration cura la mitad de tu vida, que luego conviertes en maná con Life Tap.",
+        "en": "New as a Warlock in Forever. Berserking speeds up casts (not periodic damage) and Rapid Regeneration heals half your health, which you can then Life Tap into mana."
+      }
+    }
+  ],
+  "subir": {
+    "rama": "Affliction",
+    "intro": {
+      "es": "Affliction es la opción más segura y la que recomiendan casi todas las guías. Tu demonio (el Voidwalker desde nivel 10) recibe los golpes, tú dejas efectos de daño y rematas con varita hasta el 30. Desde ahí cambias a «drenar»: Drain Life te cura mientras haces daño y casi no paras entre combates. Usa Life Tap cuando tengas más vida que maná y Drain Life cuando tengas más maná que vida. Si prefieres un demonio muy fuerte y menos dependencia del equipo, Demonology también sube muy bien a partir de los 25-30.",
+      "en": "Affliction is the safest pick and the one nearly every guide recommends. Your demon (the Voidwalker from level 10) takes the hits, you apply damage over time and finish with a wand until 30. From there you switch to «drain tanking»: Drain Life heals you while it deals damage and you barely stop between fights. Life Tap when you have more health than mana, Drain Life when you have more mana than health. If you would rather have a very strong demon and lean less on gear, Demonology also levels very well from around 25-30."
+    },
+    "talentos": [
+      {
+        "niveles": "10-14",
+        "puntos": "5/5 Improved Corruption",
+        "nota": {
+          "es": "Corruption pasa a ser instantánea: la puedes lanzar mientras te mueves. Es el talento más cómodo de toda la subida.",
+          "en": "Corruption becomes instant, so you can cast it on the move. The biggest comfort talent of the whole climb."
+        }
+      },
+      {
+        "niveles": "15-18",
+        "puntos": "4/5 Suppression",
+        "nota": {
+          "es": "Con 4 puntos ya no fallas hechizos contra enemigos de tu nivel y generas menos amenaza.",
+          "en": "With 4 points you stop missing spells on same-level enemies and generate less threat."
+        }
+      },
+      {
+        "niveles": "19-21",
+        "puntos": "3/3 Improved Drains",
+        "nota": {
+          "es": "Un 20 % más a Drain Life y Drain Soul. Prepara el estilo de drenar.",
+          "en": "20% more from Drain Life and Drain Soul. Sets up the drain style."
+        }
+      },
+      {
+        "niveles": "22-24",
+        "puntos": "3/3 Fel Concentration",
+        "nota": {
+          "es": "Los golpes casi no retrasan tus drenajes: puedes drenar con un enemigo encima.",
+          "en": "Hits barely push back your drains, so you can drain with an enemy on you."
+        }
+      },
+      {
+        "niveles": "25-26",
+        "puntos": "2/2 Improved Bane of Agony",
+        "nota": {
+          "es": "Más daño para tu Bane principal.",
+          "en": "More damage from your main Bane."
+        }
+      },
+      {
+        "niveles": "27-28",
+        "puntos": "2/2 Nightfall",
+        "nota": {
+          "es": "Corruption y los drenajes pueden dejar tu próximo Shadow Bolt instantáneo. Cuando salga, úsalo.",
+          "en": "Corruption and your drains can make your next Shadow Bolt instant. Spend it when it procs."
+        }
+      },
+      {
+        "niveles": "29",
+        "puntos": "1/1 Amplify Curse",
+        "nota": {
+          "es": "Botón de 3 minutos que refuerza tu siguiente Bane of Agony o Curse of Weakness. Además abre Curse of Exhaustion por si lo quieres para JcJ.",
+          "en": "A 3-minute button that empowers your next Bane of Agony or Curse of Weakness. It also unlocks Curse of Exhaustion if you want it for PvP."
+        }
+      },
+      {
+        "niveles": "30",
+        "puntos": "1/1 Siphon Life",
+        "nota": {
+          "es": "Otro efecto que cura y suma para Soul Siphon. Ponlo solo en enemigos que vayan a durar.",
+          "en": "Another healing effect that also counts for Soul Siphon. Only put it on enemies that will live a while."
+        }
+      },
+      {
+        "niveles": "31-33",
+        "puntos": "3/3 Soul Siphon",
+        "nota": {
+          "es": "Tus drenajes y Wrack pegan hasta un 36 % más según cuántos efectos tuyos de Affliction tenga el objetivo.",
+          "en": "Your drains and Wrack hit up to 36% harder depending on how many of your Affliction effects the target has."
+        }
+      },
+      {
+        "niveles": "34",
+        "puntos": "1/2 Improved Life Tap",
+        "nota": {
+          "es": "Más maná por cada Life Tap y abre la fila de Shadow Mastery.",
+          "en": "More mana per Life Tap, and it opens the Shadow Mastery row."
+        }
+      },
+      {
+        "niveles": "35-39",
+        "puntos": "5/5 Shadow Mastery",
+        "nota": {
+          "es": "Un 10 % más de daño y drenaje de sombra: casi todo tu daño.",
+          "en": "10% more Shadow damage and draining, which is nearly all of your damage."
+        }
+      },
+      {
+        "niveles": "40",
+        "puntos": "1/1 Wrack",
+        "nota": {
+          "es": "Talento final nuevo. Canalizado de 6 segundos que hace daño y sube un 10 % el daño de tus otros efectos de sombra.",
+          "en": "New capstone. A 6-second channel that deals damage and raises your other Shadow damage over time by 10%."
+        }
+      },
+      {
+        "niveles": "41-49",
+        "puntos": "2/2 Improved Life Tap, 5/5 Malevolence, 3/3 Pandemic",
+        "nota": {
+          "es": "Ahora sí compensa el crítico: Malevolence da un 5 % de crítico a la sombra y Pandemic dobla el plus de daño crítico de tus efectos y drenajes.",
+          "en": "Now crit is worth it: Malevolence adds 5% Shadow crit and Pandemic doubles the crit bonus of your damage over time and drains."
+        }
+      },
+      {
+        "niveles": "50-60",
+        "puntos": "1/5 Suppression (5/5), 2/2 Grim Reach, 5/5 Demonic Embrace, 2/2 Demonic Aegis, 1/3 Fel Vitality",
+        "nota": {
+          "es": "Más acierto, más alcance para Fear y tus efectos, y aguante desde Demonology (un 15 % más de Stamina y mejores armaduras demoníacas). Total: 43/8/0.",
+          "en": "More hit, more range for Fear and your effects, and survivability from Demonology (15% more Stamina and stronger demon armors). Total: 43/8/0."
+        }
+      }
+    ],
+    "habilidades": [
+      {
+        "nivel": 1,
+        "nombre": "Shadow Bolt",
+        "nuevo": false,
+        "texto": {
+          "es": "Tu golpe principal de sombra. Entrena cada rango nuevo.",
+          "en": "Your main Shadow nuke. Train every new rank."
+        }
+      },
+      {
+        "nivel": 1,
+        "nombre": "Immolate",
+        "nuevo": false,
+        "texto": {
+          "es": "Golpe de fuego más quemadura. Aguanta la atención del enemigo en tu demonio.",
+          "en": "A fire hit plus a burn. Helps your demon keep the enemy's attention."
+        }
+      },
+      {
+        "nivel": 1,
+        "nombre": "Summon Imp",
+        "nuevo": false,
+        "texto": {
+          "es": "Tu primer demonio: dispara bolas de fuego y da Blood Pact (Stamina) al grupo.",
+          "en": "Your first demon: it throws Firebolts and gives the group Blood Pact (Stamina)."
+        }
+      },
+      {
+        "nivel": 1,
+        "nombre": "Demon Skin",
+        "nuevo": false,
+        "texto": {
+          "es": "Armadura y regeneración de vida. Llévala siempre puesta hasta tener Demon Armor.",
+          "en": "Armor and health regeneration. Keep it up until you get Demon Armor."
+        }
+      },
+      {
+        "nivel": 4,
+        "nombre": "Corruption",
+        "nuevo": false,
+        "texto": {
+          "es": "Efecto de sombra que hace daño durante un rato. Con talentos se vuelve instantáneo.",
+          "en": "A Shadow damage over time effect. Talents make it instant."
+        }
+      },
+      {
+        "nivel": 6,
+        "nombre": "Life Tap",
+        "nuevo": false,
+        "texto": {
+          "es": "Cambia vida por maná. En Forever lo mejora el Spirit, no la potencia con hechizos.",
+          "en": "Trades health for mana. In Forever Spirit improves it, not spell power."
+        }
+      },
+      {
+        "nivel": 8,
+        "nombre": "Bane of Agony",
+        "nuevo": true,
+        "texto": {
+          "es": "La antigua Curse of Agony, ahora una «Bane»: va aparte de las maldiciones, así que puedes tenerla junto a otra maldición. Instantánea, ideal para marcar enemigos.",
+          "en": "The old Curse of Agony, now a «Bane»: it is separate from Curses, so you can keep it alongside a Curse. Instant, great for tagging enemies."
+        }
+      },
+      {
+        "nivel": 8,
+        "nombre": "Fear",
+        "nuevo": false,
+        "texto": {
+          "es": "Hace huir a un enemigo hasta 10 segundos. El daño puede romperlo. Alcance de 20 metros.",
+          "en": "Sends one enemy running for up to 10 seconds. Damage can break it. 20-yard range."
+        }
+      },
+      {
+        "nivel": 10,
+        "nombre": "Summon Voidwalker",
+        "nuevo": false,
+        "texto": {
+          "es": "Por misión de clase. El tanque: tu mejor compañero para subir.",
+          "en": "From a class quest. The tank, and your best leveling partner."
+        }
+      },
+      {
+        "nivel": 10,
+        "nombre": "Drain Soul",
+        "nuevo": false,
+        "texto": {
+          "es": "En Forever puede darte un fragmento de alma en cualquier tic, y siempre si el enemigo muere drenado.",
+          "en": "In Forever it can give a Soul Shard on any tick, and always does if the enemy dies while drained."
+        }
+      },
+      {
+        "nivel": 10,
+        "nombre": "Create Healthstone",
+        "nuevo": false,
+        "texto": {
+          "es": "Crea una piedra que cura al instante. Hazla para ti y para el grupo.",
+          "en": "Creates a stone that heals instantly. Make one for yourself and your group."
+        }
+      },
+      {
+        "nivel": 14,
+        "nombre": "Drain Life",
+        "nuevo": false,
+        "texto": {
+          "es": "Roba vida al enemigo y te la da. Desde el 30 es tu hechizo de relleno al subir.",
+          "en": "Steals health from the enemy and gives it to you. From 30 it is your leveling filler."
+        }
+      },
+      {
+        "nivel": 14,
+        "nombre": "Curse of Recklessness",
+        "nuevo": false,
+        "texto": {
+          "es": "Quita armadura e impide que el enemigo huya (también rompe tu Fear si se va hacia otro grupo).",
+          "en": "Removes armor and stops the enemy from fleeing (it also breaks your Fear if it runs toward another pack)."
+        }
+      },
+      {
+        "nivel": 18,
+        "nombre": "Create Soulstone",
+        "nuevo": false,
+        "texto": {
+          "es": "Guarda un alma: si esa persona muere, puede resucitar. Ponla al sanador en mazmorras.",
+          "en": "Stores a soul: if that player dies, they can resurrect. Put it on the healer in dungeons."
+        }
+      },
+      {
+        "nivel": 18,
+        "nombre": "Searing Pain",
+        "nuevo": false,
+        "texto": {
+          "es": "Golpe de fuego rápido que genera mucha amenaza. En Demonology activa Demonic Brand.",
+          "en": "A quick fire hit with high threat. For Demonology it applies Demonic Brand."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Summon Succubus",
+        "nuevo": false,
+        "texto": {
+          "es": "Por misión de clase. Mucho daño y Seduction para controlar humanoides.",
+          "en": "From a class quest. High damage and Seduction to control humanoids."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Summon Incubus",
+        "nuevo": true,
+        "texto": {
+          "es": "Por su propia misión de clase. Hace lo mismo que la súcubo (mismos hechizos): elige el aspecto que prefieras.",
+          "en": "From its own class quest. Does the same as the Succubus (same spells), so pick the look you like."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Demon Armor",
+        "nuevo": false,
+        "texto": {
+          "es": "Sustituye a Demon Skin: más armadura y regeneración.",
+          "en": "Replaces Demon Skin: more armor and regeneration."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Ritual of Summoning",
+        "nuevo": false,
+        "texto": {
+          "es": "Trae a un compañero de grupo con la ayuda de otros dos. Gasta un fragmento.",
+          "en": "Brings a party member to you with help from two others. Costs a shard."
+        }
+      },
+      {
+        "nivel": 20,
+        "nombre": "Curse of the Elements",
+        "nuevo": true,
+        "texto": {
+          "es": "Nuevo rango bajo en Forever (en Classic empezaba en el 32). Aumenta el daño mágico que recibe el objetivo.",
+          "en": "A new low rank in Forever (Classic started it at 32). Raises the magic damage the target takes."
+        }
+      },
+      {
+        "nivel": 25,
+        "nombre": "Conflagrate",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento de Destruction con un rango nuevo a nivel 25 (antes, 40). Golpe instantáneo sobre un objetivo con Immolate.",
+          "en": "Destruction talent with a new rank at 25 (it used to be 40). An instant hit on a target with Immolate."
+        }
+      },
+      {
+        "nivel": 30,
+        "nombre": "Summon Felhunter",
+        "nuevo": false,
+        "texto": {
+          "es": "Por misión de clase. El cazador de magia: Devour Magic quita efectos y, desde el 36, Spell Lock silencia.",
+          "en": "From a class quest. The magic hunter: Devour Magic removes effects and, from 36, Spell Lock silences."
+        }
+      },
+      {
+        "nivel": 30,
+        "nombre": "Bane of Havoc",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento nuevo de Destruction. Un 15 % del daño que haces a otros enemigos también va al objetivo con esta Bane.",
+          "en": "New Destruction talent. 15% of the damage you deal to other enemies is also dealt to the target with this Bane."
+        }
+      },
+      {
+        "nivel": 36,
+        "nombre": "Create Spellstone",
+        "nuevo": false,
+        "texto": {
+          "es": "En Forever también es un encantamiento de arma: más daño de sombra y algo de celeridad.",
+          "en": "In Forever it is also a weapon enchant: more Shadow damage and a bit of haste."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Wrack",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento final de Affliction. Canalizado que hace daño y aumenta un 10 % el daño de tus otros efectos de sombra.",
+          "en": "Affliction capstone. A channel that deals damage and raises your other Shadow damage over time by 10%."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Incinerate",
+        "nuevo": true,
+        "texto": {
+          "es": "Talento final de Destruction. Golpe de fuego de 2,5 segundos que pega un 25 % más si el objetivo tiene Immolate.",
+          "en": "Destruction capstone. A 2.5-second fire nuke that hits 25% harder if the target has Immolate."
+        }
+      },
+      {
+        "nivel": 40,
+        "nombre": "Howl of Terror",
+        "nuevo": false,
+        "texto": {
+          "es": "Hace huir a varios enemigos cercanos. Tu salida de emergencia.",
+          "en": "Sends several nearby enemies running. Your emergency exit."
+        }
+      },
+      {
+        "nivel": 42,
+        "nombre": "Death Coil",
+        "nuevo": false,
+        "texto": {
+          "es": "Instantáneo: asusta al objetivo 3 segundos, le hace daño y te cura esa cantidad.",
+          "en": "Instant: horrifies the target for 3 seconds, damages it and heals you for that amount."
+        }
+      },
+      {
+        "nivel": 50,
+        "nombre": "Inferno",
+        "nuevo": false,
+        "texto": {
+          "es": "Invoca un Infernal que aturde al caer. Necesita una Infernal Stone y solo funciona al aire libre.",
+          "en": "Summons an Infernal that stuns on impact. Needs an Infernal Stone and only works outdoors."
+        }
+      },
+      {
+        "nivel": 60,
+        "nombre": "Bane of Doom",
+        "nuevo": true,
+        "texto": {
+          "es": "La antigua Curse of Doom, ahora Bane: un gran golpe de sombra al cabo de 1 minuto. No funciona contra jugadores.",
+          "en": "The old Curse of Doom, now a Bane: one big Shadow hit after 1 minute. Cannot be cast on players."
+        }
+      }
+    ],
+    "rotacion": [
+      {
+        "es": "Manda al demonio primero y espera a que el enemigo se fije en él.",
+        "en": "Send your demon in first and let the enemy lock onto it."
+      },
+      {
+        "es": "Bane of Agony (instantánea, sirve para marcar el enemigo) y Corruption.",
+        "en": "Bane of Agony (instant, good for tagging) and Corruption."
+      },
+      {
+        "es": "Immolate y Siphon Life solo en enemigos que vayan a vivir lo bastante para que les hagan daño completo.",
+        "en": "Immolate and Siphon Life only on enemies that will live long enough to take the full damage."
+      },
+      {
+        "es": "Hasta el 30: remata con la varita. Desde el 30: Drain Life hasta que muera; cambia a varita si estás lleno de vida o el enemigo está casi muerto.",
+        "en": "Up to 30: finish with your wand. From 30: Drain Life until it dies; switch to the wand if you are at full health or the enemy is nearly dead."
+      },
+      {
+        "es": "Si Nightfall deja Shadow Bolt instantáneo, lánzalo enseguida.",
+        "en": "If Nightfall makes Shadow Bolt instant, cast it right away."
+      },
+      {
+        "es": "Desde el 40: Wrack cuando el objetivo vaya a durar, para subir el daño de todos tus efectos.",
+        "en": "From 40: Wrack when the target will last, to boost all your damage over time."
+      },
+      {
+        "es": "Life Tap cuando tengas más vida que maná. Remata con Drain Soul cuando necesites fragmentos.",
+        "en": "Life Tap whenever your health is higher than your mana. Finish with Drain Soul when you need shards."
+      },
+      {
+        "es": "Con dos enemigos: pon tus efectos en uno y usa Fear con él; pelea con el otro junto a tu demonio y vuelve a usar Fear cuando regrese.",
+        "en": "Two enemies: put your effects on one and Fear it; fight the other with your demon and Fear the first again when it comes back."
+      }
+    ],
+    "extra": {
+      "titulo": {
+        "es": "Demonios, fragmentos de alma, piedras e invocación",
+        "en": "Demons, Soul Shards, stones and summoning"
+      },
+      "items": [
+        {
+          "es": "<b>Imp</b> (nivel 1, se aprende al empezar): daño de fuego a distancia, Blood Pact (más Stamina al grupo), Fire Shield y Phase Shift. Flojo para subir después del 10, pero útil en grupo por Blood Pact. No gasta fragmento.",
+          "en": "<b>Imp</b> (level 1, learned at the start): ranged fire damage, Blood Pact (more Stamina for the group), Fire Shield and Phase Shift. Weak for leveling after 10, but useful in groups for Blood Pact. Costs no shard."
+        },
+        {
+          "es": "<b>Voidwalker</b> (nivel 10, misión de clase): el tanque. Torment y Suffering atraen a los enemigos, Consume Shadows lo cura fuera de combate y Sacrifice te da un escudo de emergencia. Misiones de inicio: Gakin's Summons (humano, Villadorada), The Slaughtered Lamb (gnomo, Forjaz), Gan'rul's Summons (orco y trol, Cerrotajo), Halgar's Summons (no-muerto, Rémol).",
+          "en": "<b>Voidwalker</b> (level 10, class quest): the tank. Torment and Suffering pull enemies onto it, Consume Shadows heals it out of combat and Sacrifice gives you an emergency shield. Starting quests: Gakin's Summons (Human, Goldshire), The Slaughtered Lamb (Gnome, Ironforge), Gan'rul's Summons (Orc and Troll, Razor Hill), Halgar's Summons (Undead, Brill)."
+        },
+        {
+          "es": "<b>Succubus / Incubus</b> (nivel 20, misión de clase cada uno): el demonio con más daño. Lash of Pain, Soothing Kiss, Lesser Invisibility y Seduction (controla un humanoide hasta 15 s; el daño la rompe). El íncubo es nuevo en Forever y comparte hechizos con la súcubo. La cadena de la súcubo de la Horda es larga: ten los vuelos de Los Baldíos y Sierra Espolón.",
+          "en": "<b>Succubus / Incubus</b> (level 20, a class quest for each): the highest-damage demon. Lash of Pain, Soothing Kiss, Lesser Invisibility and Seduction (controls a humanoid for up to 15 s; damage breaks it). The Incubus is new in Forever and shares the Succubus spells. The Horde Succubus chain is long: get the Barrens and Stonetalon flight paths first."
+        },
+        {
+          "es": "<b>Felhunter</b> (nivel 30, misión de clase): Devour Magic (quita un efecto mágico malo a un aliado o uno bueno a un enemigo), Tainted Blood, Paranoia y Spell Lock desde el 36 (silencio e interrupción). El mejor para JcJ y contra lanzadores.",
+          "en": "<b>Felhunter</b> (level 30, class quest): Devour Magic (removes a harmful magic effect from an ally or a helpful one from an enemy), Tainted Blood, Paranoia and Spell Lock from 36 (silence and interrupt). The best for PvP and against casters."
+        },
+        {
+          "es": "<b>Infernal</b> (nivel 50, Inferno): cae como un meteoro y aturde 2 s a los enemigos de la zona. Te obedece 5 minutos; luego hay que controlarlo con Subjugate Demon o te ataca. Pide una Infernal Stone, recarga de 1 hora y solo al aire libre.",
+          "en": "<b>Infernal</b> (level 50, Inferno): lands like a meteor and stuns enemies in the area for 2 s. It obeys you for 5 minutes; after that you must Subjugate Demon it or it turns on you. Needs an Infernal Stone, has a 1-hour cooldown and only works outdoors."
+        },
+        {
+          "es": "<b>Doomguard</b> (nivel 60): con Ritual of Doom (tú y 4 más del grupo, Demonic Figurine; sacrifica a un participante al azar y hay que someterlo enseguida) o, con suerte, cuando un enemigo muere por Bane of Doom.",
+          "en": "<b>Doomguard</b> (level 60): through Ritual of Doom (you plus 4 party members and a Demonic Figurine; it sacrifices a random participant and must be subjugated at once) or, with luck, when an enemy dies to Bane of Doom."
+        },
+        {
+          "es": "<b>Subjugate Demon</b> (nivel 30): toma el control de un demonio salvaje (el rango 1 llega a demonios de nivel 45) durante 5 minutos como máximo. Gasta un fragmento.",
+          "en": "<b>Subjugate Demon</b> (level 30): takes control of a wild demon (rank 1 works up to level 45 demons) for up to 5 minutes. Costs a shard."
+        },
+        {
+          "es": "<b>Demonios en Forever</b>: escalan con tus estadísticas, el modo agresivo ha vuelto (pestaña de mascota del libro de hechizos) y tu demonio actual queda aturdido mientras invocas otro. Pon «atacar» y «seguir» en teclas cómodas.",
+          "en": "<b>Demons in Forever</b>: they scale with your stats, Aggressive mode is back (pet tab of the spellbook) and your current demon is stunned while you summon a new one. Bind Attack and Follow to easy keys."
+        },
+        {
+          "es": "<b>Fragmentos de alma (Soul Shards)</b>: los da Drain Soul (en Forever, con posibilidad en cada tic y seguro si el enemigo muere drenado; tiene que ser un enemigo que dé experiencia). También Shadowburn si el enemigo muere en 8 s. Los gastan: Voidwalker, súcubo, íncubo, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn y Soul Fire. La bolsa de almas va en la ranura de componentes.",
+          "en": "<b>Soul Shards</b>: Drain Soul gives them (in Forever, a chance on each tick and a sure one if the enemy dies while drained; it must be an enemy that gives experience). Shadowburn also does if the enemy dies within 8 s. They are spent on: Voidwalker, Succubus, Incubus, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn and Soul Fire. The soul bag goes in the reagent bag slot."
+        },
+        {
+          "es": "<b>Piedras</b>: Healthstone (nivel 10) cura al instante; Soulstone (nivel 18) permite resucitar a quien la tenga; Firestone (28) y Spellstone (36) ahora son encantamientos temporales de arma. Los objetos conjurados desaparecen si estás desconectado más de 15 minutos.",
+          "en": "<b>Stones</b>: Healthstone (level 10) heals instantly; Soulstone (level 18) lets whoever holds it resurrect; Firestone (28) and Spellstone (36) are now temporary weapon enchants. Conjured items vanish if you stay logged out for more than 15 minutes."
+        },
+        {
+          "es": "<b>Invocación</b>: Ritual of Summoning (nivel 20) trae a un miembro del grupo. Necesitas a otros dos que hagan clic en el portal sin moverse y fuera de combate, más un fragmento. Como el buscador de Forever no teletransporta, guarda siempre un par de fragmentos para esto.",
+          "en": "<b>Summoning</b>: Ritual of Summoning (level 20) brings a party member to you. You need two others to click the portal, stay still and be out of combat, plus a shard. Since the Forever group finder does not teleport you, always keep a couple of shards for it."
+        }
+      ]
+    },
+    "consejos": [
+      {
+        "es": "Consigue una varita cuanto antes: ahorra maná hasta el 30. Encantamiento hace las primeras y la Gravestone Scepter (Cavernas de Brazanegra) es de las mejores antes del 30.",
+        "en": "Get a wand as early as possible: it saves mana until 30. Enchanting makes the first ones, and Gravestone Scepter (Blackfathom Deeps) is one of the best before 30."
+      },
+      {
+        "es": "Lleva Demon Skin o Demon Armor siempre activa.",
+        "en": "Keep Demon Skin or Demon Armor up at all times."
+      },
+      {
+        "es": "La vida es un recurso: Life Tap y luego come, o vendas de Primeros auxilios mientras el enemigo huye por Fear.",
+        "en": "Health is a resource: Life Tap, then eat, or use First Aid bandages while an enemy runs from Fear."
+      },
+      {
+        "es": "No pongas efectos de daño a un enemigo que está a punto de morir: solo rinden si les da tiempo a hacer daño.",
+        "en": "Do not put damage over time on an enemy that is about to die: it only pays off if it has time to tick."
+      },
+      {
+        "es": "Un efecto de Bane y una maldición pueden ir juntos en el mismo objetivo: Bane of Agony para el daño y la maldición que pida el combate.",
+        "en": "One Bane and one Curse can sit on the same target: Bane of Agony for damage and whatever Curse the fight calls for."
+      },
+      {
+        "es": "Usa un objetivo de foco con tecla modificadora para poner efectos o Fear al segundo enemigo sin cambiar de objetivo.",
+        "en": "Use a focus target on a modifier key to DoT or Fear the second enemy without switching targets."
+      },
+      {
+        "es": "Haz las misiones de tus demonios en cuanto llegues al nivel: el Voidwalker a nivel 10 cambia por completo la subida.",
+        "en": "Do your demon quests as soon as you hit the level: the Voidwalker at 10 changes leveling completely."
+      },
+      {
+        "es": "Si tienes la ventaja Legacy «Talented», tu primer talento llega a nivel 5: empieza igual por Improved Corruption.",
+        "en": "If you have the «Talented» Legacy perk, your first talent comes at level 5: start with Improved Corruption all the same."
+      },
+      {
+        "es": "Saca a los enemigos que atacan a distancia doblando una esquina para que vengan hacia ti y no se junten con su grupo.",
+        "en": "Pull ranged enemies around a corner so they walk to you and away from their pack."
+      }
+    ],
+    "hitos": [
+      {
+        "nivel": "10",
+        "texto": {
+          "es": "Voidwalker por misión, Drain Soul y Healthstone. Primer talento: la subida se vuelve mucho más cómoda.",
+          "en": "Voidwalker from a quest, Drain Soul and Healthstone. First talent point: leveling gets much easier."
+        }
+      },
+      {
+        "nivel": "14",
+        "texto": {
+          "es": "Drain Life y Curse of Recklessness.",
+          "en": "Drain Life and Curse of Recklessness."
+        }
+      },
+      {
+        "nivel": "20",
+        "texto": {
+          "es": "Súcubo o íncubo, Demon Armor, Ritual of Summoning, Rain of Fire y Curse of the Elements.",
+          "en": "Succubus or Incubus, Demon Armor, Ritual of Summoning, Rain of Fire and Curse of the Elements."
+        }
+      },
+      {
+        "nivel": "30",
+        "texto": {
+          "es": "Felhunter por misión, Siphon Life y Hellfire. Cambias de rematar con varita a drenar.",
+          "en": "Felhunter from a quest, Siphon Life and Hellfire. You switch from wand finishing to draining."
+        }
+      },
+      {
+        "nivel": "40",
+        "texto": {
+          "es": "Wrack, Howl of Terror y montura de brujo gratis por misión de clase.",
+          "en": "Wrack, Howl of Terror and a free Warlock mount from a class quest."
+        }
+      },
+      {
+        "nivel": "42",
+        "texto": {
+          "es": "Death Coil: tu mejor herramienta para escapar.",
+          "en": "Death Coil: your best escape tool."
+        }
+      },
+      {
+        "nivel": "48",
+        "texto": {
+          "es": "Soul Fire, gran golpe de fuego que gasta un fragmento.",
+          "en": "Soul Fire, a big fire nuke that costs a shard."
+        }
+      },
+      {
+        "nivel": "50",
+        "texto": {
+          "es": "Inferno: invoca al Infernal.",
+          "en": "Inferno: summon the Infernal."
+        }
+      },
+      {
+        "nivel": "60",
+        "texto": {
+          "es": "Bane of Doom y Ritual of Doom, últimos rangos de Shadow Bolt, Immolate y Corruption.",
+          "en": "Bane of Doom and Ritual of Doom, plus the last ranks of Shadow Bolt, Immolate and Corruption."
+        }
+      }
+    ]
+  },
+  "nivel60": {
+    "intro": {
+      "es": "La beta solo llegó al nivel 30, así que todo lo del 60 es teoría basada en los talentos del cliente; nadie lo ha probado en bandas. La build de 60 más planificada en la calculadora de la comunidad es Affliction con algo de Demonology para aguantar. Las bandas abren el 9 de diciembre; hasta entonces, mazmorras de 60. Actualizaremos esta parte en cuanto haya datos reales.",
+      "en": "The beta only went up to level 30, so everything at 60 is theory built on the client's talents; nobody has tested it in raids. The most-planned level 60 build on the community calculator is Affliction with some Demonology for survivability. Raids open on 9 December; until then it is level 60 dungeons. We will update this part as soon as there is real data."
+    },
+    "ramas": [
+      {
+        "nombre": "Affliction",
+        "rol": {
+          "es": "DPS a distancia",
+          "en": "Ranged DPS"
+        },
+        "estadisticas": [
+          {
+            "es": "Potencia con hechizos (daño de sombra) primero.",
+            "en": "Spell power (Shadow damage) first."
+          },
+          {
+            "es": "Acierto con hechizos hasta el tope (el tope de Forever aún no está confirmado).",
+            "en": "Spell hit up to the cap (Forever's cap is not confirmed yet)."
+          },
+          {
+            "es": "Crítico: en Forever los efectos de daño pueden ser críticos y Malevolence y Pandemic lo multiplican.",
+            "en": "Crit: in Forever damage over time can crit, and Malevolence and Pandemic multiply that."
+          },
+          {
+            "es": "Después Intellect, Stamina y Spirit (Spirit mejora Life Tap). La celeridad apenas ayuda a Affliction.",
+            "en": "Then Intellect, Stamina and Spirit (Spirit improves Life Tap). Haste does little for Affliction."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Pon la maldición que te toque en el grupo (Elements, Recklessness, Weakness o Tongues) y tu Bane (Agony, o Doom si el combate es largo: compruébalo).",
+            "en": "Apply the Curse your group assigns you (Elements, Recklessness, Weakness or Tongues) and your Bane (Agony, or Doom if the fight is long: test it)."
+          },
+          {
+            "es": "Mantén Corruption y Siphon Life siempre activos.",
+            "en": "Keep Corruption and Siphon Life up at all times."
+          },
+          {
+            "es": "Wrack para mantener su aumento del 10 % a tus efectos de sombra.",
+            "en": "Wrack to keep its 10% boost on your Shadow damage over time."
+          },
+          {
+            "es": "Shadow Bolt instantáneo cuando salga Nightfall; entre medias, relleno (Shadow Bolt o Drain Life).",
+            "en": "Instant Shadow Bolt on Nightfall procs; in between, filler (Shadow Bolt or Drain Life)."
+          },
+          {
+            "es": "Life Tap cuando falte maná; Drain Soul al final para recuperar fragmentos.",
+            "en": "Life Tap when mana runs low; Drain Soul at the end to restock shards."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Spellstone en el arma (en Forever es un encantamiento temporal).",
+            "en": "Spellstone on your weapon (a temporary enchant in Forever)."
+          },
+          {
+            "es": "Elixires de potencia con hechizos y de daño de sombra, si existen igual que en Classic (por confirmar).",
+            "en": "Spell power and Shadow damage elixirs, if they work as in Classic (to be confirmed)."
+          },
+          {
+            "es": "Healthstone propia y pociones de maná para combates largos.",
+            "en": "Your own Healthstone and mana potions for long fights."
+          }
+        ]
+      },
+      {
+        "nombre": "Destruction",
+        "rol": {
+          "es": "DPS a distancia",
+          "en": "Ranged DPS"
+        },
+        "estadisticas": [
+          {
+            "es": "Potencia con hechizos (fuego y sombra).",
+            "en": "Spell power (Fire and Shadow)."
+          },
+          {
+            "es": "Crítico: Ruin dobla el plus de daño crítico de los hechizos de Destruction.",
+            "en": "Crit: Ruin doubles the crit bonus of Destruction spells."
+          },
+          {
+            "es": "Acierto hasta el tope e Intellect después.",
+            "en": "Hit up to the cap, then Intellect."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Maldición asignada y Immolate siempre activo.",
+            "en": "Your assigned Curse and Immolate always up."
+          },
+          {
+            "es": "Conflagrate cada vez que esté listo: con Shadow and Flame 5/5 no gasta Immolate y sube un 10 % tu daño de sombra.",
+            "en": "Conflagrate on cooldown: with Shadow and Flame 5/5 it does not eat Immolate and raises your Shadow damage by 10%."
+          },
+          {
+            "es": "Shadowburn cuando esté listo: con Shadow and Flame te devuelve el fragmento y sube un 10 % tu daño de fuego.",
+            "en": "Shadowburn when ready: with Shadow and Flame it refunds the shard and raises your Fire damage by 10%."
+          },
+          {
+            "es": "Incinerate de relleno sobre un objetivo con Immolate (un 25 % más de daño).",
+            "en": "Incinerate as filler on a target with Immolate (25% more damage)."
+          },
+          {
+            "es": "En grupos de 4 o más enemigos: Bane of Havoc en uno de los últimos que vais a matar y Hellfire o Rain of Fire.",
+            "en": "On packs of 4 or more: Bane of Havoc on one of the last enemies you will kill, then Hellfire or Rain of Fire."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Firestone en el arma si juegas sobre todo con fuego; Spellstone si tu relleno es Shadow Bolt.",
+            "en": "Firestone on your weapon if you mostly cast Fire; Spellstone if your filler is Shadow Bolt."
+          },
+          {
+            "es": "Elixires de potencia con hechizos (por confirmar qué existe en Forever).",
+            "en": "Spell power elixirs (still to confirm what exists in Forever)."
+          }
+        ]
+      },
+      {
+        "nombre": "Demonology",
+        "rol": {
+          "es": "DPS con demonio",
+          "en": "Pet DPS"
+        },
+        "estadisticas": [
+          {
+            "es": "Potencia con hechizos: tu demonio escala con tus estadísticas y Demonic Knowledge suma hasta 60 de daño con hechizos a ti y a él.",
+            "en": "Spell power: your demon scales with your stats and Demonic Knowledge adds up to 60 spell damage to both of you."
+          },
+          {
+            "es": "Stamina más que en otras ramas (Demonic Embrace la multiplica y alimenta Life Tap).",
+            "en": "Stamina more than in other trees (Demonic Embrace multiplies it and it feeds Life Tap)."
+          },
+          {
+            "es": "Acierto y crítico después.",
+            "en": "Hit and crit after that."
+          }
+        ],
+        "rotacion": [
+          {
+            "es": "Con Demonic Pact: sacrifica al Imp (un 15 % más de daño de sombra) y saca a la súcubo o el íncubo (Master Demonologist suma otro 10 % de sombra).",
+            "en": "With Demonic Pact: sacrifice the Imp (15% more Shadow damage), then summon the Succubus or Incubus (Master Demonologist adds another 10% Shadow)."
+          },
+          {
+            "es": "Searing Pain para mantener Demonic Brand: los siguientes ataques de tu demonio hacen daño extra.",
+            "en": "Searing Pain to keep Demonic Brand up: your demon's next attacks deal bonus damage."
+          },
+          {
+            "es": "Corruption y Bane of Agony, y Shadow Bolt de relleno.",
+            "en": "Corruption and Bane of Agony, with Shadow Bolt as filler."
+          },
+          {
+            "es": "Con Decimation: por debajo del 35 % de vida, Soul Fire más rápido y sin gastar fragmento.",
+            "en": "With Decimation: below 35% health, Soul Fire is faster and costs no shard."
+          }
+        ],
+        "consumibles": [
+          {
+            "es": "Spellstone en el arma.",
+            "en": "Spellstone on your weapon."
+          },
+          {
+            "es": "Mantén al demonio vivo: Health Funnel o Fel Domination para sacar otro rápido.",
+            "en": "Keep your demon alive: Health Funnel, or Fel Domination to summon another quickly."
+          }
+        ]
+      }
+    ],
+    "equipo": {
+      "es": "Todavía no hay listas de equipo de Forever para el 60: el botín de mazmorras está renovado y las bandas abren el 9-12. Mientras tanto, busca tela con potencia con hechizos (o daño de sombra para Affliction y fuego para Destruction), luego acierto y crítico, e Intellect y Stamina. Sastrería hace piezas ligadas de sombra y fuego que sirven mucho mientras subes.",
+      "en": "There are no Forever gear lists for 60 yet: dungeon loot has been redone and raids open on 9 December. Meanwhile, look for cloth with spell power (or Shadow damage for Affliction and Fire for Destruction), then hit and crit, then Intellect and Stamina. Tailoring makes soulbound Shadow and Fire pieces that help a lot while leveling."
+    }
+  },
+  "pvp": [
+    {
+      "es": "Felhunter es el demonio de JcJ: Spell Lock corta lanzamientos y Devour Magic te limpia o quita beneficios al rival.",
+      "en": "The Felhunter is the PvP demon: Spell Lock stops casts and Devour Magic cleanses you or strips enemy buffs."
+    },
+    {
+      "es": "Fear solo llega a 20 metros en Forever: acércate lo justo y ten preparada Howl of Terror o Death Coil si te alcanzan.",
+      "en": "Fear only reaches 20 yards in Forever: get just close enough and keep Howl of Terror or Death Coil ready if they reach you."
+    },
+    {
+      "es": "Aprovecha que Bane y maldición van por separado: Bane of Agony para el daño y Curse of Tongues contra lanzadores o Curse of Exhaustion contra cuerpo a cuerpo.",
+      "en": "Use the split between Banes and Curses: Bane of Agony for damage plus Curse of Tongues on casters or Curse of Exhaustion on melee."
+    },
+    {
+      "es": "Demonology con Soul Link es la opción más dura: tu demonio absorbe parte del daño que recibes.",
+      "en": "Demonology with Soul Link is the toughest option: your demon soaks part of the damage you take."
+    },
+    {
+      "es": "Contra un orco, cuidado: Shatter Curse le quita todas tus maldiciones y Banes de golpe. Contra un no-muerto, Will of the Forsaken rompe tu Fear.",
+      "en": "Against Orcs, watch out: Shatter Curse strips all your Curses and Banes at once. Against Undead, Will of the Forsaken breaks your Fear."
+    },
+    {
+      "es": "Seduction de la súcubo o el íncubo prepara una ventana de daño, pero tus efectos de daño la rompen: no los pongas antes.",
+      "en": "Succubus or Incubus Seduction sets up a damage window, but your damage over time breaks it, so do not apply it first."
+    },
+    {
+      "es": "En campos de batalla, la Soulstone en un sanador y la Healthstone para todo el grupo valen tanto como tu daño.",
+      "en": "In battlegrounds, a Soulstone on a healer and Healthstones for the whole group are worth as much as your damage."
+    }
+  ],
+  "profesiones": [
+    {
+      "nombre": {
+        "es": "Sastrería",
+        "en": "Tailoring"
+      },
+      "por_que": {
+        "es": "Hace piezas ligadas de sombra y de fuego muy buenas para subir, y su objeto de campamento da Spirit, que mejora Life Tap.",
+        "en": "Makes soulbound Shadow and Fire pieces that are great for leveling, and its camp item gives Spirit, which improves Life Tap."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Encantamiento",
+        "en": "Enchanting"
+      },
+      "por_que": {
+        "es": "Va de la mano con Sastrería: desencanta lo que hagas y fabrica varitas, bastones de lanzador, piezas de mano izquierda y aceites.",
+        "en": "Pairs with Tailoring: disenchant what you make and craft wands, caster staves, off-hands and oils."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Ingeniería",
+        "en": "Engineering"
+      },
+      "por_que": {
+        "es": "Para JcJ: aparatos y explosivos que dan control y salidas extra. Tiene recetas nuevas en Forever.",
+        "en": "For PvP: gadgets and explosives that add control and extra escapes. It has new schematics in Forever."
+      }
+    },
+    {
+      "nombre": {
+        "es": "Primeros auxilios",
+        "en": "First Aid"
+      },
+      "por_que": {
+        "es": "Vendas para recuperar vida entre combates (y luego convertirla en maná con Life Tap).",
+        "en": "Bandages to recover health between fights (and then Life Tap it into mana)."
+      }
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Builds y rotaciones de nivel 60 sin probar: la beta terminó en el nivel 30.",
+      "en": "Level 60 builds and rotations are untested: the beta stopped at level 30."
+    },
+    {
+      "es": "Qué rinde más a 60: Bane of Agony o Bane of Doom, y si el mejor relleno de Affliction es Shadow Bolt, Drain Life o Wrack.",
+      "en": "What does more at 60: Bane of Agony or Bane of Doom, and whether Affliction's best filler is Shadow Bolt, Drain Life or Wrack."
+    },
+    {
+      "es": "El tope de acierto con hechizos de Forever y el orden exacto de estadísticas.",
+      "en": "Forever's spell hit cap and the exact stat order."
+    },
+    {
+      "es": "La misión de la montura épica (Dreadsteed) en Forever y los detalles de las misiones del íncubo y el Felhunter.",
+      "en": "The epic mount quest (Dreadsteed) in Forever and the details of the Incubus and Felhunter quests."
+    },
+    {
+      "es": "Equipo de bandas para brujo y qué consumibles de Classic siguen igual (las bandas abren el 9-12-2026).",
+      "en": "Warlock raid gear and which Classic consumables stay the same (raids open on 9 Dec 2026)."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Talentos y libro de hechizos del cliente de la beta (talentsforever.com, CC BY 4.0)",
+      "url": "https://talentsforever.com/warlock"
+    },
+    {
+      "nombre": "Notas de la beta de WoW Forever (Blizzard)",
+      "url": "https://news.blizzard.com/en-us/"
+    },
+    {
+      "nombre": "Notas de desarrollo de las razas, 26-10 (foros de Blizzard)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/2360696/7"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía de subida del brujo",
+      "url": "https://www.warcrafttavern.com/forever/guides/warlock-leveling/"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía general del brujo",
+      "url": "https://www.warcrafttavern.com/forever/guides/warlock/"
+    },
+    {
+      "nombre": "Warcraft Tavern: Affliction",
+      "url": "https://www.warcrafttavern.com/forever/guides/affliction-warlock/"
+    },
+    {
+      "nombre": "Warcraft Tavern: Destruction",
+      "url": "https://www.warcrafttavern.com/forever/guides/destruction-warlock/"
+    },
+    {
+      "nombre": "Method: guía de subida y talentos del brujo",
+      "url": "https://www.method.gg/wow-forever/wow-forever-warlock-leveling-guide-and-talents"
+    },
+    {
+      "nombre": "Kami Labs: resumen de la subida Demonology 1-60",
+      "url": "https://kami-labs.fr/en/wow-forever/leveling-demoniste-demonologie-wow-forever-kargoz/"
+    },
+    {
+      "nombre": "Overgear: Affliction en Forever",
+      "url": "https://overgear.com/guides/wow-forever/affliction-warlock-how-to-play/"
+    },
+    {
+      "nombre": "Foros de Blizzard: análisis de clase de pícaro y brujo",
+      "url": "https://us.forums.blizzard.com/en/wow/t/2375390/1"
+    },
+    {
+      "nombre": "Warcraft Wiki: misiones de brujo",
+      "url": "https://warcraft.wiki.gg/wiki/Warlock_quests"
+    }
+  ]
+}

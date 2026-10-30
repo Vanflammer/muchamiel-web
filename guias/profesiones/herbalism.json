@@ -1,0 +1,274 @@
+{
+  "slug": "herbalism",
+  "nombre": {
+    "es": "Herboristería",
+    "en": "Herbalism"
+  },
+  "tipo": "recoleccion",
+  "actualizado": "2026-10-30",
+  "resumen": {
+    "es": "Recoges plantas del mundo y las vendes o las usas. No cuesta dinero: lo da. En Forever además te salen semillas que puedes plantar en tu campamento, y las hierbas también sirven a Primeros auxilios, que ahora hace las pociones de sanación. Ideal para cualquiera que quiera dinero mientras sube.",
+    "en": "You pick plants out in the world and sell or use them. It costs nothing and earns gold. In Forever you also find seeds you can grow at your camp, and herbs now feed First Aid too, since it makes the healing potions. Great for anyone who wants gold while leveling."
+  },
+  "pareja": {
+    "es": "Con Alchemy (frascos, elixires, pociones de maná). Y con First Aid, aunque no ocupa hueco: las pociones de sanación llevan hierbas.",
+    "en": "Alchemy (flasks, elixirs, mana potions). Also First Aid, which takes no slot: healing potions need herbs."
+  },
+  "forever": [
+    {
+      "es": "Cada zona de inicio tiene un instructor júnior que enseña hasta 75. Y en ellas hay Wilted Peacebloom y Stunted Silverleaf para empezar desde el nivel 1.",
+      "en": "Every starting zone has a junior trainer who teaches up to 75. Starting areas also have Wilted Peacebloom and Stunted Silverleaf so you can pick from level 1."
+    },
+    {
+      "es": "Manual de inicio: una misión del primer día deja elegir <b>Wild Harvest</b>, que enseña Herbalism y da +2 de habilidad.",
+      "en": "Starter manual: an early quest lets you choose <b>Wild Harvest</b>, which teaches Herbalism and gives +2 skill."
+    },
+    {
+      "es": "Hierbas escasas nuevas que salen de propina al recoger otras: <b>Frilled Lichen</b> (en Earthroot, Mageroyal, Briarthorn y Stranglekelp) y <b>Rosecap</b> (en Kingsblood, Fadeleaf y Goldthorn). También <b>Stranglevine</b>, aún sin sitio conocido.",
+      "en": "New Scarce herbs that drop as a bonus from other herbs: <b>Frilled Lichen</b> (from Earthroot, Mageroyal, Briarthorn and Stranglekelp) and <b>Rosecap</b> (from Kingsblood, Fadeleaf and Goldthorn). Also <b>Stranglevine</b>, location still unknown."
+    },
+    {
+      "es": "Hierbas nuevas: <b>Marefoil</b>, <b>Demonsage</b> y <b>Death Lotus</b>. La Death Lotus sale de cualquier hierba del Monte Hyjal si llevas el encantamiento de guantes Lotus Claw.",
+      "en": "New herbs: <b>Marefoil</b>, <b>Demonsage</b> and <b>Death Lotus</b>. Death Lotus can come from any herb on Mount Hyjal if you wear the Lotus Claw glove enchant."
+    },
+    {
+      "es": "Semillas en cuatro calidades (Commonplace, Uncommon, Unusual y Scarce). Salen al recoger y se plantan en tu invernadero.",
+      "en": "Seeds in four tiers (Commonplace, Uncommon, Unusual and Scarce). They drop while picking and you plant them in your greenhouse."
+    },
+    {
+      "es": "Campamento: <b>Incense Candle</b> (20, intelecto, no se suma a Arcane Intellect), <b>Greenhouse</b> (140, hace crecer hierbas de semillas; el plano lo suelta Shadetooth en la Excavación de los Humedales) y <b>Seed Hybridizer</b> (300, combina semillas en una calidad mejor).",
+      "en": "Camp: <b>Incense Candle</b> (20, Intellect, doesn't stack with Arcane Intellect), <b>Greenhouse</b> (140, grows herbs from seeds; Shadetooth at the Wetlands Excavation Site drops the blueprint) and <b>Seed Hybridizer</b> (300, combines seeds into a better tier)."
+    },
+    {
+      "es": "Rastreo: Find Herbs ya se puede llevar a la vez que el rastreo de cazador o Find Treasure, pero <b>no</b> junto a Find Minerals.",
+      "en": "Tracking: Find Herbs can now run alongside Hunter tracking or Find Treasure, but <b>not</b> with Find Minerals."
+    },
+    {
+      "es": "Tauren: Cultivation duplica la hierba en el suelo. Desde la beta pide un nivel de personaje: la habilidad de la hierba dividida entre 5.",
+      "en": "Tauren: Cultivation duplicates the herb on the ground. Since the beta it needs a character level: the herb's skill divided by 5."
+    },
+    {
+      "es": "Legacy: <b>Working Overtime</b> (más probabilidad de subir) y <b>Bountiful Harvest</b> (más materiales escasos).",
+      "en": "Legacy: <b>Working Overtime</b> (better skill-up chance) and <b>Bountiful Harvest</b> (more Scarce materials)."
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 1,
+      "hasta": 70,
+      "receta": "Peacebloom, Silverleaf, Earthroot (15)",
+      "cuantas": {
+        "es": "personaje de nivel 1-12",
+        "en": "character level 1-12"
+      },
+      "materiales": {
+        "es": "Tu zona de inicio: Durotar, Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil o la Isla de Zephras (célicos). Teldrassil y Zephras son las que más plantas tienen.",
+        "en": "Your starting zone: Durotar, Mulgore, Tirisfal, Elwynn, Dun Morogh, Teldrassil or Zephras Isle (Skyborne). Teldrassil and Zephras have the most plants."
+      },
+      "nota": {
+        "es": "Aprende Journeyman con 50 de habilidad y nivel 10, con un instructor normal (el júnior no lo enseña). En Zephras: Syriel Nightrain (Valanaar) o Halassa Fernbreeze (Shen'dar Village).",
+        "en": "Train Journeyman at 50 skill and level 10 from a full trainer (junior ones won't). On Zephras: Syriel Nightrain (Valanaar) or Halassa Fernbreeze (Shen'dar Village)."
+      }
+    },
+    {
+      "desde": 70,
+      "hasta": 115,
+      "receta": "Mageroyal (50), Briarthorn (70), Stranglekelp (85)",
+      "cuantas": {
+        "es": "personaje de nivel 10-20",
+        "en": "character level 10-20"
+      },
+      "materiales": {
+        "es": "Bosque de Argénteos, Los Baldíos, Costa Oscura, Loch Modan, Páramos de Poniente. Stranglekelp, bajo el agua en la costa.",
+        "en": "Silverpine Forest, The Barrens, Darkshore, Loch Modan, Westfall. Stranglekelp grows underwater along the coast."
+      },
+      "nota": {
+        "es": "Briarthorn vale para la Lesser Healing Potion de First Aid: guarda algunas.",
+        "en": "Briarthorn goes into First Aid's Lesser Healing Potion: keep some."
+      }
+    },
+    {
+      "desde": 115,
+      "hasta": 170,
+      "receta": "Bruiseweed (100), Wild Steelbloom (115), Kingsblood (125), Liferoot (150)",
+      "cuantas": {
+        "es": "personaje de nivel 20-30",
+        "en": "character level 20-30"
+      },
+      "materiales": {
+        "es": "Laderas de Trabalomas, Sierra Espolón, Los Humedales, Vallefresno. Liferoot crece junto a ríos y lagos.",
+        "en": "Hillsbrad Foothills, Stonetalon Mountains, Wetlands, Ashenvale. Liferoot grows by rivers and lakes."
+      },
+      "nota": {
+        "es": "Expert con 125 de habilidad y nivel 20. Grave Moss (120) sale en cementerios como el de Bosque del Ocaso.",
+        "en": "Expert at 125 skill and level 20. Grave Moss (120) grows in graveyards such as Duskwood's."
+      }
+    },
+    {
+      "desde": 170,
+      "hasta": 205,
+      "receta": "Fadeleaf (160), Goldthorn (170), Khadgar's Whisker (185), Kingsblood, Liferoot",
+      "cuantas": {
+        "es": "personaje de nivel 30-40",
+        "en": "character level 30-40"
+      },
+      "materiales": {
+        "es": "Tierras Altas de Arathi y la mitad norte de la Vega de Tuercespina.",
+        "en": "Arathi Highlands and the northern half of Stranglethorn Vale."
+      },
+      "nota": {
+        "es": "Artisan con 200 de habilidad y nivel 35: apréndelo antes de irte, porque en Tanaris y la Garganta de Fuego no hay instructor. Riverglades (35-45) encaja aquí por nivel, pero aún no se sabe qué hierbas tiene.",
+        "en": "Artisan at 200 skill and level 35: train it before you leave, there is no trainer in Tanaris or Searing Gorge. Riverglades (35-45) fits here by level, but its herbs aren't known yet."
+      }
+    },
+    {
+      "desde": 205,
+      "hasta": 230,
+      "receta": "Firebloom (205), Purple Lotus (210)",
+      "cuantas": {
+        "es": "personaje de nivel 40-48",
+        "en": "character level 40-48"
+      },
+      "materiales": {
+        "es": "Tanaris y la Garganta de Fuego (Firebloom); Purple Lotus en Tanaris y Feralas.",
+        "en": "Tanaris and Searing Gorge (Firebloom); Purple Lotus in Tanaris and Feralas."
+      },
+      "nota": {
+        "es": "Arthas' Tears (220) sale en las Tierras de la Peste del Oeste y en Frondavil.",
+        "en": "Arthas' Tears (220) grow in Western Plaguelands and Felwood."
+      }
+    },
+    {
+      "desde": 230,
+      "hasta": 270,
+      "receta": "Sungrass (230), Ghost Mushroom (245), Gromsblood (250), Golden Sansam (260)",
+      "cuantas": {
+        "es": "personaje de nivel 45-55",
+        "en": "character level 45-55"
+      },
+      "materiales": {
+        "es": "Tierras del Interior (Sungrass, Golden Sansam y Ghost Mushroom en las cuevas de trols), Feralas y Azshara.",
+        "en": "The Hinterlands (Sungrass, Golden Sansam and Ghost Mushroom in the troll caves), Feralas and Azshara."
+      },
+      "nota": {
+        "es": "Sungrass y Golden Sansam son las de la Superior y la Major Healing Potion de First Aid: se venden muy bien.",
+        "en": "Sungrass and Golden Sansam make First Aid's Superior and Major Healing Potions: they sell very well."
+      }
+    },
+    {
+      "desde": 270,
+      "hasta": 300,
+      "receta": "Dreamfoil (270), Mountain Silversage (280), Plaguebloom (285), Icecap (290)",
+      "cuantas": {
+        "es": "personaje de nivel 52-60",
+        "en": "character level 52-60"
+      },
+      "materiales": {
+        "es": "Frondavil, el Cráter de Un'Goro y Cuna del Invierno (Icecap). Black Lotus (300), muy rara, en Frondavil, Cuna del Invierno, Silithus y la Estepa Ardiente.",
+        "en": "Felwood, Un'Goro Crater and Winterspring (Icecap). Black Lotus (300), very rare, in Felwood, Winterspring, Silithus and Burning Steppes."
+      },
+      "nota": {
+        "es": "A 300 te llevas el título de cuenta. En el Monte Hyjal renovado (60) sale la Death Lotus con Lotus Claw.",
+        "en": "At 300 you earn the account title. On the revamped Mount Hyjal (60) you can find Death Lotus with Lotus Claw."
+      }
+    }
+  ],
+  "entrenadores": [
+    {
+      "es": "Rangos: Aprendiz 1-75 (nivel 1), Oficial 50-150 (nivel 10), Experto 125-225 (nivel 20), Artesano 200-300 (nivel 35). Los cuatro los enseña el instructor; los júnior de zona de inicio, solo hasta 75.",
+      "en": "Ranks: Apprentice 1-75 (level 1), Journeyman 50-150 (level 10), Expert 125-225 (level 20), Artisan 200-300 (level 35). All four come from a trainer; junior trainers in starting zones only go to 75."
+    },
+    {
+      "es": "Horda: Jandi (Orgrimmar), Martha Alliestar (Entrañas), Komin Winterhoof (Cima del Trueno), Mishiki (Aldea Sen'jin), Faruza (Rémol).",
+      "en": "Horde: Jandi (Orgrimmar), Martha Alliestar (Undercity), Komin Winterhoof (Thunder Bluff), Mishiki (Sen'jin Village), Faruza (Brill)."
+    },
+    {
+      "es": "Alianza: Tannysa (Ventormenta), Reyna Stonebranch (Forjaz), Firodren Mooncaller (Darnassus), Herbalist Pomeroy (Elwynn), Malorne Bladeleaf (Dolanaar), Kali Healtouch (Thelsamar).",
+      "en": "Alliance: Tannysa (Stormwind), Reyna Stonebranch (Ironforge), Firodren Mooncaller (Darnassus), Herbalist Pomeroy (Elwynn), Malorne Bladeleaf (Dolanaar), Kali Healtouch (Thelsamar)."
+    },
+    {
+      "es": "Célicos (Isla de Zephras): en Thendal Village no hay instructor; se aprende con la misión «Harvesting Windstones» eligiendo Wild Harvest. Luego Syriel Nightrain (Valanaar) o Halassa Fernbreeze (Shen'dar Village), para las dos facciones.",
+      "en": "Skyborne (Zephras Isle): there's no trainer in Thendal Village; you learn it from the quest Harvesting Windstones by choosing Wild Harvest. Then Syriel Nightrain (Valanaar) or Halassa Fernbreeze (Shen'dar Village), for both factions."
+    }
+  ],
+  "lo_mejor": [
+    {
+      "es": "Peacebloom, Briarthorn, Bruiseweed, Sungrass y Golden Sansam: son las de las pociones de sanación de First Aid, y ahora las busca todo el mundo.",
+      "en": "Peacebloom, Briarthorn, Bruiseweed, Sungrass and Golden Sansam: they make First Aid's healing potions, so everyone wants them now."
+    },
+    {
+      "es": "Dreamfoil, Mountain Silversage, Plaguebloom y Black Lotus: frascos y elixires de banda. Las bandas abren el 9 de diciembre.",
+      "en": "Dreamfoil, Mountain Silversage, Plaguebloom and Black Lotus: raid flasks and elixirs. Raids open on December 9."
+    },
+    {
+      "es": "Las semillas y las hierbas escasas (Frilled Lichen, Rosecap): las piden recetas nuevas de Alquimia y Encantamiento.",
+      "en": "Seeds and Scarce herbs (Frilled Lichen, Rosecap): new Alchemy and Enchanting recipes ask for them."
+    }
+  ],
+  "consejos": [
+    {
+      "es": "Apréndela en el nivel 1 y recoge todo lo que veas: luego no apetece volver.",
+      "en": "Learn it at level 1 and pick everything you pass: you won't want to come back later."
+    },
+    {
+      "es": "Herbalism y Mining no se rastrean a la vez. Si llevas las dos, ve cambiando según la zona.",
+      "en": "Herbalism and Mining can't be tracked together. With both, swap depending on the zone."
+    },
+    {
+      "es": "Find Herbs se apaga al morir: vuelve a activarlo.",
+      "en": "Find Herbs turns off when you die: switch it back on."
+    },
+    {
+      "es": "Goldthorn Tea da +15 de Herbalism (receta de Cocina 175 que enseña Henry Stern en Horado Rajacieno). Los guantes con Enchant Gloves - Herbalism dan +2 y la versión avanzada, +5.",
+      "en": "Goldthorn Tea gives +15 Herbalism (a Cooking 175 recipe taught by Henry Stern in Razorfen Downs). Enchant Gloves - Herbalism gives +2 and the advanced version +5."
+    },
+    {
+      "es": "Las hierbas en naranja suben siempre; en amarillo, casi siempre; en verde, poco; en gris, nada. Cuando todo se pone verde, cambia de zona.",
+      "en": "Orange herbs always give a point, yellow usually, green rarely, grey never. When everything turns green, move on."
+    },
+    {
+      "es": "Monta pronto el invernadero (140): te da hierbas mientras haces otra cosa.",
+      "en": "Get the greenhouse (140) early: it grows herbs while you do something else."
+    }
+  ],
+  "pendiente": [
+    {
+      "es": "Qué hierbas hay en Riverglades (35-45) y si hay alguna nueva allí.",
+      "en": "Which herbs grow in Riverglades (35-45) and whether any are new."
+    },
+    {
+      "es": "Dónde crecen Marefoil, Demonsage y Stranglevine, y qué habilidad piden.",
+      "en": "Where Marefoil, Demonsage and Stranglevine grow, and what skill they need."
+    },
+    {
+      "es": "Los tramos de 170 en adelante son la ruta clásica: la beta se paró en el nivel 30 y no se han probado en Forever.",
+      "en": "Everything from 170 up is the classic route: the beta stopped at level 30, so it hasn't been tested in Forever."
+    },
+    {
+      "es": "De dónde sale el plano del Seed Hybridizer.",
+      "en": "Where the Seed Hybridizer blueprint comes from."
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Warcraft Tavern: Herbalism en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/herbalism/"
+    },
+    {
+      "nombre": "Warcraft Tavern: profesiones en Forever",
+      "url": "https://www.warcrafttavern.com/forever/guides/professions/"
+    },
+    {
+      "nombre": "wow-professions: Herbalism 1-300 en Forever",
+      "url": "https://www.wow-professions.com/forever/herbalism-leveling-guide"
+    },
+    {
+      "nombre": "wow-professions: cambios de Herbalism",
+      "url": "https://www.wow-professions.com/forever/herbalism-changes"
+    },
+    {
+      "nombre": "Zockify: profesiones en Forever",
+      "url": "https://www.zockify.com/forever/professions/"
+    }
+  ]
+}
