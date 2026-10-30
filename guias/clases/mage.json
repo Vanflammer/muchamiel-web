@@ -628,6 +628,10 @@
     },
     "consejos": [
       {
+        "es": "<b>Varita desde el nivel 1 (unos 15 minutos):</b> vende lo que traes al crear el personaje hasta juntar unas 2 de plata, aprende Enchanting con el instructor de tu ciudad y cómprale una Copper Rod, dos Mote of Magic y una Simple Wood. Fabrica la Runed Copper Rod (Copper Rod + Mote of Magic) y con ella la <b>Novice's Practice Wand</b> (Simple Wood + Mote of Magic), que se puede usar desde el nivel 1. Rematar con varita ahorra maná desde el primer minuto. Si luego no quieres Encantamiento, puedes olvidar la profesión.",
+        "en": "<b>A wand from level 1 (about 15 minutes):</b> sell what you start with until you have about 2 silver, learn Enchanting from your city trainer and buy a Copper Rod, two Mote of Magic and a Simple Wood. Craft the Runed Copper Rod (Copper Rod + Mote of Magic) and then the <b>Novice's Practice Wand</b> (Simple Wood + Mote of Magic), usable from level 1. Finishing with a wand saves mana from the very first minute. If you don't want Enchanting later, you can unlearn it."
+      },
+      {
         "es": "Consigue una varita pronto: a niveles bajos remata enemigos sin gastar maná.",
         "en": "Get a wand early: at low levels it finishes enemies without spending mana."
       },
@@ -885,6 +889,173 @@
       "en": "Race matters: Undead against fears, Human against stuns, Gnome against slows and Orc against warlocks."
     }
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "Strafe kiting",
+        "titulo": {
+          "es": "Hechizo largo, instantáneos y correr de lado",
+          "en": "Long cast, instants, strafe away"
+        },
+        "texto": {
+          "es": "La base del mago (en algunos directos lo llaman «la L»). Abre desde el alcance máximo con el hechizo largo: <b>Frostbolt</b> (frena un 40 %) o <b>Frostfire Bolt</b>. Cuando el rival se acerque, ya no lances nada largo: <b>Frost Nova</b>, aléjate <b>de lado</b> con las teclas de desplazamiento lateral (de lado corres a velocidad normal; de espaldas, mucho más lento) y remata con instantáneos: <b>Ice Lance</b>, <b>Fire Blast</b>, <b>Cone of Cold</b>. Gira la cámara con el ratón para que el rival quede en tu mitad delantera. Cuando vuelvas a tener distancia, otro <b>Frostbolt</b>.",
+          "en": "The mage's bread and butter (some streams call it «the L»). Open from max range with your long cast: <b>Frostbolt</b> (40% slow) or <b>Frostfire Bolt</b>. Once they get close, stop casting long spells: <b>Frost Nova</b>, move away <b>sideways</b> with the strafe keys (strafing keeps full speed; backpedaling is much slower) and finish with instants: <b>Ice Lance</b>, <b>Fire Blast</b>, <b>Cone of Cold</b>. Turn the camera with the mouse so the enemy stays in your front half. Once you have range again, another <b>Frostbolt</b>."
+        }
+      },
+      {
+        "termino": "Jump cast / jump-turn",
+        "titulo": {
+          "es": "Lanzar en pleno salto",
+          "en": "Cast mid-jump"
+        },
+        "texto": {
+          "es": "Si el rival va justo detrás de ti, salta mientras huyes, gira 180° en el aire con el botón derecho del ratón, lanza un instantáneo (<b>Ice Lance</b>, <b>Fire Blast</b> o <b>Cone of Cold</b>, que necesita tenerlo delante) y vuelve a girar antes de caer. El salto conserva el impulso: no pierdes distancia. Solo vale con instantáneos; los hechizos con tiempo de lanzamiento no se pueden lanzar saltando ni moviéndote.",
+          "en": "If the enemy is right behind you, jump while running, spin 180° in the air with the right mouse button, fire an instant (<b>Ice Lance</b>, <b>Fire Blast</b> or <b>Cone of Cold</b>, which needs them in front) and turn back before you land. The jump keeps its momentum, so you lose no ground. It only works with instants; spells with a cast time can't be cast while jumping or moving."
+        }
+      },
+      {
+        "termino": "Shatter combo",
+        "titulo": {
+          "es": "Combo de congelación",
+          "en": "Shatter combo"
+        },
+        "texto": {
+          "es": "El golpe fuerte del mago de Escarcha. 1) <b>Frost Nova</b> (o una congelación de <b>Frostbite</b>). 2) Unos pasos de lado para salir de su alcance. 3) <b>Frostbolt</b> y, justo antes de que termine el lanzamiento, <b>Ice Lance</b>: por el spell batching de Forever los dos llegan a la vez y aprovechan la congelación. <b>Ice Lance</b> hace el triple de daño a objetivos congelados y lo «fotografía»: hace el daño completo aunque la congelación se rompa justo después. <b>Shatter</b> suma probabilidad de crítico contra congelados. Cualquier daño rompe <b>Frost Nova</b>, así que no pongas antes nada que pegue en el tiempo.",
+          "en": "The frost mage's big hit. 1) <b>Frost Nova</b> (or a <b>Frostbite</b> freeze). 2) A few strafe steps out of their reach. 3) <b>Frostbolt</b>, and just before it finishes, <b>Ice Lance</b>: thanks to Forever's spell batching both land together and use the freeze. <b>Ice Lance</b> deals triple damage to frozen targets and snapshots it, so it hits in full even if the freeze breaks right after. <b>Shatter</b> adds crit chance against frozen targets. Any damage breaks <b>Frost Nova</b>, so don't apply damage over time first."
+        }
+      },
+      {
+        "termino": "Fingers of Frost + spell batching",
+        "titulo": {
+          "es": "Aprovechar Fingers of Frost",
+          "en": "Make the most of Fingers of Frost"
+        },
+        "texto": {
+          "es": "<b>Fingers of Frost</b> hace que tus dos siguientes hechizos traten al objetivo como congelado, pero lo gasta cualquier hechizo. Si sale mientras lanzas algo largo que no es de Escarcha, cancélalo (moverte basta) y lanza <b>Ice Lance</b>. Con spell batching puedes rascar más: empieza <b>Frostbolt</b> y pulsa <b>Ice Lance</b> al final del lanzamiento; los dos se resuelven a la vez con la misma carga.",
+          "en": "<b>Fingers of Frost</b> makes your next two spells treat the target as frozen, but any spell spends it. If it procs while you are casting something long that isn't Frost, cancel it (moving is enough) and fire <b>Ice Lance</b>. Spell batching lets you squeeze more out of it: start <b>Frostbolt</b> and press <b>Ice Lance</b> at the end of the cast; both resolve together on the same charge."
+        }
+      },
+      {
+        "termino": "Blink (stun/root break)",
+        "titulo": {
+          "es": "Blink con cabeza",
+          "en": "Blink with purpose"
+        },
+        "texto": {
+          "es": "<b>Blink</b> te lleva 20 metros <b>hacia donde miras</b> y te libra de aturdimientos y raíces. Guárdalo para la apertura del pícaro, la carga del guerrero o una raíz, no para huir por reflejo. Antes de pulsarlo, gira la cámara con el ratón para mirar hacia donde quieres ir (si estás corriendo de lado, saldrías de lado). Si el rival te persigue de cerca, salta, gira en el aire hacia tu ruta de escape y lanza <b>Blink</b>. Si algo se interpone, recorre menos.",
+          "en": "<b>Blink</b> moves you 20 yards <b>the way you are facing</b> and frees you from stuns and roots. Save it for the rogue's opener, the warrior's charge or a root, not for a reflex escape. Before you press it, turn the camera with the mouse toward where you want to go (if you are strafing, you would blink sideways). If they are chasing closely, jump, turn in the air toward your escape route and Blink. If something is in the way, it carries you less far."
+        }
+      },
+      {
+        "termino": "Polymorph reset",
+        "titulo": {
+          "es": "Oveja para resetear el combate",
+          "en": "Sheep to reset the fight"
+        },
+        "texto": {
+          "es": "Con dos rivales, <b>Polymorph</b> al que no vas a matar y pelea uno contra uno. Contra uno solo, la oveja te da tiempo para recuperar las reutilizaciones de <b>Frost Nova</b> y <b>Cone of Cold</b> o comer y beber unos segundos; pero el rival se cura muy rápido mientras está convertido, así que no lo uses si ya casi lo tenías muerto. Cualquier daño lo devuelve a su forma, y la oveja repetida dura cada vez menos (diminishing returns). Solo funciona en humanoides y bestias.",
+          "en": "With two enemies, <b>Polymorph</b> the one you won't kill first and fight one-on-one. Against a single enemy, the sheep buys time for <b>Frost Nova</b> and <b>Cone of Cold</b> to come back, or a few seconds to eat and drink; but they heal very fast while polymorphed, so don't use it if they were almost dead. Any damage turns them back, and repeated sheeps last less each time (diminishing returns). It only works on humanoids and beasts."
+        }
+      },
+      {
+        "termino": "Spell pushback",
+        "titulo": {
+          "es": "Que no te retrasen el hechizo",
+          "en": "Don't get your cast pushed back"
+        },
+        "texto": {
+          "es": "Cada golpe que recibes mientras lanzas retrasa el hechizo (spell pushback): contra un cuerpo a cuerpo, un <b>Frostbolt</b> puede no salir nunca. Novedad de Forever: mientras tengas <b>Ice Barrier</b>, los golpes no te retrasan, así que lánzalo antes de pelear y renuévalo. En Fuego, <b>Burning Soul</b> da un 70 % de probabilidad de no perder tiempo con los hechizos de fuego. Si no tienes escudo, usa instantáneos hasta recuperar la distancia.",
+          "en": "Every hit you take while casting delays the spell (spell pushback): against a melee, a <b>Frostbolt</b> may never go off. New in Forever: while <b>Ice Barrier</b> is up, hits don't push your casts back, so put it up before the fight and keep it rolling. As Fire, <b>Burning Soul</b> gives fire spells a 70% chance to ignore pushback. With no shield, use instants until you regain range."
+        }
+      },
+      {
+        "termino": "Interrupt & line of sight (LoS)",
+        "titulo": {
+          "es": "Cortar hechizos y esconderse",
+          "en": "Interrupts and line of sight"
+        },
+        "texto": {
+          "es": "Mira la barra de lanzamiento del rival y usa <b>Counterspell</b> en sus curas o hechizos grandes, no en el primero que veas: algunos empiezan un lanzamiento y lo cancelan para que gastes tu corte (eso se llama juke). Con <b>Improved Counterspell</b> (Arcano) además silencia 4 s. Contra cazadores y otros lanzadores, rompe la línea de visión (LoS): ponte detrás de una columna, un árbol o una esquina; su hechizo no sale y tendrá que acercarse.",
+          "en": "Watch the enemy cast bar and save <b>Counterspell</b> for heals or big spells, not the first one you see: some players start a cast and cancel it to bait your interrupt (a juke). With <b>Improved Counterspell</b> (Arcane) it also silences for 4 sec. Against hunters and other casters, break line of sight (LoS): get behind a pillar, a tree or a corner; their cast fails and they have to come to you."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Kiting (Frost)",
+        "titulo": {
+          "es": "Subir con kiting",
+          "en": "Leveling with kiting"
+        },
+        "texto": {
+          "es": "El plan de Escarcha para subir: <b>Frostbolt</b> desde lejos y otro mientras se acerca frenado. Si llega, <b>Frost Nova</b>, unos pasos atrás de lado y <b>Ice Lance</b> mientras sigue congelado. Remata con <b>Fire Blast</b> o la varita para no gastar un <b>Frostbolt</b> caro en un enemigo casi muerto.",
+          "en": "The Frost leveling plan: <b>Frostbolt</b> from range and another while it walks in slowed. If it reaches you, <b>Frost Nova</b>, a few strafe steps back and <b>Ice Lance</b> while it's still frozen. Finish with <b>Fire Blast</b> or your wand instead of wasting an expensive <b>Frostbolt</b> on a nearly dead mob."
+        }
+      },
+      {
+        "termino": "AoE kiting",
+        "titulo": {
+          "es": "Matar grupos de enemigos",
+          "en": "AoE kiting"
+        },
+        "texto": {
+          "es": "Agrupa a varios enemigos, espera a que se junten y lanza <b>Frost Nova</b>; aléjate a unos metros y lanza <b>Blizzard</b> encima (con <b>Improved Blizzard</b> los frena). Antes de que lleguen, <b>Cone of Cold</b> y vuelve a alejarte. Si te rodean, <b>Blink</b> a través de ellos y sigue. Hazlo solo con el maná lleno y con un plan de escape: un enemigo de más y no sale.",
+          "en": "Pull several mobs, let them bunch up and cast <b>Frost Nova</b>; step back a few yards and drop <b>Blizzard</b> on them (<b>Improved Blizzard</b> slows them). Before they reach you, <b>Cone of Cold</b> and step away again. If they surround you, <b>Blink</b> through them and keep going. Only do it with full mana and an escape plan: one mob too many and it falls apart."
+        }
+      },
+      {
+        "termino": "Crowd control (Polymorph)",
+        "titulo": {
+          "es": "La oveja en mazmorras",
+          "en": "Sheep in dungeons"
+        },
+        "texto": {
+          "es": "En grupo, tu trabajo es la oveja: <b>Polymorph</b> al enemigo que marque el grupo antes de que empiece el combate y renuévala si se acaba. No uses <b>Blizzard</b>, <b>Cone of Cold</b> ni <b>Arcane Explosion</b> cerca de la oveja: cualquier daño la despierta.",
+          "en": "In groups your job is the sheep: <b>Polymorph</b> the mob your group marked before the pull and recast it when it fades. Don't use <b>Blizzard</b>, <b>Cone of Cold</b> or <b>Arcane Explosion</b> near the sheep: any damage wakes it."
+        }
+      },
+      {
+        "termino": "Threat management",
+        "titulo": {
+          "es": "No quitarle la atención al tanque",
+          "en": "Don't pull threat off the tank"
+        },
+        "texto": {
+          "es": "Empieza a lanzar cuando el tanque ya tenga al enemigo, no antes. Si un enemigo se gira hacia ti, para de lanzar. <b>Frost Channeling</b> reduce un 30 % la amenaza de tus hechizos de Escarcha; en Fuego lo hace <b>Burning Soul</b> y en Arcano <b>Arcane Subtlety</b>. <b>Counterspell</b> sobre los lanzadores enemigos ayuda al grupo, aunque genera mucha amenaza.",
+          "en": "Start casting once the tank has the mob, not before. If a mob turns on you, stop casting. <b>Frost Channeling</b> cuts the threat of your Frost spells by 30%; <b>Burning Soul</b> does it for Fire and <b>Arcane Subtlety</b> for Arcane. <b>Counterspell</b> on enemy casters helps the group, though it causes a lot of threat."
+        }
+      },
+      {
+        "termino": "Mana management (five-second rule)",
+        "titulo": {
+          "es": "Cuidar el maná",
+          "en": "Mana management"
+        },
+        "texto": {
+          "es": "Tu maná se regenera con el Espíritu, pero se para durante 5 segundos cada vez que gastas maná. Rematar con la varita deja que vuelva antes. En combate largo: <b>Mana Agate</b> (u otra gema) y luego <b>Evocation</b> (8 s canalizando). Entre combates, agua conjurada; lleva siempre agua para el grupo.",
+          "en": "Your mana regenerates from Spirit, but stops for 5 seconds every time you spend mana. Finishing with your wand lets it kick back in sooner. In long fights: <b>Mana Agate</b> (or a higher gem), then <b>Evocation</b> (8 sec channel). Between fights, conjured water; always carry some for the group."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Movimiento con W y S, desplazamiento lateral (strafe) en A y D y giro siempre con el botón derecho del ratón: el teclado gira demasiado lento para el jump-turn.",
+        "en": "Move with W and S, strafe on A and D, and always turn with the right mouse button: keyboard turning is too slow for jump-turns."
+      },
+      {
+        "es": "<b>Frost Nova</b>, <b>Blink</b>, <b>Ice Lance</b> y <b>Fire Blast</b> en teclas al lado de WASD (Q, E, R, F, 1-4): son los botones que pulsas mientras corres.",
+        "en": "Put <b>Frost Nova</b>, <b>Blink</b>, <b>Ice Lance</b> and <b>Fire Blast</b> next to WASD (Q, E, R, F, 1-4): they are what you press while running."
+      },
+      {
+        "es": "Macro de oveja al foco: <b>/cast [@focus] Polymorph</b>. Pon el foco en el segundo rival y conviértelo sin cambiar de objetivo.",
+        "en": "Focus sheep macro: <b>/cast [@focus] Polymorph</b>. Set the second enemy as focus and sheep it without changing target."
+      },
+      {
+        "es": "Macro de corte: <b>/stopcasting</b> y debajo <b>/cast Counterspell</b>, para cortar al rival aunque estés a mitad de un hechizo.",
+        "en": "Interrupt macro: <b>/stopcasting</b> with <b>/cast Counterspell</b> below it, so you can interrupt even mid-cast."
+      }
+    ]
+  },
   "profesiones": [
     {
       "nombre": {
@@ -997,6 +1168,22 @@
     {
       "nombre": "Icy Veins: subida del mago de Escarcha",
       "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling"
+    },
+    {
+      "nombre": "Warcraft Wiki: kiting del mago y jump-kiting (todas las ediciones)",
+      "url": "https://warcraft.wiki.gg/wiki/Kiting"
+    },
+    {
+      "nombre": "Skill Capped: guía de JcJ del mago de Escarcha (TBC)",
+      "url": "https://www.skill-capped.com/wowarticles/tbc/guides/frost-mage-pvp-guide/"
+    },
+    {
+      "nombre": "Icy Veins: guía de JcJ del mago (WoW Classic Era)",
+      "url": "https://icy-veins.com/wow-classic/classic-mage-pvp-guide"
+    },
+    {
+      "nombre": "Skill Capped: glosario de JcJ (WoW Retail)",
+      "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"
     }
   ]
 }

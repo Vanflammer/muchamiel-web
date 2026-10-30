@@ -129,8 +129,8 @@ CSS = '''.win-condition{border-left:3px solid #d5aa52;background:rgba(213,170,82
 def alpha(en):
     def t(es, eng): return eng if en else es
     return ('<details class="section" id="addon-alpha"><summary>Muchamiel Lock PvP · alpha 0.2.0 · Panel del rival</summary><div class="section-body alpha-download">'
-        '<p>' + t('Nueva alpha de Van para el brujo de Muchamiel: duelos y BGs. Sustituye a la 0.1.0; esta es la única versión descargable aquí. Incluye seguimiento experimental de usos enemigos, efectos activos, buffs mágicos y tótems visibles. Sintaxis y lógica comprobadas con pruebas simuladas, todavía sin validar dentro de Forever.',
-        'Van’s new alpha for Muchamiel’s Warlock: duels and BGs. Replaces 0.1.0; this is the only version downloadable here. Includes experimental enemy cast tracking, active effects, magic buffs and visible totems. Syntax and logic checked with simulated tests, not yet validated inside Forever.') + '</p>'
+        '<p>' + t('Nueva alpha de Van para el brujo: duelos y BGs. Sustituye a la 0.1.0; esta es la única versión descargable aquí. Incluye seguimiento experimental de usos enemigos, efectos activos, buffs mágicos y tótems visibles. Sintaxis y lógica comprobadas con pruebas simuladas, todavía sin validar dentro de Forever.',
+        'Van’s new alpha for Warlocks: duels and BGs. Replaces 0.1.0; this is the only version downloadable here. Includes experimental enemy cast tracking, active effects, magic buffs and visible totems. Syntax and logic checked with simulated tests, not yet validated inside Forever.') + '</p>'
         '<a class="btn gold" href="/downloads/MuchamielLockPvP-alpha.zip" download>⬇ ' + t('Descargar alpha 0.2.0 · ZIP', 'Download alpha 0.2.0 · ZIP') + '</a>'
         '<a class="btn ghost" href="/downloads/MuchamielLockPvP-README-' + ('en' if en else 'es') + '.txt">' + t('Leer instrucciones completas', 'Read full instructions') + '</a>'
         '<h3>' + t('Ver lo que ha gastado el rival', 'See what the opponent has used') + '</h3><p>'

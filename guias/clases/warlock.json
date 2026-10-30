@@ -637,6 +637,10 @@
     },
     "consejos": [
       {
+        "es": "<b>Varita desde el nivel 1 (unos 15 minutos):</b> vende lo que traes al crear el personaje hasta juntar unas 2 de plata, aprende Enchanting con el instructor de tu ciudad y cómprale una Copper Rod, dos Mote of Magic y una Simple Wood. Fabrica la Runed Copper Rod (Copper Rod + Mote of Magic) y con ella la <b>Novice's Practice Wand</b> (Simple Wood + Mote of Magic), que se puede usar desde el nivel 1. Rematar con varita ahorra maná desde el primer minuto. Si luego no quieres Encantamiento, puedes olvidar la profesión.",
+        "en": "<b>A wand from level 1 (about 15 minutes):</b> sell what you start with until you have about 2 silver, learn Enchanting from your city trainer and buy a Copper Rod, two Mote of Magic and a Simple Wood. Craft the Runed Copper Rod (Copper Rod + Mote of Magic) and then the <b>Novice's Practice Wand</b> (Simple Wood + Mote of Magic), usable from level 1. Finishing with a wand saves mana from the very first minute. If you don't want Enchanting later, you can unlearn it."
+      },
+      {
         "es": "Consigue una varita cuanto antes: ahorra maná hasta el 30. Encantamiento hace las primeras y la Gravestone Scepter (Cavernas de Brazanegra) es de las mejores antes del 30.",
         "en": "Get a wand as early as possible: it saves mana until 30. Enchanting makes the first ones, and Gravestone Scepter (Blackfathom Deeps) is one of the best before 30."
       },
@@ -944,6 +948,162 @@
       "en": "In battlegrounds, a Soulstone on a healer and Healthstones for the whole group are worth as much as your damage."
     }
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "DoT kiting (DoT and run)",
+        "titulo": {
+          "es": "Poner efectos y correr",
+          "en": "DoT and run"
+        },
+        "texto": {
+          "es": "La versión del brujo de correr de lado (en algunos directos lo llaman «la L»): pones los efectos de daño en el tiempo instantáneos y te alejas mientras pegan solos. En Affliction: <b>Bane of Agony</b>, <b>Corruption</b> (instantánea con <b>Improved Corruption</b> 5/5; sin el talento tarda 2 s), <b>Siphon Life</b> y <b>Curse of Exhaustion</b> (frena un 30 %; con <b>Amplify Curse</b> antes, más). Aléjate <b>de lado</b> con las teclas de desplazamiento lateral, girando la cámara con el ratón para seguir viéndolo delante, y renueva lo que caduque. Bane y maldición van por separado en Forever: puedes tener las dos.",
+          "en": "The warlock's take on strafing away (some streams call it «the L»): apply your instant damage-over-time effects and back off while they tick. As Affliction: <b>Bane of Agony</b>, <b>Corruption</b> (instant with <b>Improved Corruption</b> 5/5; 2 sec cast without it), <b>Siphon Life</b> and <b>Curse of Exhaustion</b> (30% slow; more with <b>Amplify Curse</b> first). Move away <b>sideways</b> with the strafe keys, turning the camera with the mouse to keep them in front, and refresh whatever expires. In Forever a Bane and a Curse are separate, so you can have both."
+        }
+      },
+      {
+        "termino": "Fear (CC) + diminishing returns",
+        "titulo": {
+          "es": "Usar bien el Fear",
+          "en": "Make Fear count"
+        },
+        "texto": {
+          "es": "<b>Fear</b> (1,5 s de lanzamiento, 20 metros) hace huir al rival; el daño puede romperlo, y con muchos efectos encima se rompe antes. Úsalo para ganar distancia o para lanzar algo largo con calma, y deja tus efectos ya puestos de antes en vez de añadir más. Si vuelves a usarlo seguido sobre el mismo rival, dura cada vez menos (diminishing returns). Cuidado con los no-muertos (<b>Will of the Forsaken</b>) y con los guerreros en Berserker Stance, que pueden romperlo.",
+          "en": "<b>Fear</b> (1.5 sec cast, 20 yards) sends the enemy running; damage can break it, and with lots of effects on them it breaks sooner. Use it to gain distance or to cast something long in peace, and rely on effects you already applied instead of stacking more. Reapplied quickly on the same target, it lasts less each time (diminishing returns). Watch out for Undead (<b>Will of the Forsaken</b>) and warriors in Berserker Stance, who can break it."
+        }
+      },
+      {
+        "termino": "Line of sight (LoS)",
+        "titulo": {
+          "es": "Esconderse entre efectos",
+          "en": "Hide between DoTs"
+        },
+        "texto": {
+          "es": "Contra cazadores y lanzadores, la línea de visión es tu escudo. Sal de detrás de una columna, una casa o un árbol, pon un efecto instantáneo y vuelve a esconderte: tu daño sigue pegando y el rival no puede lanzarte nada. Tendrá que acercarse, justo donde tu <b>Fear</b> y tu demonio le esperan.",
+          "en": "Against hunters and casters, line of sight is your shield. Step out from behind a pillar, a house or a tree, apply an instant effect and duck back: your damage keeps ticking and they can't cast at you. They'll have to come closer, right where your <b>Fear</b> and your demon are waiting."
+        }
+      },
+      {
+        "termino": "Death Coil",
+        "titulo": {
+          "es": "Death Coil en el momento justo",
+          "en": "Death Coil at the right moment"
+        },
+        "texto": {
+          "es": "<b>Death Coil</b> es instantáneo: hace huir al rival 3 s, le hace daño y te cura lo mismo. Úsalo cuando el <b>Fear</b> se rompa y el rival vuelva a estar encima, para cortar un hechizo que no puedes parar de otra forma o para sobrevivir un golpe más. En Classic no comparte diminishing returns con <b>Fear</b>, así que van bien encadenados; en Forever aún no está comprobado. Contra un guerrero en Berserker Stance sigue funcionando.",
+          "en": "<b>Death Coil</b> is instant: the enemy runs in horror for 3 sec, takes damage and you heal for that much. Use it when <b>Fear</b> breaks and they're back on you, to stop a cast you can't stop otherwise, or to survive one more hit. In Classic it doesn't share diminishing returns with <b>Fear</b>, so they chain well; that is not confirmed yet in Forever. It still works on a warrior in Berserker Stance."
+        }
+      },
+      {
+        "termino": "Soul Link",
+        "titulo": {
+          "es": "Soul Link: el demonio como escudo",
+          "en": "Soul Link: your demon as a shield"
+        },
+        "texto": {
+          "es": "Con <b>Soul Link</b> (Demonology), tu demonio recibe el 30 % del daño que te hacen y ambos hacen un 3 % más de daño. Funciona mientras el demonio esté vivo: vigila su vida y usa <b>Health Funnel</b> (con <b>Improved Health Funnel</b> se puede usar aunque esté lleno y no da amenaza). Sacerdotes y chamanes pueden quitárselo al demonio. Si muere, <b>Fel Domination</b> y vuelve a invocarlo casi al instante.",
+          "en": "With <b>Soul Link</b> (Demonology), your demon takes 30% of the damage aimed at you and you both deal 3% more. It only works while the demon lives: watch its health and use <b>Health Funnel</b> (<b>Improved Health Funnel</b> lets you use it at any health with no threat). Priests and shamans can dispel it off the demon. If it dies, <b>Fel Domination</b> and resummon it almost instantly."
+        }
+      },
+      {
+        "termino": "Pet control (Spell Lock / Seduction)",
+        "titulo": {
+          "es": "Controlar al demonio a mano",
+          "en": "Control your demon by hand"
+        },
+        "texto": {
+          "es": "En JcJ no dejes al demonio en automático. Con el Felhunter, guarda <b>Spell Lock</b> para el hechizo importante del rival (cura o control): si lo cortas a mitad, además bloquea esa escuela de magia 6 s. <b>Devour Magic</b> te quita un efecto mágico o se lo quita al rival. Con súcubo o íncubo, <b>Seduction</b> (solo humanoides) deja al rival quieto: no le pongas efectos de daño antes o lo romperán.",
+          "en": "In PvP, don't leave your demon on autopilot. With the Felhunter, save <b>Spell Lock</b> for the enemy's key spell (a heal or a crowd control): landed mid-cast it also locks that school for 6 sec. <b>Devour Magic</b> strips a magic effect off you or a buff off the enemy. With the succubus or incubus, <b>Seduction</b> (humanoids only) locks the enemy down: don't put damage effects on them first or they'll break it."
+        }
+      },
+      {
+        "termino": "Spell pushback",
+        "titulo": {
+          "es": "Lanzar sin que te retrasen",
+          "en": "Casting through pushback"
+        },
+        "texto": {
+          "es": "Cada golpe que recibes retrasa tus hechizos con tiempo de lanzamiento. Soluciones de Forever: <b>Sacrifice</b> del Voidwalker te da un escudo y, mientras dura, no te retrasan; <b>Fel Concentration</b> (Affliction) da un 70 % de no perder tiempo con <b>Drain Life</b>, <b>Drain Soul</b> y <b>Wrack</b>. Si un cuerpo a cuerpo te tiene encima, no intentes un <b>Fear</b> eterno: <b>Death Coil</b> o <b>Howl of Terror</b> (2 s, hasta 5 enemigos a 10 metros) primero.",
+          "en": "Every hit you take delays your cast-time spells. Forever's answers: the Voidwalker's <b>Sacrifice</b> gives you a shield, and while it holds you aren't pushed back; <b>Fel Concentration</b> (Affliction) gives <b>Drain Life</b>, <b>Drain Soul</b> and <b>Wrack</b> a 70% chance to ignore pushback. If a melee is on top of you, don't fight through a <b>Fear</b> cast: <b>Death Coil</b> or <b>Howl of Terror</b> (2 sec, up to 5 enemies within 10 yards) first."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Pet tanking (threat)",
+        "titulo": {
+          "es": "Que tanquee el Voidwalker",
+          "en": "Let the Voidwalker tank"
+        },
+        "texto": {
+          "es": "Manda primero al demonio y espera a que el enemigo se fije en él. Con el Voidwalker, <b>Torment</b> lo vuelve a atraer si se gira hacia ti. No abras con <b>Searing Pain</b> (mucha amenaza) si no eres Demonology y lo necesitas para <b>Demonic Brand</b>.",
+          "en": "Send the demon in first and wait until the mob locks onto it. With the Voidwalker, <b>Torment</b> pulls it back if it turns on you. Don't open with <b>Searing Pain</b> (high threat) unless you are Demonology and need it for <b>Demonic Brand</b>."
+        }
+      },
+      {
+        "termino": "DoT and drain",
+        "titulo": {
+          "es": "Efectos y drenar",
+          "en": "DoT and drain"
+        },
+        "texto": {
+          "es": "Al subir: <b>Bane of Agony</b> y <b>Corruption</b> y, con ellos puestos, <b>Drain Life</b> para curarte mientras pegan (con <b>Soul Siphon</b> drena más por cada efecto de Affliction en el enemigo). <b>Bane of Agony</b> pega más al final: no la renueves antes de que acabe. Con un enemigo casi muerto, remata con la varita en vez de poner otro efecto.",
+          "en": "While leveling: <b>Bane of Agony</b> and <b>Corruption</b>, then <b>Drain Life</b> to heal while they tick (<b>Soul Siphon</b> drains more for each Affliction effect on the target). <b>Bane of Agony</b> hits hardest at the end: don't refresh it early. If the mob is almost dead, wand it instead of adding another effect."
+        }
+      },
+      {
+        "termino": "Life Tap cycle",
+        "titulo": {
+          "es": "La vida como recurso",
+          "en": "Life as a resource"
+        },
+        "texto": {
+          "es": "<b>Life Tap</b> cambia vida por maná, y en Forever lo mejora el Espíritu. Úsalo mientras te mueves o entre efectos, cuando tengas más vida que maná; luego recupera vida con <b>Drain Life</b>. Así casi no paras a comer ni a beber.",
+          "en": "<b>Life Tap</b> turns health into mana, and in Forever Spirit boosts it. Use it on the move or between effects, whenever you have more health than mana; then refill health with <b>Drain Life</b>. You'll barely need to stop and eat or drink."
+        }
+      },
+      {
+        "termino": "Crowd control (Fear / Banish)",
+        "titulo": {
+          "es": "Controlar en grupo",
+          "en": "Crowd control in groups"
+        },
+        "texto": {
+          "es": "En mazmorras, <b>Banish</b> deja fuera de combate a un demonio o un elemental hasta 20 s (no recibe daño). <b>Fear</b> solo si hay sitio: el enemigo asustado puede correr hacia otro grupo y traerlo. <b>Curse of Recklessness</b> impide que huya, pero también rompe tu propio <b>Fear</b>.",
+          "en": "In dungeons, <b>Banish</b> takes a demon or elemental out of the fight for up to 20 sec (it can't be damaged). Only <b>Fear</b> where there is room: a fleeing mob can run into another pack and bring it back. <b>Curse of Recklessness</b> stops it from fleeing, but also breaks your own <b>Fear</b>."
+        }
+      },
+      {
+        "termino": "Multi-DoT (DoT tab)",
+        "titulo": {
+          "es": "Efectos en varios enemigos",
+          "en": "Multi-DoTting"
+        },
+        "texto": {
+          "es": "Con varios enemigos o en jefes con ayudantes, pasa de uno a otro con Tab y deja <b>Corruption</b> y <b>Bane of Agony</b> en cada uno; solo en los que vayan a vivir lo bastante para que el efecto haga su daño completo. Cuantos más efectos de <b>Corruption</b> tengas puestos, más veces sale <b>Nightfall</b> (<b>Shadow Bolt</b> instantáneo).",
+          "en": "On packs or bosses with adds, Tab between them and put <b>Corruption</b> and <b>Bane of Agony</b> on each; only on mobs that will live long enough for the full tick. The more <b>Corruption</b> effects you have running, the more often <b>Nightfall</b> procs (instant <b>Shadow Bolt</b>)."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Movimiento con W y S, desplazamiento lateral (strafe) en A y D y giro con el botón derecho del ratón: te deja poner efectos sin dejar de alejarte.",
+        "en": "Move with W and S, strafe on A and D and turn with the right mouse button: it lets you apply effects while backing off."
+      },
+      {
+        "es": "Macro de Fear al foco: <b>/cast [@focus] Fear</b>. Pon el foco en el segundo rival y asústalo sin perder tu objetivo.",
+        "en": "Focus Fear macro: <b>/cast [@focus] Fear</b>. Set the second enemy as focus and fear it without losing your target."
+      },
+      {
+        "es": "Habilidades del demonio en tus teclas: <b>/cast Spell Lock</b> o <b>/cast Seduction</b> en una macro, al lado de tus hechizos, para no tener que pulsar la barra de mascota.",
+        "en": "Put your demon's skills on your own keys: a macro with <b>/cast Spell Lock</b> or <b>/cast Seduction</b> next to your spells, so you never click the pet bar."
+      },
+      {
+        "es": "Instantáneos (<b>Corruption</b>, <b>Bane of Agony</b>, <b>Curse of Exhaustion</b>, <b>Death Coil</b>) en teclas cerca de WASD; <b>Life Tap</b> y <b>Health Funnel</b> más lejos.",
+        "en": "Instants (<b>Corruption</b>, <b>Bane of Agony</b>, <b>Curse of Exhaustion</b>, <b>Death Coil</b>) on keys near WASD; <b>Life Tap</b> and <b>Health Funnel</b> further away."
+      }
+    ]
+  },
   "profesiones": [
     {
       "nombre": {
@@ -1056,6 +1216,26 @@
     {
       "nombre": "Warcraft Wiki: misiones de brujo",
       "url": "https://warcraft.wiki.gg/wiki/Warlock_quests"
+    },
+    {
+      "nombre": "Warcraft Tavern: guía de JcJ del brujo (WoW Classic Era)",
+      "url": "https://warcrafttavern.com/wow-classic/guides/warlock-pvp"
+    },
+    {
+      "nombre": "Icy Veins: guías de JcJ del brujo (TBC Classic)",
+      "url": "https://icy-veins.com/tbc-classic/warlock-pvp-guides"
+    },
+    {
+      "nombre": "Icy Veins: subida de Affliction en Forever",
+      "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling"
+    },
+    {
+      "nombre": "Warcraft Wiki: línea de visión (todas las ediciones)",
+      "url": "https://warcraft.wiki.gg/wiki/Line_of_sight"
+    },
+    {
+      "nombre": "Skill Capped: glosario de JcJ (WoW Retail)",
+      "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"
     }
   ]
 }

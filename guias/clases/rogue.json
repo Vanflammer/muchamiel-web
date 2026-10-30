@@ -207,6 +207,173 @@
     {"es": "En campos de batalla, busca lanzadores y curadores solos; huye de los combates largos contra varios.", "en": "In battlegrounds, hunt lone casters and healers; avoid long fights against several enemies."},
     {"es": "Ingeniería suma granadas y artilugios que ganan duelos; un pícaro de JcJ casi siempre la lleva.", "en": "Engineering adds grenades and gadgets that win duels; a PvP rogue almost always has it."}
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "Opener / stunlock",
+        "titulo": {
+          "es": "Abrir y encadenar aturdimientos",
+          "en": "Open and chain stuns"
+        },
+        "texto": {
+          "es": "Desde el sigilo, <b>Cheap Shot</b> aturde 4 s y da 2 puntos de combo. Llena puntos con tu generador y, justo cuando el aturdimiento esté a punto de acabar, no antes, lanza <b>Kidney Shot</b> (hasta 6 s con 5 puntos y el rango 2). Si lo lanzas mientras dura el primero, pierdes tiempo de control. Con Subtlety, <b>Premeditation</b> te da 2 puntos antes de abrir (hay que gastarlos en 20 s) y la cadena sale más larga.",
+          "en": "From stealth, <b>Cheap Shot</b> stuns for 4 sec and gives 2 combo points. Build points with your generator and, right as the stun is about to end, not before, cast <b>Kidney Shot</b> (up to 6 sec with 5 points at rank 2). Casting it while the first stun is still running wastes control time. As Subtlety, <b>Premeditation</b> gives you 2 points before the opener (spend them within 20 sec) for a longer chain."
+        }
+      },
+      {
+        "termino": "Diminishing returns (DR)",
+        "titulo": {
+          "es": "No repetir el mismo control",
+          "en": "Don't repeat the same kind of control"
+        },
+        "texto": {
+          "es": "Contra jugadores, cada control del mismo tipo que repites en poco tiempo dura la mitad, luego un cuarto, y después el rival es inmune hasta que pasan unos 15-20 s sin recibirlo (así funciona en Classic; Forever lo mantiene y no ha anunciado cambios). Por eso, tras los aturdimientos, pasa a otro tipo: <b>Gouge</b> es una incapacitación y <b>Blind</b> otra familia distinta, así que siguen durando entero. Si otro jugador ya ha aturdido a tu objetivo (por ejemplo con Hammer of Justice), tu Kidney Shot puede salir recortado: espera o usa otro control.",
+          "en": "Against players, each control effect of the same type you repeat in a short time lasts half as long, then a quarter, and then the target is immune until about 15-20 sec pass without it (that is how Classic works; Forever keeps it and has announced no changes). So after your stuns, switch type: <b>Gouge</b> is an incapacitate and <b>Blind</b> is a different family, so they still last their full duration. If someone else already stunned your target (say with Hammer of Justice), your Kidney Shot may come out shortened: wait or use another control."
+        }
+      },
+      {
+        "termino": "Gouge and reposition",
+        "titulo": {
+          "es": "Gouge y ponerse detrás",
+          "en": "Gouge and get behind"
+        },
+        "texto": {
+          "es": "<b>Gouge</b> incapacita 4 s (más con Improved Gouge) a un rival que te mira de frente, y cualquier daño lo rompe. Úsalo para cortar un hechizo cuando Kick está en recarga, o para ganar tiempo: después de Gouge, deja de atacar, recupera energía y ponte a su espalda. Cuando despierte no te tendrá delante y tú puedes entrar con Backstab o con el siguiente Kidney Shot. Ojo con los venenos y sangrados: si siguen haciendo daño, rompen el Gouge.",
+          "en": "<b>Gouge</b> incapacitates a target facing you for 4 sec (longer with Improved Gouge), and any damage breaks it. Use it to stop a spell when Kick is on cooldown, or to buy time: after Gouge, stop attacking, pool energy and walk to their back. When they wake up you're not in front of them, and you can follow with Backstab or your next Kidney Shot. Watch your poisons and bleeds: if they're still ticking, they break Gouge."
+        }
+      },
+      {
+        "termino": "Blind + bandage / restealth",
+        "titulo": {
+          "es": "Blind para vendarte o volver al sigilo",
+          "en": "Blind to bandage or restealth"
+        },
+        "texto": {
+          "es": "<b>Blind</b> desorienta hasta 10 s a 10 metros y necesita Blinding Powder. Cualquier daño lo rompe, así que no lo lances con Garrote, Rupture o venenos de daño activos. Tras Blind, aléjate un poco y usa un vendaje (Primeros auxilios) o vuelve a <b>Stealth</b> para abrir otra vez con Cheap Shot. Contra un rival que se cura o que tiene su escape listo, guárdalo para cuando lo gaste.",
+          "en": "<b>Blind</b> disorients for up to 10 sec at 10 yards and needs Blinding Powder. Any damage breaks it, so don't cast it with Garrote, Rupture or damage poisons still running. After Blind, step away and use a bandage (First Aid) or go back into <b>Stealth</b> to open again with Cheap Shot. Against a target that heals or still has its escape ready, hold it until they spend it."
+        }
+      },
+      {
+        "termino": "Interrupt timing / juke",
+        "titulo": {
+          "es": "Kick al hechizo que importa",
+          "en": "Kick the spell that matters"
+        },
+        "texto": {
+          "es": "<b>Kick</b> corta el hechizo y bloquea esa escuela 5 s (10 s de recarga; con Improved Kick, además silencia 2 s). No lo gastes en el primer hechizo: los buenos lanzadores empiezan uno y lo cancelan (<i>juke</i>) para que falles. Espera a que la barra pase de la mitad en la cura, el miedo o el Polymorph. No apures al último instante: Forever tiene <i>spell batching</i> y el hechizo puede salir igual. Si Kick está en recarga, <b>Gouge</b> también corta.",
+          "en": "<b>Kick</b> stops the cast and locks that school for 5 sec (10 sec cooldown; Improved Kick also silences for 2 sec). Don't spend it on the first cast: good casters start one and cancel it (<i>juke</i>) to make you miss. Wait until the bar is past halfway on the heal, fear or Polymorph. Don't leave it to the very last moment: Forever has <i>spell batching</i> and the spell may still land. If Kick is on cooldown, <b>Gouge</b> interrupts too."
+        }
+      },
+      {
+        "termino": "Vanish reset",
+        "titulo": {
+          "es": "Vanish para reiniciar la pelea",
+          "en": "Vanish to reset the fight"
+        },
+        "texto": {
+          "es": "<b>Vanish</b> (Flash Powder, 5 min de recarga) te devuelve al sigilo y quita las ralentizaciones. No es solo para huir: si la pelea se tuerce, Vanish, aléjate un par de pasos, deja que suba la energía y vuelve a abrir con Cheap Shot. Con Subtlety, <b>Preparation</b> (10 min) termina la recarga de Vanish, Blind, Sprint y Evasion: es un segundo combate entero.",
+          "en": "<b>Vanish</b> (Flash Powder, 5 min cooldown) puts you back in stealth and clears slows. It's not just for running: if the fight turns, Vanish, step away a couple of yards, let energy refill and open again with Cheap Shot. As Subtlety, <b>Preparation</b> (10 min) finishes the cooldown on Vanish, Blind, Sprint and Evasion: it's a whole second fight."
+        }
+      },
+      {
+        "termino": "Sap and pick your fights",
+        "titulo": {
+          "es": "Sap y Distract para elegir la pelea",
+          "en": "Sap and Distract to pick your fight"
+        },
+        "texto": {
+          "es": "En Forever, <b>Sap</b> no rompe tu sigilo: si dos enemigos van juntos, deja a uno fuera con Sap (hasta 45 s, solo humanoides fuera de combate) y abre al otro. <b>Distract</b> gira a los enemigos y, además, les baja la detección de sigilo 10 s: úsalo para cruzar cerca de un guardia o pasar detrás de alguien sin que te vea. Con Sap, ojo: si el objetivo tiene la marca de JcJ, te la pone también a ti.",
+          "en": "In Forever, <b>Sap</b> doesn't break your stealth: if two enemies travel together, Sap one (up to 45 sec, out-of-combat humanoids only) and open on the other. <b>Distract</b> turns enemies around and also lowers their stealth detection for 10 sec: use it to slip past a guard or behind a player unseen. With Sap, note that using it on a PvP-flagged target flags you too."
+        }
+      },
+      {
+        "termino": "Sticking / slows",
+        "titulo": {
+          "es": "No dejar que se escapen",
+          "en": "Don't let them get away"
+        },
+        "texto": {
+          "es": "Lleva <b>Crippling Poison</b> en una de las armas contra quien huye: un 70 % más lento durante 12 s. Si te ralentizan a ti, <b>Sprint</b> con <b>Improved Sprint</b> quita las ralentizaciones al pulsarlo. Contra magos y cazadores, pégate a su espalda: si les dejas sitio, te frenan y se alejan. Contra un cuerpo a cuerpo, <b>Evasion</b> (y <b>Ghostly Strike</b> en Subtlety) te deja aguantar el intercambio.",
+          "en": "Run <b>Crippling Poison</b> on one weapon against runners: 70% slower for 12 sec. If you get slowed, <b>Sprint</b> with <b>Improved Sprint</b> removes the slow when you press it. Against mages and hunters, stick to their back: give them room and they'll slow you and get away. Against melee, <b>Evasion</b> (and <b>Ghostly Strike</b> as Subtlety) lets you win the trade."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Positioning",
+        "titulo": {
+          "es": "Siempre por la espalda",
+          "en": "Always from behind"
+        },
+        "texto": {
+          "es": "Por detrás el enemigo no puede parar ni bloquear tus golpes, y <b>Backstab</b>, <b>Ambush</b> y <b>Garrote</b> lo exigen. En grupo, colócate detrás del enemigo, nunca entre él y el tanque. Al subir solo, si un enemigo te mira y pega fuerte, <b>Gouge</b> y ponte detrás.",
+          "en": "From behind the enemy can't parry or block your attacks, and <b>Backstab</b>, <b>Ambush</b> and <b>Garrote</b> require it. In groups, stand behind the target, never between it and the tank. Solo leveling, if a hard hitter is facing you, <b>Gouge</b> and get behind it."
+        }
+      },
+      {
+        "termino": "Energy pooling",
+        "titulo": {
+          "es": "Guardar energía antes de gastar",
+          "en": "Pool energy before spending"
+        },
+        "texto": {
+          "es": "La energía sube igual de rápido aunque esté llena, así que tenerla al máximo es perderla. Antes de un momento clave (renovar <b>Slice and Dice</b>, abrir desde el sigilo o usar <b>Adrenaline Rush</b>) deja que suba, pero no pierdas tiempo con la barra a 100. Con 5 puntos de combo no uses un generador: gasta antes con un finalizador.",
+          "en": "Energy refills at the same rate whether full or not, so sitting at max wastes it. Before a key moment (refreshing <b>Slice and Dice</b>, opening from stealth or popping <b>Adrenaline Rush</b>) let it build, but don't sit at 100. At 5 combo points don't use a generator: spend with a finisher first."
+        }
+      },
+      {
+        "termino": "Threat / Feint",
+        "titulo": {
+          "es": "Controlar la amenaza",
+          "en": "Manage your threat"
+        },
+        "texto": {
+          "es": "Un pícaro con buen equipo le quita fácilmente el enemigo al tanque al principio de la pelea. Deja que el tanque pegue unos segundos antes de empezar y usa <b>Feint</b> (10 s de recarga) cada vez que puedas en jefes. Si el enemigo se gira hacia ti, <b>Evasion</b> te da tiempo mientras el tanque lo recupera; si va a morir alguien, <b>Vanish</b> quita la amenaza.",
+          "en": "A well-geared rogue easily pulls aggro off the tank early in a fight. Let the tank hit for a few seconds before you start and use <b>Feint</b> (10 sec cooldown) on cooldown on bosses. If the enemy turns to you, <b>Evasion</b> buys time while the tank takes it back; if someone is about to die, <b>Vanish</b> drops your threat."
+        }
+      },
+      {
+        "termino": "Crowd control (Sap pull)",
+        "titulo": {
+          "es": "Sap antes de empezar",
+          "en": "Sap before the pull"
+        },
+        "texto": {
+          "es": "En mazmorras, un humanoide con <b>Sap</b> está fuera durante 45 s y, en Forever, tú sigues en sigilo. Ponte de acuerdo con el grupo: tú haces Sap al que se marque y el tanque empieza con los demás. Si se despierta antes de tiempo, <b>Gouge</b> o <b>Blind</b> para ganar unos segundos.",
+          "en": "In dungeons, a <b>Sapped</b> humanoid is out for 45 sec and, in Forever, you stay in stealth. Agree with your group: you Sap the marked target and the tank pulls the rest. If it wakes early, <b>Gouge</b> or <b>Blind</b> buys a few seconds."
+        }
+      },
+      {
+        "termino": "Interrupt rotation",
+        "titulo": {
+          "es": "Turnos de Kick en grupo",
+          "en": "Kick rotation in groups"
+        },
+        "texto": {
+          "es": "Muchos enemigos de mazmorra curan o lanzan hechizos peligrosos. Pacta con el guerrero o con otro pícaro quién corta cada hechizo, para no gastar dos Kick en el mismo. Corta siempre las curas y los miedos; las bolas de daño pequeñas, si sobra.",
+          "en": "Plenty of dungeon enemies heal or cast dangerous spells. Agree with the warrior or another rogue who interrupts what, so you don't burn two Kicks on one cast. Always kick heals and fears; small damage spells only when spare."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Gira con el botón derecho del ratón y usa A/D para moverte de lado (strafe): así das la vuelta a un rival para ponerte a su espalda sin perder tiempo.",
+        "en": "Turn with the right mouse button and use A/D to strafe: it's how you circle a target to reach its back without wasting time."
+      },
+      {
+        "es": "Kick, Gouge, Kidney Shot, Blind y Vanish en teclas que pulses sin soltar WASD (1-5, Q, E, R, F o Shift+número). No los pongas donde tengas que mirar la barra.",
+        "en": "Put Kick, Gouge, Kidney Shot, Blind and Vanish on keys you can hit without leaving WASD (1-5, Q, E, R, F or Shift+number). Don't put them where you have to look at your bars."
+      },
+      {
+        "es": "Macro de foco para controlar a un segundo enemigo sin cambiar de objetivo: <i>/cast [@focus] Blind</i>. Forever admite macros de foco.",
+        "en": "Focus macro to control a second enemy without switching targets: <i>/cast [@focus] Blind</i>. Forever supports focus macros."
+      },
+      {
+        "es": "Sprint, Evasion y el vendaje, en Shift+tecla: son de emergencia y así no los gastas por error.",
+        "en": "Put Sprint, Evasion and your bandage on Shift+key: they are emergency buttons, and this way you won't waste them by accident."
+      }
+    ]
+  },
   "profesiones": [
     {"nombre": {"es": "Desuello + Peletería", "en": "Skinning + Leatherworking"}, "por_que": {"es": "Lo más cómodo para subir: cuero sin desviarte y armadura propia, con recetas renovadas. La silla de campamento de Desuello da +2 % de crítico.", "en": "The easiest for leveling: leather with no detours and your own armor, with reworked recipes. Skinning's camp chair gives +2% crit."}},
     {"nombre": {"es": "Ingeniería + Minería", "en": "Engineering + Mining"}, "por_que": {"es": "La pareja para JcJ y para exprimir el daño a nivel 60.", "en": "The pair for PvP and for squeezing out damage at level 60."}},
@@ -232,6 +399,11 @@
     {"nombre": "Method: guía de subir de nivel del pícaro", "url": "https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents"},
     {"nombre": "Warcraft Wiki: habilidades del pícaro en Forever", "url": "https://warcraft.wiki.gg/wiki/Rogue_abilities_(Forever)"},
     {"nombre": "wowtbc.gg: Assassination Rogue (Forever)", "url": "https://wowtbc.gg/warcraftforever/class-guides/assassination-rogue/"},
-    {"nombre": "Notas de la beta de Blizzard", "url": "https://news.blizzard.com/en-us/"}
+    {"nombre": "Notas de la beta de Blizzard", "url": "https://news.blizzard.com/en-us/"},
+    {"nombre": "Icy Veins: Combat para subir (Forever)", "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling"},
+    {"nombre": "Warcraft Wiki: stun lock (cadenas de Classic y TBC)", "url": "https://warcraft.wiki.gg/wiki/Stun_lock"},
+    {"nombre": "Warcraft Tavern: guías de JcJ del pícaro (TBC Classic)", "url": "https://www.warcrafttavern.com/tbc/guides/rogue-pvp-guides/"},
+    {"nombre": "Icy Veins: guía de JcJ del pícaro (WoW Classic Era)", "url": "https://www.icy-veins.com/wow-classic/classic-rogue-pvp-guide"},
+    {"nombre": "Warcraft Wiki: rendimientos decrecientes (todas las ediciones; tabla de Wrath Classic)", "url": "https://warcraft.wiki.gg/wiki/Diminishing_returns"}
   ]
 }

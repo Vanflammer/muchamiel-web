@@ -112,7 +112,7 @@ BRAND = '<img class="brand-face" src="https://static-cdn.jtvnw.net/jtv_user_pict
 BRAND_TXT = '<span><b>WoW Muchamiel</b></span>'
 
 # Páginas del juego completo (las genera comunidad_portal.forever_pages); (carpeta, texto del menú).
-FOREVER_PAGES = [('lanzamiento', 'Lanzamiento'), ('subir-nivel', 'Subir de nivel'), ('builds-60', 'Builds nivel 60'),
+FOREVER_PAGES = [('lanzamiento', 'Lanzamiento'), ('subir-nivel', 'Subir de nivel'), ('tecnicas', 'Técnicas de juego'), ('objetos', 'Abalorios y BiS'), ('builds-60', 'Builds nivel 60'),
                  ('mazmorras', 'Mazmorras'), ('profesiones', 'Profesiones'), ('legacy', 'Legacy'), ('pagar-menos', 'Cuánto cuesta jugar'), ('cambios', 'Notas del parche'), ('auras', 'Auras')]
 
 
@@ -163,7 +163,7 @@ def header(base, current, calc_query=''):
     # Van 15-10: «Cambios» (notas de la beta y Classic → Forever) también con enlace propio arriba.
     # Van 17-10: la Calculadora vuelve dentro del desplegable de WoW Forever (fuera descolocaba el menú).
     items = [('cambios', base + 'cambios/', 'Notas del parche'),
-             ('torneo', base + 'torneo/', 'Torneo 100.000 $'), ('noticias', base + 'noticias/', 'Noticias')]
+             ('noticias', base + 'noticias/', 'Noticias')]  # Van 30-10: fuera «Torneo 100.000 $» del menú (el torneo ya pasó; la página sigue)
     # Para que quepa todo, lo de Muchamiel va en su desplegable (Van pidió «Patrocinadores» en lugar de «Marcas»).
     mucha = [('muchamiel', base + 'muchamiel/', 'Quién es Muchamiel'), ('sorteos', base + 'sorteos/', 'Sorteos'), ('zona-subs', base + 'zona-subs/', '⭐ Zona de subs'),
              ('colaboraciones', base + 'colaboraciones/', 'Patrocinadores')]
@@ -196,7 +196,7 @@ def header(base, current, calc_query=''):
               ('r-banda', r + 'banda/', 'Banda'), ('r-subir-nivel', r + 'subir-nivel/', 'Subir de nivel'), ('r-profesiones', r + 'profesiones/', 'Profesiones'),
               ('r-addons', r + 'addons/', 'Addons')]
     nav += ('<div class="m-forever">' + calicon('calendario', base + 'calendario/') + menu_fly('WoW Forever', forever)  # Van 16-10: fuera «WoW Forever Beta»
-            + link(*items[0]) + '<i class="nav-br"></i>' + link(*items[1]) + link(*items[2]) + '</div>'  # Van 17-10: el Torneo es de Forever
+            + link(*items[0]) + '<i class="nav-br"></i>' + ''.join(link(*x) for x in items[1:]) + '</div>'  # Van 17-10: el Torneo es de Forever
             + '<div class="m-retail">' + calicon('r-calendario', r + 'calendario/') + menu('WoW Retail', retail) + link('r-notas', r + 'notas/', 'Notas del parche') + '<i class="nav-br"></i>' + link('r-noticias', r + 'noticias/', 'Noticias') + '</div>')
     # Van 17-10: lo de Muchamiel, fuera del desplegable (con la cabecera en dos filas hay sitio)
     nav += ''.join(link(*i) for i in items[3:]) + ''.join(('<i class="nav-br2"></i>' if k == 'sorteos' else '') + link(k, h, 'Muchamiel' if k == 'muchamiel' else l) for k, h, l in mucha)

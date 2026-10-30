@@ -993,6 +993,177 @@
       "en": "Berserk breaks fear and makes you immune to it for 15 sec: save it for warlocks and priests."
     }
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "Shapeshift snare break",
+        "titulo": {
+          "es": "Cambiar de forma para soltarte",
+          "en": "Shifting out of snares"
+        },
+        "texto": {
+          "es": "Cambiar de forma te libera de <b>Polymorph</b> y de todo lo que te frena o te inmoviliza: <b>Frost Nova</b>, <b>Hamstring</b>, <b>Wing Clip</b>, <b>Concussive Shot</b>, raíces. Si eres gato y te frenan, pasa a oso o a forma normal y vuelve; puedes ir de una forma a otra directamente. Cada cambio cuesta el 55 % del maná base (un 30 % menos con <b>Natural Shapeshifter</b>), así que no lo hagas por cada ralentización pequeña: guárdalo para escapar o para alcanzar a quien huye. No quita aturdimientos, miedos ni silencios. En Forever las formas son inmunes a <b>Disarm</b>, pero si te desarman antes de cambiar, sigues desarmado: entra en forma primero.",
+          "en": "Shapeshifting frees you from <b>Polymorph</b> and anything that slows or roots you: <b>Frost Nova</b>, <b>Hamstring</b>, <b>Wing Clip</b>, <b>Concussive Shot</b>, roots. If you're slowed in Cat Form, shift to bear or caster and back; you can go straight from one form to another. Each shift costs 55% of base mana (30% less with <b>Natural Shapeshifter</b>), so don't do it for every minor slow: save it to escape or to catch someone running. It doesn't remove stuns, fears or silences. In Forever forms are immune to <b>Disarm</b>, but if you get disarmed before shifting you stay disarmed, so shift first."
+        }
+      },
+      {
+        "termino": "Root kiting",
+        "titulo": {
+          "es": "Enraizar y alejarte",
+          "en": "Root kiting"
+        },
+        "texto": {
+          "es": "<b>Entangling Roots</b> (1,5 s, 30 metros) deja quieto a un enemigo; solo puedes tener uno enraizado a la vez y en Forever ya se puede usar en interiores. Enraíza al guerrero o al pícaro, aléjate más allá de su alcance y lanza <b>Moonfire</b> o <b>Wrath</b>, o cúrate. El daño puede soltar las raíces: si quieres que duren, no le pegues fuerte (<b>Improved Entangling Roots</b> aguanta un 75 % más de daño). <b>Nature's Grasp</b> antes de que llegue enraíza al primero que te golpee; en Forever se puede lanzar en forma y en interiores.",
+          "en": "<b>Entangling Roots</b> (1.5 sec cast, 30 yards) holds an enemy in place; you can only have one target rooted at a time, and in Forever it now works indoors. Root the warrior or rogue, get out of their reach and cast <b>Moonfire</b> or <b>Wrath</b>, or heal. Damage can break roots, so don't hit them hard if you want it to last (<b>Improved Entangling Roots</b> lets it take 75% more damage). Cast <b>Nature's Grasp</b> before they arrive to root the first one who hits you; in Forever you can cast it in forms and indoors."
+        }
+      },
+      {
+        "termino": "Heal-shift",
+        "titulo": {
+          "es": "Salir a curarte y volver",
+          "en": "Shifting out to heal"
+        },
+        "texto": {
+          "es": "Para curarte, primero crea espacio (<b>Entangling Roots</b>, <b>Bash</b>, <b>War Stomp</b> si eres tauren) y luego sal de forma. Ponte <b>Barkskin</b> (en cualquier forma; los golpes no te retrasan el lanzamiento), lanza <b>Regrowth</b> o <b>Rejuvenation</b> y vuelve a gato u oso. En una emergencia, <b>Nature's Swiftness</b> + <b>Healing Touch</b> es una cura grande al instante. Contra un pícaro, finta: empieza la cura, cancélala con un paso y lánzala cuando haya gastado <b>Kick</b>. En Forever, con <b>Furor</b>, al volver a gato recuperas la energía que tenías más la que se haya regenerado fuera de forma, así que salir a curarte no te deja sin energía.",
+          "en": "To heal, first make space (<b>Entangling Roots</b>, <b>Bash</b>, <b>War Stomp</b> as a tauren), then drop form. Pop <b>Barkskin</b> (usable in any form; hits won't push back your casts), cast <b>Regrowth</b> or <b>Rejuvenation</b> and shift back to cat or bear. In an emergency, <b>Nature's Swiftness</b> + <b>Healing Touch</b> is an instant big heal. Against a rogue, fake it: start the heal, cancel it with a step and cast it once they've used <b>Kick</b>. In Forever, with <b>Furor</b>, going back to Cat Form restores the energy you had plus what regenerated while you were out of form, so stepping out to heal doesn't leave you dry."
+        }
+      },
+      {
+        "termino": "Stealth opener",
+        "titulo": {
+          "es": "Abrir desde el sigilo",
+          "en": "Opening from stealth"
+        },
+        "texto": {
+          "es": "Con <b>Prowl</b> vas un 30 % más lento, así que acércate por detrás y sin prisa. Abre con <b>Pounce</b> (aturde 2 s, 3 con <b>Brutal Impact</b>) para encadenar golpes sin respuesta, o con <b>Ravage</b> si quieres el golpe más fuerte. En Forever, <b>Feral Charge</b> en gato te deja saltar a la espalda del enemigo (8-25 metros, 30 s): sirve para colocarte detrás y usar <b>Shred</b>, o para huir de un salto. Contra pícaros y druidas en sigilo, <b>Faerie Fire</b> les impide esconderse; en forma es gratis.",
+          "en": "<b>Prowl</b> slows you by 30%, so approach from behind and take your time. Open with <b>Pounce</b> (2 sec stun, 3 with <b>Brutal Impact</b>) to chain hits with no response, or <b>Ravage</b> for the biggest hit. In Forever <b>Feral Charge</b> in Cat Form leaps you behind the target (8-25 yards, 30 sec): use it to get behind for <b>Shred</b> or to jump away. Against stealthed rogues and druids, <b>Faerie Fire</b> stops them from hiding; in forms it's free."
+        }
+      },
+      {
+        "termino": "Interrupt (Feral Charge / Bash)",
+        "titulo": {
+          "es": "Cortar como oso",
+          "en": "Interrupting as a bear"
+        },
+        "texto": {
+          "es": "El druida no tiene un corte rápido en gato. En oso, <b>Feral Charge</b> (8-25 metros, 15 s) carga contra el enemigo, lo inmoviliza y le corta el hechizo 4 s, y <b>Bash</b> lo aturde 4 s cuerpo a cuerpo (1 minuto de reutilización, 30 s con <b>Brutal Impact</b>). Contra un sanador que va a lanzar una cura grande, pasa a oso, carga y vuelve a gato después. Recuerda que cada cambio de forma cuesta maná: planifícalo.",
+          "en": "Druids have no quick interrupt in Cat Form. As a bear, <b>Feral Charge</b> (8-25 yards, 15 sec) charges the target, roots them and interrupts their cast for 4 sec, and <b>Bash</b> stuns for 4 sec in melee (1 minute cooldown, 30 sec with <b>Brutal Impact</b>). When a healer is about to land a big heal, shift to bear, charge, then go back to cat. Every shift costs mana, so plan it."
+        }
+      },
+      {
+        "termino": "Flag carrying (FC)",
+        "titulo": {
+          "es": "Llevar la bandera",
+          "en": "Carrying the flag"
+        },
+        "texto": {
+          "es": "En campos de batalla con bandera, el druida es el mejor portador. Fuera, <b>Travel Form</b> (+40 %); en gato, <b>Dash</b> (+60 % durante 15 s, 5 min) y <b>Feral Swiftness</b>. Cada vez que te frenen, cambia de forma. Si te alcanzan, pasa a oso (<b>Dire Bear Form</b> da mucha vida y armadura), usa <b>Barkskin</b> y <b>Frenzied Regeneration</b>, y bebe pociones sin salir de forma (en Forever se puede). Pasa por detrás de muros y columnas para que los lanzadores te pierdan de vista y cúrate allí.",
+          "en": "In capture-the-flag battlegrounds, the druid is the best flag carrier. Outdoors, <b>Travel Form</b> (+40%); in Cat Form, <b>Dash</b> (+60% for 15 sec, 5 min cooldown) and <b>Feral Swiftness</b>. Every time you're slowed, shift. If they catch you, go bear (<b>Dire Bear Form</b> gives a lot of health and armor), use <b>Barkskin</b> and <b>Frenzied Regeneration</b>, and drink potions without leaving form (allowed in Forever). Run behind walls and pillars so casters lose sight of you, and heal there."
+        }
+      },
+      {
+        "termino": "Bear defensive / fear immunity",
+        "titulo": {
+          "es": "Aguantar como oso",
+          "en": "Turtling in bear form"
+        },
+        "texto": {
+          "es": "Cuando te concentran varios, pasar a oso es tu defensa: mucha más armadura y vida. <b>Frenzied Regeneration</b> convierte la ira en vida y <b>Barkskin</b> quita un 20 % del daño físico durante 15 s. <b>Berserk</b> (talento final de Feral) te quita el miedo y te protege de él durante 15 s: guárdalo para brujos y sacerdotes en vez de gastarlo nada más empezar. Si eres tauren, <b>War Stomp</b> funciona en forma y aturde a todos los que tengas cerca.",
+          "en": "When several players focus you, bear form is your defense: much more armor and health. <b>Frenzied Regeneration</b> turns rage into health and <b>Barkskin</b> cuts physical damage by 20% for 15 sec. <b>Berserk</b> (Feral's final talent) removes fear and makes you immune to it for 15 sec: save it for warlocks and priests instead of using it on the opener. As a tauren, <b>War Stomp</b> works in forms and stuns everyone close to you."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Powershifting (Shifting Power)",
+        "titulo": {
+          "es": "El powershifting de Forever",
+          "en": "Powershifting in Forever"
+        },
+        "texto": {
+          "es": "En Classic, el gato salía y volvía a entrar en forma para recibir energía gratis gracias a <b>Furor</b> (powershifting). En Forever eso ya no da energía: <b>Furor</b> solo te devuelve la que tenías. Su sustituto es <b>Shifting Power</b>: convierte maná en 40 de energía sin salir de forma (16 s de reutilización, 8 con <b>Improved Shifting Power</b>; cuesta lo mismo que entrar en gato). Úsalo cuando bajes de unos 50 de energía, nunca con la energía llena (no deja). Bebe pociones de maná y <b>Thistle Tea</b> sin salir de forma para alargarlo.",
+          "en": "In Classic, cats dropped and re-entered Cat Form to get free energy from <b>Furor</b> (powershifting). In Forever that no longer gives energy: <b>Furor</b> only restores what you had. Its replacement is <b>Shifting Power</b>: it turns mana into 40 energy without leaving form (16 sec cooldown, 8 with <b>Improved Shifting Power</b>; it costs the same as entering Cat Form). Use it when you drop below about 50 energy, never at full (it won't let you). Drink mana potions and <b>Thistle Tea</b> without leaving form to keep it going."
+        }
+      },
+      {
+        "termino": "Positioning / Clearcasting",
+        "titulo": {
+          "es": "Detrás del jefe y Clearcasting",
+          "en": "Behind the boss, spending Clearcasting"
+        },
+        "texto": {
+          "es": "Como gato, ponte siempre detrás del jefe: <b>Shred</b> solo funciona desde la espalda y así evitas sus golpes de frente. En Forever <b>Omen of Clarity</b> es de base: cuando salga Clearcasting, gástalo en la habilidad más cara, normalmente <b>Shred</b>. Mantén <b>Rake</b> y <b>Rip</b> puestos para <b>Rend and Tear</b> y no renueves <b>Rip</b> antes de que acabe.",
+          "en": "As a cat, always stand behind the boss: <b>Shred</b> only works from behind, and you dodge frontal attacks. In Forever <b>Omen of Clarity</b> is baseline: when Clearcasting procs, spend it on your most expensive ability, usually <b>Shred</b>. Keep <b>Rake</b> and <b>Rip</b> up for <b>Rend and Tear</b>, and don't refresh <b>Rip</b> before it runs out."
+        }
+      },
+      {
+        "termino": "Threat (bear tanking)",
+        "titulo": {
+          "es": "Amenaza como oso",
+          "en": "Bear tanking threat"
+        },
+        "texto": {
+          "es": "En Forever el oso genera un 50 % más de amenaza y gana el doble de ira con los críticos. Abre con <b>Faerie Fire</b> (ahora genera amenaza en oso), luego <b>Primal Bite</b> cada vez que esté lista y <b>Lacerate</b> hasta 5 acumulaciones. Contra varios, <b>Swipe</b> (3 objetivos) y, en grupos grandes, <b>Berserk</b> hace que <b>Primal Bite</b> golpee a 3. <b>Maul</b> sustituye a tu golpe normal y ese golpe ya no da ira: úsalo solo con ira de sobra. Gira al jefe para que mire lejos del grupo; <b>Growl</b> (8 s) para recuperar a uno y <b>Challenging Roar</b> si se escapan varios.",
+          "en": "In Forever bear forms generate 50% more threat and get double rage from crits. Open with <b>Faerie Fire</b> (it now generates threat in bear), then <b>Primal Bite</b> on cooldown and <b>Lacerate</b> up to 5 stacks. On packs, <b>Swipe</b> (3 targets), and on big pulls <b>Berserk</b> makes <b>Primal Bite</b> hit 3. <b>Maul</b> replaces your next white hit and that hit no longer gives rage, so only use it with spare rage. Turn the boss to face away from the group; <b>Growl</b> (8 sec) to pick one back up and <b>Challenging Roar</b> if several get loose."
+        }
+      },
+      {
+        "termino": "Threat drop / off-shift utility",
+        "titulo": {
+          "es": "Bajar amenaza y salir a ayudar",
+          "en": "Dropping threat and shifting out to help"
+        },
+        "texto": {
+          "es": "Como gato, si te acercas a la amenaza del tanque, <b>Cower</b> (10 s) te quita mucha amenaza sin dejar de pegar. Si el grupo necesita <b>Rebirth</b> o <b>Innervate</b>, sal de forma y lánzalos: con <b>Furor</b>, en Forever conservas la energía al volver a gato e incluso la recuperas mientras estás fuera (salvo en oso, donde no se regenera). Ya no hay excusa para no ayudar.",
+          "en": "As a cat, if you're getting close to the tank's threat, <b>Cower</b> (10 sec) drops a large chunk of threat without stopping your damage. If the group needs <b>Rebirth</b> or <b>Innervate</b>, drop form and cast them: with <b>Furor</b>, in Forever you keep your energy when you go back to cat and even regenerate it while out of form (except in bear, where it doesn't regenerate). No excuse not to help."
+        }
+      },
+      {
+        "termino": "HoT rolling (Restoration)",
+        "titulo": {
+          "es": "Curas en el tiempo por delante",
+          "en": "Rolling HoTs ahead of damage"
+        },
+        "texto": {
+          "es": "Como sanador, cura antes de que haga falta: <b>Rejuvenation</b> en el tanque justo antes de atraer y en quien vaya a recibir daño. No la renueves antes de que acabe. En Forever las curas en el tiempo de varios druidas se acumulan y pueden hacer crítico, y <b>Swiftmend</b> ya no gasta la <b>Rejuvenation</b> o el <b>Regrowth</b>: úsalo cada 15 s como cura rápida sin perder ese efecto. <b>Wild Growth</b> cuando varios pierdan vida y <b>Nature's Swiftness</b> + <b>Healing Touch</b> para salvar a alguien. <b>Reflection</b> mantiene el 50 % de tu regeneración de maná mientras lanzas.",
+          "en": "As a healer, heal before it's needed: <b>Rejuvenation</b> on the tank right before the pull and on whoever is about to take damage. Don't refresh it early. In Forever HoTs from several druids stack and can crit, and <b>Swiftmend</b> no longer eats the <b>Rejuvenation</b> or <b>Regrowth</b>: use it every 15 sec as a quick burst heal. <b>Wild Growth</b> when several people are hurt, and <b>Nature's Swiftness</b> + <b>Healing Touch</b> to save someone. <b>Reflection</b> keeps 50% of your mana regen going while you cast."
+        }
+      },
+      {
+        "termino": "Eclipse / casting on the move (Balance)",
+        "titulo": {
+          "es": "Ritmo de Eclipse y moverte",
+          "en": "Eclipse rhythm and moving"
+        },
+        "texto": {
+          "es": "En Balance, un <b>Wrath</b> carga <b>Eclipse</b> y acelera los dos <b>Starfire</b> siguientes: alterna así. Gasta Clearcasting en <b>Starfire</b> (<b>Wrath</b> no lo consume). Cuando tengas que moverte, aprovecha para renovar <b>Moonfire</b> e <b>Insect Swarm</b>, que son instantáneos, en vez de quedarte quieto en mal sitio.",
+          "en": "As Balance, one <b>Wrath</b> charges <b>Eclipse</b> and speeds up your next two <b>Starfire</b> casts: alternate like that. Spend Clearcasting on <b>Starfire</b> (<b>Wrath</b> doesn't consume it). When you have to move, use the time to refresh <b>Moonfire</b> and <b>Insect Swarm</b>, which are instant, instead of standing in a bad spot."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Pon las formas en teclas fijas y fáciles (la barra de formas o Mayús+1…). Con la macro <i>/cast !Cat Form</i> (y lo mismo con <b>Dire Bear Form</b>), pulsar dos veces no te saca de la forma por error.",
+        "en": "Put your forms on fixed, easy keys (the stance bar or Shift+1...). With the macro <i>/cast !Cat Form</i> (same for <b>Dire Bear Form</b>), pressing it twice won't drop you out of form by accident."
+      },
+      {
+        "es": "Activa la Personal Resource Display en las opciones de combate para ver tu maná aunque estés en forma: decide cuántos cambios de forma o <b>Shifting Power</b> te quedan.",
+        "en": "Turn on the Personal Resource Display in the combat options to see your mana while shifted, so you know how many shifts or <b>Shifting Power</b> casts you have left."
+      },
+      {
+        "es": "Macros de ratón encima para curar sin cambiar de objetivo al salir de forma: <i>/cast [@mouseover,help,nodead][] Rejuvenation</i>. Igual con <b>Regrowth</b> y <b>Remove Curse</b>.",
+        "en": "Mouseover macros let you heal without changing target when you drop form: <i>/cast [@mouseover,help,nodead][] Rejuvenation</i>. Same for <b>Regrowth</b> and <b>Remove Curse</b>."
+      },
+      {
+        "es": "El Cooldown Manager de Forever ya funciona con el druida: pon a la vista <b>Berserk</b>, <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b> y <b>Bash</b>.",
+        "en": "Forever's Cooldown Manager already supports druids: keep <b>Berserk</b>, <b>Barkskin</b>, <b>Nature's Grasp</b>, <b>Shifting Power</b> and <b>Bash</b> in view."
+      },
+      {
+        "es": "Gira con el ratón (botón derecho) y muévete de lado con las teclas de strafe: en gato, para ponerte detrás del enemigo; con la bandera, para no dar la espalda a quien te persigue.",
+        "en": "Turn with the mouse (right button) and move with the strafe keys: in Cat Form to get behind the target; carrying the flag, to never turn your back on your chaser."
+      }
+    ]
+  },
   "profesiones": [
     {
       "nombre": {
@@ -1087,6 +1258,26 @@
     {
       "nombre": "wow.gg: Feral en la beta",
       "url": "https://wow.gg/guides/wow-forever-feral-druid-beta"
+    },
+    {
+      "nombre": "Icy Veins: subir de nivel con druida Feral (WoW Forever)",
+      "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling"
+    },
+    {
+      "nombre": "Warcraft Tavern: vuelve el powershifting (WoW Forever)",
+      "url": "https://www.warcrafttavern.com/forever/news/powershifting-is-back-sort-of-hunter-druid-deep-dive-for-wow-forever/"
+    },
+    {
+      "nombre": "Warcraft Tavern: powershifting en Feral (WoW Classic Era)",
+      "url": "https://www.warcrafttavern.com/wow-classic/guides/feral-druid-dps-powershifting-rotation/"
+    },
+    {
+      "nombre": "Icy Veins: guía de JcJ del druida (WoW Classic Era)",
+      "url": "https://www.icy-veins.com/wow-classic/classic-druid-pvp-guide"
+    },
+    {
+      "nombre": "Foros de Blizzard: trucos de Feral en JcJ (WoW Classic Era)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/feral-druid-pvp-tips-tricks/173701"
     }
   ]
 }

@@ -83,3 +83,28 @@ Tamaños orientativos: `habilidades` 15-30 entradas (las clave del 1 al 60, toda
 `materiales` = dónde). Si Forever cambia el tope o los rangos, manda Forever (y si no se sabe, `pendiente`).
 
 Antes de terminar: `python -c "import json;json.load(open('RUTA',encoding='utf-8'))"` tiene que pasar.
+
+## Clase: apartado «Cómo se juega» (`"tecnicas"`, añadido el 30-10)
+Lo que no dicen los talentos: cómo se juega con las manos. Cada técnica con su **nombre técnico en inglés** (el que usan los jugadores
+expertos y las guías: kiting, strafing, swing timer, stutter-step, jump-turn / jump shot, line of sight (LoS), pillar humping, juke,
+interrupt, CC chain, diminishing returns, spell pushback, dead zone, pet control, threat, positioning…) y explicada en castellano con
+los botones y habilidades concretas de la clase en Forever (nombres de habilidad en inglés). Solo lo que funciona en Forever
+(si una mecánica depende de algo que Forever cambió, dilo; si no se sabe, no la pongas).
+```json
+"tecnicas": {
+  "pvp": [{"termino": "Hamstring kiting / stutter-step", "titulo": {"es": "Pegar y salir con el arma lenta", "en": "Hit and step out with a slow weapon"},
+           "texto": {"es": "Cómo se hace, paso a paso, y cuándo sirve (3-6 frases).", "en": "..."}}],
+  "pve": [{"termino": "Positioning", "titulo": {"es": "...", "en": "..."}, "texto": {"es": "...", "en": "..."}}],
+  "teclas": [{"es": "Consejo de teclas o macros para hacerlo cómodo (ej.: girar con el ratón, no con el teclado).", "en": "..."}]
+}
+```
+5-8 en `pvp`, 4-6 en `pve`, 3-5 en `teclas`. Más detalle que una lista: que alguien que no sabe lo pueda hacer leyendo.
+
+## Glosario general: `guias/tecnicas.json`
+```json
+{"actualizado": "2026-10-30", "intro": {"es": "...", "en": "..."},
+ "grupos": [{"titulo": {"es": "Moverse (kiting)", "en": "Movement (kiting)"},
+             "items": [{"termino": "Strafe kiting", "alias": {"es": "Correr de lado", "en": "Strafing"},
+                        "texto": {"es": "Qué es, cómo se hace (teclas), para qué clases.", "en": "..."}, "clases": ["mage", "hunter"]}]}],
+ "fuentes": [{"nombre": "...", "url": "https://..."}]}
+```

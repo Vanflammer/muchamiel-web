@@ -221,6 +221,162 @@
     {"es": "En campos de batalla, Marksmanship con Sniper Shot llega a 45 metros y sube el alcance de los disparos siguientes; desde un sitio alto es muy molesto.", "en": "In battlegrounds, Marksmanship with Sniper Shot reaches 45 yards and extends your next shots; from high ground it is a real pain."},
     {"es": "Ingeniería suma granadas y artilugios que deciden duelos.", "en": "Engineering adds grenades and gadgets that decide duels."}
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "Strafe kiting",
+        "titulo": {
+          "es": "Correr de lado sin dejar de disparar",
+          "en": "Run sideways and keep shooting"
+        },
+        "texto": {
+          "es": "Es la base de todas las clases a distancia (en algunos directos lo llaman «la L»). Abre desde lejos con el disparo largo: <b>Aimed Shot</b> (2 s) o, en Marksmanship, <b>Sniper Shot</b> desde 45 metros. Cuando el rival se acerque, frénalo con <b>Concussive Shot</b> y aléjate <b>de lado</b> con las teclas de desplazamiento lateral (strafe), no hacia atrás: de lado corres a velocidad normal y caminar de espaldas es mucho más lento. Gira la cámara con el ratón para que el rival quede en tu mitad delantera: así puedes seguir lanzando instantáneos (<b>Arcane Shot</b>, las picaduras, <b>Summon Hawk</b>) mientras corres. Cuando vuelvas a tener distancia, para y dispara otra vez.",
+          "en": "This is the core of every ranged class (some streams call it «the L»). Open from range with your long shot: <b>Aimed Shot</b> (2 sec) or, as Marksmanship, <b>Sniper Shot</b> from 45 yards. When they close in, slow them with <b>Concussive Shot</b> and move away <b>sideways</b> with the strafe keys, not backwards: strafing keeps your full run speed, while backpedaling is far slower. Turn the camera with the mouse so the enemy stays in your front half, and you can keep firing instants (<b>Arcane Shot</b>, stings, <b>Summon Hawk</b>) on the move. Once you have range again, stop and shoot."
+        }
+      },
+      {
+        "termino": "Jump shot / jump-turn",
+        "titulo": {
+          "es": "Disparar en pleno salto",
+          "en": "Shoot mid-jump"
+        },
+        "texto": {
+          "es": "Sirve cuando el rival te persigue justo detrás y no está en tu mitad delantera. Mientras huyes: salta, gira 180° en el aire con el botón derecho del ratón, lanza un instantáneo (<b>Concussive Shot</b> o <b>Arcane Shot</b>) y vuelve a girar antes de tocar el suelo. El salto conserva el impulso, así que no pierdes distancia. En Forever solo vale con instantáneos: <b>Auto Shot</b> necesita medio segundo quieto, así que en el aire no dispara. Practícalo contra un muñeco de entrenamiento hasta que el giro salga solo.",
+          "en": "Use it when the enemy is right behind you and outside your front half. While running away: jump, spin 180° in the air with the right mouse button, fire an instant (<b>Concussive Shot</b> or <b>Arcane Shot</b>) and turn back before you land. A jump keeps its momentum, so you lose no ground. In Forever it only works with instants: <b>Auto Shot</b> needs half a second standing still, so it never fires mid-air. Drill it on a training dummy until the turn feels automatic."
+        }
+      },
+      {
+        "termino": "Dead zone",
+        "titulo": {
+          "es": "Salir de la zona muerta",
+          "en": "Get out of the dead zone"
+        },
+        "texto": {
+          "es": "Entre el alcance de melé y los 8 metros no funciona ningún disparo: es la zona muerta, y un guerrero o un pícaro que se queda ahí te deja sin daño. Si te alcanzan: <b>Wing Clip</b> (frena un 50 % 10 s), unos pasos de lado y <b>Concussive Shot</b> en cuanto pases de 8 metros. En Survival, <b>Improved Wing Clip</b> a veces lo deja enraizado y <b>Strider Kick</b> te da un 30 % de velocidad 3 s para salir. Activa en Opciones «Auto Attack/Auto Shot» y el juego cambia solo entre golpe y disparo según la distancia.",
+          "en": "Between melee range and 8 yards no shot works: that is the dead zone, and a warrior or rogue who stays there shuts down your damage. When they reach you: <b>Wing Clip</b> (50% slow for 10 sec), a few strafe steps and <b>Concussive Shot</b> as soon as you pass 8 yards. As Survival, <b>Improved Wing Clip</b> can root them and <b>Strider Kick</b> gives you 30% speed for 3 sec to get out. Turn on «Auto Attack/Auto Shot» in Options and the game swaps between melee and shooting by itself."
+        }
+      },
+      {
+        "termino": "Stutter-step (Auto Shot)",
+        "titulo": {
+          "es": "Parar, disparar, moverse",
+          "en": "Stop, shoot, move"
+        },
+        "texto": {
+          "es": "Desde el 15 de octubre, <b>Auto Shot</b> solo sale si llevas medio segundo quieto, como en el WoW original. Mientras haces kiting, el ritmo es: paras, sale el disparo, te mueves de lado hasta el siguiente, vuelves a parar. Si te mueves sin parar no sale ningún <b>Auto Shot</b> y pierdes gran parte del daño. Truco propio de Forever: <b>Auto Shot</b> sigue disparando mientras lanzas <b>Aimed Shot</b> o <b>Sniper Shot</b>, así que el lanzamiento largo no te cuesta disparos.",
+          "en": "Since 15 October, <b>Auto Shot</b> only fires after half a second standing still, as in original WoW. While kiting the rhythm is: stop, the shot goes off, strafe until the next one, stop again. If you never stop, no <b>Auto Shot</b> fires and you lose much of your damage. A Forever bonus: <b>Auto Shot</b> keeps firing while you cast <b>Aimed Shot</b> or <b>Sniper Shot</b>, so long casts cost you no shots."
+        }
+      },
+      {
+        "termino": "Trap kiting",
+        "titulo": {
+          "es": "Trampas en mitad del combate",
+          "en": "Traps mid-fight"
+        },
+        "texto": {
+          "es": "En Forever las trampas se ponen en combate y puedes tener una de hielo y una de fuego a la vez. Huyendo, deja <b>Frost Trap</b> a tus pies y corre en línea recta: el rival la pisa y queda frenado un 60 % en todo el hielo. Contra un rival que te persigue, <b>Freezing Trap</b> a tus pies lo congela al llegar (cualquier daño la rompe). Combo de Marksmanship: <b>Scatter Shot</b> (4 s de desorientación, tu disparo la rompe si vuelves a pegar) y pones la trampa entre los dos para que la pise al despertar. Con <b>Entrapment</b> (Survival) quedan además enraizados 5 s.",
+          "en": "In Forever traps can be placed in combat, and you can have one frost and one fire trap out at once. While running, drop <b>Frost Trap</b> at your feet and run straight: the enemy steps on it and is slowed by 60% across the whole ice patch. Against a chaser, <b>Freezing Trap</b> at your feet freezes them on arrival (any damage breaks it). Marksmanship combo: <b>Scatter Shot</b> (4 sec disorient, your next hit breaks it), then place the trap between you so they walk into it when it ends. With <b>Entrapment</b> (Survival) they are also rooted for 5 sec."
+        }
+      },
+      {
+        "termino": "Feign Death (target drop)",
+        "titulo": {
+          "es": "Hacerse el muerto para soltar al rival",
+          "en": "Feign Death to shed your attacker"
+        },
+        "texto": {
+          "es": "<b>Feign Death</b> hace que quien te ataca pierda tu objetivo y corta muchos lanzamientos que iban hacia ti. Úsalo en el momento justo: cuando un mago o un brujo está terminando un hechizo largo, o para que un pícaro tenga que volver a buscarte. En Classic se usaba sobre todo para salir de combate y poder poner trampas; en Forever ya no hace falta, porque las trampas van en combate. Ojo: no siempre funciona y, si lo dejas 6 minutos, mueres de verdad.",
+          "en": "<b>Feign Death</b> makes your attacker lose you as a target and cancels many spells aimed at you. Time it: as a mage or warlock finishes a long cast, or to make a rogue find you again. In Classic it was mostly used to drop combat so you could lay traps; in Forever you no longer need that, since traps work in combat. Careful: it can fail, and if you leave it on for 6 minutes you really die."
+        }
+      },
+      {
+        "termino": "Pet control / peel",
+        "titulo": {
+          "es": "La mascota como defensa",
+          "en": "Your pet as a peel"
+        },
+        "texto": {
+          "es": "La mascota no es solo daño: es tu primer control. Cuando un cuerpo a cuerpo vaya a por ti, mándasela con <b>/petattack</b>. En Beast Mastery, <b>Intimidation</b> hace que su siguiente golpe aturda 3 s: es el momento de alejarte. Un ave rapaz con <b>Mine!</b> desarma 3 s a guerreros y pícaros. Antes de usar <b>Freezing Trap</b> o <b>Scatter Shot</b>, retira la mascota (<b>/petfollow</b>) o romperá el control. Contra un brujo o un cazador, a veces conviene matar primero su mascota.",
+          "en": "Your pet is not just damage: it is your first line of control. When a melee goes for you, send it in with <b>/petattack</b>. As Beast Mastery, <b>Intimidation</b> makes its next hit stun for 3 sec: that is your window to run. A bird of prey with <b>Mine!</b> disarms warriors and rogues for 3 sec. Before <b>Freezing Trap</b> or <b>Scatter Shot</b>, pull your pet back (<b>/petfollow</b>) or it will break the control. Against a warlock or hunter, killing their pet first is often right."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Threat (pet tanking)",
+        "titulo": {
+          "es": "Dejar que la mascota tome la atención",
+          "en": "Let the pet build threat"
+        },
+        "texto": {
+          "es": "Manda la mascota primero y espera dos o tres golpes antes de disparar, o el enemigo irá a por ti. Si te quita la atención igualmente, <b>Disengage</b> (en Forever quita el doble de amenaza que en Classic) y vuelve a la mascota. En grupos de varios enemigos, la mascota no aguanta la atención de todos: <b>Multi-Shot</b> y <b>Volley</b> solo cuando ya los tenga.",
+          "en": "Send the pet in first and wait two or three hits before shooting, or the mob turns on you. If it still switches to you, <b>Disengage</b> (it drops twice as much threat as in Classic) and let the pet take it back. On packs, the pet cannot hold everything: only use <b>Multi-Shot</b> and <b>Volley</b> once it has them."
+        }
+      },
+      {
+        "termino": "Kiting",
+        "titulo": {
+          "es": "Hacer kiting a un enemigo",
+          "en": "Kiting a single mob"
+        },
+        "texto": {
+          "es": "Sin mascota (o si muere), el kiting te salva: <b>Concussive Shot</b>, un par de disparos, y cuando se acerque <b>Frost Trap</b> a tus pies y te alejas de lado. Si llega al cuerpo a cuerpo, <b>Wing Clip</b> y sales de la zona muerta. En mazmorras sirve para alejar a un enemigo que no se puede controlar mientras el tanque se ocupa del resto.",
+          "en": "Without a pet (or when it dies), kiting saves you: <b>Concussive Shot</b>, a couple of shots, and when it closes in, <b>Frost Trap</b> at your feet and strafe away. If it reaches melee, <b>Wing Clip</b> and step out of the dead zone. In dungeons it lets you keep an uncontrollable mob busy while the tank handles the rest."
+        }
+      },
+      {
+        "termino": "Feign Death (threat drop)",
+        "titulo": {
+          "es": "Hacerse el muerto para salvarse",
+          "en": "Feign Death to drop threat"
+        },
+        "texto": {
+          "es": "En mazmorras, <b>Feign Death</b> borra tu amenaza: úsalo si un enemigo se gira hacia ti y luego sigue disparando. Al subir de nivel, si la mascota muere y no puedes acabar el combate, hazte el muerto para salir de él, revívela y vuelve. Si el grupo va a caer, puedes quedarte con vida y revivir a los demás después.",
+          "en": "In dungeons, <b>Feign Death</b> wipes your threat: use it if a mob turns on you, then keep shooting. While leveling, if your pet dies and you cannot finish the fight, feign to leave combat, revive the pet and try again. If the group is about to wipe, you can survive and help everyone back up."
+        }
+      },
+      {
+        "termino": "Crowd control (trap)",
+        "titulo": {
+          "es": "Controlar con trampas en grupo",
+          "en": "Trap control in groups"
+        },
+        "texto": {
+          "es": "<b>Freezing Trap</b> es tu control en mazmorras. En Forever se pone en combate: déjala donde vaya a pasar el enemigo que te toca o a tus pies si viene hacia ti. Que nadie le haga daño: cualquier golpe rompe el hielo. Con <b>Clever Traps</b> (Survival) dura un 30 % más.",
+          "en": "<b>Freezing Trap</b> is your dungeon crowd control. In Forever it works in combat: drop it where your assigned mob will walk, or at your feet if it comes for you. Nobody should hit it: any damage breaks the ice. <b>Clever Traps</b> (Survival) makes it last 30% longer."
+        }
+      },
+      {
+        "termino": "Auto Shot weaving",
+        "titulo": {
+          "es": "No cortar el Auto Shot",
+          "en": "Don't cut your Auto Shot"
+        },
+        "texto": {
+          "es": "En banda o mazmorra, quédate quieto: cada vez que te mueves, <b>Auto Shot</b> espera medio segundo más. En Forever <b>Aimed Shot</b> ya no lo corta (sigue disparando mientras lanzas), así que lánzalo cada vez que esté listo; <b>Arcane Shot</b> y las picaduras van entre medias.",
+          "en": "In raids and dungeons, stand still: every time you move, <b>Auto Shot</b> waits another half second. In Forever <b>Aimed Shot</b> no longer interrupts it (you keep shooting while casting), so cast it on cooldown and fit <b>Arcane Shot</b> and stings in between."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Mueve el personaje con W y S y pon el desplazamiento lateral (strafe) en A y D; gira siempre con el botón derecho del ratón, no con el teclado: es mucho más rápido y lo necesitas para el jump shot.",
+        "en": "Move with W and S, put strafe on A and D, and always turn with the right mouse button, not the keyboard: it is much faster and you need it for the jump shot."
+      },
+      {
+        "es": "Pon los instantáneos y las trampas en teclas cerca de WASD (1-5, Q, E, R, F, Mayús + número) para usarlos sin dejar de moverte.",
+        "en": "Bind your instants and traps close to WASD (1-5, Q, E, R, F, Shift + number) so you can use them without stopping."
+      },
+      {
+        "es": "Macros de mascota: una tecla con <b>/petattack</b> y otra con <b>/petfollow</b> y <b>/petpassive</b> para retirarla antes de un control. En Forever el modo agresivo está en la pestaña de mascota del libro de hechizos.",
+        "en": "Pet macros: one key with <b>/petattack</b> and another with <b>/petfollow</b> plus <b>/petpassive</b> to pull it back before a crowd control. In Forever, Aggressive mode lives in the pet tab of your spellbook."
+      },
+      {
+        "es": "Activa en Opciones «Auto Attack/Auto Shot» para que el juego cambie solo entre golpe y disparo (funciona también con mando).",
+        "en": "Turn on «Auto Attack/Auto Shot» in Options so the game switches between melee and shooting for you (it also works on gamepad)."
+      }
+    ]
+  },
   "profesiones": [
     {"nombre": {"es": "Peletería", "en": "Leatherworking"}, "por_que": {"es": "Equipo de cuero con mucha Agilidad desde nivel bajo, kits de armadura y bolsas especiales. Con Desuello te cuesta casi nada.", "en": "High-Agility leather gear from low level, armor kits and special bags. Paired with Skinning it costs you next to nothing."}},
     {"nombre": {"es": "Desuello", "en": "Skinning"}, "por_que": {"es": "Ya matas bestias todo el rato: despellejarlas da dinero para la montura y materiales para la Peletería.", "en": "You kill beasts all the time anyway: skinning them pays for your mount and feeds Leatherworking."}},
@@ -246,6 +402,11 @@
     {"nombre": "Seemeta: familias de mascotas y dieta", "url": "https://seemeta.com/en/wow-forever/pets"},
     {"nombre": "Icy Veins: Beast Mastery para subir", "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling"},
     {"nombre": "wowtbc.gg: Survival en Forever", "url": "https://wowtbc.gg/warcraftforever/class-guides/survival-hunter/"},
-    {"nombre": "Kami Labs: resumen del vídeo de Blizzard de cazador y druida", "url": "https://kami-labs.fr/en/wow-forever/chasseur-druide-wow-forever-deep-dive/"}
+    {"nombre": "Kami Labs: resumen del vídeo de Blizzard de cazador y druida", "url": "https://kami-labs.fr/en/wow-forever/chasseur-druide-wow-forever-deep-dive/"},
+    {"nombre": "Warcraft Wiki: kiting y jump-kiting (todas las ediciones)", "url": "https://warcraft.wiki.gg/wiki/Kiting"},
+    {"nombre": "Warcraft Tavern: macros y trucos del cazador (WoW Classic Era)", "url": "https://warcrafttavern.com/wow-classic/guides/hunter-macros-tips"},
+    {"nombre": "Icy Veins: guía de JcJ del cazador (WoW Classic Era)", "url": "https://icy-veins.com/wow-classic/classic-hunter-pvp-guide"},
+    {"nombre": "LFCarry: cazador en JcJ en Forever", "url": "https://lfcarry.com/guides/wow-forever-hunter-pvp"},
+    {"nombre": "Skill Capped: glosario de JcJ (WoW Retail)", "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"}
   ]
 }

@@ -1,0 +1,295 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Abalorios y objetos que vale la pena buscar mientras subes y al llegar a 60. En Forever, Blizzard oculta las estadísticas de los objetos hasta que alguien del reino los consigue, así que el equipo de 60 aún es en gran parte un misterio. Cada objeto lleva su estado: <b>beta</b> = se pudo conseguir en la beta (hasta nivel 30); <b>forever</b> = aparece en los datos de Forever con estas estadísticas, pero nadie lo ha conseguido todavía y puede cambiar; <b>classic</b> = así era en WoW Classic, y en Forever está oculto y sin confirmar.",
+    "en": "Trinkets and items worth chasing while you level and once you hit 60. In Forever, Blizzard hides item stats until someone on your realm loots the item, so level 60 gear is still mostly a mystery. Every item is tagged: <b>beta</b> = obtainable in the beta (up to level 30); <b>forever</b> = present in Forever's data with these stats, but nobody has looted it yet and it may change; <b>classic</b> = how it worked in WoW Classic, hidden and unconfirmed in Forever."
+  },
+  "abalorios": [
+    {
+      "nombre": "Worgenbane Talisman",
+      "nivel": "Nivel de objeto 26 · requiere 21",
+      "como": {"es": "Mazmorra Castillo de Colmillo Oscuro, jefe Commander Springvale (probabilidad baja).", "en": "Shadowfang Keep dungeon, dropped by Commander Springvale (low drop chance)."},
+      "para": {"es": "Da 2 de maná cada 5 s y aturde 4 s a un huargen. Pequeño, pero sirve a sanadores y lanzadores que no tienen nada en esa ranura.", "en": "Gives 2 mana per 5 sec and a 4 sec stun on Worgen. Small, but useful for healers and casters with an empty slot."},
+      "clases": ["priest", "mage", "warlock", "druid", "shaman", "paladin"],
+      "estado": "beta"
+    },
+    {
+      "nombre": "Cursed Murloc Eye",
+      "nivel": "Nivel de objeto 29 · requiere 24",
+      "como": {"es": "Mazmorra Cavernas de Brazanegra, jefe Gelihast.", "en": "Blackfathom Deeps dungeon, dropped by Gelihast."},
+      "para": {"es": "Cada hechizo y cada golpe hace 2 de daño de sombras extra (el cuádruple contra múrlocs). Va bien a cualquiera mientras sube, sobre todo a clases que golpean rápido.", "en": "Every spell and attack deals 2 extra Shadow damage (four times that against murlocs). Good for anyone while leveling, especially fast-hitting classes."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "beta"
+    },
+    {
+      "nombre": "Satchel of Potions",
+      "nivel": "Nivel de objeto 33 · misión desde nivel 24",
+      "como": {"es": "Misión de la Excavación de Whelgar (Humedal). Horda: «Changing Tastes» (Borstan, Orgrimmar), eliges la bolsa como recompensa. Alianza: «Lost in the Thicket Things» (Puerto de Menethil) y luego «Heartwoven», que la da siempre.", "en": "Whelgar's Excavation quest (Wetlands). Horde: \"Changing Tastes\" (Borstan, Orgrimmar), pick the satchel as your reward. Alliance: \"Lost in the Thicket Things\" (Menethil Harbor), then \"Heartwoven\", which always gives it."},
+      "para": {"es": "Cada 10 min saca un efecto al azar: vida, maná, velocidad de carrera… o te quema un poco. No se gasta. Para todas las clases, como apoyo de emergencia.", "en": "Every 10 min it rolls a random effect: health, mana, a speed boost… or it burns you a bit. It never runs out. For every class as an emergency button."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "beta"
+    },
+    {
+      "nombre": "Dog Whistle",
+      "nivel": "Nivel de objeto 30 · requiere 25",
+      "como": {"es": "Monasterio Escarlata (Biblioteca), jefe Houndmaster Loksey (sale a menudo).", "en": "Scarlet Monastery (Library), dropped by Houndmaster Loksey (common drop)."},
+      "para": {"es": "Invoca un sabueso que pelea a tu lado 3 min (cada 10 min). Ayuda a las clases sin mascota a subir solas.", "en": "Summons a hound that fights with you for 3 min (10 min cooldown). Helps pet-less classes while leveling solo."},
+      "clases": ["warrior", "paladin", "rogue", "priest", "shaman", "mage", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Tidal Charm",
+      "nivel": "Nivel de objeto 41 · requiere 36",
+      "como": {"es": "Lo suelta Prince Nazjak, en la costa de las Tierras Altas de Arathi (sale más de la mitad de las veces).", "en": "Dropped by Prince Nazjak on the Arathi Highlands coast (drops more than half the time)."},
+      "para": {"es": "Aturde 3 s (cada 15 min). En Forever, contra nagas aturde 5 s y te devuelve el 80 % de la recarga. Útil en JcJ y para salvar peleas difíciles.", "en": "A 3 sec stun (15 min cooldown). In Forever it stuns Naga for 5 sec and refunds 80% of the cooldown. Handy in PvP and to save a bad pull."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Minor Recombobulator",
+      "nivel": "Nivel de objeto 28 · Ingeniería 140",
+      "como": {"es": "Lo fabrica un ingeniero (Ingeniería 140). Solo lo puede llevar quien tenga la profesión.", "en": "Crafted with Engineering (140). Only engineers can equip it."},
+      "para": {"es": "Quita la polimorfia a un aliado y le da algo de vida y maná. 10 cargas. Muy útil en JcJ.", "en": "Removes Polymorph from an ally and restores some health and mana. 10 charges. Great in PvP."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Rune of the Guard Captain",
+      "nivel": "Nivel de objeto 51",
+      "como": {"es": "Recompensa de misión y también de vendedor. Otra web la sitúa en Hinterlands (misión de la Horda o la intendente de Revantusk); falta confirmarlo en Forever.", "en": "A quest reward that is also sold by an NPC. Another site places it in the Hinterlands (a Horde quest or the Revantusk quartermaster); still unconfirmed in Forever."},
+      "para": {"es": "Rehecho en Forever: +0,7 % de golpe y +14 de poder de ataque, y el poder de ataque se triplica en bosques y praderas. Para cuerpo a cuerpo y cazadores. El <b>Cleansed Vilebranch Medallion</b> tiene los mismos efectos (origen aún sin descubrir).", "en": "Reworked in Forever: +0.7% hit and +14 attack power, and the attack power triples in forest and grassland zones. For melee and hunters. The <b>Cleansed Vilebranch Medallion</b> has the same effects (source not found yet)."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "shaman", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Jewel of the Guard Captain",
+      "nivel": "Nivel de objeto 51",
+      "como": {"es": "Origen aún sin descubrir. El <b>Cleansed Vilebranch Icon</b> es igual y tampoco se sabe de dónde sale.", "en": "Source not found yet. The <b>Cleansed Vilebranch Icon</b> is identical and its source is also unknown."},
+      "para": {"es": "Versión para lanzadores: +0,5 % de crítico y +8 de daño y sanación con hechizos, que se triplica en bosques y praderas.", "en": "The caster version: +0.5% crit and +8 spell damage and healing, tripled in forest and grassland zones."},
+      "clases": ["priest", "shaman", "mage", "warlock", "druid", "paladin"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Golden Banana",
+      "nivel": "Nivel de objeto 50",
+      "como": {"es": "Origen aún sin descubrir.", "en": "Source not found yet."},
+      "para": {"es": "Al usarlo, +16 a todos los atributos durante 15 s (cada 5 min); en bosques y praderas, el efecto y la duración se doblan. Sirve a cualquier clase.", "en": "On use, +16 to all stats for 15 sec (5 min cooldown); in forest and grassland zones both effect and duration double. Works for any class."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Winds of Tanaris",
+      "nivel": "Nivel de objeto 53 · requiere 48",
+      "como": {"es": "Origen aún sin descubrir (por el nombre, seguramente Tanaris).", "en": "Source not found yet (the name points to Tanaris)."},
+      "para": {"es": "+16 de poder de ataque y +12 de resistencia a la naturaleza. Al usarlo, ralentiza a los enemigos cercanos un 50 % durante 10 s (80 % en desiertos). Bueno en JcJ para clases físicas.", "en": "+16 attack power and +12 Nature resistance. On use, slows nearby enemies by 50% for 10 sec (80% in deserts). Good in PvP for physical classes."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "shaman", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Arena Grand Master",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Recompensa de misión de la arena de Gurubashi (Vega de Tuercespina).", "en": "Quest reward from the Gurubashi Arena (Stranglethorn Vale)."},
+      "para": {"es": "En Forever ahora da además +1 % de esquivar. Al usarlo, un escudo que absorbe entre 810 y 1350 de daño durante 20 s. Bueno para tanques y para JcJ.", "en": "In Forever it now also gives +1% dodge. On use, a shield that absorbs 810 to 1350 damage for 20 sec. Good for tanks and PvP."},
+      "clases": ["warrior", "paladin", "druid", "rogue", "hunter", "shaman"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Smoking Heart of the Mountain",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Lo fabrican los encantadores (Encantamiento 265). La receta la suelta Lord Roccor, en las Profundidades de Roca Negra.", "en": "Crafted with Enchanting (265). The formula drops from Lord Roccor in Blackrock Depths."},
+      "para": {"es": "Resistencias a todo y, al usarlo, +520 de armadura durante 20 s. Para tanques.", "en": "Resistances to everything and, on use, +520 armor for 20 sec. For tanks."},
+      "clases": ["warrior", "paladin", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Molten Heart of the Mountain",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Se fabrica (nuevo en Forever, de la misma familia que el Smoking Heart). Falta confirmar dónde se aprende la receta.", "en": "Crafted (new in Forever, same family as the Smoking Heart). Where to learn the recipe is still unconfirmed."},
+      "para": {"es": "Para cuerpo a cuerpo: +2 de daño de arma y, al usarlo, +55 de poder de ataque durante 15 s (el doble en zonas volcánicas). Solo se puede llevar uno de esta familia.", "en": "For melee: +2 weapon damage and, on use, +55 attack power for 15 sec (doubled in volcanic zones). Only one of this family can be equipped."},
+      "clases": ["warrior", "paladin", "rogue", "shaman", "druid", "hunter"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Frozen Heart of the Mountain",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Se fabrica (nuevo en Forever). Falta confirmar dónde se aprende la receta.", "en": "Crafted (new in Forever). Where to learn the recipe is still unconfirmed."},
+      "para": {"es": "Para lanzadores de escarcha y de sombras: +0,9 % de golpe y, al usarlo, hasta +29 de daño de escarcha y sombras durante 15 s (el doble en zonas nevadas).", "en": "For Frost and Shadow casters: +0.9% hit and, on use, up to +29 Frost and Shadow spell damage for 15 sec (doubled in snowy zones)."},
+      "clases": ["mage", "warlock", "priest"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Dormant Heart of the Mountain",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Se fabrica (nuevo en Forever). Falta confirmar dónde se aprende la receta.", "en": "Crafted (new in Forever). Where to learn the recipe is still unconfirmed."},
+      "para": {"es": "Para sanadores: al lanzar Greater Heal, Healing Touch, Healing Wave o Holy Light en combate, ganas hasta +40 de sanación y +13 de daño durante 15 s.", "en": "For healers: casting Greater Heal, Healing Touch, Healing Wave or Holy Light in combat grants up to +40 healing and +13 damage for 15 sec."},
+      "clases": ["priest", "druid", "shaman", "paladin"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Everlook Pathcarver",
+      "nivel": "Nivel de objeto 55 · requiere 50",
+      "como": {"es": "Vendedor en Cuna del Invierno; pide reputación Honorable con Everlook. Su pareja, <b>Everlook Delivery Bot</b>, sale del mismo sitio: solo se puede llevar uno de los dos.", "en": "Vendor in Winterspring; requires Honored with Everlook. Its sibling, <b>Everlook Delivery Bot</b>, comes from the same place: you can only equip one of them."},
+      "para": {"es": "+20 de resistencia a la naturaleza y, al usarlo, 607 de daño físico repartido entre hasta 4 enemigos cercanos. El Delivery Bot da resistencia a la escarcha y un golpe de fuego retardado. Buenos para subir los últimos niveles.", "en": "+20 Nature resistance and, on use, 607 Physical damage split across up to 4 nearby enemies. The Delivery Bot gives Frost resistance and a delayed Fire hit. Good for the last levels."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Adaptive Combat Assistant",
+      "nivel": "Nivel de objeto 65 · requiere 60",
+      "como": {"es": "Vendedor en la Vega de Tuercespina (otra web lo atribuye a Pix Xizzix); precio sin confirmar. Es de la familia «Undermine Trinkets»: solo se puede llevar uno.", "en": "Vendor in Stranglethorn Vale (another site names Pix Xizzix); price unconfirmed. It belongs to the \"Undermine Trinkets\" family: you can only equip one."},
+      "para": {"es": "−2 % de probabilidad de que te esquiven o paren. Al usarlo, un escudo de 450 que, si dura los 15 s, hace daño de naturaleza alrededor. Para cuerpo a cuerpo y tanques a 60.", "en": "−2% chance to be dodged or parried. On use, a 450 absorb shield that deals Nature damage around you if it lasts the full 15 sec. For melee and tanks at 60."},
+      "clases": ["warrior", "paladin", "rogue", "shaman", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Weakness Analyzer",
+      "nivel": "Nivel de objeto 65 · requiere 60",
+      "como": {"es": "El mismo vendedor de la Vega de Tuercespina. Familia «Undermine Trinkets»: no se puede llevar a la vez que el Adaptive Combat Assistant.", "en": "Same Stranglethorn Vale vendor. \"Undermine Trinkets\" family: it can't be equipped together with the Adaptive Combat Assistant."},
+      "para": {"es": "+22 de daño y sanación con hechizos. Al usarlo, +5 % de crítico durante 20 s o hasta tu siguiente crítico directo. Para lanzadores y sanadores a 60.", "en": "+22 spell damage and healing. On use, +5% crit for 20 sec or until your next non-periodic crit. For casters and healers at 60."},
+      "clases": ["priest", "shaman", "mage", "warlock", "druid", "paladin"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Greater Insignia of the Alliance / Horde",
+      "nivel": "Rango JcJ 2 (Corporal / Grunt)",
+      "como": {"es": "Recompensa de JcJ; pide el rango 2 de honor.", "en": "PvP reward; requires honor rank 2."},
+      "para": {"es": "Nuevo en Forever: quita todos los efectos que te frenan o te quitan el control del personaje (cada 5 min). Para todas las clases. Las insignias antiguas, por clase, siguen existiendo.", "en": "New in Forever: removes every movement-impairing and loss-of-control effect (5 min cooldown). For all classes. The old class-specific insignias still exist."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"],
+      "estado": "forever"
+    },
+    {
+      "nombre": "Hand of Justice",
+      "nivel": "Nivel de objeto 58 · requiere 53",
+      "como": {"es": "Profundidades de Roca Negra, jefe Emperor Dagran Thaurissan.", "en": "Blackrock Depths, dropped by Emperor Dagran Thaurissan."},
+      "para": {"es": "En Classic: +20 de poder de ataque y un 2 % de probabilidad de golpe extra. Fue el abalorio de referencia para cuerpo a cuerpo antes de las bandas. En Forever está oculto.", "en": "In Classic: +20 attack power and a 2% chance for an extra attack. It was the go-to pre-raid melee trinket. Hidden in Forever."},
+      "clases": ["warrior", "paladin", "rogue", "shaman", "druid"],
+      "estado": "classic"
+    },
+    {
+      "nombre": "Blackhand's Breadth",
+      "nivel": "Nivel de objeto 63",
+      "como": {"es": "En Classic, recompensa de misión de la Cumbre de Roca Negra: «General Drakkisath's Demise» (Alianza) o «For The Horde!» (Horda).", "en": "In Classic, a Blackrock Spire quest reward: \"General Drakkisath's Demise\" (Alliance) or \"For The Horde!\" (Horde)."},
+      "para": {"es": "En Classic: +2 % de crítico. Clásico de cuerpo a cuerpo y cazadores. En Forever está oculto.", "en": "In Classic: +2% crit. A staple for melee and hunters. Hidden in Forever."},
+      "clases": ["warrior", "paladin", "hunter", "rogue", "shaman", "druid"],
+      "estado": "classic"
+    },
+    {
+      "nombre": "Briarwood Reed",
+      "nivel": "Nivel de objeto 60 · requiere 55",
+      "como": {"es": "En Classic, de enemigos normales de la Cumbre de Roca Negra (probabilidad baja).", "en": "In Classic, from regular enemies in Blackrock Spire (low drop chance)."},
+      "para": {"es": "En Classic: +29 de daño y sanación con hechizos. Para lanzadores. En Forever está oculto.", "en": "In Classic: +29 spell damage and healing. For casters. Hidden in Forever."},
+      "clases": ["priest", "shaman", "mage", "warlock", "druid", "paladin"],
+      "estado": "classic"
+    },
+    {
+      "nombre": "Second Wind",
+      "nivel": "Nivel de objeto 59 · requiere 54",
+      "como": {"es": "Profundidades de Roca Negra, jefe Golem Lord Argelmach.", "en": "Blackrock Depths, dropped by Golem Lord Argelmach."},
+      "para": {"es": "En Classic: +22 de sanación y, al usarlo, 300 de maná en 10 s. Para sanadores. En Forever está oculto.", "en": "In Classic: +22 healing and, on use, 300 mana over 10 sec. For healers. Hidden in Forever."},
+      "clases": ["priest", "druid", "shaman", "paladin"],
+      "estado": "classic"
+    },
+    {
+      "nombre": "Mindtap Talisman",
+      "nivel": "Nivel de objeto 61 · requiere 56",
+      "como": {"es": "La Masacre (Oeste), jefe Magister Kalendris.", "en": "Dire Maul West, dropped by Magister Kalendris."},
+      "para": {"es": "En Classic: 11 de maná cada 5 s. Para sanadores que se quedan sin maná. En Forever está oculto.", "en": "In Classic: 11 mana per 5 sec. For healers who run out of mana. Hidden in Forever."},
+      "clases": ["priest", "druid", "shaman", "paladin"],
+      "estado": "classic"
+    }
+  ],
+  "por_rol": [
+    {
+      "rol": {"es": "Tanques", "en": "Tanks"},
+      "items": [
+        {"nombre": "Mirror of Rath'mael", "ranura": {"es": "Escudo", "en": "Shield"}, "nivel": "Requiere 19", "como": {"es": "Ruinas de Lordaeron, jefe Rath'mael.", "en": "Ruins of Lordaeron, dropped by Rath'mael."}, "estado": "beta"},
+        {"nombre": "Treacherous Treads", "ranura": {"es": "Pies (malla)", "en": "Feet (mail)"}, "nivel": "Requiere 23", "como": {"es": "Cavernas de Brazanegra, jefe Lorgus Jett. Dan +1 % de amenaza.", "en": "Blackfathom Deeps, dropped by Lorgus Jett. +1% threat."}, "estado": "beta"},
+        {"nombre": "Twilight Lord Girdle", "ranura": {"es": "Cintura (malla)", "en": "Waist (mail)"}, "nivel": "Requiere 25", "como": {"es": "Cavernas de Brazanegra, jefe Twilight Lord Kelris.", "en": "Blackfathom Deeps, dropped by Twilight Lord Kelris."}, "estado": "beta"},
+        {"nombre": "Bonepile Gaze", "ranura": {"es": "Escudo", "en": "Shield"}, "nivel": "Requiere 28", "como": {"es": "Ciudad de Dalaran, jefe Lyn the Ignored.", "en": "Dalaran City, dropped by Lyn the Ignored."}, "estado": "beta"},
+        {"nombre": "Smoking Heart of the Mountain", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 50", "como": {"es": "Encantamiento 265; receta de Lord Roccor (Profundidades de Roca Negra).", "en": "Enchanting 265; formula from Lord Roccor (Blackrock Depths)."}, "estado": "forever"},
+        {"nombre": "Arena Grand Master", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 50", "como": {"es": "Misión de la arena de Gurubashi.", "en": "Gurubashi Arena quest."}, "estado": "forever"}
+      ]
+    },
+    {
+      "rol": {"es": "Cuerpo a cuerpo", "en": "Melee DPS"},
+      "items": [
+        {"nombre": "Arced War Axe", "ranura": {"es": "Arma a dos manos", "en": "Two-hand weapon"}, "nivel": "Requiere 21", "como": {"es": "Castillo de Colmillo Oscuro, jefe Commander Springvale.", "en": "Shadowfang Keep, dropped by Commander Springvale."}, "estado": "beta"},
+        {"nombre": "Prison Shank", "ranura": {"es": "Daga", "en": "Dagger"}, "nivel": "Requiere 23", "como": {"es": "Las Mazmorras (Stormwind), jefe Bruegal Ironknuckle.", "en": "The Stockade, dropped by Bruegal Ironknuckle."}, "estado": "beta"},
+        {"nombre": "Hamhock's Cleaver", "ranura": {"es": "Mano principal (hacha)", "en": "Main hand (axe)"}, "nivel": "Requiere 25", "como": {"es": "Las Mazmorras, jefe Hamhock.", "en": "The Stockade, dropped by Hamhock."}, "estado": "beta"},
+        {"nombre": "Strike of the Hydra", "ranura": {"es": "Arma a dos manos", "en": "Two-hand weapon"}, "nivel": "Requiere 26", "como": {"es": "Cavernas de Brazanegra, jefe Aku'mai.", "en": "Blackfathom Deeps, dropped by Aku'mai."}, "estado": "beta"},
+        {"nombre": "Molten Heart of the Mountain", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 50", "como": {"es": "Se fabrica; receta por confirmar.", "en": "Crafted; recipe source unconfirmed."}, "estado": "forever"},
+        {"nombre": "Hand of Justice", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 53", "como": {"es": "Profundidades de Roca Negra, Emperor Dagran Thaurissan.", "en": "Blackrock Depths, Emperor Dagran Thaurissan."}, "estado": "classic"}
+      ]
+    },
+    {
+      "rol": {"es": "Distancia física", "en": "Ranged physical DPS"},
+      "items": [
+        {"nombre": "Venomstrike", "ranura": {"es": "Arco", "en": "Bow"}, "nivel": "Requiere 19", "como": {"es": "Cuevas de los Lamentos, jefe Lord Serpentis.", "en": "Wailing Caverns, dropped by Lord Serpentis."}, "estado": "beta"},
+        {"nombre": "Concealed Hand Crossbow", "ranura": {"es": "Ballesta", "en": "Crossbow"}, "nivel": "Requiere 26", "como": {"es": "Las Mazmorras, jefe Bazil Thredd.", "en": "The Stockade, dropped by Bazil Thredd."}, "estado": "beta"},
+        {"nombre": "Golemsight Long Gun", "ranura": {"es": "Arma de fuego", "en": "Gun"}, "nivel": "Requiere 28", "como": {"es": "Excavación de Whelgar, jefe Relic Guardian.", "en": "Whelgar's Excavation, dropped by the Relic Guardian."}, "estado": "beta"},
+        {"nombre": "Felbough Arm", "ranura": {"es": "Arma de asta", "en": "Polearm"}, "nivel": "Requiere 29", "como": {"es": "Ciudad de Dalaran, jefe Fel Ancient. Agilidad y golpe: buena para cazadores.", "en": "Dalaran City, dropped by the Fel Ancient. Agility and hit: a good hunter pick."}, "estado": "beta"},
+        {"nombre": "Rune of the Guard Captain", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Objeto 51", "como": {"es": "Misión y vendedor; dónde, por confirmar.", "en": "Quest and vendor; location unconfirmed."}, "estado": "forever"},
+        {"nombre": "Blackhand's Breadth", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Objeto 63", "como": {"es": "Misión de la Cumbre de Roca Negra (en Classic).", "en": "Blackrock Spire quest (in Classic)."}, "estado": "classic"}
+      ]
+    },
+    {
+      "rol": {"es": "Lanzadores", "en": "Casters"},
+      "items": [
+        {"nombre": "Firebelcher", "ranura": {"es": "Varita", "en": "Wand"}, "nivel": "Requiere 18", "como": {"es": "Cuevas de los Lamentos, Deviate Faerie Dragon.", "en": "Wailing Caverns, Deviate Faerie Dragon."}, "estado": "beta"},
+        {"nombre": "Violet Sorcerer's Robes", "ranura": {"es": "Pecho (tela)", "en": "Chest (cloth)"}, "nivel": "Requiere 27", "como": {"es": "Ciudad de Dalaran, jefe Arcanic Enigma.", "en": "Dalaran City, dropped by Arcanic Enigma."}, "estado": "beta"},
+        {"nombre": "Wand of Mana Concentration", "ranura": {"es": "Varita", "en": "Wand"}, "nivel": "Requiere 27", "como": {"es": "Ciudad de Dalaran, jefe Arcanic Enigma.", "en": "Dalaran City, dropped by Arcanic Enigma."}, "estado": "beta"},
+        {"nombre": "Spine of the Devourer", "ranura": {"es": "Bastón", "en": "Staff"}, "nivel": "Requiere 28", "como": {"es": "Ciudad de Dalaran, jefe Mana Devourer.", "en": "Dalaran City, dropped by the Mana Devourer."}, "estado": "beta"},
+        {"nombre": "Violet Sorcerer's Mantle", "ranura": {"es": "Hombros (tela, pieza de conjunto)", "en": "Shoulders (cloth, set piece)"}, "nivel": "Requiere 30", "como": {"es": "Ciudad de Dalaran, Shade of the Archmage.", "en": "Dalaran City, Shade of the Archmage."}, "estado": "beta"},
+        {"nombre": "Weakness Analyzer", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 60", "como": {"es": "Vendedor de la Vega de Tuercespina.", "en": "Stranglethorn Vale vendor."}, "estado": "forever"},
+        {"nombre": "Briarwood Reed", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 55", "como": {"es": "Cumbre de Roca Negra (en Classic).", "en": "Blackrock Spire (in Classic)."}, "estado": "classic"}
+      ]
+    },
+    {
+      "rol": {"es": "Sanadores", "en": "Healers"},
+      "items": [
+        {"nombre": "Odo's Ley Staff", "ranura": {"es": "Bastón", "en": "Staff"}, "nivel": "Requiere 21", "como": {"es": "Castillo de Colmillo Oscuro, Odo the Blindwatcher.", "en": "Shadowfang Keep, Odo the Blindwatcher."}, "estado": "beta"},
+        {"nombre": "Leech Pants", "ranura": {"es": "Piernas (tela)", "en": "Legs (cloth)"}, "nivel": "Requiere 24", "como": {"es": "Cavernas de Brazanegra, jefe Aku'mai. Dan maná y vida cada 5 s.", "en": "Blackfathom Deeps, dropped by Aku'mai. Mana and health per 5 sec."}, "estado": "beta"},
+        {"nombre": "Red Wool Cloak", "ranura": {"es": "Capa", "en": "Cloak"}, "nivel": "Requiere 26", "como": {"es": "Las Mazmorras, jefe Bazil Thredd.", "en": "The Stockade, dropped by Bazil Thredd."}, "estado": "beta"},
+        {"nombre": "Runemender's Seal", "ranura": {"es": "Anillo", "en": "Ring"}, "nivel": "Requiere 27", "como": {"es": "Ciudad de Dalaran, jefe Arcane Anomaly.", "en": "Dalaran City, dropped by the Arcane Anomaly."}, "estado": "beta"},
+        {"nombre": "Dormant Heart of the Mountain", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 50", "como": {"es": "Se fabrica; receta por confirmar.", "en": "Crafted; recipe source unconfirmed."}, "estado": "forever"},
+        {"nombre": "Second Wind", "ranura": {"es": "Abalorio", "en": "Trinket"}, "nivel": "Requiere 54", "como": {"es": "Profundidades de Roca Negra, Golem Lord Argelmach (en Classic).", "en": "Blackrock Depths, Golem Lord Argelmach (in Classic)."}, "estado": "classic"}
+      ]
+    }
+  ],
+  "bis": {
+    "estado": {
+      "es": "Hoy <b>no existe ninguna lista BiS fiable de nivel 60</b> para Forever. Blizzard oculta las estadísticas de todo el botín hasta que alguien lo consigue, la beta solo llegó a nivel 30 y las mazmorras nuevas de alto nivel (Bastión Faucenegra, Bancal del Creador…) no se pudieron probar. Lo que circula son esquemas de prioridades, listas viejas de Classic (que no cuentan con las mazmorras nuevas ni con el botín renovado) o simulaciones con datos sacados del cliente. Sirven como idea, no como lista. Las únicas listas bien fundadas son las de subida hasta nivel 30.",
+      "en": "Right now <b>there is no reliable level 60 BiS list</b> for Forever. Blizzard hides the stats of all loot until someone obtains it, the beta stopped at level 30, and the new high-level dungeons (Blackmaw Hold, Shaper's Terrace…) could not be tested. What's out there are priority frameworks, old Classic lists (which ignore the new dungeons and the reworked loot) or simulations built on client data. Treat them as ideas, not lists. The only solid lists are leveling ones up to level 30."
+    },
+    "cuando": {
+      "es": "Pre-raid: las primeras listas con sentido llegarán unos días después del 4 de noviembre, cuando los jugadores hayan limpiado las mazmorras de 55-60 y se conozca su botín; cuenta con una o dos semanas para que se asienten. Bandas: a partir del 9 de diciembre, y no estarán completas hasta que cada jefe haya soltado todos sus objetos, varias semanas después.",
+      "en": "Pre-raid: the first sensible lists will show up a few days after November 4, once players have cleared the level 55-60 dungeons and their loot is known; give them a week or two to settle. Raids: from December 9 on, and they won't be complete until every boss has dropped everything, several weeks later."
+    },
+    "fuentes_a_vigilar": [
+      {"nombre": "Wowhead — base de datos de Forever", "url": "https://www.wowhead.com/forever"},
+      {"nombre": "Icy Veins — WoW Forever", "url": "https://www.icy-veins.com/wow-forever/"},
+      {"nombre": "Warcraft Tavern — WoW Forever", "url": "https://www.warcrafttavern.com/forever/"},
+      {"nombre": "Kami-Labs — simulaciones de abalorios de Forever", "url": "https://kami-labs.fr/en/bijoux-wow-forever/"},
+      {"nombre": "Reddit r/wowforever", "url": "https://www.reddit.com/r/wowforever/"},
+      {"nombre": "Noticias de Blizzard", "url": "https://news.blizzard.com/es-es/"}
+    ]
+  },
+  "pendiente": [
+    {"es": "Todo el botín de nivel 50-60 de las mazmorras de siempre (Profundidades y Cumbre de Roca Negra, Stratholme, Scholomance, La Masacre): en Forever está oculto y puede haber cambiado.", "en": "All level 50-60 loot from the classic dungeons (Blackrock Depths and Spire, Stratholme, Scholomance, Dire Maul): it's hidden in Forever and may have changed."},
+    {"es": "El botín de las mazmorras nuevas de alto nivel (Ciudad Sumergida, Bastión Krol'dok, Prisión de Alcaz, Bastión Faucenegra, Bancal del Creador).", "en": "Loot from the five new dungeons above level 35, up to Blackmaw Hold and Shaper's Terrace."},
+    {"es": "De dónde salen varios abalorios nuevos que ya están en los datos: Golden Banana, Winds of Tanaris, Jewel of the Guard Captain, las piezas Cleansed Vilebranch y las recetas de los nuevos Heart of the Mountain.", "en": "Where several new trinkets already in the data come from: Golden Banana, Winds of Tanaris, Jewel of the Guard Captain, the Cleansed Vilebranch pieces and the recipes for the new Heart of the Mountain trinkets."},
+    {"es": "Precio y reputación que piden los abalorios de la Vega de Tuercespina (Adaptive Combat Assistant, Weakness Analyzer).", "en": "Price and reputation needed for the Stranglethorn Vale trinkets (Adaptive Combat Assistant, Weakness Analyzer)."},
+    {"es": "El botín de las bandas (9 de diciembre) y las listas BiS de banda.", "en": "Raid loot (December 9) and raid BiS lists."}
+  ],
+  "fuentes": [
+    {"nombre": "Wowhead — abalorios de WoW Forever", "url": "https://www.wowhead.com/forever/items/armor/trinkets"},
+    {"nombre": "Warcraft Tavern — las estadísticas de los objetos no se conocerán antes", "url": "https://www.warcrafttavern.com/forever/news/item-stats-will-not-be-known-in-advance-for-wow-forever/"},
+    {"nombre": "Icy Veins — Forever ocultó más de 12.500 objetos", "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-hid-over-12500-items-from-dataminers-heres-whats-still-secret/"},
+    {"nombre": "Icy Veins — guías de mazmorras de Forever (botín hasta nivel 30)", "url": "https://www.icy-veins.com/wow-forever/"},
+    {"nombre": "Kami-Labs — abalorios de WoW Forever", "url": "https://kami-labs.fr/en/bijoux-wow-forever/"},
+    {"nombre": "ExpCarry — Satchel of Potions", "url": "https://expcarry.com/wow-forever-satchel-of-potions"},
+    {"nombre": "ExpCarry — esquema pre-raid de Forever", "url": "https://expcarry.com/wow-forever-pre-raid-bis"},
+    {"nombre": "LFCarry — listas BiS de Forever (parciales)", "url": "https://lfcarry.com/guides/wow-forever-bis-lists"},
+    {"nombre": "Wowhead — base de datos de WoW Classic", "url": "https://www.wowhead.com/classic"}
+  ]
+}

@@ -209,6 +209,162 @@
     {"es": "Contra lanzadores, Voice of Truth (talento Holy) da 6 s de inmunidad a silencios e interrupciones para sacar una cura segura.", "en": "Against casters, Voice of Truth (Holy talent) gives 6 s of immunity to silences and interrupts to land a safe heal."},
     {"es": "Ingeniería sigue siendo muy útil en JcJ: un aturdimiento extra con granadas cambia los duelos.", "en": "Engineering is still very strong in PvP: an extra stun from grenades swings duels."}
   ],
+  "tecnicas": {
+    "pvp": [
+      {
+        "termino": "Stun + burst (Hammer of Justice into Judgement)",
+        "titulo": {
+          "es": "Aturdir y descargar el daño",
+          "en": "Stun, then unload"
+        },
+        "texto": {
+          "es": "Con <b>Seal of Command</b> puesto, acércate y pulsa <b>Hammer of Justice</b> (10 metros, aturde hasta 6 s según el rango). Justo después, <b>Judgement</b>: contra un objetivo aturdido o incapacitado hace el doble de daño. Sigue con <b>Holy Strike</b> y tus golpes mientras dura el aturdimiento. Judgement y Hammer of Justice tienen solo 10 metros de alcance: si te alejan, no llegan. En Forever el Judgement no gasta el sello, así que a los 10 s puedes repetirlo sin volver a ponerlo.",
+          "en": "With <b>Seal of Command</b> up, get close and press <b>Hammer of Justice</b> (10 yards, stuns up to 6 sec depending on rank). Right after, <b>Judgement</b>: against a stunned or incapacitated target it deals double damage. Follow with <b>Holy Strike</b> and your swings while the stun lasts. Judgement and Hammer of Justice only reach 10 yards: if you get kited, they won't land. In Forever Judgement doesn't use up the seal, so you can judge again 10 sec later without reapplying it."
+        }
+      },
+      {
+        "termino": "Crowd control for a heal / Repentance",
+        "titulo": {
+          "es": "Controlar para poder curarte",
+          "en": "Control them so you can heal"
+        },
+        "texto": {
+          "es": "Tu cura más grande, <b>Holy Light</b>, es lenta y te la cortan fácil. Lánzala con el rival controlado: tras <b>Hammer of Justice</b>, o tras <b>Repentance</b> (talento de Retribution, 20 metros, incapacita hasta 6 s a humanoides). Cualquier daño despierta a quien tiene Repentance, así que no le pegues ni le hagas Judgement hasta terminar de curarte. Recuerda que, cuando le vayas a pegar, Seal of Command también hace el doble contra incapacitados.",
+          "en": "Your biggest heal, <b>Holy Light</b>, is slow and easy to interrupt. Cast it while the enemy is controlled: after <b>Hammer of Justice</b>, or after <b>Repentance</b> (Retribution talent, 20 yards, incapacitates humanoids for up to 6 sec). Any damage wakes a Repentance target, so don't hit or judge them until you're done healing. Remember that when you do go back in, Seal of Command's Judgement also doubles against incapacitated targets."
+        }
+      },
+      {
+        "termino": "Anti-kite / Blessing of Freedom",
+        "titulo": {
+          "es": "Blessing of Freedom cuando te frenan",
+          "en": "Blessing of Freedom when they slow you"
+        },
+        "texto": {
+          "es": "Al paladín le falta movilidad, y los magos, cazadores y guerreros viven de frenarte. <b>Blessing of Freedom</b> te hace inmune a raíces y ralentizaciones durante 10 s (20 s de recarga). No la pongas antes de tiempo: espera a que te apliquen Hamstring, Frost Nova, Crippling Poison o Concussive Shot y entonces úsala para llegar y aturdir. Con <b>Pursuit of Justice</b> (Retribution) vas un 15 % más rápido siempre.",
+          "en": "Paladins lack mobility, and mages, hunters and warriors thrive on slowing you. <b>Blessing of Freedom</b> makes you immune to roots and slows for 10 sec (20 sec cooldown). Don't use it early: wait until they land Hamstring, Frost Nova, Crippling Poison or Concussive Shot, then use it to close in and stun. With <b>Pursuit of Justice</b> (Retribution) you're always 15% faster."
+        }
+      },
+      {
+        "termino": "Juke / fake cast",
+        "titulo": {
+          "es": "Amagar la cura para que gasten el corte",
+          "en": "Fake the heal to bait the interrupt"
+        },
+        "texto": {
+          "es": "Un corte (Kick, Pummel, Shield Bash, Counterspell) bloquea toda la escuela Sagrada, y casi todo lo tuyo es Sagrado: si te cortan, te quedas sin curas varios segundos. Cuando un pícaro o un guerrero esté pegado a ti, empieza <b>Holy Light</b> y cancélala moviéndote un paso a mitad de barra. Si gasta el corte en el amago, ya puedes curarte tranquilo. Spell batching de Forever: si os pulsáis casi a la vez, los dos efectos pueden salir.",
+          "en": "An interrupt (Kick, Pummel, Shield Bash, Counterspell) locks the whole Holy school, and nearly everything you have is Holy: get interrupted and you have no heals for several seconds. When a rogue or warrior is on you, start <b>Holy Light</b> and cancel it by stepping halfway through the cast. If they burn the interrupt on the fake, you can heal safely. Forever has spell batching: if you both press at almost the same moment, both effects can go through."
+        }
+      },
+      {
+        "termino": "Line of sight (LoS) / pillar humping",
+        "titulo": {
+          "es": "Curarte detrás de una columna",
+          "en": "Heal behind a pillar"
+        },
+        "texto": {
+          "es": "Contra lanzadores y cazadores, cúrate fuera de su vista. Pon una columna, una casa o una roca entre tú y ellos: si no te ven, no pueden lanzarte nada, y tienen que acercarse a tu alcance de 10 metros. Úsalo también para dejar que vuelva tu maná o para esperar a que acaben sus efectos.",
+          "en": "Against casters and hunters, heal out of their sight. Put a pillar, a house or a rock between you and them: if they can't see you they can't cast on you, and they have to walk into your 10 yard range. Also use it to let your mana come back or to wait out their effects."
+        }
+      },
+      {
+        "termino": "Forbearance / defensive cooldowns",
+        "titulo": {
+          "es": "Elegir bien qué defensa gastar",
+          "en": "Choose which defensive to spend"
+        },
+        "texto": {
+          "es": "<b>Divine Protection</b>, <b>Divine Shield</b>, <b>Blessing of Protection</b> y <b>Templar's Bulwark</b> ponen Forbearance 1 minuto, y con él no puedes lanzar ninguna de las otras. Divine Shield (12 s) es el mejor: en Forever puedes seguir pegando, pero haces la mitad de daño, así que úsalo para curarte, limpiarte con Cleanse o esperar a tus compañeros. Blessing of Protection solo para contra golpes físicos: contra un pícaro o un guerrero es muy bueno, contra un mago no sirve.",
+          "en": "<b>Divine Protection</b>, <b>Divine Shield</b>, <b>Blessing of Protection</b> and <b>Templar's Bulwark</b> apply Forbearance for 1 minute, which locks out all the others. Divine Shield (12 sec) is the best one: in Forever you can keep attacking, but at half damage, so use it to heal, Cleanse yourself or wait for help. Blessing of Protection only stops physical attacks: great against a rogue or warrior, useless against a mage."
+        }
+      },
+      {
+        "termino": "Diminishing returns (DR)",
+        "titulo": {
+          "es": "No aturdir a quien ya está aturdido",
+          "en": "Don't stun a target that was just stunned"
+        },
+        "texto": {
+          "es": "Contra jugadores, los aturdimientos que se repiten en poco tiempo duran la mitad y luego un cuarto, hasta que el objetivo es inmune durante unos segundos. Si un pícaro de tu bando acaba de usar Kidney Shot, tu Hammer of Justice puede durar muy poco: guárdalo para cuando el rival se escape o para cortar una cura. Repentance es de otra familia (incapacitación) y no se acorta por los aturdimientos.",
+          "en": "Against players, stuns repeated in a short time last half as long, then a quarter, until the target is immune for a while. If a rogue on your side just used Kidney Shot, your Hammer of Justice may barely last: save it for when the target breaks away or to stop a heal. Repentance is a different family (incapacitate) and isn't shortened by stuns."
+        }
+      }
+    ],
+    "pve": [
+      {
+        "termino": "Seal twisting (Twist of Light)",
+        "titulo": {
+          "es": "Dos sellos en un golpe",
+          "en": "Two seals on one swing"
+        },
+        "texto": {
+          "es": "Desde el 40, el talento <b>Twist of Light</b> hace el seal twisting de Classic más sencillo: al cambiar Seal of Command por Seal of Righteousness, te queda un Echo del sello anterior y tu siguiente golpe aplica los dos. Lo cómodo es cambiar de sello justo después de que salga un golpe del arma: así tienes todo el intervalo de un arma lenta para hacerlo. En el siguiente golpe vuelve a Seal of Command y repite. Cuesta maná (aunque el talento abarata los sellos un 20 %): hazlo en jefes o enemigos largos, no con todo.",
+          "en": "From level 40, the <b>Twist of Light</b> talent makes Classic-style seal twisting simpler: when you swap Seal of Command for Seal of Righteousness you keep an Echo of the old seal, and your next swing applies both. The comfortable way is to swap right after a weapon swing lands, so you have the whole gap of a slow weapon to do it. On the next swing go back to Seal of Command and repeat. It costs mana (though the talent cuts seal costs by 20%): do it on bosses or long fights, not on everything."
+        }
+      },
+      {
+        "termino": "Mana management / five-second rule",
+        "titulo": {
+          "es": "Gastar el maná con cabeza",
+          "en": "Spend your mana wisely"
+        },
+        "texto": {
+          "es": "Tu maná solo se regenera con Espíritu a partir de 5 s después de gastar algo (la regla de los cinco segundos). Al subir, gasta al principio de la pelea (sello, Judgement, Holy Strike) y deja que el arma termine: si el siguiente golpe va a matar, no pulses nada. No renueves el sello antes de que se acabe, usa Consecration solo con dos enemigos o más y, si te falta maná, cambia Might por <b>Blessing of Wisdom</b>.",
+          "en": "Your mana only regenerates from Spirit once 5 sec have passed since you last spent any (the five-second rule). While leveling, spend early in the fight (seal, Judgement, Holy Strike) and let your weapon finish the job: if the next swing will kill, don't press anything. Don't refresh your seal before it runs out, only use Consecration on two or more enemies and, if you keep running dry, swap Might for <b>Blessing of Wisdom</b>."
+        }
+      },
+      {
+        "termino": "Threat (tanking)",
+        "titulo": {
+          "es": "Amenaza como Protection",
+          "en": "Threat as Protection"
+        },
+        "texto": {
+          "es": "Para tanquear, <b>Righteous Fury</b> encendido y <b>Seal of Fury</b> siempre puesto. Abre con <b>Judgement</b>: con Seal of Fury obliga al enemigo a pegarte 4 s, y te sirve también de segundo provocar. Pon <b>Consecration</b> bajo el grupo de enemigos para quedarte con todos y <b>Holy Strike</b> cada vez que esté listo. Si haces daño y no eres el tanque, apaga Righteous Fury.",
+          "en": "To tank, keep <b>Righteous Fury</b> on and <b>Seal of Fury</b> up. Open with <b>Judgement</b>: with Seal of Fury it forces the enemy to attack you for 4 sec, and doubles as a second taunt. Drop <b>Consecration</b> under the pack to hold all of them and use <b>Holy Strike</b> on cooldown. If you're doing damage and not tanking, turn Righteous Fury off."
+        }
+      },
+      {
+        "termino": "Pre-casting / cancel casting",
+        "titulo": {
+          "es": "Empezar la cura antes del golpe",
+          "en": "Start the heal before the hit"
+        },
+        "texto": {
+          "es": "Como Holy, <b>Holy Light</b> tarda en lanzarse: empiézala antes de que el jefe dé el golpe fuerte, no cuando el tanque ya está bajo. Si al final no hace falta (el golpe falla o el tanque está entero), cancélala moviéndote un paso antes de que acabe y no gastas maná. Para el daño ligero, <b>Flash of Light</b>; para salvar a alguien ya, <b>Holy Shock</b>.",
+          "en": "As Holy, <b>Holy Light</b> has a long cast: start it before the boss's big hit, not once the tank is already low. If it turns out you don't need it (the hit misses or the tank is topped), cancel it by stepping before it finishes and you spend no mana. Use <b>Flash of Light</b> for light damage and <b>Holy Shock</b> to save someone right now."
+        }
+      },
+      {
+        "termino": "Positioning",
+        "titulo": {
+          "es": "Dónde ponerse",
+          "en": "Where to stand"
+        },
+        "texto": {
+          "es": "Como Retribution, pega siempre por la espalda del enemigo: por delante puede parar y bloquear, y además te comes sus golpes en área. Al subir solo, ponte de manera que Consecration (8 s para hacer todo su daño) quede bajo todos los enemigos, y no la uses si vas a moverte o si van a morir antes.",
+          "en": "As Retribution, always hit from behind: from the front the enemy can parry and block, and you eat its cleaves. Solo leveling, place yourself so Consecration (8 sec to deal its full damage) sits under every enemy, and skip it if you're about to move or they'll die sooner."
+        }
+      }
+    ],
+    "teclas": [
+      {
+        "es": "Gira con el botón derecho del ratón y deja A/D para moverte de lado (strafe): así te pegas a la espalda del rival y cancelas una cura con un paso sin girarte.",
+        "en": "Turn with the right mouse button and set A/D to strafe: it keeps you on the target's back and lets you cancel a heal with one step without turning."
+      },
+      {
+        "es": "Hammer of Justice y Judgement en teclas vecinas (por ejemplo, Q y E): el combo tiene que salir seguido, sin mirar.",
+        "en": "Put Hammer of Justice and Judgement on neighbouring keys (say Q and E): the combo has to come out back to back without looking."
+      },
+      {
+        "es": "Macro de cura sobre ti sin cambiar de objetivo: <i>/cast [@mouseover,help][@player] Flash of Light</i>. Igual con Blessing of Freedom y Cleanse para usarlos sobre un compañero pasando el ratón.",
+        "en": "Self-heal macro that keeps your target: <i>/cast [@mouseover,help][@player] Flash of Light</i>. Do the same for Blessing of Freedom and Cleanse to use them on an ally by hovering."
+      },
+      {
+        "es": "Seal of Command y Seal of Righteousness en dos teclas cómodas una al lado de la otra: para el seal twisting vas a cambiar de sello en cada golpe.",
+        "en": "Put Seal of Command and Seal of Righteousness on two comfortable side-by-side keys: when seal twisting you'll swap seals every swing."
+      }
+    ]
+  },
   "profesiones": [
     {"nombre": {"es": "Herrería + Minería", "en": "Blacksmithing + Mining"}, "por_que": {"es": "La pareja más recomendada: piezas de malla y placas con poder con hechizos para las tres ramas, muchas solo de esta profesión.", "en": "The most recommended pair: mail and plate with spell power for all three trees, much of it exclusive to the profession."}},
     {"nombre": {"es": "Ingeniería", "en": "Engineering"}, "por_que": {"es": "Para JcJ: granadas y artilugios que aturden y sacan duelos.", "en": "For PvP: grenades and gadgets that stun and win duels."}},
@@ -230,6 +386,11 @@
     {"nombre": "Warcraft Tavern: Retribution, Protection y Holy", "url": "https://www.warcrafttavern.com/forever/guides/retribution-paladin/"},
     {"nombre": "Warcraft Tavern: sellos y Shockadin en Forever", "url": "https://www.warcrafttavern.com/forever/news/seal-twisting-shockadins-paladin-deep-dive-for-wow-forever/"},
     {"nombre": "Method: paladín en Forever", "url": "https://www.method.gg/wow-forever/wow-forever-paladin-leveling-guide-and-talents"},
-    {"nombre": "Conquest Capped: subir de nivel con paladín", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-paladin-leveling/"}
+    {"nombre": "Conquest Capped: subir de nivel con paladín", "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-paladin-leveling/"},
+    {"nombre": "Icy Veins: Retribution para subir (Forever)", "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling"},
+    {"nombre": "wowtbc.gg: Retribution en Forever (Twist of Light)", "url": "https://wowtbc.gg/warcraftforever/class-guides/retribution-paladin/"},
+    {"nombre": "Warcraft Tavern: Retribution en JcJ (TBC Classic)", "url": "https://www.warcrafttavern.com/tbc/guides/pvp-retribution-paladin/"},
+    {"nombre": "Altered Gamer: curar en JcJ, columnas y amagos (Wrath of the Lich King)", "url": "https://www.alteredgamer.com/wow-roles/46734-guide-healing-fundamentals-juking-pillar-humping-and-feigning-casts"},
+    {"nombre": "Warcraft Wiki: rendimientos decrecientes (todas las ediciones; tabla de Wrath Classic)", "url": "https://warcraft.wiki.gg/wiki/Diminishing_returns"}
   ]
 }

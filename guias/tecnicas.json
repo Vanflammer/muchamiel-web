@@ -1,0 +1,376 @@
+{
+  "actualizado": "2026-10-30",
+  "intro": {
+    "es": "Las palabras que vas a oír en cualquier guía, directo o banda, explicadas para todas las clases: qué significan, cómo se hacen con el teclado y el ratón y para quién sirven. El nombre técnico va en inglés porque es el que usa todo el mundo (y el cliente de Forever está en inglés); al lado, un nombre en castellano. Todo vale para WoW Forever porque viene de WoW Classic; cuando Forever ha cambiado algo, o todavía no se sabe, lo decimos en la propia entrada.",
+    "en": "The words you'll hear in every guide, stream and raid, explained for every class: what they mean, how to do them with keyboard and mouse, and who uses them. The technical name is in English because that's what everyone says (and the Forever client is in English). Everything here applies to WoW Forever because it comes from WoW Classic; when Forever changed something, or we don't know yet, the entry says so."
+  },
+  "grupos": [
+    {
+      "titulo": {"es": "Moverse y kiting", "en": "Movement and kiting"},
+      "items": [
+        {
+          "termino": "Kiting",
+          "alias": {"es": "Llevar al enemigo de paseo", "en": "Kiting"},
+          "texto": {
+            "es": "Mantener al rival lejos de ti mientras le sigues haciendo daño, como quien tira de una cometa. La receta siempre es la misma: <b>frenarlo</b> (Frost Nova, Frostbolt, Concussive Shot, Wing Clip, Frost Shock, Hamstring, Crippling Poison), <b>ganar distancia</b> mientras está frenado y <b>pegar</b> cuando puedas sin dejar que te alcance. Lo hacen sobre todo los magos y los cazadores, pero cualquier clase con una ralentización puede hacerlo a su manera. Las técnicas de abajo (correr de lado, girar en el salto, pegar y salir) son formas de kitear.",
+            "en": "Keeping the enemy away from you while you keep dealing damage, like flying a kite. The recipe never changes: <b>slow</b> them (Frost Nova, Frostbolt, Concussive Shot, Wing Clip, Frost Shock, Hamstring, Crippling Poison), <b>gain distance</b> while they're slowed, and <b>hit</b> whenever you can without letting them catch you. Mages and hunters do it the most, but any class with a slow can kite in its own way. The techniques below (strafing, jump-turning, hit-and-step-out) are all ways to kite."
+          },
+          "clases": ["mage", "hunter", "shaman", "warlock", "priest", "druid", "warrior", "rogue"]
+        },
+        {
+          "termino": "Strafe kiting",
+          "alias": {"es": "Correr de lado (la «L»)", "en": "Strafe kiting"},
+          "texto": {
+            "es": "Es lo que algunos llaman «la L»: abres con el hechizo largo desde lejos, rematas con instantáneos y te alejas corriendo de lado, de forma que tu cuerpo y tu camino forman un ángulo y el enemigo sigue delante de ti. En WoW «delante» es todo el medio círculo frontal, así que puedes lanzar mientras corres de lado sin darle la espalda. Cómo: pon las teclas de desplazamiento lateral en <b>A</b> y <b>D</b> (en lugar de girar), mantén el <b>botón derecho del ratón</b> para orientar el cuerpo y apunta tu frente a medio camino entre el enemigo y hacia donde vas. Correr de lado va a la misma velocidad que hacia delante. Solo sirve para instantáneos (Fire Blast, Arcane Shot, Frost Shock, Corruption...): los hechizos con tiempo de lanzamiento se cortan al moverte.",
+            "en": "This is what some players call \"the L\": you open with your long cast from range, finish with instants, and move away by running sideways, so your body and your path form an angle and the enemy stays in front of you. In WoW \"in front\" is the whole front half-circle, so you can cast while strafing without turning your back. How: bind strafe left/right to <b>A</b> and <b>D</b> (instead of turning), hold <b>right mouse button</b> to steer your body, and point your front halfway between the enemy and where you're going. Strafing is as fast as running forward. It only works for instants (Fire Blast, Arcane Shot, Frost Shock, Corruption...): cast-time spells stop when you move."
+          },
+          "clases": ["mage", "hunter", "shaman", "warlock", "priest", "druid"]
+        },
+        {
+          "termino": "Jump-turn / jump cast / jump shot",
+          "alias": {"es": "Girar en el salto", "en": "Jump-turning"},
+          "texto": {
+            "es": "Vas corriendo de espaldas al enemigo, <b>saltas</b>, en el aire giras media vuelta con el ratón (botón derecho y un golpe de muñeca), lanzas un instantáneo y vuelves a girar antes de tocar el suelo para seguir corriendo hacia donde ibas. Así no pierdes ni un paso. El cazador lo llama jump shot (Concussive Shot, Arcane Shot) y el mago jump cast (Fire Blast, Cone of Cold). Diferencia con correr de lado: aquí vas a toda velocidad en línea recta y solo miras atrás un instante; con strafe vas de lado todo el rato. Cuesta práctica: la pausa global (GCD) hace que no puedas encadenar dos en el mismo salto. Ensáyalo con un muñeco de entrenamiento.",
+            "en": "You're running away from the enemy, <b>jump</b>, flick a half-turn in the air with the mouse (right button and a quick wrist move), fire an instant, and turn back before landing so you keep running the same way. You lose no ground at all. Hunters call it a jump shot (Concussive Shot, Arcane Shot), mages a jump cast (Fire Blast, Cone of Cold). Difference from strafing: here you run full speed in a straight line and only look back for a moment; when strafing you move sideways the whole time. It takes practice: the global cooldown means you can't chain two in one jump. Practice on a training dummy."
+          },
+          "clases": ["mage", "hunter", "shaman", "warlock", "priest", "druid"]
+        },
+        {
+          "termino": "Back-pedaling",
+          "alias": {"es": "Andar hacia atrás", "en": "Back-pedaling"},
+          "texto": {
+            "es": "Moverte con la tecla de ir hacia atrás (S). Es un error típico: hacia atrás vas a unas <b>4,5 yardas por segundo</b>, frente a las 7 de correr, así que un enemigo que corre te alcanza enseguida. Úsalo solo para un paso corto (salir del alcance de un golpe y volver). Para huir de verdad, corre de lado o gira en el salto.",
+            "en": "Moving with the walk-backwards key (S). It's a classic mistake: backwards you move at about <b>4.5 yards per second</b>, versus 7 when running, so anyone chasing you closes the gap fast. Use it only for a tiny step (out of reach of a swing and back in). To actually get away, strafe or jump-turn."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Stutter-step / Hamstring kiting",
+          "alias": {"es": "Pegar y salir", "en": "Hit and step out"},
+          "texto": {
+            "es": "La técnica del cuerpo a cuerpo con arma lenta: le pones una ralentización (Hamstring el guerrero, Frost Shock el chamán, Wing Clip el cazador), le das un golpe, <b>sales un paso</b> de su alcance mientras tu arma «recarga» y <b>vuelves a entrar</b> justo cuando toca tu siguiente golpe automático. Así pegas tú y él, si es cuerpo a cuerpo y va más lento, pega menos. Necesitas ver tu temporizador de golpe (swing timer, ver abajo). Ojo: en Classic existe el «leeway», un margen extra de alcance cuando los dos os movéis, que hace que te sigan pegando un poco más lejos de lo que parece; Blizzard no ha dicho si Forever lo mantiene igual. Funciona mejor cuanto más lenta es el arma.",
+            "en": "The melee trick with a slow weapon: you slow the target (Hamstring for warriors, Frost Shock for shamans, Wing Clip for hunters), land a hit, <b>step out</b> of their reach while your weapon \"reloads\", and <b>step back in</b> right when your next auto-attack is due. You keep hitting while a slowed melee enemy hits you less. You need to see your swing timer (see below). Careful: Classic has \"leeway\", extra melee reach when both players are moving, so you get hit from a bit further than it looks; Blizzard hasn't said whether Forever keeps it the same. The slower the weapon, the better it works."
+          },
+          "clases": ["warrior", "shaman", "hunter"]
+        }
+      ]
+    },
+    {
+      "titulo": {"es": "Control (CC)", "en": "Crowd control (CC)"},
+      "items": [
+        {
+          "termino": "CC (crowd control)",
+          "alias": {"es": "Control", "en": "CC"},
+          "texto": {
+            "es": "Todo lo que deja a un enemigo sin hacer nada un rato: aturdimientos (Kidney Shot, Hammer of Justice, Bash), miedos (Fear, Psychic Scream, Intimidating Shout), transformaciones (Polymorph), dormir o incapacitar (Sap, Gouge, Hibernate, Freezing Trap), raíces (Frost Nova, Entangling Roots) y silencios. En mazmorra sirve para apartar a un enemigo del combate; en JcJ, para quitar de en medio al sanador o ganar segundos. Ojo: casi todo control que no sea aturdimiento se rompe con el daño.",
+            "en": "Anything that stops an enemy from acting for a while: stuns (Kidney Shot, Hammer of Justice, Bash), fears (Fear, Psychic Scream, Intimidating Shout), transforms (Polymorph), sleeps and incapacitates (Sap, Gouge, Hibernate, Freezing Trap), roots (Frost Nova, Entangling Roots) and silences. In dungeons it takes a mob out of the fight; in PvP it removes the healer or buys time. Note: most CC other than stuns breaks on damage."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Diminishing returns (DR)",
+          "alias": {"es": "Rendimientos decrecientes", "en": "DR"},
+          "texto": {
+            "es": "Si repites el mismo tipo de control sobre el mismo jugador en poco tiempo, dura menos: la segunda vez la mitad, la tercera un cuarto y la cuarta no entra (inmune). El contador se limpia cuando pasan entre 15 y 20 segundos sin recibir ese tipo de control. Cada familia (aturdimientos, miedos, Polymorph...) lleva su cuenta. Consecuencia práctica: no gastes tu mejor control cuando el enemigo acaba de salir de otro igual. Afecta sobre todo al JcJ.",
+            "en": "If you use the same kind of CC on the same player in a short time, it lasts less: half the second time, a quarter the third, and the fourth doesn't land (immune). The counter clears after 15 to 20 seconds without that kind of CC. Each family (stuns, fears, Polymorph...) has its own counter. In practice: don't spend your best CC right after the enemy came out of a similar one. It mostly matters in PvP."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "CC chain",
+          "alias": {"es": "Encadenar controles", "en": "CC chain"},
+          "texto": {
+            "es": "Enlazar controles de <b>familias distintas</b> para que el enemigo no actúe en mucho tiempo sin chocar con los rendimientos decrecientes. Ejemplo de pícaro: Sap, luego Cheap Shot, luego Kidney Shot y, cuando se acaba, Gouge o Blind. En grupo, que cada uno lance su control justo cuando termina el del compañero, no a la vez (si coinciden, se malgastan). Mira la duración que queda en la barra del enemigo.",
+            "en": "Linking CC from <b>different families</b> so the enemy can't act for a long time without running into diminishing returns. A rogue example: Sap, then Cheap Shot, then Kidney Shot, and when that ends, Gouge or Blind. In a group, each player casts their CC as the previous one ends, not at the same time (overlapping wastes it). Watch the time left on the enemy's debuff."
+          },
+          "clases": ["rogue", "mage", "warlock", "priest", "hunter", "druid", "warrior", "paladin", "shaman"]
+        },
+        {
+          "termino": "Interrupt",
+          "alias": {"es": "Cortar", "en": "Interrupt / kick"},
+          "texto": {
+            "es": "Parar el hechizo que el enemigo está lanzando. Si lo cortas, además le bloqueas esa escuela de magia unos segundos. Cortes de Classic: Kick (pícaro), Pummel y Shield Bash (guerrero), Earth Shock (chamán), Counterspell (mago), Spell Lock del Felhunter (brujo) y Silence de talento (sacerdote); un aturdimiento también corta. Truco: no cortes en cuanto empieza la barra; espera al último tramo o a los hechizos importantes (sanación grande, Polymorph, Fear), porque el enemigo bueno te hará fintas.",
+            "en": "Stopping the spell the enemy is casting. A successful interrupt also locks that school of magic for a few seconds. Classic interrupts: Kick (rogue), Pummel and Shield Bash (warrior), Earth Shock (shaman), Counterspell (mage), the Felhunter's Spell Lock (warlock) and the Silence talent (priest); a stun interrupts too. Tip: don't kick the moment the cast bar starts; wait for the last part or for the spells that matter (big heals, Polymorph, Fear), because good players will fake you out."
+          },
+          "clases": ["rogue", "warrior", "shaman", "mage", "warlock", "priest", "paladin", "druid"]
+        },
+        {
+          "termino": "Juke / fake cast",
+          "alias": {"es": "Fintar el corte", "en": "Juke"},
+          "texto": {
+            "es": "Empezar un hechizo y pararlo a propósito para que el rival gaste su corte en balde; después lanzas de verdad mientras su corte se recarga. Cómo: empiezas a lanzar, miras si el enemigo de cuerpo a cuerpo o el mago está atento y, a mitad de barra, te mueves un paso (o pulsas una macro con /stopcasting) para cancelar. Funciona contra quien corta muy rápido. Es básico para sanadores y lanzadores.",
+            "en": "Starting a cast and cancelling it on purpose so the enemy wastes their interrupt; then you cast for real while their kick is on cooldown. How: start casting, check whether the melee or mage is ready to kick, and halfway through take a step (or press a /stopcasting macro) to cancel. It works against players who kick early. Essential for healers and casters."
+          },
+          "clases": ["priest", "paladin", "shaman", "druid", "mage", "warlock"]
+        },
+        {
+          "termino": "Peel",
+          "alias": {"es": "Quitarle el enemigo a un compañero", "en": "Peel"},
+          "texto": {
+            "es": "Apartar a los enemigos de un compañero que está en apuros, sobre todo del sanador: lo frenas, lo aturdes, lo asustas o lo controlas para que su compañero pueda escapar o lanzar. Ejemplos: Hamstring o Intimidating Shout del guerrero, Frost Nova del mago, Blessing of Protection del paladín, la trampa del cazador. En campos de batalla, el que hace peel gana más partidas que el que solo mira su daño.",
+            "en": "Getting enemies off a teammate in trouble, especially your healer: you slow, stun, fear or CC them so your teammate can escape or cast. Examples: the warrior's Hamstring or Intimidating Shout, the mage's Frost Nova, the paladin's Blessing of Protection, the hunter's trap. In battlegrounds, players who peel win more games than those who only watch their damage."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Trinket",
+          "alias": {"es": "Abalorio para salir del control", "en": "PvP trinket"},
+          "texto": {
+            "es": "En Classic, el abalorio de JcJ (Insignia of the Alliance / Insignia of the Horde) te saca de ciertos controles según tu clase, con una espera larga. Algunas razas tienen su propia salida (Will of the Forsaken contra miedo y encanto, Escape Artist contra raíces y ralentizaciones). Regla de oro: guárdalo para el control que de verdad te mata (un aturdimiento largo con el enemigo encima), no para el primero que te llegue. Pendiente: cómo queda el abalorio en Forever; lo comprobaremos al salir.",
+            "en": "In Classic, the PvP trinket (Insignia of the Alliance / Insignia of the Horde) frees you from certain CC depending on your class, on a long cooldown. Some races have their own break (Will of the Forsaken against fear and charm, Escape Artist against roots and slows). Golden rule: save it for the CC that actually kills you (a long stun with the enemy on top of you), not the first one you get. Pending: how the trinket works in Forever; we'll check at launch."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        }
+      ]
+    },
+    {
+      "titulo": {"es": "Visión y terreno", "en": "Line of sight and terrain"},
+      "items": [
+        {
+          "termino": "Line of sight (LoS)",
+          "alias": {"es": "Romper la línea de visión", "en": "LoS"},
+          "texto": {
+            "es": "Para lanzarte un hechizo, el enemigo tiene que verte. Si te pones detrás de una columna, una casa, un árbol grueso o una esquina, no puede: su hechizo se corta o ni empieza. Se usa para escapar de lanzadores, para que un cazador no te dispare y para que tu sanador se ponga a salvo. También sirve al revés: si el enemigo se esconde, rodea el obstáculo para volver a verlo. Detalle de Forever: Arcane Missiles solo comprueba la visión al empezar, así que esconderse a mitad ya no lo para.",
+            "en": "To cast at you, the enemy has to see you. If you get behind a pillar, a house, a thick tree or a corner, they can't: the spell fails or never starts. Use it to escape casters, to stop a hunter shooting you, and to let your healer get safe. It also works the other way: if the enemy hides, walk around the obstacle to see them again. Forever detail: Arcane Missiles only checks line of sight when the channel starts, so hiding halfway no longer stops it."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Pillar humping",
+          "alias": {"es": "Bailar alrededor de la columna", "en": "Pillar dancing"},
+          "texto": {
+            "es": "Quedarte pegado a un obstáculo y girar a su alrededor para que el enemigo nunca te vea del todo. Contra un lanzador, cada vez que empieza a lanzar das un paso y lo dejas sin visión. Contra un cuerpo a cuerpo frenado, le haces dar la vuelta entera mientras tú ganas tiempo o lanzas desde el otro lado. Mira el mapa: en los campos de batalla hay árboles, rocas y edificios que sirven de columna.",
+            "en": "Staying close to an obstacle and circling it so the enemy never gets a clean view of you. Against a caster, every time they start casting you take a step and break line of sight. Against a slowed melee, you make them run all the way around while you buy time or cast from the other side. Learn the maps: battlegrounds are full of trees, rocks and buildings that work as pillars."
+          },
+          "clases": ["priest", "paladin", "shaman", "druid", "mage", "warlock", "hunter"]
+        },
+        {
+          "termino": "Dead zone",
+          "alias": {"es": "Zona muerta del cazador", "en": "Dead zone"},
+          "texto": {
+            "es": "En Classic, el arco y el rifle no disparan a menos de 8 yardas, y el cuerpo a cuerpo llega solo hasta unas 5. Entre 5 y 8 yardas el cazador no puede ni disparar ni pegar: es la zona muerta. El cazador tiene que salir de ella (Wing Clip y correr, Concussive Shot, una trampa) y el que juega contra un cazador intenta quedarse justo ahí. Blizzard no ha anunciado que Forever la quite; si cambia, lo pondremos.",
+            "en": "In Classic, bows and guns can't fire closer than 8 yards, and melee only reaches about 5. Between 5 and 8 yards a hunter can neither shoot nor hit: that's the dead zone. Hunters need to get out of it (Wing Clip and run, Concussive Shot, a trap), and anyone fighting a hunter tries to stay right there. Blizzard hasn't announced removing it in Forever; if it changes, we'll update this."
+          },
+          "clases": ["hunter", "warrior", "rogue", "paladin", "druid", "shaman"]
+        }
+      ]
+    },
+    {
+      "titulo": {"es": "Mazmorras y bandas (PvE)", "en": "Dungeons and raids (PvE)"},
+      "items": [
+        {
+          "termino": "Threat / aggro",
+          "alias": {"es": "Amenaza", "en": "Threat / aggro"},
+          "texto": {
+            "es": "Cada monstruo lleva una lista de quién le molesta más: el daño y la sanación suman amenaza. Pega a quien va primero. El tanque tiene habilidades que dan mucha amenaza (Sunder Armor, Bear Form, Righteous Fury). Para quitarle el monstruo al tanque tienes que pasarle en un 10 % si estás cuerpo a cuerpo y en un 30 % si estás a distancia. Taunt, Growl y similares te igualan a quien va primero y te ponen en cabeza. Si vas de DPS, empieza un par de segundos después del tanque. Forever trae una opción de interfaz para ver la amenaza: busca «Threat» en las opciones (Aggro Display).",
+            "en": "Every mob keeps a list of who annoys it most: damage and healing add threat. It attacks whoever is on top. Tanks have high-threat tools (Sunder Armor, Bear Form, Righteous Fury). To pull a mob off the tank you must exceed their threat by 10% in melee range and by 30% at range. Taunt, Growl and the like match the top threat and put you first. As DPS, start a couple of seconds after the tank. Forever has a built-in threat option: search \"Threat\" in the settings (Aggro Display)."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Pull / body pull",
+          "alias": {"es": "Atraer", "en": "Pull / body pull"},
+          "texto": {
+            "es": "El pull es empezar el combate trayendo a los monstruos hacia el grupo, no meter al grupo entre ellos. Se hace con un ataque a distancia (un disparo, Shoot con la varita o el arma, un hechizo) desde lejos y luego retrocedes hasta tu sitio. El body pull es acercarte despacio al borde de su radio de detección, a pie y sin atacar, para que venga solo una parte del grupo de monstruos. Marca antes quién controla a quién (calavera, cruz...).",
+            "en": "Pulling means starting the fight by bringing the mobs to your group, not walking your group into them. Do it with a ranged attack (a shot, a wand or ranged Shoot, a spell) from a distance and then back off to your spot. A body pull is walking slowly to the edge of their aggro radius, without attacking, so only part of the pack comes. Mark targets first (skull, cross...) so everyone knows who CCs what."
+          },
+          "clases": ["warrior", "paladin", "druid", "hunter"]
+        },
+        {
+          "termino": "LoS pull",
+          "alias": {"es": "Atraer tras una esquina", "en": "LoS pull"},
+          "texto": {
+            "es": "Los monstruos que lanzan hechizos o disparan se quedan quietos atacando desde lejos. Para juntarlos, el tanque les da un golpe a distancia y se esconde detrás de una esquina o puerta con todo el grupo: como dejan de verlo, tienen que acercarse y aparecen todos juntos al lado del tanque, donde se pueden golpear a la vez. Es la forma de tratar a los lanzadores en mazmorras.",
+            "en": "Mobs that cast or shoot stay put and attack from range. To group them, the tank tags them from range and hides behind a corner or doorway with the whole party: since they lose sight, they have to walk over and end up stacked next to the tank, where you can hit them together. It's the standard way to handle caster packs in dungeons."
+          },
+          "clases": ["warrior", "paladin", "druid"]
+        },
+        {
+          "termino": "Tank and spank",
+          "alias": {"es": "Pelea sin trucos", "en": "Tank and spank"},
+          "texto": {
+            "es": "Un jefe sin mecánicas especiales: el tanque lo sujeta, los sanadores sanan y los demás pegan sin preocuparse de moverse. Aun así hay que cuidar la amenaza y no ponerse delante del jefe. Se dice de los jefes fáciles y es buen momento para probar tu rotación.",
+            "en": "A boss with no special mechanics: the tank holds it, healers heal and everyone else hits without worrying about moving. You still need to watch threat and stay out of the boss's front. People say it about easy bosses, and it's a good time to practise your rotation."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Positioning (behind the boss) / parry haste",
+          "alias": {"es": "Ponerse detrás del jefe", "en": "Positioning"},
+          "texto": {
+            "es": "Si vas cuerpo a cuerpo, pega desde la <b>espalda</b> del jefe. Por delante, el jefe puede parar (parry) tus golpes y, cada vez que para, su siguiente golpe al tanque llega antes: es el parry haste, y puede matar al tanque. Por detrás tampoco te alcanzan sus golpes frontales. Solo el tanque va delante, girando al jefe de espaldas al grupo. Aviso de la beta de Forever: había un fallo por el que los enemigos podían parar y bloquear por detrás si estabas muy pegado; no te pongas encima, deja un pequeño hueco.",
+            "en": "As melee, hit from the boss's <b>back</b>. From the front the boss can parry your attacks, and every parry makes its next swing at the tank land sooner: that's parry haste, and it can kill the tank. Behind it you're also safe from frontal attacks. Only the tank stands in front, turning the boss away from the group. Forever beta warning: there was a bug where enemies could parry and block from behind if you stood too close; don't hug the hitbox, leave a small gap."
+          },
+          "clases": ["warrior", "rogue", "paladin", "shaman", "druid"]
+        },
+        {
+          "termino": "Cleave",
+          "alias": {"es": "Golpe en abanico", "en": "Cleave"},
+          "texto": {
+            "es": "Tiene dos usos. (1) Un ataque del jefe que golpea a todos los que están delante de él: si no eres tanque, no te pongas en su frente. (2) Tu propio daño a varios objetivos pegados (Cleave y Whirlwind del guerrero, Multi-Shot, Swipe...): «cleavear» es aprovechar que los monstruos están juntos. En mazmorras, no golpees en área a un monstruo que está controlado: lo despiertas.",
+            "en": "Two meanings. (1) A boss attack that hits everyone in front of it: if you're not the tank, stay out of its front. (2) Your own damage to several stacked targets (the warrior's Cleave and Whirlwind, Multi-Shot, Swipe...): \"cleaving\" means taking advantage of mobs standing together. In dungeons, don't AoE a mob that's under CC: you'll wake it up."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Leash / reset (evade)",
+          "alias": {"es": "Correa / reinicio", "en": "Leash / reset"},
+          "texto": {
+            "es": "Si arrastras un monstruo o jefe demasiado lejos de su sitio, se cansa, se vuelve corriendo, no recibe daño mientras regresa (sale «Evade») y empieza de cero. En Classic, cada golpe que le das alarga esa correa, así que un monstruo kiteado sin parar te puede seguir lejos. En banda, sirve para reiniciar un jefe que va mal: todo el grupo se aleja y el jefe vuelve a su sitio. Al revés, si quieres matarlo, no lo saques de su zona.",
+            "en": "If you drag a mob or boss too far from its spot, it gives up, runs back, takes no damage on the way (you see \"Evade\") and starts over. In Classic, every hit you land extends that leash, so a mob you keep kiting can follow you a long way. In raids it's how you reset a bad pull: everyone runs away and the boss goes home. If you want it dead, keep it in its area."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Mob kiting / AoE kiting",
+          "alias": {"es": "Llevar monstruos en fila", "en": "Mob kiting"},
+          "texto": {
+            "es": "Hacer kiting contra monstruos para no recibir golpes. Un cazador frena a uno y lo deja a manos de la mascota; un mago de Escarcha junta un grupo, los congela con Frost Nova, se aleja (Blink) y los castiga con Blizzard y Cone of Cold mientras van frenados. Funciona con monstruos que no lanzan hechizos ni huyen. Antes de empezar, mira que no haya más grupos por el camino: si añades monstruos, se acaba el truco.",
+            "en": "Kiting mobs so they never hit you. A hunter slows one and leaves it to the pet; a Frost mage gathers a pack, freezes it with Frost Nova, Blinks away and grinds it down with Blizzard and Cone of Cold while it's slowed. It works on mobs that don't cast or flee. Before starting, check your path for other packs: adding more mobs ends the trick."
+          },
+          "clases": ["mage", "hunter", "warlock", "shaman", "druid"]
+        }
+      ]
+    },
+    {
+      "titulo": {"es": "Recursos y tiempos", "en": "Resources and timers"},
+      "items": [
+        {
+          "termino": "Five-second rule (FSR)",
+          "alias": {"es": "Regla de los cinco segundos", "en": "Five-second rule"},
+          "texto": {
+            "es": "Después de gastar maná, tu regeneración por Spirit se para durante 5 segundos. Si pasan 5 segundos sin lanzar nada que cueste maná, vuelve. Cuenta todo lo que gasta maná, también los instantáneos y los tótems del chamán. Por eso los sanadores esperan un poco entre sanaciones cuando el grupo está bien, en vez de lanzar sin parar, y al subir de nivel conviene rematar con la varita o con golpes normales en lugar de con otro hechizo: el enemigo cae igual y el maná vuelve antes. Lo que no cuenta: los hechizos gratis (Clearcasting) y la estadística de maná cada 5 segundos (mp5), que regenera siempre.",
+            "en": "After spending mana, your Spirit-based regeneration stops for 5 seconds. If 5 seconds pass without casting anything that costs mana, it comes back. Everything that costs mana counts, including instants and shaman totems. That's why healers pause between heals when the group is fine instead of casting non-stop, and why, while leveling, you should finish mobs with your wand or plain melee instead of another spell: the mob dies just the same and your mana starts coming back sooner. Exceptions: free casts (Clearcasting) and the mana-per-5-seconds stat (mp5), which always regenerates."
+          },
+          "clases": ["priest", "paladin", "shaman", "druid", "mage", "warlock", "hunter"]
+        },
+        {
+          "termino": "Mana tick",
+          "alias": {"es": "Tic de maná", "en": "Mana tick"},
+          "texto": {
+            "es": "El maná y la vida no suben de forma continua, sino a saltos cada 2 segundos. Los jugadores finos se fijan en el tic: lanzan justo después de recibirlo para perder lo mínimo, o esperan medio segundo al siguiente si van justos. Con la bebida pasa lo mismo: si te levantas un instante antes del último tic, pierdes ese trozo.",
+            "en": "Mana and health don't refill smoothly, they jump every 2 seconds. Careful players watch the tick: they cast right after it lands to waste as little as possible, or wait half a second for the next one when they're short. Drinking works the same way: stand up a moment before the last tick and you lose that chunk."
+          },
+          "clases": ["priest", "paladin", "shaman", "druid", "mage", "warlock", "hunter"]
+        },
+        {
+          "termino": "Swing timer",
+          "alias": {"es": "Temporizador de golpe", "en": "Swing timer"},
+          "texto": {
+            "es": "El tiempo que tarda tu arma en dar el siguiente golpe automático (la velocidad del arma: 3,6 es lenta, 1,5 rápida). En el cuerpo a cuerpo lo usas para pegar y salir, para no cortar tu propio golpe y para encajar habilidades que van con el golpe (Heroic Strike, Raptor Strike). El cazador tiene el suyo con Auto Shot: si te mueves cuando va a disparar, lo retrasas. Ayuda mucho un addon de temporizador de golpe o el Cooldown Manager de Forever bien colocado. Las habilidades instantáneas como Hamstring no reinician el golpe; Slam sí lo hace.",
+            "en": "The time until your weapon's next auto-attack (weapon speed: 3.6 is slow, 1.5 fast). In melee you use it to hit and step out, to avoid clipping your own swing and to fit on-swing abilities (Heroic Strike, Raptor Strike). Hunters have their own with Auto Shot: moving right before it fires delays it. A swing timer addon, or Forever's Cooldown Manager set up well, helps a lot. Instants like Hamstring don't reset your swing; Slam does."
+          },
+          "clases": ["warrior", "rogue", "paladin", "shaman", "hunter", "druid"]
+        },
+        {
+          "termino": "On-next-swing attacks",
+          "alias": {"es": "Ataques que sustituyen al golpe normal", "en": "Next-swing abilities"},
+          "texto": {
+            "es": "Heroic Strike, Cleave (guerrero) y Maul (druida oso) no son golpes extra: <b>cambian tu siguiente golpe automático</b> por uno más fuerte. Ese golpe ya no te da la ira que habría dado uno normal, así que en la práctica cuestan más de lo que pone el tooltip. Úsalos solo cuando te sobre ira (por ejemplo, cerca del máximo); si vas justo, deja que salgan golpes normales y guarda la ira para tus habilidades principales.",
+            "en": "Heroic Strike, Cleave (warrior) and Maul (bear druid) aren't extra attacks: they <b>replace your next auto-attack</b> with a stronger one. That swing no longer gives the rage a normal hit would, so in practice they cost more than the tooltip says. Use them only when you have rage to spare (say, close to the cap); when rage is tight, let normal swings land and keep the rage for your core abilities."
+          },
+          "clases": ["warrior", "druid"]
+        },
+        {
+          "termino": "Rage pooling",
+          "alias": {"es": "Guardar ira", "en": "Rage pooling"},
+          "texto": {
+            "es": "Acabar un combate con ira guardada para empezar el siguiente pegando fuerte desde el primer segundo; en bandas, guardarla entre grupos de monstruos para llegar al jefe con ira. Cómo funciona la ira en Forever: la de los golpes normales está normalizada (un arma que pega más no da más ira por golpe), los críticos dan el doble, y ni la armadura ni los escudos que absorben daño reducen la ira que recibes al encajar golpes. Recuerda que cambiar de actitud (stance) tira la ira acumulada, salvo la que te deje conservar Tactical Mastery.",
+            "en": "Ending a fight with rage saved so you open the next one hitting hard from the first second; in raids, saving it between trash packs so you reach the boss with rage. How rage works in Forever: white-hit rage is normalized (a harder-hitting weapon doesn't give more rage per swing), crits give double, and neither armor nor absorb shields reduce the rage you get from being hit. Remember that switching stance dumps your stored rage, except what Tactical Mastery lets you keep."
+          },
+          "clases": ["warrior", "druid"]
+        },
+        {
+          "termino": "Spell batching",
+          "alias": {"es": "Lotes de hechizos", "en": "Spell batching"},
+          "texto": {
+            "es": "Forever, como Classic, no resuelve las acciones una a una al instante: las agrupa en «lotes» de tiempo muy cortos, y lo que cae en el mismo lote se resuelve a la vez. Se nota en cosas raras (dos jugadores que se aturden mutuamente a la vez) y se puede aprovechar: si pulsas un instantáneo justo antes de que termine un lanzamiento largo, los dos llegan juntos y aprovechan el mismo efecto. Ejemplo del mago de Escarcha: con una carga de Fingers of Frost, Frostbolt y Ice Lance pueden beneficiarse los dos si el Ice Lance sale pegado al final del Frostbolt. Practícalo antes de fiarte de él.",
+            "en": "Forever, like Classic, doesn't resolve actions one by one instantly: it groups them into very short time \"batches\", and anything in the same batch resolves together. You notice it in odd moments (two players stunning each other at the same time), and you can use it: press an instant right before a long cast finishes and both land together and benefit from the same effect. Frost mage example: with one Fingers of Frost charge, both Frostbolt and Ice Lance can benefit if the Ice Lance goes out right at the end of the Frostbolt. Practise it before relying on it."
+          },
+          "clases": ["mage", "warlock", "priest", "shaman", "druid", "hunter", "rogue", "warrior", "paladin"]
+        },
+        {
+          "termino": "Spell pushback",
+          "alias": {"es": "Retraso por golpe", "en": "Pushback"},
+          "texto": {
+            "es": "Cuando te golpean mientras lanzas, la barra retrocede y el hechizo tarda más; en los canalizados (Arcane Missiles, Drain Life, Mind Flay), el tiempo de canalización se acorta. Contra eso: lanza fuera del alcance del cuerpo a cuerpo, pide que te protejan, usa Power Word: Shield (si absorbe todo el golpe, no retrocedes) o Concentration Aura del paladín. Algunos talentos lo reducen. En Forever, Slam del guerrero ya no sufre retraso y Starshards lo resiste con el talento Twilight Focus.",
+            "en": "When you get hit while casting, the cast bar slides back and the spell takes longer; channelled spells (Arcane Missiles, Drain Life, Mind Flay) get shortened instead. Counters: cast out of melee range, ask for peel, use Power Word: Shield (if it absorbs the whole hit there's no pushback) or the paladin's Concentration Aura. Some talents reduce it. In Forever, the warrior's Slam no longer suffers pushback, and Starshards resists it with the Twilight Focus talent."
+          },
+          "clases": ["priest", "mage", "warlock", "shaman", "druid", "paladin", "hunter", "warrior"]
+        }
+      ]
+    },
+    {
+      "titulo": {"es": "Teclas y macros", "en": "Keybinds and macros"},
+      "items": [
+        {
+          "termino": "Keybinds vs clicking",
+          "alias": {"es": "Teclas, no clics", "en": "Keybinding"},
+          "texto": {
+            "es": "Un «clicker» lanza las habilidades pulsando los iconos con el ratón; un jugador con keybinds las tiene en teclas. Con teclas reaccionas antes y puedes moverte a la vez. Regla práctica: mano izquierda en W A S D y las habilidades alrededor (1-5, Q, E, R, F, G, Z, X, C y las mismas con Shift); lo que más uses, más cerca. Los botones laterales del ratón son ideales para cortes y salidas. Se configura en Opciones > Atajos de teclado (Keybindings).",
+            "en": "A \"clicker\" fires abilities by clicking icons with the mouse; a player with keybinds has them on keys. With keys you react faster and can move at the same time. Rule of thumb: left hand on W A S D with abilities around it (1-5, Q, E, R, F, G, Z, X, C and the same with Shift); the more you use it, the closer the key. Side mouse buttons are great for interrupts and escapes. Set them in Options > Keybindings."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Mouse turning",
+          "alias": {"es": "Girar con el ratón", "en": "Mouse turning"},
+          "texto": {
+            "es": "Gira siempre con el <b>botón derecho del ratón</b> apretado, no con las teclas de girar. El teclado gira lento y a velocidad fija; el ratón gira al instante, que es lo que necesitas para encarar a un pícaro que se te pone detrás, para girar en el salto o para no perder de vista al objetivo. Libera A y D para correr de lado. Las dos teclas del ratón a la vez te hacen correr hacia delante.",
+            "en": "Always turn while holding the <b>right mouse button</b>, not with the turn keys. Keyboard turning is slow and fixed-speed; the mouse turns instantly, which is what you need to face a rogue behind you, to jump-turn, or to keep your target in view. Free up A and D for strafing. Both mouse buttons together make you run forward."
+          },
+          "clases": ["warrior", "paladin", "hunter", "rogue", "priest", "shaman", "mage", "warlock", "druid"]
+        },
+        {
+          "termino": "Mouseover macro",
+          "alias": {"es": "Lanzar sobre lo que señalas", "en": "Mouseover"},
+          "texto": {
+            "es": "Una macro que lanza el hechizo sobre el personaje que tienes bajo el puntero, sin cambiar de objetivo. Para un sanador es oro: apuntas al recuadro del compañero en el grupo y pulsas la tecla. Plantilla: <i>#showtooltip</i> en la primera línea y <i>/cast [@mouseover,help,nodead][] Flash of Light</i> en la segunda (cambia el nombre del hechizo por el tuyo; si no hay nadie bajo el ratón, lo lanza sobre tu objetivo). Las de área en el suelo se pueden hacer con <i>[@cursor]</i>.",
+            "en": "A macro that casts on whoever is under your mouse pointer, without changing target. For a healer it's gold: hover a party frame and press the key. Template: <i>#showtooltip</i> on the first line and <i>/cast [@mouseover,help,nodead][] Flash of Light</i> on the second (swap in your own spell; with nobody under the mouse it falls back to your target). Ground-targeted spells can use <i>[@cursor]</i>."
+          },
+          "clases": ["priest", "paladin", "shaman", "druid", "mage", "warlock", "rogue", "warrior", "hunter"]
+        },
+        {
+          "termino": "Focus macro",
+          "alias": {"es": "Macro de foco", "en": "Focus"},
+          "texto": {
+            "es": "Marcas a un segundo enemigo como «foco» (/focus) y lanzas sobre él sin dejar de atacar a tu objetivo. Sirve para volver a poner Polymorph o Sap al que estás controlando, o para cortar al sanador enemigo mientras pegas a otro. Ejemplo: <i>/cast [@focus,harm,nodead][] Polymorph</i>. Forever acepta macros de foco (las notas de la beta corrigen un fallo justo con una de ellas).",
+            "en": "You mark a second enemy as your \"focus\" (/focus) and cast on it without leaving your main target. Use it to refresh Polymorph or Sap on your CC target, or to kick the enemy healer while hitting someone else. Example: <i>/cast [@focus,harm,nodead][] Polymorph</i>. Forever supports focus macros (the beta notes fixed a bug with one)."
+          },
+          "clases": ["mage", "rogue", "warlock", "priest", "druid", "hunter", "shaman", "warrior", "paladin"]
+        },
+        {
+          "termino": "/stopcasting + spell queue",
+          "alias": {"es": "Cortar tu propio hechizo y encadenar", "en": "Stopcasting and spell queuing"},
+          "texto": {
+            "es": "Con <i>/stopcasting</i> en la primera línea de una macro, paras lo que estés lanzando y sueltas lo de la macro al momento: ideal para el corte o el escape urgente («/stopcasting» y debajo «/cast Counterspell»). Y no hace falta esperar a que acabe del todo un hechizo para pulsar el siguiente: el juego deja «encolar» el siguiente si lo pulsas un poco antes del final, así no pierdes tiempo entre lanzamientos. En Forever, además, puedes colocar tus esperas importantes donde quieras con el Cooldown Manager (Opciones > Gameplay Enhancement) y mover barras con Edit Mode.",
+            "en": "With <i>/stopcasting</i> on the first line of a macro, you stop whatever you're casting and fire the macro's spell instantly: perfect for an urgent interrupt or escape (\"/stopcasting\" then \"/cast Counterspell\"). And you don't need to wait for a cast to fully finish before pressing the next one: the game lets you queue the next spell if you press it just before the end, so you lose no time between casts. In Forever you can also place your key cooldowns anywhere with the Cooldown Manager (Options > Gameplay Enhancement) and move bars with Edit Mode."
+          },
+          "clases": ["mage", "priest", "warlock", "shaman", "druid", "paladin", "hunter", "rogue", "warrior"]
+        }
+      ]
+    }
+  ],
+  "fuentes": [
+    {"nombre": "Icy Veins: guía de subir de nivel del mago de Escarcha (WoW Forever)", "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling"},
+    {"nombre": "Icy Veins: guía de subir de nivel del guerrero de Protección (WoW Forever)", "url": "https://www.icy-veins.com/wow-forever/protection-warrior-leveling"},
+    {"nombre": "Icy Veins: guía de subir de nivel del druida Feral (WoW Forever)", "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling"},
+    {"nombre": "Notas de la beta de WoW Forever (foros de Blizzard)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
+    {"nombre": "Warcraft Wiki: Kiting (Classic y otras ediciones)", "url": "https://warcraft.wiki.gg/wiki/Kiting"},
+    {"nombre": "Warcraft Wiki: Speed (velocidades de carrera y hacia atrás)", "url": "https://warcraft.wiki.gg/wiki/Speed"},
+    {"nombre": "Warcraft Wiki: Diminishing returns (reinicio de 15-20 s en Classic)", "url": "https://warcraft.wiki.gg/wiki/Diminishing_returns"},
+    {"nombre": "Warcraft Wiki: Threat", "url": "https://warcraft.wiki.gg/wiki/Threat"},
+    {"nombre": "Warcraft Wiki: Five second rule", "url": "https://warcraft.wiki.gg/wiki/Five_second_rule"},
+    {"nombre": "Warcraft Wiki: Parry", "url": "https://warcraft.wiki.gg/wiki/Parry"},
+    {"nombre": "Warcraft Wiki: Dead zone", "url": "https://warcraft.wiki.gg/wiki/Dead_zone"},
+    {"nombre": "Warcraft Wiki: Leash", "url": "https://warcraft.wiki.gg/wiki/Leash"},
+    {"nombre": "Warcraft Wiki: Pushback (reglas generales, de varias ediciones)", "url": "https://warcraft.wiki.gg/wiki/Pushback"},
+    {"nombre": "Foros de Blizzard: saltar y girar en combate (WoW Classic)", "url": "https://us.forums.blizzard.com/en/wow/t/jumping-in-combat/439577"},
+    {"nombre": "Foros de Blizzard: spell batching y leeway (WoW Classic)", "url": "https://us.forums.blizzard.com/en/wow/t/spell-batching-and-leeway/209557"},
+    {"nombre": "Foros de Blizzard: hamstring kiting del guerrero (WoW Classic)", "url": "https://us.forums.blizzard.com/en/wow/t/warrior-hamstring-method/279845"},
+    {"nombre": "Icy Veins: guía de JcJ del guerrero (WoW Classic)", "url": "https://icy-veins.com/wow-classic/classic-warrior-pvp-guide"},
+    {"nombre": "Warcraft Tavern: macros y consejos de cazador (WoW Classic)", "url": "https://warcrafttavern.com/wow-classic/guides/hunter-macros-tips"},
+    {"nombre": "Warcraft Tavern: introducción del pícaro a las arenas (TBC Classic)", "url": "https://www.warcrafttavern.com/tbc/guides/rogue-introduction-to-arenas/"},
+    {"nombre": "Skill Capped: glosario de JcJ (Retail; solo las definiciones generales)", "url": "https://www.skill-capped.com/wowarticles/general/pvp-glossary/"}
+  ]
+}
