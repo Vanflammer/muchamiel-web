@@ -45,7 +45,7 @@ BRANDS = [
 MEDIA = [('79,1 K', 'suscriptores en YouTube'), ('73 M', 'visualizaciones en YouTube'), ('35,6 K', 'seguidores en Twitch'), ('8,4 K', 'seguidores en Kick'),
          ('460 K', 'me gusta en TikTok'), ('14,2 K', 'seguidores en TikTok'), ('20–110 K', 'visitas por vídeo de WoW Forever'), ('A diario', 'directos en Twitch y Kick')]
 
-STATS = dict(yt_subs=79100, yt_goal=100000, tw_subs=1837, tw_goal=2000, tw_followers=35663, kick_followers=8470)  # Kick: API de Kick, 16-10
+STATS = dict(yt_subs=83100, yt_goal=100000, tw_subs=1837, tw_goal=2000, tw_followers=35663, kick_followers=8470)  # Kick: API de Kick, 16-10
 
 # Bios copiadas de sus perfiles (09-10-2026).
 BIOS = [
@@ -339,6 +339,7 @@ document.querySelectorAll('.menu-btn').forEach(function(b){var m=b.parentNode;b.
 document.querySelectorAll('.menu-live>a.live').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var m=a.parentNode,o=m.classList.toggle('open');a.setAttribute('aria-expanded',o)})});
 check();setInterval(check,120000);
 document.querySelectorAll('[data-twitch-followers]').forEach(function(el){txt('https://decapi.me/twitch/followcount/'+CH).then(function(t){var n=parseInt(t,10);if(n>0)el.textContent=String(n).replace(/\B(?=(\d{3})+(?!\d))/g,EN?',':'.')})});document.querySelectorAll('[data-kick-followers]').forEach(function(el){fetch('https://kick.com/api/v2/channels/'+CH,{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).then(function(d){var n=parseInt(d&&d.followers_count,10);if(n>0)el.textContent=String(n).replace(/\B(?=(\d{3})+(?!\d))/g,EN?',':'.')}).catch(function(){})});
+/* Van 30-10: suscriptores de YouTube al día (datos/youtube.json, lo escribe la tarea de GitHub cada 20 min) */document.querySelector('[data-yt-subs]')&&fetch(BASE+'datos/youtube.json?v='+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).then(function(d){var n=+d.subs;if(!(n>0))return;var k=(n/1000).toFixed(1);document.querySelectorAll('[data-yt-subs]').forEach(function(el){el.textContent=EN?k:k.replace('.',',')});document.querySelectorAll('[data-yt-bar]').forEach(function(el){el.style.width=Math.min(100,n/1000)+'%'});document.querySelectorAll('[data-yt-80]').forEach(function(el){el.textContent=n>=80000?(EN?'(done!)':'(¡conseguido!)'):(EN?'(almost!)':'(¡casi!)')})}).catch(function(){});
 document.querySelectorAll('[data-countdown]').forEach(function(el){var d=new Date(el.getAttribute('data-countdown')+'T00:00:00'),now=new Date(),days=Math.ceil((d-now)/864e5);
 el.textContent=EN?(days>1?days+' days':days===1?'Tomorrow!':days>=-1?'Today!':'Finished'):(days>1?days+' días':days===1?'¡Mañana!':days>=-1?'¡Es hoy!':'Terminado')});
 })();'''
@@ -398,15 +399,15 @@ def roads():
     yt, tw = STATS['yt_subs'], STATS['tw_subs']
     yt_txt = f'{yt / 1000:.1f}'.replace('.', ',')
     return ('<div class="roads">'
-            f'<div class="road yt"><div class="road-top"><strong>Road to 100K</strong><span>{yt_txt} K / 100 K</span></div>'
-            f'<div class="bar"><i style="width:{yt / STATS["yt_goal"] * 100:.1f}%"></i></div>'
-            '<p>Suscriptores en YouTube. Sorteo de <strong>2 meses de WoW a los 80 K</strong> (¡casi!) y de <strong>1 añazo a los 100 K</strong>, solo por suscribirte.</p>'
+            f'<div class="road yt"><div class="road-top"><strong>Road to 100K</strong><span><span data-yt-subs>{yt_txt}</span> K / 100 K</span></div>'
+            f'<div class="bar"><i data-yt-bar style="width:{yt / STATS["yt_goal"] * 100:.1f}%"></i></div>'
+            f'<p>Suscriptores en YouTube. Sorteo de <strong>2 meses de WoW a los 80 K</strong> <span data-yt-80>{"(¡conseguido!)" if yt >= 80000 else "(¡casi!)"}</span> y de <strong>1 añazo a los 100 K</strong>, solo por suscribirte.</p>'
             f'<a class="btn yt" href="{YT_SUB}" target="_blank" rel="noopener noreferrer">Suscribirme en YouTube</a></div>'
             f'<div class="road tw"><div class="road-top"><strong>Road to 2K subs</strong><span>{miles(tw)} / {miles(STATS["tw_goal"])}</span></div>'
             f'<div class="bar"><i style="width:{tw / STATS["tw_goal"] * 100:.1f}%"></i></div>'
             f'<p>Subs en Twitch. Al llegar a 2.000: <strong>sorteo de 1 año de WoW</strong>. Faltan {STATS["tw_goal"] - tw}.</p>'
             f'<a class="btn tw" href="https://www.twitch.tv/subs/muchamiel" target="_blank" rel="noopener noreferrer">Suscribirme en Twitch</a></div>'
-            f'</div><p class="fine">Cifras del {FECHA_DATOS}; se actualizan a mano.</p>')
+            f'</div><p class="fine">Los suscriptores de YouTube se actualizan solos; los subs de Twitch, a mano (cifra del {FECHA_DATOS}).</p>')
 
 
 CENTRADAS = {'addons', 'torneo', 'noticias', 'sorteos', 'colaboraciones', 'clases', 'calendario'}  # páginas con todo centrado (petición de Van)
@@ -1231,8 +1232,8 @@ def build_pages():
     body = ('<p class="eyebrow">SORTEOS EN MARCHA</p><h1>Sorteos de Muchamiel</h1>'
             '<p class="lead">WoW gratis por apoyar al canal. Cada meta que se alcanza, se sortea. Así de sencillo.</p>' + roads() +
             '<div class="divider"><h2>Qué se sortea</h2></div><div class="cards3">'
-            '<div class="prize"><span class="tag">EN MARCHA</span><h3>2 meses de WoW</h3><p>Al llegar a <strong>80.000 suscriptores en YouTube</strong>. Solo tienes que suscribirte. Está a un paso.</p>'
-            f'<a class="btn yt" href="{YT_SUB}" target="_blank" rel="noopener noreferrer">Suscribirme</a></div>'
+            + ('<div class="prize"><span class="tag">META CONSEGUIDA</span><h3>2 meses de WoW</h3><p>Su YouTube ya ha pasado de los <strong>80.000 suscriptores</strong>. Muchamiel anunciará en directo cuándo lo sortea.</p>' if STATS['yt_subs'] >= 80000 else '<div class="prize"><span class="tag">EN MARCHA</span><h3>2 meses de WoW</h3><p>Al llegar a <strong>80.000 suscriptores en YouTube</strong>. Solo tienes que suscribirte. Está a un paso.</p>')
+            + f'<a class="btn yt" href="{YT_SUB}" target="_blank" rel="noopener noreferrer">Suscribirme</a></div>'
             '<div class="prize"><span class="tag">EN MARCHA</span><h3>1 añazo de WoW</h3><p>Al llegar a <strong>100.000 suscriptores en YouTube</strong>. El gran objetivo del canal: Road to 100K.</p>'
             f'<a class="btn yt" href="{YT_SUB}" target="_blank" rel="noopener noreferrer">Suscribirme</a></div>'
             '<div class="prize"><span class="tag">EN MARCHA</span><h3>1 año de WoW</h3><p>Al llegar a <strong>2.000 subs en Twitch</strong>. Si tienes Amazon Prime, tu sub de Prime Gaming es gratis cada mes: úsala aquí.</p>'
