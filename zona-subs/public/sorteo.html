@@ -73,6 +73,14 @@ select{width:100%;background:#0a0806;color:var(--txt);border:1px solid #4a3a1c;b
 .registro .r{color:#ff6a4a}.registro .g{color:var(--leg);font-weight:700}
 @keyframes respira{50%{transform:scale(1.05)}}@keyframes sacude{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
 @keyframes grita{from{transform:scale(1.6);opacity:0}to{transform:scale(1);opacity:1}}@keyframes sube{to{transform:translateY(-22px);opacity:0}}
+/* Batalla animada (canvas) */
+.arena{display:none;position:relative;margin:18px 0;border-radius:14px;border:2px solid #6b5426;overflow:hidden;background:#000;box-shadow:0 10px 40px #0009}
+.arena.ver{display:block}
+#lienzo{display:block;width:100%;aspect-ratio:16/9;max-height:calc(100vh - 24px);object-fit:contain;background:#000}
+.arena-pc{position:absolute;right:8px;bottom:8px;padding:4px 10px!important;font-size:16px!important;opacity:.55}.arena-pc:hover{opacity:1}
+.arena-aviso{position:absolute;left:8px;bottom:8px;font-size:13px;color:#ffd9a0;background:#000a;border-radius:6px;padding:3px 8px;display:none}
+.arena:fullscreen{display:flex;align-items:center;justify-content:center;border:0;border-radius:0;margin:0}
+.arena:fullscreen #lienzo{width:100vw;height:100vh;max-height:none;aspect-ratio:auto}
 body.directo .config{display:none}body.directo main{max-width:1400px}
 @media(max-width:760px){.rejilla{grid-template-columns:1fr}.resumen{grid-template-columns:repeat(2,1fr)}.carta{width:130px}.pesos{grid-template-columns:repeat(2,1fr)}}
 </style></head>
@@ -99,10 +107,11 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <div><b class="qg">Gratis</b><input type="number" id="pg" min="0" max="100" value="1"></div>
 </div>
 <label>Cómo se sortea</label>
-<div class="modos"><label><input type="radio" name="modo" value="jefe" checked> 🐉 Jefe de banda</label><label><input type="radio" name="modo" value="ruleta"> 🎰 Ruleta de botín</label></div>
+<div class="modos"><label><input type="radio" name="modo" value="batalla" checked> ⚔️ Batalla animada</label><label><input type="radio" name="modo" value="jefe"> 🐉 Jefe de banda</label><label><input type="radio" name="modo" value="ruleta"> 🎰 Ruleta de botín</label></div>
 <label>Jefe</label><select id="jefe"><option value="onyxia">Onyxia</option><option value="ragnaros">Ragnaros</option><option value="hogger">Hogger</option></select>
 <label class="check"><input type="checkbox" id="quitar" checked> Quien gana, sale del bombo (no repite)</label>
 <label class="check"><input type="checkbox" id="sonido" checked> Sonido de botín</label>
+<label class="check"><input type="checkbox" id="grabar"> 🎥 Grabar vídeo de la batalla (se descarga al acabar, .webm)</label>
 <label>Ganadores de golpe</label><input type="number" id="cuantos" min="1" max="20" value="1">
 <p class="aviso">Nada de esto se guarda en ningún sitio: todo pasa en tu navegador. El azar usa el generador criptográfico del navegador.</p>
 </section>
@@ -121,6 +130,8 @@ body.directo .config{display:none}body.directo main{max-width:1400px}
 <div class="marcos" id="marcos"></div>
 <div class="registro" id="registro"></div>
 </section>
+<section class="arena" id="arena"><canvas id="lienzo" width="1280" height="720" aria-label="Batalla contra el jefe"></canvas>
+<button class="btn gris arena-pc" id="arenaPantalla" title="Solo la batalla a pantalla completa">⛶</button><div class="arena-aviso" id="arenaAviso"></div></section>
 <div class="escenario" id="escenarioRuleta"><div class="aguja"></div><div class="cinta" id="cinta"></div><div class="vacio" id="vacio">Pega la lista para empezar</div></div>
 <div class="ganador" id="ganador"></div>
 
@@ -194,7 +205,7 @@ function tono(f, t0, dur, tipo = 'triangle', vol = .12) {
   ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
   const o = ctx.createOscillator(), g = ctx.createGain(); o.type = tipo; o.frequency.value = f;
   g.gain.setValueAtTime(0, ctx.currentTime + t0); g.gain.linearRampToValueAtTime(vol, ctx.currentTime + t0 + .02); g.gain.exponentialRampToValueAtTime(.0001, ctx.currentTime + t0 + dur);
-  o.connect(g).connect(ctx.destination); o.start(ctx.currentTime + t0); o.stop(ctx.currentTime + t0 + dur + .05);
+  o.connect(g).connect(ctx.destination); if (window.grabSonido) g.connect(window.grabSonido); o.start(ctx.currentTime + t0); o.stop(ctx.currentTime + t0 + dur + .05);
 }
 const tic = () => $('sonido').checked && tono(1200, 0, .05, 'square', .03);
 const fanfarria = () => $('sonido').checked && [523, 659, 784, 1047, 1319].forEach((f, i) => tono(f, i * .11, .6 + i * .05));
@@ -278,8 +289,10 @@ const JEFES = {
 const pausa = ms => new Promise(r => setTimeout(r, ms));
 function modo() { return document.querySelector('[name=modo]:checked').value; }
 function vistaModo() {
-  const j = modo() === 'jefe';
-  $('banda').classList.toggle('ver', j); $('escenarioRuleta').style.display = j ? 'none' : '';
+  const m = modo(), j = m === 'jefe';
+  $('banda').classList.toggle('ver', j); $('escenarioRuleta').style.display = m === 'ruleta' ? '' : 'none';
+  $('arena').classList.toggle('ver', m === 'batalla');
+  if (m === 'batalla' && !girando && typeof arenaReposo === 'function') arenaReposo();
   const J = JEFES[$('jefe').value];
   $('jefeImg').src = `https://wow.zamimg.com/images/wow/icons/large/${J.i}.jpg`; $('jefeNombre').textContent = J.n;
   if (j && !girando) pintaBanda(bombo());
@@ -346,7 +359,8 @@ $('sortear').onclick = async () => {
   const n = Math.max(1, Math.min(20, parseInt($('cuantos').value) || 1));
   for (let i = 0; i < n; i++) {
     if (!bombo().length) break;
-    await (modo() === 'jefe' ? tiradaJefe() : tirada());
+    const m = modo();
+    await (m === 'jefe' ? tiradaJefe() : m === 'batalla' ? tiradaBatalla() : tirada());
     if (i < n - 1) await pausa(3000);
   }
 };
