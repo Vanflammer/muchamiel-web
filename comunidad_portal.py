@@ -827,6 +827,9 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
     ('confirmado', 'inv_sword_39', 'La misión legendaria de primavera',
      'Confirmada para la primavera de 2027, junto a dos bandas nuevas (10 y 20) y dos mazmorras. Blizzard no ha dicho qué arma será ni para qué clase.',
      'Blizzard: hoja de ruta'),
+    ('rumor', 'achievement_worganhead', 'Rumor: huargen, elfos oscuros y Gilneas en un paquete de pago',
+     'Un mensaje anónimo en 4chan habla de un primer paquete de contenido de pago, «Sombras de Lordaeron», poco después del lanzamiento: <strong>huargen para la Alianza y elfos oscuros para la Horda</strong>, <strong>Gilneas</strong> como zona nueva, dos bandas, dos mazmorras (la Mansión Mistmantle, en el Bosque del Ocaso, y unas catacumbas en Riverglades) y un arma legendaria para sanadores. No hay ninguna prueba y Blizzard no ha dicho nada. Lo que sí es cierto: Gilneas y la Mansión Mistmantle ya están en el juego, cerradas (más arriba, en «Mansiones y portales escondidos»).',
+     'Mensaje anónimo en 4chan, comentado por AlterTime (2-11). Sin ninguna confirmación.'),
     ('juego', 'spell_nature_healingtouch', 'Cambios de última hora sin anunciar (30 de octubre)',
      'A cinco días del lanzamiento han aparecido cambios en los datos que Blizzard no ha anunciado: <strong>el druida cambia su árbol de talentos</strong> (adiós a Berserk; llegan Bloom y Predatory Discipline; Wild Growth pasa a tener 3 s de lanzamiento; Shifting Power y Primal Bite bajan a la fila 7), <strong>el mago de Escarcha sube mucho</strong> (Ice Lance hace un 300% a objetivos congelados, Ice Barrier da un 15% de daño de escarcha y Winter\'s Chill un 20% por acumulación), el sacerdote puede quitar enfermedades en Shadowform y la Revenge del guerrero escala con el poder de ataque. Además, las raíces de varias clases comparten ya rendimientos decrecientes y el Ultralight Goblin Glider pasa a 5 min de recarga. Puede cambiar otra vez: lo vamos poniendo en cada guía de clase.',
      'Datos del servidor y del cliente recogidos por <a href="https://foreverchanges.pro/patch-notes" target="_blank" rel="noopener noreferrer">ForeverChanges</a> (28 y 30-10). Sin nota de Blizzard.'),
@@ -1207,6 +1210,9 @@ def build_pages():
     body = ('<p class="eyebrow">YOUTUBE · BETA DE WOW FOREVER</p><h1>Noticias de WoW Forever</h1>'
             '<p class="lead">Todo lo que Muchamiel ha contado de WoW Forever durante la beta y el camino al torneo de 100.000 $. Pulsa una miniatura para verlo en YouTube.</p>'
             '<div class="divider ultima"><h2>Última hora</h2></div>'  # Van 15-10: lo primero de Noticias (clase propia para que youtube_auto meta su bloque después)
+            '<a class="news-card" href="../lanzamiento/"><span class="badge-new">ÚLTIMA HORA</span><span><p class="eyebrow">BLIZZARD · 2 DE NOVIEMBRE</p>'
+            '<h3>Mantenimiento largo antes del lanzamiento</h3><p>Blizzard ha anunciado un mantenimiento largo el miércoles 4, antes de abrir WoW Forever. La hora que circula: los servidores se cierran a las 19:00 (hora peninsular; 12:00 en México y 15:00 en Chile y Argentina) y abren con el lanzamiento, a las 00:00 del jueves 5. Aún no está en la tabla oficial de mantenimientos: lo confirmamos en cuanto salga.</p>'
+            '</span></a>'
             '<a class="news-card" href="../a-medias/"><span class="badge-new">ÚLTIMA HORA</span><span><p class="eyebrow">SIN NOTA OFICIAL · 30 DE OCTUBRE</p>'
             '<h3>Cambios de última hora: el druida rehace su árbol y el mago de Escarcha sube</h3><p>Han salido en los datos del servidor sin que Blizzard los anuncie: adiós a Berserk, Bloom y Predatory Discipline nuevos, Ice Lance al 300% contra congelados, Ice Barrier con más daño y más. Ya están en las guías de cada clase.</p>'
             '</span></a>'
@@ -1458,6 +1464,8 @@ def carrusel(latest):
         + (' target="_blank" rel="noopener noreferrer"' if ext else '') + f'><div class="car-txt"><p class="eyebrow">{ojo}</p><h2 data-car-titulo>{titulo}</h2>'
         f'<p data-car-txt>{txt}</p></div></a>')  # Van 16-10: sin botón, se pulsa la diapositiva entera
     slides = [
+        slide('lanzamiento/', 'cs-blizz', '2026-11-05', 'BLIZZARD · MIÉRCOLES 4 DE NOVIEMBRE', 'Mantenimiento largo antes de abrir',
+              'Blizzard cierra los servidores unas horas antes del lanzamiento. Según la hora que circula, desde las 19:00 del día 4 hasta las 00:00 del 5 (hora peninsular), sin confirmar aún.', 'Ver el lanzamiento'),
         slide('mazmorras/', 'cs-halloween', '2026-11-01', 'HALLOWEEN · 31 DE OCTUBRE', 'Las mazmorras más siniestras de Forever',
               'Scholomance, Stratholme, el Castillo de Colmillo Oscuro y el Monasterio Escarlata: dónde están, a qué nivel y qué te espera dentro. Feliz Halloween.', 'Ver las mazmorras'),
         slide('novedades-29-octubre/', 'cs-alianza', '2026-11-12', 'BLIZZARD · 29 DE OCTUBRE', 'Un parche grande cada 4 meses',
