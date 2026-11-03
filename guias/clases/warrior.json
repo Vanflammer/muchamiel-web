@@ -1,14 +1,14 @@
 {
   "slug": "warrior",
-  "actualizado": "2026-10-31",
+  "actualizado": "2026-11-03",
   "resumen": {
     "es": "El guerrero es la clase de cuerpo a cuerpo con armadura de placas que vive de la ira: la gana al golpear y al recibir golpes, y la gasta en sus habilidades. En Forever llega con cambios grandes: Victory Rush para curarse tras cada muerte, Tactical Mastery para cambiar de actitud sin perder toda la ira y una rama de Protección que ya sirve para subir de nivel en solitario. Es para quien quiere tanquear o pegar fuerte con armas y no le importa depender de su equipo.",
     "en": "The Warrior is the plate-wearing melee class that runs on Rage: you earn it by hitting and getting hit, then spend it on your abilities. Forever brings big changes: Victory Rush to heal after each kill, Tactical Mastery so stance swaps no longer wipe your Rage, and a Protection tree that now works for solo leveling. Pick it if you want to tank or hit hard with weapons and don't mind leaning on your gear."
   },
   "fuertes": [
     {
-      "es": "El mejor tanque de la versión clásica: Shield Slam, Revenge, Sunder Armor y Taunt cada 8 segundos.",
-      "en": "The classic go-to tank: Shield Slam, Revenge, Sunder Armor and an 8-second Taunt."
+      "es": "El mejor tanque de la versión clásica: Shield Slam, Revenge, Sunder Armor y Taunt cada 8 segundos. Desde el 2-11 Defensive Stance da un 80 % más de amenaza (antes un 30 %); el mismo día quitaron Salvation al paladín, así que ya no hay quien baje la amenaza de los que hacen daño.",
+      "en": "The classic go-to tank: Shield Slam, Revenge, Sunder Armor and an 8-second Taunt. Since November 2 Defensive Stance adds 80% threat (it was 30%); the same day Paladins lost Salvation, so nobody lowers the damage dealers' threat any more."
     },
     {
       "es": "Mejora muchísimo con el equipo: cada arma nueva se nota al momento.",
@@ -73,8 +73,8 @@
         "en": "PvP and group leveling"
       },
       "texto": {
-        "es": "Golpes grandes con arma de dos manos, Rend y Overpower como base y Mortal Strike a nivel 40, que corta las curas un 50 %. Forever añade Spearing Strike, Bloodthrill (Rend da opciones de Overpower) y Weaponmaster, que cambia según el tipo de arma.",
-        "en": "Big two-handed hits built on Rend and Overpower, with Mortal Strike at 40 cutting healing by 50%. Forever adds Spearing Strike, Bloodthrill (Rend opens Overpower chances) and Weaponmaster, which changes with your weapon type."
+        "es": "Golpes grandes con arma de dos manos, Rend y Overpower como base y Mortal Strike a nivel 40, que corta las curas un 50 %. Forever añade Spearing Strike, Bloodthrill (Rend da opciones de Overpower; desde el 2-11 son 2 puntos) y Weaponmaster, que cambia según el tipo de arma. Desde el 2-11 Two-Handed Weapon Specialization da hasta un 6 % y Slam se recarga antes.",
+        "en": "Big two-handed hits built on Rend and Overpower, with Mortal Strike at 40 cutting healing by 50%. Forever adds Spearing Strike, Bloodthrill (Rend opens Overpower chances; 2 points since November 2) and Weaponmaster, which changes with your weapon type. Since November 2 Two-Handed Weapon Specialization gives up to 6% and Slam comes back sooner."
       }
     },
     {
@@ -88,8 +88,8 @@
         "en": "Dungeon and raid damage"
       },
       "texto": {
-        "es": "Dos armas, mucho crítico y Flurry para atacar más rápido. Bloodthirst ya no cura: ahora da un 10 % de velocidad de movimiento. Es floja antes del 30, cuando le llegan las piezas clave, y en la beta la rehicieron entera el 1 de octubre.",
-        "en": "Two weapons, lots of crit and Flurry for faster swings. Bloodthirst no longer heals: it now grants 10% movement speed. It's weak before 30, when its key pieces arrive, and the tree was rebuilt on 1 October during the beta."
+        "es": "Dos armas, mucho crítico y Flurry para atacar más rápido. Bloodthirst ya no cura: ahora da un 10 % de velocidad de movimiento. Es floja antes del 30, cuando le llegan las piezas clave. En la beta la rehicieron entera el 1 de octubre y el 2-11 volvió a cambiar: Flurry pasa a 3 puntos y ya no pide Death Wish, Bloodthirst ahora sí lo pide, Enrage sube a la fila 3 y llegan Reckless Swings (ira extra a cambio de vida) e Improved Whirlwind.",
+        "en": "Two weapons, lots of crit and Flurry for faster swings. Bloodthirst no longer heals: it now grants 10% movement speed. It's weak before 30, when its key pieces arrive. The tree was rebuilt on 1 October during the beta and changed again on November 2: Flurry is now 3 points and no longer needs Death Wish, Bloodthirst now does, Enrage moves up to row 3, and Reckless Swings (extra Rage for health) and Improved Whirlwind are new."
       }
     },
     {
@@ -281,8 +281,8 @@
         "niveles": "46-48",
         "puntos": "3/3 Defiance",
         "nota": {
-          "es": "Más amenaza con escudo. Si tanqueas mazmorras desde antes, súbelo antes.",
-          "en": "More threat with a shield. If you tank dungeons earlier, take it sooner."
+          "es": "Más amenaza en Defensive Stance con escudo: desde el 2-11, un 20 % a 3/3 (antes un 15 %). Si tanqueas mazmorras desde antes, súbelo antes.",
+          "en": "More threat in Defensive Stance with a shield: since November 2, 20% at 3/3 (it was 15%). If you tank dungeons earlier, take it sooner."
         }
       },
       {
@@ -370,8 +370,8 @@
         "nombre": "Defensive Stance",
         "nuevo": false,
         "texto": {
-          "es": "Se consigue con la misión de clase del 10, junto con Taunt y Sunder Armor. Menos daño recibido y más amenaza.",
-          "en": "Earned through the level 10 class quest, along with Taunt and Sunder Armor. Less damage taken and more threat."
+          "es": "Se consigue con la misión de clase del 10, junto con Taunt y Sunder Armor. Menos daño recibido y, desde el 2-11, un 80 % más de amenaza (antes un 30 %).",
+          "en": "Earned through the level 10 class quest, along with Taunt and Sunder Armor. Less damage taken and, since November 2, 80% more threat (it was 30%)."
         }
       },
       {
@@ -415,8 +415,8 @@
         "nombre": "Tactical Mastery",
         "nuevo": true,
         "texto": {
-          "es": "Pasiva: guardas hasta 10 de ira al cambiar de actitud. En Classic era un talento.",
-          "en": "Passive: keep up to 10 Rage when you swap stances. It was a talent in Classic."
+          "es": "Pasiva: guardas hasta 10 de ira al cambiar de actitud. En Classic era un talento. Improved Tactical Mastery (Arms) suma hasta 15 más: desde el 2-11 son 3 puntos (5/10/15).",
+          "en": "Passive: keep up to 10 Rage when you swap stances. It was a talent in Classic. Improved Tactical Mastery (Arms) adds up to 15 more: 3 points since November 2 (5/10/15)."
         }
       },
       {
@@ -469,8 +469,8 @@
         "nombre": "Slam",
         "nuevo": false,
         "texto": {
-          "es": "Llega antes que en Classic (antes era a nivel 30) y ahora tiene 18 segundos de recarga.",
-          "en": "Arrives earlier than in Classic (it used to be level 30) and now has an 18-second cooldown."
+          "es": "Llega antes que en Classic (antes era a nivel 30) y tiene recarga: 15 segundos desde el 2-11 (antes 18), y 10 con Improved Slam 2/2.",
+          "en": "Arrives earlier than in Classic (it used to be level 30) and has a cooldown: 15 seconds since November 2 (it was 18), and 10 with Improved Slam 2/2."
         }
       },
       {
@@ -550,8 +550,8 @@
         "nombre": "Whirlwind",
         "nuevo": false,
         "texto": {
-          "es": "Golpea a hasta 4 enemigos con las dos armas. Solo en Berserker Stance.",
-          "en": "Hits up to 4 enemies with both weapons. Berserker Stance only."
+          "es": "Golpea a hasta 4 enemigos con las dos armas. Solo en Berserker Stance. Desde el 2-11, el talento Improved Whirlwind (Fury) le quita hasta 2 s de recarga y le sube un 30 % el daño al enemigo más cercano.",
+          "en": "Hits up to 4 enemies with both weapons. Berserker Stance only. Since November 2 the Improved Whirlwind talent (Fury) cuts up to 2 sec off its cooldown and adds 30% damage to the closest enemy."
         }
       },
       {
@@ -682,8 +682,8 @@
         "en": "Group up whenever you can, especially with a healer: Warriors gain more from a group than anyone."
       },
       {
-        "es": "<b>Alternativa: subir con Arms y arma de dos manos</b> (reparto visto en la beta, con tope 30): 3/3 Improved Rend, 2/5 Deflection, 2/2 Improved Overpower, 5/5 Improved Tactical Mastery (con la pasiva del 14 guardas hasta 25 de ira al cambiar de actitud), 3/3 Deep Wounds, 3/3 Two-Handed Weapon Specialization, 2/2 Improved Charge (o Anger Management y un punto más en Deflection si te cuesta tener ira) y <b>Sweeping Strikes</b> al 30. Spearing Strike e Impale pueden esperar: el primero brilla sobre todo en JcJ, para desmontar, y el segundo aporta poco a nivel bajo.",
-        "en": "<b>Alternative: level as Arms with a two-hander</b> (a build seen in the beta, level cap 30): 3/3 Improved Rend, 2/5 Deflection, 2/2 Improved Overpower, 5/5 Improved Tactical Mastery (with the level 14 passive you keep up to 25 Rage when you swap stances), 3/3 Deep Wounds, 3/3 Two-Handed Weapon Specialization, 2/2 Improved Charge (or Anger Management plus one more point in Deflection if you struggle for Rage) and <b>Sweeping Strikes</b> at 30. Spearing Strike and Impale can wait: the first shines mostly in PvP, to dismount people, and the second adds little at low level."
+        "es": "<b>Alternativa: subir con Arms y arma de dos manos</b> (reparto de la beta, con tope 30, ajustado a las notas del 2-11): 3/3 Improved Rend, 4/5 Deflection, 2/2 Improved Overpower, 3/3 Improved Tactical Mastery (desde el 2-11 son 3 puntos; con la pasiva del 14 sigues guardando hasta 25 de ira al cambiar de actitud), 3/3 Deep Wounds, 3/3 Two-Handed Weapon Specialization (ahora un 6 % más de daño), 2/2 Improved Charge (o Anger Management y Deflection a 5/5 si te cuesta tener ira) y <b>Sweeping Strikes</b> al 30. Los 2 puntos que libera Improved Tactical Mastery van a Deflection para llegar a los 20 que pide la fila de Sweeping Strikes. Spearing Strike e Impale pueden esperar: el primero brilla sobre todo en JcJ, para desmontar, y el segundo aporta poco a nivel bajo.",
+        "en": "<b>Alternative: level as Arms with a two-hander</b> (a beta build with the level 30 cap, adjusted to the November 2 notes): 3/3 Improved Rend, 4/5 Deflection, 2/2 Improved Overpower, 3/3 Improved Tactical Mastery (3 points since November 2; with the level 14 passive you still keep up to 25 Rage when you swap stances), 3/3 Deep Wounds, 3/3 Two-Handed Weapon Specialization (now 6% more damage), 2/2 Improved Charge (or Anger Management plus Deflection to 5/5 if you struggle for Rage) and <b>Sweeping Strikes</b> at 30. The 2 points freed from Improved Tactical Mastery go into Deflection to reach the 20 that the Sweeping Strikes row needs. Spearing Strike and Impale can wait: the first shines mostly in PvP, to dismount people, and the second adds little at low level."
       },
       {
         "es": "<b>Cómo se juega Arms al subir</b>: Battle Shout siempre puesto y Bloodrage si empiezas sin ira. Rend nada más empezar, Overpower cada vez que se ilumine y Sunder Armor hasta que el enemigo baje a la mitad de vida; a partir de ahí, Heroic Strike con la ira que te sobre. Contra varios: Demoralizing Shout y Thunder Clap, Rend a todos, Sweeping Strikes (desde el 30) seguido de Overpower y luego Cleave. Victory Rush tras cada muerte para recuperar vida.",
@@ -808,16 +808,16 @@
           "niveles": "25-29",
           "puntos": "5/5 Enrage",
           "nota": {
-            "es": "Al recibir golpes, a menudo haces un 10 % más de daño físico durante 12 segundos.",
-            "en": "Getting hit often gives you 10% more physical damage for 12 seconds."
+            "es": "Al recibir golpes, a menudo haces un 10 % más de daño físico durante 12 segundos. Desde el 2-11 está en la fila 3, así que podrías adelantarlo; lo dejamos aquí para no tocar el resto.",
+            "en": "Getting hit often gives you 10% more physical damage for 12 seconds. Since November 2 it sits on row 3, so you could take it earlier; we keep it here so the rest stays the same."
           }
         },
         {
           "niveles": "30",
           "puntos": "1/1 Death Wish",
           "nota": {
-            "es": "Un 20 % más de daño físico e inmunidad al miedo durante 30 segundos, a cambio de recibir un poco más. Guárdalo para jefes y pulls difíciles.",
-            "en": "20% more physical damage and Fear immunity for 30 seconds, at the cost of taking a bit more. Save it for bosses and tough pulls."
+            "es": "Un 20 % más de daño físico e inmunidad al miedo durante 30 segundos, a cambio de recibir un poco más. Guárdalo para jefes y pulls difíciles. Desde el 2-11 es requisito de Bloodthirst (y ya no de Flurry).",
+            "en": "20% more physical damage and Fear immunity for 30 seconds, at the cost of taking a bit more. Save it for bosses and tough pulls. Since November 2 it is required for Bloodthirst (and no longer for Flurry)."
           }
         },
         {
@@ -829,19 +829,27 @@
           }
         },
         {
-          "niveles": "35-39",
-          "puntos": "5/5 Flurry",
+          "niveles": "35-37",
+          "puntos": "3/3 Flurry",
           "nota": {
-            "es": "Tras un crítico, tus tres golpes siguientes van un 25 % más rápido. Con Cruelty salta muy a menudo.",
-            "en": "After a crit, your next three swings are 25% faster. With Cruelty it procs very often."
+            "es": "Desde el 2-11 son 3 puntos: tras un crítico, tus tres golpes siguientes van un 30 % más rápido. Ya no pide Death Wish. Con Cruelty salta muy a menudo.",
+            "en": "3 points since November 2: after a crit, your next three swings are 30% faster. It no longer needs Death Wish. With Cruelty it procs very often."
+          }
+        },
+        {
+          "niveles": "38-39",
+          "puntos": "2/2 Improved Whirlwind",
+          "nota": {
+            "es": "Talento nuevo del 2-11 (fila 6): Whirlwind, que aprendes al 36, se recarga 2 s antes y pega un 30 % más al enemigo más cercano. Usa los 2 puntos que libera Flurry. Las notas no dicen si pide otro talento: compruébalo en el juego.",
+            "en": "New talent from November 2 (row 6): Whirlwind, learned at 36, comes back 2 sec sooner and hits the closest enemy 30% harder. It uses the 2 points Flurry frees up. The notes don't say whether it needs another talent: check it in game."
           }
         },
         {
           "niveles": "40",
           "puntos": "1/1 Bloodthirst",
           "nota": {
-            "es": "Tu golpe principal desde ahora: daño según tu poder de ataque y algo de velocidad de movimiento. Úsalo cada vez que esté listo.",
-            "en": "Your main strike from now on: damage based on attack power plus a short speed boost. Use it on cooldown."
+            "es": "Tu golpe principal desde ahora: daño según tu poder de ataque y algo de velocidad de movimiento. Desde el 2-11 pide Death Wish (lo tienes desde el 30). Úsalo cada vez que esté listo.",
+            "en": "Your main strike from now on: damage based on attack power plus a short speed boost. Since November 2 it requires Death Wish (you have it from 30). Use it on cooldown."
           }
         },
         {
@@ -861,11 +869,19 @@
           }
         },
         {
-          "niveles": "49-53",
-          "puntos": "5/5 Improved Tactical Mastery (Arms)",
+          "niveles": "49-51",
+          "puntos": "3/3 Improved Tactical Mastery (Arms)",
           "nota": {
-            "es": "Guardas más ira al cambiar de actitud: Berserker Stance para pegar, Battle Stance para Overpower o Charge, sin perderla.",
-            "en": "You keep more rage when switching stances: Berserker for damage, Battle for Overpower or Charge, without losing it."
+            "es": "Desde el 2-11 son 3 puntos (antes 5) y dan lo mismo: 15 de ira más al cambiar de actitud. Berserker Stance para pegar, Battle Stance para Overpower o Charge, sin perderla.",
+            "en": "3 points since November 2 (it was 5) for the same result: 15 more Rage kept when switching stances. Berserker for damage, Battle for Overpower or Charge, without losing it."
+          }
+        },
+        {
+          "niveles": "52-53",
+          "puntos": "2/2 Improved Charge (Arms)",
+          "nota": {
+            "es": "Más ira al cargar. Son los 2 puntos que libera Improved Tactical Mastery y te dejan los 15 puntos en Arms que pide Impale.",
+            "en": "More Rage from Charge. These are the 2 points Improved Tactical Mastery frees up, and they give you the 15 Arms points Impale needs."
           }
         },
         {
@@ -880,8 +896,8 @@
           "niveles": "59-60",
           "puntos": "2/2 Impale (Arms)",
           "nota": {
-            "es": "Los críticos de tus habilidades hacen más daño. Acabas en 17/34/0, la build de Fury más usada en la beta.",
-            "en": "Your ability crits deal more damage. You end at 17/34/0, the most common Fury build in the beta."
+            "es": "Los críticos de tus habilidades hacen más daño. Acabas en 17/34/0, el reparto de Fury más usado en la beta, ajustado a los cambios del 2-11 (Flurry de 3 puntos e Improved Whirlwind).",
+            "en": "Your ability crits deal more damage. You end at 17/34/0, the most common Fury split in the beta, adjusted to the November 2 changes (3-point Flurry and Improved Whirlwind)."
           }
         }
       ],
@@ -908,10 +924,10 @@
         },
         {
           "niveles": "15-19",
-          "puntos": "5/5 Improved Tactical Mastery",
+          "puntos": "3/3 Improved Tactical Mastery, 2/2 Improved Charge",
           "nota": {
-            "es": "Guardas ira al cambiar de actitud, así que puedes pasar a Defensive Stance o volver a Battle Stance sin quedarte a cero.",
-            "en": "You keep rage when changing stances, so you can swap to Defensive or back to Battle without dropping to zero."
+            "es": "Guardas 15 de ira más al cambiar de actitud (desde el 2-11 son 3 puntos en vez de 5), así que puedes pasar a Defensive Stance o volver a Battle Stance sin quedarte a cero. Los 2 puntos que sobran, a Improved Charge: más ira al empezar cada combate.",
+            "en": "You keep 15 more rage when changing stances (3 points since November 2 instead of 5), so you can swap to Defensive or back to Battle without dropping to zero. The 2 spare points go into Improved Charge: more rage at the start of every fight."
           }
         },
         {
@@ -926,8 +942,8 @@
           "niveles": "26-31",
           "puntos": "1/1 Spearing Strike, 3/3 Two-Handed Weapon Specialization, 2/2 Impale",
           "nota": {
-            "es": "Spearing Strike es un golpe nuevo de Forever que pega mucho más contra gigantes, dragones y enemigos montados. Después, más daño con armas a dos manos y críticos de habilidad más fuertes.",
-            "en": "Spearing Strike is a new Forever attack that hits much harder against giants, dragonkin and mounted targets. Then more two-handed damage and harder-hitting ability crits."
+            "es": "Spearing Strike es un golpe nuevo de Forever que pega mucho más contra gigantes, dragones y enemigos montados. Después, un 6 % más de daño con armas a dos manos (desde el 2-11; antes un 3 %) y críticos de habilidad más fuertes.",
+            "en": "Spearing Strike is a new Forever attack that hits much harder against giants, dragonkin and mounted targets. Then 6% more two-handed damage (since November 2; it was 3%) and harder-hitting ability crits."
           }
         },
         {
@@ -942,8 +958,8 @@
           "niveles": "38-39",
           "puntos": "2/2 Improved Slam",
           "nota": {
-            "es": "Slam deja de retrasar tu golpe automático: ya se puede meter entre golpes. Con 30 puntos en Arms abres la fila 7.",
-            "en": "Slam no longer delays your auto attack, so you can weave it between swings. With 30 points in Arms you open row 7."
+            "es": "Slam deja de retrasar tu golpe automático: ya se puede meter entre golpes. Desde el 2-11 le quita 5 s de recarga (de 15 a 10). Con 30 puntos en Arms abres la fila 7.",
+            "en": "Slam no longer delays your auto attack, so you can weave it between swings. Since November 2 it cuts 5 sec off its cooldown (from 15 to 10). With 30 points in Arms you open row 7."
           }
         },
         {
@@ -955,11 +971,19 @@
           }
         },
         {
-          "niveles": "41-45",
-          "puntos": "5/5 Bloodthrill",
+          "niveles": "41-42",
+          "puntos": "2/2 Bloodthrill",
           "nota": {
-            "es": "Con Rend puesto, tus golpes pueden activar Overpower. Más Overpower, más daño.",
-            "en": "With Rend up, your hits can enable Overpower. More Overpower, more damage."
+            "es": "Con Rend puesto, tus golpes de la mano derecha tienen hasta un 20 % de activar Overpower. Desde el 2-11 son 2 puntos (antes 5) con el mismo máximo.",
+            "en": "With Rend up, your main-hand hits have up to a 20% chance to enable Overpower. 2 points since November 2 (it was 5) for the same maximum."
+          }
+        },
+        {
+          "niveles": "43-45",
+          "puntos": "3/3 Improved Hamstring",
+          "nota": {
+            "es": "Hamstring puede inmovilizar al objetivo unos segundos: útil contra enemigos que huyen y, sobre todo, en JcJ. Ocupa los 3 puntos que liberó Bloodthrill.",
+            "en": "Hamstring can root the target for a few seconds: handy against runners and, above all, in PvP. It takes the 3 points Bloodthrill freed up."
           }
         },
         {
@@ -992,8 +1016,8 @@
   ],
   "nivel60": {
     "intro": {
-      "es": "La beta acabó con el tope en 30, así que nadie ha jugado un guerrero de 60 en Forever. Las builds de abajo son las más planificadas en la calculadora con los datos del cliente; las prioridades son las de Classic adaptadas a los cambios de Forever. Las bandas llegan el 9 de diciembre: hasta entonces, mazmorras.",
-      "en": "The beta ended with a level 30 cap, so nobody has played a level 60 Forever Warrior yet. The builds below are the most planned ones in the calculator using client data; the priorities are Classic's, adjusted for Forever's changes. Raids arrive on 9 December: until then, it's dungeons."
+      "es": "La beta acabó con el tope en 30, así que nadie ha jugado un guerrero de 60 en Forever. Las builds de abajo son las más planificadas en la calculadora con los datos del cliente; las prioridades son las de Classic adaptadas a los cambios de Forever. Las bandas llegan el 9 de diciembre: hasta entonces, mazmorras. Desde el 2-11 todas las clases hacen más daño y los enemigos de nivel alto tienen más vida para compensar; Blizzard no prevé grandes ajustes hasta las bandas de diciembre. Ese día el guerrero cambió bastante (más amenaza en Defensive Stance, Flurry e Improved Tactical Mastery de 3 puntos, talentos nuevos en Fury), y las builds de abajo ya lo tienen en cuenta.",
+      "en": "The beta ended with a level 30 cap, so nobody has played a level 60 Forever Warrior yet. The builds below are the most planned ones in the calculator using client data; the priorities are Classic's, adjusted for Forever's changes. Raids arrive on 9 December: until then, it's dungeons. Since November 2 every class deals more damage and high-level enemies have more health to make up for it; Blizzard doesn't plan big tuning changes until the December raids. The Warrior changed quite a bit that day (more threat in Defensive Stance, 3-point Flurry and Improved Tactical Mastery, new Fury talents), and the builds below already reflect it."
     },
     "ramas": [
       {
@@ -1026,8 +1050,8 @@
             "en": "Bloodthirst every 6 seconds (30 Rage)."
           },
           {
-            "es": "Whirlwind en Berserker Stance cuando Bloodthirst está en recarga.",
-            "en": "Whirlwind in Berserker Stance while Bloodthirst is on cooldown."
+            "es": "Whirlwind en Berserker Stance cuando Bloodthirst está en recarga (con Improved Whirlwind, más a menudo y más fuerte contra el enemigo más cercano).",
+            "en": "Whirlwind in Berserker Stance while Bloodthirst is on cooldown (with Improved Whirlwind, more often and harder on the closest enemy)."
           },
           {
             "es": "Execute por debajo del 20 %.",
@@ -1056,8 +1080,8 @@
       {
         "nombre": "Arms",
         "rol": {
-          "es": "DPS cuerpo a cuerpo · 37/11/0",
-          "en": "Melee DPS · 37/11/0"
+          "es": "DPS cuerpo a cuerpo · 37/14/0",
+          "en": "Melee DPS · 37/14/0"
         },
         "estadisticas": [
           {
@@ -1083,8 +1107,8 @@
             "en": "Overpower when it lights up (Improved Overpower gives it 50% more crit)."
           },
           {
-            "es": "Slam con Improved Slam (ya no frena tu ataque) y Whirlwind en Berserker Stance: con 25 de ira guardada, cambiar de actitud apenas cuesta.",
-            "en": "Slam with Improved Slam (it no longer delays your swing) and Whirlwind in Berserker Stance: with 25 Rage kept, stance swaps barely cost anything."
+            "es": "Slam con Improved Slam (ya no frena tu ataque y, desde el 2-11, se recarga en 10 s) y Whirlwind en Berserker Stance: con 25 de ira guardada, cambiar de actitud apenas cuesta.",
+            "en": "Slam with Improved Slam (it no longer delays your swing and, since November 2, has a 10 sec cooldown) and Whirlwind in Berserker Stance: with 25 Rage kept, stance swaps barely cost anything."
           },
           {
             "es": "Sweeping Strikes con dos objetivos y Execute para rematar.",
@@ -1106,16 +1130,16 @@
         },
         "estadisticas": [
           {
-            "es": "Aguante, armadura y evitación para sobrevivir; golpe para no perder amenaza.",
-            "en": "Stamina, armor and avoidance to survive; hit so you don't lose threat."
+            "es": "Aguante, armadura y evitación para sobrevivir; golpe para no perder amenaza. Desde el 2-11 Defensive Stance (80 %) y Defiance (20 %) dan bastante más amenaza, pero ya no hay Salvation de paladín que frene a los que hacen daño.",
+            "en": "Stamina, armor and avoidance to survive; hit so you don't lose threat. Since November 2 Defensive Stance (80%) and Defiance (20%) give a lot more threat, but there is no Paladin Salvation any more to hold back the damage dealers."
           },
           {
             "es": "Valor de bloqueo: Shield Slam escala con él, así que un escudo mejor es también más daño.",
             "en": "Block Value: Shield Slam scales with it, so a better shield also means more damage."
           },
           {
-            "es": "Hay otra build 0/20/31 con Enrage y Cruelty para tanquear con más daño.",
-            "en": "There's also a 0/20/31 build with Enrage and Cruelty for a more aggressive tank."
+            "es": "Hay otra build 0/20/31 con Enrage y Cruelty para tanquear con más daño (desde el 2-11 Enrage está en la fila 3: compruébala en la calculadora antes de usarla).",
+            "en": "There's also a 0/20/31 build with Enrage and Cruelty for a more aggressive tank (since November 2 Enrage sits on row 3: check it in the calculator before using it)."
           }
         ],
         "rotacion": [
@@ -1431,6 +1455,10 @@
       "en": "Last-minute launch tuning (4 November) that changes talents or abilities."
     },
     {
+      "es": "El árbol de Fury y el de Arms del 2-11 aún no están en los datos del juego. Sabemos filas y puntos por las notas (Enrage a la fila 3, Reckless Swings en la 4, Gore Drinker en la 5 unido a Blood Craze, Improved Whirlwind en la 6, Flurry de 3 puntos, Bloodthirst pide Death Wish, Improved Tactical Mastery de 3 y Bloodthrill de 2), pero no las casillas ni si hay requisitos nuevos. Las builds de Fury y Arms están ajustadas para que sumen bien y respeten las filas; compruébalas en el juego antes de gastar oro en reiniciar talentos.",
+      "en": "The November 2 Fury and Arms trees are not in the game data yet. We know rows and points from the notes (Enrage to row 3, Reckless Swings on row 4, Gore Drinker on row 5 linked to Blood Craze, Improved Whirlwind on row 6, 3-point Flurry, Bloodthirst requires Death Wish, 3-point Improved Tactical Mastery and 2-point Bloodthrill), but not the exact slots or any new requirements. The Fury and Arms builds are adjusted so the points add up and respect the rows; check them in game before paying to reset talents."
+    },
+    {
       "es": "Revenge con poder de ataque: cambio del 30-10 sacado de los datos del juego (build 1.60.1.70707), sin nota de Blizzard; aún no se conocen las cifras exactas de los rangos 1 a 5.",
       "en": "Revenge scaling with attack power: a 30 October change taken from the game data (build 1.60.1.70707), with no Blizzard note; the exact numbers for ranks 1 to 5 aren't known yet."
     }
@@ -1439,6 +1467,10 @@
     {
       "nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)",
       "url": "https://foreverchanges.pro/patch-notes"
+    },
+    {
+      "nombre": "Notas de desarrollo de Blizzard (2 de noviembre)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
     },
     {
       "nombre": "Notas de la beta de Blizzard (foros oficiales)",

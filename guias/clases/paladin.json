@@ -1,6 +1,6 @@
 {
   "slug": "paladin",
-  "actualizado": "2026-10-31",
+  "actualizado": "2026-11-03",
   "resumen": {
     "es": "El paladín es un guerrero sagrado con placas que pega, aguanta y se cura. En Forever es mucho más cómodo que en Classic: tiene un golpe nuevo desde el nivel 6 (Holy Strike), el Judgement ya no gasta el sello, Consecration y Blessing of Kings se aprenden en el entrenador y cada rama tiene talentos nuevos. Es para quien quiere una clase sólida y difícil de matar, que vale para todo: daño, tanque o sanador.",
     "en": "The paladin is a plate-wearing holy warrior who hits, endures and heals himself. In Forever it plays far smoother than in Classic: a new strike from level 6 (Holy Strike), Judgement no longer eats your seal, Consecration and Blessing of Kings come from the trainer, and every tree has new talents. Pick it if you want a sturdy, hard-to-kill class that can do it all: damage, tank or healer."
@@ -8,7 +8,7 @@
   "fuertes": [
     {"es": "Muy difícil de matar: placas, curas propias, Divine Protection desde el nivel 6 y Divine Shield desde el 34.", "en": "Very hard to kill: plate, self-heals, Divine Protection from level 6 and Divine Shield from 34."},
     {"es": "Rotación sencilla: un sello puesto, Judgement y Holy Strike cada vez que estén listos.", "en": "Simple rotation: keep a seal up, press Judgement and Holy Strike whenever they are ready."},
-    {"es": "Buscado en cualquier grupo por sus bendiciones (Might, Wisdom, Kings) y por Salvation.", "en": "Wanted in every group for its blessings (Might, Wisdom, Kings) and Salvation."},
+    {"es": "Buscado en cualquier grupo por sus bendiciones (Might, Wisdom, Kings). Salvation ya no existe en Forever desde el 2-11.", "en": "Wanted in every group for its blessings (Might, Wisdom, Kings). Salvation no longer exists in Forever since November 2."},
     {"es": "Las tres ramas sirven a nivel 60: daño cuerpo a cuerpo, tanque con Seal of Fury o sanador.", "en": "All three trees work at 60: melee damage, Seal of Fury tank or healer."},
     {"es": "Lay on Hands baja a 20 minutos de recarga (en Classic era 1 hora): una vida entera de reserva casi en cada pelea difícil.", "en": "Lay on Hands drops to a 20-minute cooldown (1 hour in Classic): a full heal in the bank for most hard fights."}
   ],
@@ -22,13 +22,13 @@
   "ramas": [
     {"nombre": "Retribution", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
      "mejor_para": {"es": "Subir de nivel, jugar solo y JcJ", "en": "Leveling, solo play and PvP"},
-     "texto": {"es": "Arma lenta a dos manos, Seal of Command y golpes sagrados. Los talentos nuevos (Sanctified Judgement, Sacred Arbiter, Twist of Light) ahorran maná y suben el daño de Holy Strike y de los sellos.", "en": "Slow two-hander, Seal of Command and holy strikes. The new talents (Sanctified Judgement, Sacred Arbiter, Twist of Light) save mana and boost Holy Strike and seal damage."}},
+     "texto": {"es": "Arma lenta a dos manos, Seal of Command y golpes sagrados. Los talentos nuevos (Sanctified Judgement, Sacred Arbiter, Unsealed Wrath) ahorran maná y suben el daño de Holy Strike y de los sellos. Desde el 2-11, Conviction da crítico a todo (también hechizos) y Vengeance se acumula hasta 5 veces.", "en": "Slow two-hander, Seal of Command and holy strikes. The new talents (Sanctified Judgement, Sacred Arbiter, Unsealed Wrath) save mana and boost Holy Strike and seal damage. Since November 2, Conviction gives crit to everything (spells too) and Vengeance stacks up to 5 times."}},
     {"nombre": "Protection", "rol": {"es": "Tanque", "en": "Tank"},
      "mejor_para": {"es": "Tanquear mazmorras y bandas", "en": "Tanking dungeons and raids"},
-     "texto": {"es": "Escudo, Seal of Fury y Consecration. Su Judgement provoca al enemigo y los bloqueos devuelven maná. Templar's Bulwark (escudo del 100 % de tu vida) y Holy Shield son sus defensas grandes.", "en": "Shield, Seal of Fury and Consecration. Its Judgement taunts and blocks give mana back. Templar's Bulwark (a shield worth 100% of your health) and Holy Shield are its big defensives."}},
+     "texto": {"es": "Escudo, Seal of Fury y Consecration. Su Judgement provoca al enemigo y los bloqueos devuelven maná. Templar's Bulwark (escudo del 100 % de tu vida) y Holy Shield son sus defensas grandes. Su talento final, Shieldsworn, hace que Holy Strike golpee con el escudo y bloquee hechizos 6 s.", "en": "Shield, Seal of Fury and Consecration. Its Judgement taunts and blocks give mana back. Templar's Bulwark (a shield worth 100% of your health) and Holy Shield are its big defensives. Its final talent, Shieldsworn, makes Holy Strike hit with your shield and lets you block spells for 6 sec."}},
     {"nombre": "Holy", "rol": {"es": "Sanador", "en": "Healer"},
      "mejor_para": {"es": "Curar en grupo y banda", "en": "Healing groups and raids"},
-     "texto": {"es": "Holy Light y Flash of Light con mucha eficiencia de maná. Holy Shock baja a 10 s de recarga y Light's Vigil da por fin una cura de grupo. Su punto fuerte sigue siendo curar mucho a un solo objetivo, normalmente el tanque. También permite una variante híbrida de daño con Holy Shock.", "en": "Holy Light and Flash of Light with great mana efficiency. Holy Shock drops to a 10 s cooldown and Light's Vigil finally gives a group heal. Its strength is still heavy healing on a single target, usually the tank. It also allows a hybrid Holy Shock damage build."}}
+     "texto": {"es": "Holy Light y Flash of Light con mucha eficiencia de maná. Holy Shock baja a 10 s de recarga y Light's Vigil da por fin una cura de grupo. Su punto fuerte sigue siendo curar mucho a un solo objetivo, normalmente el tanque, y el talento nuevo Oath of Light refuerza las curas sobre él. También permite una variante híbrida de daño con Holy Shock.", "en": "Holy Light and Flash of Light with great mana efficiency. Holy Shock drops to a 10 s cooldown and Light's Vigil finally gives a group heal. Its strength is still heavy healing on a single target, usually the tank, and the new Oath of Light talent boosts your heals on them. It also allows a hybrid Holy Shock damage build."}}
   ],
   "razas": [
     {"raza": {"es": "Humano", "en": "Human"}, "faccion": "Alianza",
@@ -41,24 +41,23 @@
   "subir": {
     "rama": "Retribution",
     "intro": {
-      "es": "Para subir, Retribution. Todas las guías coinciden y tiene lógica: Benediction abarata todo lo instantáneo, Seal of Command con un arma lenta a dos manos pega fuerte desde el nivel 20 y Sanctified Judgement te devuelve maná en cada Judgement. Si quieres tanquear o curar mazmorras al final, sube igual en Retribution y cambia de talentos a nivel 60. La build de abajo termina en el reparto 8/8/35, el más usado para Retribution a 60.",
-      "en": "Level as Retribution. Every guide agrees, and it makes sense: Benediction makes every instant cheaper, Seal of Command on a slow two-hander hits hard from level 20, and Sanctified Judgement refunds mana on every Judgement. If you want to tank or heal at max level, still level as Ret and respec at 60. The build below ends on 8/8/35, the most used Retribution setup at 60."
+      "es": "Para subir, Retribution. Todas las guías coinciden y tiene lógica: Benediction abarata todo lo instantáneo, Seal of Command con un arma lenta a dos manos pega fuerte desde el nivel 20 y Sanctified Judgement te devuelve maná en cada Judgement. Si quieres tanquear o curar mazmorras al final, sube igual en Retribution y cambia de talentos a nivel 60. El 2-11 Blizzard rehízo los tres árboles (quitó Twist of Light e Instrument of Law, movió talentos de fila y añadió otros): la build de abajo es nuestra propuesta con el árbol nuevo y termina en 10/8/33. Aún ninguna guía la ha probado en el juego.",
+      "en": "Level as Retribution. Every guide agrees, and it makes sense: Benediction makes every instant cheaper, Seal of Command on a slow two-hander hits hard from level 20, and Sanctified Judgement refunds mana on every Judgement. If you want to tank or heal at max level, still level as Ret and respec at 60. On November 2 Blizzard reworked all three trees (Twist of Light and Instrument of Law are gone, talents changed rows and new ones were added): the build below is our proposal on the new tree and ends at 10/8/33. No guide has tested it in game yet."
     },
     "talentos": [
       {"niveles": "10-14", "puntos": "5/5 Benediction", "nota": {"es": "Todo lo instantáneo cuesta un 10 % menos de maná: sellos, Judgement, Holy Strike, bendiciones.", "en": "Every instant costs 10% less mana: seals, Judgement, Holy Strike, blessings."}},
-      {"niveles": "15-19", "puntos": "5/5 Conviction", "nota": {"es": "+5 % de crítico cuerpo a cuerpo. Más tarde alimenta Vengeance.", "en": "+5% melee crit. Later it feeds Vengeance."}},
-      {"niveles": "20", "puntos": "1/1 Seal of Command", "nota": {"es": "Tu sello principal desde ya, con un arma lenta a dos manos.", "en": "Your main seal from now on, with a slow two-hander."}},
-      {"niveles": "21-23", "puntos": "3/3 Sanctified Judgement", "nota": {"es": "Cada Judgement te devuelve el 60 % del coste del sello. Gran ahorro de maná y requisito de Vengeance.", "en": "Each Judgement refunds 60% of the seal's cost. Big mana saver and required for Vengeance."}},
-      {"niveles": "24-25", "puntos": "2/2 Pursuit of Justice", "nota": {"es": "+15 % de velocidad a pie y en montura. Se nota en cada misión.", "en": "+15% speed on foot and mounted. You feel it on every quest."}},
-      {"niveles": "26", "puntos": "1/1 Sacred Arbiter", "nota": {"es": "Holy Strike hace un 20 % más y renueva tus Judgement sobre el objetivo.", "en": "Holy Strike deals 20% more and refreshes your Judgements on the target."}},
-      {"niveles": "27-29", "puntos": "2/2 Holy Conduit, 1/2 Improved Judgement", "nota": {"es": "Consecration, Exorcism y Hammer of Wrath un 40 % más baratos. Con esto llegas a 20 puntos para la fila 5.", "en": "Consecration, Exorcism and Hammer of Wrath 40% cheaper. This gets you to 20 points for row 5."}},
-      {"niveles": "30-32", "puntos": "3/3 Vengeance", "nota": {"es": "Tras un crítico, +3 % de daño físico y sagrado durante 30 s, hasta 3 veces.", "en": "After a crit, +3% Physical and Holy damage for 30 s, stacking 3 times."}},
-      {"niveles": "33-35", "puntos": "3/3 Two-Handed Weapon Specialization", "nota": {"es": "+6 % de daño con armas a dos manos.", "en": "+6% damage with two-handed weapons."}},
-      {"niveles": "36-39", "puntos": "3/3 Champion of the Light, 2/2 Improved Judgement", "nota": {"es": "Parte de tu Intelecto pasa a daño de hechizos (sellos, Judgement, Consecration). Judgement cada 8 s en vez de 10.", "en": "Part of your Intellect becomes spell damage (seals, Judgement, Consecration). Judgement every 8 s instead of 10."}},
-      {"niveles": "40", "puntos": "1/1 Twist of Light", "nota": {"es": "Sellos un 20 % más baratos y el «eco»: al cambiar de sello, el siguiente golpe aplica también el anterior. Mira la rotación.", "en": "Seals 20% cheaper plus the Echo: when you swap seals, your next swing also applies the old one. See the rotation."}},
-      {"niveles": "41-44", "puntos": "1/1 Repentance, 1/3 Vindication, 2/2 Instrument of Law", "nota": {"es": "Repentance incapacita 6 s a un humanoide (útil con Seal of Command). Instrument of Law deja Hammer of Wrath instantáneo justo cuando lo aprendes, a nivel 44.", "en": "Repentance incapacitates a humanoid for 6 s (handy with Seal of Command). Instrument of Law makes Hammer of Wrath instant right as you learn it at 44."}},
-      {"niveles": "45-52", "puntos": "5/5 Divine Strength, 3/3 Improved Seals (Holy)", "nota": {"es": "+10 % de Fuerza y +15 % de daño de sellos y Judgement.", "en": "+10% Strength and +15% seal and Judgement damage."}},
-      {"niveles": "53-60", "puntos": "5/5 Toughness, 3/3 Precision (Protection)", "nota": {"es": "+10 % de armadura de objetos y +3 % de golpe. Resultado final: 8/8/35.", "en": "+10% armor from items and +3% hit. Final result: 8/8/35."}}
+      {"niveles": "15-17", "puntos": "3/3 Conviction", "nota": {"es": "Desde el 2-11, +6 % de crítico con todo: golpes y hechizos. Más tarde alimenta Vengeance.", "en": "Since November 2, +6% crit with everything: attacks and spells. Later it feeds Vengeance."}},
+      {"niveles": "18-20", "puntos": "2/2 Improved Judgement, 1/1 Seal of Command", "nota": {"es": "Judgement cada 8 s en vez de 10. Con 10 puntos se abre la fila 3: Seal of Command es tu sello principal desde el 20, con un arma lenta a dos manos.", "en": "Judgement every 8 s instead of 10. At 10 points row 3 opens: Seal of Command is your main seal from 20, with a slow two-hander."}},
+      {"niveles": "21-23", "puntos": "3/3 Sanctified Judgement", "nota": {"es": "Cada Judgement te devuelve el 60 % del coste del sello. Gran ahorro de maná.", "en": "Each Judgement refunds 60% of the seal's cost. Big mana saver."}},
+      {"niveles": "24-26", "puntos": "2/2 Pursuit of Justice, 1/1 Sacred Arbiter", "nota": {"es": "+15 % de velocidad a pie y en montura. Holy Strike hace un 20 % más y renueva tus Judgement sobre el objetivo.", "en": "+15% speed on foot and mounted. Holy Strike deals 20% more and refreshes your Judgements on the target."}},
+      {"niveles": "27-29", "puntos": "3/3 Two-Handed Weapon Specialization", "nota": {"es": "Ahora en la fila 4: +6 % de daño físico y sagrado con un arma a dos manos, y un 20 % menos de amenaza. Con esto llegas a 20 puntos para la fila 5.", "en": "Now on row 4: +6% Physical and Holy damage with a two-hander, and 20% less threat. This gets you to 20 points for row 5."}},
+      {"niveles": "30-32", "puntos": "3/3 Vengeance", "nota": {"es": "Ahora pide Seal of Command. Tras un crítico, +3 % de daño físico y sagrado durante 30 s; desde el 2-11 se acumula hasta 5 veces.", "en": "Now requires Seal of Command. After a crit, +3% Physical and Holy damage for 30 s; since November 2 it stacks up to 5 times."}},
+      {"niveles": "33-34", "puntos": "1/1 Repentance, 1/3 Vindication", "nota": {"es": "Repentance incapacita 6 s a un humanoide (útil con Seal of Command) y es requisito de Unsealed Wrath. Vindication baja el poder de ataque del enemigo; ya no sube el tuyo.", "en": "Repentance incapacitates a humanoid for 6 s (handy with Seal of Command) and is required for Unsealed Wrath. Vindication lowers the enemy's attack power; it no longer raises yours."}},
+      {"niveles": "35-39", "puntos": "5/5 Champion of the Light", "nota": {"es": "El 60 % de tu Intelecto pasa a daño de hechizos (sellos, Judgement, Consecration) y Hammer of Wrath tarda 1 s menos: queda instantáneo cuando lo aprendes, a nivel 44.", "en": "60% of your Intellect becomes spell damage (seals, Judgement, Consecration) and Hammer of Wrath casts 1 s faster: it is instant as soon as you learn it at 44."}},
+      {"niveles": "40", "puntos": "1/1 Unsealed Wrath", "nota": {"es": "El talento final nuevo, en lugar de Twist of Light. Tus golpes guardan copias del sello activo y al cambiar de sello se sueltan. Mira la rotación.", "en": "The new final talent, replacing Twist of Light. Your swings store copies of your active seal and release them when you swap seals. See the rotation."}},
+      {"niveles": "41-42", "puntos": "3/3 Vindication", "nota": {"es": "Los enemigos que golpeas pegan menos: más aguante al subir solo.", "en": "Enemies you hit deal less damage: more staying power when leveling solo."}},
+      {"niveles": "43-52", "puntos": "5/5 Divine Strength, 5/5 Improved Seals (Holy)", "nota": {"es": "+10 % de Fuerza y +15 % de daño de sellos y Judgement (Improved Seals ahora tiene 5 puntos).", "en": "+10% Strength and +15% seal and Judgement damage (Improved Seals now has 5 ranks)."}},
+      {"niveles": "53-60", "puntos": "5/5 Divine Intellect, 3/3 Precision (Protection)", "nota": {"es": "Divine Intellect pasó a Protection: +10 % de Intelecto (más maná y más daño con Champion of the Light). Toughness bajó a la fila 3 y ya no llega. +3 % de golpe. Resultado final: 10/8/33.", "en": "Divine Intellect moved to Protection: +10% Intellect (more mana and more damage through Champion of the Light). Toughness dropped to row 3 and is out of reach. +3% hit. Final result: 10/8/33."}}
     ],
     "habilidades": [
       {"nivel": 1, "nombre": "Seal of Righteousness", "nuevo": false, "texto": {"es": "Tu primer sello: daño sagrado extra en cada golpe. Tu sello principal hasta el 20.", "en": "Your first seal: extra Holy damage on every swing. Your main seal until 20."}},
@@ -71,19 +70,18 @@
       {"nivel": 6, "nombre": "Divine Protection", "nuevo": false, "texto": {"es": "Inmune a todo durante 6 s, pero no puedes atacar. Para curarte con calma.", "en": "Immune to everything for 6 s, but you cannot attack. Use it to heal in peace."}},
       {"nivel": 8, "nombre": "Hammer of Justice", "nuevo": false, "texto": {"es": "Aturde 3 s. Para cortar un hechizo, huir o curarte.", "en": "Stuns for 3 s. To stop a cast, escape or heal."}},
       {"nivel": 8, "nombre": "Purify", "nuevo": false, "texto": {"es": "Quita un veneno y una enfermedad.", "en": "Removes one poison and one disease."}},
-      {"nivel": 10, "nombre": "Seal of Fury", "nuevo": true, "texto": {"es": "El sello de tanque: daño sagrado plano en cada golpe y, con escudo, un pequeño escudo de absorción. Su Judgement provoca al enemigo 4 s.", "en": "The tank seal: flat Holy damage per swing and, with a shield, a small absorb. Its Judgement taunts for 4 s."}},
+      {"nivel": 10, "nombre": "Seal of Fury", "nuevo": true, "texto": {"es": "El sello de tanque: daño sagrado plano en cada golpe y, con escudo, un pequeño escudo de absorción. Su Judgement provoca al enemigo 3 s (4 s antes del 2-11).", "en": "The tank seal: flat Holy damage per swing and, with a shield, a small absorb. Its Judgement taunts for 3 s (4 s before November 2)."}},
       {"nivel": 10, "nombre": "Lay on Hands", "nuevo": false, "texto": {"es": "Te cura toda la vida a cambio de todo tu maná. Ahora 20 min de recarga.", "en": "Heals for your full health at the cost of all your mana. Now a 20 min cooldown."}},
       {"nivel": 10, "nombre": "Blessing of Protection", "nuevo": false, "texto": {"es": "Inmunidad física de 6 s a un aliado (o a ti).", "en": "6 s of physical immunity on an ally (or yourself)."}},
+      {"nivel": 10, "nombre": "Righteous Fury", "nuevo": false, "texto": {"es": "Desde el 2-11 se aprende a nivel 10 (antes, 16), como la postura de tanque de las otras clases. +33 % a toda la amenaza y +90 % extra con el daño sagrado. Solo para tanquear: apágala si haces daño en grupo. La ventaja de Legacy The Quick and the Dead la deja gratis tras resucitar (ya lo confirma Blizzard).", "en": "Since November 2 it is learned at level 10 (was 16), like other classes' tank stance. +33% to all threat and an extra +90% from Holy damage. Tanking only: turn it off when you DPS in a group. The Legacy perk The Quick and the Dead makes it free after you are resurrected (now confirmed by Blizzard)."}},
       {"nivel": 12, "nombre": "Redemption", "nuevo": false, "texto": {"es": "Resucita a un jugador fuera de combate. Se aprende con misión de clase.", "en": "Resurrects a player out of combat. Learned through a class quest."}},
       {"nivel": 14, "nombre": "Blessing of Wisdom", "nuevo": false, "texto": {"es": "Regenera maná. Ponla en vez de Might si siempre te quedas sin maná.", "en": "Restores mana over time. Use it instead of Might if you keep running dry."}},
       {"nivel": 16, "nombre": "Retribution Aura", "nuevo": false, "texto": {"es": "Daña a quien te golpea. Tu aura para subir.", "en": "Damages anything that hits you. Your leveling aura."}},
-      {"nivel": 16, "nombre": "Righteous Fury", "nuevo": false, "texto": {"es": "Mucha más amenaza con el daño sagrado. Solo para tanquear: apágala si haces daño en grupo. Desde el 30-10 (visto en los datos, sin nota oficial de Blizzard; la descripción del juego no lo dice), la ventaja de Legacy The Quick and the Dead también la deja gratis tras resucitar, como tus hechizos de ayuda.", "en": "Much more threat from Holy damage. Tanking only: turn it off when you DPS in a group. Since 30 October (found in the game data, no official Blizzard note; the in-game tooltip doesn't say so), the Legacy perk The Quick and the Dead also makes it free after you are resurrected, like your helpful spells."}},
       {"nivel": 18, "nombre": "Blessing of Freedom", "nuevo": false, "texto": {"es": "Inmunidad a ralentizaciones y raíces durante 10 s.", "en": "Immunity to slows and roots for 10 s."}},
       {"nivel": 20, "nombre": "Consecration", "nuevo": false, "texto": {"es": "Daño sagrado en área bajo tus pies. Antes era talento; ahora la aprenden todos. Pega fuerte solo a los 4 primeros enemigos.", "en": "Holy damage on the ground around you. It used to be a talent; now everyone learns it. Hits hard only on the first 4 enemies."}},
       {"nivel": 20, "nombre": "Blessing of Kings", "nuevo": false, "texto": {"es": "+10 % a todas las estadísticas. Ahora se entrena, sin talento.", "en": "+10% to all stats. Now trained, no talent needed."}},
       {"nivel": 20, "nombre": "Exorcism", "nuevo": false, "texto": {"es": "Daño sagrado instantáneo a distancia, solo contra no-muertos y demonios.", "en": "Instant ranged Holy damage, only against Undead and Demons."}},
       {"nivel": 20, "nombre": "Flash of Light", "nuevo": false, "texto": {"es": "Cura rápida y barata.", "en": "Fast, cheap heal."}},
-      {"nivel": 26, "nombre": "Revoke", "nuevo": true, "texto": {"es": "Llega con Salvation (que ya no es una bendición y se suma a ellas). Quita Salvation a quien no deba tenerla, por ejemplo al tanque.", "en": "Comes with Salvation (no longer a blessing, so it stacks with them). Removes Salvation from someone who should not have it, like the tank."}},
       {"nivel": 30, "nombre": "Divine Intervention", "nuevo": false, "texto": {"es": "Mueres para salvar a un aliado durante 3 min. Seguro anti-wipe en grupo.", "en": "You die to protect an ally for 3 min. Wipe insurance in groups."}},
       {"nivel": 34, "nombre": "Divine Shield", "nuevo": false, "texto": {"es": "Inmune a todo 10 s; en Forever puedes seguir pegando, pero haces la mitad de daño.", "en": "Immune to everything for 10 s; in Forever you can keep hitting, but you deal half damage."}},
       {"nivel": 42, "nombre": "Cleanse", "nuevo": false, "texto": {"es": "Como Purify, pero también quita un efecto mágico. Clave en JcJ y mazmorras.", "en": "Like Purify, but also removes a magic effect. Key in PvP and dungeons."}},
@@ -97,7 +95,7 @@
       {"es": "Enemigo peligroso: Hammer of Justice y después Judgement con Seal of Command, que hace el doble de daño a un objetivo aturdido o incapacitado.", "en": "Dangerous enemy: Hammer of Justice, then Judgement with Seal of Command, which deals double damage to a stunned or incapacitated target."},
       {"es": "Dos o más enemigos: Consecration (desde el 20). Con uno solo, no gastes maná en ella.", "en": "Two or more enemies: Consecration (from 20). Against one, do not spend mana on it."},
       {"es": "Exorcism contra no-muertos y demonios; Hammer of Wrath por debajo del 20 % (desde el 44).", "en": "Exorcism on Undead and Demons; Hammer of Wrath below 20% (from 44)."},
-      {"es": "Desde el 40, con Twist of Light: cambia de Seal of Command a Seal of Righteousness justo antes de un golpe; ese golpe aplica los dos sellos. Opcional: más daño, más pulsaciones.", "en": "From 40, with Twist of Light: swap from Seal of Command to Seal of Righteousness just before a swing; that swing applies both seals. Optional: more damage, more button presses."}
+      {"es": "Desde el 40, con Unsealed Wrath: cada golpe guarda una copia del sello activo (hasta 3, durante 15 s). Da 3 golpes con Seal of Command y cambia a Seal of Righteousness: el siguiente golpe gasta las 3 copias y cada una tiene su probabilidad normal de activar Seal of Command. Opcional: más daño, más pulsaciones y más maná.", "en": "From 40, with Unsealed Wrath: each swing stores a copy of your active seal (up to 3, for 15 s). Land 3 swings with Seal of Command, then swap to Seal of Righteousness: the next swing spends the 3 copies, each with Seal of Command's normal chance to trigger. Optional: more damage, more button presses and more mana."}
     ],
     "extra": {
       "titulo": {"es": "Qué sello usar", "en": "Which seal to use"},
@@ -118,20 +116,20 @@
       {"es": "No cambies equipo de Aguante y Espíritu por otro con Fuerza solo porque sea de placas.", "en": "Do not swap Stamina and Spirit gear for Strength gear just because it is plate."},
       {"es": "Con la ventaja Talented de Legacy recibes el primer punto a nivel 5: sigue el mismo orden cinco niveles antes.", "en": "With the Legacy perk Talented you get your first point at level 5: follow the same order five levels earlier."},
       {"es": "No-muertos: usa Cannibalize sobre cadáveres de humanoides o no-muertos y ahorra comida y agua.", "en": "Undead: use Cannibalize on humanoid or undead corpses and save food and water."},
-      {"es": "En grupo, apaga Righteous Fury si no eres el tanque y pon Salvation a todos menos al tanque.", "en": "In groups, turn off Righteous Fury if you are not tanking and give Salvation to everyone except the tank."},
+      {"es": "En grupo, apaga Righteous Fury si no eres el tanque. Salvation ya no existe: para no quitarle los enemigos al tanque, deja que él empiece y no abras con Consecration. Con un arma a dos manos, Two-Handed Weapon Specialization te baja la amenaza hasta un 20 %.", "en": "In groups, turn off Righteous Fury if you are not tanking. Salvation no longer exists: to avoid pulling mobs off the tank, let them start and don't open with Consecration. With a two-hander, Two-Handed Weapon Specialization cuts your threat by up to 20%."},
       {"es": "<b>Armas que puedes aprender</b>: hachas, mazas y espadas de una y dos manos, y armas de asta (polearms). Nada de dagas, bastones, armas de puño ni armas a distancia. Tu raza ya trae alguna; el resto, con el maestro de armas. Cada habilidad cuesta 10 de plata con el maestro de armas de una capital y se aprende desde el nivel 1; las armas de asta (polearms), 1 de oro y desde el nivel 20. Como Retribution vive de un arma lenta a dos manos, aprende pronto espadas y hachas de dos manos para no dejar pasar ninguna buena, y las armas de asta al 20.", "en": "<b>Weapons you can learn</b>: one- and two-handed axes, maces and swords, plus polearms. No daggers, staves, fist weapons or ranged weapons. Your race already knows some; the rest come from a weapon master. Each skill costs 10 silver from a capital-city weapon master and can be learned from level 1; polearms cost 1 gold and need level 20. Since Retribution lives on a slow two-hander, learn two-handed swords and axes early so you never pass up a good one, and polearms at 20."}
     ],
     "hitos": [
       {"nivel": "6", "texto": {"es": "Holy Strike: tu segundo botón de daño. Divine Protection para salir de apuros.", "en": "Holy Strike: your second damage button. Divine Protection to get out of trouble."}},
-      {"nivel": "10", "texto": {"es": "Primer talento, Lay on Hands, Blessing of Protection y Seal of Fury.", "en": "First talent, Lay on Hands, Blessing of Protection and Seal of Fury."}},
+      {"nivel": "10", "texto": {"es": "Primer talento, Lay on Hands, Blessing of Protection, Seal of Fury y Righteous Fury: ya puedes tanquear mazmorras.", "en": "First talent, Lay on Hands, Blessing of Protection, Seal of Fury and Righteous Fury: you can now tank dungeons."}},
       {"nivel": "16", "texto": {"es": "Retribution Aura: más daño cuando te pegan varios.", "en": "Retribution Aura: more damage when several mobs hit you."}},
       {"nivel": "20", "texto": {"es": "El gran salto: Seal of Command, Consecration, Blessing of Kings, Exorcism y Flash of Light, y misión de clase con arma.", "en": "The big jump: Seal of Command, Consecration, Blessing of Kings, Exorcism and Flash of Light, plus a class quest with a weapon reward."}},
       {"nivel": "30", "texto": {"es": "Vengeance y Seal of Light. Ya tienes casi todo el kit.", "en": "Vengeance and Seal of Light. You now have almost the whole kit."}},
       {"nivel": "34", "texto": {"es": "Divine Shield: 10 s de inmunidad total.", "en": "Divine Shield: 10 s of full immunity."}},
-      {"nivel": "40", "texto": {"es": "Twist of Light y montura de clase (Summon Warhorse) por misión.", "en": "Twist of Light and the class mount (Summon Warhorse) through a quest."}},
+      {"nivel": "40", "texto": {"es": "Unsealed Wrath y montura de clase (Summon Warhorse) por misión.", "en": "Unsealed Wrath and the class mount (Summon Warhorse) through a quest."}},
       {"nivel": "42", "texto": {"es": "Cleanse: ya quitas magia.", "en": "Cleanse: you can now remove magic."}},
-      {"nivel": "44", "texto": {"es": "Hammer of Wrath, instantáneo con Instrument of Law.", "en": "Hammer of Wrath, instant with Instrument of Law."}},
-      {"nivel": "60", "texto": {"es": "Greater Blessing of Kings, Greater Blessing of Light y Mass Salvation. Hora de elegir rama definitiva.", "en": "Greater Blessing of Kings and of Light, and Mass Salvation. Time to pick your final tree."}}
+      {"nivel": "44", "texto": {"es": "Hammer of Wrath, instantáneo con 5/5 Champion of the Light (Instrument of Law ya no existe).", "en": "Hammer of Wrath, instant with 5/5 Champion of the Light (Instrument of Law is gone)."}},
+      {"nivel": "60", "texto": {"es": "Greater Blessing of Kings. Hora de elegir rama definitiva. Greater Blessing of Light y Mass Salvation ya no existen.", "en": "Greater Blessing of Kings. Time to pick your final tree. Greater Blessing of Light and Mass Salvation no longer exist."}}
     ]
   },
   "subir_roles": [
@@ -163,99 +161,83 @@
           }
         },
         {
-          "niveles": "18-19",
-          "puntos": "2/5 Toughness",
+          "niveles": "18-21",
+          "puntos": "2/2 Sacred Duty, 2/2 Shield Specialization",
           "nota": {
-            "es": "Más armadura de los objetos y abre la fila 3.",
-            "en": "More armor from items, and it opens row 3."
+            "es": "Sacred Duty sube a la fila 2: menos recarga en Divine Shield, Divine Protection y Templar's Bulwark, y Forbearance dura 10 s menos (ya no da Aguante). Shield Specialization ahora tiene 2 puntos: tu escudo absorbe un 30 % más y cada bloqueo te devuelve maná.",
+            "en": "Sacred Duty moved up to row 2: shorter cooldowns on Divine Shield, Divine Protection and Templar's Bulwark, and Forbearance lasts 10 s less (no more Stamina). Shield Specialization now has 2 ranks: your shield absorbs 30% more and each block gives mana back."
           }
         },
         {
-          "niveles": "20-22",
+          "niveles": "22-24",
+          "puntos": "1/1 Templar's Bulwark, 2/5 Toughness",
+          "nota": {
+            "es": "Templar's Bulwark sube a la fila 3: un escudo igual a toda tu vida durante 8 s para salvar un pull (ahora es un efecto mágico y se puede disipar). Toughness bajó a la fila 3.",
+            "en": "Templar's Bulwark moved up to row 3: a shield equal to your full health for 8 s to save a pull (now a Magic effect that can be dispelled). Toughness moved down to row 3."
+          }
+        },
+        {
+          "niveles": "25-27",
           "puntos": "3/3 Improved Righteous Fury",
           "nota": {
-            "es": "Con Righteous Fury activo recibes un 6 % menos de daño. Llévalo siempre puesto cuando tanquees.",
-            "en": "With Righteous Fury active you take 6% less damage. Keep it up whenever you tank."
+            "es": "Con Righteous Fury activo recibes un 9 % menos de daño (antes, 6 %). Llévalo siempre puesto cuando tanquees.",
+            "en": "With Righteous Fury active you take 9% less damage (was 6%). Keep it up whenever you tank."
           }
         },
         {
-          "niveles": "23-26",
-          "puntos": "1/1 Improved Seal of Fury, 3/3 Shield Specialization",
+          "niveles": "28-29",
+          "puntos": "1/1 Swift Judgement, 3/5 Toughness",
           "nota": {
-            "es": "Seal of Fury, el sello de tanque de Forever, te devuelve maná al romperse su escudo. Tu escudo absorbe más y cada bloqueo te da maná.",
-            "en": "Seal of Fury, Forever's tank seal, returns mana when its shield breaks. Your shield absorbs more and each block gives mana."
+            "es": "Desde el 2-11, Swift Judgement suelta tu sello al instante sin compartir recarga con Judgement: un segundo Judgement (y provocar) cuando lo necesites.",
+            "en": "Since November 2, Swift Judgement unleashes your seal instantly and doesn't share a cooldown with Judgement: a second Judgement (and taunt) whenever you need it."
           }
         },
         {
-          "niveles": "27-29",
-          "puntos": "3/3 One-Handed Weapon Specialization",
+          "niveles": "30-35",
+          "puntos": "1/1 Holy Shield, 5/5 Reckoning",
           "nota": {
-            "es": "Un 10 % más de daño con armas de una mano: más amenaza y matas antes cuando vas solo.",
-            "en": "10% more damage with one-handed weapons: more threat, and faster kills solo."
+            "es": "Holy Shield sube a la fila 5: mucho más bloqueo durante 10 s y daño sagrado en cada bloqueo. Reckoning: tras bloquear o recibir un crítico ganas ataques extra.",
+            "en": "Holy Shield moved up to row 5: much more block for 10 s and Holy damage on every block. Reckoning: blocking or taking a crit gives you extra attacks."
           }
         },
         {
-          "niveles": "30-31",
-          "puntos": "1/1 Templar's Bulwark, 1/1 Swift Judgement",
+          "niveles": "36-38",
+          "puntos": "3/3 Iron Creed",
           "nota": {
-            "es": "Templar's Bulwark: un escudo igual a toda tu vida durante 8 segundos para salvar un pull. Swift Judgement reinicia Judgement y lo deja gratis.",
-            "en": "Templar's Bulwark: a shield equal to your full health for 8 seconds to save a pull. Swift Judgement resets Judgement and makes it free."
+            "es": "Ahora con 3 puntos: Holy Strike genera un 30 % más de amenaza y, con Righteous Fury, te hace recibir un 6 % menos de daño durante 6 s.",
+            "en": "Now 3 ranks: Holy Strike generates 30% more threat and, with Righteous Fury, cuts your damage taken by 6% for 6 s."
           }
         },
         {
-          "niveles": "32-36",
-          "puntos": "5/5 Reckoning",
+          "niveles": "39-40",
+          "puntos": "4/5 Toughness, 1/1 Shieldsworn",
           "nota": {
-            "es": "Tras bloquear o recibir un crítico ganas ataques extra. Con muchos enemigos encima, es mucha amenaza.",
-            "en": "Blocking or taking a crit gives you extra attacks. With a pack on you, that's a lot of threat."
+            "es": "El talento final nuevo: Holy Strike recarga 4 s antes, golpea con el escudo (activa Holy Shield y Shield Specialization sin gastarlos) y te deja bloquear hechizos durante 6 s.",
+            "en": "The new final talent: Holy Strike's cooldown drops by 4 s, it hits with your shield (triggering Holy Shield and Shield Specialization without spending them) and lets you block spells for 6 s."
           }
         },
         {
-          "niveles": "37-39",
-          "puntos": "3/5 Iron Creed",
+          "niveles": "41-46",
+          "puntos": "5/5 Anticipation, 5/5 Toughness",
           "nota": {
-            "es": "Holy Strike genera más amenaza y, con Righteous Fury, te hace recibir menos daño.",
-            "en": "Holy Strike generates more threat and, with Righteous Fury, reduces the damage you take."
+            "es": "Anticipation bajó a la fila 4: más Defensa, clave para que los jefes te den menos golpes críticos. Cierras Toughness.",
+            "en": "Anticipation moved down to row 4: more Defense, key to taking fewer critical hits from bosses. You finish Toughness."
           }
         },
         {
-          "niveles": "40",
-          "puntos": "1/1 Holy Shield",
+          "niveles": "47-51",
+          "puntos": "5/5 Divine Intellect",
           "nota": {
-            "es": "Mucho más bloqueo durante 10 segundos y daño sagrado en cada bloqueo. Tenlo activo siempre que tanquees.",
-            "en": "Much more block for 10 seconds and Holy damage on every block. Keep it up whenever you tank."
+            "es": "Divine Intellect pasó de Holy a Protection: +10 % de Intelecto para no quedarte sin maná en peleas largas.",
+            "en": "Divine Intellect moved from Holy to Protection: +10% Intellect so you don't run dry in long fights."
           }
         },
         {
-          "niveles": "41-47",
-          "puntos": "5/5 Iron Creed, 5/5 Anticipation",
+          "niveles": "52-60",
+          "puntos": "5/5 Deflection, 2/2 Improved Judgement, 2/3 Conviction (Retribution)",
           "nota": {
-            "es": "Cierras Iron Creed y subes Defensa, clave para que los jefes te den menos golpes críticos.",
-            "en": "You finish Iron Creed and raise Defense, key to taking fewer critical hits from bosses."
-          }
-        },
-        {
-          "niveles": "48-51",
-          "puntos": "2/2 Sacred Duty, 4/5 Toughness",
-          "nota": {
-            "es": "Un 4 % más de Aguante y menos recarga en Divine Shield, Divine Protection y Templar's Bulwark.",
-            "en": "4% more Stamina and shorter cooldowns on Divine Shield, Divine Protection and Templar's Bulwark."
-          }
-        },
-        {
-          "niveles": "52-56",
-          "puntos": "5/5 Deflection (Retribution)",
-          "nota": {
-            "es": "Un 5 % más de parada: menos golpes que te llegan.",
-            "en": "5% more parry: fewer hits land on you."
-          }
-        },
-        {
-          "niveles": "57-60",
-          "puntos": "2/2 Holy Conduit (Retribution), 2/2 Improved Judgement (Retribution)",
-          "nota": {
-            "es": "Consecration, Exorcism y Hammer of Wrath mucho más baratos, y Judgement más a menudo. Acabas en 0/42/9.",
-            "en": "Much cheaper Consecration, Exorcism and Hammer of Wrath, and Judgement more often. You end at 0/42/9."
+            "es": "Un 5 % más de parada, Judgement más a menudo y un 4 % más de crítico. Acabas en 0/42/9.",
+            "en": "5% more parry, Judgement more often and 4% more crit. You end at 0/42/9."
           }
         }
       ],
@@ -274,111 +256,111 @@
       "talentos": [
         {
           "niveles": "10-14",
-          "puntos": "5/5 Divine Intellect",
+          "puntos": "5/5 Spiritual Focus",
           "nota": {
-            "es": "Un 10 % más de Intelecto: más maná y más crítico con hechizos.",
-            "en": "10% more Intellect: more mana and more spell crit."
+            "es": "Ahora en la fila 1 y con 5 puntos: Holy Light, Flash of Light y Light's Vigil casi no se retrasan cuando te pegan.",
+            "en": "Now on row 1 with 5 ranks: Holy Light, Flash of Light and Light's Vigil barely get pushed back when you're hit."
           }
         },
         {
           "niveles": "15-19",
-          "puntos": "3/3 Healing Light, 2/2 Spiritual Focus",
+          "puntos": "3/3 Healing Light, 2/2 Reverence",
           "nota": {
-            "es": "Holy Light y Flash of Light curan más, y casi no se retrasan cuando te pegan.",
-            "en": "Holy Light and Flash of Light heal more and barely get pushed back when you're hit."
+            "es": "Holy Light, Flash of Light y Holy Shock curan un 12 % más. Reverence (ahora 2 puntos, en la fila 2): el 30 % de tu regeneración de maná sigue mientras lanzas.",
+            "en": "Holy Light, Flash of Light and Holy Shock heal 12% more. Reverence (now 2 ranks, on row 2): 30% of your mana regen keeps going while casting."
           }
         },
         {
           "niveles": "20-24",
-          "puntos": "3/3 Reverence, 2/2 Purifying Power",
+          "puntos": "5/5 Illumination",
           "nota": {
-            "es": "Parte de tu regeneración de maná sigue mientras lanzas. Cleanse más barato y Exorcism con menos recarga, que ayuda a matar solo.",
-            "en": "Part of your mana regen keeps going while casting. Cheaper Cleanse, and a shorter Exorcism cooldown that helps solo."
+            "es": "Ahora en la fila 3. Tus críticos de curación te devuelven maná. Es lo que te deja curar mazmorras enteras sin parar.",
+            "en": "Now on row 3. Your healing crits refund mana. This is what lets you heal whole dungeons without stopping."
           }
         },
         {
-          "niveles": "25-29",
-          "puntos": "5/5 Illumination",
+          "niveles": "25-26",
+          "puntos": "1/1 Divine Favor, 1/1 Oath of Light",
           "nota": {
-            "es": "Tus críticos de curación te devuelven maná. Es lo que te deja curar mazmorras enteras sin parar.",
-            "en": "Your healing crits refund mana. This is what lets you heal whole dungeons without stopping."
+            "es": "Divine Favor asegura un crítico cuando lo necesitas. Oath of Light, nuevo: juras proteger a un aliado (normalmente el tanque) durante 5 min y tus Holy Light, Flash of Light y Holy Shock le curan más.",
+            "en": "Divine Favor guarantees a crit when you need it. Oath of Light, new: swear to protect one ally (usually the tank) for 5 min and your Holy Light, Flash of Light and Holy Shock heal them more."
+          }
+        },
+        {
+          "niveles": "27-29",
+          "puntos": "2/2 Divine Precision, 1/2 Infusion of Light",
+          "nota": {
+            "es": "Divine Precision, ahora de 2 puntos: +8 % de golpe con hechizos sagrados (para no fallar Holy Shock al pegar) y silencios un 20 % más cortos.",
+            "en": "Divine Precision, now 2 ranks: +8% hit with Holy spells (so Holy Shock lands when attacking) and 20% shorter silences."
           }
         },
         {
           "niveles": "30-31",
-          "puntos": "1/1 Holy Shock, 1/1 Divine Favor",
+          "puntos": "1/1 Holy Shock, 2/2 Infusion of Light",
           "nota": {
-            "es": "Holy Shock cura o daña al instante. Divine Favor asegura un crítico cuando lo necesitas.",
-            "en": "Holy Shock heals or damages instantly. Divine Favor guarantees a crit when you need it."
+            "es": "Holy Shock cura o daña al instante. Tras un crítico de Holy Shock o Flash of Light, tu siguiente Holy Light es más rápido.",
+            "en": "Holy Shock heals or damages instantly. After a Holy Shock or Flash of Light crit, your next Holy Light casts faster."
           }
         },
         {
-          "niveles": "32-36",
-          "puntos": "2/2 Infusion of Light, 3/3 Divine Precision",
+          "niveles": "32-34",
+          "puntos": "2/2 Boundless Light, 1/2 Purifying Power",
           "nota": {
-            "es": "Tras un crítico de Holy Shock o Flash of Light, tu siguiente Holy Light es más rápido. Más golpe con hechizos sagrados para no fallar Holy Shock.",
-            "en": "After a Holy Shock or Flash of Light crit, your next Holy Light casts faster. More Holy spell hit so Holy Shock lands."
+            "es": "Boundless Light, nuevo: +30 % de crítico de Holy Shock sobre aliados que no tengan tu Oath of Light. Purifying Power: Cleanse más barato y Exorcism con menos recarga.",
+            "en": "Boundless Light, new: +30% Holy Shock crit on allies without your Oath of Light. Purifying Power: cheaper Cleanse and a shorter Exorcism cooldown."
           }
         },
         {
-          "niveles": "37-39",
-          "puntos": "3/5 Holy Power",
+          "niveles": "35-39",
+          "puntos": "5/5 Holy Power",
           "nota": {
-            "es": "Más crítico para Holy Shock y para el resto de hechizos. Con 30 puntos abres la fila 7.",
-            "en": "More crit for Holy Shock and your other spells. With 30 points you open row 7."
+            "es": "Desde el 2-11 ya no da crítico: tus críticos de curación sagrada curan un 50 % más. Con 30 puntos abres la fila 7.",
+            "en": "Since November 2 it no longer adds crit chance: your Holy healing crits heal 50% more. With 30 points you open row 7."
           }
         },
         {
           "niveles": "40",
           "puntos": "1/1 Light's Vigil",
           "nota": {
-            "es": "Marca a un aliado: tu siguiente Holy Shock sobre él no gasta recarga. Ideal en el tanque.",
-            "en": "Mark an ally: your next Holy Shock on them triggers no cooldown. Ideal on the tank."
+            "es": "Marca a un aliado: tu siguiente Holy Shock sobre él no gasta recarga y cura a todo su grupo. Desde el 2-11 solo sirve sobre aliados.",
+            "en": "Mark an ally: your next Holy Shock on them triggers no cooldown and heals their whole party. Since November 2 it only works on allies."
           }
         },
         {
-          "niveles": "41-45",
-          "puntos": "5/5 Holy Power, 1/1 Voice of Truth, 2/2 Unyielding Faith",
+          "niveles": "41-43",
+          "puntos": "2/2 Purifying Power, 2/2 Holy Conduit",
           "nota": {
-            "es": "Cierras el crítico. Voice of Truth te deja lanzar aunque te silencien o interrumpan, y los miedos te duran menos.",
-            "en": "You finish the crit talents. Voice of Truth lets you cast through silences and interrupts, and fears last less."
+            "es": "Holy Conduit volvió a Holy: Consecration, Exorcism y Hammer of Wrath un 40 % más baratos, que ayuda a matar solo.",
+            "en": "Holy Conduit moved back to Holy: Consecration, Exorcism and Hammer of Wrath 40% cheaper, which helps solo."
           }
         },
         {
-          "niveles": "46-50",
-          "puntos": "5/5 Benediction (Retribution)",
+          "niveles": "44-50",
+          "puntos": "5/5 Divine Intellect, 2/2 Guardian's Favor (Protection)",
           "nota": {
-            "es": "Todo lo instantáneo cuesta un 10 % menos de maná: Holy Shock, sellos y bendiciones.",
-            "en": "All instants cost 10% less mana: Holy Shock, seals and blessings."
+            "es": "Divine Intellect pasó a Protection: +10 % de Intelecto, más maná y más crítico con hechizos. Blessing of Protection con menos recarga para salvar a quien esté en apuros.",
+            "en": "Divine Intellect moved to Protection: +10% Intellect, more mana and more spell crit. A shorter Blessing of Protection cooldown to save whoever is in trouble."
           }
         },
         {
-          "niveles": "51-55",
-          "puntos": "5/5 Toughness (Protection)",
+          "niveles": "51-60",
+          "puntos": "5/5 Benediction, 3/3 Conviction, 2/2 Improved Judgement (Retribution)",
           "nota": {
-            "es": "Más armadura de los objetos para aguantar cuando algo se escapa del tanque.",
-            "en": "More armor from items to survive when something gets loose from the tank."
-          }
-        },
-        {
-          "niveles": "56-60",
-          "puntos": "3/3 Precision (Protection), 2/2 Guardian's Favor (Protection)",
-          "nota": {
-            "es": "Un 3 % más de golpe y Blessing of Protection con menos recarga para salvar a quien esté en apuros. Acabas en 36/10/5.",
-            "en": "3% more hit and a shorter Blessing of Protection cooldown to save whoever is in trouble. You end at 36/10/5."
+            "es": "Instantáneos un 10 % más baratos (Holy Shock incluido) y, desde el 2-11, Conviction da un 6 % de crítico también a los hechizos: más curas críticas y más maná con Illumination. Acabas en 34/7/10.",
+            "en": "Instants 10% cheaper (Holy Shock included) and, since November 2, Conviction gives 6% crit to spells too: more healing crits and more mana from Illumination. You end at 34/7/10."
           }
         }
       ],
-      "final": "36/10/5"
+      "final": "34/7/10"
     }
   ],
   "nivel60": {
     "intro": {
-      "es": "A nivel 60 hay tres repartos claros, sacados de las builds más planificadas en la calculadora con los datos del cliente de la beta. Las bandas llegan el 9 de diciembre y aún no hay listas de equipo ni registros reales: las prioridades de abajo son las que dan las guías de la beta y pueden cambiar.",
-      "en": "At 60 there are three clear setups, taken from the most planned builds in the calculator using beta client data. Raids arrive on December 9 and there are no gear lists or real logs yet: the priorities below come from beta-era guides and may change."
+      "es": "El 2-11 Blizzard rehízo los tres árboles del paladín, así que los repartos de abajo son nuestros, montados con el árbol nuevo (los de la beta ya no se pueden hacer). Ese mismo día subió el daño de todas las clases y la vida de los enemigos de nivel alto, y no prevé grandes ajustes hasta las bandas de diciembre (llegan el 9). Aún no hay listas de equipo ni registros reales: las prioridades de abajo son las que dan las guías de la beta y pueden cambiar.",
+      "en": "On November 2 Blizzard reworked all three paladin trees, so the setups below are ours, built on the new tree (the beta ones can no longer be made). The same day it raised damage for every class and health for high-level enemies, and it doesn't plan big tuning changes until the December raids (from the 9th). There are no gear lists or real logs yet: the priorities below come from beta-era guides and may change."
     },
     "ramas": [
-      {"nombre": "Retribution (8/8/35)", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
+      {"nombre": "Retribution (10/8/33)", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
        "estadisticas": [
          {"es": "Golpe (Hit) primero: un fallo no hace daño ni aplica el sello.", "en": "Hit first: a miss deals no damage and applies no seal."},
          {"es": "Fuerza y poder de ataque; luego crítico (alimenta Vengeance).", "en": "Strength and attack power; then crit (feeds Vengeance)."},
@@ -387,7 +369,7 @@
        ],
        "rotacion": [
          {"es": "Seal of Command puesto; Judgement y Holy Strike cada vez que estén listos.", "en": "Seal of Command up; Judgement and Holy Strike on cooldown."},
-         {"es": "Con Twist of Light: cambia a Seal of Righteousness antes de un golpe para aplicar los dos sellos, y vuelve.", "en": "With Twist of Light: swap to Seal of Righteousness before a swing to apply both seals, then swap back."},
+         {"es": "Con Unsealed Wrath: 3 golpes con Seal of Command para guardar 3 copias y cambia a Seal of Righteousness; el siguiente golpe las suelta. Luego vuelve a Seal of Command.", "en": "With Unsealed Wrath: 3 swings with Seal of Command to store 3 copies, then swap to Seal of Righteousness; the next swing releases them. Then go back to Seal of Command."},
          {"es": "Consecration con 2 o más enemigos y maná de sobra.", "en": "Consecration on 2+ enemies when mana allows."},
          {"es": "Hammer of Wrath por debajo del 20 %; Exorcism contra no-muertos y demonios.", "en": "Hammer of Wrath below 20%; Exorcism on Undead and Demons."},
          {"es": "En grupo, deja el Judgement que pida el grupo (Wisdom o Light) si no hay otro paladín para ponerlo.", "en": "In groups, keep up the Judgement the group needs (Wisdom or Light) if no other paladin covers it."}
@@ -397,7 +379,7 @@
          {"es": "Elixir de Fuerza o Agilidad y otro de poder con hechizos (si las recetas de Classic siguen en Forever).", "en": "A Strength or Agility elixir plus a spell power one (if the Classic recipes remain in Forever)."},
          {"es": "Pociones de maná para peleas largas.", "en": "Mana potions for long fights."}
        ]},
-      {"nombre": "Protection (0/42/7)", "rol": {"es": "Tanque", "en": "Tank"},
+      {"nombre": "Protection (0/42/9)", "rol": {"es": "Tanque", "en": "Tank"},
        "estadisticas": [
          {"es": "Supervivencia: Defensa, Aguante, armadura, bloqueo y valor de bloqueo.", "en": "Survival: Defense, Stamina, armor, block chance and block value."},
          {"es": "Amenaza: golpe y poder con hechizos (casi todo tu daño es sagrado), luego Fuerza.", "en": "Threat: hit and spell power (most of your damage is Holy), then Strength."},
@@ -406,24 +388,25 @@
        ],
        "rotacion": [
          {"es": "Righteous Fury, aura y bendición puestas; Seal of Fury siempre activo.", "en": "Righteous Fury, aura and blessing up; Seal of Fury always active."},
-         {"es": "Judgement al llegar (provoca 4 s); Swift Judgement para otro Judgement inmediato al principio o como segundo provocar.", "en": "Judgement on the pull (4 s taunt); Swift Judgement for an instant second Judgement early on or as a backup taunt."},
+         {"es": "Judgement al llegar (provoca 3 s); Swift Judgement (no comparte recarga con Judgement) para otro Judgement inmediato al principio o como segundo provocar.", "en": "Judgement on the pull (3 s taunt); Swift Judgement (separate cooldown from Judgement) for an instant second Judgement early on or as a backup taunt."},
          {"es": "Holy Shield siempre activo y Consecration bajo el grupo.", "en": "Holy Shield always up and Consecration under the pack."},
-         {"es": "Holy Strike cada vez que esté listo: con Iron Creed da amenaza extra y reduce un 10 % el daño recibido.", "en": "Holy Strike on cooldown: with Iron Creed it adds threat and cuts damage taken by 10%."},
+         {"es": "Holy Strike cada vez que esté listo: con Iron Creed da amenaza extra y reduce un 6 % el daño recibido; con Shieldsworn recarga antes, golpea con el escudo y te deja bloquear hechizos 6 s.", "en": "Holy Strike on cooldown: with Iron Creed it adds threat and cuts damage taken by 6%; with Shieldsworn it comes back sooner, hits with your shield and lets you block spells for 6 s."},
          {"es": "Templar's Bulwark para picos de daño (aplica Forbearance: no lo mezcles con Divine Shield).", "en": "Templar's Bulwark for damage spikes (applies Forbearance: do not mix it with Divine Shield)."}
        ],
        "consumibles": [
          {"es": "Elixir de defensa y de vida (Superior Defense, Fortitude) y Greater Stoneshield Potion para picos (recetas de Classic, por confirmar en Forever).", "en": "Defense and health elixirs (Superior Defense, Fortitude) and Greater Stoneshield Potion for spikes (Classic recipes, unconfirmed in Forever)."},
          {"es": "Pociones de maná y algo de poder con hechizos cuando ya aguantes de sobra.", "en": "Mana potions, and some spell power once survival is covered."}
        ]},
-      {"nombre": "Holy (36/10/5)", "rol": {"es": "Sanador", "en": "Healer"},
+      {"nombre": "Holy (34/7/10)", "rol": {"es": "Sanador", "en": "Healer"},
        "estadisticas": [
          {"es": "Poder de sanación (poder con hechizos).", "en": "Healing power (spell power)."},
          {"es": "Intelecto: más maná y más crítico.", "en": "Intellect: more mana and more crit."},
-         {"es": "Crítico: más curación y más maná devuelto por Illumination.", "en": "Crit: more healing and more mana back from Illumination."},
+         {"es": "Crítico: más curación (Holy Power sube un 50 % lo que cura un crítico) y más maná devuelto por Illumination.", "en": "Crit: more healing (Holy Power makes crits heal 50% more) and more mana back from Illumination."},
          {"es": "Espíritu y maná cada 5 s: Reverence deja parte de la regeneración activa mientras lanzas.", "en": "Spirit and mana per 5: Reverence keeps part of your regen going while casting."}
        ],
        "rotacion": [
-         {"es": "Seal of Wisdom y su Judgement sobre el jefe para recuperar maná.", "en": "Seal of Wisdom and its Judgement on the boss for mana."},
+         {"es": "Seal of Wisdom y su Judgement sobre el jefe para recuperar maná. Oath of Light sobre el tanque (dura 5 min, solo uno a la vez).", "en": "Seal of Wisdom and its Judgement on the boss for mana. Oath of Light on the tank (lasts 5 min, only one at a time)."},
+         {"es": "Holy Shock sobre el resto del grupo: con Boundless Light tiene un 30 % más de crítico en quien no lleva tu Oath of Light.", "en": "Holy Shock on the rest of the group: with Boundless Light it has 30% more crit on anyone without your Oath of Light."},
          {"es": "Holy Light ante golpes fuertes (empieza a lanzarla antes) o con Infusion of Light activo.", "en": "Holy Light for big hits (start casting early) or with Infusion of Light up."},
          {"es": "Flash of Light para el daño ligero; Holy Shock si alguien puede morir ya o si te mueves.", "en": "Flash of Light for light damage; Holy Shock if someone may die now or while moving."},
          {"es": "Light's Vigil es tu única cura de grupo y es cara: marca a un aliado durante 30 s y tu siguiente Holy Shock sobre él no gasta su recarga y cura a todo su grupo. Solo puede haber una activa por grupo: guárdala para cuando el grupo entero recibe daño.", "en": "Light's Vigil is your only group heal and it is expensive: it marks an ally for 30 sec, and your next Holy Shock on them doesn't trigger its cooldown and heals their whole party. Only one can be active per party: save it for when the whole party takes damage."},
@@ -445,8 +428,8 @@
     {"es": "Blessing of Freedom contra guerreros, cazadores y magos de Escarcha: sin ella no llegas a melé.", "en": "Blessing of Freedom against warriors, hunters and Frost mages: without it you never reach melee."},
     {"es": "En Forever, Divine Shield ya no ralentiza tus ataques, pero reduce tu daño a la mitad: úsalo para curarte o quitarte efectos, no para pegar.", "en": "Divine Shield no longer slows your swings, but it halves your damage: use it to heal up or drop effects, not to attack."},
     {"es": "Desde el 42, Cleanse quita magia: limpia raíces, miedos y debilitaciones de tus compañeros en los campos de batalla.", "en": "From 42, Cleanse removes magic: clear roots, fears and debuffs from teammates in battlegrounds."},
-    {"es": "Divine Protection, Blessing of Protection, Divine Shield y Templar's Bulwark comparten Forbearance: cuenta cuál has gastado.", "en": "Divine Protection, Blessing of Protection, Divine Shield and Templar's Bulwark share Forbearance: track which one you used."},
-    {"es": "Contra lanzadores, Voice of Truth (talento Holy) da 6 s de inmunidad a silencios e interrupciones para sacar una cura segura.", "en": "Against casters, Voice of Truth (Holy talent) gives 6 s of immunity to silences and interrupts to land a safe heal."},
+    {"es": "Divine Protection, Blessing of Protection, Divine Shield y Templar's Bulwark comparten Forbearance: cuenta cuál has gastado. Sacred Duty (Protection) acorta Forbearance 10 s. Ojo: desde el 2-11 Templar's Bulwark se puede disipar.", "en": "Divine Protection, Blessing of Protection, Divine Shield and Templar's Bulwark share Forbearance: track which one you used. Sacred Duty (Protection) shortens Forbearance by 10 s. Note: since November 2 Templar's Bulwark can be dispelled."},
+    {"es": "Voice of Truth ya no existe (2-11). Para aguantar el control tienes ahora Stoicism (Protection: aturdimientos y hechizos de control mental un 20 % más cortos), Divine Precision (Holy: silencios un 20 % más cortos) y Unyielding Faith (pasó a Retribution: miedos y desorientaciones un 30 % más cortos).", "en": "Voice of Truth is gone (Nov 2). To shrug off crowd control you now have Stoicism (Protection: 20% shorter stuns and charms), Divine Precision (Holy: 20% shorter silences) and Unyielding Faith (moved to Retribution: 30% shorter fears and disorients)."},
     {"es": "Ingeniería sigue siendo muy útil en JcJ: un aturdimiento extra con granadas cambia los duelos.", "en": "Engineering is still very strong in PvP: an extra stun from grenades swings duels."}
   ],
   "tecnicas": {
@@ -531,14 +514,14 @@
     ],
     "pve": [
       {
-        "termino": "Seal twisting (Twist of Light)",
+        "termino": "Seal twisting (Unsealed Wrath)",
         "titulo": {
-          "es": "Dos sellos en un golpe",
-          "en": "Two seals on one swing"
+          "es": "Guardar sellos y soltarlos de golpe",
+          "en": "Store seals and release them at once"
         },
         "texto": {
-          "es": "Desde el 40, el talento <b>Twist of Light</b> hace el seal twisting de Classic más sencillo: al cambiar Seal of Command por Seal of Righteousness, te queda un Echo del sello anterior y tu siguiente golpe aplica los dos. Lo cómodo es cambiar de sello justo después de que salga un golpe del arma: así tienes todo el intervalo de un arma lenta para hacerlo. En el siguiente golpe vuelve a Seal of Command y repite. Cuesta maná (aunque el talento abarata los sellos un 20 %): hazlo en jefes o enemigos largos, no con todo.",
-          "en": "From level 40, the <b>Twist of Light</b> talent makes Classic-style seal twisting simpler: when you swap Seal of Command for Seal of Righteousness you keep an Echo of the old seal, and your next swing applies both. The comfortable way is to swap right after a weapon swing lands, so you have the whole gap of a slow weapon to do it. On the next swing go back to Seal of Command and repeat. It costs mana (though the talent cuts seal costs by 20%): do it on bosses or long fights, not on everything."
+          "es": "Desde el 2-11, Twist of Light ya no existe y su sitio lo ocupa <b>Unsealed Wrath</b> (talento final de Retribution, pide Repentance). Cada golpe del arma guarda una copia del sello activo durante 15 s, hasta 3. Cuando aciertas un golpe con un sello distinto, se gastan todas y cada copia tiene su probabilidad normal de activarse. Con <b>Seal of Command</b>: da 3 golpes, cambia a <b>Seal of Righteousness</b> justo después del tercero (tienes todo el intervalo de un arma lenta) y el siguiente golpe suelta las 3 copias. Luego vuelve a Seal of Command. Cuesta maná y atención: hazlo en jefes o enemigos largos. Aún nadie ha medido cuánto daño da.",
+          "en": "Since November 2, Twist of Light is gone and its place is taken by <b>Unsealed Wrath</b> (Retribution's final talent, requires Repentance). Each weapon swing stores a copy of your active seal for 15 sec, up to 3. When you land a swing with a different seal, all copies are spent and each gets its normal chance to trigger. With <b>Seal of Command</b>: land 3 swings, swap to <b>Seal of Righteousness</b> right after the third (you have the whole gap of a slow weapon) and the next swing releases the 3 copies. Then go back to Seal of Command. It costs mana and attention: do it on bosses or long fights. Nobody has measured how much damage it adds yet."
         }
       },
       {
@@ -559,8 +542,8 @@
           "en": "Threat as Protection"
         },
         "texto": {
-          "es": "Para tanquear, <b>Righteous Fury</b> encendido y <b>Seal of Fury</b> siempre puesto. Abre con <b>Judgement</b>: con Seal of Fury obliga al enemigo a pegarte 4 s, y te sirve también de segundo provocar. Pon <b>Consecration</b> bajo el grupo de enemigos para quedarte con todos y <b>Holy Strike</b> cada vez que esté listo. Si haces daño y no eres el tanque, apaga Righteous Fury.",
-          "en": "To tank, keep <b>Righteous Fury</b> on and <b>Seal of Fury</b> up. Open with <b>Judgement</b>: with Seal of Fury it forces the enemy to attack you for 4 sec, and doubles as a second taunt. Drop <b>Consecration</b> under the pack to hold all of them and use <b>Holy Strike</b> on cooldown. If you're doing damage and not tanking, turn Righteous Fury off."
+          "es": "Para tanquear, <b>Righteous Fury</b> encendido y <b>Seal of Fury</b> siempre puesto. Abre con <b>Judgement</b>: con Seal of Fury obliga al enemigo a pegarte 3 s, y te sirve también de segundo provocar. Righteous Fury se aprende ya a nivel 10. Pon <b>Consecration</b> bajo el grupo de enemigos para quedarte con todos y <b>Holy Strike</b> cada vez que esté listo. Si haces daño y no eres el tanque, apaga Righteous Fury.",
+          "en": "To tank, keep <b>Righteous Fury</b> on and <b>Seal of Fury</b> up. Open with <b>Judgement</b>: with Seal of Fury it forces the enemy to attack you for 3 sec, and doubles as a second taunt. Righteous Fury is now learned at level 10. Drop <b>Consecration</b> under the pack to hold all of them and use <b>Holy Strike</b> on cooldown. If you're doing damage and not tanking, turn Righteous Fury off."
         }
       },
       {
@@ -600,8 +583,8 @@
         "en": "Self-heal macro that keeps your target: <i>/cast [@mouseover,help][@player] Flash of Light</i>. Do the same for Blessing of Freedom and Cleanse to use them on an ally by hovering."
       },
       {
-        "es": "Seal of Command y Seal of Righteousness en dos teclas cómodas una al lado de la otra: para el seal twisting vas a cambiar de sello en cada golpe.",
-        "en": "Put Seal of Command and Seal of Righteousness on two comfortable side-by-side keys: when seal twisting you'll swap seals every swing."
+        "es": "Seal of Command y Seal of Righteousness en dos teclas cómodas una al lado de la otra: con Unsealed Wrath vas a cambiar de sello cada pocos golpes.",
+        "en": "Put Seal of Command and Seal of Righteousness on two comfortable side-by-side keys: with Unsealed Wrath you'll swap seals every few swings."
       }
     ]
   },
@@ -612,15 +595,16 @@
     {"nombre": {"es": "Primeros auxilios", "en": "First Aid"}, "por_que": {"es": "Vendas para ahorrar maná entre peleas.", "en": "Bandages to save mana between fights."}}
   ],
   "pendiente": [
-    {"es": "Champion of the Light: la última nota de Blizzard lo deja en el 30 % del Intelecto; el cliente de la beta aún mostraba el 60 %. Lo confirmaremos en el juego.", "en": "Champion of the Light: Blizzard's latest note sets it to 30% of Intellect; the beta client still showed 60%. We will confirm in game."},
-    {"es": "The Quick and the Dead con Righteous Fury gratis tras resucitar: cambio del 30-10 sacado de los datos del juego, sin nota de Blizzard; puede cambiar antes del lanzamiento.", "en": "The Quick and the Dead making Righteous Fury free after a resurrection: a 30 October change taken from the game data, with no Blizzard note; it may change before launch."},
+    {"es": "Las tres builds de subir y los repartos de nivel 60 (10/8/33, 0/42/9 y 34/7/10) son nuestros, hechos con el árbol nuevo del 2-11: las guías aún no han publicado los suyos. Los revisaremos cuando lo hagan.", "en": "All three leveling builds and the level 60 setups (10/8/33, 0/42/9 and 34/7/10) are ours, made on the new November 2 tree: guides haven't published theirs yet. We'll review them when they do."},
+    {"es": "Cuánto cura Oath of Light: Blizzard solo dice que el extra sube con tu nivel, sin cifras.", "en": "How much Oath of Light adds: Blizzard only says the bonus grows with your level, with no numbers."},
     {"es": "Equipo de banda y mejores piezas de Forever: sin datos hasta el 9-12.", "en": "Forever raid gear and best-in-slot: no data until December 9."},
-    {"es": "Estadísticas a 60 y valor real de Twist of Light: la beta llegaba al nivel 30, así que nadie ha medido aún el nivel 60.", "en": "Stats at 60 and the real value of Twist of Light: the beta capped at 30, so nobody has measured level 60 yet."},
+    {"es": "Estadísticas a 60 y valor real de Unsealed Wrath: la beta llegaba al nivel 30, así que nadie ha medido aún el nivel 60.", "en": "Stats at 60 and the real value of Unsealed Wrath: the beta capped at 30, so nobody has measured level 60 yet."},
     {"es": "Misiones de clase de los paladines no-muertos (entrenadores en Deathknell, Brill y Bandarion Keep) y la misión de Summon Charger a nivel 60.", "en": "Undead paladin class quests (trainers at Deathknell, Brill and Bandarion Keep) and the level 60 Summon Charger quest."},
     {"es": "Si las pociones y elixires de Classic siguen igual: Forever añade más de 600 recetas nuevas.", "en": "Whether Classic potions and elixirs remain the same: Forever adds over 600 new recipes."},
     {"es": "Malla y placas con poder con hechizos mientras subes: en la base de datos casi no aparecen piezas así de misiones ni de mazmorras, así que lo seguro es Herrería o la casa de subastas. Sin confirmar hasta ver el botín real.", "en": "Mail and plate with spell power while leveling: the database shows almost none from quests or dungeons, so the safe bet is Blacksmithing or the Auction House. Unconfirmed until we see the real loot."}
   ],
   "fuentes": [
+    {"nombre": "Notas de desarrollo de Blizzard (2 de noviembre)", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"},
     {"nombre": "Blizzard: análisis a fondo del paladín en Forever", "url": "https://news.blizzard.com/en-us/article/24302099"},
     {"nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)", "url": "https://foreverchanges.pro/patch-notes"},
     {"nombre": "Blizzard: calendario de Forever (bandas y mazmorras)", "url": "https://news.blizzard.com/es-es/article/24303862/"},

@@ -4,7 +4,7 @@ se añade arriba en PARCHES. ▲ = mejora, ▼ = nerf, ● = cambio o arreglo. H
 import html
 
 E = html.escape
-NOTAS = 'https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-8/2360696'
+NOTAS = 'https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696'  # 03-11: el hilo ya se titula «updated November 2» (antes october-8)
 FORO = 'https://us.forums.blizzard.com/en/wow/'
 
 # (fecha, título, resumen, [(texto general)], {clase: [(signo, texto)]})
@@ -12,7 +12,9 @@ import iconos_clase
 import notas_blizzard
 import parche_15oct  # notas del 15-10 (publicadas el 16-10), con su inglés
 import parche_26oct  # Van 26-10: repaso final de raciales
+import parche_02nov  # 03-11: notas del 2-11 (publicadas el 3-11), con su inglés
 PARCHES = [
+    parche_02nov.parche(),
     parche_26oct.parche(),
     parche_15oct.parche(),
     ('13 y 14 de octubre', 'Economía y mantenimiento', 'Sin cambios de clases. Blizzard estrena las retenciones contra la compra de oro y hace un mantenimiento para pruebas internas.',
@@ -126,7 +128,7 @@ def cambios(nav_forever):
             '<p class="lead">Lo que Blizzard va cambiando en cada parche de la beta de WoW Forever, por clase y en castellano: '
             '<span class="sig-l up"><i></i>mejoras</span>, <span class="sig-l down"><i></i>nerfs</span> y <span class="sig-l fix"><i></i>cambios y arreglos</span>. '
             'El más reciente, arriba. Cada parche lleva primero un resumen y, debajo, las notas completas de Blizzard traducidas. '
-            'La beta acaba el 21 de octubre y el juego sale el 4 de noviembre.</p>' + nav_forever('cambios') + out +
+            'La beta terminó el 23 de octubre y el juego abre el 5 de noviembre a las 00:00 (hora peninsular).</p>' + nav_forever('cambios') + out +
             f'<p class="fine">Fuente: <a href="{NOTAS}" target="_blank" rel="noopener noreferrer">notas de desarrollo oficiales de la beta (Blizzard)</a> y '
             f'<a href="{FORO}" target="_blank" rel="noopener noreferrer">avisos de Blizzard en su foro</a>. Resumimos lo que afecta al juego; los arreglos menores (sonidos, animaciones, textos) se quedan fuera. '
             'Las guías de clase de la beta (nivel 30) pueden no recoger aún todos estos cambios.</p>' + classic_forever())

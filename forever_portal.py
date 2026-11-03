@@ -186,11 +186,11 @@ BUILDS = [
     ('warrior', 'Guerrero', 'Arms 27 % · Fury 37 % · Protection 36 %',
      [('7/5/39', 'Protection', 'warrior/60/0502-05-250533120321021351-6'), ('17/34/0', 'Fury', 'warrior/60/30305013002-05253005151010501--6'),
       ('37/11/0', 'Arms', 'warrior/60/30305213132515201-050501--6')],
-     'Victory Rush (20), Spearing Strike (25, Arms). Tactical Mastery pasa a ser pasiva (14).'),
+     'Victory Rush (20), Spearing Strike (25, Arms). Tactical Mastery pasa a ser pasiva (14). Talentos nuevos el 2-11: Reckless Swings e Improved Whirlwind (Fury).'),
     ('paladin', 'Paladín', 'Holy 26 % · Protection 32 % · Retribution 42 %',
      [('8/8/35', 'Retribution', 'paladin/60/50003-503-05225131201331321-6'), ('0/42/7', 'Protection', 'paladin/60/-4530513321301551-502-6'),
       ('36/10/5', 'Holy', 'paladin/60/05320213225131051-5032-05-6')],
-     'Holy Strike (6), Seal of Fury (10, sello de tanque). Blessing of Kings y Consecration (20) ya se entrenan.'),
+     'Holy Strike (6), Seal of Fury y Righteous Fury (10, para tanquear). Blessing of Kings y Consecration (20) ya se entrenan. Desde el 2-11 ya no existen Blessing of Salvation ni Blessing of Light.'),
     ('hunter', 'Cazador', 'Beast Mastery 26 % · Marksmanship 27 % · Survival 47 %',
      [('5/11/35', 'Survival', 'hunter/60/5-005005001-500230230250222151-6'), ('5/41/5', 'Marksmanship', 'hunter/60/5-3053552011523051-5-6'),
       ('31/20/0', 'Beast Mastery', 'hunter/60/5120021505101251-00503520005--6')],
@@ -198,15 +198,15 @@ BUILDS = [
     ('rogue', 'Pícaro', 'Assassination 29 % · Combat 25 % · Subtlety 46 %',
      [('18/32/0', 'Combat', 'rogue/60/00530310501-32300320200515231--6'), ('38/11/2', 'Assassination', 'rogue/60/00531310551521051-302303-002-6'),
       ('16/12/23', 'Subtlety', 'rogue/60/30502010401-320302002-332002320021221-6')],
-     'Mutilate (30, Assassination), Venom (40, Assassination), Thousand Cuts (Subtlety).'),
+     'Poised (18), Shank (24, golpe con la otra mano que da energía), Mutilate (Assassination), Venom (Assassination, ahora va con Shank), Death Mark (Subtlety).'),
     ('priest', 'Sacerdote', 'Discipline 41 % · Holy 20 % · Shadow 39 %',
      [('14/3/34', 'Shadow', 'priest/60/0250030013-3-500322501201302251-6'), ('32/19/0', 'Discipline', 'priest/60/525330031305001001-30515100202--6'),
       ('19/32/0', 'Holy', 'priest/60/0053030013031-03505103030021531--6')],
-     'Binding Heal (25), Penance (30), Shadow Word: Death (32), Prayer of Mending (40). Fear Ward y Devouring Plague, ahora para todas las razas.'),
+     'Holy Binding (talento de Holy, sustituye a Binding Heal), Penance (30), Shadow Word: Death (32), Prayer of Mending (40). Fear Ward y Devouring Plague, ahora para todas las razas.'),
     ('shaman', 'Chamán', 'Elemental 27 % · Enhancement 54 % · Restoration 19 %',
      [('18/33/0', 'Enhancement', 'shaman/60/050533002-052032031005112251--6'), ('0/10/41', 'Restoration', 'shaman/60/-055-5030503315513151-6'),
       ('38/13/0', 'Elemental', 'shaman/60/5505301303123151-055002001--6')],
-     'Fire Nova como hechizo (12), Call of the Elements y Totemic Recall (20), Totemic Projection (22), Lava Burst, Rage of the Farseer o Riptide (40, según rama).'),
+     'Fire Nova como hechizo (12), Call of the Elements y Totemic Recall (20), Totemic Call (22, antes Totemic Projection), Call of Thunder, Rage of the Farseer o Riptide (40, según rama). Lava Burst desaparece el 2-11.'),
     ('mage', 'Mago', 'Arcane 25 % · Fire 31 % · Frost 44 %',
      [('0/29/22', 'Fire', 'mage/60/-0055103013013304-00550003310003002-6'), ('0/0/51', 'Frost', 'mage/60/--0555323331321331251-6'),
       ('47/4/0', 'Arcane', 'mage/60/255225223122311531-13--6')],
@@ -218,18 +218,27 @@ BUILDS = [
     ('druid', 'Druida', 'Balance 25 % · Feral 47 % · Restoration 28 %',
      [('11/5/35', 'Restoration', 'druid/60/05302001-05-5050035103113251-6'), ('9/42/0', 'Feral', 'druid/60/050022-55230202120132012551--6'),
       ('36/0/15', 'Balance', 'druid/60/5032220115501351--505203-6')],
-     'Revive (12, resurrección fuera de combate), Ferocious Bite rango 1 (24), Lacerate (25, oso), Primal Bite, Shifting Power y Wild Growth (40). Berserk desaparece el 30-10.'),
+     'Revive (12, resurrección fuera de combate), Ferocious Bite rango 1 (24), Poised (32), Lacerate (talento de Feral), Primal Bite, Shifting Power y Wild Growth (40). Berserk desaparece.'),
 ]
+
+
+AVISO_ARBOL = {  # 03-11: árboles cambiados tras la beta (28-10, 30-10 y nota de Blizzard del 2-11): las builds de la beta ya no valen
+    'paladin': 'El árbol de talentos del paladín cambió el 2 de noviembre (talentos nuevos y otros eliminados): las builds de la beta ya no encajan. Mira las de la <a href="../paladin/#g-60">guía del paladín</a>.',
+    'rogue': 'El árbol de talentos del pícaro se reorganizó el 2 de noviembre (llegan Shank y Death Mark, desaparecen varios talentos): las builds de la beta ya no encajan. Mira la <a href="../rogue/#g-60">guía del pícaro</a>.',
+    'warrior': 'El árbol de talentos del guerrero cambió el 2 de noviembre (Flurry, Bloodthirst y talentos nuevos de Fury): las builds de la beta pueden no encajar. Mira la <a href="../warrior/#g-60">guía del guerrero</a>.',
+    'shaman': 'El árbol de talentos del chamán cambió el 2 de noviembre (adiós a Lava Burst, llega Call of Thunder): las builds de la beta pueden no encajar. Mira la <a href="../shaman/#g-60">guía del chamán</a>.',
+    'hunter': 'El árbol de talentos del cazador movió varios talentos el 2 y el 3 de noviembre: las builds de la beta pueden no encajar. Mira la <a href="../hunter/#g-60">guía del cazador</a>.',
+    'mage': 'El árbol de talentos del mago cambió el 28 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../mage/#g-60">guía del mago</a>.',
+    'druid': 'El árbol de talentos del druida cambió el 30 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../druid/#g-60">guía del druida</a>.',
+}
 
 
 def builds_60():
     cards = ''
     for slug, nombre, reparto, builds, nuevas in BUILDS:
         filas = ''.join(f'<li><b>{E(p)}</b> {E(s)} {link(TF + u, "Ver build")}</li>' for p, s, u in builds)
-        if slug == 'mage':  # 30-10: Blizzard rehízo el árbol del mago el 28-10 (hotfix) y estas builds ya no se pueden hacer tal cual
-            filas = '<li>El árbol de talentos del mago cambió el 28 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../mage/#g-60">guía del mago</a>.</li>'
-        if slug == 'druid':  # 31-10: el árbol del druida cambió el 30-10 (hotfix sin nota de Blizzard) y estas builds ya no se pueden hacer tal cual
-            filas = '<li>El árbol de talentos del druida cambió el 30 de octubre: las builds de la beta ya no encajan. Mira las de la <a href="../druid/#g-60">guía del druida</a>.</li>'
+        if slug in AVISO_ARBOL:
+            filas = f'<li>{AVISO_ARBOL[slug]}</li>'
         cards += (f'<article class="addon build60"><img src="../assets/{slug}.jpg" alt=""><div><p class="eyebrow">{E(reparto)}</p><h3>{E(nombre)}</h3>'
                   f'<ol class="b60">{filas}</ol><p><strong>Nuevo en Forever:</strong> {E(nuevas)}</p>'
                   f'<a class="btn ghost" href="../{slug}/">Guía completa de la clase</a></div></article>')
@@ -251,6 +260,8 @@ def builds60_clase(slug):
         if s != slug:
             continue
         filas = ''.join(f'<li><b>{E(p)}</b> {E(s2)} {link(TF + u, "Ver build")}</li>' for p, s2, u in builds)
+        if s in AVISO_ARBOL:  # 03-11: también al pie de la guía de la clase
+            filas = f'<li>{AVISO_ARBOL[s]}</li>'
         return ('<section class="b60-guia" id="builds-60"><div class="divider"><h2>Builds recomendadas para nivel 60</h2></div>'
                 f'<article class="addon build60"><img src="../assets/{slug}.jpg" alt=""><div><p class="eyebrow">{E(reparto)}</p><h3>{E(nombre)} · nivel 60</h3>'
                 f'<ol class="b60">{filas}</ol><p><strong>Nuevo en Forever:</strong> {E(nuevas)}</p></div></article>'

@@ -1,9 +1,9 @@
 {
   "slug": "priest",
-  "actualizado": "2026-10-31",
+  "actualizado": "2026-11-03",
   "resumen": {
-    "es": "El sacerdote de Forever sigue siendo el sanador de tela con los mejores beneficios del juego, pero ahora llega con más herramientas: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> y <b>Shadow Word: Death</b>. <b>Fear Ward</b> y <b>Devouring Plague</b> ya los aprenden todas las razas. Es para quien quiere curar en grupo y en banda, o jugar Sombra: mucho aguante en solitario y un buen hueco en JcJ.",
-    "en": "The Forever Priest is still the cloth healer with the best buffs in the game, but it now has more tools: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Binding Heal</b> and <b>Shadow Word: Death</b>. Every race now learns <b>Fear Ward</b> and <b>Devouring Plague</b>. Pick it if you want to heal groups and raids, or play Shadow, which is very self-sufficient solo and has a real place in PvP."
+    "es": "El sacerdote de Forever sigue siendo el sanador de tela con los mejores beneficios del juego, pero ahora llega con más herramientas: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Holy Binding</b> y <b>Shadow Word: Death</b>. <b>Fear Ward</b> y <b>Devouring Plague</b> ya los aprenden todas las razas. Es para quien quiere curar en grupo y en banda, o jugar Sombra: mucho aguante en solitario y un buen hueco en JcJ.",
+    "en": "The Forever Priest is still the cloth healer with the best buffs in the game, but it now has more tools: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Holy Binding</b> and <b>Shadow Word: Death</b>. Every race now learns <b>Fear Ward</b> and <b>Devouring Plague</b>. Pick it if you want to heal groups and raids, or play Shadow, which is very self-sufficient solo and has a real place in PvP."
   },
   "fuertes": [
     {
@@ -41,8 +41,8 @@
       "en": "No mobility tools: no charge, no blink. In PvP, melee classes will stay on top of you."
     },
     {
-      "es": "En <b>Shadowform</b> no puedes curar: salir para curarte y volver a entrar cuesta el 40 % del maná base. Desde el 30-10 sí puedes quitar enfermedades sin salir (<b>Cure Disease</b> y <b>Abolish Disease</b>; visto en los datos, sin nota oficial de Blizzard).",
-      "en": "You cannot heal in <b>Shadowform</b>: dropping it to heal and going back in costs 40% of your base mana. Since 30 October you can remove diseases without leaving it (<b>Cure Disease</b> and <b>Abolish Disease</b>; found in the game data, no official Blizzard note)."
+      "es": "En <b>Shadowform</b> no puedes curar: salir para curarte y volver a entrar cuesta el 40 % del maná base. Desde el 2-11 Blizzard confirma que puedes quitar enfermedades sin salir (<b>Cure Disease</b> y <b>Abolish Disease</b>).",
+      "en": "You cannot heal in <b>Shadowform</b>: dropping it to heal and going back in costs 40% of your base mana. Since November 2 Blizzard confirms you can remove diseases without leaving it (<b>Cure Disease</b> and <b>Abolish Disease</b>)."
     },
     {
       "es": "El daño Sagrado ha bajado: <b>Smite</b> y <b>Holy Fire</b> hacen más o menos la mitad que en Classic desde el nivel 30, así que Sagrado y Disciplina matan despacio.",
@@ -76,8 +76,8 @@
         "en": "Healing whole groups"
       },
       "texto": {
-        "es": "La rama de curación pura. Gana <b>Binding Heal</b> (te cura a ti y al objetivo a la vez), <b>Litany of Light</b> (devuelve maná si alternas curas) y <b>Prayer of Mending</b> como talento final, que sustituye a Lightwell. <b>Spiritual Guidance</b> convierte tu Espíritu en poder de curación.",
-        "en": "The pure healing spec. It gains <b>Binding Heal</b> (heals you and your target at once), <b>Litany of Light</b> (mana back when you alternate heals) and <b>Prayer of Mending</b> as the capstone, replacing Lightwell. <b>Spiritual Guidance</b> turns your Spirit into healing power."
+        "es": "La rama de curación pura. Gana <b>Holy Binding</b> (desde el 2-11 sustituye a Binding Heal: al curar a otro con Flash Heal, tú recibes la mitad de esa cura), <b>Litany of Light</b> (devuelve maná si alternas curas) y <b>Prayer of Mending</b> como talento final, que sustituye a Lightwell. <b>Spiritual Guidance</b> convierte tu Espíritu en poder de curación.",
+        "en": "The pure healing spec. It gains <b>Holy Binding</b> (it replaced Binding Heal on November 2: when you Flash Heal someone else, you get half of that healing too), <b>Litany of Light</b> (mana back when you alternate heals) and <b>Prayer of Mending</b> as the capstone, replacing Lightwell. <b>Spiritual Guidance</b> turns your Spirit into healing power."
       }
     },
     {
@@ -414,11 +414,11 @@
       },
       {
         "nivel": 25,
-        "nombre": "Binding Heal",
+        "nombre": "Holy Binding",
         "nuevo": true,
         "texto": {
-          "es": "Talento de Sagrado. Cura a la vez a un aliado y a ti.",
-          "en": "Holy talent. Heals an ally and yourself at the same time."
+          "es": "Talento pasivo de Sagrado que sustituye a Binding Heal desde el 2-11. Cuando curas a otro con Flash Heal, tú recibes el 50 % de esa cura, sin generar amenaza.",
+          "en": "Passive Holy talent that replaced Binding Heal on November 2. When you Flash Heal someone else, you are healed for 50% of it, with no threat."
         }
       },
       {
@@ -426,8 +426,8 @@
         "nombre": "Vampiric Embrace",
         "nuevo": false,
         "texto": {
-          "es": "Talento de Sombra. Tu daño de Sombra cura al grupo durante 30 s; ahora con 30 s de reutilización.",
-          "en": "Shadow talent. Your Shadow damage heals the party for 30 sec; now on a 30 sec cooldown."
+          "es": "Talento de Sombra. Tu daño de Sombra cura al grupo durante 30 s; ahora con 30 s de reutilización. Desde el 2-11 esa cura ya no puede ser crítica.",
+          "en": "Shadow talent. Your Shadow damage heals the party for 30 sec; now on a 30 sec cooldown. Since November 2 that healing can no longer crit."
         }
       },
       {
@@ -471,8 +471,8 @@
         "nombre": "Shadow Word: Death",
         "nuevo": true,
         "texto": {
-          "es": "Remate instantáneo de Sombra con 18 s de reutilización. Si el objetivo sobrevive, pierdes el 10 % de tu vida máxima.",
-          "en": "Instant Shadow finisher on an 18 sec cooldown. If the target survives, you lose 10% of your max health."
+          "es": "Remate instantáneo de Sombra con 18 s de reutilización. Desde el 2-11, si el objetivo sobrevive pierdes el 30 % de tu vida máxima (antes, 10 %); si el hechizo falla, no te hace nada.",
+          "en": "Instant Shadow finisher on an 18 sec cooldown. Since November 2, if the target survives you lose 30% of your max health (was 10%); if the spell misses, you take nothing."
         }
       },
       {
@@ -507,8 +507,8 @@
         "nombre": "Shadowform",
         "nuevo": false,
         "texto": {
-          "es": "Talento final de Sombra (nivel 42 con esta ruta). Más daño, mitad de coste y menos daño físico; no deja curar. Desde el 30-10 (cambio visto en los datos, sin nota oficial: puede cambiar) sí permite Cure Disease y Abolish Disease.",
-          "en": "Shadow capstone (level 42 on this route). More damage, half the cost and less physical damage taken; no healing. Since 30 October (a change found in the game data, no official note: it may change) it does allow Cure Disease and Abolish Disease."
+          "es": "Talento final de Sombra (nivel 42 con esta ruta). Más daño, mitad de coste y menos daño físico; no deja curar. Sí permite Cure Disease y Abolish Disease (confirmado por Blizzard el 2-11).",
+          "en": "Shadow capstone (level 42 on this route). More damage, half the cost and less physical damage taken; no healing. It does allow Cure Disease and Abolish Disease (confirmed by Blizzard on November 2)."
         }
       },
       {
@@ -543,8 +543,8 @@
         "en": "Full <b>Mind Flay</b> channels as filler (the last tick hits hardest) and <b>Mind Blast</b> whenever it is ready."
       },
       {
-        "es": "Desde nivel 32, <b>Shadow Word: Death</b> solo para rematar: si no mata, te hace daño.",
-        "en": "From level 32, <b>Shadow Word: Death</b> only to finish: if it does not kill, it hurts you."
+        "es": "Desde nivel 32, <b>Shadow Word: Death</b> solo para rematar: si no mata, te quita el 30 % de tu vida máxima.",
+        "en": "From level 32, <b>Shadow Word: Death</b> only to finish: if it does not kill, it costs you 30% of your max health."
       },
       {
         "es": "Si vas justo de maná, deja que la varita y los efectos en el tiempo terminen al enemigo y aprovecha <b>Spirit Tap</b> al matar.",
@@ -601,8 +601,8 @@
         "en": "Want <b>Shadowform</b> right at 40? Skip <b>Wand Specialization</b> for now: with every point in Shadow you reach the 30 needed at level 40."
       },
       {
-        "es": "En <b>Shadowform</b> no puedes curar. Si necesitas curarte, mejor <b>Power Word: Shield</b> y <b>Devouring Plague</b> antes que salir de la forma. Las enfermedades sí: desde el 30-10 <b>Cure Disease</b> y <b>Abolish Disease</b> se lanzan en la forma (cambio sacado de los datos, sin nota oficial).",
-        "en": "You cannot heal in <b>Shadowform</b>. If you need health, lean on <b>Power Word: Shield</b> and <b>Devouring Plague</b> before leaving the form. Diseases are a different story: since 30 October <b>Cure Disease</b> and <b>Abolish Disease</b> work in the form (a change taken from the game data, no official note)."
+        "es": "En <b>Shadowform</b> no puedes curar. Si necesitas curarte, mejor <b>Power Word: Shield</b> y <b>Devouring Plague</b> antes que salir de la forma. Las enfermedades sí: <b>Cure Disease</b> y <b>Abolish Disease</b> se lanzan en la forma (confirmado por Blizzard el 2-11).",
+        "en": "You cannot heal in <b>Shadowform</b>. If you need health, lean on <b>Power Word: Shield</b> and <b>Devouring Plague</b> before leaving the form. Diseases are a different story: <b>Cure Disease</b> and <b>Abolish Disease</b> work in the form (confirmed by Blizzard on November 2)."
       },
       {
         "es": "En Forever los efectos en el tiempo se recalculan mientras duran: si te llega un beneficio a mitad, el resto de golpes ya lo aprovecha.",
@@ -700,8 +700,8 @@
   },
   "nivel60": {
     "intro": {
-      "es": "La beta solo llegó a nivel 30, así que todo lo de nivel 60 es teoría: valores del cliente de la beta y las builds más planificadas. Las más populares son Sombra 14/0/37 y 17/0/34, Disciplina 32/19/0 y 33/18/0, y Sagrado 19/32/0. La ruta de subida de esta guía (17/0/34) ya sirve como build de Sombra a 60. Las bandas llegan el 9 de diciembre de 2026.",
-      "en": "The beta only went to level 30, so everything at 60 is theory: beta client values and the most planned builds. The most popular are Shadow 14/0/37 and 17/0/34, Discipline 32/19/0 and 33/18/0, and Holy 19/32/0. This guide's leveling route (17/0/34) already works as a level 60 Shadow build. Raids arrive on 9 December 2026."
+      "es": "La beta solo llegó a nivel 30, así que todo lo de nivel 60 es teoría: valores del cliente de la beta y las builds más planificadas. Las más populares son Sombra 14/0/37 y 17/0/34, Disciplina 32/19/0 y 33/18/0, y Sagrado 19/32/0. La ruta de subida de esta guía (17/0/34) ya sirve como build de Sombra a 60. Las bandas llegan el 9 de diciembre de 2026. Desde el 2-11 todas las clases hacen más daño y los enemigos de nivel alto tienen más vida, y Blizzard no prevé grandes ajustes hasta esas bandas.",
+      "en": "The beta only went to level 30, so everything at 60 is theory: beta client values and the most planned builds. The most popular are Shadow 14/0/37 and 17/0/34, Discipline 32/19/0 and 33/18/0, and Holy 19/32/0. This guide's leveling route (17/0/34) already works as a level 60 Shadow build. Raids arrive on 9 December 2026. Since November 2 every class deals more damage and high-level enemies have more health, and Blizzard doesn't plan big tuning changes until those raids."
     },
     "ramas": [
       {
@@ -742,8 +742,8 @@
             "en": "<b>Mind Blast</b> on cooldown."
           },
           {
-            "es": "<b>Shadow Word: Death</b> cuando esté listo, sobre todo con el jefe por debajo del 20 % (Early Demise). Vigila tu vida por el rebote.",
-            "en": "<b>Shadow Word: Death</b> on cooldown, especially with the boss below 20% (Early Demise). Watch your health for the backlash."
+            "es": "<b>Shadow Word: Death</b> cuando esté listo, sobre todo con el jefe por debajo del 20 % (Early Demise). Vigila tu vida: desde el 2-11, si no mata, el rebote es del 30 % de tu vida máxima.",
+            "en": "<b>Shadow Word: Death</b> on cooldown, especially with the boss below 20% (Early Demise). Watch your health: since November 2, if it doesn't kill, the backlash is 30% of your max health."
           },
           {
             "es": "<b>Vampiric Embrace</b> activo casi siempre para curar al grupo.",
@@ -803,8 +803,8 @@
             "en": "<b>Renew</b> on targets taking steady damage."
           },
           {
-            "es": "<b>Flash Heal</b> o <b>Binding Heal</b> para curas rápidas; con <b>Renewed Hope</b>, curar a un objetivo con Weakened Soul acorta su espera de escudo.",
-            "en": "<b>Flash Heal</b> or <b>Binding Heal</b> for quick heals; with <b>Renewed Hope</b>, healing a target with Weakened Soul shortens their shield lockout."
+            "es": "<b>Flash Heal</b> para curas rápidas; con <b>Renewed Hope</b>, curar a un objetivo con Weakened Soul acorta su espera de escudo.",
+            "en": "<b>Flash Heal</b> for quick heals; with <b>Renewed Hope</b>, healing a target with Weakened Soul shortens their shield lockout."
           },
           {
             "es": "<b>Greater Heal</b> con <b>Inner Focus</b> antes de un golpe grande conocido.",
@@ -860,8 +860,8 @@
             "en": "<b>Renew</b> on everyone taking steady damage."
           },
           {
-            "es": "<b>Flash Heal</b> o <b>Binding Heal</b> para curas rápidas. Alterna hechizos para que <b>Litany of Light</b> te devuelva maná.",
-            "en": "<b>Flash Heal</b> or <b>Binding Heal</b> for quick heals. Alternate spells so <b>Litany of Light</b> refunds mana."
+            "es": "<b>Flash Heal</b> para curas rápidas (con <b>Holy Binding</b> tú también te curas la mitad). Alterna hechizos para que <b>Litany of Light</b> te devuelva maná.",
+            "en": "<b>Flash Heal</b> for quick heals (with <b>Holy Binding</b> you also get half of it). Alternate spells so <b>Litany of Light</b> refunds mana."
           },
           {
             "es": "<b>Greater Heal</b> con <b>Inner Focus</b> para golpes grandes.",
@@ -911,8 +911,8 @@
       "en": "<b>Dispel Magic</b> strips enemy buffs and cleans your allies; <b>Fear Ward</b> your key ally against Warlocks and Warriors."
     },
     {
-      "es": "<b>Shadow Word: Death</b> solo para rematar: si el rival sobrevive, pierdes el 10 % de tu vida.",
-      "en": "<b>Shadow Word: Death</b> only as a finisher: if your target survives, you lose 10% of your health."
+      "es": "<b>Shadow Word: Death</b> solo para rematar: desde el 2-11, si el rival sobrevive pierdes el 30 % de tu vida máxima. Si falla, no te pasa nada.",
+      "en": "<b>Shadow Word: Death</b> only as a finisher: since November 2, if your target survives you lose 30% of your max health. If it misses, nothing happens to you."
     },
     {
       "es": "En campos de batalla, un sanador de Disciplina con escudos y Penance es muy difícil de matar; no te alejes de tu grupo.",
@@ -1158,11 +1158,15 @@
       "en": "Exactly how much low spell ranks lose from spell power."
     },
     {
-      "es": "Cure Disease y Abolish Disease en Shadowform: cambio del 30-10 sacado de los datos del juego, sin nota de Blizzard; puede cambiar antes del lanzamiento.",
-      "en": "Cure Disease and Abolish Disease in Shadowform: a 30 October change taken from the game data, with no Blizzard note; it may change before launch."
+      "es": "Cuánto daño hacen ahora los hechizos del sacerdote: el 2-11 Blizzard subió el daño de todas las clases sin dar cifras del sacerdote.",
+      "en": "How much damage priest spells now deal: on November 2 Blizzard raised damage for every class without giving priest numbers."
     }
   ],
   "fuentes": [
+    {
+      "nombre": "Notas de desarrollo de Blizzard (2 de noviembre)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+    },
     {
       "nombre": "ForeverChanges: cambios sacados de los datos del juego (30-10)",
       "url": "https://foreverchanges.pro/patch-notes"
@@ -1408,10 +1412,10 @@
         },
         {
           "niveles": "29-32",
-          "puntos": "1/1 Binding Heal, 2/2 Litany of Light, 1/1 Spirit of Redemption",
+          "puntos": "1/1 Holy Binding, 2/2 Litany of Light, 1/1 Spirit of Redemption",
           "nota": {
-            "es": "Te curas a ti y al objetivo a la vez. Ideal cuando un enemigo se escapa y te golpea a ti. Si alternas curas distintas, recuperas maná con cada una. Al morir sigues curando unos segundos. Es requisito de Prayer of Mending.",
-            "en": "Heals you and your target at once. Perfect when a mob slips past the tank and hits you. If you alternate between different heals, you get mana back on each one. When you die you keep healing for a few seconds. It is required for Prayer of Mending."
+            "es": "Holy Binding ocupa el hueco de Binding Heal desde el 2-11: cada Flash Heal sobre otro te cura a ti la mitad, sin amenaza. Ideal cuando un enemigo se escapa y te golpea a ti. Si alternas curas distintas, recuperas maná con cada una. Al morir sigues curando unos segundos: Spirit of Redemption es requisito de Prayer of Mending.",
+            "en": "Holy Binding took Binding Heal's slot on November 2: every Flash Heal on someone else heals you for half, with no threat. Perfect when a mob slips past the tank and hits you. If you alternate between different heals, you get mana back on each one. When you die you keep healing for a few seconds: Spirit of Redemption is required for Prayer of Mending."
           }
         },
         {

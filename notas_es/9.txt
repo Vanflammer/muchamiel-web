@@ -1,0 +1,405 @@
+Desde la última actualización completa de la beta, el 15 de octubre, hemos seguido trabajando para resolver problemas, pulir las clases, mejorar el juego en todos los aspectos y atender los comentarios de quienes probaron la beta. A continuación están las actualizaciones y los cambios desarrollados en estas últimas dos semanas y media.
+Para que esté todo junto, incluimos también los cambios de talentos y habilidades raciales que ya publicamos.
+Y una vez más, muchísimas gracias a todos los que probaron la beta con nosotros y nos dieron tantos comentarios. Valoramos mucho su esfuerzo y estamos deseando verlos el 4 de noviembre.
+Arreglos de errores
+Throw ahora usa correctamente el tiempo de preparación de 0,5 s (usaba por error la velocidad de ataque del arma arrojadiza).
+Recompensa del Legado: Replica Ironforge Air Rifle ahora se puede usar correctamente con aliados que también lo tienen equipado.
+La duración del debuff por abandonar baja a 40 s (antes, 5 min).
+La duración del aturdimiento baja a 2,5 s (antes, 3 s).
+Todas las razas tienen ahora la cantidad correcta de estadísticas base. Por ejemplo, los guerreros tauren empiezan ahora con los +5 de fuerza correctos respecto a los guerreros humanos (antes, +2 por error). Este arreglo se aplica también a las estadísticas base de los célicos High Order y Windshaper.
+Las raíces que salen de efectos con probabilidad ahora tienen correctamente rendimientos decrecientes. Incluye Frostbite, Entrapment, Improved Wing Clip, Counterattack e Improved Hamstring.
+Clases
+Nota de los desarrolladores: a lo largo de la beta nos dimos cuenta de que intentar ajustarnos más o menos al presupuesto de poder de Classic para cada clase hacía que cada elemento nuevo que añadíamos tuviera que salir de otra parte. Esas reducciones dejaban algunas habilidades emblemáticas algo sosas y cerraban la puerta a otras opciones de diseño potencialmente interesantes. Por eso, en las dos últimas semanas hemos subido el daño de las clases en todo el juego y, para compensar, hemos aumentado la vida de las criaturas de nivel más alto. Este «margen» adicional nos ha permitido ajustar las cosas a un punto que esperamos que se sienta mejor en general. Además, parte de esta tanda de cambios corrige casos en los que seguramente recurrimos con prisas a soluciones de la época de Burning Crusade o Wrath en lugar de crear otras nuevas que encajaran mejor en el modelo de combate de Forever. Nuestro objetivo en el diseño de clases no es una igualdad numérica perfecta, sino que cada clase se sienta valiosa en los grupos a los que se une, con momentos poderosos e inolvidables al dominarla. En Forever lo logramos apostando por las virtudes y diferencias que hacen única a cada clase, en lugar de igualarlas demasiado.
+Nota de los desarrolladores: hemos usado los datos y comentarios reunidos en las pruebas de la beta para dejarlo todo ajustado a un punto razonable. Sin embargo, la única prueba de verdad de ese ajuste es el propio juego. Salvo fallos y casos muy desmedidos, no pensamos hacer grandes cambios de ajuste desde ahora hasta la apertura de las bandas el mes que viene. Cuando tengamos datos suficientes de jugadores que suban por encima del nivel 30 y jueguen todo tipo de contenido, esperamos hacer un gran repaso de ajustes basado en esos datos. Y esto es solo el punto de partida de las clases en Forever, que seguirán evolucionando en los meses y años que vienen, igual que pasó tras el lanzamiento original de 2004.
+Varios talentos ya no tienen una penalización a su probabilidad de activarse al lanzar hechizos de rango bajo.
+Esta penalización sigue aplicándose a Blizzard. Blizzard sigue teniendo menos probabilidad de activar Arcane Concentration, Frostbite y Fingers of Frost al lanzar un rango aprendido más de 12 niveles por debajo del nivel actual del lanzador.
+Aprender hechizos nuevos ya no hace que se añadan automáticamente a tus barras de acción.
+Se han ajustado los costes de entrenamiento de todas las clases.
+La mayoría de las habilidades que se aprenden al mismo nivel cuestan lo mismo de entrenar, salvo las habilidades raciales del sacerdote.
+El coste total de entrenar las habilidades de clase del 1 al 60 está ahora entre 206 y 207 de oro para todas las clases.
+Al brujo se le descuenta el coste previsto de comprar los grimorios de sus demonios.
+Druida
+Lacerate es ahora un talento Feral y ya no lo aprenden todos los druidas.
+Ferocious Bite tiene un nuevo rango 1 al nivel 24. Todos los rangos existentes suben un número.
+Bear Form y Dire Bear Form: el aumento de amenaza sube del 50 % al 115 %. Es para compensar que se quita Blessing of Salvation.
+Poised: nueva habilidad pasiva que se aprende al nivel 32. «Cuando no estás en combate y tienes la energía al máximo, obtienes Poised. Poised reduce en 10 el coste de energía de tu siguiente habilidad de energía».
+Shred: el porcentaje de daño de arma sube al 200 % (antes, 155 %).
+Claw: el porcentaje de daño de arma sube al 140 % (antes, 110 %).
+Ravage: el porcentaje de daño de arma sube del 350 % al 435 %.
+Rip: los puntos base y el escalado con poder de ataque suben alrededor de un 25 %.
+Rake: los puntos base y el escalado con poder de ataque suben alrededor de un 25 %.
+Ferocious Bite: los puntos base y el escalado con poder de ataque suben alrededor de un 25 %.
+Pounce: los puntos base y el escalado con poder de ataque suben alrededor de un 25 %.
+Starfire: los puntos de daño base suben alrededor de un 40 %.
+Equilibrio
+Genesis: ahora aumenta el daño y la sanación periódicos un 2/4/6/8/10 % (antes, 1/2/3/4/5 %).
+Moonkin Form: el aumento de crítico de este talento vuelve a afectar a todos los tipos de golpe crítico y vuelve a ser excluyente con Leader of the Pack.
+Feral
+Heart of the Wild: el talento pasa al árbol de Restauración, intercambiándose con Furor.
+Lacerate: ahora es un talento de 1 punto en la fila 4, en lugar de Primal Bite. Lacerate tiene dos rangos nuevos para encajar con que se aprenda antes.
+Predatory Discipline: nuevo talento de 1 punto en la fila 4, columna 3, en lugar de Shifting Power. «Tu habilidad Ferocious Bite ya no convierte la energía sobrante en daño, pero sigue infligiendo daño adicional según tu energía sobrante». No necesita talentos previos.
+Predatory Strikes: pasa a la columna 1 (antes, columna 3).
+Leader of the Pack: el aumento de crítico de este talento vuelve a afectar a todos los tipos de golpe crítico y vuelve a ser excluyente con Moonkin Aura.
+Natural Instinct: pasa a la columna 4 (antes, columna 1).
+Rend and Tear: pasa a la columna 1 (antes, columna 3). El aumento de daño sube al 3/6/9/12/15 % (antes, 2/4/6/8/10 %).
+Se quita el talento Berserk.
+Primal Bite: sustituye a Berserk como talento de 1 punto en la fila 7, columna 2, y pide Leader of the Pack. Sus rangos bajan a 3.
+Shifting Power: ahora es un talento de 1 punto en la fila 7 y pide Predatory Discipline. Como en la fila 4, ahora hay dos talentos de 31 puntos distintos para Feral: uno pensado para jugar de oso y otro para jugar de felino.
+Restauración
+Furor: este talento pasa al árbol Feral, intercambiándose con Heart of the Wild.
+Naturalist: ahora aumenta todo el daño un 2/4/6/8/10 % (antes, 1/2/3/4/5 %). Además, reduce el tiempo de lanzamiento de Wild Growth en 0,1/0,2/0,3/0,4/0,5 s.
+Reflection: este talento sube de la fila 3 a la fila 2, intercambiándose con Subtlety.
+Subtlety: este talento baja de la fila 2 a la fila 3, intercambiándose con Reflection.
+Gift of the Earthmother: se quita este talento.
+Bloom: nuevo talento de 1 punto en la 3.ª fila, en lugar de Gift of the Earthmother. «Cuando tu Rejuvenation o tu Regrowth terminan por duración, el objetivo se cura al instante una cantidad igual al 100 % de tu espíritu. Si alguno de los dos termina porque lo disipan, el objetivo se cura el 50 % de tu espíritu».
+Swiftmend: ahora exige que el efecto de Rejuvenation o Regrowth del objetivo lo haya puesto el druida que lo lanza.
+Wild Growth: ahora tiene un tiempo de lanzamiento base de 3 s.
+Cazador
+Hunter's Mark ya no se puede aplicar varias veces al mismo objetivo usando rangos distintos del hechizo.
+Se ha corregido un error por el que el rango 4 de Hunter's Mark daba menos poder de ataque a distancia que el rango 3.
+Se ha corregido el texto del debuff de Explosive Trap.
+Todas las trampas del cazador comparten ahora una misma reutilización de 30 s, en lugar de reutilizaciones separadas para las de fuego y las de escarcha.
+Aimed Shot: el daño adicional de todos los rangos sube alrededor de un 110 %.
+Arcane Shot: el daño base de todos los rangos sube alrededor de un 30 % y el coeficiente de poder de ataque pasa de 0,1 a 0,15.
+Serpent Sting: el coeficiente de poder de ataque por tick sube al 5 % (antes, 3 %). El daño base de todos los rangos sube alrededor de un 20 %.
+Aspect of the Hawk: sube el poder de ataque a distancia que da en todos los rangos. Nuevos valores: 20, 35, 50, 70, 90 y 110 para los rangos 1-6.
+Las mascotas del cazador ya no deberían perder sus pasivas innatas de velocidad de ataque al desentrenarlas.
+Bestias
+Pathfinding: este talento pasa de la 2.ª a la 3.ª fila.
+Puntería
+Barrage: el aumento de daño sube al 5/10/15 % (antes, 3/7/10 %).
+Sniper Shot: el daño adicional de todos los rangos sube un 100 %.
+Trueshot Aura: sube el poder de ataque a distancia que da en todos los rangos. Nuevos valores: 20, 35, 50, 75 y 100.
+Supervivencia
+Lacerating Strikes: este efecto siempre sustituye a uno anterior del mismo cazador, aunque el nuevo haga menos daño por segundo.
+Lightning Reflexes: el aumento de agilidad sube al 3/6/9/12/15 % (antes, 2/4/6/8/10 %).
+Mago
+Se ha cambiado el efecto visual de Imbue Iceknife para dejar más claro que es una raíz y no un aturdimiento.
+Frost Blast: se quita este hechizo.
+Arcano
+Missile Barrage ahora se gasta correctamente al empezar la canalización de Arcane Missiles (antes se gastaba al final).
+Missile Barrage baja de la 1.ª a la 2.ª fila.
+Arcane Resilience sube de la 2.ª a la 1.ª fila. Ahora admite hasta 3 puntos de talento, para un aumento máximo de armadura del 75 % del intelecto.
+Clearcasting ya no se gasta en Arcane Missiles si Missile Barrage está activo a la vez.
+Se ha corregido un error por el que Arcane Missiles no activaba Clearcasting.
+Arcane Focus: se quita este talento, porque ahora va incluido en el talento Precision del árbol de Escarcha.
+Arcane Blast: el aumento de coste de maná por acumulación baja al 100 % (antes, 175 %). El porcentaje del intelecto que da como daño con hechizos baja del 15 % al 12 % por acumulación. La duración sube a 18 s.
+Fuego
+Se ha corregido un error por el que Ignite no se aplicaba al daño de Flamestrike después del primer golpe.
+Incineration: este talento admite ahora hasta 5 puntos, para un 10 % de probabilidad de crítico en los hechizos afectados (antes, 3 puntos para un 6 %).
+Improved Fireball: pasa a llamarse Accelerant. Ahora también reduce hasta 0,5 s el tiempo de lanzamiento de Arcane Wrath.
+Critical Mass: este talento vuelve a un máximo de 3 puntos, en lugar de 5, con un aumento total de probabilidad de crítico del 6 % (antes, 10 %).
+Improved Fire Blast baja de la 1.ª a la 3.ª fila.
+Escarcha
+Se quita el talento Piercing Ice.
+Ice Barrier ahora aumenta un 15 % tu daño de escarcha durante 1 min al activarlo y da un 5 % más de daño de escarcha mientras la barrera aguanta.
+Nota de los desarrolladores: quitar Piercing Ice da al jugador algunos talentos más con los que jugar al principio del árbol, y potenciar Ice Barrier da al mago un motivo para bajar hasta el final del árbol en JcE.
+Frost Warding aumenta la cantidad de daño que pueden absorber tu Ice Barrier y tu Frost Ward.
+Frost Warding ya no tiene probabilidad de reflejar hechizos; en su lugar, tiene probabilidad de anular por completo el daño del hechizo sin gastar Frost Ward.
+Elemental Precision pasa a llamarse Precision y vuelve a ser un talento de 3 puntos, que da un 2/4/6 % de probabilidad de golpe con todos los hechizos (antes, 1/2/3/4/5 %).
+Ice Lance tiene ahora 8 s de reutilización, compartida con Fire Blast. El daño adicional contra objetivos congelados vuelve a subir al 300 %.
+Winter's Chill: el aumento al daño de Cone of Cold sube al 20 % por acumulación.
+Paladín
+Righteous Fury se puede entrenar ahora al nivel 10 (antes, 16). Es el mismo nivel al que los otros tanques consiguen su postura de tanque.
+Se quitan Salvation, Mass Salvation y Revoke.
+Righteous Fury da ahora un 33 % más de toda la amenaza generada y un 90 % más de amenaza con daño sagrado.
+Se quita Blessing of Light.
+Righteous Fury ahora sale gratis correctamente con el talento del Legado The Quick and the Dead.
+La duración de Judgement of Fury baja a 3 s (antes, 4 s).
+Sagrado
+Spiritual Focus sube a la fila 1 (antes, fila 2). Pasa a ser un talento de 5 puntos (antes, de 2). El rango máximo no cambia.
+Improved Seals pasa a ser un talento de 5 puntos (antes, de 3). El rango máximo no cambia.
+Reverence sube a la fila 2 (antes, fila 3). Pasa a ser un talento de 2 puntos (antes, de 3). El rango máximo no cambia.
+Unyielding Faith pasa a Reprensión.
+Purifying Power sube a la fila 2 (antes, fila 3).
+Se quita Voice of Truth.
+Divine Favor sube a la fila 3 (antes, fila 4).
+Illumination sube a la fila 3 (antes, fila 4).
+Holy Conduit cambia de sitio.
+Divine Precision sube a la fila 4 (antes, fila 5). Pasa a ser un talento de 2 puntos que da un 4/8 % de probabilidad de golpe con hechizos sagrados (antes, 6/12/18 %). Además, Divine Precision reduce ahora un 10/20 % la duración de los efectos de silencio sobre ti.
+Nuevo talento Oath of Light en la fila 4. Alcance de 40 m, cuesta el 8 % del maná base. Sin reutilización. Haces un juramento de proteger al aliado elegido durante 5 min, que aumenta la sanación de tus Holy Light, Flash of Light y Holy Shock. El paladín solo puede tener un Oath of Light a la vez. La sanación adicional aumenta con el nivel del jugador.
+Nuevo talento Boundless Light en la fila 5. Pasivo: aumenta un 15/30 % la probabilidad de crítico de tu Holy Shock cuando lo lanzas a aliados que no tienen tu Oath of Light.
+Holy Power pasa a aumentar un 10/20/30/40/50 % la bonificación de sanación de los críticos de tus hechizos sagrados (antes aumentaba un 3/6/9/12/15 % la probabilidad de crítico de Holy Shock y Holy Strike, y un 1/2/3/4/5 % la de los demás hechizos).
+Light's Vigil ahora solo se puede usar con objetivos amistosos y se le ha quitado la parte ofensiva. Se ha cambiado su descripción para reflejarlo.
+Protección
+Reckoning ahora realiza correctamente su número de ataques según sus acumulaciones, y ya no gana acumulaciones estando sentado.
+Divine Intellect pasa a la fila 1 de Protección (antes, fila 1 de Sagrado).
+Sacred Duty sube a la fila 2 (antes, fila 3).
+Sacred Duty ya no da un porcentaje de aguante. Además de reducir 30 s/1 min la reutilización de Divine Shield, Divine Protection y Templar's Bulwark, ahora también reduce 5/10 s la duración de tu Forbearance.
+Se quita Improved Seal of Fury.
+Templar's Bulwark sube a la fila 3 (antes, fila 5).
+Templar's Bulwark es ahora un efecto mágico y se puede disipar.
+La reducción de daño de Improved Righteous Fury pasa al 3/6/9 % (antes, 2/4/6 %).
+Shield Specialization pasa a ser un talento de 2 puntos que aumenta un 15/30 % el valor de bloqueo y da un 50/100 % de probabilidad de devolver el 4 % de tu maná máximo. (Sin cambios en el rango máximo).
+Toughness baja a la fila 3 (antes, fila 1).
+Anticipation baja a la fila 4 (antes, fila 2).
+Swift Judgement pasa a liberar al instante tu sello activo. No comparte reutilización con Judgement (antes reiniciaba la reutilización de tu Judgement).
+Se quita One-Handed Weapon Specialization.
+Nuevo talento Stoicism en la fila 5. Reduce un 10/20 % la duración de los efectos de aturdimiento y de control mental sobre ti.
+Holy Shield sube a la fila 5 (antes, fila 7).
+Iron Creed pasa a ser un talento de 3 puntos (antes, de 5): aumenta un 10/20/30 % la amenaza que genera Holy Strike y da un 2/4/6 % de reducción de daño durante 6 s (antes, un 5/10/15/20/25 % más de amenaza y un 2/4/6/8/10 % de reducción de daño).
+Nuevo talento Shieldsworn en la fila 7. Reduce 4 s la reutilización de tu habilidad Holy Strike. Además, Holy Strike golpea ahora con tu escudo, activa todos los talentos que se activan al bloquear sin gastar sus cargas ni activar sus reutilizaciones, y te permite bloquear hechizos durante 6 s.
+Reprensión
+Holy Conduit pasa a la 3.ª fila del árbol Sagrado (antes, 2.ª fila de Reprensión).
+Sanctified Judgement sube a la fila 2 (antes, fila 3).
+Conviction sube a la fila 2 (antes, fila 3).
+Conviction pasa a dar un 2/4/6 % de probabilidad de crítico con todos los hechizos y ataques (antes, un 1/2/3/4/5 % solo con ataques cuerpo a cuerpo).
+Vindication ya no aumenta el poder de ataque (antes, un 1/2/3 % más de poder de ataque).
+Unyielding Faith pasa a la fila 3 de Reprensión (antes, fila 2 de Sagrado).
+Two-Handed Weapon Specialization sube a la fila 4 (antes, fila 5).
+Two-Handed Weapon Specialization pasa a aumentar un 2/4/6 % tanto el daño sagrado como el físico (antes, solo el físico).
+Two-Handed Weapon Specialization pasa a reducir además un 7/14/20 % la amenaza que genera el paladín mientras lleva un arma cuerpo a cuerpo de dos manos.
+Se quita Instrument of Law.
+Champion of the Light pasa a aumentar el daño con hechizos del paladín en un 12/24/36/48/60 % de su intelecto y además reduce 0,2/0,4/0,6/0,8/1,0 s el tiempo de lanzamiento de Hammer of Wrath.
+Vengeance pasa a acumularse hasta 5 veces (antes, hasta 3).
+Vengeance ahora pide Seal of Command (antes pedía Sanctified Judgement).
+Nuevo talento en la fila 5, Turn Evil: reduce 0,5/1,0 s el tiempo de lanzamiento de tu hechizo Turn Undead y 5/10 s su reutilización, y le permite afectar a demonios.
+Se quita Twist of Light.
+Unsealed Wrath es el nuevo talento de 31 puntos. Tus ataques cuerpo a cuerpo guardan una copia de tu sello activo durante 15 s, acumulable hasta 3 veces. Al acertar un ataque con un sello distinto se gastan todas las acumulaciones, y el sello guardado tiene su probabilidad normal de activarse una vez por acumulación.
+Unsealed Wrath ahora pide Repentance.
+Sacerdote
+Power Word: Shield ya se puede sustituir correctamente por un Power Word: Shield de rango igual o mayor.
+Shadow Word: Death inflige ahora al sacerdote un daño del 30 % de su vida máxima si no consigue matar al objetivo (antes, 10 %). Shadow Word: Death ya no daña al sacerdote cuando el hechizo falla.
+Se ha corregido un error por el que Dark Sacrifice del sacerdote no-muerto seguía rompiendo efectos de control.
+Sagrado
+Se quita Binding Heal.
+Nuevo talento en el hueco de Binding Heal: Holy Binding. Cuando el sacerdote cura con Flash Heal a un objetivo que no es él mismo, el sacerdote también recibe el 50 % de esa sanación. Esta sanación no genera amenaza.
+Sombra
+Devouring Contagion ya no extiende Devouring Plague si se extiende desde una alimaña.
+La sanación de Vampiric Embrace ya no puede ser crítica.
+Se ha corregido un error por el que Cure Disease y Abolish Disease sacaban al sacerdote de Shadowform.
+Pícaro
+Lanzar Slice and Dice ya no hace que el objetivo se levante si está sentado.
+Poised: nueva habilidad pasiva que se aprende al nivel 18. «Cuando no estás en combate y tienes la energía al máximo, obtienes Poised. Poised reduce en 10 el coste de energía de tu siguiente habilidad de energía».
+Nuevo hechizo: Shank. Se aprende al nivel 24. Cuesta 5 de energía. 10 s de reutilización. Alcance cuerpo a cuerpo. Golpea al instante con el arma de la mano izquierda, inflige un 50 % del daño de arma y genera 15 de energía. Shank no puede fallar. El rango 2 se aprende al nivel 44 y genera 25 de energía.
+El coeficiente de poder de ataque de Deadly Poison sube a 0,009 (antes, 0,0045).
+El coeficiente de poder de ataque de Instant Poison sube a 0,01 (antes, 0,005).
+Asesinato
+Que se active el talento Ruthlessness ya no hace que el objetivo se levante si está sentado.
+Improved Expose Armor sube a la fila 2 (antes, fila 3).
+Se quita Murder.
+Lethality pasa a ser un talento de 2 puntos que aumenta un 10/20 % el daño crítico de las habilidades indicadas (antes, de 5 puntos con un 4/8/12/16/20 %).
+Vigor sube a la fila 3 (antes, fila 5).
+Nuevo talento: Blood Splatter. Pasivo. Talento de 1 punto en la fila 3. Aumenta 6 s la duración de tu habilidad Rupture y 9 s la de tu habilidad Garrote.
+Relentless Strikes baja a la fila 5 (antes, fila 3).
+Relentless Strikes pasa a ser un talento de 5 puntos que da un 4/8/12/16/20 % de probabilidad por punto de combo de recuperar 25 de energía (antes, 1 punto con un 20 % por punto de combo).
+Venom sube a la fila 5 (antes, fila 7).
+Venom pasa a ser una pasiva que hace que tu habilidad Shank aumente un 30 % el daño de tus venenos y un 20 % tu probabilidad de aplicarlos durante 6 s.
+Seal Fate pasa a ser un talento de 3 puntos que da a tus críticos con habilidades que suman puntos de combo un 33/66/100 % de probabilidad de sumar un punto de combo más.
+Mutilate sube a la fila 7 (antes, fila 9).
+El daño de Mutilate sube al 90 % del daño de arma más una cantidad adicional que también sube (antes, un 75 % del daño de arma y una cantidad menor).
+Combate
+Improved Eviscerate pasa a llamarse Coup de Grace: aumenta un 7/13/20 % el daño de tu habilidad Eviscerate, y un 7/13/20 % el daño y el ritmo de acumulación de tu habilidad Death Mark.
+Improved Sinister Strike pasa a llamarse Efficient Strikes y ahora reduce 3/5 el coste de energía de Sinister Strike y Hemorrhage (antes, solo de Sinister Strike).
+Improved Sprint sube a la fila 2 (antes, fila 3).
+Nuevo talento: Composure. Pasivo. Talento de 2 puntos en la fila 3. Aumenta 5/10 la reducción de coste de energía de tu habilidad Poised.
+La reducción de coste de energía de Flawless Execution sube a 15 (antes, 10).
+Weapon Expertise sube a la fila 4 (antes, fila 6).
+Aggression sube a la fila 4 (antes, fila 6).
+Aggression pasa a aumentar un 5/10/15 % el daño de Sinister Strike y Eviscerate (antes, Sinister Strike, Eviscerate y Backstab un 2/4/6 %).
+Dual Wield Specialization baja a la fila 5 (antes, fila 4).
+Dual Wield Specialization pasa a ser un talento de 2 puntos que aumenta un 25/50 % el daño del arma de la mano izquierda (antes, 5 puntos con un 5/10/15/20/25 %).
+Nuevo talento: Flash of Steel. Pasivo. Talento de 5 puntos en la fila 6. Aumenta en 3/6/9/12/15 la energía que genera tu habilidad Shank y reduce su reutilización en 0,4/0,8/1,2/1,6/2,0 s.
+Sutileza
+Se ha corregido un error por el que Hemorrhage y Ghostly Strike infligían mucho más daño del previsto al usar una daga.
+Setup sube a la fila 1 (antes, fila 2).
+Setup pasa a dar un 15/30/45 % de probabilidad de sumar un punto de combo a tu objetivo tras esquivar su ataque o resistir por completo uno de sus hechizos (antes, un 33/66/100 %).
+Opportunity pasa a ser un talento de 5 puntos que aumenta un 4/8/12/16/20 % el daño de Backstab, Garrote, Ambush y Mutilate (antes, 2 puntos con un 5/10 %).
+Dirty Deeds sube a la fila 2 (antes, fila 5).
+Camouflage baja a la fila 2 (antes, fila 1).
+Camouflage pasa a ser un talento de 3 puntos que aumenta un 5/10/15 % la velocidad de movimiento en sigilo y reduce 2/4/6 s la reutilización de Stealth (antes, 5 puntos con un 3/6/9/12/15 % y 2/3/4/5/6 s).
+Premeditation sube a la fila 3 (antes, fila 4).
+Serrated Blades sube a la fila 3 (antes, fila 4).
+Elusiveness baja a la fila 4 (antes, fila 2).
+Ghostly Strike baja a la fila 4 (antes, fila 3).
+Ghostly Strike hace ahora también que tu siguiente Ambush o Garrote en menos de 7 s no necesite sigilo.
+Se quita Improved Distract.
+Nuevo talento: Quick Getaway. Pasivo. Talento de 2 puntos en la fila 4. Aumenta en 1 el número máximo de objetivos que puedes tener con Sap a la vez y aumenta un 15/30 % tu velocidad de movimiento durante 3 s tras usar Sap en un objetivo.
+Heightened Senses baja a la fila 5 (antes, fila 4).
+Hemorrhage pasa a aumentar un 15 % el daño de las habilidades Rupture y Garrote del lanzador (antes, solo Rupture un 15 %).
+Se quita Quietus.
+Se quita Cutthroat.
+Nuevo talento: Boot Knife. Pasivo. Talento de 5 puntos en la fila 6. Da a tu habilidad Shank un 20/40/60/80/100 % de probabilidad de sumar 2 puntos de combo al objetivo.
+Se quita Thousand Cuts.
+Nuevo talento: Death Mark. Activo. Talento de 1 punto en la fila 7. Cuesta 25 de energía. Alcance de 20 m. 10 s de reutilización. Maldición. Remate que marca al objetivo y guarda, por cada punto de combo, una parte del daño que infligen tus ataques. El daño de Garrote y Rupture se guarda al doble de ritmo. Pasados 6 s, se inflige el daño guardado, hasta un máximo que aumenta con el poder de ataque y la probabilidad de crítico.
+Chamán
+Windfury Weapon hace ahora que el chamán muestre en la animación un golpe de arma adicional.
+Windfury Totem hace ahora que el jugador muestre en la animación un golpe de arma adicional.
+Totemic Projection pasa a llamarse Totemic Call. Ahora teletransporta los tótems del chamán a donde está el propio chamán, y su reutilización baja a 30 s.
+Lightning Bolt: sube el daño base de todos los rangos, con aumentos mayores en los rangos altos. El rango máximo sube un 80 %. El nuevo daño base de cada rango es más o menos el 78 % del de la versión de Classic Era (pero con menos tiempo de lanzamiento que en Classic Era).
+El tiempo de lanzamiento de Chain Lightning sube a 2,5 s. El daño base al objetivo principal sube a más o menos el 145 % del daño base de un Lightning Bolt de rango comparable. El coste de maná sube a más o menos el 225 % del coste de maná de un Lightning Bolt de rango comparable.
+Choques: el daño base de todos los choques vuelve a los valores de Classic Era (más altos que los de la beta de Forever hasta ahora).
+Elemental
+Lightning Overload: el talento da ahora un 10/20/30 % de probabilidad de lanzar un hechizo duplicado (antes, 3/7/10 %).
+Lava Burst: se quita. Lo sustituye Call of Thunder, que aumenta un 5 % la probabilidad de crítico de Lightning Bolt y Chain Lightning. Se han quitado todas las menciones a Lava Burst.
+Elemental Mastery pasa a llamarse Lightning Mastery. Cambia su icono.
+Elemental Reach ya no reduce la reutilización de Totemic Projection.
+Mejora
+Improved Ghost Wolf baja de la 2.ª a la 4.ª fila.
+Maelstrom Weapon: su probabilidad de activarse se duplica.
+Stormstrike: ahora inflige un 150 % del daño de arma normalizado (antes, 100 %). Su reutilización baja de 8 s a 6 s.
+Mental Dexterity: ahora aumenta el poder de ataque del chamán en un 50/100/150 % de su intelecto (antes, 33/67/100 %).
+Flurry: ahora aumenta la velocidad de ataque un 6/12/18/24/30 % (antes, 5/10/15/20/25 %).
+Restauración
+Riptide: el coste de maná baja alrededor de un 40 %. La reutilización sube de 6 s a 12 s. Riptide ya no hace sanación inicial, solo sanación con el tiempo.
+Brujo
+Las Spellstones ahora aumentan correctamente solo el daño de sombras (antes aumentaban el de sombras y el de fuego).
+Los demonios ganan ahora 2 de vida por cada punto de aguante de su amo (antes, 7,5 de vida por punto).
+Bane of Agony ahora actualiza correctamente su daño sobre la marcha.
+Drain Soul: la probabilidad de que este hechizo dé un fragmento de alma al infligir daño (no al matar) baja mucho.
+Aflicción
+Amplify Curse ahora afecta correctamente a Curse of Exhaustion y Bane of Agony.
+Improved Drains: ahora aumenta la cantidad de maná que roba Drain Mana, pero ya no aumenta el daño de Wrack.
+Wrack: el coeficiente de daño con hechizos se duplica, para ajustarse al coeficiente esperado de 0,286 por segundo de lanzamiento. El daño base por segundo sube ahora 2,5 con cada nivel. A nivel 60, el daño base por segundo pasa en la práctica de 36 a 86.
+Destrucción
+Shadow and Flame: las bonificaciones de daño de este talento aumentan ahora el daño de fuego o de sombras un 4/8/12/16/20 % (antes, 2/4/6/8/10 %).
+Guerrero
+Se ha corregido un error por el que la descripción de Victory Rush mostraba mal la cantidad de daño que iba a infligir.
+Defensive Stance: el aumento de amenaza sube del 30 % al 80 %.
+La reutilización de Slam baja a 15 s (antes, 18 s).
+Armas
+Improved Tactical Mastery pasa a ser un talento de 3 puntos que permite conservar 5/10/15 de ira adicional al cambiar de postura (antes, un talento de 5 puntos que conservaba 3/6/9/12/15 de ira).
+Two-Handed Weapon Specialization pasa a dar un 2/4/6 % más de daño al usar un arma cuerpo a cuerpo de dos manos (antes, un 1/2/3 %).
+Bloodthrill pasa a ser un talento de 2 puntos que da a tus ataques cuerpo a cuerpo con la mano derecha contra enemigos afectados por tu Rend un 10/20 % de probabilidad de permitir usar Overpower (antes, un talento de 5 puntos con un 4/8/12/16/20 %).
+La reducción de reutilización de Slam que da Improved Slam pasa a 2,5/5 s (antes, 3,0/3,0).
+Furia
+Los talentos Blood Craze y Gore Drinker ya no generan amenaza al curar al guerrero.
+Blood Craze ya no se activa estando sentado.
+Booming Voice reduce ahora también un 5/10/15/20/25 % el coste de ira de Piercing Howl.
+Enrage sube a la fila 3 (antes, fila 4).
+Nuevo talento: Reckless Swings. Fila 4. 1 punto. 15 s de reutilización. Cuesta un 25 % de la vida base. Tus 4 siguientes ataques cuerpo a cuerpo generan 5 de ira adicional. Dura 8 s.
+Gore Drinker sube a la fila 5 (antes, fila 6) y ahora cuelga de Blood Craze en lugar de Enrage.
+Death Wish ya no es necesario para Flurry.
+Flurry pasa a ser un talento de 3 puntos que da un 10/20/30 % más de velocidad de ataque durante 3 golpes tras un golpe crítico (antes, 5 puntos con un 5/10/15/20/25 %).
+Nuevo talento: Improved Whirlwind. Fila 6. 2 puntos. Pasivo. Reduce 1/2 s la reutilización de tu habilidad Whirlwind y aumenta un 15/30 % el daño que inflige al enemigo más cercano.
+Bloodthirst ahora necesita Death Wish como talento previo.
+Protección
+Defiance: el aumento de amenaza sube al 7/13/20 % (antes, 5/10/15 %).
+Jugador contra jugador
+En el campo de batalla Islas Lanza Negra (Darkspear Islands), soltar la bandera ya no pone el debuff «Recently Dropped Flag» al jugador que la ha soltado.
+Razas
+Enano
+Se quita Earth Fury (un 2 % más de daño y sanación críticos).
+Nueva: Artisan's Precision. Aumenta un 1 % la probabilidad de golpe con hechizos y ataques.
+Humano
+Ruthless aumenta ahora la probabilidad de crítico un 1 % (antes, 2 %).
+Human Spirit aumenta ahora el espíritu un 10 % (antes, 5 %).
+Orco
+Se quita Savage (un 1 % más de probabilidad de crítico).
+Vuelve Command, que aumenta un 5 % el daño de las mascotas de brujos y cazadores.
+La reutilización de Blood Fury baja a 2 min (antes, 3 min).
+Célicos
+La bonificación de celeridad de Wind-Blessed baja al 2 % (antes, 3 %).
+Read Leyline aumenta ahora un 50 % la regeneración de maná y de vida (antes, 100 %), durante 15 s. No se puede usar mientras Innervate está activo, y Innervate la sustituye por ser un efecto más potente.
+Usar Read Leyline en una línea ley da además «Attuned» durante 1 hora. Mientras estás Attuned, el efecto de Read Leyline sube a un 100 % más de regeneración. Attuned se mantiene al morir y se quita al entrar en una banda.
+Skysight da ahora un 15 % más de velocidad de movimiento (antes, 10 %), durante 15 s.
+Usar Skysight en una convergencia elemental da además «Charged» durante 1 hora. Mientras estás Charged, el efecto de Skysight sube a un 30 % más de velocidad de movimiento. Charged se mantiene al morir y se quita al entrar en una banda.
+Tauren
+Plainsrunning da ahora un 2 % de velocidad de movimiento por acumulación (antes, 1 %), hasta un máximo del 60 % (antes, 30 %).
+Plainsrunning ya no aumenta la velocidad de movimiento en montura.
+Endurance ya no da nada más que un 5 % más de vida (ni probabilidad de golpe ni daño crítico).
+Trol
+La duración de Berserking sube a 15 s (antes, 10 s).
+No-muerto
+Cannibalize se puede volver a usar mientras eres inmune al daño físico.
+Se ha corregido un error por el que Touch of the Grave no se activaba con la frecuencia suficiente.
+Se ha corregido un error por el que Touch of the Grave dejaba un efecto visual de rayo.
+La reutilización interna de Touch of the Grave baja a 15 s (antes, 25 s).
+Soporte para mando
+El soporte para mando ya está completo y funcional.
+En World of Warcraft: Forever, todas las partes importantes del juego y de la interfaz se pueden jugar con mando: movimiento, hechizos, interacciones, navegación por la interfaz, etc.
+Los ajustes del mando se pueden personalizar en el Modo edición y en el menú de Opciones.
+Barras de acción
+Los objetos de área asignados a la barra de acción del mando ya se pueden usar y colocar en un punto elegido.
+Pulsa otra vez el botón de la barra de acción para confirmar dónde se coloca, igual que con los hechizos de área en el suelo.
+Se ha corregido un error por el que cambiar la página actual de la barra de acción de teclado y ratón desplazaba los botones de la barra de acción del mando.
+Se ha corregido un error por el que los ajustes de la barra de acción del mando no se reflejaban al momento en el Modo edición.
+Accesorios (add-ons)
+Mejor compatibilidad de la interfaz de mando con los accesorios creados por los usuarios, para que haya menos conflictos que causen problemas en la interfaz.
+Bolsas e inventario
+Se ha corregido un error por el que el foco del mando podía salirse del inventario tras confirmar o cancelar la destrucción de un objeto.
+Se ha corregido un error por el que la navegación horizontal con mando podía fallar al moverse entre columnas de bolsas de alturas distintas.
+Se ha corregido un error por el que navegar por el inventario con mando durante un comercio podía causar un error de Lua.
+Se ha corregido un error por el que abrir bolsas sueltas con la interfaz de teclado y ratón podía causar un error de Lua tras cambiar desde la interfaz de mando.
+Mejor gestión de las bolsas al usar mando.
+Interfaz de bolsas del mando mejorada.
+Aspecto renovado y estados de las bolsas más claros.
+Indicadores de espacio libre en las bolsas y de munición.
+Mejores avisos e interacciones en las bolsas.
+Mejor navegación y resaltado del llavero.
+Mejor disposición de la búsqueda en el inventario.
+Selección de personaje y de reglas
+Se puede navegar y usar con mando las pantallas de selección de reglas.
+Se ha corregido un error por el que los personajes recién creados no quedaban seleccionados al volver a la pantalla de selección de personaje usando mando.
+Cinemáticas
+Se pueden saltar o cerrar las cinemáticas con mando.
+Combate y selección de objetivo
+Con mando se puede seleccionar un objetivo de foco asignado antes.
+LB + RB + botón inferior sirve para seleccionar tu objetivo de foco.
+El menú contextual del objetivo muestra «Clear Focus» cuando tu objetivo actual es también tu objetivo de foco.
+Los cadáveres amistosos ya se pueden seleccionar con mando.
+La selección analógica de aliados puede seleccionar cadáveres amistosos.
+La selección con Tab de aliados puede seleccionar cadáveres amistosos.
+Mejor selección de alimañas con mando.
+La selección analógica de enemigos puede seleccionar alimañas.
+La selección suave puede seleccionar alimañas.
+Mejor selección de jugadores enemigos con mando.
+La selección analógica de aliados ya no puede seleccionar jugadores enemigos.
+La selección analógica de enemigos puede seleccionar jugadores enemigos sin importar si tienen el JcJ activado.
+Las unidades que están detrás del jugador ya se pueden seleccionar con la selección analógica si siguen visibles en pantalla.
+Las unidades con Feign Death que siguen siendo atacables solo se pueden seleccionar si la mira del mando está sobre ellas.
+Se ha corregido un error por el que algunos enemigos atacables mostraban por error un icono de interacción al usar mando.
+Se ha corregido un error por el que despojar un cadáver o cerrar la ventana de botín podía dejarlo fijado por error como objetivo del jugador.
+Rutas de vuelo
+Con mando se puede terminar antes una ruta de vuelo con la acción Atrás/Cancelar.
+El jugador desmonta en el siguiente punto de vuelo disponible.
+Navegación y foco
+Se ha corregido un error por el que el panel de Opciones podía perder el foco del mando tras cerrar un diálogo de confirmación de ajustes gráficos.
+Las ventanas emergentes que no abre el jugador ya no se quedan automáticamente con el foco del mando.
+Esas ventanas se pueden enfocar a propósito con la acción Ver/Seleccionar o su equivalente en el mando.
+Los avisos de navegación con mando muestran ahora los botones LT y RT al moverse entre los paneles de interfaz compatibles.
+Mascotas
+Se puede usar con mando la orden de mover a la mascota.
+La posición de la mascota se confirma con el botón de interactuar o volviendo a activar la habilidad.
+Profesiones
+Se ha corregido un error por el que quien usaba mando no podía usar la acción Entrenar con los instructores de profesión cuando lo único disponible era subir de nivel la habilidad.
+Se ha corregido un error por el que el aviso del mando para abandonar una profesión no indicaba que había que mantener pulsado el botón.
+Misiones
+Se ha corregido un error por el que ver los detalles de una misión de otra región del mapa con mando podía causar un error de Lua.
+Temporizadores de golpe
+Se ha corregido un error por el que el temporizador de golpe de la mano izquierda podía no aparecer al entrar con personajes que llevan dos armas.
+Descripciones e interfaz
+Con mando se puede ajustar la opacidad en el selector de color.
+Se ha corregido un error por el que los avisos LB y RB del mando podían aparecer por error en el gestor de equipo al usar la interfaz de teclado y ratón.
+Las descripciones con mando se quedan visibles en lugar de poder mostrarse u ocultarse con el mando.
+Objetos
+Bolsas
+Las bolsas ya no se equipan solas en los huecos de bolsa libres: el jugador tiene que equiparlas a mano.
+Misiones y mundo
+Se ha ajustado el ritmo de reaparición en muchas zonas del mundo.
+Nota de los desarrolladores: con estos ajustes queremos soportar bien la gran cantidad de jugadores del lanzamiento, para que nadie se atasque y se pueda seguir disfrutando del juego. Que haya algo de competencia por los enemigos es normal y forma parte de la experiencia; no queremos eliminarla. Estos ritmos son en general más rápidos en las zonas de nivel bajo (las de inicio, las que más) y van bajando poco a poco según subes de nivel, igual que los jugadores se reparten de forma natural por las muchas zonas de WoW Forever. Cuando pase la avalancha inicial de personajes de nivel bajo, devolveremos las zonas de nivel bajo a ritmos más normales.
+Se ha ajustado la experiencia de varias misiones.
+Se han ajustado los requisitos previos y los niveles de algunas misiones para mejorar el recorrido por el mundo.
+Se han añadido descripciones al pasar el ratón sobre los objetivos de varias misiones.
+Se han añadido marcadores de puntos de interés que faltaban y se han corregido otros mal puestos en varias misiones.
+Se ha corregido la zona en la que aparecían varias misiones en el registro de misiones.
+Se han corregido varias misiones en las que destruir el objeto asociado no abandonaba la misión, y al revés.
+Se ha corregido un error por el que algunos sátiros estaban clasificados como humanoides en lugar de demonios. Ahora les tienen un 100 % más de miedo a los paladines.
+Montañas de Alterac
+Se ha corregido un error por el que los Dalaran Summoners eran increíblemente buenos invocando e invocaban hasta que sus corazoncitos no podían más. Y luego invocaban un poco más, por si acaso.
+Los Baldíos
+Ahora puedes hablar con Rethgar Deathgate para empezar el evento de «Counterattack!» si no está activo.
+Los Alliance Outrunners aparecen ahora en lugares aleatorios.
+Costa Oscura
+La misión «Holy Diver» da ahora recompensa de experiencia.
+Mulgore
+Las Gloomrise Hatchlings dan ahora menos experiencia, acorde con su menor vida.
+Orgrimmar
+Se ha corregido un error en «Hidden Enemies» por el que la Lieutenant's Insignia se quedaba en el inventario tras completar la misión.
+Ruinas de Lordaeron
+Las misiones de la mazmorra Ruinas de Lordaeron piden ahora siempre nivel 15 como mínimo para empezarlas (antes, unas 15 y otras 16), y se han ajustado algunos requisitos previos.
+Teldrassil
+La Grieta: ahora hay algunas arañas menos en esta zona para la misión «Twisted Hatred».
+Los Humedales
+Se ha corregido un error por el que Carnage se reiniciaba cerca del final del combate en la misión «Carnage».
+Se ha corregido un error en «Destruction in Deadmines» por el que Alba Fairmoon dejaba de estar disponible para entregar la misión.

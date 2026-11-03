@@ -430,6 +430,10 @@ def registrar_en():
     sueltos = Path(__file__).parent / 'traducciones' / 'en-sueltos.json'  # Van 30-10: inglés de textos sueltos del código
     if sueltos.exists():
         nuevos.update(json.loads(sueltos.read_text(encoding='utf-8')))
+    import parche_02nov  # 03-11: inglés del parche del 2-11 (página Cambios)
+    nuevos.update(parche_02nov.ingles())
+    import notas_blizzard  # notas completas: el inglés es el original de Blizzard
+    nuevos.update(notas_blizzard.pares())
     for es, en in PARES:
         ue, un = [], []
         for arbol_, out in ((idiomas.arbol(es), ue), (idiomas.arbol(en), un)):

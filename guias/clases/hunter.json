@@ -1,13 +1,13 @@
 {
   "slug": "hunter",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-03",
   "resumen": {
-    "es": "El cazador ataca a distancia con arco, ballesta o arma de fuego y lleva una mascota que tanquea por él. En Forever todos aprenden Aimed Shot a nivel 20, las trampas se ponen en pleno combate y cada familia de mascotas tiene su truco propio. Es la clase más cómoda para subir sola y, a nivel 60, puedes jugarla con mascota (Beast Mastery), sin mascota a distancia (Marksmanship) o cuerpo a cuerpo (Survival).",
-    "en": "The Hunter fights at range with a bow, crossbow or gun and brings a pet that tanks for them. In Forever every Hunter learns Aimed Shot at level 20, traps can be laid mid-fight and each pet family has its own trick. It is the easiest class to level alone, and at 60 you can play it with a pet (Beast Mastery), at range without one (Marksmanship) or in melee (Survival)."
+    "es": "El cazador ataca a distancia con arco, ballesta o arma de fuego y lleva una mascota que tanquea por él. En Forever todos aprenden Aimed Shot a nivel 20, las trampas se ponen en pleno combate y cada familia de mascotas tiene su truco propio. El 2-11 Blizzard subió bastante el daño de Aimed Shot, Arcane Shot y Serpent Sting. Es la clase más cómoda para subir sola y, a nivel 60, puedes jugarla con mascota (Beast Mastery), sin mascota a distancia (Marksmanship) o cuerpo a cuerpo (Survival).",
+    "en": "The Hunter fights at range with a bow, crossbow or gun and brings a pet that tanks for them. In Forever every Hunter learns Aimed Shot at level 20, traps can be laid mid-fight and each pet family has its own trick. On 2 November Blizzard gave Aimed Shot, Arcane Shot and Serpent Sting a big damage boost. It is the easiest class to level alone, and at 60 you can play it with a pet (Beast Mastery), at range without one (Marksmanship) or in melee (Survival)."
   },
   "fuertes": [
     {"es": "Sube de nivel rápido y sin pasar apuros: la mascota recibe los golpes mientras tú disparas.", "en": "Fast, safe leveling: the pet takes the hits while you shoot."},
-    {"es": "Mucho control: Concussive Shot, Wing Clip, Scatter Shot y dos trampas a la vez (una de fuego y una de hielo), ahora también en combate.", "en": "Plenty of control: Concussive Shot, Wing Clip, Scatter Shot and two traps at once (one Fire, one Frost), now usable mid-fight."},
+    {"es": "Mucho control: Concussive Shot, Wing Clip, Scatter Shot y trampas que ahora se ponen en pleno combate (todas comparten 30 s de reutilización).", "en": "Plenty of control: Concussive Shot, Wing Clip, Scatter Shot and traps you can now lay mid-fight (all of them share a 30 sec cooldown)."},
     {"es": "Feign Death para soltar enemigos o salir de un mal tirón, y Aspect of the Cheetah para viajar rápido antes de la montura.", "en": "Feign Death to shed enemies or escape a bad pull, and Aspect of the Cheetah to travel fast before you have a mount."},
     {"es": "Tres ramas muy distintas: mascota y halcones, tirador solitario de largo alcance o luchador cuerpo a cuerpo.", "en": "Three very different trees: pet and hawks, long-range lone marksman, or melee fighter."},
     {"es": "Viper Sting y Tranquilizing Shot dan utilidad en mazmorras, bandas y JcJ.", "en": "Viper Sting and Tranquilizing Shot bring utility in dungeons, raids and PvP."}
@@ -25,7 +25,7 @@
      "texto": {"es": "La mascota es más dura y pega más, y a partir del nivel 25 sumas hasta dos halcones con Summon Hawk. Focused Fire sube tu daño y el de la mascota mientras esté fuera. Es la opción más segura para subir.", "en": "Your pet is tougher and hits harder, and from level 25 you add up to two hawks with Summon Hawk. Focused Fire raises your damage and your pet's while it is out. It is the safest way to level."}},
     {"nombre": "Marksmanship", "rol": {"es": "DPS a distancia", "en": "Ranged DPS"},
      "mejor_para": {"es": "Bandas y JcJ a distancia", "en": "Raids and ranged PvP"},
-     "texto": {"es": "Rama de disparos: Careful Aim convierte tu Intelecto en poder de ataque, Rapid Killing acorta Rapid Fire y Sniper Shot (talento final) dispara desde 45 metros y alarga el alcance de los tres siguientes disparos. Con Lone Wolf haces un 20 % más de daño si no sacas mascota.", "en": "The shooting tree: Careful Aim turns your Intellect into attack power, Rapid Killing shortens Rapid Fire and Sniper Shot (the final talent) fires from 45 yards and extends the range of your next three shots. Lone Wolf adds 20% damage when you have no pet out."}},
+     "texto": {"es": "Rama de disparos: Careful Aim convierte tu Intelecto en poder de ataque, Rapid Killing acorta Rapid Fire y Sniper Shot (talento final) dispara desde 45 metros y alarga el alcance de los tres siguientes disparos. Con Lone Wolf haces un 20 % más de daño si no sacas mascota. El 2-11 Sniper Shot dobló su daño extra, Barrage llega al 15 % y Trueshot Aura da más poder de ataque.", "en": "The shooting tree: Careful Aim turns your Intellect into attack power, Rapid Killing shortens Rapid Fire and Sniper Shot (the final talent) fires from 45 yards and extends the range of your next three shots. Lone Wolf adds 20% damage when you have no pet out. On 2 November Sniper Shot's bonus damage doubled, Barrage reaches 15% and Trueshot Aura gives more attack power."}},
     {"nombre": "Survival", "rol": {"es": "DPS cuerpo a cuerpo", "en": "Melee DPS"},
      "mejor_para": {"es": "Nivel 60, JcJ y quien quiera un cazador de cerca", "en": "Level 60, PvP and anyone wanting a close-range Hunter"},
      "texto": {"es": "En Forever es una rama de cuerpo a cuerpo: Predator's Edge, Expose Prey (Mongoose Bite sin necesidad de esquivar), Strider Kick y Lacerating Strikes giran en torno a tu arma de melé. También mejora las trampas. Es la rama más planificada para el nivel 60, pero para subir rinde menos que Beast Mastery.", "en": "In Forever this is a melee tree: Predator's Edge, Expose Prey (Mongoose Bite without needing a dodge), Strider Kick and Lacerating Strikes all revolve around your melee weapon. It also improves traps. It is the most-planned tree for level 60, but it levels slower than Beast Mastery."}}
@@ -72,24 +72,24 @@
     ],
     "habilidades": [
       {"nivel": 1, "nombre": "Raptor Strike", "nuevo": false, "texto": {"es": "Golpe de melé para cuando el enemigo te alcanza.", "en": "Melee strike for when the enemy reaches you."}},
-      {"nivel": 4, "nombre": "Serpent Sting", "nuevo": false, "texto": {"es": "Veneno de daño en el tiempo; úsalo solo en peleas que duren.", "en": "Damage-over-time poison; use it only on fights that last."}},
+      {"nivel": 4, "nombre": "Serpent Sting", "nuevo": false, "texto": {"es": "Veneno de daño en el tiempo; úsalo solo en peleas que duren. Desde el 2-11 hace bastante más daño (un 20 % más de base y escala mejor con el poder de ataque).", "en": "Damage-over-time poison; use it only on fights that last. Since 2 November it hits much harder (20% more base damage and better attack power scaling)."}},
       {"nivel": 4, "nombre": "Aspect of the Monkey", "nuevo": false, "texto": {"es": "Más esquiva: tu aspecto hasta el nivel 10.", "en": "More dodge: your aspect until level 10."}},
-      {"nivel": 6, "nombre": "Arcane Shot", "nuevo": false, "texto": {"es": "Disparo instantáneo de daño arcano.", "en": "Instant Arcane damage shot."}},
-      {"nivel": 6, "nombre": "Hunter's Mark", "nuevo": false, "texto": {"es": "Marca al objetivo: más poder de ataque a distancia contra él y no se te escapa en sigilo.", "en": "Marks the target: more ranged attack power against it, and it cannot hide in stealth."}},
+      {"nivel": 6, "nombre": "Arcane Shot", "nuevo": false, "texto": {"es": "Disparo instantáneo de daño arcano. Desde el 2-11, un 30 % más de daño base y escala mejor con el poder de ataque.", "en": "Instant Arcane damage shot. Since 2 November, 30% more base damage and better attack power scaling."}},
+      {"nivel": 6, "nombre": "Hunter's Mark", "nuevo": false, "texto": {"es": "Marca al objetivo: más poder de ataque a distancia contra él y no se te escapa en sigilo. Desde el 2-11 no se acumula usando rangos distintos.", "en": "Marks the target: more ranged attack power against it, and it cannot hide in stealth. Since 2 November different ranks no longer stack on the same target."}},
       {"nivel": 8, "nombre": "Concussive Shot", "nuevo": false, "texto": {"es": "Frena al enemigo un 50 % durante 4 segundos.", "en": "Slows the enemy by 50% for 4 seconds."}},
       {"nivel": 10, "nombre": "Tame Beast", "nuevo": false, "texto": {"es": "Doma tu primera mascota (misión del instructor); también llegan Call Pet, Feed Pet y Revive Pet.", "en": "Tame your first pet (trainer quest); Call Pet, Feed Pet and Revive Pet come with it."}},
-      {"nivel": 10, "nombre": "Aspect of the Hawk", "nuevo": false, "texto": {"es": "Más poder de ataque a distancia: tu aspecto de combate desde aquí.", "en": "More ranged attack power: your combat aspect from here on."}},
+      {"nivel": 10, "nombre": "Aspect of the Hawk", "nuevo": false, "texto": {"es": "Más poder de ataque a distancia: tu aspecto de combate desde aquí. Desde el 2-11 da 20, 35, 50, 70, 90 y 110 según el rango.", "en": "More ranged attack power: your combat aspect from here on. Since 2 November it gives 20, 35, 50, 70, 90 and 110 by rank."}},
       {"nivel": 12, "nombre": "Mend Pet", "nuevo": false, "texto": {"es": "Cura a la mascota mientras la canalizas.", "en": "Heals your pet while you channel it."}},
       {"nivel": 12, "nombre": "Wing Clip", "nuevo": false, "texto": {"es": "Golpe de melé que frena al enemigo para volver a alejarte.", "en": "Melee hit that slows the enemy so you can back off."}},
-      {"nivel": 16, "nombre": "Immolation Trap", "nuevo": false, "texto": {"es": "Trampa de fuego; en Forever se pone también en combate (30 s de reutilización).", "en": "Fire trap; in Forever it can also be laid in combat (30 sec cooldown)."}},
+      {"nivel": 16, "nombre": "Immolation Trap", "nuevo": false, "texto": {"es": "Trampa de fuego; en Forever se pone también en combate. Desde el 2-11 todas las trampas comparten 30 s de reutilización.", "en": "Fire trap; in Forever it can also be laid in combat. Since 2 November every trap shares one 30 sec cooldown."}},
       {"nivel": 18, "nombre": "Multi-Shot", "nuevo": false, "texto": {"es": "Golpea a 3 objetivos; comparte reutilización de 6 s con Aimed Shot.", "en": "Hits 3 targets; shares a 6 sec cooldown with Aimed Shot."}},
-      {"nivel": 20, "nombre": "Aimed Shot", "nuevo": true, "texto": {"es": "Ya no es talento: lo aprenden todos, con 2 segundos de lanzamiento. Auto Shot sigue disparando mientras lo lanzas.", "en": "No longer a talent: every Hunter learns it, with a 2-second cast. Auto Shot keeps firing while you cast it."}},
+      {"nivel": 20, "nombre": "Aimed Shot", "nuevo": true, "texto": {"es": "Ya no es talento: lo aprenden todos, con 2 segundos de lanzamiento. Auto Shot sigue disparando mientras lo lanzas. Desde el 2-11 su daño extra sube cerca de un 110 % en todos los rangos.", "en": "No longer a talent: every Hunter learns it, with a 2-second cast. Auto Shot keeps firing while you cast it. Since 2 November its bonus damage is up about 110% on every rank."}},
       {"nivel": 20, "nombre": "Freezing Trap", "nuevo": false, "texto": {"es": "Congela a un enemigo hasta 10 segundos; tu mejor control.", "en": "Freezes one enemy for up to 10 seconds; your best crowd control."}},
       {"nivel": 20, "nombre": "Aspect of the Cheetah", "nuevo": false, "texto": {"es": "Un 30 % más de velocidad para viajar; si te golpean, te aturde.", "en": "30% faster travel; if you are hit, you get dazed."}},
       {"nivel": 20, "nombre": "Disengage", "nuevo": false, "texto": {"es": "Quita amenaza; en Forever quita el doble que en Classic.", "en": "Drops threat; in Forever it sheds twice as much as in Classic."}},
       {"nivel": 25, "nombre": "Summon Hawk", "nuevo": true, "texto": {"es": "Talento de Beast Mastery: lanza un halcón que ataca 18 s; hasta dos a la vez. Comparte reutilización con Arcane Shot.", "en": "Beast Mastery talent: sends a hawk that attacks for 18 sec; up to two at once. Shares its cooldown with Arcane Shot."}},
       {"nivel": 26, "nombre": "Rapid Fire", "nuevo": false, "texto": {"es": "Un 40 % más de velocidad de ataque a distancia y de melé durante 15 segundos.", "en": "40% faster ranged and melee attacks for 15 seconds."}},
-      {"nivel": 28, "nombre": "Frost Trap", "nuevo": false, "texto": {"es": "Hielo en el suelo que frena un 60 %; comparte reutilización con Freezing Trap.", "en": "Ice patch that slows by 60%; shares its cooldown with Freezing Trap."}},
+      {"nivel": 28, "nombre": "Frost Trap", "nuevo": false, "texto": {"es": "Hielo en el suelo que frena un 60 %; desde el 2-11 comparte reutilización (30 s) con todas las demás trampas.", "en": "Ice patch that slows by 60%; since 2 November it shares a 30 sec cooldown with every other trap."}},
       {"nivel": 30, "nombre": "Feign Death", "nuevo": false, "texto": {"es": "Te haces el muerto para que los enemigos te suelten. Ojo: si lo dejas activo 6 minutos, mueres de verdad.", "en": "Play dead so enemies drop you. Careful: leave it on for 6 minutes and you really die."}},
       {"nivel": 30, "nombre": "Aspect of the Beast", "nuevo": false, "texto": {"es": "Cambiado: además de ocultarte del rastreo, da poder de ataque de melé. Es el aspecto de Survival.", "en": "Changed: besides hiding you from tracking, it adds melee attack power. It is Survival's aspect."}},
       {"nivel": 30, "nombre": "Lacerate", "nuevo": true, "texto": {"es": "Hechizo nuevo del instructor para todos: un sangrado de 21 segundos.", "en": "New trainer spell for everyone: a 21-second bleed."}},
@@ -97,7 +97,7 @@
       {"nivel": 34, "nombre": "Explosive Trap", "nuevo": false, "texto": {"es": "Trampa de fuego en área para grupos de enemigos.", "en": "Area Fire trap for packs of enemies."}},
       {"nivel": 36, "nombre": "Viper Sting", "nuevo": false, "texto": {"es": "Roba maná al objetivo; en Forever tiene 15 s de reutilización.", "en": "Drains the target's mana; in Forever it has a 15 sec cooldown."}},
       {"nivel": 40, "nombre": "Bestial Wrath", "nuevo": false, "texto": {"es": "Talento final de Beast Mastery: la mascota se enfurece 18 segundos.", "en": "Beast Mastery's final talent: your pet rages for 18 seconds."}},
-      {"nivel": 40, "nombre": "Sniper Shot", "nuevo": true, "texto": {"es": "Talento final de Marksmanship: disparo de 4 s de lanzamiento desde 45 metros que alarga el alcance de los 3 siguientes.", "en": "Marksmanship's final talent: a 4-sec cast shot from 45 yards that extends the range of your next 3 shots."}},
+      {"nivel": 40, "nombre": "Sniper Shot", "nuevo": true, "texto": {"es": "Talento final de Marksmanship: disparo de 4 s de lanzamiento desde 45 metros que alarga el alcance de los 3 siguientes. Desde el 2-11 su daño extra es el doble.", "en": "Marksmanship's final talent: a 4-sec cast shot from 45 yards that extends the range of your next 3 shots. Since 2 November its bonus damage is doubled."}},
       {"nivel": 40, "nombre": "Volley", "nuevo": false, "texto": {"es": "Lluvia de disparos en área; en Forever sin reutilización.", "en": "Area rain of shots; no cooldown in Forever."}},
       {"nivel": 46, "nombre": "Aspect of the Wild", "nuevo": false, "texto": {"es": "Resistencia a naturaleza para todo el grupo.", "en": "Nature resistance for the whole group."}},
       {"nivel": 60, "nombre": "Tranquilizing Shot", "nuevo": false, "texto": {"es": "Quita el frenesí a un enemigo; clave en algunos jefes de banda.", "en": "Removes a Frenzy effect from an enemy; key on some raid bosses."}}
@@ -130,7 +130,8 @@
       {"es": "Con el Legado: la ventaja Talented (5 puntos, pide antes Well Rested) te da el primer talento a nivel 5. Los 16 puntos de salida alcanzan, así que adelanta el orden de talentos cinco niveles.", "en": "Legacy: the Talented perk (5 points, needs Well Rested first) gives you your first talent at level 5. The 16 starting points cover it, so move the talent order five levels earlier."},
         {"es": "Visita al instructor cada dos niveles: casi todo sube de rango en niveles pares.", "en": "Visit your trainer every two levels: most spells gain ranks on even levels."},
         {"es": "No te pegues al enemigo: Auto Shot no dispara a menos de 8 metros y necesita medio segundo quieto. Activa en Opciones «Auto Attack/Auto Shot» para cambiar solo entre melé y disparo.", "en": "Do not hug the enemy: Auto Shot will not fire inside 8 yards and needs half a second standing still. Turn on the «Auto Attack/Auto Shot» option to switch between melee and shooting automatically."},
-        {"es": "Las trampas ya se ponen en combate: una de fuego y una de hielo a la vez. Freezing Trap a un segundo enemigo te salva de muchos tirones dobles.", "en": "Traps now work in combat: one Fire and one Frost at a time. A Freezing Trap on a second enemy saves you from many double pulls."},
+        {"es": "Las trampas ya se ponen en combate, pero desde el 2-11 todas comparten 30 s de reutilización: elige bien cuál usas. Freezing Trap a un segundo enemigo te salva de muchos tirones dobles.", "en": "Traps now work in combat, but since 2 November they all share one 30 sec cooldown: choose which one wisely. A Freezing Trap on a second enemy saves you from many double pulls."},
+        {"es": "Desde el 2-11, lo que aprendes en el entrenador ya no se pone solo en las barras: ábrete el libro de hechizos y arrástralo tú. Entrenar todo del 1 al 60 cuesta unos 206-207 de oro, igual para todas las clases.", "en": "Since 2 November, what you learn at the trainer no longer lands on your action bars by itself: open your spellbook and drag it there. Training everything from 1 to 60 costs about 206-207 gold, the same for every class."},
         {"es": "Peletería y Desuello son la pareja clásica: la Peletería hace equipo de cuero con mucha Agilidad desde nivel bajo y no necesita yunque.", "en": "Leatherworking and Skinning are the classic pair: Leatherworking makes high-Agility leather gear from low levels and needs no anvil."},
         {"es": "Mejores armas a distancia en mazmorras (beta): Calibrated Blunderbuss en Hall of Thanes (Alianza), Venomstrike en Cuevas de los Lamentos y Naga Heartpiercer o Fallenroot Longbow en Cavernas de Brazanegra.", "en": "Good ranged weapon upgrades in dungeons (beta): Calibrated Blunderbuss in Hall of Thanes (Alliance), Venomstrike in Wailing Caverns and Naga Heartpiercer or Fallenroot Longbow in Blackfathom Deeps."},
         {"es": "Usa una macro que haga Mend Pet si la mascota vive, Revive Pet si ha muerto y Call Pet si no está: un solo botón para todo.", "en": "Use a macro that casts Mend Pet if your pet is alive, Revive Pet if it is dead and Call Pet if it is not out: one button for everything."},
@@ -151,21 +152,21 @@
   },
   "nivel60": {
     "intro": {
-      "es": "Las bandas llegan el 9 de diciembre y aún no hay simulaciones ni registros de combate de Forever, así que nadie sabe todavía qué rama hace más daño. Lo que sí sabemos es qué planifica la gente en la calculadora con los datos del cliente: Survival 47 %, Marksmanship 27 % y Beast Mastery 26 %. Ojo: las builds más populares de Survival y Marksmanship llevan Lone Wolf, es decir, juegan sin mascota. El 28 de octubre Blizzard recortó el poder de ataque de Aspect of the Hawk (por rango, de 22/35/50/78/90 a 15/22/30/38/47) y de Trueshot Aura (de 30/40/50/75 a 15/22/30/40): en los rangos altos se queda casi en la mitad. Son datos de antes del lanzamiento y aún pueden cambiar.",
-      "en": "Raids arrive on 9 December and there are no Forever sims or combat logs yet, so nobody knows which tree does the most damage. What we do know is what people plan in the calculator with the client's data: Survival 47%, Marksmanship 27% and Beast Mastery 26%. Note that the most popular Survival and Marksmanship builds take Lone Wolf, which means playing without a pet. On 28 October Blizzard cut the attack power from Aspect of the Hawk (per rank, from 22/35/50/78/90 to 15/22/30/38/47) and Trueshot Aura (from 30/40/50/75 to 15/22/30/40): the top ranks end up at roughly half. These are pre-launch figures and may still change."
+      "es": "Las bandas llegan el 9 de diciembre y aún no hay simulaciones ni registros de combate de Forever, así que nadie sabe todavía qué rama hace más daño. Lo que sí sabemos es qué planifica la gente en la calculadora con los datos del cliente: Survival 47 %, Marksmanship 27 % y Beast Mastery 26 %. Ojo: las builds más populares de Survival y Marksmanship llevan Lone Wolf, es decir, juegan sin mascota. El 28 de octubre Blizzard recortó Aspect of the Hawk y Trueshot Aura, pero el 2-11 los volvió a subir: Aspect of the Hawk da 20/35/50/70/90/110 por rango y Trueshot Aura 20/35/50/75/100. Desde ese día todas las clases hacen más daño y los enemigos de nivel alto tienen más vida, y Blizzard no prevé grandes ajustes hasta que abran las bandas en diciembre.",
+      "en": "Raids arrive on 9 December and there are no Forever sims or combat logs yet, so nobody knows which tree does the most damage. What we do know is what people plan in the calculator with the client's data: Survival 47%, Marksmanship 27% and Beast Mastery 26%. Note that the most popular Survival and Marksmanship builds take Lone Wolf, which means playing without a pet. On 28 October Blizzard cut Aspect of the Hawk and Trueshot Aura, but on 2 November it raised them again: Aspect of the Hawk gives 20/35/50/70/90/110 by rank and Trueshot Aura 20/35/50/75/100. Since that day every class deals more damage and high-level enemies have more health, and Blizzard doesn't plan big tuning changes until raids open in December."
     },
     "ramas": [
       {"nombre": "Survival", "rol": {"es": "DPS cuerpo a cuerpo (5/11/35)", "en": "Melee DPS (5/11/35)"},
        "estadisticas": [
          {"es": "Daño del arma de melé primero: elige entre un arma a dos manos o dos de una mano (Predator's Edge sube un 50 % la mano izquierda).", "en": "Melee weapon damage first: choose a two-hander or two one-handers (Predator's Edge adds 50% to the off-hand)."},
-         {"es": "Agilidad: poder de ataque y crítico, y Lightning Reflexes la sube un 10 %.", "en": "Agility: attack power and crit, and Lightning Reflexes raises it by 10%."},
+         {"es": "Agilidad: poder de ataque y crítico, y Lightning Reflexes la sube un 15 % (desde el 2-11).", "en": "Agility: attack power and crit, and Lightning Reflexes raises it by 15% (since 2 November)."},
          {"es": "Golpe hasta el 9 % contra jefes; Surefooted ya te da un 3 %.", "en": "Hit up to 9% against bosses; Surefooted already gives 3%."},
          {"es": "Después crítico y celeridad, que en Forever es una estadística secundaria.", "en": "Then crit and haste, which is a secondary stat in Forever."}
        ],
        "rotacion": [
          {"es": "Aspect of the Beast y Hunter's Mark en el objetivo (lo necesita Expose Prey).", "en": "Aspect of the Beast and Hunter's Mark on the target (Expose Prey needs it)."},
          {"es": "Rapid Fire con los abalorios y la racial al empezar: también acelera tus golpes de melé.", "en": "Rapid Fire with trinkets and your racial at the start: it speeds up your melee too."},
-         {"es": "Mongoose Bite en cuanto se active; con Lacerating Strikes deja un sangrado.", "en": "Mongoose Bite as soon as it lights up; with Lacerating Strikes it leaves a bleed."},
+         {"es": "Mongoose Bite en cuanto se active; con Lacerating Strikes deja un sangrado (desde el 2-11 el nuevo siempre sustituye al anterior, aunque sea más flojo).", "en": "Mongoose Bite as soon as it lights up; with Lacerating Strikes it leaves a bleed (since 2 November a new one always replaces the old one, even if weaker)."},
          {"es": "Mantén Lacerate y usa Strider Kick cada vez que esté listo.", "en": "Keep Lacerate up and use Strider Kick whenever it is ready."},
          {"es": "Raptor Strike para rellenar e Immolation Trap si el combate lo permite.", "en": "Raptor Strike as filler and Immolation Trap when the fight allows."}
        ],
@@ -216,7 +217,7 @@
   "pvp": [
     {"es": "Tu fuerza es la distancia: Concussive Shot, Wing Clip y Frost Trap para mantenerla, y nunca te quedes en la zona muerta de 8 metros.", "en": "Your strength is distance: Concussive Shot, Wing Clip and Frost Trap to keep it, and never stand in the 8-yard dead zone."},
     {"es": "Auto Shot necesita medio segundo quieto: dispara, muévete y vuelve a parar. Aimed Shot (2 s) se lanza mientras Auto Shot sigue funcionando.", "en": "Auto Shot needs half a second still: shoot, move and stop again. Aimed Shot (2 sec) casts while Auto Shot keeps going."},
-    {"es": "Las trampas ya van en combate: Scatter Shot y Freezing Trap a sus pies es el combo clásico para ganar tiempo o curarte con vendas.", "en": "Traps work in combat now: Scatter Shot then Freezing Trap at their feet is the classic combo to buy time or bandage up."},
+    {"es": "Las trampas ya van en combate: Scatter Shot y Freezing Trap a sus pies es el combo clásico para ganar tiempo o curarte con vendas. Como todas comparten 30 s de reutilización, no gastes la trampa antes de tiempo.", "en": "Traps work in combat now: Scatter Shot then Freezing Trap at their feet is the classic combo to buy time or bandage up. Since they all share a 30 sec cooldown, don't waste your trap early."},
     {"es": "Viper Sting (15 s de reutilización) contra paladines, sacerdotes, chamanes y druidas; Serpent Sting contra pícaros para que no vuelvan al sigilo.", "en": "Viper Sting (15 sec cooldown) against paladins, priests, shamans and druids; Serpent Sting on rogues so they cannot restealth."},
     {"es": "Elige mascota por su truco: cocodrilo (Dismember, menos curación), murciélago (Sonic Blast contra casters) o ave rapaz (Mine! desarma a guerreros y pícaros).", "en": "Pick your pet for its trick: crocolisk (Dismember, reduced healing), bat (Sonic Blast against casters) or bird of prey (Mine! disarms warriors and rogues)."},
     {"es": "Feign Death quita el objetivo a quien te esté apuntando y corta muchos lanzamientos.", "en": "Feign Death drops you from the enemy's target and cancels many casts."},
@@ -276,8 +277,8 @@
           "en": "Traps mid-fight"
         },
         "texto": {
-          "es": "En Forever las trampas se ponen en combate y puedes tener una de hielo y una de fuego a la vez. Huyendo, deja <b>Frost Trap</b> a tus pies y corre en línea recta: el rival la pisa y queda frenado un 60 % en todo el hielo. Contra un rival que te persigue, <b>Freezing Trap</b> a tus pies lo congela al llegar (cualquier daño la rompe). Combo de Marksmanship: <b>Scatter Shot</b> (4 s de desorientación, tu disparo la rompe si vuelves a pegar) y pones la trampa entre los dos para que la pise al despertar. Con <b>Entrapment</b> (Survival) quedan además enraizados 5 s.",
-          "en": "In Forever traps can be placed in combat, and you can have one frost and one fire trap out at once. While running, drop <b>Frost Trap</b> at your feet and run straight: the enemy steps on it and is slowed by 60% across the whole ice patch. Against a chaser, <b>Freezing Trap</b> at your feet freezes them on arrival (any damage breaks it). Marksmanship combo: <b>Scatter Shot</b> (4 sec disorient, your next hit breaks it), then place the trap between you so they walk into it when it ends. With <b>Entrapment</b> (Survival) they are also rooted for 5 sec."
+          "es": "En Forever las trampas se ponen en combate, pero desde el 2-11 todas comparten 30 s de reutilización: si pones <b>Frost Trap</b>, no tendrás <b>Freezing Trap</b> hasta medio minuto después. Huyendo, deja <b>Frost Trap</b> a tus pies y corre en línea recta: el rival la pisa y queda frenado un 60 % en todo el hielo. Contra un rival que te persigue, <b>Freezing Trap</b> a tus pies lo congela al llegar (cualquier daño la rompe). Combo de Marksmanship: <b>Scatter Shot</b> (4 s de desorientación, tu disparo la rompe si vuelves a pegar) y pones la trampa entre los dos para que la pise al despertar. Con <b>Entrapment</b> (Survival) quedan además enraizados 5 s; desde el 2-11 esa raíz tiene rendimientos decrecientes (diminishing returns), igual que la de <b>Improved Wing Clip</b> y <b>Counterattack</b>.",
+          "en": "In Forever traps can be placed in combat, but since 2 November they all share one 30 sec cooldown: after a <b>Frost Trap</b>, no <b>Freezing Trap</b> for half a minute. While running, drop <b>Frost Trap</b> at your feet and run straight: the enemy steps on it and is slowed by 60% across the whole ice patch. Against a chaser, <b>Freezing Trap</b> at your feet freezes them on arrival (any damage breaks it). Marksmanship combo: <b>Scatter Shot</b> (4 sec disorient, your next hit breaks it), then place the trap between you so they walk into it when it ends. With <b>Entrapment</b> (Survival) they are also rooted for 5 sec; since 2 November that root has diminishing returns, like <b>Improved Wing Clip</b> and <b>Counterattack</b>."
         }
       },
       {
@@ -394,6 +395,7 @@
     {"es": "Felicidad de la mascota: en la beta solo bajaba al morir (fallo); falta confirmar cómo va en el lanzamiento.", "en": "Pet happiness: in the beta it only dropped on death (a bug); still to confirm how it works at launch."}
   ],
   "fuentes": [
+    {"nombre": "Notas de desarrollo de Blizzard (2 de noviembre)", "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"},
     {"nombre": "Notas de la beta de Blizzard (foro oficial)", "url": "https://us.forums.blizzard.com/en/wow/t/2360696"},
     {"nombre": "Talents Forever: calculadora y datos del cliente (CC BY 4.0)", "url": "https://talentsforever.com/hunter/changes"},
     {"nombre": "Method: guía de subida del cazador", "url": "https://www.method.gg/wow-forever/wow-forever-hunter-leveling-guide-and-talents"},
@@ -451,8 +453,8 @@
           "niveles": "22-25",
           "puntos": "3/5 Efficiency, 1/1 Trueshot Aura",
           "nota": {
-            "es": "Disparos y picaduras cuestan menos maná: menos pausas para beber. Más poder de ataque a distancia para ti y tu grupo. Es requisito de Sniper Shot.",
-            "en": "Shots and stings cost less mana: fewer drink breaks. More ranged attack power for you and your party. It is required for Sniper Shot."
+            "es": "Disparos y picaduras cuestan menos maná: menos pausas para beber. Trueshot Aura da poder de ataque a distancia a ti y a tu grupo (desde el 2-11, 20/35/50/75/100 según el rango). Es requisito de Sniper Shot.",
+            "en": "Shots and stings cost less mana: fewer drink breaks. Trueshot Aura gives ranged attack power to you and your party (since 2 November, 20/35/50/75/100 by rank). It is required for Sniper Shot."
           }
         },
         {
@@ -467,8 +469,8 @@
           "niveles": "31-35",
           "puntos": "2/2 Rapid Recuperation, 3/3 Barrage",
           "nota": {
-            "es": "Con Serpent Sting puesto sigues recuperando maná mientras disparas. Multi-Shot, Aimed Shot y Volley hacen un 10 % más.",
-            "en": "With Serpent Sting up, your mana keeps regenerating while you shoot. Multi-Shot, Aimed Shot and Volley deal 10% more."
+            "es": "Con Serpent Sting puesto sigues recuperando maná mientras disparas. Multi-Shot, Aimed Shot y Volley hacen un 15 % más (desde el 2-11; antes 10 %).",
+            "en": "With Serpent Sting up, your mana keeps regenerating while you shoot. Multi-Shot, Aimed Shot and Volley deal 15% more (since 2 November; it was 10%)."
           }
         },
         {
@@ -483,8 +485,8 @@
           "niveles": "40-41",
           "puntos": "1/1 Sniper Shot, 5/5 Ranged Weapon Specialization",
           "nota": {
-            "es": "Talento final: disparo fuerte desde muy lejos que alarga el alcance de tus 3 disparos siguientes. Abre los combates con él. Completas el 5 % de daño a distancia.",
-            "en": "Final talent: a strong long-range shot that extends the range of your next 3 shots. Open fights with it. You finish the 5% ranged damage bonus."
+            "es": "Talento final: disparo fuerte desde muy lejos (desde el 2-11, con el doble de daño extra) que alarga el alcance de tus 3 disparos siguientes. Abre los combates con él. Completas el 5 % de daño a distancia.",
+            "en": "Final talent: a strong long-range shot (since 2 November, with double the bonus damage) that extends the range of your next 3 shots. Open fights with it. You finish the 5% ranged damage bonus."
           }
         },
         {
@@ -609,8 +611,8 @@
           "niveles": "35-39",
           "puntos": "5/5 Lightning Reflexes",
           "nota": {
-            "es": "Un 10 % más de Agilidad: más poder de ataque, crítico y esquiva.",
-            "en": "10% more Agility: more attack power, crit and dodge."
+            "es": "Un 15 % más de Agilidad (desde el 2-11; antes 10 %): más poder de ataque, crítico y esquiva.",
+            "en": "15% more Agility (since 2 November; it was 10%): more attack power, crit and dodge."
           }
         },
         {

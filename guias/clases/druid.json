@@ -1,9 +1,9 @@
 {
   "slug": "druid",
-  "actualizado": "2026-10-31",
+  "actualizado": "2026-11-03",
   "resumen": {
-    "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. Ojo: el 30-10 los datos del servidor rehicieron los árboles de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline) sin nota de Blizzard, así que aún puede cambiar. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
-    "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. Heads-up: on 30 October the server data reworked the Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in) with no Blizzard notes, so it may still change. It suits players who want to do everything with one character and don't mind lots of buttons."
+    "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. El 2-11 Blizzard confirmó en su nota los árboles nuevos de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline), añadió la pasiva Poised al 32 y subió bastante el daño del gato y de Starfire. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
+    "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. On 2 November Blizzard's notes confirmed the new Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in), added the Poised passive at 32 and gave the cat and Starfire a solid damage boost. It suits players who want to do everything with one character and don't mind lots of buttons."
   },
   "fuertes": [
     {
@@ -65,8 +65,8 @@
         "en": "Groups and raids as a caster; patient leveling"
       },
       "texto": {
-        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, cuya aura sube un 3 % el crítico de todo tipo a toda la banda (desde el 30-10; antes solo el de hechizos).",
-        "en": "Damage with Wrath, Starfire and two damage-over-time effects (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. At the bottom of the tree sits Moonkin Form, whose aura raises every type of crit by 3% for the whole raid (since 30 October; before, only spell crit)."
+        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, cuya aura sube un 3 % el crítico de todo tipo a toda la banda (desde el 30-10; antes solo el de hechizos), pero no se suma al de Leader of the Pack. Desde el 2-11, Starfire hace un 40 % más de daño base.",
+        "en": "Damage with Wrath, Starfire and two damage-over-time effects (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. At the bottom of the tree sits Moonkin Form, whose aura raises every type of crit by 3% for the whole raid (since 30 October; before, only spell crit), though it doesn't stack with Leader of the Pack. Since 2 November, Starfire has 40% more base damage."
       }
     },
     {
@@ -83,8 +83,8 @@
         "en": "Leveling and solo play"
       },
       "texto": {
-        "es": "Forma felina con energía y puntos de combo: Shred y Claw para cargar, Rip y Rake para sangrar y Ferocious Bite para rematar. Desde el 30-10, Shifting Power llega al 40 (fila 7) y vuelve cada 8 s, y el talento nuevo Predatory Discipline hace que Ferocious Bite no gaste la energía que sobra. Berserk ya no existe.",
-        "en": "Cat Form with energy and combo points: Shred and Claw to build, Rip and Rake to bleed, Ferocious Bite to finish. Since 30 October, Shifting Power comes at 40 (row 7) with an 8 sec cooldown, and the new Predatory Discipline talent stops Ferocious Bite from spending your leftover energy. Berserk no longer exists."
+        "es": "Forma felina con energía y puntos de combo: Shred y Claw para cargar, Rip y Rake para sangrar y Ferocious Bite para rematar. Desde el 30-10, Shifting Power llega al 40 (fila 7) y vuelve cada 8 s, y el talento nuevo Predatory Discipline hace que Ferocious Bite no gaste la energía que sobra. Berserk ya no existe. El 2-11 subió mucho el daño: Shred pega al 200 % del arma, Claw al 140 %, Ravage al 435 %, y Rip, Rake, Ferocious Bite y Pounce hacen un 25 % más.",
+        "en": "Cat Form with energy and combo points: Shred and Claw to build, Rip and Rake to bleed, Ferocious Bite to finish. Since 30 October, Shifting Power comes at 40 (row 7) with an 8 sec cooldown, and the new Predatory Discipline talent stops Ferocious Bite from spending your leftover energy. Berserk no longer exists. On 2 November damage went up a lot: Shred hits for 200% weapon damage, Claw 140%, Ravage 435%, and Rip, Rake, Ferocious Bite and Pounce deal 25% more."
       }
     },
     {
@@ -101,8 +101,8 @@
         "en": "Tanking dungeons and raids"
       },
       "texto": {
-        "es": "La misma rama que el gato, con otros talentos. Desde el 30-10, Lacerate (sangrado que se acumula 5 veces) es talento de la fila 4 y llega al 25, y Primal Bite (antes Mangle) baja a la fila 7, así que llega al 40. Swipe se ocupa de los grupos y Natural Reaction da esquiva e ira. Berserk ya no existe.",
-        "en": "Same tree as the cat, different talents. Since 30 October, Lacerate (a bleed that stacks 5 times) is a row 4 talent you get at 25, and Primal Bite (formerly Mangle) drops to row 7, so it arrives at 40. Swipe handles packs and Natural Reaction adds dodge and rage. Berserk no longer exists."
+        "es": "La misma rama que el gato, con otros talentos. Desde el 30-10, Lacerate (sangrado que se acumula 5 veces) es talento de la fila 4 y llega al 25, y Primal Bite (antes Mangle) baja a la fila 7, así que llega al 40. Swipe se ocupa de los grupos y Natural Reaction da esquiva e ira. Berserk ya no existe. Como Blessing of Salvation desaparece, desde el 2-11 Bear Form y Dire Bear Form generan un 115 % más de amenaza (antes 50 %).",
+        "en": "Same tree as the cat, different talents. Since 30 October, Lacerate (a bleed that stacks 5 times) is a row 4 talent you get at 25, and Primal Bite (formerly Mangle) drops to row 7, so it arrives at 40. Swipe handles packs and Natural Reaction adds dodge and rage. Berserk no longer exists. Since Blessing of Salvation is gone, from 2 November Bear Form and Dire Bear Form generate 115% more threat (it was 50%)."
       }
     },
     {
@@ -170,8 +170,8 @@
   "subir": {
     "rama": "Feral Combat",
     "intro": {
-      "es": "Para subir, Feral (gato) es lo más rápido y lo más cómodo: casi no paras a beber, matas de uno en uno a buen ritmo y, si se complica, pasas a oso. Hasta el 10 lanzas hechizos; del 10 al 20 peleas como oso; desde el 20 eres gato casi todo el tiempo. Ojo: el 30-10 los datos del servidor cambiaron el árbol sin nota de Blizzard (Shifting Power pasa al 40, Furor llega a Feral y Heart of the Wild se va a Restoration). Este reparto ya usa el árbol nuevo: es nuestro, comprobado punto a punto con los datos del cliente del 30-10, pero aún sin probar en el juego. Termina en un gato de nivel 60 (7/34/10).",
-      "en": "For leveling, Feral (cat) is the fastest and most comfortable: you barely stop to drink, you kill one mob at a time at a good pace and, if things go wrong, you switch to bear. Until 10 you cast spells; from 10 to 20 you fight as a bear; from 20 on you're a cat almost all the time. Note: on 30 October the server data changed the tree with no Blizzard notes (Shifting Power moves to 40, Furor joins Feral and Heart of the Wild moves to Restoration). This build already uses the new tree: it's our own, checked point by point against the 30 October client data, but not yet tested in game. It ends as a level 60 cat (7/34/10)."
+      "es": "Para subir, Feral (gato) es lo más rápido y lo más cómodo: casi no paras a beber, matas de uno en uno a buen ritmo y, si se complica, pasas a oso. Hasta el 10 lanzas hechizos; del 10 al 20 peleas como oso; desde el 20 eres gato casi todo el tiempo. Ojo: el árbol cambió el 30-10 y Blizzard lo confirmó en su nota del 2-11 (Shifting Power pasa al 40, Furor llega a Feral y Heart of the Wild se va a Restoration). Este reparto ya usa el árbol nuevo: es nuestro, comprobado punto a punto con esa nota y con los datos del cliente, pero aún sin probar en el juego. Termina en un gato de nivel 60 (7/34/10).",
+      "en": "For leveling, Feral (cat) is the fastest and most comfortable: you barely stop to drink, you kill one mob at a time at a good pace and, if things go wrong, you switch to bear. Until 10 you cast spells; from 10 to 20 you fight as a bear; from 20 on you're a cat almost all the time. Note: the tree changed on 30 October and Blizzard confirmed it in its 2 November notes (Shifting Power moves to 40, Furor joins Feral and Heart of the Wild moves to Restoration). This build already uses the new tree: it's our own, checked point by point against those notes and the client data, but not yet tested in game. It ends as a level 60 cat (7/34/10)."
     },
     "talentos": [
       {
@@ -210,16 +210,16 @@
         "niveles": "30-34",
         "puntos": "1/1 Leader of the Pack, 3/3 Predatory Strikes, 1/2 Savage Fury",
         "nota": {
-          "es": "Leader of the Pack sube un 3 % el crítico de todo tipo al grupo (desde el 30-10, también el de hechizos). Más poder de ataque en forma y más daño con Claw, Rake y Shred.",
-          "en": "Leader of the Pack raises every type of crit by 3% for the party (since 30 October, spell crit too). More attack power in forms and more damage from Claw, Rake and Shred."
+          "es": "Leader of the Pack sube un 3 % el crítico de todo tipo al grupo (desde el 30-10, también el de hechizos; no se suma al aura de Moonkin Form). Más poder de ataque en forma y más daño con Claw, Rake y Shred.",
+          "en": "Leader of the Pack raises every type of crit by 3% for the party (since 30 October, spell crit too; it doesn't stack with the Moonkin Form aura). More attack power in forms and more damage from Claw, Rake and Shred."
         }
       },
       {
         "niveles": "35-39",
         "puntos": "5/5 Rend and Tear",
         "nota": {
-          "es": "+10 % de daño a objetivos que sangran: con Rake y Rip puestos, todo pega más.",
-          "en": "+10% damage against bleeding targets: with Rake and Rip up, everything hits harder."
+          "es": "+15 % de daño a objetivos que sangran (desde el 2-11; antes 10 %): con Rake y Rip puestos, todo pega más.",
+          "en": "+15% damage against bleeding targets (since 2 November; it was 10%): with Rake and Rip up, everything hits harder."
         }
       },
       {
@@ -421,8 +421,8 @@
         "nombre": "Shred",
         "nuevo": false,
         "texto": {
-          "es": "Golpe fuerte desde la espalda que da un punto de combo. Ahora se aprende al 20.",
-          "en": "Strong hit from behind that awards a combo point. Now learned at 20."
+          "es": "Golpe fuerte desde la espalda que da un punto de combo. Ahora se aprende al 20 y, desde el 2-11, pega al 200 % del daño del arma (antes 155 %).",
+          "en": "Strong hit from behind that awards a combo point. Now learned at 20 and, since 2 November, it hits for 200% weapon damage (it was 155%)."
         }
       },
       {
@@ -466,8 +466,8 @@
         "nombre": "Ferocious Bite",
         "nuevo": false,
         "texto": {
-          "es": "Remate de daño directo. Desde el 30-10 tiene un rango 1 nuevo al 24 (33-43 de daño con 1 punto de combo, 129-139 con 5); antes llegaba al 32. Ideal para matar rápido sin esperar a Rip.",
-          "en": "Direct-damage finisher. Since 30 October it has a new rank 1 at 24 (33-43 damage with 1 combo point, 129-139 with 5); it used to arrive at 32. Great for quick kills without waiting on Rip."
+          "es": "Remate de daño directo. Blizzard confirmó el 2-11 su rango 1 nuevo al 24 (antes llegaba al 32) y le subió un 25 % el daño. Ideal para matar rápido sin esperar a Rip.",
+          "en": "Direct-damage finisher. On 2 November Blizzard confirmed its new rank 1 at 24 (it used to arrive at 32) and raised its damage by 25%. Great for quick kills without waiting on Rip."
         }
       },
       {
@@ -486,6 +486,15 @@
         "texto": {
           "es": "+40 % de velocidad al aire libre. Es tu montura hasta el 40.",
           "en": "+40% speed outdoors. Your mount until 40."
+        }
+      },
+      {
+        "nivel": 32,
+        "nombre": "Poised",
+        "nuevo": true,
+        "texto": {
+          "es": "Pasiva nueva del 2-11: si estás fuera de combate con la energía llena, tu siguiente habilidad de energía cuesta 10 menos. Empieza cada pelea con la barra llena.",
+          "en": "New passive on 2 November: out of combat at full energy, your next energy ability costs 10 less. Start every fight with a full bar."
         }
       },
       {
@@ -548,8 +557,8 @@
         "en": "Levels 10-19 (bear): Enrage as you close in, Demoralizing Roar against melee enemies, Maul on one target and Swipe on several."
       },
       {
-        "es": "Desde el 20 (gato): Prowl, colócate detrás y abre con Shred (Ravage al 32, Pounce al 36). Faerie Fire es gratis en forma.",
-        "en": "From 20 (cat): Prowl, get behind and open with Shred (Ravage at 32, Pounce at 36). Faerie Fire is free in form."
+        "es": "Desde el 20 (gato): Prowl, colócate detrás y abre con Shred (Ravage al 32, Pounce al 36). Desde el 32, entra con la energía llena para que Poised te abarate 10 el primer golpe. Faerie Fire es gratis en forma.",
+        "en": "From 20 (cat): Prowl, get behind and open with Shred (Ravage at 32, Pounce at 36). From 32, go in at full energy so Poised makes your opener 10 cheaper. Faerie Fire is free in form."
       },
       {
         "es": "Carga puntos de combo con Shred si estás detrás y con Claw si no. Rake solo si el enemigo va a durar.",
@@ -591,8 +600,8 @@
           "en": "<b>Travel Form (level 30)</b>: bought from the trainer, no quest. +40% speed outdoors, and you can gather herbs without shifting out."
         },
         {
-          "es": "<b>Moonkin Form (nivel 40)</b>: no es misión, es el último talento de Balance (hace falta haber gastado 30 puntos en ese árbol). Da armadura y crítico de hechizos a la banda, pero no deja curar.",
-          "en": "<b>Moonkin Form (level 40)</b>: not a quest, it's the last Balance talent (you need 30 points in that tree first). It gives armor and raid spell crit, but blocks healing spells."
+          "es": "<b>Moonkin Form (nivel 40)</b>: no es misión, es el último talento de Balance (hace falta haber gastado 30 puntos en ese árbol). Da armadura y crítico de todo tipo a la banda, pero no deja curar.",
+          "en": "<b>Moonkin Form (level 40)</b>: not a quest, it's the last Balance talent (you need 30 points in that tree first). It gives armor and raid-wide crit of every type, but blocks healing spells."
         },
         {
           "es": "Bonus: <b>Cure Poison</b> llega al 14 con la misión «Power over Poison»; en Forever también la pueden hacer los Skyborne de la Alianza.",
@@ -604,6 +613,10 @@
       {
         "es": "Haz las misiones de oso (10) y de gato (20) en cuanto puedas: son los dos saltos de poder más grandes.",
         "en": "Do the bear (10) and cat (20) quests as soon as you can: they're your two biggest power spikes."
+      },
+      {
+        "es": "Desde el 2-11, lo que aprendes en el entrenador ya no se pone solo en las barras: ábrete el libro de hechizos y arrástralo tú. Entrenar todo del 1 al 60 cuesta unos 206-207 de oro, igual para todas las clases.",
+        "en": "Since 2 November, what you learn at the trainer no longer lands on your action bars by itself: open your spellbook and drag it there. Training everything from 1 to 60 costs about 206-207 gold, the same for every class."
       },
       {
         "es": "En Forever el arma suma daño en forma de oso y de gato, y funcionan los encantamientos y las piedras de peso. Cambia de arma en cuanto encuentres una mejor.",
@@ -685,8 +698,8 @@
       {
         "nivel": "32",
         "texto": {
-          "es": "Ravage: el gato abre desde el sigilo con mucho más daño.",
-          "en": "Ravage: the cat opens from stealth with much more damage."
+          "es": "Ravage (435 % del daño del arma desde el 2-11): el gato abre desde el sigilo con mucho más daño. Además llega Poised, que abarata 10 el primer golpe si empiezas con la energía llena.",
+          "en": "Ravage (435% weapon damage since 2 November): the cat opens from stealth with much more damage. Poised also arrives, making your first hit 10 cheaper if you start at full energy."
         }
       },
       {
@@ -714,8 +727,8 @@
   },
   "nivel60": {
     "intro": {
-      "es": "El 30-10 los datos del servidor cambiaron los árboles de Feral y Restoration sin nota de Blizzard: desaparecen Berserk, Improved Shifting Power y Gift of the Earthmother, Furor y Heart of the Wild cambian de árbol, y Primal Bite y Shifting Power bajan a la fila 7. Las builds de 60 que más se planificaron en la beta (11/5/35 Restoration, 9/42/0 Feral y 36/0/15 Balance) ya no encajan tal cual, y las rehacemos en cuanto haya datos. Además nadie ha llegado aún a 60 y las bandas llegan el 9-12-2026: lo de abajo son prioridades, no builds cerradas.",
-      "en": "On 30 October the server data changed the Feral and Restoration trees with no Blizzard notes: Berserk, Improved Shifting Power and Gift of the Earthmother are gone, Furor and Heart of the Wild swap trees, and Primal Bite and Shifting Power drop to row 7. The most planned level 60 builds from the beta (11/5/35 Restoration, 9/42/0 Feral and 36/0/15 Balance) no longer fit as they were, and we will redo them once there is data. On top of that nobody has reached 60 yet and raids open on 9 December 2026: what follows are priorities, not final builds."
+      "es": "Desde el 2-11 todas las clases hacen más daño y los enemigos de nivel alto tienen más vida, y Blizzard no prevé grandes ajustes hasta que abran las bandas en diciembre. Su nota de ese día confirmó los árboles nuevos de Feral y Restoration que llegaron el 30-10: desaparecen Berserk, Improved Shifting Power y Gift of the Earthmother, Furor y Heart of the Wild cambian de árbol, Reflection sube a la fila 2 (y Subtlety baja a la 3), y Primal Bite y Shifting Power bajan a la fila 7. Las builds de 60 que más se planificaron en la beta (11/5/35 Restoration, 9/42/0 Feral y 36/0/15 Balance) ya no encajan tal cual, y las rehacemos en cuanto haya datos. Además nadie ha llegado aún a 60 y las bandas llegan el 9-12-2026: lo de abajo son prioridades, no builds cerradas.",
+      "en": "Since 2 November every class deals more damage and high-level enemies have more health, and Blizzard doesn't plan big tuning changes until raids open in December. That day's notes confirmed the new Feral and Restoration trees that arrived on 30 October: Berserk, Improved Shifting Power and Gift of the Earthmother are gone, Furor and Heart of the Wild swap trees, Reflection moves up to row 2 (and Subtlety down to row 3), and Primal Bite and Shifting Power drop to row 7. The most planned level 60 builds from the beta (11/5/35 Restoration, 9/42/0 Feral and 36/0/15 Balance) no longer fit as they were, and we will redo them once there is data. On top of that nobody has reached 60 yet and raids open on 9 December 2026: what follows are priorities, not final builds."
     },
     "ramas": [
       {
@@ -933,8 +946,8 @@
             "en": "Wild Growth when several party members are about to take damage: since 30 October it has a 3 sec cast (2.5 with Naturalist)."
           },
           {
-            "es": "Swiftmend para una cura rápida en quien tenga tu Rejuvenation o Regrowth (según el texto del 30-10, consume ese efecto).",
-            "en": "Swiftmend for a fast heal on someone with your Rejuvenation or Regrowth (per the 30 October tooltip, it consumes that effect)."
+            "es": "Swiftmend para una cura rápida en quien tenga tu Rejuvenation o Regrowth: desde el 2-11 tiene que ser la tuya, no la de otro druida (según el texto del 30-10, consume ese efecto).",
+            "en": "Swiftmend for a fast heal on someone with your Rejuvenation or Regrowth: since 2 November it has to be yours, not another druid's (per the 30 October tooltip, it consumes that effect)."
           },
           {
             "es": "Regrowth en quien le falte bastante vida y no la tenga puesta.",
@@ -1111,8 +1124,8 @@
           "en": "Bear tanking threat"
         },
         "texto": {
-          "es": "En Forever el oso genera un 50 % más de amenaza y gana el doble de ira con los críticos. Abre con <b>Faerie Fire</b> (ahora genera amenaza en oso), luego <b>Primal Bite</b> (desde el 40) cada vez que esté lista y <b>Lacerate</b> hasta 5 acumulaciones. Contra varios, <b>Swipe</b> (3 objetivos). <b>Maul</b> sustituye a tu golpe normal y ese golpe ya no da ira: úsalo solo con ira de sobra. Gira al jefe para que mire lejos del grupo; <b>Growl</b> (8 s) para recuperar a uno y <b>Challenging Roar</b> si se escapan varios.",
-          "en": "In Forever bear forms generate 50% more threat and get double rage from crits. Open with <b>Faerie Fire</b> (it now generates threat in bear), then <b>Primal Bite</b> (from 40) on cooldown and <b>Lacerate</b> up to 5 stacks. On packs, <b>Swipe</b> (3 targets). <b>Maul</b> replaces your next white hit and that hit no longer gives rage, so only use it with spare rage. Turn the boss to face away from the group; <b>Growl</b> (8 sec) to pick one back up and <b>Challenging Roar</b> if several get loose."
+          "es": "En Forever ya no existe Blessing of Salvation, así que desde el 2-11 el oso genera un 115 % más de amenaza (antes 50 %) y gana el doble de ira con los críticos. Abre con <b>Faerie Fire</b> (ahora genera amenaza en oso), luego <b>Primal Bite</b> (desde el 40) cada vez que esté lista y <b>Lacerate</b> hasta 5 acumulaciones. Contra varios, <b>Swipe</b> (3 objetivos). <b>Maul</b> sustituye a tu golpe normal y ese golpe ya no da ira: úsalo solo con ira de sobra. Gira al jefe para que mire lejos del grupo; <b>Growl</b> (8 s) para recuperar a uno y <b>Challenging Roar</b> si se escapan varios.",
+          "en": "Forever has no Blessing of Salvation, so since 2 November bear forms generate 115% more threat (it was 50%) and get double rage from crits. Open with <b>Faerie Fire</b> (it now generates threat in bear), then <b>Primal Bite</b> (from 40) on cooldown and <b>Lacerate</b> up to 5 stacks. On packs, <b>Swipe</b> (3 targets). <b>Maul</b> replaces your next white hit and that hit no longer gives rage, so only use it with spare rage. Turn the boss to face away from the group; <b>Growl</b> (8 sec) to pick one back up and <b>Challenging Roar</b> if several get loose."
         }
       },
       {
@@ -1214,12 +1227,12 @@
       "en": "Forever's spell hit cap and the exact value of Expertise and haste."
     },
     {
-      "es": "El árbol del druida cambió el 30-10 en los datos del servidor, sin nota de Blizzard: puede volver a cambiar, y Predatory Discipline y Bloom aún no están traducidos en el juego. Las builds de nivel 60 con el árbol nuevo las rehacemos en cuanto el cliente traiga los talentos nuevos.",
-      "en": "The druid tree changed on 30 October in the server data, with no Blizzard notes: it may change again, and Predatory Discipline and Bloom are not translated in game yet. We will redo the level 60 builds on the new tree as soon as the client ships the new talents."
+      "es": "El árbol nuevo del druida ya está confirmado en la nota de Blizzard del 2-11, pero Predatory Discipline y Bloom aún no están traducidos en el juego. Las builds de nivel 60 con el árbol nuevo las publicaremos cuando haya jugadores a 60 y datos de las bandas.",
+      "en": "The new druid tree is now confirmed in Blizzard's 2 November notes, but Predatory Discipline and Bloom are not translated in game yet. We will publish level 60 builds on the new tree once players reach 60 and there is raid data."
     },
     {
-      "es": "Swiftmend: desde el 30-10 su texto dice que consume la Rejuvenation o el Regrowth que usa (solo cambió la redacción). Comprobaremos en el juego si de verdad lo gasta.",
-      "en": "Swiftmend: since 30 October its tooltip says it consumes the Rejuvenation or Regrowth it uses (only the wording changed). We will check in game whether it really does."
+      "es": "Swiftmend: la nota del 2-11 solo dice que necesita una Rejuvenation o un Regrowth tuyos; su texto del 30-10 dice que consume el efecto que usa. Comprobaremos en el juego si de verdad lo gasta.",
+      "en": "Swiftmend: the 2 November notes only say it needs your own Rejuvenation or Regrowth; its 30 October tooltip says it consumes the effect it uses. We will check in game whether it really does."
     },
     {
       "es": "El nombre de la misión de Aquatic Form para los Skyborne, y si Moonglade forma parte de la cadena del gato.",
@@ -1235,6 +1248,10 @@
     }
   ],
   "fuentes": [
+    {
+      "nombre": "Notas de desarrollo de Blizzard (2 de noviembre)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+    },
     {
       "nombre": "Notas de la beta de Blizzard (WoW Forever)",
       "url": "https://news.blizzard.com/en-us/"
@@ -1400,8 +1417,8 @@
           "niveles": "51-55",
           "puntos": "5/5 Rend and Tear",
           "nota": {
-            "es": "Un 10 % más de daño contra enemigos que sangran: con Lacerate puesto, siempre activo.",
-            "en": "10% more damage against bleeding enemies: with Lacerate up, it's always on."
+            "es": "Un 15 % más de daño contra enemigos que sangran (desde el 2-11; antes 10 %): con Lacerate puesto, siempre activo.",
+            "en": "15% more damage against bleeding enemies (since 2 November; it was 10%): with Lacerate up, it's always on."
           }
         },
         {

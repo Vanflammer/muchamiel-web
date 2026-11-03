@@ -1,6 +1,6 @@
 {
   "slug": "warlock",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-03",
   "resumen": {
     "es": "El brujo es el lanzador de hechizos que pelea con un demonio al lado y gasta su propia vida como recurso. En Forever llega muy cambiado: Curse of Agony y Curse of Doom pasan a ser «Banes» (puedes tener a la vez una Bane y una maldición en el mismo objetivo), los demonios escalan con tu equipo y cada rama tiene un talento final nuevo (Wrack, Demonic Pact e Incinerate). Es ideal si te gusta subir solo, aguantar mucho sin descansar y aportar invocaciones y piedras al grupo.",
     "en": "The Warlock is a caster who fights with a demon at their side and spends their own health as a resource. Forever reworks it a lot: Curse of Agony and Curse of Doom are now «Banes» (you can keep one Bane and one Curse on the same target), demons scale with your gear, and every tree has a new capstone (Wrack, Demonic Pact and Incinerate). Pick it if you like leveling solo, rarely stopping to rest, and bringing summons and stones to your group."
@@ -23,8 +23,8 @@
       "en": "Utility everyone wants: Healthstones, Soulstones and Ritual of Summoning (in Forever the group finder does not teleport you)."
     },
     {
-      "es": "Los demonios escalan con tus estadísticas, así que la mascota sigue siendo útil hasta el 60.",
-      "en": "Demons scale with your stats, so your pet stays useful all the way to 60."
+      "es": "Los demonios escalan con tus estadísticas, así que la mascota sigue siendo útil hasta el 60 (aunque desde el 2-11 sacan mucha menos vida de tu Stamina).",
+      "en": "Demons scale with your stats, so your pet stays useful all the way to 60 (though since November 2 they get far less health from your Stamina)."
     },
     {
       "es": "Montura gratis a nivel 40 con una misión de clase: te ahorras el oro de la montura.",
@@ -95,8 +95,8 @@
         "en": "Dungeons, burst damage and PvP"
       },
       "texto": {
-        "es": "Fuego y sombra de golpe: Immolate, Conflagrate (ahora desde nivel 25), Shadowburn y el nuevo Incinerate como talento final. Shadow and Flame hace que Conflagrate no gaste Immolate y que Shadowburn te devuelva el fragmento. Es la más exigente para subir solo, pero brilla en grupo.",
-        "en": "Fire and Shadow up front: Immolate, Conflagrate (now from level 25), Shadowburn and the new Incinerate as its capstone. Shadow and Flame stops Conflagrate from eating Immolate and refunds Shadowburn's shard. It is the hardest tree to level solo, but it shines in groups."
+        "es": "Fuego y sombra de golpe: Immolate, Conflagrate (ahora desde nivel 25), Shadowburn y el nuevo Incinerate como talento final. Shadow and Flame hace que Conflagrate no gaste Immolate y que Shadowburn te devuelva el fragmento, y desde el 2-11 sube hasta un 20 % tu daño de sombra o de fuego (antes un 10 %). Es la más exigente para subir solo, pero brilla en grupo.",
+        "en": "Fire and Shadow up front: Immolate, Conflagrate (now from level 25), Shadowburn and the new Incinerate as its capstone. Shadow and Flame stops Conflagrate from eating Immolate and refunds Shadowburn's shard, and since November 2 it raises your Shadow or Fire damage by up to 20% (it was 10%). It is the hardest tree to level solo, but it shines in groups."
       }
     }
   ],
@@ -160,8 +160,8 @@
   "subir": {
     "rama": "Affliction",
     "intro": {
-      "es": "Affliction es la opción más segura y la que recomiendan casi todas las guías. Tu demonio (el Voidwalker desde nivel 10) recibe los golpes, tú dejas efectos de daño y rematas con varita hasta el 30. Desde ahí cambias a «drenar»: Drain Life te cura mientras haces daño y casi no paras entre combates. Usa Life Tap cuando tengas más vida que maná y Drain Life cuando tengas más maná que vida. Si prefieres un demonio muy fuerte y menos dependencia del equipo, Demonology también sube muy bien a partir de los 25-30.",
-      "en": "Affliction is the safest pick and the one nearly every guide recommends. Your demon (the Voidwalker from level 10) takes the hits, you apply damage over time and finish with a wand until 30. From there you switch to «drain tanking»: Drain Life heals you while it deals damage and you barely stop between fights. Life Tap when you have more health than mana, Drain Life when you have more mana than health. If you would rather have a very strong demon and lean less on gear, Demonology also levels very well from around 25-30."
+      "es": "Affliction es la opción más segura y la que recomiendan casi todas las guías. Tu demonio (el Voidwalker desde nivel 10) recibe los golpes, tú dejas efectos de daño y rematas con varita hasta el 30. Desde ahí cambias a «drenar»: Drain Life te cura mientras haces daño y casi no paras entre combates. Usa Life Tap cuando tengas más vida que maná y Drain Life cuando tengas más maná que vida. Ojo: desde el 2-11 los demonios ganan solo 2 de vida por cada punto de tu Stamina (antes 7,5), así que el Voidwalker aguanta bastante menos a medida que subes: cuidado con echarle varios enemigos a la vez y vigila su vida (Health Funnel, Consume Shadows). Si prefieres un demonio muy fuerte y menos dependencia del equipo, Demonology también sube muy bien a partir de los 25-30.",
+      "en": "Affliction is the safest pick and the one nearly every guide recommends. Your demon (the Voidwalker from level 10) takes the hits, you apply damage over time and finish with a wand until 30. From there you switch to «drain tanking»: Drain Life heals you while it deals damage and you barely stop between fights. Life Tap when you have more health than mana, Drain Life when you have more mana than health. Careful: since November 2 demons only gain 2 health per point of your Stamina (it was 7.5), so the Voidwalker holds up a lot less as you level: be careful sending it into several enemies at once and watch its health (Health Funnel, Consume Shadows). If you would rather have a very strong demon and lean less on gear, Demonology also levels very well from around 25-30."
     },
     "talentos": [
       {
@@ -184,8 +184,8 @@
         "niveles": "19-21",
         "puntos": "3/3 Improved Drains",
         "nota": {
-          "es": "Un 20 % más a Drain Life y Drain Soul. Prepara el estilo de drenar.",
-          "en": "20% more from Drain Life and Drain Soul. Sets up the drain style."
+          "es": "Un 20 % más a Drain Life y Drain Soul (y a Drain Mana; desde el 2-11 ya no mejora Wrack). Prepara el estilo de drenar.",
+          "en": "20% more from Drain Life and Drain Soul (and Drain Mana; since November 2 it no longer boosts Wrack). Sets up the drain style."
         }
       },
       {
@@ -216,8 +216,8 @@
         "niveles": "29",
         "puntos": "1/1 Amplify Curse",
         "nota": {
-          "es": "Botón de 3 minutos que refuerza tu siguiente Bane of Agony o Curse of Weakness. Además abre Curse of Exhaustion por si lo quieres para JcJ.",
-          "en": "A 3-minute button that empowers your next Bane of Agony or Curse of Weakness. It also unlocks Curse of Exhaustion if you want it for PvP."
+          "es": "Botón de 3 minutos que refuerza tu siguiente Bane of Agony, Curse of Weakness o Curse of Exhaustion (desde el 2-11 ya funciona bien con Bane of Agony y Curse of Exhaustion). Además abre Curse of Exhaustion por si lo quieres para JcJ.",
+          "en": "A 3-minute button that empowers your next Bane of Agony, Curse of Weakness or Curse of Exhaustion (since November 2 it works properly with Bane of Agony and Curse of Exhaustion). It also unlocks Curse of Exhaustion if you want it for PvP."
         }
       },
       {
@@ -256,8 +256,8 @@
         "niveles": "40",
         "puntos": "1/1 Wrack",
         "nota": {
-          "es": "Talento final nuevo. Canalizado de 6 segundos que hace daño y sube un 10 % el daño de tus otros efectos de sombra.",
-          "en": "New capstone. A 6-second channel that deals damage and raises your other Shadow damage over time by 10%."
+          "es": "Talento final nuevo. Canalizado de 6 segundos que hace daño y sube un 10 % el daño de tus otros efectos de sombra. Desde el 2-11 pega mucho más: a nivel 60 su daño base pasa de 36 a 86 por segundo y aprovecha el doble tu poder con hechizos.",
+          "en": "New capstone. A 6-second channel that deals damage and raises your other Shadow damage over time by 10%. Since November 2 it hits much harder: at level 60 its base damage goes from 36 to 86 per second, and it gets twice as much from your spell power."
         }
       },
       {
@@ -355,8 +355,8 @@
         "nombre": "Summon Voidwalker",
         "nuevo": false,
         "texto": {
-          "es": "Por misión de clase. El tanque: tu mejor compañero para subir.",
-          "en": "From a class quest. The tank, and your best leveling partner."
+          "es": "Por misión de clase. El tanque: tu mejor compañero para subir. Desde el 2-11 saca solo 2 de vida por cada punto de tu Stamina (antes 7,5): a niveles altos aguanta menos que en la beta.",
+          "en": "From a class quest. The tank, and your best leveling partner. Since November 2 it only gets 2 health per point of your Stamina (it was 7.5), so at higher levels it holds up less than in the beta."
         }
       },
       {
@@ -364,8 +364,8 @@
         "nombre": "Drain Soul",
         "nuevo": false,
         "texto": {
-          "es": "En Forever puede darte un fragmento de alma en cualquier tic, y siempre si el enemigo muere drenado.",
-          "en": "In Forever it can give a Soul Shard on any tick, and always does if the enemy dies while drained."
+          "es": "Siempre da un fragmento de alma si el enemigo muere drenado. Puede darlo también en un tic sin matar, pero desde el 2-11 esa probabilidad es mucho menor: para llenar la bolsa, remata con Drain Soul.",
+          "en": "Always gives a Soul Shard if the enemy dies while drained. It can also give one on a tick without a kill, but since November 2 that chance is much lower: to fill your bag, finish enemies with Drain Soul."
         }
       },
       {
@@ -490,8 +490,8 @@
         "nombre": "Create Spellstone",
         "nuevo": false,
         "texto": {
-          "es": "En Forever también es un encantamiento de arma: más daño de sombra y algo de celeridad.",
-          "en": "In Forever it is also a weapon enchant: more Shadow damage and a bit of haste."
+          "es": "En Forever también es un encantamiento de arma: más daño de sombra (solo sombra: desde el 2-11 ya no sube el de fuego) y algo de celeridad.",
+          "en": "In Forever it is also a weapon enchant: more Shadow damage (Shadow only: since November 2 it no longer boosts Fire) and a bit of haste."
         }
       },
       {
@@ -499,8 +499,8 @@
         "nombre": "Wrack",
         "nuevo": true,
         "texto": {
-          "es": "Talento final de Affliction. Canalizado que hace daño y aumenta un 10 % el daño de tus otros efectos de sombra.",
-          "en": "Affliction capstone. A channel that deals damage and raises your other Shadow damage over time by 10%."
+          "es": "Talento final de Affliction. Canalizado que hace daño y aumenta un 10 % el daño de tus otros efectos de sombra. Desde el 2-11 su daño propio es mucho mayor (a nivel 60, de 36 a 86 por segundo de base).",
+          "en": "Affliction capstone. A channel that deals damage and raises your other Shadow damage over time by 10%. Since November 2 its own damage is much higher (at level 60, from 36 to 86 base per second)."
         }
       },
       {
@@ -594,8 +594,8 @@
           "en": "<b>Imp</b> (level 1, learned at the start): ranged fire damage, Blood Pact (more Stamina for the group), Fire Shield and Phase Shift. Weak for leveling after 10, but useful in groups for Blood Pact. Costs no shard."
         },
         {
-          "es": "<b>Voidwalker</b> (nivel 10, misión de clase): el tanque. Torment y Suffering atraen a los enemigos, Consume Shadows lo cura fuera de combate y Sacrifice te da un escudo de emergencia. Misiones de inicio: Gakin's Summons (humano, Villadorada), The Slaughtered Lamb (gnomo, Forjaz), Gan'rul's Summons (orco y trol, Cerrotajo), Halgar's Summons (no-muerto, Rémol).",
-          "en": "<b>Voidwalker</b> (level 10, class quest): the tank. Torment and Suffering pull enemies onto it, Consume Shadows heals it out of combat and Sacrifice gives you an emergency shield. Starting quests: Gakin's Summons (Human, Goldshire), The Slaughtered Lamb (Gnome, Ironforge), Gan'rul's Summons (Orc and Troll, Razor Hill), Halgar's Summons (Undead, Brill)."
+          "es": "<b>Voidwalker</b> (nivel 10, misión de clase): el tanque. Torment y Suffering atraen a los enemigos, Consume Shadows lo cura fuera de combate y Sacrifice te da un escudo de emergencia. Desde el 2-11 tu Stamina le da mucha menos vida, así que según subes aguanta menos golpes que en la beta. Misiones de inicio: Gakin's Summons (humano, Villadorada), The Slaughtered Lamb (gnomo, Forjaz), Gan'rul's Summons (orco y trol, Cerrotajo), Halgar's Summons (no-muerto, Rémol).",
+          "en": "<b>Voidwalker</b> (level 10, class quest): the tank. Torment and Suffering pull enemies onto it, Consume Shadows heals it out of combat and Sacrifice gives you an emergency shield. Since November 2 your Stamina gives it far less health, so as you level it takes fewer hits than in the beta. Starting quests: Gakin's Summons (Human, Goldshire), The Slaughtered Lamb (Gnome, Ironforge), Gan'rul's Summons (Orc and Troll, Razor Hill), Halgar's Summons (Undead, Brill)."
         },
         {
           "es": "<b>Succubus / Incubus</b> (nivel 20, misión de clase cada uno): el demonio con más daño. Lash of Pain, Soothing Kiss, Lesser Invisibility y Seduction (controla un humanoide hasta 15 s; el daño la rompe). El íncubo es nuevo en Forever y comparte hechizos con la súcubo. La cadena de la súcubo de la Horda es larga: ten los vuelos de Los Baldíos y Sierra Espolón.",
@@ -618,16 +618,16 @@
           "en": "<b>Subjugate Demon</b> (level 30): takes control of a wild demon (rank 1 works up to level 45 demons) for up to 5 minutes. Costs a shard."
         },
         {
-          "es": "<b>Demonios en Forever</b>: escalan con tus estadísticas, el modo agresivo ha vuelto (pestaña de mascota del libro de hechizos) y tu demonio actual queda aturdido mientras invocas otro. Pon «atacar» y «seguir» en teclas cómodas.",
-          "en": "<b>Demons in Forever</b>: they scale with your stats, Aggressive mode is back (pet tab of the spellbook) and your current demon is stunned while you summon a new one. Bind Attack and Follow to easy keys."
+          "es": "<b>Demonios en Forever</b>: escalan con tus estadísticas (desde el 2-11, 2 de vida por cada punto de tu Stamina en vez de 7,5), el modo agresivo ha vuelto (pestaña de mascota del libro de hechizos) y tu demonio actual queda aturdido mientras invocas otro. Pon «atacar» y «seguir» en teclas cómodas.",
+          "en": "<b>Demons in Forever</b>: they scale with your stats (since November 2, 2 health per point of your Stamina instead of 7.5), Aggressive mode is back (pet tab of the spellbook) and your current demon is stunned while you summon a new one. Bind Attack and Follow to easy keys."
         },
         {
-          "es": "<b>Fragmentos de alma (Soul Shards)</b>: los da Drain Soul (en Forever, con posibilidad en cada tic y seguro si el enemigo muere drenado; tiene que ser un enemigo que dé experiencia). También Shadowburn si el enemigo muere en 8 s. Los gastan: Voidwalker, súcubo, íncubo, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn y Soul Fire. La bolsa de almas va en la ranura de componentes.",
-          "en": "<b>Soul Shards</b>: Drain Soul gives them (in Forever, a chance on each tick and a sure one if the enemy dies while drained; it must be an enemy that gives experience). Shadowburn also does if the enemy dies within 8 s. They are spent on: Voidwalker, Succubus, Incubus, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn and Soul Fire. The soul bag goes in the reagent bag slot."
+          "es": "<b>Fragmentos de alma (Soul Shards)</b>: los da Drain Soul (seguro si el enemigo muere drenado; en los tics sin matar hay una posibilidad, mucho menor desde el 2-11; tiene que ser un enemigo que dé experiencia). También Shadowburn si el enemigo muere en 8 s. Los gastan: Voidwalker, súcubo, íncubo, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn y Soul Fire. La bolsa de almas va en la ranura de componentes.",
+          "en": "<b>Soul Shards</b>: Drain Soul gives them (a sure one if the enemy dies while drained; ticks without a kill have a chance, much lower since November 2; it must be an enemy that gives experience). Shadowburn also does if the enemy dies within 8 s. They are spent on: Voidwalker, Succubus, Incubus, Felhunter, Healthstone, Soulstone, Firestone, Spellstone, Ritual of Summoning, Subjugate Demon, Shadowburn and Soul Fire. The soul bag goes in the reagent bag slot."
         },
         {
-          "es": "<b>Piedras</b>: Healthstone (nivel 10) cura al instante; Soulstone (nivel 18) permite resucitar a quien la tenga; Firestone (28) y Spellstone (36) ahora son encantamientos temporales de arma: Firestone da un 1-2 % de crítico con hechizos y más daño de fuego; Spellstone, un 1-2 % de celeridad y más daño de sombra. Los objetos conjurados desaparecen si estás desconectado más de 15 minutos.",
-          "en": "<b>Stones</b>: Healthstone (level 10) heals instantly; Soulstone (level 18) lets whoever holds it resurrect; Firestone (28) and Spellstone (36) are now temporary weapon enchants: Firestone gives 1-2% spell crit and more Fire damage; Spellstone, 1-2% spell haste and more Shadow damage. Conjured items vanish if you stay logged out for more than 15 minutes."
+          "es": "<b>Piedras</b>: Healthstone (nivel 10) cura al instante; Soulstone (nivel 18) permite resucitar a quien la tenga; Firestone (28) y Spellstone (36) ahora son encantamientos temporales de arma: Firestone da un 1-2 % de crítico con hechizos y más daño de fuego; Spellstone, un 1-2 % de celeridad y más daño de sombra (solo sombra desde el 2-11). Los objetos conjurados desaparecen si estás desconectado más de 15 minutos.",
+          "en": "<b>Stones</b>: Healthstone (level 10) heals instantly; Soulstone (level 18) lets whoever holds it resurrect; Firestone (28) and Spellstone (36) are now temporary weapon enchants: Firestone gives 1-2% spell crit and more Fire damage; Spellstone, 1-2% spell haste and more Shadow damage (Shadow only since November 2). Conjured items vanish if you stay logged out for more than 15 minutes."
         },
         {
           "es": "<b>Invocación</b>: Ritual of Summoning (nivel 20) trae a un miembro del grupo. Necesitas a otros dos que hagan clic en el portal sin moverse y fuera de combate. En la beta costaba 1 fragmento; con el cambio de prelanzamiento pasa a 5 fragmentos, todo tu maná base y 1 hora de recarga (por confirmar en el lanzamiento). Como el buscador de Forever no teletransporta, guarda fragmentos de sobra y no la gastes en lo que se pueda hacer andando.",
@@ -647,6 +647,10 @@
       {
         "es": "Lleva Demon Skin o Demon Armor siempre activa.",
         "en": "Keep Demon Skin or Demon Armor up at all times."
+      },
+      {
+        "es": "Entrenar: desde el 2-11 aprender todas las habilidades de clase del 1 al 60 cuesta entre 206 y 207 de oro a todas las clases. Al brujo le han rebajado el instructor justo lo que se calcula que gastarás en grimorios para tus demonios, así que guarda ese oro para comprarlos.",
+        "en": "Training: since November 2, learning every class ability from 1 to 60 costs 206 to 207 gold for every class. The Warlock trainer was discounted by the expected cost of your demons' grimoires, so keep that gold to buy them."
       },
       {
         "es": "La vida es un recurso: Life Tap y luego come, o vendas de Primeros auxilios mientras el enemigo huye por Fear.",
@@ -749,8 +753,8 @@
   },
   "nivel60": {
     "intro": {
-      "es": "La beta solo llegó al nivel 30, así que todo lo del 60 es teoría basada en los talentos del cliente; nadie lo ha probado en bandas. La build de 60 más planificada en la calculadora de la comunidad es Affliction con algo de Demonology para aguantar. Las bandas abren el 9 de diciembre; hasta entonces, mazmorras de 60. Actualizaremos esta parte en cuanto haya datos reales.",
-      "en": "The beta only went up to level 30, so everything at 60 is theory built on the client's talents; nobody has tested it in raids. The most-planned level 60 build on the community calculator is Affliction with some Demonology for survivability. Raids open on 9 December; until then it is level 60 dungeons. We will update this part as soon as there is real data."
+      "es": "La beta solo llegó al nivel 30, así que todo lo del 60 es teoría basada en los talentos del cliente; nadie lo ha probado en bandas. La build de 60 más planificada en la calculadora de la comunidad es Affliction con algo de Demonology para aguantar. Las bandas abren el 9 de diciembre; hasta entonces, mazmorras de 60. Desde el 2-11 todas las clases hacen más daño y los enemigos de nivel alto tienen más vida para compensar; Blizzard no prevé grandes ajustes hasta las bandas de diciembre. Al brujo le subieron Wrack y Shadow and Flame, y sus demonios ganan menos vida de tu Stamina. Actualizaremos esta parte en cuanto haya datos reales.",
+      "en": "The beta only went up to level 30, so everything at 60 is theory built on the client's talents; nobody has tested it in raids. The most-planned level 60 build on the community calculator is Affliction with some Demonology for survivability. Raids open on 9 December; until then it is level 60 dungeons. Since November 2 every class deals more damage and high-level enemies have more health to make up for it; Blizzard doesn't plan big tuning changes until the December raids. The Warlock got stronger Wrack and Shadow and Flame, and its demons get less health from your Stamina. We will update this part as soon as there is real data."
     },
     "ramas": [
       {
@@ -787,8 +791,8 @@
             "en": "Keep Corruption and Siphon Life up at all times."
           },
           {
-            "es": "Wrack para mantener su aumento del 10 % a tus efectos de sombra.",
-            "en": "Wrack to keep its 10% boost on your Shadow damage over time."
+            "es": "Wrack para mantener su aumento del 10 % a tus efectos de sombra; desde el 2-11 su propio daño también cuenta mucho.",
+            "en": "Wrack to keep its 10% boost on your Shadow damage over time; since November 2 its own damage matters a lot too."
           },
           {
             "es": "Shadow Bolt instantáneo cuando salga Nightfall; entre medias, relleno (Shadow Bolt o Drain Life).",
@@ -840,12 +844,12 @@
             "en": "Your assigned Curse and Immolate always up."
           },
           {
-            "es": "Conflagrate cada vez que esté listo: con Shadow and Flame 5/5 no gasta Immolate y sube un 10 % tu daño de sombra.",
-            "en": "Conflagrate on cooldown: with Shadow and Flame 5/5 it does not eat Immolate and raises your Shadow damage by 10%."
+            "es": "Conflagrate cada vez que esté listo: con Shadow and Flame 5/5 no gasta Immolate y sube un 20 % tu daño de sombra (desde el 2-11; antes un 10 %).",
+            "en": "Conflagrate on cooldown: with Shadow and Flame 5/5 it does not eat Immolate and raises your Shadow damage by 20% (since November 2; it was 10%)."
           },
           {
-            "es": "Shadowburn cuando esté listo: con Shadow and Flame te devuelve el fragmento y sube un 10 % tu daño de fuego.",
-            "en": "Shadowburn when ready: with Shadow and Flame it refunds the shard and raises your Fire damage by 10%."
+            "es": "Shadowburn cuando esté listo: con Shadow and Flame te devuelve el fragmento y sube un 20 % tu daño de fuego.",
+            "en": "Shadowburn when ready: with Shadow and Flame it refunds the shard and raises your Fire damage by 20%."
           },
           {
             "es": "Incinerate de relleno sobre un objetivo con Immolate (un 25 % más de daño).",
@@ -858,8 +862,8 @@
         ],
         "consumibles": [
           {
-            "es": "Firestone en el arma si juegas sobre todo con fuego; Spellstone si tu relleno es Shadow Bolt.",
-            "en": "Firestone on your weapon if you mostly cast Fire; Spellstone if your filler is Shadow Bolt."
+            "es": "Firestone en el arma si juegas sobre todo con fuego; Spellstone si tu relleno es Shadow Bolt (desde el 2-11 la Spellstone solo sube el daño de sombra).",
+            "en": "Firestone on your weapon if you mostly cast Fire; Spellstone if your filler is Shadow Bolt (since November 2 the Spellstone only boosts Shadow damage)."
           },
           {
             "es": "Elixires de potencia con hechizos (por confirmar qué existe en Forever).",
@@ -1040,8 +1044,8 @@
           "en": "Let the Voidwalker tank"
         },
         "texto": {
-          "es": "Manda primero al demonio y espera a que el enemigo se fije en él. Con el Voidwalker, <b>Torment</b> lo vuelve a atraer si se gira hacia ti. No abras con <b>Searing Pain</b> (mucha amenaza) si no eres Demonology y lo necesitas para <b>Demonic Brand</b>.",
-          "en": "Send the demon in first and wait until the mob locks onto it. With the Voidwalker, <b>Torment</b> pulls it back if it turns on you. Don't open with <b>Searing Pain</b> (high threat) unless you are Demonology and need it for <b>Demonic Brand</b>."
+          "es": "Manda primero al demonio y espera a que el enemigo se fije en él. Con el Voidwalker, <b>Torment</b> lo vuelve a atraer si se gira hacia ti. No abras con <b>Searing Pain</b> (mucha amenaza) si no eres Demonology y lo necesitas para <b>Demonic Brand</b>. Desde el 2-11 tu Stamina le da al demonio 2 de vida por punto (antes 7,5): a partir de niveles medios el Voidwalker aguanta menos, así que no le eches grupos grandes, vigila su vida y ten <b>Health Funnel</b> a mano.",
+          "en": "Send the demon in first and wait until the mob locks onto it. With the Voidwalker, <b>Torment</b> pulls it back if it turns on you. Don't open with <b>Searing Pain</b> (high threat) unless you are Demonology and need it for <b>Demonic Brand</b>. Since November 2 your Stamina gives your demon 2 health per point (it was 7.5): from mid levels on the Voidwalker holds up less, so don't send it into big packs, watch its health and keep <b>Health Funnel</b> handy."
         }
       },
       {
@@ -1174,6 +1178,10 @@
     {
       "es": "El coste final de Ritual of Summoning en el lanzamiento (5 fragmentos y 1 hora de recarga según los datos de prelanzamiento).",
       "en": "The final cost of Ritual of Summoning at launch (5 shards and a 1-hour cooldown per the pre-launch data)."
+    },
+    {
+      "es": "Cuánto aguanta de verdad el Voidwalker a niveles altos tras el cambio del 2-11 (2 de vida por punto de Stamina) y cuántos fragmentos da ahora Drain Soul sin matar: las notas solo dicen que es «bastante menos».",
+      "en": "How well the Voidwalker really holds up at higher levels after the November 2 change (2 health per point of Stamina), and how many shards Drain Soul now gives without a kill: the notes only say it is «significantly» lower."
     }
   ],
   "fuentes": [
@@ -1184,6 +1192,10 @@
     {
       "nombre": "Notas de la beta de WoW Forever (Blizzard)",
       "url": "https://news.blizzard.com/en-us/"
+    },
+    {
+      "nombre": "Notas de desarrollo de Blizzard (2 de noviembre)",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
     },
     {
       "nombre": "Notas de desarrollo de las razas, 26-10 (foros de Blizzard)",
@@ -1270,8 +1282,8 @@
           "niveles": "15-19",
           "puntos": "3/3 Fel Vitality, 2/2 Demonic Energies",
           "nota": {
-            "es": "Más vida y maná para el demonio (y maná para ti). Tu daño lo cura poco a poco.",
-            "en": "More health and mana for your demon (and mana for you). Your damage heals it over time."
+            "es": "Más vida y maná para el demonio (y maná para ti). Tu daño lo cura poco a poco. Desde el 2-11 tu Stamina le da mucha menos vida, así que estos puntos valen más que antes.",
+            "en": "More health and mana for your demon (and mana for you). Your damage heals it over time. Since November 2 your Stamina gives it far less health, so these points matter more than before."
           }
         },
         {
@@ -1420,8 +1432,8 @@
           "niveles": "36-39",
           "puntos": "1/1 Bane of Havoc, 3/5 Shadow and Flame",
           "nota": {
-            "es": "Bane of Havoc copia parte de tu daño a un segundo objetivo. Shadow and Flame: Conflagrate ya no gasta Immolate y sube tu daño de sombra.",
-            "en": "Bane of Havoc copies part of your damage to a second target. Shadow and Flame: Conflagrate no longer uses up Immolate and boosts your Shadow damage."
+            "es": "Bane of Havoc copia parte de tu daño a un segundo objetivo. Shadow and Flame: Conflagrate a veces no gasta Immolate y sube tu daño de sombra (desde el 2-11, un 4 % por punto).",
+            "en": "Bane of Havoc copies part of your damage to a second target. Shadow and Flame: Conflagrate sometimes doesn't use up Immolate and boosts your Shadow damage (since November 2, 4% per point)."
           }
         },
         {
@@ -1436,8 +1448,8 @@
           "niveles": "41-44",
           "puntos": "Shadow and Flame a 5/5 (+2), 2/2 Destructive Reach",
           "nota": {
-            "es": "Termina Shadow and Flame y gana alcance: atacas desde más lejos.",
-            "en": "Finish Shadow and Flame and gain range: you attack from further away."
+            "es": "Termina Shadow and Flame (hasta un 20 % más de daño de sombra o fuego desde el 2-11) y gana alcance: atacas desde más lejos.",
+            "en": "Finish Shadow and Flame (up to 20% more Shadow or Fire damage since November 2) and gain range: you attack from further away."
           }
         },
         {

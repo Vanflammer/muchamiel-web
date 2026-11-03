@@ -8,7 +8,7 @@ from pathlib import Path
 DIR = Path(__file__).with_name('research') / 'notas-beta'
 ES = Path(__file__).with_name('notas_es')
 # post del hilo → fecha del parche en PARCHES
-POSTS = {'1': '24 de septiembre', '4': '1 de octubre', '5': '8 de octubre', '6': '15 de octubre'}
+POSTS = {'1': '24 de septiembre', '4': '1 de octubre', '5': '8 de octubre', '6': '15 de octubre', '9': '2 de noviembre'}
 
 
 def limpia(t):
