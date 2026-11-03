@@ -11,7 +11,8 @@ G=github-pages
 git add -A && { git diff --cached --quiet || git commit -q -m "${1:-Actualización de la web}
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"; }
-{ git pull -q --rebase && git push -q; } || echo "AVISO: no se pudo guardar el generador en github.com/Vanflammer/muchamiel-web"
+# 03-11: si el pull choca, NO se publica (un choque dejó marcas <<<<<<< en web/dist y salieron a la web)
+{ git pull -q --rebase && git push -q; } || { git rebase --abort 2>/dev/null; echo "PARADO: choque al guardar el generador en github.com/Vanflammer/muchamiel-web; no se ha publicado nada. Une a mano y vuelve a lanzar."; exit 1; }
 git -C $G fetch -q origin && git -C $G reset -q --hard origin/main
 # marcas/ es de Muchamiel (su media kit, que sube él desde GitHub): no se borra ni se pisa (Van 16-10).
 find $G -mindepth 1 -maxdepth 1 ! -name .git ! -name .nojekyll ! -name .github ! -name marcas -exec rm -rf {} +
