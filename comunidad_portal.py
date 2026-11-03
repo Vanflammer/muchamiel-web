@@ -1121,6 +1121,44 @@ def novedades29_page():
          'Lo que contó Blizzard el 29 de octubre: parches cada 4 meses, temporadas JcJ de 4 meses, a dónde puede ir Forever y cómo funcionarán los servidores.', body)
 
 
+# Van 3-11: notas de desarrollo de la beta (actualizadas el 2-11), ya oficiales
+def notas2nov_page():
+    body = ('<p class="eyebrow">BLIZZARD · NOTAS DE DESARROLLO · 2 DE NOVIEMBRE DE 2026</p><h1>Notas de la beta del 2 de noviembre: lo que cambia en clases y razas</h1>'
+            '<p class="lead">A dos días del lanzamiento, Blizzard ha resumido los cambios de las últimas dos semanas y media. Muchos ya los habíamos visto en los datos del servidor: ahora son <strong>oficiales</strong>. Aquí tienes lo más importante, con los nombres de las habilidades en inglés como en el cliente.</p>'
+            '<div class="divider"><h2>Clases</h2></div><ul>'
+            '<li><strong>Druida:</strong> Shred sube al 200% del daño de arma (antes 155%), Claw al 140% (antes 110%) y Ravage al 435% (antes 350%). Rip, Rake, Ferocious Bite y Pounce suben cerca de un 25%, y Starfire cerca de un 40%. Bear Form pasa de 50% a 115% de amenaza. Llegan Poised (nivel 32) y un rango nuevo de Ferocious Bite (nivel 24), además de los talentos Bloom y Predatory Discipline.</li>'
+            '<li><strong>Cazador:</strong> Aimed Shot gana cerca de un 110% de bonificación de daño; Arcane Shot sube cerca de un 30% y su coeficiente de poder de ataque pasa de 0,1 a 0,15; Serpent Sting pasa de 3% a 5% por tick. Aspect of the Hawk da 20/35/50/70/90/110 de poder de ataque a distancia. Todas las trampas comparten 30 s de enfriamiento.</li>'
+            '<li><strong>Mago:</strong> desaparece Frost Blast. Arcane Blast baja el coste por acumulación de 175% a 100% y el daño de 15% a 12% de la inteligencia, durante 18 s. Ice Lance tiene 8 s de enfriamiento compartido con Fire Blast y vuelve al 300% contra objetivos congelados. Winter&#39;s Chill da 20% por acumulación. Se quita Piercing Ice.</li>'
+            '<li><strong>Paladín:</strong> Righteous Fury se aprende en el nivel 10 (antes 16) y da +33% de amenaza. Se quitan Blessing of Light, Salvation, Mass Salvation y Revoke. Llegan Oath of Light, Boundless Light, Shieldsworn, Turn Evil y Unsealed Wrath. Champion of the Light escala con la inteligencia hasta un 60%.</li>'
+            '<li><strong>Sacerdote:</strong> Shadow Word: Death hace al sacerdote el 30% de su vida máxima si no mata (antes 10%). Binding Heal se sustituye por Holy Binding, que le devuelve el 50% de lo que cura Flash Heal.</li>'
+            '<li><strong>Pícaro:</strong> nueva Shank (nivel 24, 5 de energía, 10 s de enfriamiento). Los coeficientes de Deadly Poison e Instant Poison se duplican. Mutilate hace el 90% del daño de arma. Se quitan Murder, Quietus, Cutthroat y Thousand Cuts; llega Death Mark. Hemorrhage sube un 15% el daño de Rupture y Garrote.</li>'
+            '<li><strong>Chamán:</strong> Windfury añade un golpe extra. Totemic Projection pasa a llamarse Totemic Call (30 s). Lava Burst desaparece y entra Call of Thunder (+5% de crítico). Stormstrike hace el 150% y su enfriamiento baja a 6 s. Riptide cuesta cerca de un 40% menos de maná, tiene 12 s de enfriamiento y ya no cura al lanzarse. Chain Lightning tarda 2,5 s. Las Shocks vuelven a los valores de Classic.</li>'
+            '<li><strong>Brujo:</strong> las Spellstones solo suben el daño de Sombra. Las mascotas ganan 2 de vida por punto de aguante del amo (antes 7,5). Wrack duplica su coeficiente y Shadow and Flame sube a 4/8/12/16/20%.</li>'
+            '<li><strong>Guerrero:</strong> Defensive Stance sube de 30% a 80% de amenaza. Slam tiene 15 s de enfriamiento. Flurry pasa a 3 puntos con 10/20/30% de velocidad de ataque tras un crítico. Llegan Reckless Swings e Improved Whirlwind, y Defiance sube a 7/13/20%.</li></ul>'
+            '<div class="divider"><h2>Razas</h2></div><ul>'
+            '<li><strong>Enano:</strong> sale Earth Fury y entra Artisan&#39;s Precision (+1% de golpe).</li>'
+            '<li><strong>Humano:</strong> Ruthless da 1% de crítico y Human Spirit, 10% de espíritu.</li>'
+            '<li><strong>Orco:</strong> sale Savage, vuelve Command (+5% de daño de mascotas) y Blood Fury tiene 2 min de enfriamiento.</li>'
+            '<li><strong>Skyborne:</strong> Read Leyline da 50% de regeneración (100% si está «Attuned») y Skysight, 15% de velocidad (30% si está «Charged»).</li>'
+            '<li><strong>Tauren:</strong> Plainsrunning da 2% por acumulación, hasta un 60%, sin afectar a la velocidad de montura.</li>'
+            '<li><strong>Trol:</strong> Berserking dura 15 s. <strong>No-muerto:</strong> Touch of the Grave tiene 15 s de enfriamiento interno.</li></ul>'
+            '<p>Las razas, con más detalle, en <a href="../raciales-forever/">Raciales nuevas</a>.</p>'
+            '<div class="divider"><h2>Jugabilidad, interfaz y JcJ</h2></div><ul>'
+            '<li><strong>Correcciones:</strong> las estadísticas base de todas las razas están arregladas (un guerrero tauren tiene +5 de fuerza sobre uno humano). La penalización por abandonar una partida dura 40 s (antes 5 min). Las raíces por procs tienen rendimientos decrecientes.</li>'
+            '<li><strong>Mando:</strong> Blizzard da el soporte de mando por completo, con mejoras en objetivos, inventario, cinemáticas, vuelos y mascotas.</li>'
+            '<li><strong>Hechizos y bolsas:</strong> aprender un hechizo ya no lo pone solo en tus barras, y las bolsas ya no se equipan solas.</li>'
+            '<li><strong>Entrenadores:</strong> subir de nivel 1 a 60 cuesta entre 206 y 207 de oro de entrenamiento por clase.</li>'
+            '<li><strong>Misiones y mazmorras:</strong> se ajustan la reaparición de enemigos y la experiencia de muchas misiones. Las misiones de las Ruinas de Lordaeron piden nivel 15, y las bandas se abrirán el mes que viene.</li>'
+            '<li><strong>Isla Lanza Oscura:</strong> soltar la bandera ya no te pone el debuff «Recently Dropped Flag».</li></ul>'
+            '<div class="tiles"><a class="tile" href="../clases/"><strong>Guías de clase</strong><span>Talentos y rotaciones de cada clase.</span></a>'
+            '<a class="tile" href="../a-medias/"><strong>A medias</strong><span>Lo que aún no es seguro.</span></a>'
+            '<a class="tile" href="../dia-1/"><strong>Día 1 en Forever</strong><span>Qué hacer antes de entrar.</span></a></div>'
+            '<p class="fine">Fuente: <a href="https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9" target="_blank" rel="noopener noreferrer">notas de desarrollo de la beta de Blizzard</a> (actualizadas el 2 de noviembre) · '
+            '<a href="https://www.wowhead.com/news=383704/wow-forever-official-development-notes-and-class-tuning" target="_blank" rel="noopener noreferrer">Wowhead</a>. Resumen con palabras propias; puede haber retoques antes del lanzamiento.</p>')
+    page('notas-2-noviembre', 'Notas de la beta del 2 de noviembre: cambios de clases y razas | Muchamiel',
+         'Blizzard confirma los cambios de última hora de la beta de WoW Forever: druida, cazador, mago, paladín, pícaro, chamán, brujo, guerrero y razas.', body)
+
+
 # Van 30-10: página pública de la zona de subs. El botón no lleva a ningún sitio hasta que Muchamiel active las integraciones
 # de Discord (los roles de sub) y lo confirme: entonces se pone SUBS_ABIERTA = True y se vuelve a generar. Abierta el 30-10-2026.
 SUBS_ABIERTA = True
@@ -1190,6 +1228,7 @@ def build_pages():
     a_medias_page()
     raciales26_page()
     dia1_page()
+    notas2nov_page()
     novedades29_page()
     zona_subs_page()
     calendario_page()
@@ -1210,6 +1249,9 @@ def build_pages():
     body = ('<p class="eyebrow">YOUTUBE · BETA DE WOW FOREVER</p><h1>Noticias de WoW Forever</h1>'
             '<p class="lead">Todo lo que Muchamiel ha contado de WoW Forever durante la beta y el camino al torneo de 100.000 $. Pulsa una miniatura para verlo en YouTube.</p>'
             '<div class="divider ultima"><h2>Última hora</h2></div>'  # Van 15-10: lo primero de Noticias (clase propia para que youtube_auto meta su bloque después)
+            '<a class="news-card" href="../notas-2-noviembre/"><span class="badge-new">ÚLTIMA HORA</span><span><p class="eyebrow">BLIZZARD · 2 DE NOVIEMBRE</p>'
+            '<h3>Notas de la beta: cambios oficiales en todas las clases y razas</h3><p>Blizzard confirma lo que habíamos visto en los datos: druida y pícaro más fuertes en melé, mago, paladín y chamán rehechos, razas retocadas y soporte de mando completo.</p>'
+            '</span></a>'
             '<a class="news-card" href="../lanzamiento/"><span class="badge-new">ÚLTIMA HORA</span><span><p class="eyebrow">BLIZZARD · 2 DE NOVIEMBRE</p>'
             '<h3>Mantenimiento largo antes del lanzamiento</h3><p>Blizzard ha anunciado un mantenimiento largo el miércoles 4, antes de abrir WoW Forever. La hora que circula: los servidores se cierran a las 19:00 (hora peninsular; 12:00 en México y 15:00 en Chile y Argentina) y abren con el lanzamiento, a las 00:00 del jueves 5. Aún no está en la tabla oficial de mantenimientos: lo confirmamos en cuanto salga.</p>'
             '</span></a>'
@@ -1468,6 +1510,8 @@ def carrusel(latest):
               'Blizzard cierra los servidores unas horas antes del lanzamiento. Según la hora que circula, desde las 19:00 del día 4 hasta las 00:00 del 5 (hora peninsular), sin confirmar aún.', 'Ver el lanzamiento'),
         slide('mazmorras/', 'cs-halloween', '2026-11-01', 'HALLOWEEN · 31 DE OCTUBRE', 'Las mazmorras más siniestras de Forever',
               'Scholomance, Stratholme, el Castillo de Colmillo Oscuro y el Monasterio Escarlata: dónde están, a qué nivel y qué te espera dentro. Feliz Halloween.', 'Ver las mazmorras'),
+        slide('notas-2-noviembre/', 'cs-blizz', '2026-11-06', 'BLIZZARD · 2 DE NOVIEMBRE', 'Notas de la beta: cambios oficiales de clases',
+              'Druida, cazador, mago, paladín, pícaro, chamán, brujo, guerrero y razas: lo que Blizzard ha confirmado a dos días del lanzamiento.', 'Leer'),
         slide('novedades-29-octubre/', 'cs-alianza', '2026-11-12', 'BLIZZARD · 29 DE OCTUBRE', 'Un parche grande cada 4 meses',
               'Lo que ha contado Blizzard del futuro de Forever y de sus servidores.', 'Leer'),
         slide('a-medias/', 'cs-blizz', '2026-11-08', 'ÚLTIMA HORA · SIN NOTA OFICIAL · 30 DE OCTUBRE', 'El druida cambia su árbol de talentos',
