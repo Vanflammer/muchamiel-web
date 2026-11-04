@@ -1018,6 +1018,45 @@ def raciales26_page():
          'Repaso final de raciales de WoW Forever (26 y 27 de octubre): humano, enano, orco, tauren, trol, no-muerto y célicos cambian a una semana del lanzamiento. Raza a raza, en castellano.', body)
 
 
+# Van 04-11: guía oficial de Blizzard del 3-11 sobre el mando. Con nuestras palabras.
+BLIZZ_MANDO = 'https://worldofwarcraft.blizzard.com/en-us/news/24316974/explore-wow-forever-with-a-gamepad'
+
+
+def mando_page():
+    body = ('<p class="eyebrow">BLIZZARD · 3 DE NOVIEMBRE · GUÍA OFICIAL</p><h1>Jugar a WoW Forever con mando: controles y ajustes</h1>'
+            '<p class="lead">Blizzard ha publicado cómo funciona el mando en Forever. Está en <strong>fase beta</strong>: se puede jugar entero con él, pero faltan pulidos y el teclado sigue haciendo falta para escribir en el chat.</p>'
+            '<div class="tfo-stats"><div><b>XInput</b><span>mandos compatibles</span></div><div><b>4</b><span>barras de acción</span></div><div><b>3</b><span>juegos de barras</span></div><div><b>84</b><span>huecos en total</span></div></div>'
+            '<div class="divider"><h2>Cómo activarlo</h2></div><ol class="pasos">'
+            '<li><strong>Abre el menú del juego</strong><span>Pulsa Esc y entra en Opciones.</span></li>'
+            '<li><strong>Cambia el tipo de control</strong><span>En «Jugabilidad» elige «Mando» para dejar el teclado y el ratón.</span></li>'
+            '<li><strong>Ajústalo a tu gusto</strong><span>Puedes tocar la cámara, el tamaño de la interfaz, el estilo del marco de foco, las barras, la selección de objetivos y las opciones de objetivo en banda.</span></li></ol>'
+            '<p>Funciona con cualquier mando compatible con XInput y muestra los iconos de Xbox o de PlayStation. En los mandos con luz, se pone roja si tu personaje es de la Horda y azul si es de la Alianza.</p>'
+            '<div class="divider"><h2>Los controles básicos</h2></div><table class="keys">'
+            '<tr><th>Stick izquierdo / derecho</th><td>Mover al personaje / mover la cámara</td></tr>'
+            '<tr><th>LB / RB</th><td>Elegir un objetivo amigo / un objetivo enemigo</td></tr>'
+            '<tr><th>X · A · B · Y</th><td>Interactuar · saltar · volver · inspeccionar (también lanzan hechizos)</td></tr>'
+            '<tr><th>LT, RT o los dos</th><td>Mantenlos pulsados para cambiar de barra de acción; al soltarlos vuelves a la principal</td></tr>'
+            '<tr><th>Botón Menú</th><td>Abre el menú principal</td></tr>'
+            '<tr><th>Botón Vista</th><td>Cambia el marco de foco</td></tr>'
+            '<tr><th>LB + RB y stick derecho</th><td>Acercar o alejar la cámara</td></tr></table>'
+            '<div class="divider"><h2>Más hechizos con los mismos botones</h2></div>'
+            '<p>La interfaz del mando enseña cuatro barras de acción con la misma disposición de botones. Con LT, RT o ambos cambias de barra, así que un solo botón de la cruceta puede guardar cuatro hechizos distintos. '
+            'Blizzard pone de ejemplo a un mago: arriba, Polimorfia; LT + arriba, Bola de fuego; RT + arriba, Descarga de escarcha; LT + RT + arriba, Ventisca. Son solo ejemplos: tú colocas lo que quieras.</p>'
+            '<div class="facts"><div class="fact ok"><h3>Tres juegos de barras</h3><ul>'
+            '<li>Cambia de juego con <strong>LB + RB</strong> y izquierda o derecha en la cruceta.</li>'
+            '<li>Cada juego tiene 4 barras de 28 huecos en total: <strong>84 huecos</strong> entre los tres.</li>'
+            '<li>Sirve para separar combate, utilidades y cosas de uso ocasional sin abrir menús.</li></ul></div>'
+            '<div class="fact wait"><h3>Atajos a la interfaz (LB + RB + botón)</h3><ul>'
+            '<li><strong>B:</strong> abrir la mochila.</li><li><strong>Arriba:</strong> registro de misiones.</li>'
+            '<li><strong>Abajo:</strong> chat (para escribir sigues necesitando teclado).</li><li><strong>Y:</strong> gestionar beneficios.</li></ul></div></div>'
+            '<div class="prepare"><h3>Lo que aún no está pulido</h3><p>Una leyenda de controles en la esquina superior izquierda te recuerda qué hace cada botón, y muchas pantallas llevan un pie con las opciones. '
+            'Pero no todas lo tienen todavía, y Blizzard sigue mejorando las bolsas y los menús. A largo plazo quieren que no haga falta el teclado, pero de momento ten uno a mano.</p></div>'
+            '<p>Si juegas con otro estilo de interfaz, mira también el <a href="../dia-1/">Día 1 en Forever</a> (Clásico o Mejorado) y los <a href="../addons/">addons</a>.</p>'
+            f'<p class="fine">Fuente: <a href="{BLIZZ_MANDO}" target="_blank" rel="noopener noreferrer">Blizzard: Explore WoW: Forever with a Gamepad</a> (3 de noviembre). Texto con nuestras palabras.</p>')
+    page('mando-forever', 'Jugar a WoW Forever con mando: controles y ajustes | Muchamiel',
+         'Cómo jugar a WoW Forever con mando: activarlo, controles básicos, cuatro barras con los gatillos, tres juegos de barras y atajos. Función en beta.', body)
+
+
 # Van 29-10: «Día 1 en WoW Forever». Fuentes: guías de Blizzard del 28-10 (jugadores nuevos) y 29-10 (los que vuelven) y las páginas de la web.
 BLIZZ_NUEVOS = 'https://worldofwarcraft.blizzard.com/en-us/news/24315280'
 BLIZZ_VUELVEN = 'https://worldofwarcraft.blizzard.com/en-us/news/24315643'
@@ -1216,6 +1255,7 @@ def build_pages():
     a_medias_page()
     raciales26_page()
     dia1_page()
+    mando_page()
     notas2nov_page()
     novedades29_page()
     zona_subs_page()
@@ -1257,6 +1297,9 @@ def build_pages():
             '</span></a>'
             '<a class="news-card" href="../a-medias/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">SIN NOTA OFICIAL · 28 DE OCTUBRE</p>'
             '<h3>Cambios sin anunciar: Lanza de Hielo con 8 s de reutilización y cazadores con menos poder de ataque</h3><p>Han aparecido en el juego sin notas de Blizzard: magos, cazadores y algunos objetos. Los tienes en «A medias» hasta que Blizzard los confirme.</p>'
+            '</span></a>'
+            '<a class="news-card" href="../mando-forever/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 3 DE NOVIEMBRE</p>'
+            '<h3>Cómo jugar a Forever con mando</h3><p>Controles, cuatro barras con los gatillos, tres juegos de barras y atajos. Función en beta: el chat sigue pidiendo teclado.</p>'
             '</span></a>'
             '<a class="news-card" href="../dia-1/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">GUÍA · JUEVES 5 DE NOVIEMBRE</p>'
             '<h3>Día 1 en WoW Forever: qué hacer antes y en las primeras horas</h3><p>Instalación, Clásico o Mejorado, qué hacer desde el nivel 1, los errores típicos y todo lo nuevo que te vas a encontrar.</p>'
@@ -1502,6 +1545,8 @@ def carrusel(latest):
               'Lo que ha contado Blizzard del futuro de Forever y de sus servidores.', 'Leer'),
         slide('cambios/', 'cs-blizz', '2026-11-12', 'BLIZZARD · NOTA OFICIAL · 2 DE NOVIEMBRE', 'Blizzard cambia las nueve clases',
               'Más daño para todas las clases y más vida para los enemigos de nivel alto. Shank para el pícaro, adiós a Lava Burst y a Salvation, y mucha más amenaza para tanques. Todo en castellano.', 'Ver los cambios'),
+        slide('mando-forever/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 3 DE NOVIEMBRE', 'Juega a Forever con mando',
+              'Controles, barras con los gatillos y atajos. Función en beta.', 'Ver los controles'),
         slide('dia-1/', 'cs-alianza', '2026-11-12', 'GUÍA · JUEVES 5 DE NOVIEMBRE', 'Día 1 en WoW Forever',
               'Qué dejar listo antes, Clásico o Mejorado y qué hacer en las primeras horas.', 'Ver la guía'),
         slide('reserva-nombres/', 'cs-alianza', '2026-11-04', 'RESERVA DE NOMBRES · HASTA EL 3 DE NOVIEMBRE', 'La reserva de nombres ya funciona',
