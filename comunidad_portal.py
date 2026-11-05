@@ -1087,6 +1087,29 @@ def avisos_lanzamiento_page():
          'Lo que ha avisado Blizzard en el día del lanzamiento de WoW Forever: portales por barcos y zepelines rotos, zonas vacías, arreglo de Invita a un amigo y juguete de Twitch.', body)
 
 
+# Van 05-11 (extra 2): legendaria Taldramir, insignias de Twitch y misión de Discord.
+def legendaria_page():
+    body = ('<p class="eyebrow">BLIZZARD · 4-5 DE NOVIEMBRE · LANZAMIENTO</p><h1>Taldramir, la primera legendaria de Forever, y otros extras del lanzamiento</h1>'
+            '<p class="lead">Durante el lanzamiento Blizzard ha enseñado la primera arma legendaria de Forever y ha repartido varios extras por Twitch y Discord.</p>'
+            '<div class="facts"><div class="fact ok"><h3>Taldramir, el Bosque Susurrante</h3><ul>'
+            '<li>Blizzard fabricó el arma en directo en el canal de Warcraft en Twitch (vídeo «Forging Forever»).</li>'
+            '<li>Es un <strong>bastón a dos manos</strong> con un aire claro de druida; también sale en la ilustración de la Llave del Cielo.</li>'
+            '<li>Blizzard <strong>no ha dicho</strong> qué clases pueden usarla ni qué efectos tiene. En cuanto lo cuenten, lo pondremos aquí.</li>'
+            '<li>Se reveló la noche del 4 de noviembre (España: pasada la medianoche del 5)*.</li></ul></div>'
+            '<div class="fact ok"><h3>Insignias de Twitch: Horda y Alianza</h3><ul>'
+            '<li>Si te suscribes a un streamer de WoW, o regalas una suscripción, puedes reclamar una insignia de chat de tu facción.</li>'
+            '<li>Disponible desde el lanzamiento hasta el <strong>30 de noviembre</strong> a medianoche.</li></ul></div></div>'
+            '<div class="facts"><div class="fact wait"><h3>Misión de Discord: 700 Orbes</h3><ul>'
+            '<li>Hay una misión de Discord que pide jugar a Forever <strong>15 minutos</strong> y da 700 Orbes (840 con Nitro).</li>'
+            '<li>Se encuentra en Mensajes directos &gt; Misiones &gt; Misión de jugar a World of Warcraft.</li>'
+            '<li>Los Orbes se gastan en cosméticos de la tienda de Discord. Dato de Wowhead, no de Blizzard.</li></ul></div></div>'
+            '<p class="latam">* Horas de España. México: restar 7 horas (invierno); Chile y Argentina: restar 4 horas.</p>'
+            '<p>Mira también los <a href="../avisos-lanzamiento/">avisos del día del lanzamiento</a> y la guía de <a href="../objetos/">objetos</a>.</p>'
+            '<p class="fine">Fuentes: <a href="https://www.wowhead.com/news=383747/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary" target="_blank" rel="noopener noreferrer">Wowhead: Taldramir</a>, <a href="https://www.wowhead.com/news=383740/new-alliance-and-horde-twitch-chat-badges-for-subs-to-wow-streamers" target="_blank" rel="noopener noreferrer">Wowhead: insignias</a> y <a href="https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest" target="_blank" rel="noopener noreferrer">Wowhead: Discord</a>. Texto con nuestras palabras.</p>')
+    page('legendaria-taldramir', 'Taldramir, la primera legendaria de WoW Forever | Muchamiel',
+         'Taldramir, el Bosque Susurrante: primera legendaria de WoW Forever (bastón a dos manos), insignias de Twitch de facción y misión de Discord con 700 Orbes.', body)
+
+
 # Van 29-10: «Día 1 en WoW Forever». Fuentes: guías de Blizzard del 28-10 (jugadores nuevos) y 29-10 (los que vuelven) y las páginas de la web.
 BLIZZ_NUEVOS = 'https://worldofwarcraft.blizzard.com/en-us/news/24315280'
 BLIZZ_VUELVEN = 'https://worldofwarcraft.blizzard.com/en-us/news/24315643'
@@ -1287,6 +1310,7 @@ def build_pages():
     dia1_page()
     mando_page()
     avisos_lanzamiento_page()
+    legendaria_page()
     notas2nov_page()
     novedades29_page()
     zona_subs_page()
@@ -1328,6 +1352,9 @@ def build_pages():
             '</span></a>'
             '<a class="news-card" href="../a-medias/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">SIN NOTA OFICIAL · 28 DE OCTUBRE</p>'
             '<h3>Cambios sin anunciar: Lanza de Hielo con 8 s de reutilización y cazadores con menos poder de ataque</h3><p>Han aparecido en el juego sin notas de Blizzard: magos, cazadores y algunos objetos. Los tienes en «A medias» hasta que Blizzard los confirme.</p>'
+            '</span></a>'
+            '<a class="news-card" href="../legendaria-taldramir/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 4-5 DE NOVIEMBRE</p>'
+            '<h3>Taldramir, la primera legendaria de Forever</h3><p>Un bastón a dos manos de aire druida, forjado en directo. Más insignias de Twitch y misión de Discord.</p>'
             '</span></a>'
             '<a class="news-card" href="../avisos-lanzamiento/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 5 DE NOVIEMBRE · LANZAMIENTO</p>'
             '<h3>Portales por zepelines rotos, zonas vacías y juguete de Twitch</h3><p>Los avisos del equipo en el primer día: transportes perdidos, ajuste de población, Invita a un amigo arreglado y el Polvo Violeta.</p>'
@@ -1579,6 +1606,8 @@ def carrusel(latest):
               'Lo que ha contado Blizzard del futuro de Forever y de sus servidores.', 'Leer'),
         slide('cambios/', 'cs-blizz', '2026-11-12', 'BLIZZARD · NOTA OFICIAL · 2 DE NOVIEMBRE', 'Blizzard cambia las nueve clases',
               'Más daño para todas las clases y más vida para los enemigos de nivel alto. Shank para el pícaro, adiós a Lava Burst y a Salvation, y mucha más amenaza para tanques. Todo en castellano.', 'Ver los cambios'),
+        slide('legendaria-taldramir/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 5 DE NOVIEMBRE', 'Taldramir, la primera legendaria',
+              'Un bastón a dos manos de aire druida, forjado en directo por Blizzard.', 'Leer'),
         slide('avisos-lanzamiento/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 5 DE NOVIEMBRE', 'Avisos del día del lanzamiento',
               'Portales por barcos y zepelines rotos, zonas vacías y juguete de Twitch.', 'Leer'),
         slide('mando-forever/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 3 DE NOVIEMBRE', 'Juega a Forever con mando',
