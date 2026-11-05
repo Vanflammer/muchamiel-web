@@ -2,6 +2,15 @@
  "fuente": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts",
  "avisos": [
   {
+   "id": 2402363,
+   "titulo": "Known Issues - WoW Forever - Updated Nov. 5",
+   "url": "https://us.forums.blizzard.com/en/wow/t/known-issues-wow-forever-updated-nov-5/2402363",
+   "autor": "Kaivax",
+   "fecha": "2026-11-05T15:42:52.385Z",
+   "resumen": "In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be…",
+   "foro": "Noticias"
+  },
+  {
    "id": 2402319,
    "titulo": "WoW Forever Bug Report Forum Guidelines",
    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-bug-report-forum-guidelines/2402319",
@@ -17,15 +26,6 @@
    "autor": "Kaivax",
    "fecha": "2026-11-05T02:43:58.499Z",
    "resumen": "With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating…",
-   "foro": "Forever"
-  },
-  {
-   "id": 2401461,
-   "titulo": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
-   "url": "https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461",
-   "autor": "BlizzardEntertainment",
-   "fecha": "2026-11-05T00:30:07.691Z",
-   "resumen": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy.…",
    "foro": "Forever"
   },
   {
