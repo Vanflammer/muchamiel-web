@@ -420,7 +420,7 @@ def run():
         base = depth_prefix(file)
         section = rel[0] if len(rel) > 1 else ''
         current, calc_q = {'': 'inicio', 'calculadora': 'calculadora', 'razas': 'razas', 'comunes': 'comunes', 'macros': 'comunes', 'noticias': 'noticias',
-                           'sorteos': 'sorteos', 'zona-subs': 'muchamiel', 'muchamiel': 'muchamiel', 'torneo': 'torneo', 'colaboraciones': 'colaboraciones', 'addons': 'addons', 'beta-gratis': 'noticias', 'reserva-nombres': 'noticias', 'mazmorras-nuevas': 'noticias', 'bandas-forever': 'noticias', 'fin-beta': 'noticias', 'a-medias': 'noticias', 'raciales-forever': 'noticias', 'dia-1': 'noticias', 'mando-forever': 'noticias', 'notas-2-noviembre': 'noticias', 'novedades-29-octubre': 'noticias', 'calendario': 'calendario',**{k: k for k, _ in FOREVER_PAGES},
+                           'sorteos': 'sorteos', 'zona-subs': 'muchamiel', 'muchamiel': 'muchamiel', 'torneo': 'torneo', 'colaboraciones': 'colaboraciones', 'addons': 'addons', 'beta-gratis': 'noticias', 'reserva-nombres': 'noticias', 'mazmorras-nuevas': 'noticias', 'bandas-forever': 'noticias', 'fin-beta': 'noticias', 'a-medias': 'noticias', 'raciales-forever': 'noticias', 'dia-1': 'noticias', 'mando-forever': 'noticias', 'avisos-lanzamiento': 'noticias', 'notas-2-noviembre': 'noticias', 'novedades-29-octubre': 'noticias', 'calendario': 'calendario',**{k: k for k, _ in FOREVER_PAGES},
                            'clases': 'clases'}.get(section, 'clases'), ''
         if section in NAMES:
             calc_q = '?class=' + section
@@ -459,6 +459,8 @@ def run():
             s = set_crumbs(s, crumbs(base, [('Noticias', base + 'noticias/'), ('Parches cada 4 meses', None)]))
         elif section == 'notas-2-noviembre':
             s = set_crumbs(s, crumbs(base, [('Noticias', base + 'noticias/'), ('Notas de la beta, 2 de noviembre', None)]))
+        elif section == 'avisos-lanzamiento':
+            s = set_crumbs(s, crumbs(base, [('Noticias', base + 'noticias/'), ('Avisos del lanzamiento', None)]))
         elif section == 'mando-forever':
             s = set_crumbs(s, crumbs(base, [('Noticias', base + 'noticias/'), ('Jugar con mando', None)]))
         elif section == 'dia-1':

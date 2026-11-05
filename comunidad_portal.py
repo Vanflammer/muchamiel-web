@@ -1057,6 +1057,36 @@ def mando_page():
          'Cómo jugar a WoW Forever con mando: activarlo, controles básicos, cuatro barras con los gatillos, tres juegos de barras y atajos. Función en beta.', body)
 
 
+# Van 05-11 (extra): avisos de Blizzard en el día del lanzamiento. Con nuestras palabras.
+def avisos_lanzamiento_page():
+    body = ('<p class="eyebrow">BLIZZARD · JUEVES 5 DE NOVIEMBRE · LANZAMIENTO</p><h1>Avisos del equipo en el día del lanzamiento</h1>'
+            '<p class="lead">Forever ya está abierto y, según los propios jugadores, la salida está siendo bastante tranquila. Estos son los avisos que ha dado el equipo de Blizzard en las primeras horas.</p>'
+            '<div class="facts"><div class="fact ok"><h3>Barcos y zepelines perdidos</h3><ul>'
+            '<li>Algunos transportes se quedaban «perdidos» en la tormenta durante mucho rato.</li>'
+            '<li><strong>Arreglo temporal:</strong> han puesto portales cerca de la mayoría de los muelles y dentro de las torres de zepelines para que cambies de continente.</li>'
+            '<li>Blizzard dice que el arreglo definitivo sale por la mañana y, cuando lo comprueben, quitarán los portales.</li>'
+            '<li>Aviso publicado a las 07:39 (España)* del jueves 5.</li></ul></div>'
+            '<div class="fact wait"><h3>Zonas que se ven vacías</h3><ul>'
+            '<li>Blizzard sabe que algunas zonas, como las ciudades principales, se ven menos pobladas de lo que deberían.</li>'
+            '<li>Van a <strong>ajustar unos números «mañana»</strong> para que se sienta más animado. No han dado más detalles de qué cambian.</li>'
+            '<li>Aviso publicado a las 07:35 (España)* del jueves 5.</li></ul></div></div>'
+            '<div class="facts"><div class="fact ok"><h3>Invita a un amigo: arreglado</h3><ul>'
+            '<li>Quien entró con un código de «Invita a un amigo» se encontraba con límites raros: algunos canales de chat, subir de nivel 10, gremios, grupos e intercambios.</li>'
+            '<li>Un arreglo ya activo lo soluciona. Si te pasó, <strong>sal del juego y vuelve a entrar</strong>.</li>'
+            '<li>Aviso publicado a las 03:43 (España)* del jueves 5.</li></ul></div>'
+            '<div class="fact ok"><h3>Juguete Bolsita de Polvo Violeta</h3><ul>'
+            '<li>Ve cualquier directo elegible de World of Warcraft en Twitch durante la semana del lanzamiento y te llevas el juguete.</li>'
+            '<li>Pone la hoguera de tu campamento de color morado y alarga una hora sus beneficios.</li>'
+            '<li>Es efímero: solo se puede usar durante el evento de celebración, que acaba a principios de diciembre.</li>'
+            '<li>Plazo: del 5 de noviembre a las 01:30 al 13 de noviembre a las 01:30 (España)*.</li></ul></div></div>'
+            '<div class="prepare"><h3>Truco: la misión «El aire libre»</h3><p>La misión del tutorial de campamento se atasca a veces en «siéntate junto a la hoguera». Según Wowhead, funciona si usas /sentarse estando ya sentado. Espera un minuto y recibirás un pequeño beneficio de descanso. No es un aviso oficial: es lo que han comprobado los jugadores.</p></div>'
+            '<p class="latam">* Horas de España. México: restar 7 horas (invierno); Chile y Argentina: restar 4 horas. Por ejemplo, el aviso de los transportes salió a las 00:39 en México y a las 03:39 en Chile y Argentina. El plazo del juguete empieza el 4 de noviembre a las 18:30 en México y a las 21:30 en Chile y Argentina, y acaba el 12 a esas mismas horas.</p>'
+            '<p>Mira también el <a href="../dia-1/">Día 1 en Forever</a> y la <a href="../faq/">FAQ</a>.</p>'
+            '<p class="fine">Fuentes: <a href="https://us.forums.blizzard.com/en/wow/t/zeppelins-broken/2401777/15" target="_blank" rel="noopener noreferrer">Blizzard: transportes</a>, <a href="https://us.forums.blizzard.com/en/wow/t/why-do-i-see-maybe-8-people-inside-the-main-city/2401806/27" target="_blank" rel="noopener noreferrer">Blizzard: población</a>, <a href="https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646/1" target="_blank" rel="noopener noreferrer">Blizzard: Invita a un amigo</a>, <a href="https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461/1" target="_blank" rel="noopener noreferrer">Blizzard: Polvo Violeta</a> y <a href="https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete" target="_blank" rel="noopener noreferrer">Wowhead</a>. Texto con nuestras palabras.</p>')
+    page('avisos-lanzamiento', 'Avisos de Blizzard en el lanzamiento de WoW Forever | Muchamiel',
+         'Lo que ha avisado Blizzard en el día del lanzamiento de WoW Forever: portales por barcos y zepelines rotos, zonas vacías, arreglo de Invita a un amigo y juguete de Twitch.', body)
+
+
 # Van 29-10: «Día 1 en WoW Forever». Fuentes: guías de Blizzard del 28-10 (jugadores nuevos) y 29-10 (los que vuelven) y las páginas de la web.
 BLIZZ_NUEVOS = 'https://worldofwarcraft.blizzard.com/en-us/news/24315280'
 BLIZZ_VUELVEN = 'https://worldofwarcraft.blizzard.com/en-us/news/24315643'
@@ -1256,6 +1286,7 @@ def build_pages():
     raciales26_page()
     dia1_page()
     mando_page()
+    avisos_lanzamiento_page()
     notas2nov_page()
     novedades29_page()
     zona_subs_page()
@@ -1297,6 +1328,9 @@ def build_pages():
             '</span></a>'
             '<a class="news-card" href="../a-medias/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">SIN NOTA OFICIAL · 28 DE OCTUBRE</p>'
             '<h3>Cambios sin anunciar: Lanza de Hielo con 8 s de reutilización y cazadores con menos poder de ataque</h3><p>Han aparecido en el juego sin notas de Blizzard: magos, cazadores y algunos objetos. Los tienes en «A medias» hasta que Blizzard los confirme.</p>'
+            '</span></a>'
+            '<a class="news-card" href="../avisos-lanzamiento/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 5 DE NOVIEMBRE · LANZAMIENTO</p>'
+            '<h3>Portales por zepelines rotos, zonas vacías y juguete de Twitch</h3><p>Los avisos del equipo en el primer día: transportes perdidos, ajuste de población, Invita a un amigo arreglado y el Polvo Violeta.</p>'
             '</span></a>'
             '<a class="news-card" href="../mando-forever/"><span class="badge-new">NUEVO</span><span><p class="eyebrow">BLIZZARD · 3 DE NOVIEMBRE</p>'
             '<h3>Cómo jugar a Forever con mando</h3><p>Controles, cuatro barras con los gatillos, tres juegos de barras y atajos. Función en beta: el chat sigue pidiendo teclado.</p>'
@@ -1545,6 +1579,8 @@ def carrusel(latest):
               'Lo que ha contado Blizzard del futuro de Forever y de sus servidores.', 'Leer'),
         slide('cambios/', 'cs-blizz', '2026-11-12', 'BLIZZARD · NOTA OFICIAL · 2 DE NOVIEMBRE', 'Blizzard cambia las nueve clases',
               'Más daño para todas las clases y más vida para los enemigos de nivel alto. Shank para el pícaro, adiós a Lava Burst y a Salvation, y mucha más amenaza para tanques. Todo en castellano.', 'Ver los cambios'),
+        slide('avisos-lanzamiento/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 5 DE NOVIEMBRE', 'Avisos del día del lanzamiento',
+              'Portales por barcos y zepelines rotos, zonas vacías y juguete de Twitch.', 'Leer'),
         slide('mando-forever/', 'cs-blizz', '2026-11-12', 'BLIZZARD · 3 DE NOVIEMBRE', 'Juega a Forever con mando',
               'Controles, barras con los gatillos y atajos. Función en beta.', 'Ver los controles'),
         slide('dia-1/', 'cs-alianza', '2026-11-12', 'GUÍA · JUEVES 5 DE NOVIEMBRE', 'Día 1 en WoW Forever',

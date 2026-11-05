@@ -2,13 +2,40 @@
  "fuente": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts",
  "avisos": [
   {
+   "id": 2401646,
+   "titulo": "Issues Resolved for Invite-a-Friend Players",
+   "url": "https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646",
+   "autor": "Kaivax",
+   "fecha": "2026-11-05T02:43:58.499Z",
+   "resumen": "With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating…",
+   "foro": "Forever"
+  },
+  {
+   "id": 2401461,
+   "titulo": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
+   "url": "https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461",
+   "autor": "BlizzardEntertainment",
+   "fecha": "2026-11-05T00:30:07.691Z",
+   "resumen": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy.…",
+   "foro": "Forever"
+  },
+  {
+   "id": 2400905,
+   "titulo": "World of Warcraft: Forever Launch Time",
+   "url": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-launch-time/2400905",
+   "autor": "Kaivax",
+   "fecha": "2026-11-04T18:13:53.056Z",
+   "resumen": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: Time Zone Location Time Date HST Honolulu 1:00 p.m. Nov. 4 AKST Juneau 2:00 p.m. Nov. 4 PST Los Angeles 3:00 p.m. Nov. 4 PCT Vancouver…",
+   "foro": "Forever"
+  },
+  {
    "id": 2400119,
    "titulo": "Explore WoW: Forever with a Gamepad",
    "url": "https://us.forums.blizzard.com/en/wow/t/explore-wow-forever-with-a-gamepad/2400119",
    "autor": "BlizzardEntertainment",
    "fecha": "2026-11-03T20:00:09.240Z",
    "resumen": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta…",
-   "foro": "Noticias"
+   "foro": "Forever"
   },
   {
    "id": 2400000,
@@ -21,12 +48,12 @@
   },
   {
    "id": 2396008,
-   "titulo": "World of Warcraft: Forever Goes Live Globally November 4!",
-   "url": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-goes-live-globally-november-4/2396008",
+   "titulo": "World of Warcraft: Forever Now Live!",
+   "url": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-now-live/2396008",
    "autor": "BlizzardEntertainment",
    "fecha": "2026-10-29T21:00:50.143Z",
-   "resumen": "[World of Warcraft: Forever Goes Live Globally November 4!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide November 4 at 3:00 pm PST. Adventure to…",
-   "foro": "Noticias"
+   "resumen": "[World of Warcraft: Forever Now Live!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents,…",
+   "foro": "Forever"
   },
   {
    "id": 2395922,
@@ -53,7 +80,7 @@
    "autor": "BlizzardEntertainment",
    "fecha": "2026-10-28T17:00:10.883Z",
    "resumen": "[New Player’s Starter Guide: Welcome to World of Warcraft: Forever] World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage.…",
-   "foro": "Noticias"
+   "foro": "Forever"
   },
   {
    "id": 2394467,
@@ -62,24 +89,6 @@
    "autor": "Kaivax",
    "fecha": "2026-10-28T01:28:41.132Z",
    "resumen": "In WoW Forever, we’ve been working on the restricted name list, which is a list the game uses to check for non-profane names that we wish to restrict, such as major Warcraft lore characters or names that are blocked for…",
-   "foro": "Forever"
-  },
-  {
-   "id": 2393431,
-   "titulo": "Name Reservation Issue for Oceanic Players",
-   "url": "https://us.forums.blizzard.com/en/wow/t/name-reservation-issue-for-oceanic-players/2393431",
-   "autor": "Kaivax",
-   "fecha": "2026-10-27T20:02:47.505Z",
-   "resumen": "Attention Oceanic players connecting to Australian-based servers! Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets. If you first…",
-   "foro": "Forever"
-  },
-  {
-   "id": 2393349,
-   "titulo": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
-   "url": "https://us.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/2393349",
-   "autor": "BlizzardEntertainment",
-   "fecha": "2026-10-27T19:00:06.426Z",
-   "resumen": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming…",
    "foro": "Forever"
   }
  ]
