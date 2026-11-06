@@ -771,6 +771,15 @@ def fin_beta_page():
 # Van 22-10: «una sección de cosas nuevas a medias, así no liamos a la gente». Todo lo que no está confirmado del todo, con su etiqueta.
 # Fuentes: pódcast oficial 5 (22-10), anuncios de Blizzard y guías que sacan datos de la beta. Al confirmarse algo, sale de aquí y va a su página.
 A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
+    ('pista', 'spell_nature_lightning', 'Talentos de chamán y druida: revisión a principios de año',
+     'Un responsable de Blizzard ha dicho que no le sorprendería revisar los talentos del chamán a principios del año que viene, y que no será antes: llegaría con un parche. Reconoce que algunas quejas de los chamanes son legítimas. '
+     'Vigilan sobre todo al Mejora, que empuja a buscar demasiado poder de hechizo: quieren que lleve fuerza, intelecto y poder de hechizo, como el paladín Reprensión, y no que vaya en telas. También miran de cerca al Elemental; admite que Lava Burst salió con poco «cocinado». '
+     'Mientras tanto habrá ajustes cuando tengan datos de banda. Según Wowhead, los talentos del druida también están en el radar para esa fecha. No hay fecha cerrada ni cambios concretos.',
+     'Entrevista a Blizzard (Wowhead)'),
+    ('juego', 'inv_misc_note_01', 'Misión de Alianza más rápida: el Sello de Wrynn',
+     'La misión del evento de la Alianza que antes obligaba a esperar a que terminase la escena cambia en Forever. Tras empezarla hay una opción de diálogo para confirmar que tu grupo está listo, y se puede recoger y compartir la misión aunque el evento esté en marcha. '
+     'Así se acaban las colas largas que se formaban en Clásico y se pueden sumar jugadores si hay hueco en el grupo. Es un cambio visto en el juego; Blizzard no lo ha anunciado aparte.',
+     'Visto en el juego (Wowhead)'),
     ('juego', 'inv_misc_coin_01', 'Casa de subastas: depósito mínimo de 1 plata',
      'Al poner un objeto en la casa de subastas, el depósito parece tener un mínimo de 1 plata, aunque el objeto valga muy poco. Se devuelve si se vende, pero se pierde si cancelas o caduca. '
      'En la beta se dio por fallo, pero en el juego real lo que se cobra coincide con lo que se enseña. No está claro si es intencionado; mientras tanto, a principios de partida puede compensar vender a un vendedor lo barato o subastar en pilas grandes.',
