@@ -771,6 +771,10 @@ def fin_beta_page():
 # Van 22-10: «una sección de cosas nuevas a medias, así no liamos a la gente». Todo lo que no está confirmado del todo, con su etiqueta.
 # Fuentes: pódcast oficial 5 (22-10), anuncios de Blizzard y guías que sacan datos de la beta. Al confirmarse algo, sale de aquí y va a su página.
 A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
+    ('juego', 'inv_misc_coin_01', 'Casa de subastas: depósito mínimo de 1 plata',
+     'Al poner un objeto en la casa de subastas, el depósito parece tener un mínimo de 1 plata, aunque el objeto valga muy poco. Se devuelve si se vende, pero se pierde si cancelas o caduca. '
+     'En la beta se dio por fallo, pero en el juego real lo que se cobra coincide con lo que se enseña. No está claro si es intencionado; mientras tanto, a principios de partida puede compensar vender a un vendedor lo barato o subastar en pilas grandes.',
+     'Visto en el juego (Wowhead)'),
     ('juego', 'inv_misc_book_09', 'Libros del mundo y la Investigación del mago',
      'Los libros que encuentras por el mundo se entregan a un bibliotecario (en la Torre de los Magos de Ventormenta para la Alianza y en Entrañas para la Horda) y dan experiencia. Por tramos de libros se eligen recompensas: primero un collar (aguante y espíritu, o agilidad y aguante), luego un anillo, '
      'y hacia el nivel 40 un arco, un escudo de sanador o una mano izquierda de fuego. No está claro cuántos libros pide cada tramo. '
@@ -1090,8 +1094,16 @@ def avisos_lanzamiento_page():
             '<div class="fact wait"><h3>Grupos: cambio de fase a mano</h3><ul>'
             '<li>Según Wowhead, al unirte a un grupo nuevo en Forever tienes que pedir tú el cambio de fase para ver a tus compañeros; ya no es automático.</li>'
             '<li>Encaja con lo que contó la beta: te sale un aviso y eliges cuándo moverte. No es un aviso oficial aparte.</li></ul></div></div>'
+            '<div class="facts"><div class="fact"><h3>Primeros arreglos urgentes de Blizzard (parche del 5-11)</h3><ul>'
+            '<li><strong>Durotar:</strong> Yarrog Baneshadow reaparecía más despacio de lo previsto; ya está corregido.</li>'
+            '<li><strong>Isla de Zephras:</strong> el instructor Lotheluum Starbreeze ya entrena a los druidas, como debía. Los vendedores de oficios ya venden las bolsas de aprendiz.</li>'
+            '<li><strong>Zonas:</strong> unos múrlocs del Marjal Revolcafango reaparecían demasiado rápido, y Pelluk, en el Pantano de las Penas, a veces no aparecía.</li>'
+            '<li><strong>Objetos:</strong> las especias suaves ahora se venden al vendedor por 1 cobre cada una (antes 2).</li>'
+            '<li><strong>JcJ:</strong> la Carrera por las llanuras ya no se acumula en la fase de preparación de un campo de batalla, y las acumulaciones se cancelan al llevar una bandera.</li>'
+            '<li><strong>Misiones:</strong> corregido un texto erróneo en «La Hermandad de Elune», y Erland Mortífago (Deathstalker Erland) reaparece mucho antes para la misión «Escorting Erland».</li>'
+            '<li>Publicado por Blizzard a las 03:34 (España)* del viernes 6 de noviembre (fecha de la nota: 5 de noviembre).</li></ul></div></div>'
             '<div class="prepare"><h3>Truco: la misión «El aire libre»</h3><p>La misión del tutorial de campamento se atasca a veces en «siéntate junto a la hoguera». Según Wowhead, funciona si usas /sentarse estando ya sentado. Espera un minuto y recibirás un pequeño beneficio de descanso. No es un aviso oficial: es lo que han comprobado los jugadores.</p></div>'
-            '<p class="latam">* Horas de España. México: restar 7 horas (invierno); Chile y Argentina: restar 4 horas. Por ejemplo, la lista de problemas conocidos salió a las 09:42 en México y a las 12:42 en Chile y Argentina; el aviso de los transportes salió a las 00:39 en México y a las 03:39 en Chile y Argentina. El plazo del juguete empieza el 4 de noviembre a las 18:30 en México y a las 21:30 en Chile y Argentina, y acaba el 12 a esas mismas horas.</p>'
+            '<p class="latam">* Horas de España. México: restar 7 horas (invierno); Chile y Argentina: restar 4 horas. Por ejemplo, los arreglos urgentes salieron a las 20:34 del jueves 5 en México y a las 23:34 en Chile y Argentina; la lista de problemas conocidos salió a las 09:42 en México y a las 12:42 en Chile y Argentina; el aviso de los transportes salió a las 00:39 en México y a las 03:39 en Chile y Argentina. El plazo del juguete empieza el 4 de noviembre a las 18:30 en México y a las 21:30 en Chile y Argentina, y acaba el 12 a esas mismas horas.</p>'
             '<p>Mira también el <a href="../dia-1/">Día 1 en Forever</a> y la <a href="../faq/">FAQ</a>.</p>'
             '<p class="fine">Fuentes: <a href="https://us.forums.blizzard.com/en/wow/t/zeppelins-broken/2401777/15" target="_blank" rel="noopener noreferrer">Blizzard: transportes</a>, <a href="https://us.forums.blizzard.com/en/wow/t/why-do-i-see-maybe-8-people-inside-the-main-city/2401806/27" target="_blank" rel="noopener noreferrer">Blizzard: población</a>, <a href="https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646/1" target="_blank" rel="noopener noreferrer">Blizzard: Invita a un amigo</a>, <a href="https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461/1" target="_blank" rel="noopener noreferrer">Blizzard: Polvo Violeta</a> y <a href="https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete" target="_blank" rel="noopener noreferrer">Wowhead</a>. Texto con nuestras palabras.</p>')
     page('avisos-lanzamiento', 'Avisos de Blizzard en el lanzamiento de WoW Forever | Muchamiel',
