@@ -788,6 +788,17 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
      'Blizzard ha dicho que el lanzamiento de Forever ha sido el más grande de la historia del juego. No ha dado cifras concretas en lo que hemos podido comprobar. '
      'Además, ya hay un primer jugador en nivel 60 en menos de tres días desde el estreno. Es un dato de ambiente: no cambia nada en el juego, pero explica las colas y las capas que están ajustando.',
      'Blizzard (Wowhead)'),
+    ('confirmado', 'inv_misc_gem_pearl_05', 'Entrevista a Blizzard: dificultad de las bandas, volar y casa de subastas negra',
+     'Kris Zierhut y Josh Greenfield, del equipo, han hablado hoy en una entrevista. Las bandas se acercan en dificultad a Naxxramas: más duras que el Núcleo de Magma, pero no tanto como los Cuatro Jinetes, con combates más largos de lo habitual en Clásico, aunque lejos de la banda mítica de Retail. '
+     'Las Cavernas del Túmulo se comparan con Karazhan y dicen que, tras unas semanas o meses, será fácil hacerlas en grupos al azar. Las monturas voladoras no se añadirán nunca. '
+     'La casa de subastas del mercado negro arranca con pocas monturas y mascotas, y la montura de Rivendare se ha quitado de ella. Hay un vendedor de materiales raros, como el Loto Negro, que pone un techo al precio. '
+     'Los objetos de las mazmorras se venden allí y hacen falta para la misión de Lord Valthalak. Fecha de las bandas ya conocida: 9 de diciembre.',
+     'Entrevista con Blizzard (Wowhead)'),
+    ('confirmado', 'inv_misc_note_01', 'Entrevista a Blizzard: PTR probable, ayuda de misiones y botín oculto',
+     'El equipo cree probable abrir un reino de pruebas (PTR) por estabilidad, pero lo normal es que las bandas no pasen por él y que algunas cadenas de misiones queden ocultas. '
+     'Quieren una ayuda de misiones ligera para que no haga falta Questie, que les parece demasiado dirigista. Parte de los datos de los objetos no llega al cliente hasta que alguien los consigue, y seguirá así con futuras mazmorras y bandas, así que no habrá listas de mejor clase hasta que se descubra el botín. '
+     'Cada jefe tiene poca probabilidad de soltar objetos especiales (unos 10 en total en la banda) y se ha enseñado un nuevo bastón legendario. No han dado fechas para nada de esto.',
+     'Entrevista con Blizzard (Wowhead)'),
     ('juego', 'inv_misc_book_09', 'Libros del mundo y la Investigación del mago',
      'Los libros que encuentras por el mundo se entregan a un bibliotecario (en la Torre de los Magos de Ventormenta para la Alianza y en Entrañas para la Horda) y dan experiencia. Por tramos de libros se eligen recompensas: primero un collar (aguante y espíritu, o agilidad y aguante), luego un anillo, '
      'y hacia el nivel 40 un arco, un escudo de sanador o una mano izquierda de fuego. No está claro cuántos libros pide cada tramo. '
