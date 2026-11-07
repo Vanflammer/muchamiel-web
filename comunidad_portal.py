@@ -780,10 +780,14 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
      'La misión del evento de la Alianza que antes obligaba a esperar a que terminase la escena cambia en Forever. Tras empezarla hay una opción de diálogo para confirmar que tu grupo está listo, y se puede recoger y compartir la misión aunque el evento esté en marcha. '
      'Así se acaban las colas largas que se formaban en Clásico y se pueden sumar jugadores si hay hueco en el grupo. Es un cambio visto en el juego; Blizzard no lo ha anunciado aparte.',
      'Visto en el juego (Wowhead)'),
-    ('juego', 'inv_misc_coin_01', 'Casa de subastas: depósito mínimo de 1 plata',
-     'Al poner un objeto en la casa de subastas, el depósito parece tener un mínimo de 1 plata, aunque el objeto valga muy poco. Se devuelve si se vende, pero se pierde si cancelas o caduca. '
-     'En la beta se dio por fallo, pero en el juego real lo que se cobra coincide con lo que se enseña. No está claro si es intencionado; mientras tanto, a principios de partida puede compensar vender a un vendedor lo barato o subastar en pilas grandes.',
-     'Visto en el juego (Wowhead)'),
+    ('confirmado', 'inv_misc_coin_01', 'Casa de subastas: el depósito mínimo bajará a 1 cobre',
+     'Al lanzar Forever, poner un objeto en la casa de subastas costaba un depósito mínimo de 1 plata, aunque el objeto valiese muy poco, y se perdía si cancelabas o caducaba. '
+     'Kris Zierhut, de Blizzard, ha anunciado que ese mínimo se va a cambiar pronto y quedará en 1 cobre. No ha dado fecha ni detalles. Hasta entonces, a principios de partida puede compensar vender lo barato a un vendedor o subastar en pilas grandes.',
+     'Anuncio de Blizzard (Wowhead)'),
+    ('confirmado', 'achievement_zone_durotar', 'Forever, el mayor lanzamiento de la historia de WoW',
+     'Blizzard ha dicho que el lanzamiento de Forever ha sido el más grande de la historia del juego. No ha dado cifras concretas en lo que hemos podido comprobar. '
+     'Además, ya hay un primer jugador en nivel 60 en menos de tres días desde el estreno. Es un dato de ambiente: no cambia nada en el juego, pero explica las colas y las capas que están ajustando.',
+     'Blizzard (Wowhead)'),
     ('juego', 'inv_misc_book_09', 'Libros del mundo y la Investigación del mago',
      'Los libros que encuentras por el mundo se entregan a un bibliotecario (en la Torre de los Magos de Ventormenta para la Alianza y en Entrañas para la Horda) y dan experiencia. Por tramos de libros se eligen recompensas: primero un collar (aguante y espíritu, o agilidad y aguante), luego un anillo, '
      'y hacia el nivel 40 un arco, un escudo de sanador o una mano izquierda de fuego. No está claro cuántos libros pide cada tramo. '
