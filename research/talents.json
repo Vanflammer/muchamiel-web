@@ -67308,7 +67308,7 @@
    ],
    [
     "Binding Heal",
-    "New 1.5 sec cast: heals a friend and you at once, low threat. Trainers teach it at 25, ranks 2 to 6 from 32 to 56; Holy Binding took the talent's slot.",
+    "Gone: Blizzard's 2 Nov notes removed the spell, so trainers no longer teach it. Holy Binding, a one-point Holy talent in row 4, took its talent's slot: each Flash Heal on someone else heals you for 50% as much, with no threat.",
     "spell_holy_blindingheal"
    ],
    [

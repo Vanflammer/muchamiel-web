@@ -921,6 +921,18 @@ A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
     ('pista', 'inv_misc_gem_01', 'Sacerdotes cielonatos en la Horda',
      'Los cielonatos de la Horda no pueden ser sacerdotes. Lo piden mucho y la respuesta fue «nunca digas nunca».',
      'Pódcast oficial, episodio 1'),
+    ('juego', 'inv_misc_ticket_tarot_madness', 'La Feria de la Luna Negra llega primero a Bosque de Elwynn',
+     'La feria ya se ve montada en Bosque de Elwynn, así que en Forever la primera parada es de la Alianza. Según el calendario del juego, empieza este lunes y dura una semana. '
+     'Trae minijuegos, reputación que farmear y objetos raros. Las bendiciones de la feria funcionarán distinto que en Clásico: no valdrán en banda, pero sí en el mundo abierto. Blizzard no ha publicado una nota con las fechas.',
+     'Visto en el juego (Wowhead)'),
+    ('pista', 'inv_misc_coin_02', 'Las misiones no dan oro al nivel 60',
+     'Al llegar al nivel máximo, las misiones dejan de dar oro, a diferencia de Era y Retail. Según el primer jugador en nivel 60, un desarrollador le contestó que es un cambio intencionado y que quizá una misión semanal dé una cantidad de oro al azar. '
+     'Blizzard no lo ha comentado de forma oficial, así que conviene tomarlo con cautela.',
+     'Mensaje de un desarrollador, según un jugador (Wowhead)'),
+    ('juego', 'inv_misc_map_01', 'Capas rotas en la cueva de arpías de Mil Agujas',
+     'En la Guarida de Plumafuga las capas no funcionan bien y hay demasiados jugadores en un espacio pequeño. Eso provoca disputas por los jefes de misión y alarga las misiones «Prueba de resistencia», «Detén los chillidos» y «Suministros robados de Brisa Libre». '
+     'Además, «Prueba de resistencia» puede bloquearse si el objetivo no se actualiza tras recoger la garra: la solución es reconectar. Mejor dejar esas misiones para más tarde, hasta que lo arreglen.',
+     'Visto en el juego (Wowhead)'),
 ]
 A_MEDIAS_NIVEL = {
     'juego': ('EN EL JUEGO · SIN NOTA OFICIAL', '#4f7fd0'),
