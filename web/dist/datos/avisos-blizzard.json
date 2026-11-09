@@ -2,6 +2,15 @@
  "fuente": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts",
  "avisos": [
   {
+   "id": 2406595,
+   "titulo": "Dungeon Enemy XP Increased - November 8",
+   "url": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595",
+   "autor": "Kaivax",
+   "fecha": "2026-11-08T19:47:33.475Z",
+   "resumen": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. Happy dungeon crawling, and good luck with those Deviate Hides!",
+   "foro": "Forever"
+  },
+  {
    "id": 2404092,
    "titulo": "Class Tuning Incoming - November 10",
    "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092",
@@ -80,15 +89,6 @@
    "autor": "Kaivax",
    "fecha": "2026-11-04T18:13:53.056Z",
    "resumen": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: Time Zone Location Time Date HST Honolulu 1:00 p.m. Nov. 4 AKST Juneau 2:00 p.m. Nov. 4 PST Los Angeles 3:00 p.m. Nov. 4 PCT Vancouver…",
-   "foro": "Forever"
-  },
-  {
-   "id": 2400119,
-   "titulo": "Explore WoW: Forever with a Gamepad",
-   "url": "https://us.forums.blizzard.com/en/wow/t/explore-wow-forever-with-a-gamepad/2400119",
-   "autor": "BlizzardEntertainment",
-   "fecha": "2026-11-03T20:00:09.240Z",
-   "resumen": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta…",
    "foro": "Forever"
   }
  ]
