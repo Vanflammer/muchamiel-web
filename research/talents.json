@@ -2,7 +2,7 @@
  "_readme": "talentsforever.com data export. Fan-made WoW Forever talent calculator; talents, racials, Legacy perks and the class spellbooks come from the WoW Forever beta client's own data files (the site began as frame-by-frame reads of the BlizzCon 2026 demo), so numbers can lag live tuning. A class can carry the server's hotfixes over the build it was read from, where the client's files do not have them: that class's talents.source line says so and names the days, and a spell rank a hotfix changed names it in its src. talents: per class, trees with talents (row/col are 1-based grid positions, max is the rank cap, desc lists the tooltip text of each rank, rank 1 first, as the client's files give it at level 60, or in the game's own words where a rank was read in game; confirmed lists the ranks whose text is real and not an estimate, which is every rank for trees from the beta client; classic compares the talent with Classic Era: status same, moved, changed or new, Classic's tree, row, col, rank count and rank 1 text, and renamed, note or replaces where they apply). spellbooks: per class, every trainer spell to level 60 with every rank (levels = the level each rank is learned at; checked = that class's city trainer was read in game, the rest are from the files only; the General tab is kept by hand from the demo and in-game reads). spell_desc: tooltip text keyed class|spell|rank, s=beta means the beta client's text at level 60 with no gear, s=demo means read off the BlizzCon demo footage, or read in game where src begins Read in game, s=classic means Wowhead Classic fallback, nt=1, 2, 3 or 4 means the class trainer does not sell that rank (1 portal trainer, 2 tome, quest or drop, 3 comes with the talent: taking the talent puts it in the book, 4 not sold by the class trainer, checked in game, and where it is learned is not known yet), ns=quest means a class quest teaches it (Wowhead Forever and Blizzard's notes), not a trainer read. racials and legacy: racial abilities and the Legacy perk trees. changelog: what changed on the site, newest first. License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and republish this data, including commercially, as long as you credit talentsforever.com with a link. Game names, icons and tooltip text belong to Blizzard Entertainment.",
  "license": "CC-BY-4.0",
  "attribution": "Data from talentsforever.com (https://talentsforever.com)",
- "generated": "2026-11-04",
+ "generated": "2026-11-10",
  "talents": {
   "Warrior": {
    "icon": "class_warrior",
@@ -887,8 +887,8 @@
        "passive": true,
        "icon": "racial_troll_berserk",
        "desc": [
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
-        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, Reckless Swings, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
+        "Your Enrage, Berserker Rage, Bloodrage, Death Wish, Reckless Swings, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
        ],
        "complete": true,
        "confirmed": [
@@ -896,7 +896,7 @@
         2
        ],
        "src": "beta",
-       "hotfix": "2026-11-03",
+       "hotfix": "2026-11-06",
        "req": "Blood Craze",
        "classic": {
         "status": "new"
@@ -1553,7 +1553,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Warrior numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Warrior trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Warrior trees carry the server's hotfixes of 4 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Warrior numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Warrior trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Warrior trees carry the server's hotfixes of 4 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Warrior trees carry the server's hotfixes of 6 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 52
   },
   "Paladin": {
@@ -3320,7 +3320,8 @@
         1
        ],
        "src": "beta",
-       "cost": "80 Mana | 35 yd range | Instant | 6 sec cooldown",
+       "hotfix": "2026-11-10",
+       "cost": "11% of base mana | 35 yd range | Instant | 6 sec cooldown",
        "classic": {
         "status": "new"
        }
@@ -4482,7 +4483,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Hunter numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Hunter trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Hunter numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Hunter trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Hunter trees carry the server's hotfixes of 10 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 46
   },
   "Rogue": {
@@ -8163,9 +8164,9 @@
        "passive": true,
        "icon": "spell_nature_mentalquickness",
        "desc": [
-        "Increases your Attack Power by an amount equal to 50% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 100% of your Intellect.",
-        "Increases your Attack Power by an amount equal to 150% of your Intellect."
+        "Increases your Attack Power by an amount equal to 33% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 66% of your Intellect.",
+        "Increases your Attack Power by an amount equal to 100% of your Intellect."
        ],
        "complete": true,
        "confirmed": [
@@ -8174,7 +8175,7 @@
         3
        ],
        "src": "beta",
-       "hotfix": "2026-11-03",
+       "hotfix": "2026-11-10",
        "classic": {
         "status": "new"
        }
@@ -8362,15 +8363,15 @@
        "passive": false,
        "icon": "ability_shaman_stormstrike",
        "desc": [
-        "Instantly strike for 150% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
+        "Instantly strike for 100% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec."
        ],
        "complete": true,
        "confirmed": [
         1
        ],
        "src": "beta",
-       "hotfix": "2026-11-03",
-       "cost": "8% of base mana | Melee Range | Instant | 6 sec cooldown",
+       "hotfix": "2026-11-10",
+       "cost": "8% of base mana | Melee Range | Instant | 8 sec cooldown",
        "classic": {
         "status": "changed",
         "tree": "Enhancement",
@@ -8487,11 +8488,11 @@
        "passive": true,
        "icon": "spell_shaman_maelstromweapon",
        "desc": [
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 4%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 8%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 12%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 16%. Stacks up to 5 times. Lasts 30 sec.",
-        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec."
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec. Activates about 6 times per minute.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec. Activates about 7 times per minute.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec. Activates about 8 times per minute.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec. Activates about 9 times per minute.",
+        "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 20%. Stacks up to 5 times. Lasts 30 sec. Activates about 10 times per minute."
        ],
        "complete": true,
        "confirmed": [
@@ -8502,6 +8503,7 @@
         5
        ],
        "src": "beta",
+       "hotfix": "2026-11-10",
        "classic": {
         "status": "new"
        }
@@ -9037,7 +9039,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Shaman numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Shaman trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Shaman numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Shaman trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Shaman trees carry the server's hotfixes of 10 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 46
   },
   "Mage": {
@@ -10938,9 +10940,9 @@
        "passive": true,
        "icon": "spell_shadow_lifedrain02",
        "desc": [
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%.",
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%.",
-        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%."
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 12%.",
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 24%.",
+        "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your Corruption, Siphon Life, and Bane of Agony effects active on the target, up to a maximum increase of 36%."
        ],
        "complete": true,
        "confirmed": [
@@ -10949,6 +10951,7 @@
         3
        ],
        "src": "beta",
+       "hotfix": "2026-11-10",
        "classic": {
         "status": "changed",
         "tree": "Affliction",
@@ -11002,14 +11005,14 @@
        "passive": false,
        "icon": "ability_deathknight_hemorrhagicfever",
        "desc": [
-        "Tears the target apart from within, inflicting 86 Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10% for 6 sec."
+        "Tears the target apart from within for 6 sec, inflicting 60 Shadow damage every 1 sec. While channeling, your Siphon Life, Corruption, and Bane of Agony effects on the target deal their periodic damage 100% faster."
        ],
        "complete": true,
        "confirmed": [
         1
        ],
        "src": "beta",
-       "hotfix": "2026-11-03",
+       "hotfix": "2026-11-10",
        "req": "Siphon Life",
        "cost": "200 Mana | 30 yd range | Channeled",
        "classic": {
@@ -12078,7 +12081,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Warlock numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Warlock trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Warlock numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Warlock trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Warlock trees carry the server's hotfixes of 10 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 50
   },
   "Druid": {
@@ -13417,13 +13420,14 @@
        "passive": false,
        "icon": "inv_relics_idolofrejuvenation",
        "desc": [
-        "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of the consumed spell."
+        "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect."
        ],
        "complete": true,
        "confirmed": [
         1
        ],
        "src": "beta",
+       "hotfix": "2026-11-06",
        "cost": "20% of base mana | 40 yd range | Instant | 15 sec cooldown",
        "classic": {
         "status": "changed",
@@ -13583,7 +13587,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Druid numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Druid trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Druid numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Druid trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Druid trees carry the server's hotfixes of 6 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 47
   }
  },
@@ -31654,7 +31658,7 @@
   "Hunter|Summon Hawk|Rank 1": {
    "l": [
     [
-     "80 Mana",
+     "11% of base mana",
      "35 yd range"
     ],
     [
@@ -31664,7 +31668,7 @@
    ],
    "d": "Command a hawk to dive-bomb your targeted enemy, dealing 32 plus 5% of your Ranged Attack Power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 25",
    "id": 1293241,
@@ -31675,7 +31679,7 @@
   "Hunter|Summon Hawk|Rank 2": {
    "l": [
     [
-     "105 Mana",
+     "11% of base mana",
      "35 yd range"
     ],
     [
@@ -31685,7 +31689,7 @@
    ],
    "d": "Command a hawk to dive-bomb your targeted enemy, dealing 47 plus 5% of your Ranged Attack Power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 36",
    "id": 1293525,
@@ -31695,7 +31699,7 @@
   "Hunter|Summon Hawk|Rank 3": {
    "l": [
     [
-     "135 Mana",
+     "11% of base mana",
      "35 yd range"
     ],
     [
@@ -31705,7 +31709,7 @@
    ],
    "d": "Command a hawk to dive-bomb your targeted enemy, dealing 85 plus 5% of your Ranged Attack Power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 48",
    "id": 1293526,
@@ -31715,7 +31719,7 @@
   "Hunter|Summon Hawk|Rank 4": {
    "l": [
     [
-     "190 Mana",
+     "11% of base mana",
      "35 yd range"
     ],
     [
@@ -31725,7 +31729,7 @@
    ],
    "d": "Command a hawk to dive-bomb your targeted enemy, dealing 108 plus 5% of your Ranged Attack Power Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 60",
    "id": 1293527,
@@ -31967,7 +31971,7 @@
   "Hunter|Arcane Shot|Rank 1": {
    "l": [
     [
-     "25 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -31977,20 +31981,30 @@
    ],
    "d": "An instant shot that causes 25 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 6",
    "id": 3044,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 13 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 13 Arcane damage.",
+   "cl": [
+    [
+     "25 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 2": {
    "l": [
     [
-     "35 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32000,20 +32014,30 @@
    ],
    "d": "An instant shot that causes 35 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 12",
    "id": 14281,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 21 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 21 Arcane damage.",
+   "cl": [
+    [
+     "35 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 3": {
    "l": [
     [
-     "50 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32023,20 +32047,30 @@
    ],
    "d": "An instant shot that causes 50 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 20",
    "id": 14282,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 33 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 33 Arcane damage.",
+   "cl": [
+    [
+     "50 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 4": {
    "l": [
     [
-     "80 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32046,20 +32080,30 @@
    ],
    "d": "An instant shot that causes 85 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 28",
    "id": 14283,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 59 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 59 Arcane damage.",
+   "cl": [
+    [
+     "80 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 5": {
    "l": [
     [
-     "105 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32069,20 +32113,30 @@
    ],
    "d": "An instant shot that causes 120 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 36",
    "id": 14284,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 83 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 83 Arcane damage.",
+   "cl": [
+    [
+     "105 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 6": {
    "l": [
     [
-     "135 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32092,20 +32146,30 @@
    ],
    "d": "An instant shot that causes 175 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 44",
    "id": 14285,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 115 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 115 Arcane damage.",
+   "cl": [
+    [
+     "135 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 7": {
    "l": [
     [
-     "160 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32115,20 +32179,30 @@
    ],
    "d": "An instant shot that causes 220 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 52",
    "id": 14286,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 145 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 145 Arcane damage.",
+   "cl": [
+    [
+     "160 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Arcane Shot|Rank 8": {
    "l": [
     [
-     "190 Mana",
+     "11% of base mana",
      "8-35 yd range"
     ],
     [
@@ -32138,15 +32212,25 @@
    ],
    "d": "An instant shot that causes 280 Arcane damage.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 60",
    "id": 14287,
    "sc": "Arcane",
    "fx": "Blizzard's 2 Nov notes raise its attack power share from 0.1 to 0.15, a number the tooltip does not show.",
    "cs": "changed",
-   "ck": "n",
-   "cd": "An instant shot that causes 183 Arcane damage."
+   "ck": "r",
+   "cd": "An instant shot that causes 183 Arcane damage.",
+   "cl": [
+    [
+     "190 Mana",
+     "8-35 yd range"
+    ],
+    [
+     "Instant",
+     "6 sec cooldown"
+    ]
+   ]
   },
   "Hunter|Auto Shot|": {
    "l": [
@@ -35833,113 +35917,133 @@
   },
   "Hunter|Great Stamina|Rank 1": {
    "l": [],
-   "d": "Stamina increased by 3.",
+   "d": "Health increased by 30.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 10",
    "id": 4187,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 3."
   },
   "Hunter|Great Stamina|Rank 2": {
    "l": [],
-   "d": "Stamina increased by 5.",
+   "d": "Health increased by 50.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 12",
    "id": 4188,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 5."
   },
   "Hunter|Great Stamina|Rank 3": {
    "l": [],
-   "d": "Stamina increased by 7.",
+   "d": "Health increased by 70.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 18",
    "id": 4189,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 7."
   },
   "Hunter|Great Stamina|Rank 4": {
    "l": [],
-   "d": "Stamina increased by 10.",
+   "d": "Health increased by 100.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 24",
    "id": 4190,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 10."
   },
   "Hunter|Great Stamina|Rank 5": {
    "l": [],
-   "d": "Stamina increased by 13.",
+   "d": "Health increased by 130.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 30",
    "id": 4191,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 13."
   },
   "Hunter|Great Stamina|Rank 6": {
    "l": [],
-   "d": "Stamina increased by 17.",
+   "d": "Health increased by 170.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 36",
    "id": 4192,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 17."
   },
   "Hunter|Great Stamina|Rank 7": {
    "l": [],
-   "d": "Stamina increased by 21.",
+   "d": "Health increased by 210.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 42",
    "id": 4193,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 21."
   },
   "Hunter|Great Stamina|Rank 8": {
    "l": [],
-   "d": "Stamina increased by 26.",
+   "d": "Health increased by 260.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 48",
    "id": 4194,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 26."
   },
   "Hunter|Great Stamina|Rank 9": {
    "l": [],
-   "d": "Stamina increased by 32.",
+   "d": "Health increased by 320.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 54",
    "id": 5041,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 32."
   },
   "Hunter|Great Stamina|Rank 10": {
    "l": [],
-   "d": "Stamina increased by 40.",
+   "d": "Health increased by 400.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 60",
    "id": 5042,
    "sc": "Physical",
-   "cs": "same"
+   "cs": "changed",
+   "ck": "r",
+   "cd": "Stamina increased by 40."
   },
   "Hunter|Growl|Rank 1": {
    "l": [
@@ -49324,12 +49428,12 @@
     ],
     [
      "Instant",
-     "6 sec cooldown"
+     "8 sec cooldown"
     ]
    ],
-   "d": "Instantly strike for 150% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec.",
+   "d": "Instantly strike for 100% weapon damage and increase the damage you deal to the target with your next Lightning Bolt, Chain Lightning, or Earth Shock spell by 20% for 12 sec.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 25",
    "id": 17364,
@@ -57172,13 +57276,13 @@
      ""
     ]
    ],
-   "d": "Tears the target apart from within, inflicting 86 Shadow damage every 1 sec and increasing the damage they take from your other Shadow damage over time effects by 10% for 6 sec.",
+   "d": "Tears the target apart from within for 6 sec, inflicting 60 Shadow damage every 1 sec. While channeling, your Siphon Life, Corruption, and Bane of Agony effects on the target deal their periodic damage 100% faster.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 40",
    "id": 1316697,
-   "co": "28.6% of spell power (per tick)",
+   "co": "20.02% of spell power (per tick)",
    "sc": "Shadow",
    "nt": 3,
    "cs": "new"
@@ -60334,9 +60438,9 @@
      ""
     ]
    ],
-   "d": "Deals 3 to 5 Fire damage to a target.",
+   "d": "Deals 6 to 8 Fire damage to a target.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 1",
    "id": 3110,
@@ -60361,9 +60465,9 @@
      ""
     ]
    ],
-   "d": "Deals 7 to 9 Fire damage to a target.",
+   "d": "Deals 12 to 14 Fire damage to a target.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 8",
    "id": 7799,
@@ -60388,9 +60492,9 @@
      ""
     ]
    ],
-   "d": "Deals 12 to 14 Fire damage to a target.",
+   "d": "Deals 15 to 19 Fire damage to a target.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 18",
    "id": 7800,
@@ -60415,9 +60519,9 @@
      ""
     ]
    ],
-   "d": "Deals 17 to 19 Fire damage to a target.",
+   "d": "Deals 18 to 22 Fire damage to a target.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-10",
    "r": "",
    "lv": "Learned at level 28",
    "id": 7801,
@@ -63235,9 +63339,9 @@
      ""
     ]
    ],
-   "d": "Shapeshift into Bear Form, increasing Attack Power by 120, Armor contribution from items by 180%, and Health by 180. Also protects the caster from Polymorph effects and allows the use of various bear abilities.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+   "d": "Shapeshift into Bear Form, increasing Attack Power by 120, Armor contribution from items by 180%, and Health by 560. Also protects the caster from Polymorph effects and allows the use of various bear abilities.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 10",
    "id": 5487,
@@ -64625,9 +64729,9 @@
      ""
     ]
    ],
-   "d": "Ravage the target, causing 435% damage plus 147 to the target. Must be prowling and behind the target. Awards 1 combo point.",
+   "d": "Ravage the target, causing 435% damage plus 183 to the target. Must be prowling and behind the target. Awards 1 combo point.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 32",
    "id": 6785,
@@ -64651,9 +64755,9 @@
      ""
     ]
    ],
-   "d": "Ravage the target, causing 435% damage plus 217 to the target. Must be prowling and behind the target. Awards 1 combo point.",
+   "d": "Ravage the target, causing 435% damage plus 270 to the target. Must be prowling and behind the target. Awards 1 combo point.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 42",
    "id": 6787,
@@ -64677,9 +64781,9 @@
      ""
     ]
    ],
-   "d": "Ravage the target, causing 435% damage plus 273 to the target. Must be prowling and behind the target. Awards 1 combo point.",
+   "d": "Ravage the target, causing 435% damage plus 339 to the target. Must be prowling and behind the target. Awards 1 combo point.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 50",
    "id": 9866,
@@ -64703,9 +64807,9 @@
      ""
     ]
    ],
-   "d": "Ravage the target, causing 435% damage plus 343 to the target. Must be prowling and behind the target. Awards 1 combo point.",
+   "d": "Ravage the target, causing 435% damage plus 426 to the target. Must be prowling and behind the target. Awards 1 combo point.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755, server hotfix 2026-11-03",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 58",
    "id": 9867,
@@ -66691,9 +66795,9 @@
      "15 sec cooldown"
     ]
    ],
-   "d": "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of the consumed spell.",
+   "d": "Instantly heals a target with your active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-06",
    "r": "",
    "lv": "Learned at level 25",
    "id": 18562,
