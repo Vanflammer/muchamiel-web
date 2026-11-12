@@ -1,6 +1,6 @@
 {
   "slug": "hunter",
-  "actualizado": "2026-11-03",
+  "actualizado": "2026-11-12",
   "resumen": {
     "es": "El cazador ataca a distancia con arco, ballesta o arma de fuego y lleva una mascota que tanquea por él. En Forever todos aprenden Aimed Shot a nivel 20, las trampas se ponen en pleno combate y cada familia de mascotas tiene su truco propio. El 2-11 Blizzard subió bastante el daño de Aimed Shot, Arcane Shot y Serpent Sting. Es la clase más cómoda para subir sola y, a nivel 60, puedes jugarla con mascota (Beast Mastery), sin mascota a distancia (Marksmanship) o cuerpo a cuerpo (Survival).",
     "en": "The Hunter fights at range with a bow, crossbow or gun and brings a pet that tanks for them. In Forever every Hunter learns Aimed Shot at level 20, traps can be laid mid-fight and each pet family has its own trick. On 2 November Blizzard gave Aimed Shot, Arcane Shot and Serpent Sting a big damage boost. It is the easiest class to level alone, and at 60 you can play it with a pet (Beast Mastery), at range without one (Marksmanship) or in melee (Survival)."
@@ -469,8 +469,8 @@
           "niveles": "31-35",
           "puntos": "2/2 Rapid Recuperation, 3/3 Barrage",
           "nota": {
-            "es": "Con Serpent Sting puesto sigues recuperando maná mientras disparas. Multi-Shot, Aimed Shot y Volley hacen un 15 % más (desde el 2-11; antes 10 %).",
-            "en": "With Serpent Sting up, your mana keeps regenerating while you shoot. Multi-Shot, Aimed Shot and Volley deal 15% more (since 2 November; it was 10%)."
+            "es": "Con Serpent Sting puesto sigues recuperando maná mientras disparas. Multi-Shot, Aimed Shot y Volley hacen un 15 % más (desde el 2-11; antes 10 %). Desde el 11-11 Volley no activa efectos por probabilidad y se corta si te mueves.",
+            "en": "With Serpent Sting up, your mana keeps regenerating while you shoot. Multi-Shot, Aimed Shot and Volley deal 15% more (since 2 November; it was 10%). Since 11-11 Volley no longer triggers procs and stops channeling if you move."
           }
         },
         {

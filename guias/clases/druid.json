@@ -1,6 +1,6 @@
 {
   "slug": "druid",
-  "actualizado": "2026-11-03",
+  "actualizado": "2026-11-12",
   "resumen": {
     "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. El 2-11 Blizzard confirmó en su nota los árboles nuevos de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline), añadió la pasiva Poised al 32 y subió bastante el daño del gato y de Starfire. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
     "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. On 2 November Blizzard's notes confirmed the new Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in), added the Poised passive at 32 and gave the cat and Starfire a solid damage boost. It suits players who want to do everything with one character and don't mind lots of buttons."
@@ -764,8 +764,8 @@
             "en": "Rip at 5 combo points; don't refresh it before it ends."
           },
           {
-            "es": "Mantén Rake. Con los dos sangrados puestos, Rend and Tear sube todo tu daño.",
-            "en": "Keep Rake up. With both bleeds on, Rend and Tear boosts all your damage."
+            "es": "Mantén Rake. Con los dos sangrados puestos, Rend and Tear sube todo tu daño (desde el 11-11 también cuenta el sangrado de Pounce).",
+            "en": "Keep Rake up. With both bleeds on, Rend and Tear boosts all your damage (since 11-11 it also counts the Pounce bleed)."
           },
           {
             "es": "Shifting Power cuando estés por debajo de 50 de energía.",

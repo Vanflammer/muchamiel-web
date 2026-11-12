@@ -2,7 +2,7 @@
   "slug": "tailoring",
   "nombre": {"es": "Sastrería", "en": "Tailoring"},
   "tipo": "fabricacion",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-12",
   "resumen": {
     "es": "Armadura de tela y, sobre todo, bolsas: todo el mundo las compra. No necesita recolección, porque la tela cae de los enemigos humanoides mientras subes. En Forever gana conjuntos por escuela de magia, bolsas de componentes desde el principio y recetas nuevas de nivel alto. Ideal para magos, brujos y sacerdotes.",
     "en": "Cloth armor and, above all, bags: everyone buys them. It needs no gathering, since cloth drops from humanoids while you level. Forever adds spell-school sets, reagent bags from the start and new high-level recipes. Ideal for mages, warlocks and priests."
@@ -17,7 +17,8 @@
     {"es": "Con <b>Favor del Mercader</b>: conjuntos por escuela de magia (Shadow, Frost, Fire, Arcane, Holy y sanación; por ejemplo Shadow Circlet, Gloves, Sash y Boots) en escalones de 30, 60 y 90 de Favor. Los venden en el campamento de la Azeroth Commerce Authority (Redridge) y en el de la Horda junto al Cruce.", "en": "With <b>Merchant's Favor</b>: spell-school sets (Shadow, Frost, Fire, Arcane, Holy and healing; e.g. Shadow Circlet, Gloves, Sash and Boots) in 30, 60 and 90 Favor tiers. Sold at the Azeroth Commerce Authority camp (Redridge) and the Horde camp near the Crossroads."},
     {"es": "Recetas cambiadas con poder con hechizos u otras variantes (Reinforced Woolen Shoulders, Double-stitched Woolen Shoulders, Azure Silk Hood) y patrones nuevos que caen en mazmorras de nivel bajo (Filigreed Shadow Gown y Leggings).", "en": "Changed recipes with spell power or other variants (Reinforced Woolen Shoulders, Double-stitched Woolen Shoulders, Azure Silk Hood) and new patterns dropping in low-level dungeons (Filigreed Shadow Gown and Leggings)."},
     {"es": "Acampada: <b>Faction Banner</b> (20; de 14 a 32 de espíritu según tu nivel, solo para tu facción, no se suma a Divine Spirit), <b>Spinning Wheel</b> (140; crea componentes) y <b>Loom</b> (300; recetas avanzadas). Los dos últimos salen de planos.", "en": "Camping: <b>Faction Banner</b> (20; 14 to 32 Spirit depending on your level, your faction only, does not stack with Divine Spirit), <b>Spinning Wheel</b> (140; makes reagents) and <b>Loom</b> (300; advanced recipes). The last two come from blueprints."},
-    {"es": "Puntos de Legacy a 150, 225 y 300, y título «the Tailor» para toda la cuenta con el certificado (300 y 1.000 de Favor).", "en": "Legacy points at 150, 225 and 300, and the account-wide title \"the Tailor\" with the certification (300 and 1,000 Favor)."}
+    {"es": "Puntos de Legacy a 150, 225 y 300, y título «the Tailor» para toda la cuenta con el certificado (300 y 1.000 de Favor).", "en": "Legacy points at 150, 225 and 300, and the account-wide title \"the Tailor\" with the certification (300 and 1,000 Favor)."},
+    {"es": "Arreglo del 11-11: varias bolsas eran más pequeñas de lo previsto y ahora son más grandes a cambio de un rollo más: <b>Red Mageweave Bag</b> (5 rollos, 14 huecos), <b>Green Silk Pack</b> (5, 12), <b>Black Silk Pack</b> (6, 12), <b>Green Woolen Bag</b> y <b>Red Woolen Bag</b> (5, 10).", "en": "11-11 fix: several bags were smaller than intended and are now bigger at the cost of one extra bolt: <b>Red Mageweave Bag</b> (5 bolts, 14 slots), <b>Green Silk Pack</b> (5, 12), <b>Black Silk Pack</b> (6, 12), <b>Green Woolen Bag</b> and <b>Red Woolen Bag</b> (5, 10)."}
   ],
   "tramos": [
     {"desde": 1, "hasta": 30, "receta": "Bolt of Linen Cloth", "cuantas": "~30",
