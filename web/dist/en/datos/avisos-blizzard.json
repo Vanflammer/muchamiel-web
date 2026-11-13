@@ -2,6 +2,15 @@
  "fuente": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts",
  "avisos": [
   {
+   "id": 2412856,
+   "titulo": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
+   "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856",
+   "autor": "Kaivax",
+   "fecha": "2026-11-12T17:46:04.799Z",
+   "resumen": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]",
+   "foro": "Forever"
+  },
+  {
    "id": 2408781,
    "titulo": "PvP Faction Balance Updates - November 10",
    "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781",
@@ -53,15 +62,6 @@
    "autor": "BlizzardEntertainment",
    "fecha": "2026-11-06T18:10:08.162Z",
    "resumen": "[The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly] Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that…",
-   "foro": "Noticias"
-  },
-  {
-   "id": 2403040,
-   "titulo": "WoW: Forever Hotfixes - November 11, 2026",
-   "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040",
-   "autor": "Kaivax",
-   "fecha": "2026-11-06T02:34:10.279Z",
-   "resumen": "Hotfixes November 11, 2026 Classes Druid Feral Rend and Tear now works on Pounce Bleed. Hunter Fixed an issue where Volley was activating procs. Fixed an issue where Volley would continue to channel even when the Hunter…",
    "foro": "Noticias"
   }
  ]
