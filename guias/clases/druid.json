@@ -1,6 +1,6 @@
 {
   "slug": "druid",
-  "actualizado": "2026-11-12",
+  "actualizado": "2026-11-14",
   "resumen": {
     "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. El 2-11 Blizzard confirmó en su nota los árboles nuevos de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline), añadió la pasiva Poised al 32 y subió bastante el daño del gato y de Starfire. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
     "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. On 2 November Blizzard's notes confirmed the new Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in), added the Poised passive at 32 and gave the cat and Starfire a solid damage boost. It suits players who want to do everything with one character and don't mind lots of buttons."
@@ -116,8 +116,8 @@
         "en": "Healing dungeons and raids"
       },
       "texto": {
-        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever los efectos en el tiempo de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo, aunque desde el 30-10 tarda 3 s en lanzarse (2,5 con Naturalist). El talento nuevo Bloom cura según tu Spirit cuando Rejuvenation o Regrowth terminan. Regrowth cuesta alrededor de un 40 % menos de maná que en Classic.",
-        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever HoTs from several druids stack and can crit, and Wild Growth heals the whole party, though since 30 October it has a 3 sec cast (2.5 with Naturalist). The new Bloom talent heals based on your Spirit when Rejuvenation or Regrowth runs out. Regrowth costs about 40% less mana than in Classic."
+        "es": "Cura con Rejuvenation, Regrowth y Healing Touch. En Forever los efectos en el tiempo de varios druidas se acumulan y pueden ser críticos, y Wild Growth cura a todo el grupo, aunque desde el 30-10 tarda 3 s en lanzarse (2,5 con Naturalist). El 13-11 Blizzard corrigió un fallo que permitía lanzarla en movimiento y duplicó su coeficiente de curación (del 3,3 % al 6,6 %). El talento nuevo Bloom cura según tu Spirit cuando Rejuvenation o Regrowth terminan. Regrowth cuesta alrededor de un 40 % menos de maná que en Classic.",
+        "en": "Heals with Rejuvenation, Regrowth and Healing Touch. In Forever HoTs from several druids stack and can crit, and Wild Growth heals the whole party, though since 30 October it has a 3 sec cast (2.5 with Naturalist). On 13 November Blizzard fixed a bug that let it be cast while moving and doubled its healing coefficient (3.3% to 6.6%). The new Bloom talent heals based on your Spirit when Rejuvenation or Regrowth runs out. Regrowth costs about 40% less mana than in Classic."
       }
     }
   ],

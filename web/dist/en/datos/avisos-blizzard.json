@@ -2,6 +2,24 @@
  "fuente": "https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts",
  "avisos": [
   {
+   "id": 2414430,
+   "titulo": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!",
+   "url": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-the-wow-forever-podcast-a-new-short-story-this-week%E2%80%99s-videos-and-more/2414430",
+   "autor": "BlizzardEntertainment",
+   "fecha": "2026-11-13T18:03:52.527Z",
+   "resumen": "[WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!] This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the…",
+   "foro": "Noticias"
+  },
+  {
+   "id": 2414424,
+   "titulo": "Watch the WoW: Forever Short Story, “Cost of Honor”",
+   "url": "https://us.forums.blizzard.com/en/wow/t/watch-the-wow-forever-short-story-%E2%80%9Ccost-of-honor%E2%80%9D/2414424",
+   "autor": "BlizzardEntertainment",
+   "fecha": "2026-11-13T18:02:13.897Z",
+   "resumen": "[Watch the WoW: Forever Short Story, “Cost of Honor”] Join Demar Brant for a special fireside telling of our newest short story to learn through tales of war, sacrifice, and hard choices, that the true strength of a…",
+   "foro": "Noticias"
+  },
+  {
    "id": 2412856,
    "titulo": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
    "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856",
@@ -45,24 +63,6 @@
    "fecha": "2026-11-08T19:47:33.475Z",
    "resumen": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. Happy dungeon crawling, and good luck with those Deviate Hides!",
    "foro": "Forever"
-  },
-  {
-   "id": 2404092,
-   "titulo": "Class Tuning Incoming - November 10",
-   "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092",
-   "autor": "Kaivax",
-   "fecha": "2026-11-06T21:11:39.116Z",
-   "resumen": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them…",
-   "foro": "Forever"
-  },
-  {
-   "id": 2403854,
-   "titulo": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW…",
-   "url": "https://us.forums.blizzard.com/en/wow/t/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir-takes-shape-in-wow%E2%80%A6/2403854",
-   "autor": "BlizzardEntertainment",
-   "fecha": "2026-11-06T18:10:08.162Z",
-   "resumen": "[The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly] Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that…",
-   "foro": "Noticias"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "_readme": "talentsforever.com data export. Fan-made WoW Forever talent calculator; talents, racials, Legacy perks and the class spellbooks come from the WoW Forever beta client's own data files (the site began as frame-by-frame reads of the BlizzCon 2026 demo), so numbers can lag live tuning. A class can carry the server's hotfixes over the build it was read from, where the client's files do not have them: that class's talents.source line says so and names the days, and a spell rank a hotfix changed names it in its src. talents: per class, trees with talents (row/col are 1-based grid positions, max is the rank cap, desc lists the tooltip text of each rank, rank 1 first, as the client's files give it at level 60, or in the game's own words where a rank was read in game; confirmed lists the ranks whose text is real and not an estimate, which is every rank for trees from the beta client; classic compares the talent with Classic Era: status same, moved, changed or new, Classic's tree, row, col, rank count and rank 1 text, and renamed, note or replaces where they apply). spellbooks: per class, every trainer spell to level 60 with every rank (levels = the level each rank is learned at; checked = that class's city trainer was read in game, the rest are from the files only; the General tab is kept by hand from the demo and in-game reads). spell_desc: tooltip text keyed class|spell|rank, s=beta means the beta client's text at level 60 with no gear, s=demo means read off the BlizzCon demo footage, or read in game where src begins Read in game, s=classic means Wowhead Classic fallback, nt=1, 2, 3 or 4 means the class trainer does not sell that rank (1 portal trainer, 2 tome, quest or drop, 3 comes with the talent: taking the talent puts it in the book, 4 not sold by the class trainer, checked in game, and where it is learned is not known yet), ns=quest means a class quest teaches it (Wowhead Forever and Blizzard's notes), not a trainer read. racials and legacy: racial abilities and the Legacy perk trees. changelog: what changed on the site, newest first. License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and republish this data, including commercially, as long as you credit talentsforever.com with a link. Game names, icons and tooltip text belong to Blizzard Entertainment.",
  "license": "CC-BY-4.0",
  "attribution": "Data from talentsforever.com (https://talentsforever.com)",
- "generated": "2026-11-10",
+ "generated": "2026-11-13",
  "talents": {
   "Warrior": {
    "icon": "class_warrior",
@@ -66908,11 +66908,11 @@
    ],
    "d": "Heals the target and their party for 336 over 7 sec. Party members must be within 43.5 yards of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-12",
    "r": "",
    "lv": "Learned at level 40",
    "id": 408120,
-   "co": "3.3% of spell power (per tick)",
+   "co": "6.6% of spell power (per tick)",
    "sc": "Nature",
    "nt": 3,
    "cs": "new"
@@ -66930,11 +66930,11 @@
    ],
    "d": "Heals the target and their party for 490 over 7 sec. Party members must be within 43.5 yds of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-12",
    "r": "",
    "lv": "Learned at level 50",
    "id": 1238214,
-   "co": "3.3% of spell power (per tick)",
+   "co": "6.6% of spell power (per tick)",
    "sc": "Nature",
    "cs": "new"
   },
@@ -66951,11 +66951,11 @@
    ],
    "d": "Heals the target and their party for 679 over 7 sec. Party members must be within 43.5 yds of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-12",
    "r": "",
    "lv": "Learned at level 60",
    "id": 1238215,
-   "co": "3.3% of spell power (per tick)",
+   "co": "6.6% of spell power (per tick)",
    "sc": "Nature",
    "cs": "new"
   }
