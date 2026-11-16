@@ -771,6 +771,12 @@ def fin_beta_page():
 # Van 22-10: «una sección de cosas nuevas a medias, así no liamos a la gente». Todo lo que no está confirmado del todo, con su etiqueta.
 # Fuentes: pódcast oficial 5 (22-10), anuncios de Blizzard y guías que sacan datos de la beta. Al confirmarse algo, sale de aquí y va a su página.
 A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
+    ('juego', 'inv_misc_bag_10', 'Bolsas de 8 a 18 casillas que dan misiones (y jefes) mientras subes de nivel',
+     'Si tienes poco oro para bolsas, varias misiones de Forever las dan de recompensa: de 8 casillas desde el nivel 7 al 10 (Buzzbox 525, Poor Old Blanchy, Parts and Pieces, Captain Sander\'s Hidden Treasure), de 10 casillas entre el 13 y el 19 (Deviate Hides, Vyrin\'s Revenge, The Night Watch, Digging Through the Ooze), de 12 hacia el 29 (Stronger than Steel), de 14 en los niveles 35 y 40 (Cortello\'s Riddle, The Platinum Discs), de 16 en el 45 y el 55 (You Are Rakh\'likh, Demon; Red Bag Blues) y de 18 en el 56 (Top of the Post). Algunas misiones cuestan en solitario. También caen bolsas de ciertos jefes, como el Gnoll Hide Sack de Fedfennel en Elwynn. Visto en el juego, sin nota oficial.',
+     'Wowhead'),
+    ('juego', 'inv_misc_note_05', 'Secreto de Season of Discovery recuperado en Roca Negra: juguete de cartel y camisa especial',
+     'Un secreto de Temporada de Descubrimiento ha vuelto a Forever con premios nuevos. Hay que llegar a una plataforma al este del Anillo, en Profundidades de Roca Negra, cruzando un puente hacia el norte sobre la lava: se limpian los enemigos del puente y luego toca algo de parkour. Allí se consigue un juguete que deja un cartel visible para otros jugadores durante 1 hora (eliges qué pone), además de Student Fodder y Premo\'s Poise-Demanding Uniform, una camisa que te gira hacia tu objetivo al usarla y que en la Temporada de Descubrimiento fue clave para otro secreto. Visto en el juego, sin nota oficial.',
+     'Wowhead'),
     ('juego', 'inv_helmet_01', 'El set Krol\'dok Battlegear te convierte en ogro',
      'Quien reúne las cinco piezas del set Krol\'dok Battlegear, pensado para guerreros Protección y paladines y que sale de la mazmorra Bastión Krol\'dok (nivel 40-45), no solo recibe los bonus del conjunto: al llegar al máximo de cargas del bonus también se transforma en ogro. Algunas piezas son Se liga al equiparlo y otras Se liga al recogerlo, y caen de jefes. Sin nota oficial.',
      'Wowhead'),
