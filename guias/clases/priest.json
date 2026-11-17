@@ -1,6 +1,6 @@
 {
   "slug": "priest",
-  "actualizado": "2026-11-03",
+  "actualizado": "2026-11-17",
   "resumen": {
     "es": "El sacerdote de Forever sigue siendo el sanador de tela con los mejores beneficios del juego, pero ahora llega con más herramientas: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Holy Binding</b> y <b>Shadow Word: Death</b>. <b>Fear Ward</b> y <b>Devouring Plague</b> ya los aprenden todas las razas. Es para quien quiere curar en grupo y en banda, o jugar Sombra: mucho aguante en solitario y un buen hueco en JcJ.",
     "en": "The Forever Priest is still the cloth healer with the best buffs in the game, but it now has more tools: <b>Penance</b>, <b>Prayer of Mending</b>, <b>Holy Binding</b> and <b>Shadow Word: Death</b>. Every race now learns <b>Fear Ward</b> and <b>Devouring Plague</b>. Pick it if you want to heal groups and raids, or play Shadow, which is very self-sufficient solo and has a real place in PvP."
@@ -426,8 +426,8 @@
         "nombre": "Vampiric Embrace",
         "nuevo": false,
         "texto": {
-          "es": "Talento de Sombra. Tu daño de Sombra cura al grupo durante 30 s; ahora con 30 s de reutilización. Desde el 2-11 esa cura ya no puede ser crítica.",
-          "en": "Shadow talent. Your Shadow damage heals the party for 30 sec; now on a 30 sec cooldown. Since November 2 that healing can no longer crit."
+          "es": "Talento de Sombra. Tu daño de Sombra cura al grupo durante 30 s; ahora con 30 s de reutilización. Desde el 2-11 esa cura ya no puede ser crítica. Desde el 16-11 cura el 10 % del daño de Sombra del sacerdote que lo lanza (antes 20 %), y ese sacerdote recibe un 100 % más de curación de este efecto: en solitario no cambia nada.",
+          "en": "Shadow talent. Your Shadow damage heals the party for 30 sec; now on a 30 sec cooldown. Since November 2 that healing can no longer crit. Since 16 November it heals for 10% of the casting priest's Shadow damage (was 20%), and that priest gets 100% increased healing from the effect: no change when playing solo."
         }
       },
       {
