@@ -771,6 +771,14 @@ def fin_beta_page():
 # Van 22-10: «una sección de cosas nuevas a medias, así no liamos a la gente». Todo lo que no está confirmado del todo, con su etiqueta.
 # Fuentes: pódcast oficial 5 (22-10), anuncios de Blizzard y guías que sacan datos de la beta. Al confirmarse algo, sale de aquí y va a su página.
 A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
+    ('juego', 'inv_misc_coin_02', 'Misión semanal de oro al nivel 60: esta semana pide Cumbre y Profundidades de Roca Negra',
+     'Los personajes de nivel 60 tienen en Puerto Bootín una misión semanal que da oro, «In Demand - Blackrock Legal Records». Esta semana hay que completar la Cumbre de Roca Negra y las Profundidades de Roca Negra para sacar tres objetos (Nefarion&#39;s Remit, Overseer&#39;s License y Bronzebeard Wedding Contract) y entregarlos a Pix Xizzix. '
+     'La recompensa es una Undermine Satchel con hasta 100 de oro y algunos materiales. La semana pasada la misión pedía Dire Maul, así que parece que la mazmorra va rotando. Es lo que se ve en el juego: Blizzard no lo ha anunciado aparte.',
+     'Visto en el juego (Wowhead)'),
+    ('juego', 'inv_misc_map_02', 'Marcadores de objetivo de misión sin addons',
+     'El juego trae un marcador de navegación propio: con el comando <strong>/console showInGameNavigation 1</strong> aparece un rombo amarillo en el mundo sobre el objetivo de la misión que sigues, sin abrir el mapa. Sirve sobre todo cuando el objetivo está encima o debajo de ti, algo que el mapa en 2D no enseña bien. '
+     'Es una función vista en el juego; Blizzard no la ha explicado en notas oficiales.',
+     'Visto en el juego (Wowhead)'),
     ('juego', 'inv_misc_coin_02', 'Bastión Faucenegra: el farmeo de oro que vació los bolsillos ya no suelta botín',
      'Una sala del Bastión Faucenegra con unos 30 Blackmaw Devotee, enemigos que solo atacan cuerpo a cuerpo, daba entre 25 y 50 de plata por cada uno, además de objetos y Motes of Unstable Magic y Blackmaw Pouch para misiones. Algunos jugadores sacaron cientos o miles de oros. Hace unas horas esos enemigos dejaron de soltar botín con un arreglo urgente. Los precios de los motes y las bolsas en la subasta pueden moverse. Blizzard ha dicho en una entrevista que vigila la economía, pero no ha publicado nota sobre este caso concreto ni sobre posibles sanciones.',
      'Wowhead'),
