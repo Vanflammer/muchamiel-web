@@ -771,6 +771,15 @@ def fin_beta_page():
 # Van 22-10: «una sección de cosas nuevas a medias, así no liamos a la gente». Todo lo que no está confirmado del todo, con su etiqueta.
 # Fuentes: pódcast oficial 5 (22-10), anuncios de Blizzard y guías que sacan datos de la beta. Al confirmarse algo, sale de aquí y va a su página.
 A_MEDIAS = [  # (nivel, icono, título, texto, fuente)
+    ('confirmado', 'spell_nature_giftofthewild', 'Los world buffs desaparecen con la pantalla de carga: Blizzard dice que es un error',
+     'Tras los últimos arreglos, los world buffs (Bendición del Jefe de Guerra, Poder de Ventormenta, los de Dire Maul…) se quitaban en cualquier pantalla de carga, así que no valían en mazmorras ni al cambiar de continente. Aidan Moon, del equipo, ha respondido que es un fallo causado por otro arreglo y que se corregirá el 23 de noviembre. Lo esperable es que vuelvan a funcionar en mazmorras y en el otro continente; falta ver la nota oficial.',
+     'Wowhead'),
+    ('juego', 'inv_misc_coin_01', 'Un jefe de Uldaman ya no suelta botín azul',
+     'El Centinela de Obsidiana, junto a la entrada trasera de Uldaman, ya no deja equipo azul tras un arreglo de los últimos días: solo materiales como piedra sólida. Se usaba para farmear oro en solitario en menos de 5 minutos. Como efecto secundario, desaparece una de las dos hachas necesarias para el arma de nivelación Péndulo de la Fatalidad. Es un cambio visto en el juego; Blizzard no lo ha explicado en sus notas de arreglos.',
+     'Wowhead'),
+    ('juego', 'inv_misc_ticket_tarot_beasts_01', 'Ya no se puede mirar dentro de las cajas con cerradura',
+     'Tras un exploit en el que el contenido de una caja visto por el pícaro cambiaba al enviarla por correo al destinatario, los arreglos recientes impiden mirar dentro: si lo intentas, el objeto se recoge directamente. Afecta sobre todo a las cajas de mithril, que pueden contener recetas caras. Es un cambio visto en el juego, sin nota oficial.',
+     'Wowhead'),
     ('juego', 'inv_misc_gem_pearl_02', 'Motes of Unstable Magic ya se ligan al recoger',
      'Desde el 19 de noviembre, las Motes of Unstable Magic que sueltan los enemigos de Bastión Faucenegra quedan ligadas a la cuenta, así que ya no se pueden vender en la casa de subastas. Con ello se frena la entrada de oro que daba el farmeo de esa mazmorra. Es un cambio visto en el juego; Blizzard no ha publicado nota aparte y no se sabe si es definitivo.',
      'Wowhead'),
