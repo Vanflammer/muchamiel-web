@@ -1,6 +1,6 @@
 {
   "slug": "druid",
-  "actualizado": "2026-11-14",
+  "actualizado": "2026-11-26",
   "resumen": {
     "es": "El druida es la clase que cambia de forma: lanza hechizos como lechúcico, pega como gato, aguanta golpes como oso y cura con efectos de curación en el tiempo. En Forever recibe mucho: Omen of Clarity y Nature's Grasp pasan a ser de base, las formas aprovechan el arma y los consumibles, y llegan Primal Bite, Lacerate, Shifting Power, Wild Growth y Revive. El 2-11 Blizzard confirmó en su nota los árboles nuevos de Feral y Restoration (desaparece Berserk; llegan Bloom y Predatory Discipline), añadió la pasiva Poised al 32 y subió bastante el daño del gato y de Starfire. Es para quien quiere hacer de todo con un solo personaje y no le importa tener muchos botones.",
     "en": "The druid is the shapeshifting class: it casts as a Moonkin, fights as a cat, tanks as a bear and heals with heal-over-time effects. Forever gives it a lot: Omen of Clarity and Nature's Grasp become baseline, forms now benefit from your weapon and consumables, and you get Primal Bite, Lacerate, Shifting Power, Wild Growth and Revive. On 2 November Blizzard's notes confirmed the new Feral and Restoration trees (Berserk is gone; Bloom and Predatory Discipline are in), added the Poised passive at 32 and gave the cat and Starfire a solid damage boost. It suits players who want to do everything with one character and don't mind lots of buttons."
@@ -65,8 +65,8 @@
         "en": "Groups and raids as a caster; patient leveling"
       },
       "texto": {
-        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, cuya aura sube un 3 % el crítico de todo tipo a toda la banda (desde el 30-10; antes solo el de hechizos), pero no se suma al de Leader of the Pack. Desde el 2-11, Starfire hace un 40 % más de daño base.",
-        "en": "Damage with Wrath, Starfire and two damage-over-time effects (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. At the bottom of the tree sits Moonkin Form, whose aura raises every type of crit by 3% for the whole raid (since 30 October; before, only spell crit), though it doesn't stack with Leader of the Pack. Since 2 November, Starfire has 40% more base damage."
+        "es": "Daño con Wrath, Starfire y dos efectos de daño en el tiempo (Moonfire e Insect Swarm). El talento nuevo Eclipse hace que cada Wrath acelere los dos Starfire siguientes. Al final del árbol está Moonkin Form, cuya aura sube un 3 % el crítico de todo tipo a toda la banda (desde el 30-10; antes solo el de hechizos), pero no se suma al de Leader of the Pack. Desde el 2-11, Starfire hace un 40 % más de daño base. El 25-11 Blizzard rehízo talentos de Balance: Improved Wrath pasa a Starlight Wrath, Improved Moonfire a Moon and Stars, Moonfury se cambia por Dreamstate, Improved Starfire baja a 2 puntos, Eclipse da siempre crítico a Wrath y Moonkin Form suma un 10 % de daño Arcano y de Naturaleza.",
+        "en": "Damage with Wrath, Starfire and two damage-over-time effects (Moonfire and Insect Swarm). The new Eclipse talent makes each Wrath speed up your next two Starfires. At the bottom of the tree sits Moonkin Form, whose aura raises every type of crit by 3% for the whole raid (since 30 October; before, only spell crit), though it doesn't stack with Leader of the Pack. Since 2 November, Starfire has 40% more base damage. On 25 November Blizzard reworked Balance talents: Improved Wrath became Starlight Wrath, Improved Moonfire became Moon and Stars, Moonfury was replaced by Dreamstate, Improved Starfire dropped to 2 points, Eclipse now always gives Wrath crit and Moonkin Form adds 10% Arcane and Nature damage."
       }
     },
     {
@@ -1218,6 +1218,7 @@
     }
   ],
   "pendiente": [
+    {"es": "La build de subida de Balance de esta guía usa los talentos anteriores al 25-11 (Improved Wrath, Improved Moonfire, Moonfury, Improved Starfire a 5 puntos). La revisaremos con el árbol nuevo en cuanto lo confirmemos en el juego.", "en": "This guide's Balance leveling build uses the talents from before 25 November (Improved Wrath, Improved Moonfire, Moonfury, Improved Starfire at 5 points). We will review it for the new tree once we confirm it in game."},
     {
       "es": "Equipo de banda y listas de mejores piezas de Forever (el equipo de 60 está oculto; bandas el 9-12-2026).",
       "en": "Forever raid gear and best-in-slot lists (level 60 gear is hidden; raids on 9 Dec 2026)."

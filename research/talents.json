@@ -2,7 +2,7 @@
  "_readme": "talentsforever.com data export. Fan-made WoW Forever talent calculator; talents, racials, Legacy perks and the class spellbooks come from the WoW Forever beta client's own data files (the site began as frame-by-frame reads of the BlizzCon 2026 demo), so numbers can lag live tuning. A class can carry the server's hotfixes over the build it was read from, where the client's files do not have them: that class's talents.source line says so and names the days, and a spell rank a hotfix changed names it in its src. talents: per class, trees with talents (row/col are 1-based grid positions, max is the rank cap, desc lists the tooltip text of each rank, rank 1 first, as the client's files give it at level 60, or in the game's own words where a rank was read in game; confirmed lists the ranks whose text is real and not an estimate, which is every rank for trees from the beta client; classic compares the talent with Classic Era: status same, moved, changed or new, Classic's tree, row, col, rank count and rank 1 text, and renamed, note or replaces where they apply). spellbooks: per class, every trainer spell to level 60 with every rank (levels = the level each rank is learned at; checked = that class's city trainer was read in game, the rest are from the files only; the General tab is kept by hand from the demo and in-game reads). spell_desc: tooltip text keyed class|spell|rank, s=beta means the beta client's text at level 60 with no gear, s=demo means read off the BlizzCon demo footage, or read in game where src begins Read in game, s=classic means Wowhead Classic fallback, nt=1, 2, 3 or 4 means the class trainer does not sell that rank (1 portal trainer, 2 tome, quest or drop, 3 comes with the talent: taking the talent puts it in the book, 4 not sold by the class trainer, checked in game, and where it is learned is not known yet), ns=quest means a class quest teaches it (Wowhead Forever and Blizzard's notes), not a trainer read. racials and legacy: racial abilities and the Legacy perk trees. changelog: what changed on the site, newest first. License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and republish this data, including commercially, as long as you credit talentsforever.com with a link. Game names, icons and tooltip text belong to Blizzard Entertainment.",
  "license": "CC-BY-4.0",
  "attribution": "Data from talentsforever.com (https://talentsforever.com)",
- "generated": "2026-11-18",
+ "generated": "2026-11-25",
  "talents": {
   "Warrior": {
    "icon": "class_warrior",
@@ -1867,13 +1867,14 @@
        "passive": false,
        "icon": "spell_holy_greaterblessingoflight",
        "desc": [
-        "Swear an Oath to protect target ally for 5 min, increasing the healing of your Holy Light on them by up to 400, your Flash of Light by up to 115, and your Holy Shock by up to 230. Only one Oath of Light may be sworn by the Paladin at any one time."
+        "Swear an Oath to protect target ally for 1 hour, increasing the healing of your Holy Light on them by up to 400, your Flash of Light by up to 115, and your Holy Shock by up to 230. Only one Oath of Light may be sworn by the Paladin at any one time."
        ],
        "complete": true,
        "confirmed": [
         1
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "cost": "8% of base mana | 40 yd range | Instant",
        "classic": {
         "status": "new"
@@ -3008,7 +3009,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Paladin numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Paladin trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Paladin numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Paladin trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Paladin trees carry the server's hotfixes of 25 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 44
   },
   "Hunter": {
@@ -12094,18 +12095,18 @@
      "icon": "spell_nature_starfall",
      "talents": [
       {
-       "name": "Improved Wrath",
+       "name": "Starlight Wrath",
        "max": 5,
        "row": 1,
        "col": 2,
        "passive": true,
        "icon": "spell_nature_abolishmagic",
        "desc": [
-        "Reduces the cast time of your Wrath spell by 0.1 sec and its Mana cost by 10%.",
-        "Reduces the cast time of your Wrath spell by 0.2 sec and its Mana cost by 20%.",
-        "Reduces the cast time of your Wrath spell by 0.3 sec and its Mana cost by 30%.",
-        "Reduces the cast time of your Wrath spell by 0.4 sec and its Mana cost by 40%.",
-        "Reduces the cast time of your Wrath spell by 0.5 sec and its Mana cost by 50%."
+        "Reduces the cast time of your Wrath and Starfire spells by 0.1 sec and the Mana cost of your Wrath spell by 10%.",
+        "Reduces the cast time of your Wrath and Starfire spells by 0.2 sec and the Mana cost of your Wrath spell by 20%.",
+        "Reduces the cast time of your Wrath and Starfire spells by 0.3 sec and the Mana cost of your Wrath spell by 30%.",
+        "Reduces the cast time of your Wrath and Starfire spells by 0.4 sec and the Mana cost of your Wrath spell by 40%.",
+        "Reduces the cast time of your Wrath and Starfire spells by 0.5 sec and the Mana cost of your Wrath spell by 50%."
        ],
        "complete": true,
        "confirmed": [
@@ -12116,6 +12117,7 @@
         5
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "classic": {
         "status": "changed",
         "tree": "Balance",
@@ -12123,7 +12125,8 @@
         "col": 1,
         "max": 5,
         "text": "Reduces the cast time of your Wrath spell by 0.1 sec.",
-        "moved": true
+        "moved": true,
+        "renamed": "Improved Wrath"
        }
       },
       {
@@ -12183,15 +12186,15 @@
        }
       },
       {
-       "name": "Improved Moonfire",
+       "name": "Moon and Stars",
        "max": 2,
        "row": 2,
        "col": 2,
        "passive": true,
        "icon": "spell_nature_starfall",
        "desc": [
-        "Increases the damage and critical strike chance of your Moonfire spell by 5%.",
-        "Increases the damage and critical strike chance of your Moonfire spell by 10%."
+        "Increases the damage and critical strike chance of your Moonfire spell by 5% and gives your Starfire spell a 50% chance not to lose casting time from taking damage.",
+        "Increases the damage and critical strike chance of your Moonfire spell by 10% and gives your Starfire spell a 100% chance not to lose casting time from taking damage."
        ],
        "complete": true,
        "confirmed": [
@@ -12199,13 +12202,15 @@
         2
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "classic": {
         "status": "changed",
         "tree": "Balance",
         "row": 2,
         "col": 2,
         "max": 5,
-        "text": "Increases the damage and critical strike chance of your Moonfire spell by 2%."
+        "text": "Increases the damage and critical strike chance of your Moonfire spell by 2%.",
+        "renamed": "Improved Moonfire"
        }
       },
       {
@@ -12354,7 +12359,7 @@
         5
        ],
        "src": "beta",
-       "req": "Improved Moonfire",
+       "req": "Moon and Stars",
        "classic": {
         "status": "changed",
         "tree": "Balance",
@@ -12366,27 +12371,22 @@
       },
       {
        "name": "Improved Starfire",
-       "max": 5,
+       "max": 2,
        "row": 4,
        "col": 3,
        "passive": true,
        "icon": "spell_arcane_starfire",
        "desc": [
-        "Reduces the cast time of Starfire by 0.1 sec and Starfire has a 3% chance to stun its target for 3 sec.",
-        "Reduces the cast time of Starfire by 0.2 sec and Starfire has a 6% chance to stun its target for 3 sec.",
-        "Reduces the cast time of Starfire by 0.3 sec and Starfire has a 9% chance to stun its target for 3 sec.",
-        "Reduces the cast time of Starfire by 0.4 sec and Starfire has a 12% chance to stun its target for 3 sec.",
-        "Reduces the cast time of Starfire by 0.5 sec and Starfire has a 15% chance to stun its target for 3 sec."
+        "Your Starfire spell has a 8% chance to stun its target for 3 sec.",
+        "Your Starfire spell has a 15% chance to stun its target for 3 sec."
        ],
        "complete": true,
        "confirmed": [
         1,
-        2,
-        3,
-        4,
-        5
+        2
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "classic": {
         "status": "changed",
         "tree": "Balance",
@@ -12449,9 +12449,9 @@
        "passive": true,
        "icon": "ability_druid_eclipse",
        "desc": [
-        "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.17 sec. Stores up to 4 charges. Lasts 15 sec.",
-        "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.33 sec. Stores up to 4 charges. Lasts 15 sec.",
-        "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.50 sec. Stores up to 4 charges. Lasts 15 sec."
+        "Increases the critical strike chance of your Wrath spell by 7%, and your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.17 sec. Stores up to 4 charges. Lasts 15 sec.",
+        "Increases the critical strike chance of your Wrath spell by 13%, and your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.33 sec. Stores up to 4 charges. Lasts 15 sec.",
+        "Increases the critical strike chance of your Wrath spell by 20%, and your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.50 sec. Stores up to 4 charges. Lasts 15 sec."
        ],
        "complete": true,
        "confirmed": [
@@ -12460,23 +12460,24 @@
         3
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "classic": {
         "status": "new"
        }
       },
       {
-       "name": "Moonfury",
+       "name": "Dreamstate",
        "max": 5,
        "row": 6,
        "col": 2,
        "passive": true,
-       "icon": "spell_nature_moonglow",
+       "icon": "ability_druid_dreamstate",
        "desc": [
-        "Increases the damage done by your Arcane and Nature spells by 2%.",
-        "Increases the damage done by your Arcane and Nature spells by 4%.",
-        "Increases the damage done by your Arcane and Nature spells by 6%.",
-        "Increases the damage done by your Arcane and Nature spells by 8%.",
-        "Increases the damage done by your Arcane and Nature spells by 10%."
+        "When you cast Innervate on a target other than yourself, you gain 20% of the effect as well.",
+        "When you cast Innervate on a target other than yourself, you gain 40% of the effect as well.",
+        "When you cast Innervate on a target other than yourself, you gain 60% of the effect as well.",
+        "When you cast Innervate on a target other than yourself, you gain 80% of the effect as well.",
+        "When you cast Innervate on a target other than yourself, you gain 100% of the effect as well."
        ],
        "complete": true,
        "confirmed": [
@@ -12487,14 +12488,9 @@
         5
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "classic": {
-        "status": "changed",
-        "tree": "Balance",
-        "row": 6,
-        "col": 2,
-        "max": 5,
-        "text": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.",
-        "note": "no longer requires Nature's Grace"
+        "status": "new"
        }
       },
       {
@@ -12505,13 +12501,14 @@
        "passive": false,
        "icon": "spell_nature_forceofnature",
        "desc": [
-        "Shapeshift into Moonkin Form, increasing Omen of Clarity's chance to trigger by 100%, Armor contribution from items by 360%, and all party or raid members within 45 yards have their Critical Strike chance increased by 3%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+        "Shapeshift into Moonkin Form, increasing Arcane and Nature damage done by 10%, Omen of Clarity's chance to trigger by 100%, Armor contribution from items by 360%, and all party or raid members within 45 yards have their Critical Strike chance increased by 3%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
        ],
        "complete": true,
        "confirmed": [
         1
        ],
        "src": "beta",
+       "hotfix": "2026-11-25",
        "cost": "35% of base mana | Instant",
        "classic": {
         "status": "changed",
@@ -12553,6 +12550,12 @@
        "max": 1,
        "text": "Imbues the Druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 10 min.",
        "row": 3
+      },
+      {
+       "name": "Moonfury",
+       "max": 5,
+       "text": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.",
+       "row": 6
       }
      ]
     },
@@ -13588,7 +13591,7 @@
      ]
     }
    ],
-   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Druid numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Druid trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Druid trees carry the server's hotfixes of 6 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
+   "source": "Talent trees and every rank's text from the WoW Forever beta client, build 1.60.1.70755. Some Druid numbers follow Blizzard's development notes of 2 Nov 2026, ahead of any game data. The Druid trees carry the server's hotfixes of 3 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Druid trees carry the server's hotfixes of 6 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files. The Druid trees carry the server's hotfixes of 25 Nov 2026 over that build, read from the beta's hotfix cache and cross-checked with Blizzard's notes or Wowhead's tooltips; those are not in the client's files.",
    "classic_total": 47
   }
  },
@@ -28447,9 +28450,9 @@
      ""
     ]
    ],
-   "d": "Swear an Oath to protect target ally for 5 min, increasing the healing of your Holy Light on them by up to 400, your Flash of Light by up to 115, and your Holy Shock by up to 230. Only one Oath of Light may be sworn by the Paladin at any one time.",
+   "d": "Swear an Oath to protect target ally for 1 hour, increasing the healing of your Holy Light on them by up to 400, your Flash of Light by up to 115, and your Holy Shock by up to 230. Only one Oath of Light may be sworn by the Paladin at any one time.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-25",
    "r": "",
    "lv": "Learned at level 25",
    "id": 1328548,
@@ -62241,9 +62244,9 @@
      ""
     ]
    ],
-   "d": "Shapeshift into Moonkin Form, increasing Omen of Clarity's chance to trigger by 100%, Armor contribution from items by 360%, and all party or raid members within 45 yards have their Critical Strike chance increased by 3%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+   "d": "Shapeshift into Moonkin Form, increasing Arcane and Nature damage done by 10%, Omen of Clarity's chance to trigger by 100%, Armor contribution from items by 360%, and all party or raid members within 45 yards have their Critical Strike chance increased by 3%. Also protects the caster from Polymorph effects and prevents the use of healing spells.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
    "s": "beta",
-   "src": "beta client 1.60.1.70755",
+   "src": "beta client 1.60.1.70755, server hotfix 2026-11-25",
    "r": "",
    "lv": "Learned at level 40",
    "id": 24858,
